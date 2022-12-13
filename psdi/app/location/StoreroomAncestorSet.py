@@ -1,3 +1,3 @@
 def StoreroomAncestorSet():
-    '''    public StoreroomAncestorSet(final MboServerInterface ms)
+    '''public StoreroomAncestorSet(final MboServerInterface ms)
     '''

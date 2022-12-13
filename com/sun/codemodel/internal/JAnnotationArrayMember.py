@@ -1,5 +1,5 @@
 def param():
-    '''    public JAnnotationArrayMember param(final String value)
+    '''public JAnnotationArrayMember param(final String value)
     public JAnnotationArrayMember param(final boolean value)
     public JAnnotationArrayMember param(final byte value)
     public JAnnotationArrayMember param(final char value)
@@ -16,17 +16,17 @@ def param():
     public JAnnotationArrayMember param(final JAnnotationUse value)
     '''
 def generate():
-    '''    public void generate(final JFormatter f)
+    '''public void generate(final JFormatter f)
     public void generate(final JFormatter f)
     public void generate(final JFormatter f)
     '''
 def annotate():
-    '''    public JAnnotationUse annotate(final Class<? extends Annotation> clazz)
+    '''public JAnnotationUse annotate(final Class<? extends Annotation> clazz)
     public JAnnotationUse annotate(final JClass clazz)
     '''
 def annotate2():
-    '''    public <W extends JAnnotationWriter> W annotate2(final Class<W> clazz)
+    '''public <W extends JAnnotationWriter> W annotate2(final Class<W> clazz)
     '''
 def annotations():
-    '''    public Collection<JAnnotationUse> annotations()
+    '''public Collection<JAnnotationUse> annotations()
     '''

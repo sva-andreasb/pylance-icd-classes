@@ -1,3 +1,3 @@
 def parse():
-    '''    public MamPrefsIQ parse(final XmlPullParser parser, final int initialDepth)
+    '''public MamPrefsIQ parse(final XmlPullParser parser, final int initialDepth)
     '''

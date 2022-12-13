@@ -1,3 +1,3 @@
 def FldWOJPNum():
-    '''    public FldWOJPNum(final MboValue mbv)
+    '''public FldWOJPNum(final MboValue mbv)
     '''

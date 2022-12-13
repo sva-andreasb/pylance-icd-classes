@@ -1,6 +1,6 @@
 def FldPurOrderUnit():
-    '''    public FldPurOrderUnit(final MboValue mbv)
+    '''public FldPurOrderUnit(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

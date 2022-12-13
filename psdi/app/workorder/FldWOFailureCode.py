@@ -1,6 +1,6 @@
 def FldWOFailureCode():
-    '''    public FldWOFailureCode(final MboValue mbv)
+    '''public FldWOFailureCode(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,12 +1,12 @@
 def InvoiceTrans():
-    '''    public InvoiceTrans(final MboSet ms)
+    '''public InvoiceTrans(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

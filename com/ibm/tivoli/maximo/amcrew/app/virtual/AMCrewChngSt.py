@@ -1,6 +1,6 @@
 def AMCrewChngSt():
-    '''    public AMCrewChngSt(final MboSet ms)
+    '''public AMCrewChngSt(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

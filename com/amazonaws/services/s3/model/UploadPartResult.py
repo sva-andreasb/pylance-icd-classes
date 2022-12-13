@@ -1,21 +1,21 @@
 def getPartNumber():
-    '''    public int getPartNumber()
+    '''public int getPartNumber()
     '''
 def setPartNumber():
-    '''    public void setPartNumber(final int partNumber)
+    '''public void setPartNumber(final int partNumber)
     '''
 def getETag():
-    '''    public String getETag()
+    '''public String getETag()
     '''
 def setETag():
-    '''    public void setETag(final String eTag)
+    '''public void setETag(final String eTag)
     '''
 def getPartETag():
-    '''    public PartETag getPartETag()
+    '''public PartETag getPartETag()
     '''
 def isRequesterCharged():
-    '''    public boolean isRequesterCharged()
+    '''public boolean isRequesterCharged()
     '''
 def setRequesterCharged():
-    '''    public void setRequesterCharged(final boolean isRequesterCharged)
+    '''public void setRequesterCharged(final boolean isRequesterCharged)
     '''

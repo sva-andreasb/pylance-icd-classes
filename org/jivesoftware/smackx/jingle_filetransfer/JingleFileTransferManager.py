@@ -1,3 +1,3 @@
 def getInstanceFor():
-    '''    public static synchronized JingleFileTransferManager getInstanceFor(final XMPPConnection connection)
+    '''public static synchronized JingleFileTransferManager getInstanceFor(final XMPPConnection connection)
     '''

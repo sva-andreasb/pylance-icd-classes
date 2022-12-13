@@ -8,74 +8,74 @@ SCVALUERELATIONSHIP = "String  \"MAXPROPVALUESC\""
 LOGOUTMINUTES = "String  \"mxe.adminmode.logoutmin\""
 WAS_ADMINPASSWORD = "String  \"WAS.AdminPassword\""
 def SDAConfigAppBean():
-    '''    public SDAConfigAppBean()
+    '''public SDAConfigAppBean()
     '''
 def SDALDAP():
-    '''    public int SDALDAP()
+    '''public int SDALDAP()
     '''
 def executeMSAD():
-    '''    public int executeMSAD()
+    '''public int executeMSAD()
     '''
 def executeScriptAction():
-    '''    public int executeScriptAction()
+    '''public int executeScriptAction()
     '''
 def SDASCSITE():
-    '''    public int SDASCSITE()
+    '''public int SDASCSITE()
     '''
 def webSphereRestart():
-    '''    public int webSphereRestart()
+    '''public int webSphereRestart()
     '''
 def executeSCSiteConfig():
-    '''    public int executeSCSiteConfig()
+    '''public int executeSCSiteConfig()
     '''
 def executeCatalogScriptAction():
-    '''    public int executeCatalogScriptAction()
+    '''public int executeCatalogScriptAction()
     '''
 def SDAORG():
-    '''    public int SDAORG()
+    '''public int SDAORG()
     '''
 def executeOrg():
-    '''    public int executeOrg()
+    '''public int executeOrg()
     '''
 def executeCreateOrgAction():
-    '''    public int executeCreateOrgAction()
+    '''public int executeCreateOrgAction()
     '''
 def admin_ON():
-    '''    public int admin_ON()
+    '''public int admin_ON()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def SAVE():
-    '''    public int SAVE()
+    '''public int SAVE()
     '''
 def savePropSet():
-    '''    public void savePropSet(final MboSetRemote propSet, final String relationship)
+    '''public void savePropSet(final MboSetRemote propSet, final String relationship)
     '''
 def configUI():
-    '''    public int configUI()
+    '''public int configUI()
     '''
 def configDNS():
-    '''    public int configDNS()
+    '''public int configDNS()
     '''
 def saveForwardDns():
-    '''    public void saveForwardDns(final MXLogger sdaLogger)
+    '''public void saveForwardDns(final MXLogger sdaLogger)
     '''
 def executeDnsForward():
-    '''    public int executeDnsForward(String ipAddress, final MXLogger sdaLogger)
+    '''public int executeDnsForward(String ipAddress, final MXLogger sdaLogger)
     '''
 def updateLastSiteConfigLog():
-    '''    public static void updateLastSiteConfigLog(final String oldStatus, final String newStatus)
+    '''public static void updateLastSiteConfigLog(final String oldStatus, final String newStatus)
     '''
 def updateRunningSiteConfigLog():
-    '''    public static void updateRunningSiteConfigLog()
+    '''public static void updateRunningSiteConfigLog()
     '''
 def isWindows():
-    '''    public boolean isWindows()
+    '''public boolean isWindows()
     '''
 def isUnix():
-    '''    public boolean isUnix()
+    '''public boolean isUnix()
     '''
 def getMaximoInstallLoc():
-    '''    public String getMaximoInstallLoc()
+    '''public String getMaximoInstallLoc()
     '''

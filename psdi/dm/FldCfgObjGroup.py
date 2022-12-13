@@ -1,6 +1,6 @@
 def FldCfgObjGroup():
-    '''    public FldCfgObjGroup(final MboValue mbv)
+    '''public FldCfgObjGroup(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

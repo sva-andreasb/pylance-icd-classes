@@ -1,6 +1,6 @@
 def PlusPBillPrice():
-    '''    public PlusPBillPrice(final MboSet ms)
+    '''public PlusPBillPrice(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

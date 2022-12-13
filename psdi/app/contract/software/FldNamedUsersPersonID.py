@@ -1,9 +1,9 @@
 def FldNamedUsersPersonID():
-    '''    public FldNamedUsersPersonID(final MboValue mbv)
+    '''public FldNamedUsersPersonID(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

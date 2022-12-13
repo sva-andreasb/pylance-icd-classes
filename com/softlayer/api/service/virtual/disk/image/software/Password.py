@@ -1,36 +1,36 @@
 def getSoftware():
-    '''    public Software getSoftware()
+    '''public Software getSoftware()
     '''
 def setSoftware():
-    '''    public void setSoftware(final Software software)
+    '''public void setSoftware(final Software software)
     '''
 def getPassword():
-    '''    public String getPassword()
+    '''public String getPassword()
     '''
 def setPassword():
-    '''    public void setPassword(final String password)
+    '''public void setPassword(final String password)
     '''
 def isPasswordSpecified():
-    '''    public boolean isPasswordSpecified()
+    '''public boolean isPasswordSpecified()
     '''
 def unsetPassword():
-    '''    public void unsetPassword()
+    '''public void unsetPassword()
     '''
 def getUsername():
-    '''    public String getUsername()
+    '''public String getUsername()
     '''
 def setUsername():
-    '''    public void setUsername(final String username)
+    '''public void setUsername(final String username)
     '''
 def isUsernameSpecified():
-    '''    public boolean isUsernameSpecified()
+    '''public boolean isUsernameSpecified()
     '''
 def unsetUsername():
-    '''    public void unsetUsername()
+    '''public void unsetUsername()
     '''
 def password():
-    '''    public Mask password()
+    '''public Mask password()
     '''
 def username():
-    '''    public Mask username()
+    '''public Mask username()
     '''

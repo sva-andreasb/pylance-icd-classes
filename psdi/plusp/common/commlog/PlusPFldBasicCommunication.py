@@ -1,6 +1,6 @@
 def PlusPFldBasicCommunication():
-    '''    public PlusPFldBasicCommunication(final MboValue mbv, final String relationShipName)
+    '''public PlusPFldBasicCommunication(final MboValue mbv, final String relationShipName)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

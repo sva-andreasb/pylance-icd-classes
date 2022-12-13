@@ -1,6 +1,6 @@
 def PlusPJobFeeSet():
-    '''    public PlusPJobFeeSet(final MboServerInterface ms)
+    '''public PlusPJobFeeSet(final MboServerInterface ms)
     '''
 def setOwner():
-    '''    public void setOwner(final MboRemote mboRemote)
+    '''public void setOwner(final MboRemote mboRemote)
     '''

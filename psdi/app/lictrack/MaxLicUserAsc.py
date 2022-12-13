@@ -1,6 +1,6 @@
 def MaxLicUserAsc():
-    '''    public MaxLicUserAsc(final MboSet ms)
+    '''public MaxLicUserAsc(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

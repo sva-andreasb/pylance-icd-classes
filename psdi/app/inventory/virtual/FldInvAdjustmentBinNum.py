@@ -1,6 +1,6 @@
 def FldInvAdjustmentBinNum():
-    '''    public FldInvAdjustmentBinNum(final MboValue mbv)
+    '''public FldInvAdjustmentBinNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

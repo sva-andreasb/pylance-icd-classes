@@ -1,3 +1,3 @@
 def checkQuery():
-    '''    public void checkQuery(final DataBean results)
+    '''public void checkQuery(final DataBean results)
     '''

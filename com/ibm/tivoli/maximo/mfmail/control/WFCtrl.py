@@ -1,3 +1,3 @@
 def WFCtrl():
-    '''    public WFCtrl(final MboSet ms)
+    '''public WFCtrl(final MboSet ms)
     '''

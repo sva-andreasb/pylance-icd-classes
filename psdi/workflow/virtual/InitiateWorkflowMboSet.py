@@ -1,24 +1,24 @@
 def InitiateWorkflowMboSet():
-    '''    public InitiateWorkflowMboSet(final MboServerInterface ms)
+    '''public InitiateWorkflowMboSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''
 def getControlee():
-    '''    public MboRemote getControlee()
+    '''public MboRemote getControlee()
     '''
 def setSKDMultiRecordSelected():
-    '''    public void setSKDMultiRecordSelected(final boolean flag)
+    '''public void setSKDMultiRecordSelected(final boolean flag)
     '''
 def getSKDMultiRecordSelected():
-    '''    public boolean getSKDMultiRecordSelected()
+    '''public boolean getSKDMultiRecordSelected()
     '''
 def setControlee():
-    '''    public void setControlee(final MboRemote remote)
+    '''public void setControlee(final MboRemote remote)
     '''
 def getInstance():
-    '''    public WFInstanceRemote getInstance()
+    '''public WFInstanceRemote getInstance()
     '''
 def setInstance():
-    '''    public void setInstance(final WFInstanceRemote remote)
+    '''public void setInstance(final WFInstanceRemote remote)
     '''

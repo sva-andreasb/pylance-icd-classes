@@ -1,3 +1,3 @@
 def UnassignedWorkViewSet():
-    '''    public UnassignedWorkViewSet(final MboServerInterface ms)
+    '''public UnassignedWorkViewSet(final MboServerInterface ms)
     '''

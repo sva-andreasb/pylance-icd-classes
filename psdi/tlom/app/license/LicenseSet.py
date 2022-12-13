@@ -1,3 +1,3 @@
 def LicenseSet():
-    '''    public LicenseSet(final MboServerInterface ms)
+    '''public LicenseSet(final MboServerInterface ms)
     '''

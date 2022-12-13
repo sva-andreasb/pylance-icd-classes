@@ -1,9 +1,9 @@
 def FldMatRecTransPoNum():
-    '''    public FldMatRecTransPoNum(final MboValue mbv)
+    '''public FldMatRecTransPoNum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

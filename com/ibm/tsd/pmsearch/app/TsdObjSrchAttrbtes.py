@@ -1,3 +1,3 @@
 def TsdObjSrchAttrbtes():
-    '''    public TsdObjSrchAttrbtes(final MboSet ms)
+    '''public TsdObjSrchAttrbtes(final MboSet ms)
     '''

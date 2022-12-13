@@ -1,12 +1,12 @@
 def FileDataStoreFactory():
-    '''    public FileDataStoreFactory(File dataDirectory)
+    '''public FileDataStoreFactory(File dataDirectory)
     '''
 def getDataDirectory():
-    '''    public final File getDataDirectory()
+    '''public final File getDataDirectory()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def getDataStoreFactory():
-    '''    public FileDataStoreFactory getDataStoreFactory()
+    '''public FileDataStoreFactory getDataStoreFactory()
     '''

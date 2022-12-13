@@ -1,6 +1,6 @@
 def FldCompanyTax1Code():
-    '''    public FldCompanyTax1Code(final MboValue mbv)
+    '''public FldCompanyTax1Code(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

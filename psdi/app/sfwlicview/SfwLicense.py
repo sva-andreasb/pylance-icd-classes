@@ -1,9 +1,9 @@
 def SfwLicense():
-    '''    public SfwLicense(final MboSet ms)
+    '''public SfwLicense(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''

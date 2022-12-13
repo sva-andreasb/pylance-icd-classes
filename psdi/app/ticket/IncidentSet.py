@@ -1,3 +1,3 @@
 def IncidentSet():
-    '''    public IncidentSet(final MboServerInterface ms)
+    '''public IncidentSet(final MboServerInterface ms)
     '''

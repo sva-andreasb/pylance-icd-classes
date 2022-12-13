@@ -1,33 +1,33 @@
 def BudgetLine():
-    '''    public BudgetLine(final MboSet ms)
+    '''public BudgetLine(final MboSet ms)
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def calculateTotalFields():
-    '''    public void calculateTotalFields()
+    '''public void calculateTotalFields()
     '''
 def getBudgetCode():
-    '''    public String getBudgetCode()
+    '''public String getBudgetCode()
     '''
 def addAmount():
-    '''    public void addAmount(final String type, final double amount)
+    '''public void addAmount(final String type, final double amount)
     '''
 def substractAmount():
-    '''    public void substractAmount(final String type, final double amount)
+    '''public void substractAmount(final String type, final double amount)
     '''
 def setBudgetCode():
-    '''    public void setBudgetCode(final String budgetCode)
+    '''public void setBudgetCode(final String budgetCode)
     '''
 def setDescription():
-    '''    public void setDescription(final String description)
+    '''public void setDescription(final String description)
     '''
 def getDescription():
-    '''    public String getDescription()
+    '''public String getDescription()
     '''

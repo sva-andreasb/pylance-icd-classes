@@ -1,6 +1,6 @@
 def FldTkIsKnowError():
-    '''    public FldTkIsKnowError(final MboValue mbv)
+    '''public FldTkIsKnowError(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

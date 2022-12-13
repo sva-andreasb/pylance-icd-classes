@@ -1,3 +1,3 @@
 def AndroidDebugger():
-    '''    public AndroidDebugger(final XMPPConnection connection)
+    '''public AndroidDebugger(final XMPPConnection connection)
     '''

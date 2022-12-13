@@ -1,3 +1,3 @@
 def PlusPBSActUseSet():
-    '''    public PlusPBSActUseSet(final MboServerInterface mboServerInterface)
+    '''public PlusPBSActUseSet(final MboServerInterface mboServerInterface)
     '''

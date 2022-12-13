@@ -1,6 +1,6 @@
 def FldProcCombineType():
-    '''    public FldProcCombineType(final MboValue mbv)
+    '''public FldProcCombineType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

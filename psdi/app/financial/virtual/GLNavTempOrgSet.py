@@ -1,12 +1,12 @@
 def GLNavTempOrgSet():
-    '''    public GLNavTempOrgSet(final MboServerInterface ms)
+    '''public GLNavTempOrgSet(final MboServerInterface ms)
     '''
 def setForCOA():
-    '''    public void setForCOA(final boolean newFlag)
+    '''public void setForCOA(final boolean newFlag)
     '''
 def isForCOA():
-    '''    public boolean isForCOA()
+    '''public boolean isForCOA()
     '''
 def fetchOrgAndSiteIdFromSource():
-    '''    public void fetchOrgAndSiteIdFromSource(final MboSetRemote sourceMboSet)
+    '''public void fetchOrgAndSiteIdFromSource(final MboSetRemote sourceMboSet)
     '''

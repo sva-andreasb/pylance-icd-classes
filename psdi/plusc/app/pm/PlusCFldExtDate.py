@@ -1,6 +1,6 @@
 def PlusCFldExtDate():
-    '''    public PlusCFldExtDate(final MboValue mbv)
+    '''public PlusCFldExtDate(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

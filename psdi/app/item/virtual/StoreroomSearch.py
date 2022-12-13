@@ -1,3 +1,3 @@
 def StoreroomSearch():
-    '''    public StoreroomSearch(final MboSet ms)
+    '''public StoreroomSearch(final MboSet ms)
     '''

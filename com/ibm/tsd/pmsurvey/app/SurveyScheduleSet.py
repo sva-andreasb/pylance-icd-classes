@@ -1,6 +1,6 @@
 def SurveyScheduleSet():
-    '''    public SurveyScheduleSet(final MboServerInterface ms)
+    '''public SurveyScheduleSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

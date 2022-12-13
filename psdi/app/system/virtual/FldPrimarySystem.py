@@ -1,6 +1,6 @@
 def FldPrimarySystem():
-    '''    public FldPrimarySystem(final MboValue mbv)
+    '''public FldPrimarySystem(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,3 +1,3 @@
 def LocationOpSKDSet():
-    '''    public LocationOpSKDSet(final MboServerInterface ms)
+    '''public LocationOpSKDSet(final MboServerInterface ms)
     '''

@@ -1,9 +1,9 @@
 def RFQVendorSet():
-    '''    public RFQVendorSet(final MboServerInterface ms)
+    '''public RFQVendorSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''
 def getMbo():
-    '''    public MboRemote getMbo(final int index)
+    '''public MboRemote getMbo(final int index)
     '''

@@ -1,3 +1,3 @@
 def ReportLookupSet():
-    '''    public ReportLookupSet(final MboServerInterface ms)
+    '''public ReportLookupSet(final MboServerInterface ms)
     '''

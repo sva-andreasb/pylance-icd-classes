@@ -1,6 +1,6 @@
 def setAsText():
-    '''    public void setAsText(final String s)
+    '''public void setAsText(final String s)
     '''
 def getAsText():
-    '''    public String getAsText()
+    '''public String getAsText()
     '''

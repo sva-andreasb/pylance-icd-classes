@@ -1,3 +1,3 @@
 def AnalyticDataSet():
-    '''    public AnalyticDataSet(final MboServerInterface ms)
+    '''public AnalyticDataSet(final MboServerInterface ms)
     '''

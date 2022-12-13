@@ -1,6 +1,6 @@
 def FldInvoiceLineProrateCost():
-    '''    public FldInvoiceLineProrateCost(final MboValue mbv)
+    '''public FldInvoiceLineProrateCost(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

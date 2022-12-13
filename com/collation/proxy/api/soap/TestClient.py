@@ -1,27 +1,27 @@
 def TestClient():
-    '''    public TestClient()
+    '''public TestClient()
     '''
 def testFind():
-    '''    public void testFind()
+    '''public void testFind()
     '''
 def testGetClassNames():
-    '''    public void testGetClassNames()
+    '''public void testGetClassNames()
     '''
 def testInsert():
-    '''    public void testInsert()
+    '''public void testInsert()
     '''
 def testAnchorHosts():
-    '''    public void testAnchorHosts()
+    '''public void testAnchorHosts()
     '''
 def testAnchorPort():
-    '''    public void testAnchorPort()
+    '''public void testAnchorPort()
     '''
 def testGetChangeHistory():
-    '''    public void testGetChangeHistory()
+    '''public void testGetChangeHistory()
     '''
 def testVersion():
-    '''    public void testVersion()
+    '''public void testVersion()
     '''
 def main():
-    '''    public static void main(final String[] args)
+    '''public static void main(final String[] args)
     '''

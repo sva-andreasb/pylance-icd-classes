@@ -1,6 +1,6 @@
 def initialValue():
-    '''    public Object initialValue()
+    '''public Object initialValue()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

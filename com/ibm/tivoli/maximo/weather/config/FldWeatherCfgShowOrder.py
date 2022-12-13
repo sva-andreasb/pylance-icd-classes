@@ -1,6 +1,6 @@
 def FldWeatherCfgShowOrder():
-    '''    public FldWeatherCfgShowOrder(final MboValue mbv)
+    '''public FldWeatherCfgShowOrder(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

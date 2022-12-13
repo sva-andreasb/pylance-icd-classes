@@ -1,3 +1,3 @@
 def loadinteractiondialog():
-    '''    public int loadinteractiondialog()
+    '''public int loadinteractiondialog()
     '''

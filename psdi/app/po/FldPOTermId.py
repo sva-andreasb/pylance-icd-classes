@@ -1,6 +1,6 @@
 def FldPOTermId():
-    '''    public FldPOTermId(final MboValue mbv)
+    '''public FldPOTermId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

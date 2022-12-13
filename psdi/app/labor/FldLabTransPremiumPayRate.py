@@ -1,6 +1,6 @@
 def FldLabTransPremiumPayRate():
-    '''    public FldLabTransPremiumPayRate(final MboValue mbv)
+    '''public FldLabTransPremiumPayRate(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

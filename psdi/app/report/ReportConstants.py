@@ -57,29 +57,29 @@ IMPORT_INSTANCE = "String  \"ReportBatchImport\""
 IMPORT_PARAM_ADMINONLY = "String  \"ADMINONLY\""
 REPORT_CONTEXT_USER_STOPLIMIT = "String  \"com.ibm.tivoli.maximo.report.birt.userstoplimit\""
 def toString():
-    '''    public String toString()
+    '''public String toString()
     public String toString()
     public String toString()
     public String toString()
     '''
 def isType():
-    '''    public boolean isType(final String type)
+    '''public boolean isType(final String type)
     public boolean isType(final String type)
     public boolean isType(final String type)
     public boolean isType(final String type)
     '''
 def isSatisfiedBy():
-    '''    public boolean isSatisfiedBy(final MboRemote report)
+    '''public boolean isSatisfiedBy(final MboRemote report)
     public boolean isSatisfiedBy(final MboRemote reportSchedule)
     public boolean isSatisfiedBy(final MboRemote reportSchedule)
     public boolean isSatisfiedBy(final MboRemote reportSchedule)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getExtension():
-    '''    public String getExtension()
+    '''public String getExtension()
     '''
 def getContentType():
-    '''    public String getContentType()
+    '''public String getContentType()
     '''

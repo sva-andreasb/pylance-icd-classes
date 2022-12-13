@@ -1,6 +1,6 @@
 def DMPkgTrackHist():
-    '''    public DMPkgTrackHist(final MboSet ms)
+    '''public DMPkgTrackHist(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

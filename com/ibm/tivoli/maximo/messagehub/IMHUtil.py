@@ -9,23 +9,23 @@ TOPIC_NAME = "String  \"topic\""
 ZERO = "int  0"
 PAYLOAD = "String  \"payload\""
 def compressData():
-    '''    public static byte[] compressData(final byte[] data)
+    '''public static byte[] compressData(final byte[] data)
     '''
 def uncompressData():
-    '''    public static byte[] uncompressData(final byte[] cdata)
+    '''public static byte[] uncompressData(final byte[] cdata)
     '''
 def createPayload():
-    '''    public static byte[] createPayload(final Map<String, String> props, byte[] reqBytes, final boolean compress)
+    '''public static byte[] createPayload(final Map<String, String> props, byte[] reqBytes, final boolean compress)
     '''
 def createPayloadAsJSON():
-    '''    public static byte[] createPayloadAsJSON(final Map<String, String> props, byte[] reqBytes, final boolean compress)
+    '''public static byte[] createPayloadAsJSON(final Map<String, String> props, byte[] reqBytes, final boolean compress)
     '''
 def serializePayloadToBytes():
-    '''    public static byte[] serializePayloadToBytes(final HashMap<String, Object> req)
+    '''public static byte[] serializePayloadToBytes(final HashMap<String, Object> req)
     '''
 def resurrectJSONPayload():
-    '''    public static JSONObject resurrectJSONPayload(final byte[] reqBytes)
+    '''public static JSONObject resurrectJSONPayload(final byte[] reqBytes)
     '''
 def resurrectPayload():
-    '''    public static Map<String, Object> resurrectPayload(final byte[] reqBytes)
+    '''public static Map<String, Object> resurrectPayload(final byte[] reqBytes)
     '''

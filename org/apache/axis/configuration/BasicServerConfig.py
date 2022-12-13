@@ -1,3 +1,3 @@
 def BasicServerConfig():
-    '''    public BasicServerConfig()
+    '''public BasicServerConfig()
     '''

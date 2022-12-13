@@ -1,3 +1,3 @@
 def register():
-    '''    public void register(final String name, final ParameterFactory factory)
+    '''public void register(final String name, final ParameterFactory factory)
     '''

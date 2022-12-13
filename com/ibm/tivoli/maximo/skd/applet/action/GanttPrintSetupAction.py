@@ -1,6 +1,6 @@
 def GanttPrintSetupAction():
-    '''    public GanttPrintSetupAction(final Viewer viewer, final HashMap printbuttonlabels)
+    '''public GanttPrintSetupAction(final Viewer viewer, final HashMap printbuttonlabels)
     '''
 def actionPerformed():
-    '''    public void actionPerformed(final ActionEvent event)
+    '''public void actionPerformed(final ActionEvent event)
     '''

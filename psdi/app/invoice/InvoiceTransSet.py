@@ -1,3 +1,3 @@
 def InvoiceTransSet():
-    '''    public InvoiceTransSet(final MboServerInterface ms)
+    '''public InvoiceTransSet(final MboServerInterface ms)
     '''

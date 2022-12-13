@@ -1,72 +1,72 @@
 def MethodInfo():
-    '''    public MethodInfo(final Method method)
+    '''public MethodInfo(final Method method)
     '''
 def getMethod():
-    '''    public Method getMethod()
+    '''public Method getMethod()
     '''
 def isVoidReturnType():
-    '''    public boolean isVoidReturnType()
+    '''public boolean isVoidReturnType()
     '''
 def getParameters():
-    '''    public ParamInfo[] getParameters()
+    '''public ParamInfo[] getParameters()
     '''
 def getOperationName():
-    '''    public String getOperationName()
+    '''public String getOperationName()
     '''
 def isAuthEnabled():
-    '''    public boolean isAuthEnabled()
+    '''public boolean isAuthEnabled()
     '''
 def getAuthApp():
-    '''    public String getAuthApp()
+    '''public String getAuthApp()
     '''
 def getSigOption():
-    '''    public String getSigOption()
+    '''public String getSigOption()
     '''
 def isHttpGET():
-    '''    public boolean isHttpGET()
+    '''public boolean isHttpGET()
     '''
 def isExcludeWS():
-    '''    public boolean isExcludeWS()
+    '''public boolean isExcludeWS()
     '''
 def getReturnTypeInfo():
-    '''    public ParamInfo getReturnTypeInfo()
+    '''public ParamInfo getReturnTypeInfo()
     '''
 def setReturnTypeInfo():
-    '''    public void setReturnTypeInfo(final ParamInfo returnTypeInfo)
+    '''public void setReturnTypeInfo(final ParamInfo returnTypeInfo)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def setRequiresRESTRequest():
-    '''    public void setRequiresRESTRequest()
+    '''public void setRequiresRESTRequest()
     '''
 def isRequiresRESTRequest():
-    '''    public boolean isRequiresRESTRequest()
+    '''public boolean isRequiresRESTRequest()
     '''
 def getTag():
-    '''    public String getTag()
+    '''public String getTag()
     '''
 def setTag():
-    '''    public void setTag(String tag)
+    '''public void setTag(String tag)
     '''
 def getDescription():
-    '''    public String getDescription()
+    '''public String getDescription()
     '''
 def setDescription():
-    '''    public void setDescription(String description)
+    '''public void setDescription(String description)
     '''
 def setTagLocalized():
-    '''    public void setTagLocalized(final boolean localize)
+    '''public void setTagLocalized(final boolean localize)
     '''
 def isInternal():
-    '''    public boolean isInternal()
+    '''public boolean isInternal()
     '''
 def setInternal():
-    '''    public void setInternal(final boolean internal)
+    '''public void setInternal(final boolean internal)
     '''
 def setParamFacets():
-    '''    public void setParamFacets(final String value)
+    '''public void setParamFacets(final String value)
     '''
 def getParamFacet():
-    '''    public String getParamFacet(final String paramName)
+    '''public String getParamFacet(final String paramName)
     '''

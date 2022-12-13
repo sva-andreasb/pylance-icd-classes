@@ -1,27 +1,27 @@
 def MaxExtOver():
-    '''    public MaxExtOver(final MboSet ms)
+    '''public MaxExtOver(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def getMboSet():
-    '''    public MboSetRemote getMboSet(final String name)
+    '''public MboSetRemote getMboSet(final String name)
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def copy():
-    '''    public MboRemote copy(final MboSetRemote newSet)
+    '''public MboRemote copy(final MboSetRemote newSet)
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

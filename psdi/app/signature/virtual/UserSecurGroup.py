@@ -1,6 +1,6 @@
 def UserSecurGroup():
-    '''    public UserSecurGroup(final MboSet ms)
+    '''public UserSecurGroup(final MboSet ms)
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''

@@ -1,3 +1,3 @@
 def InspFormUseWith():
-    '''    public InspFormUseWith(final MboSet ms)
+    '''public InspFormUseWith(final MboSet ms)
     '''

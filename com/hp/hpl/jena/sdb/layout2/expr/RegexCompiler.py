@@ -1,3 +1,3 @@
 def recognize():
-    '''    public SDBConstraint recognize(final Expr expr)
+    '''public SDBConstraint recognize(final Expr expr)
     '''

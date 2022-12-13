@@ -1,6 +1,6 @@
 def FldQualRequiredUse():
-    '''    public FldQualRequiredUse(final MboValue mbv)
+    '''public FldQualRequiredUse(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

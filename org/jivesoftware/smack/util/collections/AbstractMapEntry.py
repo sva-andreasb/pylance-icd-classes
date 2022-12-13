@@ -1,9 +1,9 @@
 def setValue():
-    '''    public V setValue(final V value)
+    '''public V setValue(final V value)
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''

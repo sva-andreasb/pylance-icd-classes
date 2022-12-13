@@ -1,6 +1,6 @@
 def DefaultXMLEncoder():
-    '''    public DefaultXMLEncoder(final String encoding)
+    '''public DefaultXMLEncoder(final String encoding)
     '''
 def getEncoding():
-    '''    public String getEncoding()
+    '''public String getEncoding()
     '''

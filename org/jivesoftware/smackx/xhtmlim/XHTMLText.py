@@ -17,98 +17,98 @@ Q = "String  \"q\""
 SPAN = "String  \"span\""
 STRONG = "String  \"strong\""
 def XHTMLText():
-    '''    public XHTMLText(final String style, final String lang)
+    '''public XHTMLText(final String style, final String lang)
     '''
 def appendOpenAnchorTag():
-    '''    public XHTMLText appendOpenAnchorTag(final String href, final String style)
+    '''public XHTMLText appendOpenAnchorTag(final String href, final String style)
     '''
 def appendCloseAnchorTag():
-    '''    public XHTMLText appendCloseAnchorTag()
+    '''public XHTMLText appendCloseAnchorTag()
     '''
 def appendOpenBlockQuoteTag():
-    '''    public XHTMLText appendOpenBlockQuoteTag(final String style)
+    '''public XHTMLText appendOpenBlockQuoteTag(final String style)
     '''
 def appendCloseBlockQuoteTag():
-    '''    public XHTMLText appendCloseBlockQuoteTag()
+    '''public XHTMLText appendCloseBlockQuoteTag()
     '''
 def appendCloseBodyTag():
-    '''    public XHTMLText appendCloseBodyTag()
+    '''public XHTMLText appendCloseBodyTag()
     '''
 def appendBrTag():
-    '''    public XHTMLText appendBrTag()
+    '''public XHTMLText appendBrTag()
     '''
 def appendOpenCiteTag():
-    '''    public XHTMLText appendOpenCiteTag()
+    '''public XHTMLText appendOpenCiteTag()
     '''
 def appendOpenCodeTag():
-    '''    public XHTMLText appendOpenCodeTag()
+    '''public XHTMLText appendOpenCodeTag()
     '''
 def appendCloseCodeTag():
-    '''    public XHTMLText appendCloseCodeTag()
+    '''public XHTMLText appendCloseCodeTag()
     '''
 def appendOpenEmTag():
-    '''    public XHTMLText appendOpenEmTag()
+    '''public XHTMLText appendOpenEmTag()
     '''
 def appendCloseEmTag():
-    '''    public XHTMLText appendCloseEmTag()
+    '''public XHTMLText appendCloseEmTag()
     '''
 def appendOpenHeaderTag():
-    '''    public XHTMLText appendOpenHeaderTag(final int level, final String style)
+    '''public XHTMLText appendOpenHeaderTag(final int level, final String style)
     '''
 def appendCloseHeaderTag():
-    '''    public XHTMLText appendCloseHeaderTag(final int level)
+    '''public XHTMLText appendCloseHeaderTag(final int level)
     '''
 def appendImageTag():
-    '''    public XHTMLText appendImageTag(final String align, final String alt, final String height, final String src, final String width)
+    '''public XHTMLText appendImageTag(final String align, final String alt, final String height, final String src, final String width)
     '''
 def appendLineItemTag():
-    '''    public XHTMLText appendLineItemTag(final String style)
+    '''public XHTMLText appendLineItemTag(final String style)
     '''
 def appendCloseLineItemTag():
-    '''    public XHTMLText appendCloseLineItemTag()
+    '''public XHTMLText appendCloseLineItemTag()
     '''
 def appendOpenOrderedListTag():
-    '''    public XHTMLText appendOpenOrderedListTag(final String style)
+    '''public XHTMLText appendOpenOrderedListTag(final String style)
     '''
 def appendCloseOrderedListTag():
-    '''    public XHTMLText appendCloseOrderedListTag()
+    '''public XHTMLText appendCloseOrderedListTag()
     '''
 def appendOpenUnorderedListTag():
-    '''    public XHTMLText appendOpenUnorderedListTag(final String style)
+    '''public XHTMLText appendOpenUnorderedListTag(final String style)
     '''
 def appendCloseUnorderedListTag():
-    '''    public XHTMLText appendCloseUnorderedListTag()
+    '''public XHTMLText appendCloseUnorderedListTag()
     '''
 def appendOpenParagraphTag():
-    '''    public XHTMLText appendOpenParagraphTag(final String style)
+    '''public XHTMLText appendOpenParagraphTag(final String style)
     '''
 def appendCloseParagraphTag():
-    '''    public XHTMLText appendCloseParagraphTag()
+    '''public XHTMLText appendCloseParagraphTag()
     '''
 def appendOpenInlinedQuoteTag():
-    '''    public XHTMLText appendOpenInlinedQuoteTag(final String style)
+    '''public XHTMLText appendOpenInlinedQuoteTag(final String style)
     '''
 def appendCloseInlinedQuoteTag():
-    '''    public XHTMLText appendCloseInlinedQuoteTag()
+    '''public XHTMLText appendCloseInlinedQuoteTag()
     '''
 def appendOpenSpanTag():
-    '''    public XHTMLText appendOpenSpanTag(final String style)
+    '''public XHTMLText appendOpenSpanTag(final String style)
     '''
 def appendCloseSpanTag():
-    '''    public XHTMLText appendCloseSpanTag()
+    '''public XHTMLText appendCloseSpanTag()
     '''
 def appendOpenStrongTag():
-    '''    public XHTMLText appendOpenStrongTag()
+    '''public XHTMLText appendOpenStrongTag()
     '''
 def appendCloseStrongTag():
-    '''    public XHTMLText appendCloseStrongTag()
+    '''public XHTMLText appendCloseStrongTag()
     '''
 def append():
-    '''    public XHTMLText append(final String textToAppend)
+    '''public XHTMLText append(final String textToAppend)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def toXML():
-    '''    public XmlStringBuilder toXML()
+    '''public XmlStringBuilder toXML()
     '''

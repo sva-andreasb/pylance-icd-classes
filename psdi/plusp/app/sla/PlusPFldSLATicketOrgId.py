@@ -1,9 +1,9 @@
 def PlusPFldSLATicketOrgId():
-    '''    public PlusPFldSLATicketOrgId(final MboValue arg0)
+    '''public PlusPFldSLATicketOrgId(final MboValue arg0)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

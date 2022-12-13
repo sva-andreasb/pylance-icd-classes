@@ -5,292 +5,292 @@ CREATEWOMULTI_TASK = "String  \"TASK\""
 CREATEWOMULTI_MULTI = "String  \"MULTI\""
 CREATEWOMULTI_TOPLEVEL = "String  \"TOPLEVEL\""
 def Ticket():
-    '''    public Ticket(final MboSet ms)
+    '''public Ticket(final MboSet ms)
     '''
 def getProcess():
-    '''    public String getProcess()
+    '''public String getProcess()
     '''
 def canTemplateApply():
-    '''    public void canTemplateApply()
+    '''public void canTemplateApply()
     '''
 def getStatusListName():
-    '''    public String getStatusListName()
+    '''public String getStatusListName()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def initFieldFlagsOnMbo():
-    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''public void initFieldFlagsOnMbo(final String attrName)
     '''
 def canEditRelatedSet():
-    '''    public void canEditRelatedSet(final String relationName)
+    '''public void canEditRelatedSet(final String relationName)
     '''
 def setRelatedMboEditibility():
-    '''    public void setRelatedMboEditibility(final String relationName)
+    '''public void setRelatedMboEditibility(final String relationName)
     '''
 def initRelationship():
-    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def changeStatus():
-    '''    public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    '''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def canDeleteAttachedDocs():
-    '''    public void canDeleteAttachedDocs()
+    '''public void canDeleteAttachedDocs()
     '''
 def hasActuals():
-    '''    public boolean hasActuals()
+    '''public boolean hasActuals()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def editHistory():
-    '''    public void editHistory()
+    '''public void editHistory()
     '''
 def isTicketInEditHist():
-    '''    public boolean isTicketInEditHist()
+    '''public boolean isTicketInEditHist()
     '''
 def startTimer():
-    '''    public void startTimer()
+    '''public void startTimer()
     '''
 def tkChangeMaxStatus():
-    '''    public void tkChangeMaxStatus(final String maxstatus)
+    '''public void tkChangeMaxStatus(final String maxstatus)
     '''
 def stopTimer():
-    '''    public void stopTimer()
+    '''public void stopTimer()
     public MboRemote stopTimer(final Date finishdatetime, final boolean noStopTimerPopup)
     public MboRemote stopTimer(final Date finishdatetime, final Date startDateTime, final boolean noStopTimerPopup)
     '''
 def createIncident():
-    '''    public MboRemote createIncident()
+    '''public MboRemote createIncident()
     public MboRemote createIncident(final String tickettemplateid)
     '''
 def createServiceRequest():
-    '''    public MboRemote createServiceRequest()
+    '''public MboRemote createServiceRequest()
     public MboRemote createServiceRequest(final String tickettemplateid)
     '''
 def createSR():
-    '''    public MboRemote createSR()
+    '''public MboRemote createSR()
     public MboRemote createSR(final String tickettemplateid)
     '''
 def createProblem():
-    '''    public MboRemote createProblem()
+    '''public MboRemote createProblem()
     public MboRemote createProblem(final String tickettemplateid)
     '''
 def getFailListForReport():
-    '''    public MboSetRemote getFailListForReport()
+    '''public MboSetRemote getFailListForReport()
     '''
 def copyFailListToReportSet():
-    '''    public void copyFailListToReportSet(final MboSetRemote failListSet)
+    '''public void copyFailListToReportSet(final MboSetRemote failListSet)
     '''
 def removeFailureReport():
-    '''    public void removeFailureReport()
+    '''public void removeFailureReport()
     '''
 def applyTemplate():
-    '''    public void applyTemplate(final MboRemote templateMbo)
+    '''public void applyTemplate(final MboRemote templateMbo)
     '''
 def ticketStatus():
-    '''    public String ticketStatus()
+    '''public String ticketStatus()
     '''
 def applyOwner():
-    '''    public void applyOwner(final String ownerID)
+    '''public void applyOwner(final String ownerID)
     '''
 def applyOwnerGroup():
-    '''    public void applyOwnerGroup(final String ownergroupID)
+    '''public void applyOwnerGroup(final String ownergroupID)
     '''
 def applyAssignedOwnerGroup():
-    '''    public void applyAssignedOwnerGroup(final String ownergroupID)
+    '''public void applyAssignedOwnerGroup(final String ownergroupID)
     '''
 def ownership():
-    '''    public void ownership()
+    '''public void ownership()
     '''
 def createWorkorder():
-    '''    public Vector createWorkorder()
+    '''public Vector createWorkorder()
     public Vector createWorkorder(final MboSetRemote targetSet, final boolean saveSet)
     public MboRemote createWorkorder(final String jpnum)
     '''
 def createChange():
-    '''    public Vector createChange()
+    '''public Vector createChange()
     public MboRemote createChange(final String jpnum)
     '''
 def createRelease():
-    '''    public Vector createRelease()
+    '''public Vector createRelease()
     public MboRemote createRelease(final String jpnum)
     '''
 def setLinearAssetFieldsReadOnly():
-    '''    public void setLinearAssetFieldsReadOnly(MultiAssetLocCIRemote malocMbo, final boolean readonlystate)
+    '''public void setLinearAssetFieldsReadOnly(MultiAssetLocCIRemote malocMbo, final boolean readonlystate)
     '''
 def clearLinearAssetFields():
-    '''    public void clearLinearAssetFields(final MultiAssetLocCIRemote malocMbo)
+    '''public void clearLinearAssetFields(final MultiAssetLocCIRemote malocMbo)
     '''
 def createSolution():
-    '''    public MboRemote createSolution()
+    '''public MboRemote createSolution()
     '''
 def findTkSite():
-    '''    public String findTkSite()
+    '''public String findTkSite()
     '''
 def incrActLabCost():
-    '''    public void incrActLabCost(final double incrAmount)
+    '''public void incrActLabCost(final double incrAmount)
     '''
 def incrActLabHrs():
-    '''    public void incrActLabHrs(final double incrAmount)
+    '''public void incrActLabHrs(final double incrAmount)
     '''
 def getLocForAsset():
-    '''    public void getLocForAsset()
+    '''public void getLocForAsset()
     '''
 def applyAssetLoc():
-    '''    public void applyAssetLoc()
+    '''public void applyAssetLoc()
     '''
 def calcGLAccount():
-    '''    public String calcGLAccount()
+    '''public String calcGLAccount()
     '''
 def getActivityBasedOnWonum():
-    '''    public MboRemote getActivityBasedOnWonum(final String wonum)
+    '''public MboRemote getActivityBasedOnWonum(final String wonum)
     '''
 def copyTicketToRelatedRecSet():
-    '''    public void copyTicketToRelatedRecSet(final MboSetRemote TicketSet)
+    '''public void copyTicketToRelatedRecSet(final MboSetRemote TicketSet)
     '''
 def copyWOToRelatedRecSet():
-    '''    public void copyWOToRelatedRecSet(final MboSetRemote WOSet)
+    '''public void copyWOToRelatedRecSet(final MboSetRemote WOSet)
     '''
 def needPopupOnStopTimer():
-    '''    public boolean needPopupOnStopTimer()
+    '''public boolean needPopupOnStopTimer()
     '''
 def updateWorkview():
-    '''    public void updateWorkview()
+    '''public void updateWorkview()
     '''
 def clearClassification():
-    '''    public void clearClassification()
+    '''public void clearClassification()
     '''
 def similarTickets():
-    '''    public MboSetRemote similarTickets()
+    '''public MboSetRemote similarTickets()
     '''
 def relateTickets():
-    '''    public MboSetRemote relateTickets(final MboSetRemote tkSet)
+    '''public MboSetRemote relateTickets(final MboSetRemote tkSet)
     '''
 def relateWorkorders():
-    '''    public MboSetRemote relateWorkorders(final MboSetRemote woSet)
+    '''public MboSetRemote relateWorkorders(final MboSetRemote woSet)
     '''
 def copyLaborToLabTransSet():
-    '''    public void copyLaborToLabTransSet(final MboSetRemote laborSet)
+    '''public void copyLaborToLabTransSet(final MboSetRemote laborSet)
     '''
 def updateOriginator():
-    '''    public void updateOriginator()
+    '''public void updateOriginator()
     '''
 def getValidateOrder():
-    '''    public String[] getValidateOrder()
+    '''public String[] getValidateOrder()
     '''
 def getWOClassDescription():
-    '''    public String getWOClassDescription(final String appname)
+    '''public String getWOClassDescription(final String appname)
     '''
 def copyAssetsToMultiAsset():
-    '''    public void copyAssetsToMultiAsset(final AssetSetRemote assetSetRemote)
+    '''public void copyAssetsToMultiAsset(final AssetSetRemote assetSetRemote)
     '''
 def copyLocationsToMultiAsset():
-    '''    public void copyLocationsToMultiAsset(final MboSetRemote locationSetRemote)
+    '''public void copyLocationsToMultiAsset(final MboSetRemote locationSetRemote)
     '''
 def copyCIsToMultiAsset():
-    '''    public void copyCIsToMultiAsset(final MboSetRemote ciSetRemote)
+    '''public void copyCIsToMultiAsset(final MboSetRemote ciSetRemote)
     '''
 def copyRouteStopsToMultiAsset():
-    '''    public void copyRouteStopsToMultiAsset(final MboSetRemote routestopSetRemote)
+    '''public void copyRouteStopsToMultiAsset(final MboSetRemote routestopSetRemote)
     '''
 def copyCollectDetailsToMultiAsset():
-    '''    public void copyCollectDetailsToMultiAsset(final MboSetRemote collectionDetailsetRemote)
+    '''public void copyCollectDetailsToMultiAsset(final MboSetRemote collectionDetailsetRemote)
     '''
 def checkMultiAssetLocCISite():
-    '''    public void checkMultiAssetLocCISite(final String multiAssetSite)
+    '''public void checkMultiAssetLocCISite(final String multiAssetSite)
     '''
 def setmultiassetrecord():
-    '''    public void setmultiassetrecord()
+    '''public void setmultiassetrecord()
     '''
 def copyTicketFieldsToMultiAsset():
-    '''    public void copyTicketFieldsToMultiAsset(final MultiAssetLocCIRemote multiAssetMbo)
+    '''public void copyTicketFieldsToMultiAsset(final MultiAssetLocCIRemote multiAssetMbo)
     '''
 def getTopOriginator():
-    '''    public MboRemote getTopOriginator()
+    '''public MboRemote getTopOriginator()
     '''
 def doClassificationCreate():
-    '''    public void doClassificationCreate(final MboRemote newMbo, final MboRemote sourceMbo, String keyAttribute)
+    '''public void doClassificationCreate(final MboRemote newMbo, final MboRemote sourceMbo, String keyAttribute)
     '''
 def allowSelfServiceSolutionAccess():
-    '''    public boolean allowSelfServiceSolutionAccess()
+    '''public boolean allowSelfServiceSolutionAccess()
     '''
 def checkOrigIsFollowup():
-    '''    public void checkOrigIsFollowup()
+    '''public void checkOrigIsFollowup()
     '''
 def getRecordMboName():
-    '''    public String getRecordMboName()
+    '''public String getRecordMboName()
     '''
 def canPropagateRepairFacility():
-    '''    public boolean canPropagateRepairFacility(final MboRemote newWorkorder)
+    '''public boolean canPropagateRepairFacility(final MboRemote newWorkorder)
     '''
 def propagateRepairFacility():
-    '''    public void propagateRepairFacility(final MboRemote newWorkorder)
+    '''public void propagateRepairFacility(final MboRemote newWorkorder)
     '''
 def getTKServiceAddress():
-    '''    public TKServiceAddressRemote getTKServiceAddress()
+    '''public TKServiceAddressRemote getTKServiceAddress()
     '''
 def hasServiceAddress():
-    '''    public boolean hasServiceAddress()
+    '''public boolean hasServiceAddress()
     '''
 def getServiceAddress():
-    '''    public TKServiceAddressRemote getServiceAddress()
+    '''public TKServiceAddressRemote getServiceAddress()
     '''
 def getLatitudeY():
-    '''    public Double getLatitudeY()
+    '''public Double getLatitudeY()
     '''
 def getLongitudeX():
-    '''    public Double getLongitudeX()
+    '''public Double getLongitudeX()
     '''
 def getAddressString():
-    '''    public String getAddressString()
+    '''public String getAddressString()
     '''
 def saveGISData():
-    '''    public void saveGISData(final String address, final String lat, final String lng)
+    '''public void saveGISData(final String address, final String lat, final String lng)
     '''
 def isGISDataReadonly():
-    '''    public boolean isGISDataReadonly()
+    '''public boolean isGISDataReadonly()
     '''
 def updateServiceAddress():
-    '''    public void updateServiceAddress()
+    '''public void updateServiceAddress()
     '''
 def getAutoLocateObject():
-    '''    public MboRemote getAutoLocateObject(final AutoLocatable nextInChain)
+    '''public MboRemote getAutoLocateObject(final AutoLocatable nextInChain)
     public MboRemote getAutoLocateObject()
     '''
 def hasCoords():
-    '''    public Boolean hasCoords()
+    '''public Boolean hasCoords()
     '''
 def updateReportedAndAffectedUser():
-    '''    public void updateReportedAndAffectedUser(final String dataAttribute, final MboRemote lookupMbo)
+    '''public void updateReportedAndAffectedUser(final String dataAttribute, final MboRemote lookupMbo)
     '''
 def setDontSkipCreatePrimaryMALCI():
-    '''    public void setDontSkipCreatePrimaryMALCI(final boolean dontSkip)
+    '''public void setDontSkipCreatePrimaryMALCI(final boolean dontSkip)
     '''
 def getDontSkipCreatePrimaryMALCI():
-    '''    public boolean getDontSkipCreatePrimaryMALCI()
+    '''public boolean getDontSkipCreatePrimaryMALCI()
     '''
 def createPrimaryMultiAssetRecord():
-    '''    public void createPrimaryMultiAssetRecord()
+    '''public void createPrimaryMultiAssetRecord()
     '''
 def toIncludeFilterBy():
-    '''    public void toIncludeFilterBy(final boolean toSet)
+    '''public void toIncludeFilterBy(final boolean toSet)
     '''
 def getIncludeFilterBy():
-    '''    public boolean getIncludeFilterBy()
+    '''public boolean getIncludeFilterBy()
     '''

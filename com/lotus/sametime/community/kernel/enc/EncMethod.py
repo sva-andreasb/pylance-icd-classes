@@ -1,6 +1,6 @@
 def EncMethod():
-    '''    public EncMethod()
+    '''public EncMethod()
     '''
 def getEncError():
-    '''    public int getEncError()
+    '''public int getEncError()
     '''

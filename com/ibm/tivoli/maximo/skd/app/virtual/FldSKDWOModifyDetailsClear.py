@@ -1,6 +1,6 @@
 def FldSKDWOModifyDetailsClear():
-    '''    public FldSKDWOModifyDetailsClear(final MboValue mbv)
+    '''public FldSKDWOModifyDetailsClear(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

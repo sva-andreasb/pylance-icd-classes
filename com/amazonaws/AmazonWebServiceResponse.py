@@ -1,15 +1,15 @@
 def getResult():
-    '''    public T getResult()
+    '''public T getResult()
     '''
 def setResult():
-    '''    public void setResult(final T result)
+    '''public void setResult(final T result)
     '''
 def setResponseMetadata():
-    '''    public void setResponseMetadata(final ResponseMetadata responseMetadata)
+    '''public void setResponseMetadata(final ResponseMetadata responseMetadata)
     '''
 def getResponseMetadata():
-    '''    public ResponseMetadata getResponseMetadata()
+    '''public ResponseMetadata getResponseMetadata()
     '''
 def getRequestId():
-    '''    public String getRequestId()
+    '''public String getRequestId()
     '''

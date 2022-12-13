@@ -1,3 +1,3 @@
 def SKDODMEConstraintInfoSet():
-    '''    public SKDODMEConstraintInfoSet(final MboServerInterface ms)
+    '''public SKDODMEConstraintInfoSet(final MboServerInterface ms)
     '''

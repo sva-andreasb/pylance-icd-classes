@@ -1,3 +1,3 @@
 def FldLaunchEntryName():
-    '''    public FldLaunchEntryName(final MboValue mbv)
+    '''public FldLaunchEntryName(final MboValue mbv)
     '''

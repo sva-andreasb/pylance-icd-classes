@@ -1,46 +1,46 @@
 def DBConnection():
-    '''    public DBConnection(final String url, final String user, final String password, final String databaseType)
+    '''public DBConnection(final String url, final String user, final String password, final String databaseType)
     public DBConnection(final Connection connection, final String databaseType)
     '''
 def getConnection():
-    '''    public Connection getConnection()
+    '''public Connection getConnection()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def cleanDB():
-    '''    public void cleanDB()
+    '''public void cleanDB()
     '''
 def isFormatOK():
-    '''    public boolean isFormatOK()
+    '''public boolean isFormatOK()
     '''
 def setDatabaseProperties():
-    '''    public void setDatabaseProperties(final Model dbProperties)
+    '''public void setDatabaseProperties(final Model dbProperties)
     '''
 def getDatabaseProperties():
-    '''    public Model getDatabaseProperties()
+    '''public Model getDatabaseProperties()
     '''
 def getDefaultModelProperties():
-    '''    public Model getDefaultModelProperties()
+    '''public Model getDefaultModelProperties()
     '''
 def getAllModelNames():
-    '''    public ExtendedIterator<String> getAllModelNames()
+    '''public ExtendedIterator<String> getAllModelNames()
     '''
 def containsModel():
-    '''    public boolean containsModel(final String name)
+    '''public boolean containsModel(final String name)
     '''
 def containsDefaultModel():
-    '''    public boolean containsDefaultModel()
+    '''public boolean containsDefaultModel()
     '''
 def setDatabaseType():
-    '''    public void setDatabaseType(final String databaseType)
+    '''public void setDatabaseType(final String databaseType)
     '''
 def getDatabaseType():
-    '''    public String getDatabaseType()
+    '''public String getDatabaseType()
     '''
 def getDriver():
-    '''    public IRDBDriver getDriver()
+    '''public IRDBDriver getDriver()
     '''
 def setDriver():
-    '''    public void setDriver(final IRDBDriver driver)
+    '''public void setDriver(final IRDBDriver driver)
     '''

@@ -1,6 +1,6 @@
 def getInstance():
-    '''    public static ActivationSpec getInstance()
+    '''public static ActivationSpec getInstance()
     '''
 def isActiveSpecAvailable():
-    '''    public static boolean isActiveSpecAvailable()
+    '''public static boolean isActiveSpecAvailable()
     '''

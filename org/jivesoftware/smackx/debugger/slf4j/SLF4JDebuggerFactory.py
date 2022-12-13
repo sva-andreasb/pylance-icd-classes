@@ -1,3 +1,3 @@
 def create():
-    '''    public SmackDebugger create(final XMPPConnection connection)
+    '''public SmackDebugger create(final XMPPConnection connection)
     '''

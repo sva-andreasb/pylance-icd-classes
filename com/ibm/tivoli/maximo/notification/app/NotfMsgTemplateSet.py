@@ -1,6 +1,6 @@
 def NotfMsgTemplateSet():
-    '''    public NotfMsgTemplateSet(final MboServerInterface ms)
+    '''public NotfMsgTemplateSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

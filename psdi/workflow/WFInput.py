@@ -1,18 +1,18 @@
 def WFInput():
-    '''    public WFInput(final MboSet ms)
+    '''public WFInput(final MboSet ms)
     '''
 def wfValidate():
-    '''    public void wfValidate(final Vector<MXException> errs, final Hashtable<String, String> hinfo)
+    '''public void wfValidate(final Vector<MXException> errs, final Hashtable<String, String> hinfo)
     '''
 def canTakePositive():
-    '''    public boolean canTakePositive()
+    '''public boolean canTakePositive()
     '''
 def canTakeNegative():
-    '''    public boolean canTakeNegative()
+    '''public boolean canTakeNegative()
     '''
 def addedAction():
-    '''    public void addedAction(final boolean wasPositive)
+    '''public void addedAction(final boolean wasPositive)
     '''
 def removedAction():
-    '''    public void removedAction(final boolean wasPositive)
+    '''public void removedAction(final boolean wasPositive)
     '''

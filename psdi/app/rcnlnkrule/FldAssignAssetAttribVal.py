@@ -1,3 +1,3 @@
 def FldAssignAssetAttribVal():
-    '''    public FldAssignAssetAttribVal(final MboValue mbv)
+    '''public FldAssignAssetAttribVal(final MboValue mbv)
     '''

@@ -1,15 +1,15 @@
 def OslcResourceDetail():
-    '''    public OslcResourceDetail(final MboSet ms)
+    '''public OslcResourceDetail(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''

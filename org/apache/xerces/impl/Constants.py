@@ -137,26 +137,26 @@ SCHEMA_1_1_SUPPORT = "boolean  false"
 SCHEMA_VERSION_1_0 = "short  1"
 SCHEMA_VERSION_1_0_EXTENDED = "short  2"
 def getSAXFeatures():
-    '''    public static Enumeration getSAXFeatures()
+    '''public static Enumeration getSAXFeatures()
     '''
 def getSAXProperties():
-    '''    public static Enumeration getSAXProperties()
+    '''public static Enumeration getSAXProperties()
     '''
 def getXercesFeatures():
-    '''    public static Enumeration getXercesFeatures()
+    '''public static Enumeration getXercesFeatures()
     '''
 def getXercesProperties():
-    '''    public static Enumeration getXercesProperties()
+    '''public static Enumeration getXercesProperties()
     '''
 def main():
-    '''    public static void main(final String[] array)
+    '''public static void main(final String[] array)
     '''
 def ArrayEnumeration():
-    '''    public ArrayEnumeration(final Object[] array)
+    '''public ArrayEnumeration(final Object[] array)
     '''
 def hasMoreElements():
-    '''    public boolean hasMoreElements()
+    '''public boolean hasMoreElements()
     '''
 def nextElement():
-    '''    public Object nextElement()
+    '''public Object nextElement()
     '''

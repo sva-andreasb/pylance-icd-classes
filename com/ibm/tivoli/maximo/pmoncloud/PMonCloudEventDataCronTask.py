@@ -1,18 +1,18 @@
 def PMonCloudEventDataCronTask():
-    '''    public PMonCloudEventDataCronTask()
+    '''public PMonCloudEventDataCronTask()
     '''
 def start():
-    '''    public void start()
+    '''public void start()
     '''
 def cronAction():
-    '''    public void cronAction()
+    '''public void cronAction()
     '''
 def getParameters():
-    '''    public CrontaskParamInfo[] getParameters()
+    '''public CrontaskParamInfo[] getParameters()
     '''
 def setCrontaskInstance():
-    '''    public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
     '''
 def getParameterValidationMbo():
-    '''    public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
+    '''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
     '''

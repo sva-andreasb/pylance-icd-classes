@@ -1,9 +1,9 @@
 def S3XmlResponseHandler():
-    '''    public S3XmlResponseHandler(final Unmarshaller<T, InputStream> responseUnmarshaller)
+    '''public S3XmlResponseHandler(final Unmarshaller<T, InputStream> responseUnmarshaller)
     '''
 def handle():
-    '''    public AmazonWebServiceResponse<T> handle(final HttpResponse response)
+    '''public AmazonWebServiceResponse<T> handle(final HttpResponse response)
     '''
 def getResponseHeaders():
-    '''    public Map<String, String> getResponseHeaders()
+    '''public Map<String, String> getResponseHeaders()
     '''

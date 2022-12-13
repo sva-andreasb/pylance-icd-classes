@@ -1,3 +1,3 @@
 def FeatureSet():
-    '''    public FeatureSet(final MboServerInterface ms)
+    '''public FeatureSet(final MboServerInterface ms)
     '''

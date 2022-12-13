@@ -1,33 +1,33 @@
 def getUserName():
-    '''    public String getUserName()
+    '''public String getUserName()
     '''
 def setUserName():
-    '''    public void setUserName(final String newUserName)
+    '''public void setUserName(final String newUserName)
     '''
 def getWorkspaceId():
-    '''    public String getWorkspaceId()
+    '''public String getWorkspaceId()
     '''
 def setWorkspaceId():
-    '''    public void setWorkspaceId(final String newWorkspaceId)
+    '''public void setWorkspaceId(final String newWorkspaceId)
     '''
 def getLocale():
-    '''    public String getLocale()
+    '''public String getLocale()
     '''
 def setLocale():
-    '''    public void setLocale(final String newLocale)
+    '''public void setLocale(final String newLocale)
     '''
 def eGet():
-    '''    public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
     '''
 def eSet():
-    '''    public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''public void eSet(final EStructuralFeature eFeature, final Object newValue)
     '''
 def eUnset():
-    '''    public void eUnset(final EStructuralFeature eFeature)
+    '''public void eUnset(final EStructuralFeature eFeature)
     '''
 def eIsSet():
-    '''    public boolean eIsSet(final EStructuralFeature eFeature)
+    '''public boolean eIsSet(final EStructuralFeature eFeature)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

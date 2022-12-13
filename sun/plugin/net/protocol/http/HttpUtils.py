@@ -1,9 +1,9 @@
 def followRedirects():
-    '''    public static HttpURLConnection followRedirects(URLConnection openConnection)
+    '''public static HttpURLConnection followRedirects(URLConnection openConnection)
     '''
 def hostsEqual():
-    '''    public static final boolean hostsEqual(final URL url, final URL url2)
+    '''public static final boolean hostsEqual(final URL url, final URL url2)
     '''
 def run():
-    '''    public Object run()
+    '''public Object run()
     '''

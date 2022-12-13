@@ -1,3 +1,3 @@
 def LocChangeStatusSet():
-    '''    public LocChangeStatusSet(final MboServerInterface ms)
+    '''public LocChangeStatusSet(final MboServerInterface ms)
     '''

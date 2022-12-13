@@ -1,6 +1,6 @@
 def KafkaErrorsCleanUp():
-    '''    public KafkaErrorsCleanUp()
+    '''public KafkaErrorsCleanUp()
     '''
 def clearMessageReprocessing():
-    '''    public void clearMessageReprocessing(final UserInfo userInfo)
+    '''public void clearMessageReprocessing(final UserInfo userInfo)
     '''

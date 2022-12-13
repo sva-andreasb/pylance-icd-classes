@@ -1,3 +1,3 @@
 def serializeCookies():
-    '''    public static String serializeCookies(final HttpServletRequest request)
+    '''public static String serializeCookies(final HttpServletRequest request)
     '''

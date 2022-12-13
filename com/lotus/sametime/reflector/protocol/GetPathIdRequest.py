@@ -1,15 +1,15 @@
 def GetPathIdRequest():
-    '''    public GetPathIdRequest(final String ip, final int port)
+    '''public GetPathIdRequest(final String ip, final int port)
     '''
 def dump():
-    '''    public void dump(final NdrOutputStream ndrOutputStream)
+    '''public void dump(final NdrOutputStream ndrOutputStream)
     '''
 def getMessageType():
-    '''    public short getMessageType()
+    '''public short getMessageType()
     '''
 def getClientIp():
-    '''    public String getClientIp()
+    '''public String getClientIp()
     '''
 def getPort():
-    '''    public int getPort()
+    '''public int getPort()
     '''

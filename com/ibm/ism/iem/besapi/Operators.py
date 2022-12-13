@@ -1,3 +1,3 @@
 def getExplicitOrInherited():
-    '''    public List<JAXBElement<String>> getExplicitOrInherited()
+    '''public List<JAXBElement<String>> getExplicitOrInherited()
     '''

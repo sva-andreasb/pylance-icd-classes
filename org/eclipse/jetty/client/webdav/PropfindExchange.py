@@ -1,6 +1,6 @@
 def PropfindExchange():
-    '''    public PropfindExchange()
+    '''public PropfindExchange()
     '''
 def exists():
-    '''    public boolean exists()
+    '''public boolean exists()
     '''

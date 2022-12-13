@@ -1,15 +1,15 @@
 def RetractItem():
-    '''    public RetractItem(final String itemId)
+    '''public RetractItem(final String itemId)
     '''
 def getId():
-    '''    public String getId()
+    '''public String getId()
     '''
 def getElementName():
-    '''    public String getElementName()
+    '''public String getElementName()
     '''
 def getNamespace():
-    '''    public String getNamespace()
+    '''public String getNamespace()
     '''
 def toXML():
-    '''    public String toXML(final String enclosingNamespace)
+    '''public String toXML(final String enclosingNamespace)
     '''

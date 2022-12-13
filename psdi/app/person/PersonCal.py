@@ -1,18 +1,18 @@
 def PersonCal():
-    '''    public PersonCal(final MboSet ms)
+    '''public PersonCal(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def makeOtherNotPrimary():
-    '''    public void makeOtherNotPrimary()
+    '''public void makeOtherNotPrimary()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''

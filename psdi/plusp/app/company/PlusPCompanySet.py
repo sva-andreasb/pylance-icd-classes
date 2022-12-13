@@ -1,3 +1,3 @@
 def PlusPCompanySet():
-    '''    public PlusPCompanySet(final MboServerInterface arg0)
+    '''public PlusPCompanySet(final MboServerInterface arg0)
     '''

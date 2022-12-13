@@ -1,3 +1,3 @@
 def AssetGrpDflt():
-    '''    public AssetGrpDflt(final MboSet ms)
+    '''public AssetGrpDflt(final MboSet ms)
     '''

@@ -20,8 +20,8 @@ STATUS_CODE_SERVER_ERROR = "int  500"
 STATUS_CODE_BAD_GATEWAY = "int  502"
 STATUS_CODE_SERVICE_UNAVAILABLE = "int  503"
 def isSuccess():
-    '''    public static boolean isSuccess(final int statusCode)
+    '''public static boolean isSuccess(final int statusCode)
     '''
 def isRedirect():
-    '''    public static boolean isRedirect(final int statusCode)
+    '''public static boolean isRedirect(final int statusCode)
     '''

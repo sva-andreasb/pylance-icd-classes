@@ -1,12 +1,12 @@
 def ESICacheEntryStats():
-    '''    public ESICacheEntryStats()
+    '''public ESICacheEntryStats()
     '''
 def getCacheId():
-    '''    public String getCacheId()
+    '''public String getCacheId()
     '''
 def setCacheId():
-    '''    public void setCacheId(final String cacheId)
+    '''public void setCacheId(final String cacheId)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

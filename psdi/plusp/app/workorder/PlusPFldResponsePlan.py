@@ -1,6 +1,6 @@
 def PlusPFldResponsePlan():
-    '''    public PlusPFldResponsePlan(final MboValue mbv)
+    '''public PlusPFldResponsePlan(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

@@ -1,6 +1,6 @@
 def NWorkZone():
-    '''    public NWorkZone(final MboSet ms)
+    '''public NWorkZone(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

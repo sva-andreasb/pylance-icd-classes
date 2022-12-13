@@ -1,3 +1,3 @@
 def FldSigOptFlagValue():
-    '''    public FldSigOptFlagValue(final MboValue mbv)
+    '''public FldSigOptFlagValue(final MboValue mbv)
     '''

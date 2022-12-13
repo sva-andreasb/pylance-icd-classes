@@ -1,16 +1,16 @@
 def TcpUdpBridgeClient():
-    '''    public TcpUdpBridgeClient(final String remoteTcpHost, final String remoteUdpHost, final int remoteTcpPort, final int remoteUdpPort)
+    '''public TcpUdpBridgeClient(final String remoteTcpHost, final String remoteUdpHost, final int remoteTcpPort, final int remoteUdpPort)
     '''
 def startBridge():
-    '''    public void startBridge()
+    '''public void startBridge()
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     public void run()
     '''
 def getLocalTcpSocket():
-    '''    public Socket getLocalTcpSocket()
+    '''public Socket getLocalTcpSocket()
     '''
 def getLocalUdpSocket():
-    '''    public DatagramSocket getLocalUdpSocket()
+    '''public DatagramSocket getLocalUdpSocket()
     '''

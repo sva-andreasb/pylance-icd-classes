@@ -1,6 +1,6 @@
 def BulkloadTopobuilderDoneEvent():
-    '''    public BulkloadTopobuilderDoneEvent(final long bulkloadId)
+    '''public BulkloadTopobuilderDoneEvent(final long bulkloadId)
     '''
 def getBulkloadId():
-    '''    public long getBulkloadId()
+    '''public long getBulkloadId()
     '''

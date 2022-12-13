@@ -1,6 +1,6 @@
 def FldWOWorkLog():
-    '''    public FldWOWorkLog(final MboValue mbv)
+    '''public FldWOWorkLog(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

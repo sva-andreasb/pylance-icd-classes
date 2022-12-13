@@ -1,15 +1,15 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def okAstDefOp():
-    '''    public int okAstDefOp()
+    '''public int okAstDefOp()
     '''
 def okAstDefMnt():
-    '''    public int okAstDefMnt()
+    '''public int okAstDefMnt()
     '''
 def cancelAstDefMnt():
-    '''    public void cancelAstDefMnt()
+    '''public void cancelAstDefMnt()
     '''
 def cancelAstDefop():
-    '''    public void cancelAstDefop()
+    '''public void cancelAstDefop()
     '''

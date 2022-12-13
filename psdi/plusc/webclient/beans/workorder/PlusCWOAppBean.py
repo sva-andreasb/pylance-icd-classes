@@ -1,3 +1,3 @@
 def PlusCWOAppBean():
-    '''    public PlusCWOAppBean()
+    '''public PlusCWOAppBean()
     '''

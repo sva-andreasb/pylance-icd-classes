@@ -1,6 +1,6 @@
 def TenantStaging():
-    '''    public TenantStaging(final MboSet ms)
+    '''public TenantStaging(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

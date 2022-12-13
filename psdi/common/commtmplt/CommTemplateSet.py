@@ -1,3 +1,3 @@
 def CommTemplateSet():
-    '''    public CommTemplateSet(final MboServerInterface ms)
+    '''public CommTemplateSet(final MboServerInterface ms)
     '''

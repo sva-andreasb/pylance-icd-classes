@@ -1,6 +1,6 @@
 def FldAttrDPAObjectName():
-    '''    public FldAttrDPAObjectName(final MboValue mbv)
+    '''public FldAttrDPAObjectName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

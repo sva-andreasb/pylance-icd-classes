@@ -1,18 +1,18 @@
 def CompareToBuilder():
-    '''    public CompareToBuilder()
+    '''public CompareToBuilder()
     '''
 def reflectionCompare():
-    '''    public static int reflectionCompare(final Object lhs, final Object rhs)
+    '''public static int reflectionCompare(final Object lhs, final Object rhs)
     public static int reflectionCompare(final Object lhs, final Object rhs, final boolean compareTransients)
     public static int reflectionCompare(final Object lhs, final Object rhs, final Collection<String> excludeFields)
     public static int reflectionCompare(final Object lhs, final Object rhs, final String... excludeFields)
     public static int reflectionCompare(final Object lhs, final Object rhs, final boolean compareTransients, final Class<?> reflectUpToClass, final String... excludeFields)
     '''
 def appendSuper():
-    '''    public CompareToBuilder appendSuper(final int superCompareTo)
+    '''public CompareToBuilder appendSuper(final int superCompareTo)
     '''
 def append():
-    '''    public CompareToBuilder append(final Object lhs, final Object rhs)
+    '''public CompareToBuilder append(final Object lhs, final Object rhs)
     public CompareToBuilder append(final Object lhs, final Object rhs, final Comparator<?> comparator)
     public CompareToBuilder append(final long lhs, final long rhs)
     public CompareToBuilder append(final int lhs, final int rhs)
@@ -34,8 +34,8 @@ def append():
     public CompareToBuilder append(final boolean[] lhs, final boolean[] rhs)
     '''
 def toComparison():
-    '''    public int toComparison()
+    '''public int toComparison()
     '''
 def build():
-    '''    public Integer build()
+    '''public Integer build()
     '''

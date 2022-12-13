@@ -6,17 +6,17 @@ LDAPVALUERELATIONSHIP = "String  \"MAXPROPVALUE\""
 ORGVALUERELATIONSHIP = "String  \"MAXPROPVALUEORG\""
 LOGOUTMINUTES = "String  \"mxe.adminmode.logoutmin\""
 def SDACreateOrgBean():
-    '''    public SDACreateOrgBean()
+    '''public SDACreateOrgBean()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''
 def executeCreateOrgAction():
-    '''    public void executeCreateOrgAction()
+    '''public void executeCreateOrgAction()
     '''
 def admin_ON():
-    '''    public int admin_ON()
+    '''public int admin_ON()
     '''
 def refreshStatus():
-    '''    public int refreshStatus()
+    '''public int refreshStatus()
     '''

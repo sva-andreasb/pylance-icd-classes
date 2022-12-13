@@ -1,6 +1,6 @@
 def FldPMLead():
-    '''    public FldPMLead(final MboValue mbv)
+    '''public FldPMLead(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

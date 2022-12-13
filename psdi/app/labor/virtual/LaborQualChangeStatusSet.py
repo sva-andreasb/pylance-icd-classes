@@ -1,6 +1,6 @@
 def LaborQualChangeStatusSet():
-    '''    public LaborQualChangeStatusSet(final MboServerInterface ms)
+    '''public LaborQualChangeStatusSet(final MboServerInterface ms)
     '''
 def getMboIntoSet():
-    '''    public MboSetRemote getMboIntoSet(final MboRemote mbo)
+    '''public MboSetRemote getMboIntoSet(final MboRemote mbo)
     '''

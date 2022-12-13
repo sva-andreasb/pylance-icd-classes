@@ -1,6 +1,6 @@
 def PmFldTkOutage():
-    '''    public PmFldTkOutage(final MboValue mbv)
+    '''public PmFldTkOutage(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

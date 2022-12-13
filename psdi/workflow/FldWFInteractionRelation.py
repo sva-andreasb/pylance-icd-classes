@@ -1,9 +1,9 @@
 def FldWFInteractionRelation():
-    '''    public FldWFInteractionRelation(final MboValue mbv)
+    '''public FldWFInteractionRelation(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

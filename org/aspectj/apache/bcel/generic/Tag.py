@@ -1,9 +1,9 @@
 def containsTarget():
-    '''    public boolean containsTarget(final InstructionHandle ih)
+    '''public boolean containsTarget(final InstructionHandle ih)
     '''
 def updateTarget():
-    '''    public void updateTarget(final InstructionHandle oldHandle, final InstructionHandle newHandle)
+    '''public void updateTarget(final InstructionHandle oldHandle, final InstructionHandle newHandle)
     '''
 def copy():
-    '''    public Tag copy()
+    '''public Tag copy()
     '''

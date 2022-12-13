@@ -1,3 +1,3 @@
 def LaborChangeStatusSet():
-    '''    public LaborChangeStatusSet(final MboServerInterface ms)
+    '''public LaborChangeStatusSet(final MboServerInterface ms)
     '''

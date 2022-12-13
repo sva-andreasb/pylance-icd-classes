@@ -2,11 +2,11 @@ COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRI
 MxeventPropertyType = "String  \"mxevent\""
 ValuePropertyType = "String  \"value\""
 def HideAnyControlKey():
-    '''    public HideAnyControlKey(final String mxevent, final String value)
+    '''public HideAnyControlKey(final String mxevent, final String value)
     '''
 def match():
-    '''    public boolean match(final ControlInstance control)
+    '''public boolean match(final ControlInstance control)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

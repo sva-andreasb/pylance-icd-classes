@@ -1,5 +1,5 @@
 def unmarshall():
-    '''    public String unmarshall(final Node in)
+    '''public String unmarshall(final Node in)
     public Double unmarshall(final Node in)
     public Integer unmarshall(final Node in)
     public Boolean unmarshall(final Node in)
@@ -10,7 +10,7 @@ def unmarshall():
     public ByteBuffer unmarshall(final Node in)
     '''
 def getInstance():
-    '''    public static StringUnmarshaller getInstance()
+    '''public static StringUnmarshaller getInstance()
     public static DoubleUnmarshaller getInstance()
     public static IntegerUnmarshaller getInstance()
     public static BooleanUnmarshaller getInstance()

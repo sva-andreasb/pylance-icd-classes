@@ -1,3 +1,3 @@
 def ImageIOPNGImageWriter():
-    '''    public ImageIOPNGImageWriter()
+    '''public ImageIOPNGImageWriter()
     '''

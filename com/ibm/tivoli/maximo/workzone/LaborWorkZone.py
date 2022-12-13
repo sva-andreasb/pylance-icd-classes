@@ -1,18 +1,18 @@
 def LaborWorkZone():
-    '''    public LaborWorkZone(final MboSet ms)
+    '''public LaborWorkZone(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def makeOtherNotDefault():
-    '''    public void makeOtherNotDefault()
+    '''public void makeOtherNotDefault()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

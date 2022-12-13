@@ -1,3 +1,3 @@
 def WeatherCfgAttrSet():
-    '''    public WeatherCfgAttrSet(final MboServerInterface ms)
+    '''public WeatherCfgAttrSet(final MboServerInterface ms)
     '''

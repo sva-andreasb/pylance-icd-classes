@@ -1,3 +1,3 @@
 def getExceptionLocation():
-    '''    public int getExceptionLocation()
+    '''public int getExceptionLocation()
     '''

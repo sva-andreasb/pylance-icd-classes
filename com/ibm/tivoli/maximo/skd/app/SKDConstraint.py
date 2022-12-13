@@ -1,6 +1,6 @@
 def SKDConstraint():
-    '''    public SKDConstraint(final MboSet ms)
+    '''public SKDConstraint(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

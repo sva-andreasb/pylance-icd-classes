@@ -1,6 +1,6 @@
 def FldShiftDaysInPattern():
-    '''    public FldShiftDaysInPattern(final MboValue mbv)
+    '''public FldShiftDaysInPattern(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

@@ -1,36 +1,36 @@
 def CTIdMapImpl():
-    '''    public CTIdMapImpl(final SchemaType schemaType)
+    '''public CTIdMapImpl(final SchemaType schemaType)
     '''
 def xgetExt():
-    '''    public STExt xgetExt()
+    '''public STExt xgetExt()
     '''
 def isSetExt():
-    '''    public boolean isSetExt()
+    '''public boolean isSetExt()
     '''
 def setExt():
-    '''    public void setExt(final STExt.Enum enumValue)
+    '''public void setExt(final STExt.Enum enumValue)
     '''
 def xsetExt():
-    '''    public void xsetExt(final STExt stExt)
+    '''public void xsetExt(final STExt stExt)
     '''
 def unsetExt():
-    '''    public void unsetExt()
+    '''public void unsetExt()
     '''
 def getData():
-    '''    public String getData()
+    '''public String getData()
     '''
 def xgetData():
-    '''    public XmlString xgetData()
+    '''public XmlString xgetData()
     '''
 def isSetData():
-    '''    public boolean isSetData()
+    '''public boolean isSetData()
     '''
 def setData():
-    '''    public void setData(final String stringValue)
+    '''public void setData(final String stringValue)
     '''
 def xsetData():
-    '''    public void xsetData(final XmlString xmlString)
+    '''public void xsetData(final XmlString xmlString)
     '''
 def unsetData():
-    '''    public void unsetData()
+    '''public void unsetData()
     '''

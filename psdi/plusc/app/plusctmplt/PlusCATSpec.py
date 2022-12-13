@@ -1,48 +1,48 @@
 def PlusCATSpec():
-    '''    public PlusCATSpec(final MboSet ms)
+    '''public PlusCATSpec(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def getDataType():
-    '''    public String getDataType()
+    '''public String getDataType()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''
 def setALNorNUMReadOnly():
-    '''    public void setALNorNUMReadOnly()
+    '''public void setALNorNUMReadOnly()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def getAssetTemplateMboSetInfo():
-    '''    public MboSetInfo getAssetTemplateMboSetInfo()
+    '''public MboSetInfo getAssetTemplateMboSetInfo()
     '''
 def getDomainId():
-    '''    public String getDomainId()
+    '''public String getDomainId()
     '''
 def getClassSpecRecord():
-    '''    public MboRemote getClassSpecRecord()
+    '''public MboRemote getClassSpecRecord()
     '''
 def getAssetAttributeMbo():
-    '''    public MboRemote getAssetAttributeMbo()
+    '''public MboRemote getAssetAttributeMbo()
     '''
 def generateDesc():
-    '''    public String generateDesc()
+    '''public String generateDesc()
     '''
 def setValue():
-    '''    public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''public void setValue(final String attributeName, final String val, final long accessModifier)
     '''
 def getClassSpecUseWith():
-    '''    public MboRemote getClassSpecUseWith(final MboRemote classSpec, final String objectName)
+    '''public MboRemote getClassSpecUseWith(final MboRemote classSpec, final String objectName)
     '''
 def canGenerateDesc():
-    '''    public MboRemote canGenerateDesc()
+    '''public MboRemote canGenerateDesc()
     '''
 def getNumValueBeforeFormat():
-    '''    public String getNumValueBeforeFormat()
+    '''public String getNumValueBeforeFormat()
     '''

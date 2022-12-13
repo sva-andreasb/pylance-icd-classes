@@ -1,3 +1,3 @@
 def PlusPBatchStatusSet():
-    '''    public PlusPBatchStatusSet(final MboServerInterface ms)
+    '''public PlusPBatchStatusSet(final MboServerInterface ms)
     '''

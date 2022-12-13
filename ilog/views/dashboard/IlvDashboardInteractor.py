@@ -1,21 +1,21 @@
 def IlvDashboardInteractor():
-    '''    public IlvDashboardInteractor()
+    '''public IlvDashboardInteractor()
     '''
 def getDiagram():
-    '''    public IlvDashboardDiagram getDiagram()
+    '''public IlvDashboardDiagram getDiagram()
     '''
 def windowClosing():
-    '''    public void windowClosing(final WindowEvent windowEvent)
+    '''public void windowClosing(final WindowEvent windowEvent)
     '''
 def keyPressed():
-    '''    public void keyPressed(final KeyEvent keyEvent)
+    '''public void keyPressed(final KeyEvent keyEvent)
     '''
 def windowClosed():
-    '''    public void windowClosed(final WindowEvent windowEvent)
+    '''public void windowClosed(final WindowEvent windowEvent)
     '''
 def mouseDragged():
-    '''    public void mouseDragged(final MouseEvent mouseEvent)
+    '''public void mouseDragged(final MouseEvent mouseEvent)
     '''
 def mouseMoved():
-    '''    public void mouseMoved(final MouseEvent mouseEvent)
+    '''public void mouseMoved(final MouseEvent mouseEvent)
     '''

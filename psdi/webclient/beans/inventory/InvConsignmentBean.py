@@ -1,6 +1,6 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def cancelDialog():
-    '''    public int cancelDialog()
+    '''public int cancelDialog()
     '''

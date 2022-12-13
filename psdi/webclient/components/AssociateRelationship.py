@@ -1,3 +1,3 @@
 def associateOSLCRelationship():
-    '''    public void associateOSLCRelationship()
+    '''public void associateOSLCRelationship()
     '''

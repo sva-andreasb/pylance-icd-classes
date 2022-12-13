@@ -1,6 +1,6 @@
 def ObjectFormulaSet():
-    '''    public ObjectFormulaSet(final MboServerInterface ms)
+    '''public ObjectFormulaSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

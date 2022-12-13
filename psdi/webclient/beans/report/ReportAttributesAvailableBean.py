@@ -1,9 +1,9 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''
 def addAttribute():
-    '''    public int addAttribute(final MboRemote attribute)
+    '''public int addAttribute(final MboRemote attribute)
     '''

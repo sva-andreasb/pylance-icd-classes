@@ -1,132 +1,132 @@
 def AssetAppBean():
-    '''    public AssetAppBean()
+    '''public AssetAppBean()
     '''
 def REFRESHLIST():
-    '''    public int REFRESHLIST()
+    '''public int REFRESHLIST()
     '''
 def structureChangedEvent():
-    '''    public void structureChangedEvent(final DataBean speaker)
+    '''public void structureChangedEvent(final DataBean speaker)
     '''
 def APPLYIAS():
-    '''    public int APPLYIAS()
+    '''public int APPLYIAS()
     '''
 def MOVEASSET():
-    '''    public int MOVEASSET()
+    '''public int MOVEASSET()
     '''
 def SWAPASSET():
-    '''    public int SWAPASSET()
+    '''public int SWAPASSET()
     '''
 def STATUS():
-    '''    public int STATUS()
+    '''public int STATUS()
     '''
 def STATUSSUB():
-    '''    public int STATUSSUB()
+    '''public int STATUSSUB()
     '''
 def ALTERITEM():
-    '''    public int ALTERITEM()
+    '''public int ALTERITEM()
     '''
 def USERCUST():
-    '''    public int USERCUST()
+    '''public int USERCUST()
     '''
 def ASTLOCCOMM():
-    '''    public int ASTLOCCOMM()
+    '''public int ASTLOCCOMM()
     '''
 def DUPLICATE():
-    '''    public int DUPLICATE()
+    '''public int DUPLICATE()
     '''
 def DELETE():
-    '''    public int DELETE()
+    '''public int DELETE()
     '''
 def SAVE():
-    '''    public int SAVE()
+    '''public int SAVE()
     '''
 def recalibrateLinearAssets():
-    '''    public int recalibrateLinearAssets()
+    '''public int recalibrateLinearAssets()
     '''
 def considerDuplicateMeterSequences():
-    '''    public void considerDuplicateMeterSequences()
+    '''public void considerDuplicateMeterSequences()
     '''
 def MANAGELIB():
-    '''    public int MANAGELIB()
+    '''public int MANAGELIB()
     '''
 def MANAGEFOLD():
-    '''    public int MANAGEFOLD()
+    '''public int MANAGEFOLD()
     '''
 def ASSOCFOLD():
-    '''    public int ASSOCFOLD()
+    '''public int ASSOCFOLD()
     '''
 def ISSUEITEMS():
-    '''    public int ISSUEITEMS()
+    '''public int ISSUEITEMS()
     '''
 def METREAD():
-    '''    public int METREAD()
+    '''public int METREAD()
     '''
 def METRESET():
-    '''    public int METRESET()
+    '''public int METRESET()
     '''
 def METHIST():
-    '''    public int METHIST()
+    '''public int METHIST()
     '''
 def VIEWWOPM():
-    '''    public int VIEWWOPM()
+    '''public int VIEWWOPM()
     '''
 def checkDPAAppsAccess():
-    '''    public void checkDPAAppsAccess()
+    '''public void checkDPAAppsAccess()
     '''
 def viewdetails():
-    '''    public int viewdetails()
+    '''public int viewdetails()
     '''
 def openMaximoDiscovery():
-    '''    public int openMaximoDiscovery()
+    '''public int openMaximoDiscovery()
     '''
 def ZEROYTD():
-    '''    public int ZEROYTD()
+    '''public int ZEROYTD()
     '''
 def setValue():
-    '''    public void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
+    '''public void setValue(final int nRow, final String attribute, final String value, final long accessModifier)
     '''
 def save():
-    '''    public synchronized void save()
+    '''public synchronized void save()
     '''
 def PLUSVIEWSP():
-    '''    public int PLUSVIEWSP()
+    '''public int PLUSVIEWSP()
     '''
 def convertsachildtoparent():
-    '''    public int convertsachildtoparent()
+    '''public int convertsachildtoparent()
     '''
 def createNewSA():
-    '''    public int createNewSA()
+    '''public int createNewSA()
     '''
 def addNewSAusingTempData():
-    '''    public int addNewSAusingTempData()
+    '''public int addNewSAusingTempData()
     '''
 def changeTemplateState():
-    '''    public int changeTemplateState()
+    '''public int changeTemplateState()
     '''
 def ASTDEFOP():
-    '''    public int ASTDEFOP()
+    '''public int ASTDEFOP()
     '''
 def ASTMNGOP():
-    '''    public int ASTMNGOP()
+    '''public int ASTMNGOP()
     '''
 def ASTDEFMNT():
-    '''    public int ASTDEFMNT()
+    '''public int ASTDEFMNT()
     '''
 def ASTMNGMNT():
-    '''    public int ASTMNGMNT()
+    '''public int ASTMNGMNT()
     '''
 def refreshhistory():
-    '''    public int refreshhistory()
+    '''public int refreshhistory()
     '''
 def SPLITDEP():
-    '''    public int SPLITDEP()
+    '''public int SPLITDEP()
     '''
 def MANAGEDEP():
-    '''    public int MANAGEDEP()
+    '''public int MANAGEDEP()
     '''
 def hasSigOptionAccess():
-    '''    public boolean hasSigOptionAccess(final String sigOption)
+    '''public boolean hasSigOptionAccess(final String sigOption)
     '''
 def IMPORTDIGITALDATA():
-    '''    public int IMPORTDIGITALDATA()
+    '''public int IMPORTDIGITALDATA()
     '''

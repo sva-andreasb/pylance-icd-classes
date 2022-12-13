@@ -1,3 +1,3 @@
 def OSLCRelationshipSet():
-    '''    public OSLCRelationshipSet(final MboServerInterface ms)
+    '''public OSLCRelationshipSet(final MboServerInterface ms)
     '''

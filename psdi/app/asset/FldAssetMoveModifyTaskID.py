@@ -1,6 +1,6 @@
 def FldAssetMoveModifyTaskID():
-    '''    public FldAssetMoveModifyTaskID(final MboValue mbv)
+    '''public FldAssetMoveModifyTaskID(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

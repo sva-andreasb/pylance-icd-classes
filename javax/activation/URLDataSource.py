@@ -1,18 +1,18 @@
 def getInputStream():
-    '''    public InputStream getInputStream()
+    '''public InputStream getInputStream()
     '''
 def getOutputStream():
-    '''    public OutputStream getOutputStream()
+    '''public OutputStream getOutputStream()
     '''
 def getContentType():
-    '''    public String getContentType()
+    '''public String getContentType()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getURL():
-    '''    public URL getURL()
+    '''public URL getURL()
     '''
 def URLDataSource():
-    '''    public URLDataSource(final URL url)
+    '''public URLDataSource(final URL url)
     '''

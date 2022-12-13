@@ -1,9 +1,9 @@
 def FldSkdProjectMntLocationSiteId():
-    '''    public FldSkdProjectMntLocationSiteId(final MboValue mbv)
+    '''public FldSkdProjectMntLocationSiteId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

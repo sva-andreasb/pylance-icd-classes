@@ -1,3 +1,3 @@
 def getClusterService():
-    '''    public static ClusterService getClusterService()
+    '''public static ClusterService getClusterService()
     '''

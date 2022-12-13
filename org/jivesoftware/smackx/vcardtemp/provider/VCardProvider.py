@@ -1,3 +1,3 @@
 def parse():
-    '''    public VCard parse(final XmlPullParser parser, final int initialDepth)
+    '''public VCard parse(final XmlPullParser parser, final int initialDepth)
     '''

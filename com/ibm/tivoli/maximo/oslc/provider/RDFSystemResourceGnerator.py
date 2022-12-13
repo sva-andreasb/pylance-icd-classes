@@ -1,3 +1,3 @@
 def generateResource():
-    '''    public byte[] generateResource()
+    '''public byte[] generateResource()
     '''

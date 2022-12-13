@@ -10,14 +10,14 @@ FIELD_JOBTYPE = "String  \"JOBTYPE\""
 FIELD_NAME = "String  \"NAME\""
 FIELD_PLUSCREVNUM = "String  \"PLUSCREVNUM\""
 def BIMProductJob():
-    '''    public BIMProductJob(final MboSet ms)
+    '''public BIMProductJob(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def getJobType():
-    '''    public String getJobType()
+    '''public String getJobType()
     '''

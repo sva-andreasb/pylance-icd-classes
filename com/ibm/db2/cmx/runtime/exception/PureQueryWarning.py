@@ -1,18 +1,18 @@
 def getMessage():
-    '''    public String getMessage()
+    '''public String getMessage()
     '''
 def getLineNumber():
-    '''    public int getLineNumber()
+    '''public int getLineNumber()
     '''
 def getColumnNumber():
-    '''    public int getColumnNumber()
+    '''public int getColumnNumber()
     '''
 def getStartPosition():
-    '''    public int getStartPosition()
+    '''public int getStartPosition()
     '''
 def getLength():
-    '''    public int getLength()
+    '''public int getLength()
     '''
 def getCause():
-    '''    public Throwable getCause()
+    '''public Throwable getCause()
     '''

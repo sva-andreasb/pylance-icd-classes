@@ -1,15 +1,15 @@
 def Image():
-    '''    public Image()
+    '''public Image()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def render():
-    '''    public int render()
+    '''public int render()
     '''
 def initializeMenuIcons():
-    '''    public void initializeMenuIcons()
+    '''public void initializeMenuIcons()
     '''
 def getIcons():
-    '''    public JSONArray getIcons()
+    '''public JSONArray getIcons()
     '''

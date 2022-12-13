@@ -1,3 +1,3 @@
 def SRMResourceRequestHandler():
-    '''    public SRMResourceRequestHandler()
+    '''public SRMResourceRequestHandler()
     '''

@@ -1,3 +1,3 @@
 def PlusCDefaultAssetDataSet():
-    '''    public PlusCDefaultAssetDataSet(final MboServerInterface ms)
+    '''public PlusCDefaultAssetDataSet(final MboServerInterface ms)
     '''

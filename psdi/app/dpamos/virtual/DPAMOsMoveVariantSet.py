@@ -1,3 +1,3 @@
 def DPAMOsMoveVariantSet():
-    '''    public DPAMOsMoveVariantSet(final MboServerInterface ms)
+    '''public DPAMOsMoveVariantSet(final MboServerInterface ms)
     '''

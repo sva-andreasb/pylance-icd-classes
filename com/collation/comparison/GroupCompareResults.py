@@ -1,18 +1,18 @@
 def GroupCompareResults():
-    '''    public GroupCompareResults(final String groupName)
+    '''public GroupCompareResults(final String groupName)
     '''
 def getGroupName():
-    '''    public String getGroupName()
+    '''public String getGroupName()
     '''
 def addLeft():
-    '''    public void addLeft(final CompareResults r)
+    '''public void addLeft(final CompareResults r)
     '''
 def addRight():
-    '''    public void addRight(final CompareResults r)
+    '''public void addRight(final CompareResults r)
     '''
 def getLeft():
-    '''    public List getLeft()
+    '''public List getLeft()
     '''
 def getRight():
-    '''    public List getRight()
+    '''public List getRight()
     '''

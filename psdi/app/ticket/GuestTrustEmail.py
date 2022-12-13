@@ -1,3 +1,3 @@
 def GuestTrustEmail():
-    '''    public GuestTrustEmail(final MboSet ms)
+    '''public GuestTrustEmail(final MboSet ms)
     '''

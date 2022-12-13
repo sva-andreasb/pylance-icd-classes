@@ -1,34 +1,34 @@
 def DefaultFilterExpr():
-    '''    public DefaultFilterExpr(final PredicateSet predicateSet)
+    '''public DefaultFilterExpr(final PredicateSet predicateSet)
     public DefaultFilterExpr(final Expr expr, final PredicateSet predicateSet)
     '''
 def addPredicate():
-    '''    public void addPredicate(final Predicate predicate)
+    '''public void addPredicate(final Predicate predicate)
     '''
 def getPredicates():
-    '''    public List getPredicates()
+    '''public List getPredicates()
     '''
 def getPredicateSet():
-    '''    public PredicateSet getPredicateSet()
+    '''public PredicateSet getPredicateSet()
     '''
 def getExpr():
-    '''    public Expr getExpr()
+    '''public Expr getExpr()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getText():
-    '''    public String getText()
+    '''public String getText()
     '''
 def simplify():
-    '''    public Expr simplify()
+    '''public Expr simplify()
     '''
 def asBoolean():
-    '''    public boolean asBoolean(final Context context)
+    '''public boolean asBoolean(final Context context)
     '''
 def evaluate():
-    '''    public Object evaluate(final Context context)
+    '''public Object evaluate(final Context context)
     '''
 def accept():
-    '''    public void accept(final Visitor visitor)
+    '''public void accept(final Visitor visitor)
     '''

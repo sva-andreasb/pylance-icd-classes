@@ -1,3 +1,3 @@
 def ReorderMutexSet():
-    '''    public ReorderMutexSet(final MboServerInterface ms)
+    '''public ReorderMutexSet(final MboServerInterface ms)
     '''

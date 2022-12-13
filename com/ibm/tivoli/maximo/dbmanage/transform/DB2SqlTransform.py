@@ -1,6 +1,6 @@
 def transform():
-    '''    public String transform(String sql)
+    '''public String transform(String sql)
     '''
 def nextval():
-    '''    public String nextval(final String seqName)
+    '''public String nextval(final String seqName)
     '''

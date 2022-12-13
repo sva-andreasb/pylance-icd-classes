@@ -1,3 +1,3 @@
 def MessageHubTopic():
-    '''    public MessageHubTopic(final MboSet ms)
+    '''public MessageHubTopic(final MboSet ms)
     '''

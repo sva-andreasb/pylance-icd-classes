@@ -1,3 +1,3 @@
 def TokenLicChangeStatusSet():
-    '''    public TokenLicChangeStatusSet(final MboServerInterface ms)
+    '''public TokenLicChangeStatusSet(final MboServerInterface ms)
     '''

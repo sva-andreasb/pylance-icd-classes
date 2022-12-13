@@ -1,6 +1,6 @@
 def FldVTotalSpace():
-    '''    public FldVTotalSpace(final MboValue mbv)
+    '''public FldVTotalSpace(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

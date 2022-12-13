@@ -1,3 +1,3 @@
 def QueueNameSet():
-    '''    public QueueNameSet(final MboServerInterface ms)
+    '''public QueueNameSet(final MboServerInterface ms)
     '''

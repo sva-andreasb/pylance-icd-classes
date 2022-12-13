@@ -1,21 +1,21 @@
 def MapTip():
-    '''    public MapTip(final MboSet ms)
+    '''public MapTip(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def copy():
-    '''    public MboRemote copy(final MboSetRemote mboset)
+    '''public MboRemote copy(final MboSetRemote mboset)
     '''

@@ -1,3 +1,3 @@
 def PlusCCalHistoryFilter():
-    '''    public PlusCCalHistoryFilter(final MboSet ms)
+    '''public PlusCCalHistoryFilter(final MboSet ms)
     '''

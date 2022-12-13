@@ -1,17 +1,17 @@
 def ScramExtensions():
-    '''    public ScramExtensions()
+    '''public ScramExtensions()
     public ScramExtensions(final String extensions)
     public ScramExtensions(final Map<String, String> extensionMap)
     '''
 def extensionValue():
-    '''    public String extensionValue(final String name)
+    '''public String extensionValue(final String name)
     '''
 def extensionNames():
-    '''    public Set<String> extensionNames()
+    '''public Set<String> extensionNames()
     '''
 def tokenAuthenticated():
-    '''    public boolean tokenAuthenticated()
+    '''public boolean tokenAuthenticated()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

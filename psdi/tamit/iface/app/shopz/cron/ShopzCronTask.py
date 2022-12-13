@@ -1,21 +1,21 @@
 def ShopzCronTask():
-    '''    public ShopzCronTask()
+    '''public ShopzCronTask()
     '''
 def getParameters():
-    '''    public CrontaskParamInfo[] getParameters()
+    '''public CrontaskParamInfo[] getParameters()
     '''
 def getParameterValidationMbo():
-    '''    public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
+    '''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
     '''
 def cronAction():
-    '''    public void cronAction()
+    '''public void cronAction()
     '''
 def start():
-    '''    public void start()
+    '''public void start()
     '''
 def stop():
-    '''    public void stop()
+    '''public void stop()
     '''
 def accept():
-    '''    public boolean accept(final File pathname)
+    '''public boolean accept(final File pathname)
     '''

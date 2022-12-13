@@ -1,6 +1,6 @@
 def FldMeterMeterType():
-    '''    public FldMeterMeterType(final MboValue mbv)
+    '''public FldMeterMeterType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,6 +1,6 @@
 def LmoImTable():
-    '''    public LmoImTable(final MboSet ms)
+    '''public LmoImTable(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

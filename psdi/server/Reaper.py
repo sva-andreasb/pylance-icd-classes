@@ -1,6 +1,6 @@
 def Reaper():
-    '''    public Reaper()
+    '''public Reaper()
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''

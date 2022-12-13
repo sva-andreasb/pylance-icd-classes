@@ -1,3 +1,3 @@
 def ThreadFileAppender():
-    '''    public ThreadFileAppender(final UserInfo userInfo, final boolean email, final String emailId)
+    '''public ThreadFileAppender(final UserInfo userInfo, final boolean email, final String emailId)
     '''

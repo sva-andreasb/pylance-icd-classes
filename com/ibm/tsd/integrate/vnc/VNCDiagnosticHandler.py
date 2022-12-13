@@ -1,9 +1,9 @@
 def VNCDiagnosticHandler():
-    '''    public VNCDiagnosticHandler()
+    '''public VNCDiagnosticHandler()
     '''
 def handleRequest():
-    '''    public OslcResourceResponse handleRequest(final OslcRequest oslcRequest)
+    '''public OslcResourceResponse handleRequest(final OslcRequest oslcRequest)
     '''
 def replaceFrmPubKey():
-    '''    public static String replaceFrmPubKey(String replaceAll)
+    '''public static String replaceFrmPubKey(String replaceAll)
     '''

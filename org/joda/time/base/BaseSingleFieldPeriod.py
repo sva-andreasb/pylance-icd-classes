@@ -1,30 +1,30 @@
 def size():
-    '''    public int size()
+    '''public int size()
     '''
 def getFieldType():
-    '''    public DurationFieldType getFieldType(final int i)
+    '''public DurationFieldType getFieldType(final int i)
     '''
 def getValue():
-    '''    public int getValue(final int i)
+    '''public int getValue(final int i)
     '''
 def get():
-    '''    public int get(final DurationFieldType durationFieldType)
+    '''public int get(final DurationFieldType durationFieldType)
     '''
 def isSupported():
-    '''    public boolean isSupported(final DurationFieldType durationFieldType)
+    '''public boolean isSupported(final DurationFieldType durationFieldType)
     '''
 def toPeriod():
-    '''    public Period toPeriod()
+    '''public Period toPeriod()
     '''
 def toMutablePeriod():
-    '''    public MutablePeriod toMutablePeriod()
+    '''public MutablePeriod toMutablePeriod()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def compareTo():
-    '''    public int compareTo(final BaseSingleFieldPeriod baseSingleFieldPeriod)
+    '''public int compareTo(final BaseSingleFieldPeriod baseSingleFieldPeriod)
     '''

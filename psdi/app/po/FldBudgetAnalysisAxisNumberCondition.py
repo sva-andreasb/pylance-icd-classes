@@ -1,12 +1,12 @@
 def FldBudgetAnalysisAxisNumberCondition():
-    '''    public FldBudgetAnalysisAxisNumberCondition(final MboValue mbv)
+    '''public FldBudgetAnalysisAxisNumberCondition(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote sourceMbo, final long accessModifier)
+    '''public void setValueFromLookup(final MboRemote sourceMbo, final long accessModifier)
     '''

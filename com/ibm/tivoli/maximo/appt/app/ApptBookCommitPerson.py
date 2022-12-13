@@ -1,6 +1,6 @@
 def ApptBookCommitPerson():
-    '''    public ApptBookCommitPerson(final MboSet ms)
+    '''public ApptBookCommitPerson(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

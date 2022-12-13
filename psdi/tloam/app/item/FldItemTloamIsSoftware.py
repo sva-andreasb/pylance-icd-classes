@@ -1,6 +1,6 @@
 def FldItemTloamIsSoftware():
-    '''    public FldItemTloamIsSoftware(final MboValue mbv)
+    '''public FldItemTloamIsSoftware(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

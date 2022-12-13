@@ -1,6 +1,6 @@
 def KPISchedule():
-    '''    public KPISchedule(final MboSet ms)
+    '''public KPISchedule(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

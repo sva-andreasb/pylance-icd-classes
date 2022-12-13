@@ -8,14 +8,14 @@ COMP_JPEG_TTN2 = "int  7"
 COMP_PACKBITS = "int  32773"
 COMP_DEFLATE = "int  32946"
 def TIFFImage():
-    '''    public TIFFImage(final SeekableStream stream, TIFFDecodeParam param, final int directory)
+    '''public TIFFImage(final SeekableStream stream, TIFFDecodeParam param, final int directory)
     '''
 def getPrivateIFD():
-    '''    public TIFFDirectory getPrivateIFD(final long offset)
+    '''public TIFFDirectory getPrivateIFD(final long offset)
     '''
 def copyData():
-    '''    public WritableRaster copyData(final WritableRaster wr)
+    '''public WritableRaster copyData(final WritableRaster wr)
     '''
 def getTile():
-    '''    public synchronized Raster getTile(final int tileX, final int tileY)
+    '''public synchronized Raster getTile(final int tileX, final int tileY)
     '''

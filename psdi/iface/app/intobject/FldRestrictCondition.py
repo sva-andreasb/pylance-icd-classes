@@ -1,3 +1,3 @@
 def FldRestrictCondition():
-    '''    public FldRestrictCondition(final MboValue mbv)
+    '''public FldRestrictCondition(final MboValue mbv)
     '''

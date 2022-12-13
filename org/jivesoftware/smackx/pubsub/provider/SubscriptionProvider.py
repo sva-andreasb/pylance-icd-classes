@@ -1,3 +1,3 @@
 def parse():
-    '''    public Subscription parse(final XmlPullParser parser, final int initialDepth)
+    '''public Subscription parse(final XmlPullParser parser, final int initialDepth)
     '''

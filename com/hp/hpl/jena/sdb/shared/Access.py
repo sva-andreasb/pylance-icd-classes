@@ -1,6 +1,6 @@
 def getUser():
-    '''    public static String getUser()
+    '''public static String getUser()
     '''
 def getPassword():
-    '''    public static String getPassword()
+    '''public static String getPassword()
     '''

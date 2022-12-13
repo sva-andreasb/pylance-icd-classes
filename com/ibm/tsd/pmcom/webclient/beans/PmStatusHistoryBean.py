@@ -1,9 +1,9 @@
 def PmStatusHistoryBean():
-    '''    public PmStatusHistoryBean()
+    '''public PmStatusHistoryBean()
     '''
 def setupBean():
-    '''    public void setupBean(final WebClientSession wcs)
+    '''public void setupBean(final WebClientSession wcs)
     '''
 def sort():
-    '''    public synchronized void sort(final String sOrderByClause)
+    '''public synchronized void sort(final String sOrderByClause)
     '''

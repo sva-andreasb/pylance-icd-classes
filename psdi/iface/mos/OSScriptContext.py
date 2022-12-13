@@ -1,15 +1,15 @@
 def getMosDetailInfo():
-    '''    public MosDetailInfo getMosDetailInfo()
+    '''public MosDetailInfo getMosDetailInfo()
     '''
 def skipMbo():
-    '''    public void skipMbo()
+    '''public void skipMbo()
     '''
 def skipTxn():
-    '''    public void skipTxn()
+    '''public void skipTxn()
     '''
 def complete():
-    '''    public void complete()
+    '''public void complete()
     '''
 def process():
-    '''    public void process()
+    '''public void process()
     '''

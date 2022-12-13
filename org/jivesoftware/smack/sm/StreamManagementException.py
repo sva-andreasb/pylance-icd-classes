@@ -1,40 +1,40 @@
 def StreamManagementException():
-    '''    public StreamManagementException()
+    '''public StreamManagementException()
     public StreamManagementException(final String message)
     '''
 def StreamIdDoesNotMatchException():
-    '''    public StreamIdDoesNotMatchException(final String expected, final String got)
+    '''public StreamIdDoesNotMatchException(final String expected, final String got)
     '''
 def StreamManagementCounterError():
-    '''    public StreamManagementCounterError(final long handledCount, final long previousServerHandlerCount, final long ackedStanzaCount, final List<Stanza> ackedStanzas)
+    '''public StreamManagementCounterError(final long handledCount, final long previousServerHandlerCount, final long ackedStanzaCount, final List<Stanza> ackedStanzas)
     '''
 def getHandledCount():
-    '''    public long getHandledCount()
+    '''public long getHandledCount()
     '''
 def getPreviousServerHandledCount():
-    '''    public long getPreviousServerHandledCount()
+    '''public long getPreviousServerHandledCount()
     '''
 def getAckedStanzaCount():
-    '''    public long getAckedStanzaCount()
+    '''public long getAckedStanzaCount()
     '''
 def getOutstandingStanzasCount():
-    '''    public int getOutstandingStanzasCount()
+    '''public int getOutstandingStanzasCount()
     '''
 def getAckedStanzas():
-    '''    public List<Stanza> getAckedStanzas()
+    '''public List<Stanza> getAckedStanzas()
     '''
 def getOverflowElementNum():
-    '''    public int getOverflowElementNum()
+    '''public int getOverflowElementNum()
     '''
 def getDroppedElements():
-    '''    public int getDroppedElements()
+    '''public int getDroppedElements()
     '''
 def getElements():
-    '''    public List<Element> getElements()
+    '''public List<Element> getElements()
     '''
 def getUnacknowledgesStanzas():
-    '''    public List<Stanza> getUnacknowledgesStanzas()
+    '''public List<Stanza> getUnacknowledgesStanzas()
     '''
 def newWith():
-    '''    public static UnacknowledgedQueueFullException newWith(final int overflowElementNum, final List<Element> elements, final BlockingQueue<Stanza> unacknowledgedStanzas)
+    '''public static UnacknowledgedQueueFullException newWith(final int overflowElementNum, final List<Element> elements, final BlockingQueue<Stanza> unacknowledgedStanzas)
     '''

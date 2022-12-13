@@ -1,3 +1,3 @@
 def AppDoctypeSet():
-    '''    public AppDoctypeSet(final MboServerInterface ms)
+    '''public AppDoctypeSet(final MboServerInterface ms)
     '''

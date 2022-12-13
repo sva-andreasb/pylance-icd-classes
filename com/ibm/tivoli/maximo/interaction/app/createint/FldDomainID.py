@@ -1,6 +1,6 @@
 def FldDomainID():
-    '''    public FldDomainID(final MboValue mbv)
+    '''public FldDomainID(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

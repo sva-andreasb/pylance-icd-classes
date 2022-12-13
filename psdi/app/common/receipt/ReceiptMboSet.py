@@ -1,27 +1,27 @@
 def ReceiptMboSet():
-    '''    public ReceiptMboSet(final MboServerInterface ms)
+    '''public ReceiptMboSet(final MboServerInterface ms)
     '''
 def getRecordCount():
-    '''    public int getRecordCount()
+    '''public int getRecordCount()
     '''
 def countRecords():
-    '''    public void countRecords()
+    '''public void countRecords()
     '''
 def setInvoiceString():
-    '''    public void setInvoiceString(final String invoiceString)
+    '''public void setInvoiceString(final String invoiceString)
     '''
 def getInvoiceString():
-    '''    public String getInvoiceString()
+    '''public String getInvoiceString()
     '''
 def incCurrentReceiptCount():
-    '''    public void incCurrentReceiptCount()
+    '''public void incCurrentReceiptCount()
     '''
 def removeUnselectedMbos():
-    '''    public MboSetRemote removeUnselectedMbos()
+    '''public MboSetRemote removeUnselectedMbos()
     '''
 def setInvoiceCreditType():
-    '''    public void setInvoiceCreditType(final boolean creditInvoiceType)
+    '''public void setInvoiceCreditType(final boolean creditInvoiceType)
     '''
 def isInvoiceCreditType():
-    '''    public boolean isInvoiceCreditType()
+    '''public boolean isInvoiceCreditType()
     '''

@@ -1,6 +1,6 @@
 def getPathTokensMeta():
-    '''    public Map<String, String> getPathTokensMeta()
+    '''public Map<String, String> getPathTokensMeta()
     '''
 def handleRequest():
-    '''    public OslcResourceResponse handleRequest(final OslcRequest oslcRequest)
+    '''public OslcResourceResponse handleRequest(final OslcRequest oslcRequest)
     '''

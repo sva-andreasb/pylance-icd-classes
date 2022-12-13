@@ -1,3 +1,3 @@
 def ValueListDomain():
-    '''    public ValueListDomain(final MboValue mv)
+    '''public ValueListDomain(final MboValue mv)
     '''

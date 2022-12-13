@@ -1,6 +1,6 @@
 def JobPlanFilter():
-    '''    public JobPlanFilter(final MboSet ms)
+    '''public JobPlanFilter(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

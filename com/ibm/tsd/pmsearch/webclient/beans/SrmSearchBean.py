@@ -9,23 +9,23 @@ DESCRIPTION_LD = "String  \"description_longdescription\""
 TICKETID = "String  \"ticketid\""
 CLASS = "String  \"class\""
 def SrmSearchBean():
-    '''    public SrmSearchBean()
+    '''public SrmSearchBean()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''
 def search():
-    '''    public int search()
+    '''public int search()
     '''
 def initializeApp():
-    '''    public void initializeApp()
+    '''public void initializeApp()
     '''
 def getMboSet():
-    '''    public MboSetRemote getMboSet()
+    '''public MboSetRemote getMboSet()
     '''
 def getSearchEngine():
-    '''    public SrmSearchEngine getSearchEngine()
+    '''public SrmSearchEngine getSearchEngine()
     '''

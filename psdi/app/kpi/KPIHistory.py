@@ -1,6 +1,6 @@
 def KPIHistory():
-    '''    public KPIHistory(final MboSet ms)
+    '''public KPIHistory(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

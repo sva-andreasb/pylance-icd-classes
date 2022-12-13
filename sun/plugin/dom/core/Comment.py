@@ -1,9 +1,9 @@
 def Comment():
-    '''    public Comment(final DOMObject domObject)
+    '''public Comment(final DOMObject domObject)
     '''
 def getNodeName():
-    '''    public String getNodeName()
+    '''public String getNodeName()
     '''
 def getNodeType():
-    '''    public short getNodeType()
+    '''public short getNodeType()
     '''

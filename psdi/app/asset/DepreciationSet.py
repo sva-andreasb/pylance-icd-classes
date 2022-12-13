@@ -1,3 +1,3 @@
 def DepreciationSet():
-    '''    public DepreciationSet(final MboServerInterface ms)
+    '''public DepreciationSet(final MboServerInterface ms)
     '''

@@ -1,60 +1,60 @@
 def Report():
-    '''    public Report(final MboSet ms)
+    '''public Report(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def canLimitRecords():
-    '''    public boolean canLimitRecords()
+    '''public boolean canLimitRecords()
     '''
 def isLimitedType():
-    '''    public boolean isLimitedType(final String runType)
+    '''public boolean isLimitedType(final String runType)
     '''
 def isQuickPrintable():
-    '''    public boolean isQuickPrintable()
+    '''public boolean isQuickPrintable()
     '''
 def setFieldsReadOnly():
-    '''    public void setFieldsReadOnly(final boolean state)
+    '''public void setFieldsReadOnly(final boolean state)
     '''
 def generateAndReplaceAllXML():
-    '''    public String generateAndReplaceAllXML()
+    '''public String generateAndReplaceAllXML()
     '''
 def getBaseReportXML():
-    '''    public String getBaseReportXML()
+    '''public String getBaseReportXML()
     '''
 def generateXML():
-    '''    public String generateXML(final MboRemote appfolder, final MboSetRemote lookupset, String presentationXML)
+    '''public String generateXML(final MboRemote appfolder, final MboSetRemote lookupset, String presentationXML)
     '''
 def assembleFolderDialog():
-    '''    public String assembleFolderDialog(final String appName)
+    '''public String assembleFolderDialog(final String appName)
     '''
 def assembleRequestPage():
-    '''    public String assembleRequestPage(final MboRemote report, final MboSetRemote lookupset, final int reportnum, final String reporttype)
+    '''public String assembleRequestPage(final MboRemote report, final MboSetRemote lookupset, final int reportnum, final String reporttype)
     '''
 def assembleDOVRequestPage():
-    '''    public String assembleDOVRequestPage()
+    '''public String assembleDOVRequestPage()
     '''
 def insertDialog():
-    '''    public String insertDialog(final String presentationXML, final String dialogXML, final String dialogID)
+    '''public String insertDialog(final String presentationXML, final String dialogXML, final String dialogID)
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def sigopGranted():
-    '''    public boolean sigopGranted(final String app, final String optionname)
+    '''public boolean sigopGranted(final String app, final String optionname)
     '''
 def checkSiteOrgAccessForSave():
-    '''    public void checkSiteOrgAccessForSave()
+    '''public void checkSiteOrgAccessForSave()
     '''

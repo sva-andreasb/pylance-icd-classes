@@ -1,3 +1,3 @@
 def DMCollToolIconSet():
-    '''    public DMCollToolIconSet(final MboServerInterface ms)
+    '''public DMCollToolIconSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def MXApplicationLiteralWarningException():
-    '''    public MXApplicationLiteralWarningException(final String message)
+    '''public MXApplicationLiteralWarningException(final String message)
     '''
 def getMessage():
-    '''    public String getMessage()
+    '''public String getMessage()
     '''

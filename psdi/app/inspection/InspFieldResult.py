@@ -1,3 +1,3 @@
 def InspFieldResult():
-    '''    public InspFieldResult(final MboSet ms)
+    '''public InspFieldResult(final MboSet ms)
     '''

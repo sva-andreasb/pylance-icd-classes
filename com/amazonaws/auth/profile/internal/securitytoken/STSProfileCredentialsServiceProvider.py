@@ -1,9 +1,9 @@
 def STSProfileCredentialsServiceProvider():
-    '''    public STSProfileCredentialsServiceProvider(final RoleInfo roleInfo)
+    '''public STSProfileCredentialsServiceProvider(final RoleInfo roleInfo)
     '''
 def getCredentials():
-    '''    public AWSCredentials getCredentials()
+    '''public AWSCredentials getCredentials()
     '''
 def refresh():
-    '''    public void refresh()
+    '''public void refresh()
     '''

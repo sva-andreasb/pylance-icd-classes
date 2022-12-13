@@ -1,9 +1,9 @@
 def FldIssueItemToAssetBinNum():
-    '''    public FldIssueItemToAssetBinNum(final MboValue mbv)
+    '''public FldIssueItemToAssetBinNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

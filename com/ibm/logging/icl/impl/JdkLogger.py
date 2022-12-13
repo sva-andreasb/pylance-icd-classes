@@ -1,10 +1,10 @@
 def log():
-    '''    public void log(final Level level, final Class sourceClass, final String sourceMethod, final String resourceBundleName, final String msg)
+    '''public void log(final Level level, final Class sourceClass, final String sourceMethod, final String resourceBundleName, final String msg)
     public void log(final Level level, final Class sourceClass, final String sourceMethod, final String resourceBundleName, final String msg, final Object param1)
     public void log(final Level level, final Class sourceClass, final String sourceMethod, final String resourceBundleName, final String msg, final Object[] params)
     '''
 def trace():
-    '''    public void trace(final TraceType type, final Level level, final Class sourceClass, final String sourceMethod, String msg)
+    '''public void trace(final TraceType type, final Level level, final Class sourceClass, final String sourceMethod, String msg)
     public void trace(final TraceType type, final Level level, final Class sourceClass, final String sourceMethod, String msg, final Object object)
     public void trace(final TraceType type, final Level level, final Class sourceClass, final String sourceMethod, String msg, final String string)
     public void trace(final TraceType type, final Level level, final Class sourceClass, final String sourceMethod, String msg, final Throwable thrown)
@@ -18,5 +18,5 @@ def trace():
     public void trace(final TraceType type, final Level level, final Class sourceClass, final String sourceMethod, String msg, final short result)
     '''
 def isEnabled():
-    '''    public boolean isEnabled(final Level level)
+    '''public boolean isEnabled(final Level level)
     '''

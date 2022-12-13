@@ -1,12 +1,12 @@
 def GetBucketWebsiteConfigurationRequest():
-    '''    public GetBucketWebsiteConfigurationRequest(final String bucketName)
+    '''public GetBucketWebsiteConfigurationRequest(final String bucketName)
     '''
 def setBucketName():
-    '''    public void setBucketName(final String bucketName)
+    '''public void setBucketName(final String bucketName)
     '''
 def getBucketName():
-    '''    public String getBucketName()
+    '''public String getBucketName()
     '''
 def withBucketName():
-    '''    public GetBucketWebsiteConfigurationRequest withBucketName(final String bucketName)
+    '''public GetBucketWebsiteConfigurationRequest withBucketName(final String bucketName)
     '''

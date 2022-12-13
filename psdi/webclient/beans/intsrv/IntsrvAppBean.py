@@ -1,3 +1,3 @@
 def VIEWXML():
-    '''    public int VIEWXML()
+    '''public int VIEWXML()
     '''

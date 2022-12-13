@@ -1,6 +1,6 @@
 def WFRevision():
-    '''    public WFRevision(final MboSet ms)
+    '''public WFRevision(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

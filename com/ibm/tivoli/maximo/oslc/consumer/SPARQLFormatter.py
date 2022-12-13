@@ -9,14 +9,14 @@ OPERATOR_SW = "String  \"STARTSWITH\""
 OPERATOR_EW = "String  \"ENDSWITH\""
 OPERATOR_LIKE = "String  \"LIKE\""
 def SPARQLFormatter():
-    '''    public SPARQLFormatter(final QueryInfo queryInfo, final MboRemote mbo, final Map<String, String> nsPrefixMap, final OslcInteractionInfo interactionInfo)
+    '''public SPARQLFormatter(final QueryInfo queryInfo, final MboRemote mbo, final Map<String, String> nsPrefixMap, final OslcInteractionInfo interactionInfo)
     '''
 def asDate():
-    '''    public String asDate(final String value)
+    '''public String asDate(final String value)
     '''
 def getResolvedWhere():
-    '''    public String getResolvedWhere()
+    '''public String getResolvedWhere()
     '''
 def canExecute():
-    '''    public boolean canExecute()
+    '''public boolean canExecute()
     '''

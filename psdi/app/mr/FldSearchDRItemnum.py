@@ -1,6 +1,6 @@
 def FldSearchDRItemnum():
-    '''    public FldSearchDRItemnum(final MboValue mbv)
+    '''public FldSearchDRItemnum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

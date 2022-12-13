@@ -1,6 +1,6 @@
 def PmOwnerHistory():
-    '''    public PmOwnerHistory(final MboSet ms)
+    '''public PmOwnerHistory(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

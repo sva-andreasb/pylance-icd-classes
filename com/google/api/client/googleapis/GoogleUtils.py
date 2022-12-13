@@ -1,3 +1,3 @@
 def getCertificateTrustStore():
-    '''    public static synchronized KeyStore getCertificateTrustStore()
+    '''public static synchronized KeyStore getCertificateTrustStore()
     '''

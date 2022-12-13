@@ -1,3 +1,3 @@
 def getDOMImplementation():
-    '''    public static DOMImplementation getDOMImplementation()
+    '''public static DOMImplementation getDOMImplementation()
     '''

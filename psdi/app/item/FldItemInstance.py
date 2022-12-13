@@ -1,6 +1,6 @@
 def FldItemInstance():
-    '''    public FldItemInstance(final MboValue mbv)
+    '''public FldItemInstance(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

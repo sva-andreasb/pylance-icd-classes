@@ -1,6 +1,6 @@
 def FldCheckPublishChannel():
-    '''    public FldCheckPublishChannel(final MboValue mbv)
+    '''public FldCheckPublishChannel(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

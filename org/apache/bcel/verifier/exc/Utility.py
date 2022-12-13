@@ -1,3 +1,3 @@
 def getStackTrace():
-    '''    public static String getStackTrace(final Throwable t)
+    '''public static String getStackTrace(final Throwable t)
     '''

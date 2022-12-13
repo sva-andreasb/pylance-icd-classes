@@ -1,3 +1,3 @@
 def PlusCJPDataSheetSet():
-    '''    public PlusCJPDataSheetSet(final MboServerInterface ms)
+    '''public PlusCJPDataSheetSet(final MboServerInterface ms)
     '''

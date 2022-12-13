@@ -1,6 +1,6 @@
 def FldAssetOpSKDStartDateTime():
-    '''    public FldAssetOpSKDStartDateTime(final MboValue mbv)
+    '''public FldAssetOpSKDStartDateTime(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

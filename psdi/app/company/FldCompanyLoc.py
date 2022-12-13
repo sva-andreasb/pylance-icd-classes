@@ -1,3 +1,3 @@
 def FldCompanyLoc():
-    '''    public FldCompanyLoc(final MboValue mbv)
+    '''public FldCompanyLoc(final MboValue mbv)
     '''

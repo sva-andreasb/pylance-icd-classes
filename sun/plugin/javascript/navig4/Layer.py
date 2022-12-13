@@ -1,3 +1,3 @@
 def getMember():
-    '''    public Object getMember(final String s)
+    '''public Object getMember(final String s)
     '''

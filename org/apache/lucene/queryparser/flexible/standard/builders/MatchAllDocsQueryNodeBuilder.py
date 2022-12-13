@@ -1,3 +1,3 @@
 def build():
-    '''    public MatchAllDocsQuery build(final QueryNode queryNode)
+    '''public MatchAllDocsQuery build(final QueryNode queryNode)
     '''

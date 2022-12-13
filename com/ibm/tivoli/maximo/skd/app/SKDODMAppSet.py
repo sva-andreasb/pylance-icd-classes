@@ -1,3 +1,3 @@
 def SKDODMAppSet():
-    '''    public SKDODMAppSet(final MboServerInterface ms)
+    '''public SKDODMAppSet(final MboServerInterface ms)
     '''

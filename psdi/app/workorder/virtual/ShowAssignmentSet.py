@@ -1,3 +1,3 @@
 def ShowAssignmentSet():
-    '''    public ShowAssignmentSet(final MboRemote owner)
+    '''public ShowAssignmentSet(final MboRemote owner)
     '''

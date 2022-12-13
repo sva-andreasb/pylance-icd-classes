@@ -1,6 +1,6 @@
 def FldCascadePosition():
-    '''    public FldCascadePosition(final MboValue mbv)
+    '''public FldCascadePosition(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

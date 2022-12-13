@@ -1,54 +1,54 @@
 def FieldQueryNode():
-    '''    public FieldQueryNode(final CharSequence field, final CharSequence text, final int begin, final int end)
+    '''public FieldQueryNode(final CharSequence field, final CharSequence text, final int begin, final int end)
     '''
 def toQueryString():
-    '''    public CharSequence toQueryString(final EscapeQuerySyntax escaper)
+    '''public CharSequence toQueryString(final EscapeQuerySyntax escaper)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getTextAsString():
-    '''    public String getTextAsString()
+    '''public String getTextAsString()
     '''
 def getFieldAsString():
-    '''    public String getFieldAsString()
+    '''public String getFieldAsString()
     '''
 def getBegin():
-    '''    public int getBegin()
+    '''public int getBegin()
     '''
 def setBegin():
-    '''    public void setBegin(final int begin)
+    '''public void setBegin(final int begin)
     '''
 def getEnd():
-    '''    public int getEnd()
+    '''public int getEnd()
     '''
 def setEnd():
-    '''    public void setEnd(final int end)
+    '''public void setEnd(final int end)
     '''
 def getField():
-    '''    public CharSequence getField()
+    '''public CharSequence getField()
     '''
 def setField():
-    '''    public void setField(final CharSequence field)
+    '''public void setField(final CharSequence field)
     '''
 def getPositionIncrement():
-    '''    public int getPositionIncrement()
+    '''public int getPositionIncrement()
     '''
 def setPositionIncrement():
-    '''    public void setPositionIncrement(final int pi)
+    '''public void setPositionIncrement(final int pi)
     '''
 def getText():
-    '''    public CharSequence getText()
+    '''public CharSequence getText()
     '''
 def setText():
-    '''    public void setText(final CharSequence text)
+    '''public void setText(final CharSequence text)
     '''
 def cloneTree():
-    '''    public FieldQueryNode cloneTree()
+    '''public FieldQueryNode cloneTree()
     '''
 def getValue():
-    '''    public CharSequence getValue()
+    '''public CharSequence getValue()
     '''
 def setValue():
-    '''    public void setValue(final CharSequence value)
+    '''public void setValue(final CharSequence value)
     '''

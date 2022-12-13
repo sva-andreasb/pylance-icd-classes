@@ -12,5 +12,5 @@ TRANSACTION_DONE = "int  17"
 TRANSACTION_FAILED = "int  18"
 NONE = "String  \"{none}\""
 def isEcmdb():
-    '''    public static boolean isEcmdb()
+    '''public static boolean isEcmdb()
     '''

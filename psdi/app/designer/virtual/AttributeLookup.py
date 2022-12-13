@@ -1,3 +1,3 @@
 def AttributeLookup():
-    '''    public AttributeLookup(final MboSet ms)
+    '''public AttributeLookup(final MboSet ms)
     '''

@@ -1,3 +1,3 @@
 def getMergeInstance():
-    '''    public TermVectorsReader getMergeInstance()
+    '''public TermVectorsReader getMergeInstance()
     '''

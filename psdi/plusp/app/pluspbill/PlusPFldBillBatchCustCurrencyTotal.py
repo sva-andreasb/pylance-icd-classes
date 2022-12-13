@@ -1,6 +1,6 @@
 def PlusPFldBillBatchCustCurrencyTotal():
-    '''    public PlusPFldBillBatchCustCurrencyTotal(final MboValue mbv)
+    '''public PlusPFldBillBatchCustCurrencyTotal(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

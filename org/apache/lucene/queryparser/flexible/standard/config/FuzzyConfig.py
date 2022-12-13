@@ -1,15 +1,15 @@
 def FuzzyConfig():
-    '''    public FuzzyConfig()
+    '''public FuzzyConfig()
     '''
 def getPrefixLength():
-    '''    public int getPrefixLength()
+    '''public int getPrefixLength()
     '''
 def setPrefixLength():
-    '''    public void setPrefixLength(final int prefixLength)
+    '''public void setPrefixLength(final int prefixLength)
     '''
 def getMinSimilarity():
-    '''    public float getMinSimilarity()
+    '''public float getMinSimilarity()
     '''
 def setMinSimilarity():
-    '''    public void setMinSimilarity(final float minSimilarity)
+    '''public void setMinSimilarity(final float minSimilarity)
     '''

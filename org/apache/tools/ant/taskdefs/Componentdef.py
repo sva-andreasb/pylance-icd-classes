@@ -1,3 +1,3 @@
 def Componentdef():
-    '''    public Componentdef()
+    '''public Componentdef()
     '''

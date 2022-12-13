@@ -1,6 +1,6 @@
 def FldRepFacAuthSite():
-    '''    public FldRepFacAuthSite(final MboValue mbv)
+    '''public FldRepFacAuthSite(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

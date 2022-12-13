@@ -1,3 +1,3 @@
 def owned():
-    '''    public void owned(final BareJid owner)
+    '''public void owned(final BareJid owner)
     '''

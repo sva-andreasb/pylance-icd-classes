@@ -1,3 +1,3 @@
 def TransactionAbortedException():
-    '''    public TransactionAbortedException(final Resource root, final Throwable t)
+    '''public TransactionAbortedException(final Resource root, final Throwable t)
     '''

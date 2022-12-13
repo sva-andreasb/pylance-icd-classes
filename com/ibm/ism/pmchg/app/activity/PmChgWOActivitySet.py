@@ -1,3 +1,3 @@
 def PmChgWOActivitySet():
-    '''    public PmChgWOActivitySet(final MboServerInterface ms)
+    '''public PmChgWOActivitySet(final MboServerInterface ms)
     '''

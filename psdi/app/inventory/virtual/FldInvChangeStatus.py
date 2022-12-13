@@ -1,3 +1,3 @@
 def FldInvChangeStatus():
-    '''    public FldInvChangeStatus(final MboValue mbv)
+    '''public FldInvChangeStatus(final MboValue mbv)
     '''

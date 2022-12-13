@@ -1,3 +1,3 @@
 def getAnswerOrTuple():
-    '''    public List<Object> getAnswerOrTuple()
+    '''public List<Object> getAnswerOrTuple()
     '''

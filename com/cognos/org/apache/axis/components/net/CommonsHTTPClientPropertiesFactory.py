@@ -1,3 +1,3 @@
 def create():
-    '''    public static synchronized CommonsHTTPClientProperties create()
+    '''public static synchronized CommonsHTTPClientProperties create()
     '''

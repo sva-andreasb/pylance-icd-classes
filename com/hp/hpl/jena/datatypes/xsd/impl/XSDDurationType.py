@@ -1,6 +1,6 @@
 def XSDDurationType():
-    '''    public XSDDurationType()
+    '''public XSDDurationType()
     '''
 def parseValidated():
-    '''    public Object parseValidated(final String str)
+    '''public Object parseValidated(final String str)
     '''

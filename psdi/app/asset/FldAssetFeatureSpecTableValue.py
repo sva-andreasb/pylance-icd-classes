@@ -1,6 +1,6 @@
 def FldAssetFeatureSpecTableValue():
-    '''    public FldAssetFeatureSpecTableValue(final MboValue mbv)
+    '''public FldAssetFeatureSpecTableValue(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

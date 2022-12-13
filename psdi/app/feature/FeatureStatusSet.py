@@ -1,3 +1,3 @@
 def FeatureStatusSet():
-    '''    public FeatureStatusSet(final MboServerInterface ms)
+    '''public FeatureStatusSet(final MboServerInterface ms)
     '''

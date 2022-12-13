@@ -1,21 +1,21 @@
 def FailureReport():
-    '''    public FailureReport(final MboSet ms)
+    '''public FailureReport(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''

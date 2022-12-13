@@ -1,16 +1,16 @@
 FIELDNAME = "String  \"TKTEMPLATE\""
 def TicketTemplateFields():
-    '''    public TicketTemplateFields()
+    '''public TicketTemplateFields()
     '''
 def getFieldName():
-    '''    public String getFieldName()
+    '''public String getFieldName()
     '''
 def getClassName():
-    '''    public String getClassName()
+    '''public String getClassName()
     '''
 def hasAttachment():
-    '''    public boolean hasAttachment()
+    '''public boolean hasAttachment()
     '''
 def isRTE():
-    '''    public boolean isRTE(final String field)
+    '''public boolean isRTE(final String field)
     '''

@@ -1,6 +1,6 @@
 def DELETE():
-    '''    public int DELETE()
+    '''public int DELETE()
     '''
 def find():
-    '''    public int find()
+    '''public int find()
     '''

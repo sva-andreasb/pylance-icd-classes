@@ -1,6 +1,6 @@
 def FldAssignFinishDate():
-    '''    public FldAssignFinishDate(final MboValue mbv)
+    '''public FldAssignFinishDate(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,6 +1,6 @@
 def countLines():
-    '''    public static int countLines(final String str)
+    '''public static int countLines(final String str)
     '''
 def sanitizeFilename():
-    '''    public static String sanitizeFilename(final String name)
+    '''public static String sanitizeFilename(final String name)
     '''

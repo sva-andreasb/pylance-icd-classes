@@ -1,6 +1,6 @@
 def FldSKDPropertyColumnWidth():
-    '''    public FldSKDPropertyColumnWidth(final MboValue mbv)
+    '''public FldSKDPropertyColumnWidth(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

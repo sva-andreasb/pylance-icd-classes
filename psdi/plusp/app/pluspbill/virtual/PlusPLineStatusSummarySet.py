@@ -1,6 +1,6 @@
 def PlusPLineStatusSummarySet():
-    '''    public PlusPLineStatusSummarySet(final MboServerInterface ms)
+    '''public PlusPLineStatusSummarySet(final MboServerInterface ms)
     '''
 def setupMbos():
-    '''    public void setupMbos()
+    '''public void setupMbos()
     '''

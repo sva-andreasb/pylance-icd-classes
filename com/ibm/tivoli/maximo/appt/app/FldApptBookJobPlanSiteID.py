@@ -1,3 +1,3 @@
 def FldApptBookJobPlanSiteID():
-    '''    public FldApptBookJobPlanSiteID(final MboValue mbv)
+    '''public FldApptBookJobPlanSiteID(final MboValue mbv)
     '''

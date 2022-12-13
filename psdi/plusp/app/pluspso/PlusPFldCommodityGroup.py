@@ -1,6 +1,6 @@
 def PlusPFldCommodityGroup():
-    '''    public PlusPFldCommodityGroup(final MboValue mbv)
+    '''public PlusPFldCommodityGroup(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

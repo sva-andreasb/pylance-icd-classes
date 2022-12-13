@@ -1,9 +1,9 @@
 def FldMatRecTransFromLot():
-    '''    public FldMatRecTransFromLot(final MboValue mbv)
+    '''public FldMatRecTransFromLot(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

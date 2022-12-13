@@ -1,7 +1,7 @@
 BC = "int  0"
 AD = "int  1"
 def GregorianCalendar():
-    '''    public GregorianCalendar()
+    '''public GregorianCalendar()
     public GregorianCalendar(final TimeZone zone)
     public GregorianCalendar(final Locale aLocale)
     public GregorianCalendar(final ULocale locale)
@@ -12,29 +12,29 @@ def GregorianCalendar():
     public GregorianCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
     '''
 def setGregorianChange():
-    '''    public void setGregorianChange(final Date date)
+    '''public void setGregorianChange(final Date date)
     '''
 def getGregorianChange():
-    '''    public final Date getGregorianChange()
+    '''public final Date getGregorianChange()
     '''
 def isLeapYear():
-    '''    public boolean isLeapYear(final int year)
+    '''public boolean isLeapYear(final int year)
     '''
 def isEquivalentTo():
-    '''    public boolean isEquivalentTo(final Calendar other)
+    '''public boolean isEquivalentTo(final Calendar other)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def roll():
-    '''    public void roll(final int field, final int amount)
+    '''public void roll(final int field, final int amount)
     '''
 def getActualMinimum():
-    '''    public int getActualMinimum(final int field)
+    '''public int getActualMinimum(final int field)
     '''
 def getActualMaximum():
-    '''    public int getActualMaximum(final int field)
+    '''public int getActualMaximum(final int field)
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''

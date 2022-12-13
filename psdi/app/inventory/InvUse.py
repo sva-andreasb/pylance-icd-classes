@@ -1,268 +1,268 @@
 def InvUse():
-    '''    public InvUse(final MboSet ms)
+    '''public InvUse(final MboSet ms)
     '''
 def getProcess():
-    '''    public String getProcess()
+    '''public String getProcess()
     '''
 def getMeterMap():
-    '''    public HashMap<String, DeployedMeterRemote> getMeterMap()
+    '''public HashMap<String, DeployedMeterRemote> getMeterMap()
     '''
 def getStatusListName():
-    '''    public String getStatusListName()
+    '''public String getStatusListName()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def initFieldFlagsOnMbo():
-    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''public void initFieldFlagsOnMbo(final String attrName)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def getStatus():
-    '''    public String getStatus()
+    '''public String getStatus()
     '''
 def addInvUseLine():
-    '''    public InvUseLineRemote addInvUseLine(final MboRemote owner)
+    '''public InvUseLineRemote addInvUseLine(final MboRemote owner)
     '''
 def changeStatus():
-    '''    public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
+    '''public void changeStatus(final String status, final Date date, final String memo, final long accessModifier)
     public void changeStatus(final String status, final Date date, final String memo, final String binflag, final String stagingbin, final boolean listtab, final long accessModifier)
     '''
 def validateStatus():
-    '''    public void validateStatus(final String status, final Date date, final String memo, final String binflag, final String stagingbin, final boolean listtab)
+    '''public void validateStatus(final String status, final Date date, final String memo, final String binflag, final String stagingbin, final boolean listtab)
     '''
 def chkPickListMbo():
-    '''    public boolean chkPickListMbo(final MboRemote owner)
+    '''public boolean chkPickListMbo(final MboRemote owner)
     '''
 def checkReservationandSetBin():
-    '''    public void checkReservationandSetBin(final String binflag, final String stagebin, final String status)
+    '''public void checkReservationandSetBin(final String binflag, final String stagebin, final String status)
     '''
 def validateLineReservationandSetBin():
-    '''    public boolean validateLineReservationandSetBin(final boolean listtab, final String binflag, final String stagebin, final String status)
+    '''public boolean validateLineReservationandSetBin(final boolean listtab, final String binflag, final String stagebin, final String status)
     '''
 def processInvUseLines():
-    '''    public boolean processInvUseLines()
+    '''public boolean processInvUseLines()
     '''
 def deleteInvUseLines():
-    '''    public void deleteInvUseLines()
+    '''public void deleteInvUseLines()
     '''
 def cancelInvUseLines():
-    '''    public void cancelInvUseLines()
+    '''public void cancelInvUseLines()
     '''
 def getInvUseLineNum():
-    '''    public String getInvUseLineNum()
+    '''public String getInvUseLineNum()
     '''
 def allReservationDeletedInSet():
-    '''    public boolean allReservationDeletedInSet()
+    '''public boolean allReservationDeletedInSet()
     '''
 def isEntered():
-    '''    public boolean isEntered()
+    '''public boolean isEntered()
     '''
 def isStaged():
-    '''    public boolean isStaged()
+    '''public boolean isStaged()
     '''
 def isShipped():
-    '''    public boolean isShipped()
+    '''public boolean isShipped()
     '''
 def isCompleted():
-    '''    public boolean isCompleted()
+    '''public boolean isCompleted()
     '''
 def isCancelled():
-    '''    public boolean isCancelled()
+    '''public boolean isCancelled()
     '''
 def copyInvUseLineSetForReturn():
-    '''    public void copyInvUseLineSetForReturn(final MboSetRemote matUseTransSet)
+    '''public void copyInvUseLineSetForReturn(final MboSetRemote matUseTransSet)
     '''
 def copyInvReserveSetForInvUse():
-    '''    public void copyInvReserveSetForInvUse(final MboSetRemote invReserveSet)
+    '''public void copyInvReserveSetForInvUse(final MboSetRemote invReserveSet)
     '''
 def copySparePartSetForInvUse():
-    '''    public void copySparePartSetForInvUse(final MboSetRemote sparePartSet)
+    '''public void copySparePartSetForInvUse(final MboSetRemote sparePartSet)
     '''
 def copyInvBalancesSetForItems():
-    '''    public void copyInvBalancesSetForItems(final MboSetRemote invBalancesSet)
+    '''public void copyInvBalancesSetForItems(final MboSetRemote invBalancesSet)
     '''
 def isTransfer():
-    '''    public boolean isTransfer()
+    '''public boolean isTransfer()
     '''
 def isIssue():
-    '''    public boolean isIssue()
+    '''public boolean isIssue()
     '''
 def staged():
-    '''    public void staged()
+    '''public void staged()
     '''
 def complete():
-    '''    public void complete(final String currentMaxStatus)
+    '''public void complete(final String currentMaxStatus)
     '''
 def shipped():
-    '''    public void shipped(final String currentMaxStatus)
+    '''public void shipped(final String currentMaxStatus)
     '''
 def getInvUseLineSplitRecordsMap():
-    '''    public HashMap<Long, ArrayList<InvUseLineSplitRemote>> getInvUseLineSplitRecordsMap()
+    '''public HashMap<Long, ArrayList<InvUseLineSplitRemote>> getInvUseLineSplitRecordsMap()
     '''
 def cancelled():
-    '''    public void cancelled()
+    '''public void cancelled()
     '''
 def isSplitNeeded():
-    '''    public void isSplitNeeded(final MboRemote invUseLine)
+    '''public void isSplitNeeded(final MboRemote invUseLine)
     '''
 def isListSelected():
-    '''    public boolean isListSelected()
+    '''public boolean isListSelected()
     '''
 def setListSelected():
-    '''    public void setListSelected(final boolean isListSelected)
+    '''public void setListSelected(final boolean isListSelected)
     '''
 def validateLines():
-    '''    public void validateLines(final String status)
+    '''public void validateLines(final String status)
     '''
 def checkNegativeBalanace():
-    '''    public void checkNegativeBalanace(final MboRemote invuseline)
+    '''public void checkNegativeBalanace(final MboRemote invuseline)
     '''
 def validateRotatingAssets():
-    '''    public void validateRotatingAssets(final MboRemote invUseLine)
+    '''public void validateRotatingAssets(final MboRemote invUseLine)
     '''
 def validateGLAccounts():
-    '''    public void validateGLAccounts(final MboRemote invuseline)
+    '''public void validateGLAccounts(final MboRemote invuseline)
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def getUseType():
-    '''    public String getUseType()
+    '''public String getUseType()
     '''
 def validatedata():
-    '''    public void validatedata()
+    '''public void validatedata()
     '''
 def checkReturnLinesinSet():
-    '''    public boolean checkReturnLinesinSet()
+    '''public boolean checkReturnLinesinSet()
     '''
 def getQtyMap():
-    '''    public HashMap<Long, Double> getQtyMap()
+    '''public HashMap<Long, Double> getQtyMap()
     '''
 def setQtyMap():
-    '''    public void setQtyMap(final Long invBalId, final Double qty)
+    '''public void setQtyMap(final Long invBalId, final Double qty)
     '''
 def removeQtyMap():
-    '''    public void removeQtyMap(final Long invBalId)
+    '''public void removeQtyMap(final Long invBalId)
     '''
 def getUsedRotAssetNSMap():
-    '''    public HashMap<String, String> getUsedRotAssetNSMap()
+    '''public HashMap<String, String> getUsedRotAssetNSMap()
     '''
 def setUsedRotAssetNSMap():
-    '''    public void setUsedRotAssetNSMap(final String keyid, final String rotassetnum)
+    '''public void setUsedRotAssetNSMap(final String keyid, final String rotassetnum)
     '''
 def removeUsedRotAssetNSMap():
-    '''    public void removeUsedRotAssetNSMap(final String keyid)
+    '''public void removeUsedRotAssetNSMap(final String keyid)
     '''
 def getUsedRotAssetSMap():
-    '''    public HashMap<String, String> getUsedRotAssetSMap()
+    '''public HashMap<String, String> getUsedRotAssetSMap()
     '''
 def setUsedRotAssetSMap():
-    '''    public void setUsedRotAssetSMap(final String keyid, final String rotassetnum)
+    '''public void setUsedRotAssetSMap(final String keyid, final String rotassetnum)
     '''
 def removeUsedRotAssetSMap():
-    '''    public void removeUsedRotAssetSMap(final String keyid)
+    '''public void removeUsedRotAssetSMap(final String keyid)
     '''
 def getRotQtyMap():
-    '''    public HashMap<Long, Double> getRotQtyMap()
+    '''public HashMap<Long, Double> getRotQtyMap()
     '''
 def setRotQtyMap():
-    '''    public void setRotQtyMap(final Long keyid, final Double qty)
+    '''public void setRotQtyMap(final Long keyid, final Double qty)
     '''
 def removeRotQtyMap():
-    '''    public void removeRotQtyMap(final Long keyid)
+    '''public void removeRotQtyMap(final Long keyid)
     '''
 def getDeletedInvUseLineList():
-    '''    public ArrayList<Long> getDeletedInvUseLineList()
+    '''public ArrayList<Long> getDeletedInvUseLineList()
     '''
 def getInvBalQtyNSMap():
-    '''    public HashMap<Long, Double> getInvBalQtyNSMap()
+    '''public HashMap<Long, Double> getInvBalQtyNSMap()
     '''
 def setInvBalQtyNSMap():
-    '''    public void setInvBalQtyNSMap(final Long invBalId, final Double qty)
+    '''public void setInvBalQtyNSMap(final Long invBalId, final Double qty)
     '''
 def removeInvBalQtyNSMap():
-    '''    public void removeInvBalQtyNSMap(final Long invBalId)
+    '''public void removeInvBalQtyNSMap(final Long invBalId)
     '''
 def getUsedRotAssetList():
-    '''    public ArrayList<String> getUsedRotAssetList()
+    '''public ArrayList<String> getUsedRotAssetList()
     '''
 def addToUsedRotAssetList():
-    '''    public void addToUsedRotAssetList(final String rotassetnum)
+    '''public void addToUsedRotAssetList(final String rotassetnum)
     '''
 def checkRotAssetNumList():
-    '''    public void checkRotAssetNumList(final String key, final String rotassetnum, final boolean newasset)
+    '''public void checkRotAssetNumList(final String key, final String rotassetnum, final boolean newasset)
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def setShipmentLines():
-    '''    public MboRemote setShipmentLines()
+    '''public MboRemote setShipmentLines()
     '''
 def addShipmentLines():
-    '''    public void addShipmentLines(final MboRemote shipment)
+    '''public void addShipmentLines(final MboRemote shipment)
     '''
 def validateForShipped():
-    '''    public void validateForShipped(final MboRemote invUseLine)
+    '''public void validateForShipped(final MboRemote invUseLine)
     '''
 def getClearingAcct():
-    '''    public String getClearingAcct()
+    '''public String getClearingAcct()
     '''
 def getShipmentLineMap():
-    '''    public HashMap<Long, MboRemote> getShipmentLineMap()
+    '''public HashMap<Long, MboRemote> getShipmentLineMap()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def updateInvUseReceipts():
-    '''    public void updateInvUseReceipts(final InvUseLineRemote invUseLine)
+    '''public void updateInvUseReceipts(final InvUseLineRemote invUseLine)
     '''
 def getExchangeRate():
-    '''    public double getExchangeRate(final Date date)
+    '''public double getExchangeRate(final Date date)
     '''
 def getExchangeRate2():
-    '''    public double getExchangeRate2(final Date date)
+    '''public double getExchangeRate2(final Date date)
     '''
 def getInvUseLineMap():
-    '''    public HashMap<Long, MboRemote> getInvUseLineMap()
+    '''public HashMap<Long, MboRemote> getInvUseLineMap()
     '''
 def validateHardReservation():
-    '''    public void validateHardReservation(final MboRemote invUseLine)
+    '''public void validateHardReservation(final MboRemote invUseLine)
     '''
 def getEvaluateSplitFlag():
-    '''    public int getEvaluateSplitFlag()
+    '''public int getEvaluateSplitFlag()
     '''
 def setEvaluateSplitFlag():
-    '''    public int setEvaluateSplitFlag(final int split)
+    '''public int setEvaluateSplitFlag(final int split)
     '''
 def setValidateStatusHasBeenCalled():
-    '''    public void setValidateStatusHasBeenCalled(final boolean hasBeenCalled)
+    '''public void setValidateStatusHasBeenCalled(final boolean hasBeenCalled)
     '''
 def getValidateStatusHasBeenCalled():
-    '''    public boolean getValidateStatusHasBeenCalled()
+    '''public boolean getValidateStatusHasBeenCalled()
     '''
 def createInvUsageForPartialIssues():
-    '''    public MboRemote createInvUsageForPartialIssues(final MboSetRemote invReserveSet)
+    '''public MboRemote createInvUsageForPartialIssues(final MboSetRemote invReserveSet)
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def selectAllInSet():
-    '''    public void selectAllInSet(final MboSetRemote invReserveSet)
+    '''public void selectAllInSet(final MboSetRemote invReserveSet)
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def validateFinancialPeriods():
-    '''    public void validateFinancialPeriods(final String newStatus)
+    '''public void validateFinancialPeriods(final String newStatus)
     '''
 def canUseNextFinancialPeriod():
-    '''    public Boolean canUseNextFinancialPeriod()
+    '''public Boolean canUseNextFinancialPeriod()
     '''
 def getValidateFinancialPeriodsHasBeenCalled():
-    '''    public boolean getValidateFinancialPeriodsHasBeenCalled()
+    '''public boolean getValidateFinancialPeriodsHasBeenCalled()
     '''
 def setValidateFinancialPeriodsCalled():
-    '''    public void setValidateFinancialPeriodsCalled(final boolean hasBeenCalled)
+    '''public void setValidateFinancialPeriodsCalled(final boolean hasBeenCalled)
     '''

@@ -16,44 +16,44 @@ COLUMN_LICENSEID = "int  14"
 COLUMN_APPLICATION = "int  15"
 NUM_COLUMNS = "int  16"
 def getString():
-    '''    public static String getString(final String s)
+    '''public static String getString(final String s)
     '''
 def JlmKeyToRow():
-    '''    public static Object[] JlmKeyToRow(final JlmKey jlmKey)
+    '''public static Object[] JlmKeyToRow(final JlmKey jlmKey)
     '''
 def prettyLicenseType():
-    '''    public static String prettyLicenseType(final int n)
+    '''public static String prettyLicenseType(final int n)
     '''
 def prettyVersionName():
-    '''    public static String prettyVersionName(final double number)
+    '''public static String prettyVersionName(final double number)
     '''
 def prettyMaintenanceEnd():
-    '''    public static Date prettyMaintenanceEnd(final int n)
+    '''public static Date prettyMaintenanceEnd(final int n)
     '''
 def WellFormedKeys():
-    '''    public WellFormedKeys()
+    '''public WellFormedKeys()
     '''
 def getKeys():
-    '''    public JlmKey[] getKeys()
+    '''public JlmKey[] getKeys()
     '''
 def getPreferencesFile():
-    '''    public URL getPreferencesFile()
+    '''public URL getPreferencesFile()
     '''
 def shouldShowWarning():
-    '''    public boolean shouldShowWarning(final int n)
+    '''public boolean shouldShowWarning(final int n)
     '''
 def getHideExpireWarning1():
-    '''    public boolean getHideExpireWarning1()
+    '''public boolean getHideExpireWarning1()
     '''
 def setHideExpireWarning1():
-    '''    public void setHideExpireWarning1(final boolean e)
+    '''public void setHideExpireWarning1(final boolean e)
     '''
 def getHideExpireWarning7():
-    '''    public boolean getHideExpireWarning7()
+    '''public boolean getHideExpireWarning7()
     '''
 def setHideExpireWarning7():
-    '''    public void setHideExpireWarning7(final boolean f)
+    '''public void setHideExpireWarning7(final boolean f)
     '''
 def dialogDone():
-    '''    public void dialogDone(final int d)
+    '''public void dialogDone(final int d)
     '''

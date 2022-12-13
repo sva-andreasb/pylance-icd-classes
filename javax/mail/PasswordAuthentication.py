@@ -1,9 +1,9 @@
 def getPassword():
-    '''    public String getPassword()
+    '''public String getPassword()
     '''
 def getUserName():
-    '''    public String getUserName()
+    '''public String getUserName()
     '''
 def PasswordAuthentication():
-    '''    public PasswordAuthentication(final String userName, final String password)
+    '''public PasswordAuthentication(final String userName, final String password)
     '''

@@ -1,9 +1,9 @@
 def LinearLayer():
-    '''    public LinearLayer(final MboSet ms)
+    '''public LinearLayer(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete()
+    '''public void delete()
     '''

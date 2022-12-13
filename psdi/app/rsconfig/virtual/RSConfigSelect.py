@@ -1,6 +1,6 @@
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def RSConfigSelect():
-    '''    public RSConfigSelect(final MboSet ms)
+    '''public RSConfigSelect(final MboSet ms)
     '''

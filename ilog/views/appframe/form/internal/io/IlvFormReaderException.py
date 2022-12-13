@@ -1,5 +1,5 @@
 def IlvFormReaderException():
-    '''    public IlvFormReaderException(final IlvFormReaderContext ilvFormReaderContext, final String s)
+    '''public IlvFormReaderException(final IlvFormReaderContext ilvFormReaderContext, final String s)
     public IlvFormReaderException(final IlvFormReaderContext ilvFormReaderContext, final String s, final String s2)
     public IlvFormReaderException(final IlvFormReaderContext ilvFormReaderContext, final String s, final Throwable t)
     public IlvFormReaderException(final IlvFormReaderContext ilvFormReaderContext, final String s, final String s2, final Throwable t)
@@ -11,8 +11,8 @@ def IlvFormReaderException():
     public IlvFormReaderException(final IlvFormReaderContext ilvFormReaderContext, final Element element, final Throwable t)
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''
 def GetMessages():
-    '''    public static IlvClassResourceProvider GetMessages()
+    '''public static IlvClassResourceProvider GetMessages()
     '''

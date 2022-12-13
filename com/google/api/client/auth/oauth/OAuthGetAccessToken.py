@@ -1,6 +1,6 @@
 def OAuthGetAccessToken():
-    '''    public OAuthGetAccessToken(final String authorizationServerUrl)
+    '''public OAuthGetAccessToken(final String authorizationServerUrl)
     '''
 def createParameters():
-    '''    public OAuthParameters createParameters()
+    '''public OAuthParameters createParameters()
     '''

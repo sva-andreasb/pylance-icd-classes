@@ -1,9 +1,9 @@
 def PrintSetupAction():
-    '''    public PrintSetupAction(final Object o)
+    '''public PrintSetupAction(final Object o)
     '''
 def actionPerformed():
-    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''public void actionPerformed(final ActionEvent actionEvent)
     '''
 def propertyChange():
-    '''    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
     '''

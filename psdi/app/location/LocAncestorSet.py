@@ -1,3 +1,3 @@
 def LocAncestorSet():
-    '''    public LocAncestorSet(final MboServerInterface ms)
+    '''public LocAncestorSet(final MboServerInterface ms)
     '''

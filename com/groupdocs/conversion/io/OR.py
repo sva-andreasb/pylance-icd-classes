@@ -1,19 +1,19 @@
 def OR():
-    '''    public OR(final IOException a)
+    '''public OR(final IOException a)
     public OR()
     '''
 def read():
-    '''    public int read()
+    '''public int read()
     '''
 def available():
-    '''    public int available()
+    '''public int available()
     '''
 def skip():
-    '''    public long skip(final long n)
+    '''public long skip(final long n)
     '''
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''

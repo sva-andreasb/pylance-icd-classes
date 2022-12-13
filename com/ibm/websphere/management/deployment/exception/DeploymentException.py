@@ -1,3 +1,3 @@
 def DeploymentException():
-    '''    public DeploymentException(final String msg, final Throwable t)
+    '''public DeploymentException(final String msg, final Throwable t)
     '''

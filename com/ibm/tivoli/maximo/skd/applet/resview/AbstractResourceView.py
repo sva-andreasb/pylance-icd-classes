@@ -1,51 +1,51 @@
 def AbstractResourceView():
-    '''    public AbstractResourceView()
+    '''public AbstractResourceView()
     '''
 def getDividerComponent():
-    '''    public Object getDividerComponent()
+    '''public Object getDividerComponent()
     '''
 def attachModel():
-    '''    public void attachModel(final AppletGanttModel model)
+    '''public void attachModel(final AppletGanttModel model)
     '''
 def print():
-    '''    public void print()
+    '''public void print()
     '''
 def printPreview():
-    '''    public void printPreview()
+    '''public void printPreview()
     '''
 def printSetup():
-    '''    public void printSetup()
+    '''public void printSetup()
     '''
 def setResourceViewContext():
-    '''    public void setResourceViewContext(final ResourceViewContext context)
+    '''public void setResourceViewContext(final ResourceViewContext context)
     '''
 def attachGanttModelToViewComponents():
-    '''    public void attachGanttModelToViewComponents()
+    '''public void attachGanttModelToViewComponents()
     '''
 def detachGanttModelFromViewComponents():
-    '''    public void detachGanttModelFromViewComponents()
+    '''public void detachGanttModelFromViewComponents()
     '''
 def activate():
-    '''    public void activate()
+    '''public void activate()
     '''
 def setDividerLocation():
-    '''    public void setDividerLocation(final int location)
+    '''public void setDividerLocation(final int location)
     '''
 def deactivate():
-    '''    public void deactivate()
+    '''public void deactivate()
     '''
 def isActive():
-    '''    public boolean isActive()
+    '''public boolean isActive()
     '''
 def applyActivityQbeFilter():
-    '''    public void applyActivityQbeFilter(final Map<String, String> map)
+    '''public void applyActivityQbeFilter(final Map<String, String> map)
     '''
 def applyActivityFilter():
-    '''    public void applyActivityFilter(final String s)
+    '''public void applyActivityFilter(final String s)
     '''
 def getViewId():
-    '''    public String getViewId()
+    '''public String getViewId()
     '''
 def setViewId():
-    '''    public void setViewId(final String viewId)
+    '''public void setViewId(final String viewId)
     '''

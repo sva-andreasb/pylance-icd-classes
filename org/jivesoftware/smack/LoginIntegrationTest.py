@@ -1,6 +1,6 @@
 def LoginIntegrationTest():
-    '''    public LoginIntegrationTest(final SmackIntegrationTestEnvironment environment)
+    '''public LoginIntegrationTest(final SmackIntegrationTestEnvironment environment)
     '''
 def testInvalidLogin():
-    '''    public void testInvalidLogin()
+    '''public void testInvalidLogin()
     '''

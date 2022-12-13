@@ -1,21 +1,21 @@
 def TaskIDPickList():
-    '''    public TaskIDPickList(final MboRemote owner)
+    '''public TaskIDPickList(final MboRemote owner)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def fetchMbos():
-    '''    public void fetchMbos(final int toPosition)
+    '''public void fetchMbos(final int toPosition)
     '''
 def fetchMbosOriginal():
-    '''    public void fetchMbosOriginal(final int toPosition)
+    '''public void fetchMbosOriginal(final int toPosition)
     '''
 def getZombie():
-    '''    public MboRemote getZombie()
+    '''public MboRemote getZombie()
     '''
 def toBeSaved():
-    '''    public boolean toBeSaved()
+    '''public boolean toBeSaved()
     '''
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''

@@ -1,5 +1,5 @@
 def TzOffsetTo():
-    '''    public TzOffsetTo()
+    '''public TzOffsetTo()
     public TzOffsetTo(final String value)
     public TzOffsetTo(final ParameterList aList, final String aValue)
     public TzOffsetTo(final UtcOffset anOffset)
@@ -8,24 +8,24 @@ def TzOffsetTo():
     public TzOffsetTo(final ParameterList aList, final ZoneOffset anOffset)
     '''
 def getOffset():
-    '''    public final ZoneOffset getOffset()
+    '''public final ZoneOffset getOffset()
     '''
 def setValue():
-    '''    public final void setValue(final String aValue)
+    '''public final void setValue(final String aValue)
     '''
 def getValue():
-    '''    public final String getValue()
+    '''public final String getValue()
     '''
 def setOffset():
-    '''    public final void setOffset(final ZoneOffset offset)
+    '''public final void setOffset(final ZoneOffset offset)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def Factory():
-    '''    public Factory()
+    '''public Factory()
     '''
 def createProperty():
-    '''    public Property createProperty(final ParameterList parameters, final String value)
+    '''public Property createProperty(final ParameterList parameters, final String value)
     public Property createProperty()
     '''

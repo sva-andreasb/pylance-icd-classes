@@ -1,3 +1,3 @@
 def SKDDataValResultSet():
-    '''    public SKDDataValResultSet(final MboServerInterface ms)
+    '''public SKDDataValResultSet(final MboServerInterface ms)
     '''

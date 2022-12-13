@@ -1,9 +1,9 @@
 def getInstance():
-    '''    public static ClosureManager getInstance()
+    '''public static ClosureManager getInstance()
     '''
 def getClosurePool():
-    '''    public final synchronized ClosurePool getClosurePool(final CallContext callContext)
+    '''public final synchronized ClosurePool getClosurePool(final CallContext callContext)
     '''
 def newClosureMagazine():
-    '''    public ClosureMagazine newClosureMagazine(final CallContext callContext, final Method method)
+    '''public ClosureMagazine newClosureMagazine(final CallContext callContext, final Method method)
     '''

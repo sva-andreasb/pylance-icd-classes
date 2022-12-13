@@ -1,9 +1,9 @@
 def GRViewLaborAssignmentBean():
-    '''    public GRViewLaborAssignmentBean()
+    '''public GRViewLaborAssignmentBean()
     '''
 def filterworkorder():
-    '''    public int filterworkorder()
+    '''public int filterworkorder()
     '''
 def getUserInfo():
-    '''    public UserInfo getUserInfo()
+    '''public UserInfo getUserInfo()
     '''

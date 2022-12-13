@@ -15,107 +15,107 @@ DO_NOT_SPELL_CHECK = "int  64"
 EDIT = "int  128"
 COMB = "int  256"
 def BaseField():
-    '''    public BaseField(final PdfWriter writer, final Rectangle box, final String fieldName)
+    '''public BaseField(final PdfWriter writer, final Rectangle box, final String fieldName)
     '''
 def getBorderWidth():
-    '''    public float getBorderWidth()
+    '''public float getBorderWidth()
     '''
 def setBorderWidth():
-    '''    public void setBorderWidth(final float borderWidth)
+    '''public void setBorderWidth(final float borderWidth)
     '''
 def getBorderStyle():
-    '''    public int getBorderStyle()
+    '''public int getBorderStyle()
     '''
 def setBorderStyle():
-    '''    public void setBorderStyle(final int borderStyle)
+    '''public void setBorderStyle(final int borderStyle)
     '''
 def getBorderColor():
-    '''    public Color getBorderColor()
+    '''public Color getBorderColor()
     '''
 def setBorderColor():
-    '''    public void setBorderColor(final Color borderColor)
+    '''public void setBorderColor(final Color borderColor)
     '''
 def getBackgroundColor():
-    '''    public Color getBackgroundColor()
+    '''public Color getBackgroundColor()
     '''
 def setBackgroundColor():
-    '''    public void setBackgroundColor(final Color backgroundColor)
+    '''public void setBackgroundColor(final Color backgroundColor)
     '''
 def getTextColor():
-    '''    public Color getTextColor()
+    '''public Color getTextColor()
     '''
 def setTextColor():
-    '''    public void setTextColor(final Color textColor)
+    '''public void setTextColor(final Color textColor)
     '''
 def getFont():
-    '''    public BaseFont getFont()
+    '''public BaseFont getFont()
     '''
 def setFont():
-    '''    public void setFont(final BaseFont font)
+    '''public void setFont(final BaseFont font)
     '''
 def getFontSize():
-    '''    public float getFontSize()
+    '''public float getFontSize()
     '''
 def setFontSize():
-    '''    public void setFontSize(final float fontSize)
+    '''public void setFontSize(final float fontSize)
     '''
 def getAlignment():
-    '''    public int getAlignment()
+    '''public int getAlignment()
     '''
 def setAlignment():
-    '''    public void setAlignment(final int alignment)
+    '''public void setAlignment(final int alignment)
     '''
 def getText():
-    '''    public String getText()
+    '''public String getText()
     '''
 def setText():
-    '''    public void setText(final String text)
+    '''public void setText(final String text)
     '''
 def getBox():
-    '''    public Rectangle getBox()
+    '''public Rectangle getBox()
     '''
 def setBox():
-    '''    public void setBox(final Rectangle box)
+    '''public void setBox(final Rectangle box)
     '''
 def getRotation():
-    '''    public int getRotation()
+    '''public int getRotation()
     '''
 def setRotation():
-    '''    public void setRotation(int rotation)
+    '''public void setRotation(int rotation)
     '''
 def setRotationFromPage():
-    '''    public void setRotationFromPage(final Rectangle page)
+    '''public void setRotationFromPage(final Rectangle page)
     '''
 def getVisibility():
-    '''    public int getVisibility()
+    '''public int getVisibility()
     '''
 def setVisibility():
-    '''    public void setVisibility(final int visibility)
+    '''public void setVisibility(final int visibility)
     '''
 def getFieldName():
-    '''    public String getFieldName()
+    '''public String getFieldName()
     '''
 def setFieldName():
-    '''    public void setFieldName(final String fieldName)
+    '''public void setFieldName(final String fieldName)
     '''
 def getOptions():
-    '''    public int getOptions()
+    '''public int getOptions()
     '''
 def setOptions():
-    '''    public void setOptions(final int options)
+    '''public void setOptions(final int options)
     '''
 def getMaxCharacterLength():
-    '''    public int getMaxCharacterLength()
+    '''public int getMaxCharacterLength()
     '''
 def setMaxCharacterLength():
-    '''    public void setMaxCharacterLength(final int maxCharacterLength)
+    '''public void setMaxCharacterLength(final int maxCharacterLength)
     '''
 def getWriter():
-    '''    public PdfWriter getWriter()
+    '''public PdfWriter getWriter()
     '''
 def setWriter():
-    '''    public void setWriter(final PdfWriter writer)
+    '''public void setWriter(final PdfWriter writer)
     '''
 def moveFields():
-    '''    public static void moveFields(final PdfDictionary from, final PdfDictionary to)
+    '''public static void moveFields(final PdfDictionary from, final PdfDictionary to)
     '''

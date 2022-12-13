@@ -1,3 +1,3 @@
 def PmtcoSelectLocationBean():
-    '''    public PmtcoSelectLocationBean()
+    '''public PmtcoSelectLocationBean()
     '''

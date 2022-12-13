@@ -1,6 +1,6 @@
 def AvgNode():
-    '''    public AvgNode(final Vector operands)
+    '''public AvgNode(final Vector operands)
     '''
 def getDouble():
-    '''    public double getDouble(final MboRemote mbo)
+    '''public double getDouble(final MboRemote mbo)
     '''

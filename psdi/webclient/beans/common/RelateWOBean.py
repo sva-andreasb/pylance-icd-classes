@@ -1,3 +1,3 @@
 def relate():
-    '''    public int relate()
+    '''public int relate()
     '''

@@ -1,6 +1,6 @@
 def AssetHistorySet():
-    '''    public AssetHistorySet(final MboServerInterface ms)
+    '''public AssetHistorySet(final MboServerInterface ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

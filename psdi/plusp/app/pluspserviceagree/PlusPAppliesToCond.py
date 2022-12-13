@@ -1,36 +1,36 @@
 def PlusPAppliesToCond():
-    '''    public PlusPAppliesToCond(final MboSet set)
+    '''public PlusPAppliesToCond(final MboSet set)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def newStatement():
-    '''    public void newStatement(final int n)
+    '''public void newStatement(final int n)
     '''
 def newRow():
-    '''    public void newRow()
+    '''public void newRow()
     '''
 def newGroup():
-    '''    public void newGroup()
+    '''public void newGroup()
     '''
 def newSubGroup():
-    '''    public void newSubGroup()
+    '''public void newSubGroup()
     '''
 def validateBetweenGroups():
-    '''    public void validateBetweenGroups(final String[][] array, final int n, final Hashtable hashtable)
+    '''public void validateBetweenGroups(final String[][] array, final int n, final Hashtable hashtable)
     '''
 def validateWithinGroup():
-    '''    public void validateWithinGroup(final String[][] array, final int n, final Hashtable hashtable)
+    '''public void validateWithinGroup(final String[][] array, final int n, final Hashtable hashtable)
     '''
 def validateAttributes():
-    '''    public Hashtable validateAttributes()
+    '''public Hashtable validateAttributes()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def setForMM():
-    '''    public void setForMM(final boolean isForMM)
+    '''public void setForMM(final boolean isForMM)
     '''
 def isForMM():
-    '''    public boolean isForMM()
+    '''public boolean isForMM()
     '''

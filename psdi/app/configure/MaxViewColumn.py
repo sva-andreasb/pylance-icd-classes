@@ -1,3 +1,3 @@
 def MaxViewColumn():
-    '''    public MaxViewColumn(final MboSet ms)
+    '''public MaxViewColumn(final MboSet ms)
     '''

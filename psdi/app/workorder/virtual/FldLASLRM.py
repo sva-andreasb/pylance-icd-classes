@@ -1,3 +1,3 @@
 def FldLASLRM():
-    '''    public FldLASLRM(final MboValue mbv)
+    '''public FldLASLRM(final MboValue mbv)
     '''

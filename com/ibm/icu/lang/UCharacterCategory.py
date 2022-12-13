@@ -1,3 +1,3 @@
 def toString():
-    '''    public static String toString(final int category)
+    '''public static String toString(final int category)
     '''

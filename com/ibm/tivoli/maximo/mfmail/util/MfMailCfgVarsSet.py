@@ -1,3 +1,3 @@
 def MfMailCfgVarsSet():
-    '''    public MfMailCfgVarsSet(final MboServerInterface ms)
+    '''public MfMailCfgVarsSet(final MboServerInterface ms)
     '''

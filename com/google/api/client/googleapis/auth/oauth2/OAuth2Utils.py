@@ -1,3 +1,3 @@
 def getMetadataServerUrl():
-    '''    public static String getMetadataServerUrl()
+    '''public static String getMetadataServerUrl()
     '''

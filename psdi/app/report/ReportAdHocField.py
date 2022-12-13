@@ -1,3 +1,3 @@
 def ReportAdHocField():
-    '''    public ReportAdHocField(final MboSet ms)
+    '''public ReportAdHocField(final MboSet ms)
     '''

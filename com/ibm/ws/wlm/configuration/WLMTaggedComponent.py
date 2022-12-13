@@ -6,50 +6,50 @@ VERSION3 = "int  3"
 VERSION4 = "int  4"
 CURRENTVERSION = "int  4"
 def WLMTaggedComponent():
-    '''    public WLMTaggedComponent(final byte[] component_data)
+    '''public WLMTaggedComponent(final byte[] component_data)
     '''
 def getVersion():
-    '''    public int getVersion()
+    '''public int getVersion()
     '''
 def getClusterIdentity():
-    '''    public Identity getClusterIdentity()
+    '''public Identity getClusterIdentity()
     '''
 def getAdminDomainName():
-    '''    public String getAdminDomainName()
+    '''public String getAdminDomainName()
     '''
 def getLSDSSLPortList():
-    '''    public short[] getLSDSSLPortList()
+    '''public short[] getLSDSSLPortList()
     '''
 def getMemberSSLPortList():
-    '''    public int[] getMemberSSLPortList()
+    '''public int[] getMemberSSLPortList()
     '''
 def getLSDSSLCCPortList():
-    '''    public short[] getLSDSSLCCPortList()
+    '''public short[] getLSDSSLCCPortList()
     '''
 def getMemberSSLCCPortList():
-    '''    public int[] getMemberSSLCCPortList()
+    '''public int[] getMemberSSLCCPortList()
     '''
 def getLSDPortList():
-    '''    public short[] getLSDPortList()
+    '''public short[] getLSDPortList()
     '''
 def getMemberPortList():
-    '''    public int[] getMemberPortList()
+    '''public int[] getMemberPortList()
     '''
 def getLSDHostList():
-    '''    public String[] getLSDHostList()
+    '''public String[] getLSDHostList()
     '''
 def getMemberHostList():
-    '''    public String[] getMemberHostList()
+    '''public String[] getMemberHostList()
     '''
 def getTaggedComponentData():
-    '''    public static byte[] getTaggedComponentData(final Identity description)
+    '''public static byte[] getTaggedComponentData(final Identity description)
     '''
 def addAlternateIIOPAddressComponent():
-    '''    public static void addAlternateIIOPAddressComponent(final Profile profile)
+    '''public static void addAlternateIIOPAddressComponent(final Profile profile)
     '''
 def getZTaggedComponentData():
-    '''    public static byte[] getZTaggedComponentData(final Identity description)
+    '''public static byte[] getZTaggedComponentData(final Identity description)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

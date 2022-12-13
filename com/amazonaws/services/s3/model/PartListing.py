@@ -1,90 +1,90 @@
 def getBucketName():
-    '''    public String getBucketName()
+    '''public String getBucketName()
     '''
 def setBucketName():
-    '''    public void setBucketName(final String bucketName)
+    '''public void setBucketName(final String bucketName)
     '''
 def getKey():
-    '''    public String getKey()
+    '''public String getKey()
     '''
 def setKey():
-    '''    public void setKey(final String key)
+    '''public void setKey(final String key)
     '''
 def getUploadId():
-    '''    public String getUploadId()
+    '''public String getUploadId()
     '''
 def setUploadId():
-    '''    public void setUploadId(final String uploadId)
+    '''public void setUploadId(final String uploadId)
     '''
 def getOwner():
-    '''    public Owner getOwner()
+    '''public Owner getOwner()
     '''
 def setOwner():
-    '''    public void setOwner(final Owner owner)
+    '''public void setOwner(final Owner owner)
     '''
 def getInitiator():
-    '''    public Owner getInitiator()
+    '''public Owner getInitiator()
     '''
 def setInitiator():
-    '''    public void setInitiator(final Owner initiator)
+    '''public void setInitiator(final Owner initiator)
     '''
 def getStorageClass():
-    '''    public String getStorageClass()
+    '''public String getStorageClass()
     '''
 def setStorageClass():
-    '''    public void setStorageClass(final String storageClass)
+    '''public void setStorageClass(final String storageClass)
     '''
 def getPartNumberMarker():
-    '''    public Integer getPartNumberMarker()
+    '''public Integer getPartNumberMarker()
     '''
 def setPartNumberMarker():
-    '''    public void setPartNumberMarker(final int partNumberMarker)
+    '''public void setPartNumberMarker(final int partNumberMarker)
     '''
 def getNextPartNumberMarker():
-    '''    public Integer getNextPartNumberMarker()
+    '''public Integer getNextPartNumberMarker()
     '''
 def setNextPartNumberMarker():
-    '''    public void setNextPartNumberMarker(final int nextPartNumberMarker)
+    '''public void setNextPartNumberMarker(final int nextPartNumberMarker)
     '''
 def getMaxParts():
-    '''    public Integer getMaxParts()
+    '''public Integer getMaxParts()
     '''
 def setMaxParts():
-    '''    public void setMaxParts(final int maxParts)
+    '''public void setMaxParts(final int maxParts)
     '''
 def getEncodingType():
-    '''    public String getEncodingType()
+    '''public String getEncodingType()
     '''
 def setEncodingType():
-    '''    public void setEncodingType(final String encodingType)
+    '''public void setEncodingType(final String encodingType)
     '''
 def isTruncated():
-    '''    public boolean isTruncated()
+    '''public boolean isTruncated()
     '''
 def setTruncated():
-    '''    public void setTruncated(final boolean isTruncated)
+    '''public void setTruncated(final boolean isTruncated)
     '''
 def getParts():
-    '''    public List<PartSummary> getParts()
+    '''public List<PartSummary> getParts()
     '''
 def setParts():
-    '''    public void setParts(final List<PartSummary> parts)
+    '''public void setParts(final List<PartSummary> parts)
     '''
 def getAbortDate():
-    '''    public Date getAbortDate()
+    '''public Date getAbortDate()
     '''
 def setAbortDate():
-    '''    public void setAbortDate(final Date abortDate)
+    '''public void setAbortDate(final Date abortDate)
     '''
 def getAbortRuleId():
-    '''    public String getAbortRuleId()
+    '''public String getAbortRuleId()
     '''
 def setAbortRuleId():
-    '''    public void setAbortRuleId(final String abortRuleId)
+    '''public void setAbortRuleId(final String abortRuleId)
     '''
 def isRequesterCharged():
-    '''    public boolean isRequesterCharged()
+    '''public boolean isRequesterCharged()
     '''
 def setRequesterCharged():
-    '''    public void setRequesterCharged(final boolean isRequesterCharged)
+    '''public void setRequesterCharged(final boolean isRequesterCharged)
     '''

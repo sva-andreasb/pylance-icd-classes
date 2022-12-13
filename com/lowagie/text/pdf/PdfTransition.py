@@ -15,16 +15,16 @@ LRGLITTER = "int  14"
 TBGLITTER = "int  15"
 DGLITTER = "int  16"
 def PdfTransition():
-    '''    public PdfTransition()
+    '''public PdfTransition()
     public PdfTransition(final int type)
     public PdfTransition(final int type, final int duration)
     '''
 def getDuration():
-    '''    public int getDuration()
+    '''public int getDuration()
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''
 def getTransitionDictionary():
-    '''    public PdfDictionary getTransitionDictionary()
+    '''public PdfDictionary getTransitionDictionary()
     '''

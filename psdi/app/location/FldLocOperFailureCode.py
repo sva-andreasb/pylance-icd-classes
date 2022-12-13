@@ -1,3 +1,3 @@
 def FldLocOperFailureCode():
-    '''    public FldLocOperFailureCode(final MboValue mbv)
+    '''public FldLocOperFailureCode(final MboValue mbv)
     '''

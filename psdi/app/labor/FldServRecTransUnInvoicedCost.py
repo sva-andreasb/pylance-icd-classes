@@ -1,6 +1,6 @@
 def FldServRecTransUnInvoicedCost():
-    '''    public FldServRecTransUnInvoicedCost(final MboValue mbv)
+    '''public FldServRecTransUnInvoicedCost(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

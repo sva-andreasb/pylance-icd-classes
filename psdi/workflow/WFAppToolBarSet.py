@@ -1,3 +1,3 @@
 def WFAppToolBarSet():
-    '''    public WFAppToolBarSet(final MboServerInterface ms)
+    '''public WFAppToolBarSet(final MboServerInterface ms)
     '''

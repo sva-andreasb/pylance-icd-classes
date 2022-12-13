@@ -1,21 +1,21 @@
 def PlusCWODSPointMultipleSet():
-    '''    public PlusCWODSPointMultipleSet(final PlusCWODSInstrRemote instr, final PlusCWODSPointSet pointsSet, final boolean includeNonRepeatable, final boolean includeRepeated, final boolean includeAverages)
+    '''public PlusCWODSPointMultipleSet(final PlusCWODSInstrRemote instr, final PlusCWODSPointSet pointsSet, final boolean includeNonRepeatable, final boolean includeRepeated, final boolean includeAverages)
     '''
 def getMbo():
-    '''    public MboRemote getMbo(final int index)
+    '''public MboRemote getMbo(final int index)
     '''
 def getSize():
-    '''    public int getSize()
+    '''public int getSize()
     '''
 def deleteAll():
-    '''    public void deleteAll(final long accessModifier)
+    '''public void deleteAll(final long accessModifier)
     '''
 def getAveragesSetOwner():
-    '''    public MboRemote getAveragesSetOwner(final String point)
+    '''public MboRemote getAveragesSetOwner(final String point)
     '''
 def getOwner():
-    '''    public MboRemote getOwner()
+    '''public MboRemote getOwner()
     '''
 def setRelationship():
-    '''    public void setRelationship(final String relationClause)
+    '''public void setRelationship(final String relationClause)
     '''

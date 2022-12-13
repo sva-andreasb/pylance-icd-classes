@@ -1,18 +1,18 @@
 def FldJSONParentObjName():
-    '''    public FldJSONParentObjName(final MboValue mv)
+    '''public FldJSONParentObjName(final MboValue mv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def hasList():
-    '''    public boolean hasList()
+    '''public boolean hasList()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

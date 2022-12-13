@@ -1,3 +1,3 @@
 def addStaticQueryParamtersToRequest():
-    '''    public static String addStaticQueryParamtersToRequest(final Request<?> request, final String uriResourcePath)
+    '''public static String addStaticQueryParamtersToRequest(final Request<?> request, final String uriResourcePath)
     '''

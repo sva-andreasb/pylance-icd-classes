@@ -1,6 +1,6 @@
 def workflowChanged():
-    '''    public void workflowChanged(final WorkflowEditEvent e)
+    '''public void workflowChanged(final WorkflowEditEvent e)
     '''
 def restoreFrame():
-    '''    public boolean restoreFrame()
+    '''public boolean restoreFrame()
     '''

@@ -1,3 +1,3 @@
 def DPAMProcMoveVariantSet():
-    '''    public DPAMProcMoveVariantSet(final MboServerInterface ms)
+    '''public DPAMProcMoveVariantSet(final MboServerInterface ms)
     '''

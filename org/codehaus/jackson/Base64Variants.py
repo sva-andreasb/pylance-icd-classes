@@ -1,3 +1,3 @@
 def getDefaultVariant():
-    '''    public static Base64Variant getDefaultVariant()
+    '''public static Base64Variant getDefaultVariant()
     '''

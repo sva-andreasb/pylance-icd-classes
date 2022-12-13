@@ -1,9 +1,9 @@
 CONTENT_ENCODING = "String  \"Content-Encoding\""
 def e():
-    '''    public static Ob e(final String s)
+    '''public static Ob e(final String s)
     '''
 def b():
-    '''    public static Ob b(final URL url)
+    '''public static Ob b(final URL url)
     public Ob b(final String obj)
     public Ob b(final int n)
     public Ob b(final boolean b)
@@ -15,7 +15,7 @@ def b():
     public T b(final String string)
     '''
 def a():
-    '''    public Ob a(final URL url)
+    '''public Ob a(final URL url)
     public Ob a(final String s)
     public Ob a(final int n)
     public Ob a(final boolean b)
@@ -43,102 +43,102 @@ def a():
     public f a()
     '''
 def c():
-    '''    public Ob c(final String obj)
+    '''public Ob c(final String obj)
     public Ob c(final boolean b)
     public Ob c(final String s, final String s2)
     '''
 def d():
-    '''    public Ob d(final boolean b)
+    '''public Ob d(final boolean b)
     public Ob d(final String s)
     '''
 def key():
-    '''    public String key()
+    '''public String key()
     '''
 def value():
-    '''    public String value()
+    '''public String value()
     '''
 def inputStream():
-    '''    public InputStream inputStream()
+    '''public InputStream inputStream()
     '''
 def hasInputStream():
-    '''    public boolean hasInputStream()
+    '''public boolean hasInputStream()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def statusCode():
-    '''    public int statusCode()
+    '''public int statusCode()
     '''
 def statusMessage():
-    '''    public String statusMessage()
+    '''public String statusMessage()
     '''
 def charset():
-    '''    public String charset()
+    '''public String charset()
     '''
 def contentType():
-    '''    public String contentType()
+    '''public String contentType()
     '''
 def body():
-    '''    public String body()
+    '''public String body()
     '''
 def bodyAsBytes():
-    '''    public byte[] bodyAsBytes()
+    '''public byte[] bodyAsBytes()
     '''
 def verify():
-    '''    public boolean verify(final String urlHostName, final SSLSession session)
+    '''public boolean verify(final String urlHostName, final SSLSession session)
     '''
 def checkClientTrusted():
-    '''    public void checkClientTrusted(final X509Certificate[] chain, final String authType)
+    '''public void checkClientTrusted(final X509Certificate[] chain, final String authType)
     '''
 def checkServerTrusted():
-    '''    public void checkServerTrusted(final X509Certificate[] chain, final String authType)
+    '''public void checkServerTrusted(final X509Certificate[] chain, final String authType)
     '''
 def getAcceptedIssuers():
-    '''    public X509Certificate[] getAcceptedIssuers()
+    '''public X509Certificate[] getAcceptedIssuers()
     '''
 def url():
-    '''    public URL url()
+    '''public URL url()
     '''
 def header():
-    '''    public String header(final String name)
+    '''public String header(final String name)
     '''
 def hasHeader():
-    '''    public boolean hasHeader(final String name)
+    '''public boolean hasHeader(final String name)
     '''
 def hasHeaderWithValue():
-    '''    public boolean hasHeaderWithValue(final String name, final String value)
+    '''public boolean hasHeaderWithValue(final String name, final String value)
     '''
 def headers():
-    '''    public Map<String, String> headers()
+    '''public Map<String, String> headers()
     '''
 def cookie():
-    '''    public String cookie(final String name)
+    '''public String cookie(final String name)
     '''
 def hasCookie():
-    '''    public boolean hasCookie(final String name)
+    '''public boolean hasCookie(final String name)
     '''
 def cookies():
-    '''    public Map<String, String> cookies()
+    '''public Map<String, String> cookies()
     '''
 def timeout():
-    '''    public int timeout()
+    '''public int timeout()
     '''
 def maxBodySize():
-    '''    public int maxBodySize()
+    '''public int maxBodySize()
     '''
 def followRedirects():
-    '''    public boolean followRedirects()
+    '''public boolean followRedirects()
     '''
 def ignoreHttpErrors():
-    '''    public boolean ignoreHttpErrors()
+    '''public boolean ignoreHttpErrors()
     '''
 def validateTLSCertificates():
-    '''    public boolean validateTLSCertificates()
+    '''public boolean validateTLSCertificates()
     public void validateTLSCertificates(final boolean value)
     '''
 def ignoreContentType():
-    '''    public boolean ignoreContentType()
+    '''public boolean ignoreContentType()
     '''
 def postDataCharset():
-    '''    public String postDataCharset()
+    '''public String postDataCharset()
     '''

@@ -1,6 +1,6 @@
 def FldAssetSwapNewReplaceAssetNum():
-    '''    public FldAssetSwapNewReplaceAssetNum(final MboValue mbv)
+    '''public FldAssetSwapNewReplaceAssetNum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

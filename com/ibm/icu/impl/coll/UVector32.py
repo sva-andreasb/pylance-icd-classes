@@ -1,27 +1,27 @@
 def UVector32():
-    '''    public UVector32()
+    '''public UVector32()
     '''
 def isEmpty():
-    '''    public boolean isEmpty()
+    '''public boolean isEmpty()
     '''
 def size():
-    '''    public int size()
+    '''public int size()
     '''
 def elementAti():
-    '''    public int elementAti(final int i)
+    '''public int elementAti(final int i)
     '''
 def getBuffer():
-    '''    public int[] getBuffer()
+    '''public int[] getBuffer()
     '''
 def addElement():
-    '''    public void addElement(final int e)
+    '''public void addElement(final int e)
     '''
 def setElementAt():
-    '''    public void setElementAt(final int elem, final int index)
+    '''public void setElementAt(final int elem, final int index)
     '''
 def insertElementAt():
-    '''    public void insertElementAt(final int elem, final int index)
+    '''public void insertElementAt(final int elem, final int index)
     '''
 def removeAllElements():
-    '''    public void removeAllElements()
+    '''public void removeAllElements()
     '''

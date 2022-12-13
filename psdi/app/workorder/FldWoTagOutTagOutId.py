@@ -1,6 +1,6 @@
 def FldWoTagOutTagOutId():
-    '''    public FldWoTagOutTagOutId(final MboValue mbv)
+    '''public FldWoTagOutTagOutId(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

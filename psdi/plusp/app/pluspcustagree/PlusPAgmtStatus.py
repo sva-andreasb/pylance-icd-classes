@@ -1,6 +1,6 @@
 def PlusPAgmtStatus():
-    '''    public PlusPAgmtStatus(final MboSet ms)
+    '''public PlusPAgmtStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

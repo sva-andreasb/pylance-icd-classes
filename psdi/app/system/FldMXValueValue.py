@@ -1,6 +1,6 @@
 def FldMXValueValue():
-    '''    public FldMXValueValue(final MboValue mbv)
+    '''public FldMXValueValue(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

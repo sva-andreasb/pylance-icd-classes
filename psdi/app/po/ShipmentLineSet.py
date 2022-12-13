@@ -1,3 +1,3 @@
 def ShipmentLineSet():
-    '''    public ShipmentLineSet(final MboServerInterface ms)
+    '''public ShipmentLineSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def FldLaborIsCraft():
-    '''    public FldLaborIsCraft(final MboValue mbv)
+    '''public FldLaborIsCraft(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

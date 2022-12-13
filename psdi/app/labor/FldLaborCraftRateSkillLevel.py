@@ -1,6 +1,6 @@
 def FldLaborCraftRateSkillLevel():
-    '''    public FldLaborCraftRateSkillLevel(final MboValue mbv)
+    '''public FldLaborCraftRateSkillLevel(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

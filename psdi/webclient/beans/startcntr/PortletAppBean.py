@@ -1,21 +1,21 @@
 def PortletAppBean():
-    '''    public PortletAppBean()
+    '''public PortletAppBean()
     '''
 def initializeApp():
-    '''    public void initializeApp()
+    '''public void initializeApp()
     '''
 def gotostartcenter():
-    '''    public int gotostartcenter()
+    '''public int gotostartcenter()
     '''
 def clearPortletCache():
-    '''    public void clearPortletCache()
+    '''public void clearPortletCache()
     '''
 def cancel():
-    '''    public int cancel()
+    '''public int cancel()
     '''
 def currentStartCenterId():
-    '''    public long currentStartCenterId()
+    '''public long currentStartCenterId()
     '''
 def getCacheName():
-    '''    public String getCacheName()
+    '''public String getCacheName()
     '''

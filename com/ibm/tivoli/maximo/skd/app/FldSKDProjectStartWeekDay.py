@@ -1,3 +1,3 @@
 def FldSKDProjectStartWeekDay():
-    '''    public FldSKDProjectStartWeekDay(final MboValue mbv)
+    '''public FldSKDProjectStartWeekDay(final MboValue mbv)
     '''

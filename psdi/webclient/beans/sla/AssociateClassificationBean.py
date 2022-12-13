@@ -1,9 +1,9 @@
 def AssociateClassificationBean():
-    '''    public AssociateClassificationBean()
+    '''public AssociateClassificationBean()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''

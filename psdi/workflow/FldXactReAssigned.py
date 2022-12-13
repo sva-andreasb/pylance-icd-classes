@@ -1,6 +1,6 @@
 def FldXactReAssigned():
-    '''    public FldXactReAssigned(final MboValue mbv)
+    '''public FldXactReAssigned(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

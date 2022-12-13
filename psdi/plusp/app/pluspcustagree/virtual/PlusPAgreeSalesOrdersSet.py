@@ -1,3 +1,3 @@
 def PlusPAgreeSalesOrdersSet():
-    '''    public PlusPAgreeSalesOrdersSet(final MboServerInterface ms)
+    '''public PlusPAgreeSalesOrdersSet(final MboServerInterface ms)
     '''

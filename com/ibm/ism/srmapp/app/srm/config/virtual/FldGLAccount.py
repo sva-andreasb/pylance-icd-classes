@@ -1,9 +1,9 @@
 def FldGLAccount():
-    '''    public FldGLAccount(final MboValue mbv)
+    '''public FldGLAccount(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

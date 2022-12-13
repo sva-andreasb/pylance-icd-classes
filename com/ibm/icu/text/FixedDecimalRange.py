@@ -1,6 +1,6 @@
 def FixedDecimalRange():
-    '''    public FixedDecimalRange(final FixedDecimal start, final FixedDecimal end)
+    '''public FixedDecimalRange(final FixedDecimal start, final FixedDecimal end)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

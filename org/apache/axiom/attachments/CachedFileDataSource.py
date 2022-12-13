@@ -1,9 +1,9 @@
 def CachedFileDataSource():
-    '''    public CachedFileDataSource(final File arg0)
+    '''public CachedFileDataSource(final File arg0)
     '''
 def getContentType():
-    '''    public String getContentType()
+    '''public String getContentType()
     '''
 def setContentType():
-    '''    public void setContentType(final String contentType)
+    '''public void setContentType(final String contentType)
     '''

@@ -1,3 +1,3 @@
 def getMergeInstance():
-    '''    public FieldsProducer getMergeInstance()
+    '''public FieldsProducer getMergeInstance()
     '''

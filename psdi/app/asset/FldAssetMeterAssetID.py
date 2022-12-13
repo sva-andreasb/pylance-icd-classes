@@ -1,6 +1,6 @@
 def FldAssetMeterAssetID():
-    '''    public FldAssetMeterAssetID(final MboValue mbv)
+    '''public FldAssetMeterAssetID(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

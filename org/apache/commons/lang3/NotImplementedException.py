@@ -1,5 +1,5 @@
 def NotImplementedException():
-    '''    public NotImplementedException(final String message)
+    '''public NotImplementedException(final String message)
     public NotImplementedException(final Throwable cause)
     public NotImplementedException(final String message, final Throwable cause)
     public NotImplementedException(final String message, final String code)
@@ -7,5 +7,5 @@ def NotImplementedException():
     public NotImplementedException(final String message, final Throwable cause, final String code)
     '''
 def getCode():
-    '''    public String getCode()
+    '''public String getCode()
     '''

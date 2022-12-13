@@ -1,30 +1,30 @@
 def PersonAvail():
-    '''    public PersonAvail(final MboSet ms)
+    '''public PersonAvail(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def setAvailPeriodMbo():
-    '''    public void setAvailPeriodMbo(final MboRemote availPeriodMbo)
+    '''public void setAvailPeriodMbo(final MboRemote availPeriodMbo)
     '''
 def getAvailPeriodMbo():
-    '''    public MboRemote getAvailPeriodMbo()
+    '''public MboRemote getAvailPeriodMbo()
     '''
 def modifiedAvailability():
-    '''    public boolean modifiedAvailability()
+    '''public boolean modifiedAvailability()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def setupFields():
-    '''    public void setupFields(final GregorianCalendar startCal, final MboRemote person, final String orgid, final AvailCalc availCalc)
+    '''public void setupFields(final GregorianCalendar startCal, final MboRemote person, final String orgid, final AvailCalc availCalc)
     '''
 def saveModifiedAvailability():
-    '''    public void saveModifiedAvailability()
+    '''public void saveModifiedAvailability()
     '''

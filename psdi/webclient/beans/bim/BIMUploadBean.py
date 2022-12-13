@@ -94,35 +94,35 @@ CTRL_COBIE_EXPORT_CONTACT = "String  \"cobie_export__contact\""
 CTRL_COBIE_EXPORT_DOC = "String  \"cobie_export__document\""
 CTRL_COBIE_EXPORT_ATTRIB = "String  \"cobie_export__attribute\""
 def BIMUploadBean():
-    '''    public BIMUploadBean()
+    '''public BIMUploadBean()
     '''
 def execute():
-    '''    public synchronized int execute()
+    '''public synchronized int execute()
     '''
 def cancelDialog():
-    '''    public synchronized int cancelDialog()
+    '''public synchronized int cancelDialog()
     '''
 def validateBuilding():
-    '''    public int validateBuilding()
+    '''public int validateBuilding()
     '''
 def importBuilding():
-    '''    public int importBuilding()
+    '''public int importBuilding()
     '''
 def updateBuilding():
-    '''    public int updateBuilding()
+    '''public int updateBuilding()
     '''
 def exportBuilding():
-    '''    public int exportBuilding()
+    '''public int exportBuilding()
     '''
 def clearClassification():
-    '''    public void clearClassification()
+    '''public void clearClassification()
     '''
 def setupButtons():
-    '''    public void setupButtons(final boolean isNew)
+    '''public void setupButtons(final boolean isNew)
     '''
 def refreshLogs():
-    '''    public int refreshLogs()
+    '''public int refreshLogs()
     '''
 def refreshSessionTable():
-    '''    public void refreshSessionTable()
+    '''public void refreshSessionTable()
     '''

@@ -1,54 +1,54 @@
 def MicSetInfo():
-    '''    public MicSetInfo(final MosDetailInfo mosDetlInfo)
+    '''public MicSetInfo(final MosDetailInfo mosDetlInfo)
     '''
 def getMosDetailInfo():
-    '''    public MosDetailInfo getMosDetailInfo()
+    '''public MosDetailInfo getMosDetailInfo()
     '''
 def getIfaceTbKey():
-    '''    public IfaceTbKey getIfaceTbKey()
+    '''public IfaceTbKey getIfaceTbKey()
     '''
 def getIfaceTbExclusiveCols():
-    '''    public List<IfaceColumnInfo> getIfaceTbExclusiveCols()
+    '''public List<IfaceColumnInfo> getIfaceTbExclusiveCols()
     '''
 def getIntObjectName():
-    '''    public String getIntObjectName()
+    '''public String getIntObjectName()
     '''
 def getObjectOrder():
-    '''    public int getObjectOrder()
+    '''public int getObjectOrder()
     '''
 def isPrimaryTable():
-    '''    public boolean isPrimaryTable()
+    '''public boolean isPrimaryTable()
     '''
 def getObjectName():
-    '''    public String getObjectName()
+    '''public String getObjectName()
     '''
 def getRelation():
-    '''    public String getRelation()
+    '''public String getRelation()
     '''
 def getChildren():
-    '''    public List getChildren()
+    '''public List getChildren()
     '''
 def getParentObjName():
-    '''    public String getParentObjName()
+    '''public String getParentObjName()
     '''
 def getProcessOrder():
-    '''    public int getProcessOrder()
+    '''public int getProcessOrder()
     '''
 def getColumns():
-    '''    public List getColumns()
+    '''public List getColumns()
     '''
 def getKeyInfoMap():
-    '''    public Map getKeyInfoMap()
+    '''public Map getKeyInfoMap()
     '''
 def isAltKey():
-    '''    public boolean isAltKey(final String key)
+    '''public boolean isAltKey(final String key)
     '''
 def getAltKeys():
-    '''    public String[] getAltKeys()
+    '''public String[] getAltKeys()
     '''
 def isSelfReferencing():
-    '''    public boolean isSelfReferencing()
+    '''public boolean isSelfReferencing()
     '''
 def isMerge():
-    '''    public boolean isMerge()
+    '''public boolean isMerge()
     '''

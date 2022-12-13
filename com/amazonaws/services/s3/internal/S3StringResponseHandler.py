@@ -1,3 +1,3 @@
 def handle():
-    '''    public AmazonWebServiceResponse<String> handle(final HttpResponse response)
+    '''public AmazonWebServiceResponse<String> handle(final HttpResponse response)
     '''

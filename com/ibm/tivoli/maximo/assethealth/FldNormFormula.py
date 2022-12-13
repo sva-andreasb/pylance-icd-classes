@@ -1,6 +1,6 @@
 def FldNormFormula():
-    '''    public FldNormFormula(final MboValue mbv)
+    '''public FldNormFormula(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

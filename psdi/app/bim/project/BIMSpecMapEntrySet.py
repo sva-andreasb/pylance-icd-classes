@@ -1,3 +1,3 @@
 def BIMSpecMapEntrySet():
-    '''    public BIMSpecMapEntrySet(final MboServerInterface ms)
+    '''public BIMSpecMapEntrySet(final MboServerInterface ms)
     '''

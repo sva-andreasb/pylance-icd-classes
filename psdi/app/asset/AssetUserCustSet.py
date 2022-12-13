@@ -1,3 +1,3 @@
 def AssetUserCustSet():
-    '''    public AssetUserCustSet(final MboServerInterface ms)
+    '''public AssetUserCustSet(final MboServerInterface ms)
     '''

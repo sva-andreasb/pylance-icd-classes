@@ -1,3 +1,3 @@
 def DDParamsSet():
-    '''    public DDParamsSet(final MboServerInterface ms)
+    '''public DDParamsSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def MaxLogAppenderSet():
-    '''    public MaxLogAppenderSet(final MboServerInterface ms)
+    '''public MaxLogAppenderSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def JobPlanFilterSet():
-    '''    public JobPlanFilterSet(final MboServerInterface ms)
+    '''public JobPlanFilterSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

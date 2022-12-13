@@ -1,3 +1,3 @@
 def RevisionInputSet():
-    '''    public RevisionInputSet(final MboServerInterface ms)
+    '''public RevisionInputSet(final MboServerInterface ms)
     '''

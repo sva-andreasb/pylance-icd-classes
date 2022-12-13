@@ -1,3 +1,3 @@
 def ApptBookStatusSet():
-    '''    public ApptBookStatusSet(final MboServerInterface ms)
+    '''public ApptBookStatusSet(final MboServerInterface ms)
     '''

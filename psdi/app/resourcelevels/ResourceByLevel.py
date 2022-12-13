@@ -1,21 +1,21 @@
 def ResourceByLevel():
-    '''    public ResourceByLevel(final MboSet ms)
+    '''public ResourceByLevel(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def getQuantity():
-    '''    public double getQuantity()
+    '''public double getQuantity()
     '''
 def getHours():
-    '''    public double getHours()
+    '''public double getHours()
     '''
 def getLowerThreshold():
-    '''    public double getLowerThreshold()
+    '''public double getLowerThreshold()
     '''
 def getUpperThreshold():
-    '''    public double getUpperThreshold()
+    '''public double getUpperThreshold()
     '''
 def getOrgId():
-    '''    public String getOrgId()
+    '''public String getOrgId()
     '''

@@ -1,6 +1,6 @@
 def ThreadLoggerDetails():
-    '''    public ThreadLoggerDetails(final MboSet ms)
+    '''public ThreadLoggerDetails(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

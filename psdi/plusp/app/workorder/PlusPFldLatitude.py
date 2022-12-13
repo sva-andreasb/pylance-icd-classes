@@ -1,6 +1,6 @@
 def PlusPFldLatitude():
-    '''    public PlusPFldLatitude(final MboValue mbv)
+    '''public PlusPFldLatitude(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,9 +1,9 @@
 def JsonNull():
-    '''    public JsonNull()
+    '''public JsonNull()
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object other)
+    '''public boolean equals(final Object other)
     '''

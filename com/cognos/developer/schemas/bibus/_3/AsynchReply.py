@@ -1,43 +1,43 @@
 def AsynchReply():
-    '''    public AsynchReply()
+    '''public AsynchReply()
     public AsynchReply(final AsynchDetail[] details, final AsynchRequest primaryRequest, final AsynchSecondaryRequest[] secondaryRequests, final AsynchReplyStatusEnum status)
     '''
 def getDetails():
-    '''    public AsynchDetail[] getDetails()
+    '''public AsynchDetail[] getDetails()
     '''
 def setDetails():
-    '''    public void setDetails(final AsynchDetail[] details)
+    '''public void setDetails(final AsynchDetail[] details)
     '''
 def getPrimaryRequest():
-    '''    public AsynchRequest getPrimaryRequest()
+    '''public AsynchRequest getPrimaryRequest()
     '''
 def setPrimaryRequest():
-    '''    public void setPrimaryRequest(final AsynchRequest primaryRequest)
+    '''public void setPrimaryRequest(final AsynchRequest primaryRequest)
     '''
 def getSecondaryRequests():
-    '''    public AsynchSecondaryRequest[] getSecondaryRequests()
+    '''public AsynchSecondaryRequest[] getSecondaryRequests()
     '''
 def setSecondaryRequests():
-    '''    public void setSecondaryRequests(final AsynchSecondaryRequest[] secondaryRequests)
+    '''public void setSecondaryRequests(final AsynchSecondaryRequest[] secondaryRequests)
     '''
 def getStatus():
-    '''    public AsynchReplyStatusEnum getStatus()
+    '''public AsynchReplyStatusEnum getStatus()
     '''
 def setStatus():
-    '''    public void setStatus(final AsynchReplyStatusEnum status)
+    '''public void setStatus(final AsynchReplyStatusEnum status)
     '''
 def equals():
-    '''    public synchronized boolean equals(final Object obj)
+    '''public synchronized boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public synchronized int hashCode()
+    '''public synchronized int hashCode()
     '''
 def getTypeDesc():
-    '''    public static TypeDesc getTypeDesc()
+    '''public static TypeDesc getTypeDesc()
     '''
 def getSerializer():
-    '''    public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
     '''
 def getDeserializer():
-    '''    public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
     '''

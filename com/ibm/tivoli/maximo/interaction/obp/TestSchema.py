@@ -1,3 +1,3 @@
 def testSchema():
-    '''    public void testSchema()
+    '''public void testSchema()
     '''

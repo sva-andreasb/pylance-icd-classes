@@ -5,17 +5,17 @@ symbolSpace = "String  \"http://jena.hpl.hp.com/SDB/symbol#\""
 PATH = "String  \"com.hp.hpl.jena.sdb\""
 NAME = "String  \"SDB\""
 def getContext():
-    '''    public static Context getContext()
+    '''public static Context getContext()
     '''
 def init():
-    '''    public static void init()
+    '''public static void init()
     '''
 def whenRequiredByAssembler():
-    '''    public static void whenRequiredByAssembler(final AssemblerGroup g)
+    '''public static void whenRequiredByAssembler(final AssemblerGroup g)
     '''
 def getGlobalPrefixMapping():
-    '''    public static PrefixMapping getGlobalPrefixMapping()
+    '''public static PrefixMapping getGlobalPrefixMapping()
     '''
 def allocSymbol():
-    '''    public static Symbol allocSymbol(final String shortName)
+    '''public static Symbol allocSymbol(final String shortName)
     '''

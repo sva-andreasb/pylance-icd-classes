@@ -1,3 +1,3 @@
 def FldMapTipSigOption():
-    '''    public FldMapTipSigOption(final MboValue mbv)
+    '''public FldMapTipSigOption(final MboValue mbv)
     '''

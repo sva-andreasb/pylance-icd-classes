@@ -1,6 +1,6 @@
 def StopWFSet():
-    '''    public StopWFSet(final MboServerInterface ms)
+    '''public StopWFSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

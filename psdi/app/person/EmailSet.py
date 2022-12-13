@@ -1,3 +1,3 @@
 def EmailSet():
-    '''    public EmailSet(final MboServerInterface ms)
+    '''public EmailSet(final MboServerInterface ms)
     '''

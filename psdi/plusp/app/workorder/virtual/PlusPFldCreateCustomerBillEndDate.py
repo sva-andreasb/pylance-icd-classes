@@ -1,6 +1,6 @@
 def PlusPFldCreateCustomerBillEndDate():
-    '''    public PlusPFldCreateCustomerBillEndDate(final MboValue mbv)
+    '''public PlusPFldCreateCustomerBillEndDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

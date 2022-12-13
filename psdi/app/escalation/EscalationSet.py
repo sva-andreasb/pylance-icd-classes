@@ -1,3 +1,3 @@
 def EscalationSet():
-    '''    public EscalationSet(final MboServerInterface ms)
+    '''public EscalationSet(final MboServerInterface ms)
     '''

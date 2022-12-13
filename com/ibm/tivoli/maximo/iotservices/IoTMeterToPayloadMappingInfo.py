@@ -1,63 +1,63 @@
 def IoTMeterToPayloadMappingInfo():
-    '''    public IoTMeterToPayloadMappingInfo(final Map<String, String> data)
+    '''public IoTMeterToPayloadMappingInfo(final Map<String, String> data)
     '''
 def getIotServiceName():
-    '''    public String getIotServiceName()
+    '''public String getIotServiceName()
     '''
 def setIotServiceName():
-    '''    public void setIotServiceName(final String iotservicename)
+    '''public void setIotServiceName(final String iotservicename)
     '''
 def getEndPointName():
-    '''    public String getEndPointName()
+    '''public String getEndPointName()
     '''
 def setEndPointName():
-    '''    public void setEndPointName(final String endpointname)
+    '''public void setEndPointName(final String endpointname)
     '''
 def getDeviceType():
-    '''    public String getDeviceType()
+    '''public String getDeviceType()
     '''
 def setDeviceType():
-    '''    public void setDeviceType(final String devicetype)
+    '''public void setDeviceType(final String devicetype)
     '''
 def getMeterName():
-    '''    public String getMeterName()
+    '''public String getMeterName()
     '''
 def setMeterName():
-    '''    public void setMeterName(final String metername)
+    '''public void setMeterName(final String metername)
     '''
 def getFeedMappingProp():
-    '''    public String getFeedMappingProp()
+    '''public String getFeedMappingProp()
     '''
 def setFeedMappingProp():
-    '''    public void setFeedMappingProp(final String feedmappingprop)
+    '''public void setFeedMappingProp(final String feedmappingprop)
     '''
 def setPropAggregation():
-    '''    public void setPropAggregation(final String propAggregation)
+    '''public void setPropAggregation(final String propAggregation)
     '''
 def getPropAggregation():
-    '''    public String getPropAggregation()
+    '''public String getPropAggregation()
     '''
 def getHistQuery():
-    '''    public String getHistQuery()
+    '''public String getHistQuery()
     '''
 def setHistQuery():
-    '''    public void setHistQuery(final String histQuery)
+    '''public void setHistQuery(final String histQuery)
     '''
 def getRuleName():
-    '''    public String getRuleName()
+    '''public String getRuleName()
     '''
 def setRuleName():
-    '''    public void setRuleName(final String ruleName)
+    '''public void setRuleName(final String ruleName)
     '''
 def setGroupLevel():
-    '''    public void setGroupLevel(final String groupLevel)
+    '''public void setGroupLevel(final String groupLevel)
     '''
 def getGroupLevel():
-    '''    public String getGroupLevel()
+    '''public String getGroupLevel()
     '''
 def getInstanceName():
-    '''    public String getInstanceName()
+    '''public String getInstanceName()
     '''
 def setInstanceName():
-    '''    public void setInstanceName(final String instanceName)
+    '''public void setInstanceName(final String instanceName)
     '''

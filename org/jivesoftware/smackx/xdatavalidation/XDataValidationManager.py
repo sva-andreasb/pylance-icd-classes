@@ -1,3 +1,3 @@
 def connectionCreated():
-    '''    public void connectionCreated(final XMPPConnection connection)
+    '''public void connectionCreated(final XMPPConnection connection)
     '''

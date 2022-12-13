@@ -1,6 +1,6 @@
 def FldInventoryFreqUnit():
-    '''    public FldInventoryFreqUnit(final MboValue mbv)
+    '''public FldInventoryFreqUnit(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

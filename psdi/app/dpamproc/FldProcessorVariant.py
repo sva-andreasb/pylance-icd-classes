@@ -1,6 +1,6 @@
 def FldProcessorVariant():
-    '''    public FldProcessorVariant(final MboValue mbv)
+    '''public FldProcessorVariant(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

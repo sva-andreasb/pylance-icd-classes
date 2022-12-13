@@ -1,3 +1,3 @@
 def ReorderWeighted():
-    '''    public ReorderWeighted(final StatsMatcher stats)
+    '''public ReorderWeighted(final StatsMatcher stats)
     '''

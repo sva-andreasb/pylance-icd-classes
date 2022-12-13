@@ -1,3 +1,3 @@
 def applyToSelected():
-    '''    public int applyToSelected()
+    '''public int applyToSelected()
     '''

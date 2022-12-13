@@ -1,6 +1,6 @@
 def FldAssignCrewToDate():
-    '''    public FldAssignCrewToDate(final MboValue mbv)
+    '''public FldAssignCrewToDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -22,33 +22,33 @@ RESPONSE_STATUS = "String  \"RESPONSE_STATUS\""
 RESPONSE_STATUS_TEXT = "String  \"RESPONSE_STATUS_TEXT\""
 FIREANDFORGET = "String  \"FIREANDFORGET\""
 def HTTPHandler():
-    '''    public HTTPHandler(final MaxEndPointInfo endPointInfo)
+    '''public HTTPHandler(final MaxEndPointInfo endPointInfo)
     public HTTPHandler()
     '''
 def invoke():
-    '''    public byte[] invoke(final Map metaData, byte[] data)
+    '''public byte[] invoke(final Map metaData, byte[] data)
     '''
 def getProperties():
-    '''    public List<RouterPropsInfo> getProperties()
+    '''public List<RouterPropsInfo> getProperties()
     '''
 def getReadTimeout():
-    '''    public int getReadTimeout()
+    '''public int getReadTimeout()
     '''
 def getConnectTimeout():
-    '''    public int getConnectTimeout()
+    '''public int getConnectTimeout()
     '''
 def getHttpExitName():
-    '''    public String getHttpExitName()
+    '''public String getHttpExitName()
     '''
 def getUrl():
-    '''    public String getUrl()
+    '''public String getUrl()
     '''
 def getUserName():
-    '''    public String getUserName()
+    '''public String getUserName()
     '''
 def getHttpMethod():
-    '''    public String getHttpMethod()
+    '''public String getHttpMethod()
     '''
 def encode():
-    '''    public static String encode(final String userName, final String password)
+    '''public static String encode(final String userName, final String password)
     '''

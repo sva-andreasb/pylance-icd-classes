@@ -1,15 +1,15 @@
 def CompanyAccDef():
-    '''    public CompanyAccDef(final MboSet ms)
+    '''public CompanyAccDef(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def getValidateOrder():
-    '''    public String[] getValidateOrder()
+    '''public String[] getValidateOrder()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

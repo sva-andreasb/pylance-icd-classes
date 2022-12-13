@@ -1,3 +1,3 @@
 def FldMasterPM():
-    '''    public FldMasterPM(final MboValue mbv)
+    '''public FldMasterPM(final MboValue mbv)
     '''

@@ -1,9 +1,9 @@
 def PMForecastBean():
-    '''    public PMForecastBean()
+    '''public PMForecastBean()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def doforecast():
-    '''    public int doforecast()
+    '''public int doforecast()
     '''

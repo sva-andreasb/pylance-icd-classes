@@ -2,11 +2,11 @@ ASSET_WHERE_LIST = "String  \"status in (select value from synonymdomain where d
 FOR_COMPUTERS = "String  \" and (tloampartition is null or tloampartition=0) and parent is null \""
 FOR_PARTITIONS = "String  \" and tloampartition=1 \""
 def FldLicAssetNum():
-    '''    public FldLicAssetNum(final MboValue mbv)
+    '''public FldLicAssetNum(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,6 +1,6 @@
 def FldSLARanking():
-    '''    public FldSLARanking(final MboValue mbv)
+    '''public FldSLARanking(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

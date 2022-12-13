@@ -1,6 +1,6 @@
 def FldFailureListFailureClass():
-    '''    public FldFailureListFailureClass(final MboValue mbv)
+    '''public FldFailureListFailureClass(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

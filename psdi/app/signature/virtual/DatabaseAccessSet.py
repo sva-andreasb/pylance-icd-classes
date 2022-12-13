@@ -1,12 +1,12 @@
 def DatabaseAccessSet():
-    '''    public DatabaseAccessSet(final MboServerInterface ms)
+    '''public DatabaseAccessSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

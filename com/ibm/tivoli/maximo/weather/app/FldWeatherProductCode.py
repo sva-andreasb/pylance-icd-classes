@@ -1,3 +1,3 @@
 def FldWeatherProductCode():
-    '''    public FldWeatherProductCode(final MboValue mbv)
+    '''public FldWeatherProductCode(final MboValue mbv)
     '''

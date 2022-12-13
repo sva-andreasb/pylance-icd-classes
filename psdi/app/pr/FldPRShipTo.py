@@ -1,6 +1,6 @@
 def FldPRShipTo():
-    '''    public FldPRShipTo(final MboValue mbv)
+    '''public FldPRShipTo(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

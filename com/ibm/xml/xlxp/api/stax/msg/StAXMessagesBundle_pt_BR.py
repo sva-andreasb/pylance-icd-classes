@@ -1,3 +1,3 @@
 def getString():
-    '''    public String getString(final int n)
+    '''public String getString(final int n)
     '''

@@ -1,3 +1,3 @@
 def DynamicAttributeIterator():
-    '''    public DynamicAttributeIterator(final PropertyOwnerPointer parent, final QName name)
+    '''public DynamicAttributeIterator(final PropertyOwnerPointer parent, final QName name)
     '''

@@ -1,6 +1,6 @@
 def createpo():
-    '''    public int createpo()
+    '''public int createpo()
     '''
 def createcont():
-    '''    public int createcont()
+    '''public int createcont()
     '''

@@ -4,36 +4,36 @@ _LABEL = "String  \"_label\""
 TENSION = "String  \"tension\""
 LABEL_OFFSET = "String  \"labelOffset\""
 def ChartType():
-    '''    public ChartType()
+    '''public ChartType()
     '''
 def setGap():
-    '''    public void setGap(final int i)
+    '''public void setGap(final int i)
     '''
 def getGap():
-    '''    public Integer getGap()
+    '''public Integer getGap()
     '''
 def setType():
-    '''    public void setType(final ChartTypes type)
+    '''public void setType(final ChartTypes type)
     public void setType(final String type)
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''
 def getLabel():
-    '''    public String getLabel()
+    '''public String getLabel()
     '''
 def setLabel():
-    '''    public void setLabel(final String label)
+    '''public void setLabel(final String label)
     '''
 def setTension():
-    '''    public void setTension(final String ten)
+    '''public void setTension(final String ten)
     '''
 def setLabelOffset():
-    '''    public void setLabelOffset(final int off)
+    '''public void setLabelOffset(final int off)
     '''
 def getLabelOffset():
-    '''    public int getLabelOffset()
+    '''public int getLabelOffset()
     '''
 def fromString():
-    '''    public static ChartTypes fromString(final String chart)
+    '''public static ChartTypes fromString(final String chart)
     '''

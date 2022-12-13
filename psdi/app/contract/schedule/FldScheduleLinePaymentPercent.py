@@ -1,6 +1,6 @@
 def FldScheduleLinePaymentPercent():
-    '''    public FldScheduleLinePaymentPercent(final MboValue mbv)
+    '''public FldScheduleLinePaymentPercent(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

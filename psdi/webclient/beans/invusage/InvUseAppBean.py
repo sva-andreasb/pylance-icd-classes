@@ -1,21 +1,21 @@
 def save():
-    '''    public synchronized void save()
+    '''public synchronized void save()
     '''
 def initializeApp():
-    '''    public void initializeApp()
+    '''public void initializeApp()
     '''
 def COMPLETE():
-    '''    public int COMPLETE()
+    '''public int COMPLETE()
     '''
 def STAGED():
-    '''    public int STAGED()
+    '''public int STAGED()
     '''
 def SHIPPED():
-    '''    public int SHIPPED()
+    '''public int SHIPPED()
     '''
 def CANCELLED():
-    '''    public int CANCELLED()
+    '''public int CANCELLED()
     '''
 def SAVE():
-    '''    public int SAVE()
+    '''public int SAVE()
     '''

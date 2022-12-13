@@ -1,6 +1,6 @@
 def SelectProductBean():
-    '''    public SelectProductBean()
+    '''public SelectProductBean()
     '''
 def execute():
-    '''    public synchronized int execute()
+    '''public synchronized int execute()
     '''

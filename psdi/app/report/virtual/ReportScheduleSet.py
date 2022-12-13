@@ -1,3 +1,3 @@
 def ReportScheduleSet():
-    '''    public ReportScheduleSet(final MboServerInterface ms)
+    '''public ReportScheduleSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def RESTMbo():
-    '''    public RESTMbo(final MboSet ms)
+    '''public RESTMbo(final MboSet ms)
     '''

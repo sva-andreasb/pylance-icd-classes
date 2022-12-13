@@ -1,31 +1,31 @@
 def ObjectListIterator():
-    '''    public ObjectListIterator()
+    '''public ObjectListIterator()
     public ObjectListIterator(final ListIterator lt)
     '''
 def nextIndex():
-    '''    public int nextIndex()
+    '''public int nextIndex()
     '''
 def previousIndex():
-    '''    public int previousIndex()
+    '''public int previousIndex()
     '''
 def remove():
-    '''    public void remove()
+    '''public void remove()
     '''
 def hasNext():
-    '''    public boolean hasNext()
+    '''public boolean hasNext()
     '''
 def hasPrevious():
-    '''    public boolean hasPrevious()
+    '''public boolean hasPrevious()
     '''
 def next():
-    '''    public Object next()
+    '''public Object next()
     '''
 def previous():
-    '''    public Object previous()
+    '''public Object previous()
     '''
 def add():
-    '''    public void add(final Object o)
+    '''public void add(final Object o)
     '''
 def set():
-    '''    public void set(final Object o)
+    '''public void set(final Object o)
     '''

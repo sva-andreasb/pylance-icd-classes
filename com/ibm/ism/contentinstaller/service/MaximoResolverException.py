@@ -1,3 +1,3 @@
 def MaximoResolverException():
-    '''    public MaximoResolverException(final String message, final Throwable throwable)
+    '''public MaximoResolverException(final String message, final Throwable throwable)
     '''

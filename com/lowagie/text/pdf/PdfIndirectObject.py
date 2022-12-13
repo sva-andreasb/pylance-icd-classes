@@ -1,3 +1,3 @@
 def getIndirectReference():
-    '''    public PdfIndirectReference getIndirectReference()
+    '''public PdfIndirectReference getIndirectReference()
     '''

@@ -1,3 +1,3 @@
 def VpkMsgServiceDown():
-    '''    public VpkMsgServiceDown(final int n, final int[] array)
+    '''public VpkMsgServiceDown(final int n, final int[] array)
     '''

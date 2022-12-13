@@ -1,6 +1,6 @@
 def FldCIItemSetId():
-    '''    public FldCIItemSetId(final MboValue mbv)
+    '''public FldCIItemSetId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

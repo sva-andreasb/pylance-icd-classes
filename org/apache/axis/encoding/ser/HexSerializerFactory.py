@@ -1,3 +1,3 @@
 def HexSerializerFactory():
-    '''    public HexSerializerFactory(final Class javaType, final QName xmlType)
+    '''public HexSerializerFactory(final Class javaType, final QName xmlType)
     '''

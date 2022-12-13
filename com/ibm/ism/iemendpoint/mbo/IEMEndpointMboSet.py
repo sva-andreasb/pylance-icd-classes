@@ -1,3 +1,3 @@
 def IEMEndpointMboSet():
-    '''    public IEMEndpointMboSet(final MboServerInterface ms)
+    '''public IEMEndpointMboSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def RepairAdapter():
-    '''    public RepairAdapter(final DatabaseInformation mdi)
+    '''public RepairAdapter(final DatabaseInformation mdi)
     '''

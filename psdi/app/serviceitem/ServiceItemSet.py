@@ -1,3 +1,3 @@
 def ServiceItemSet():
-    '''    public ServiceItemSet(final MboServerInterface ms)
+    '''public ServiceItemSet(final MboServerInterface ms)
     '''

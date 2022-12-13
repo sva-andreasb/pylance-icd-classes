@@ -1,3 +1,3 @@
 def DeleteBucketCrossOriginConfigurationRequest():
-    '''    public DeleteBucketCrossOriginConfigurationRequest(final String bucketName)
+    '''public DeleteBucketCrossOriginConfigurationRequest(final String bucketName)
     '''

@@ -1,6 +1,6 @@
 def PmComFldTkOwner():
-    '''    public PmComFldTkOwner(final MboValue mbv)
+    '''public PmComFldTkOwner(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

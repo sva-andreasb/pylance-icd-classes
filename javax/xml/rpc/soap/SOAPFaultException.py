@@ -1,15 +1,15 @@
 def SOAPFaultException():
-    '''    public SOAPFaultException(final QName faultcode, final String faultstring, final String faultactor, final Detail detail)
+    '''public SOAPFaultException(final QName faultcode, final String faultstring, final String faultactor, final Detail detail)
     '''
 def getFaultCode():
-    '''    public QName getFaultCode()
+    '''public QName getFaultCode()
     '''
 def getFaultString():
-    '''    public String getFaultString()
+    '''public String getFaultString()
     '''
 def getFaultActor():
-    '''    public String getFaultActor()
+    '''public String getFaultActor()
     '''
 def getDetail():
-    '''    public Detail getDetail()
+    '''public Detail getDetail()
     '''

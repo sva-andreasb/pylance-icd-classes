@@ -1,11 +1,11 @@
 def SqlNodeWalker():
-    '''    public SqlNodeWalker(final SqlNodeVisitor visitor)
+    '''public SqlNodeWalker(final SqlNodeVisitor visitor)
     '''
 def walk():
-    '''    public static void walk(final SqlNode node, final SqlNodeVisitor visitor)
+    '''public static void walk(final SqlNode node, final SqlNodeVisitor visitor)
     '''
 def visit():
-    '''    public void visit(final SqlProject sqlNode)
+    '''public void visit(final SqlProject sqlNode)
     public void visit(final SqlDistinct sqlNode)
     public void visit(final SqlRestrict sqlNode)
     public void visit(final SqlRename sqlNode)

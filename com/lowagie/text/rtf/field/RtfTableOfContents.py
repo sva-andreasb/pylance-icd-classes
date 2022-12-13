@@ -1,3 +1,3 @@
 def RtfTableOfContents():
-    '''    public RtfTableOfContents(final String defaultText, final Font font)
+    '''public RtfTableOfContents(final String defaultText, final Font font)
     '''

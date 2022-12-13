@@ -1,57 +1,57 @@
 def JsonPrimitive():
-    '''    public JsonPrimitive(final Boolean bool)
+    '''public JsonPrimitive(final Boolean bool)
     public JsonPrimitive(final Number number)
     public JsonPrimitive(final String string)
     public JsonPrimitive(final Character c)
     '''
 def isBoolean():
-    '''    public boolean isBoolean()
+    '''public boolean isBoolean()
     '''
 def getAsBoolean():
-    '''    public boolean getAsBoolean()
+    '''public boolean getAsBoolean()
     '''
 def isNumber():
-    '''    public boolean isNumber()
+    '''public boolean isNumber()
     '''
 def getAsNumber():
-    '''    public Number getAsNumber()
+    '''public Number getAsNumber()
     '''
 def isString():
-    '''    public boolean isString()
+    '''public boolean isString()
     '''
 def getAsString():
-    '''    public String getAsString()
+    '''public String getAsString()
     '''
 def getAsDouble():
-    '''    public double getAsDouble()
+    '''public double getAsDouble()
     '''
 def getAsBigDecimal():
-    '''    public BigDecimal getAsBigDecimal()
+    '''public BigDecimal getAsBigDecimal()
     '''
 def getAsBigInteger():
-    '''    public BigInteger getAsBigInteger()
+    '''public BigInteger getAsBigInteger()
     '''
 def getAsFloat():
-    '''    public float getAsFloat()
+    '''public float getAsFloat()
     '''
 def getAsLong():
-    '''    public long getAsLong()
+    '''public long getAsLong()
     '''
 def getAsShort():
-    '''    public short getAsShort()
+    '''public short getAsShort()
     '''
 def getAsInt():
-    '''    public int getAsInt()
+    '''public int getAsInt()
     '''
 def getAsByte():
-    '''    public byte getAsByte()
+    '''public byte getAsByte()
     '''
 def getAsCharacter():
-    '''    public char getAsCharacter()
+    '''public char getAsCharacter()
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''

@@ -1,3 +1,3 @@
 def StoreTriplesNodesIndexPGSQL():
-    '''    public StoreTriplesNodesIndexPGSQL(final SDBConnection connection, final StoreDesc desc)
+    '''public StoreTriplesNodesIndexPGSQL(final SDBConnection connection, final StoreDesc desc)
     '''

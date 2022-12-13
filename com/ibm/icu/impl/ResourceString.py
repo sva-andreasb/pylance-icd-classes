@@ -1,6 +1,6 @@
 def ResourceString():
-    '''    public ResourceString(final String name)
+    '''public ResourceString(final String name)
     '''
 def getResource():
-    '''    public Object getResource(final Object obj)
+    '''public Object getResource(final Object obj)
     '''

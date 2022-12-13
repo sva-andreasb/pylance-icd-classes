@@ -1,3 +1,3 @@
 def toggledeleterow():
-    '''    public int toggledeleterow()
+    '''public int toggledeleterow()
     '''

@@ -1,6 +1,6 @@
 def GradientFunction():
-    '''    public GradientFunction(final MultivariateDifferentiableFunction f)
+    '''public GradientFunction(final MultivariateDifferentiableFunction f)
     '''
 def value():
-    '''    public double[] value(final double[] point)
+    '''public double[] value(final double[] point)
     '''

@@ -1,12 +1,12 @@
 def AssetLRM():
-    '''    public AssetLRM(final MboSet ms)
+    '''public AssetLRM(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''

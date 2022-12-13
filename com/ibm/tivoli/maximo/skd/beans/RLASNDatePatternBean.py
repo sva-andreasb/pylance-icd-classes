@@ -1,6 +1,6 @@
 def getList():
-    '''    public synchronized MboSetRemote getList(final String attribute)
+    '''public synchronized MboSetRemote getList(final String attribute)
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''

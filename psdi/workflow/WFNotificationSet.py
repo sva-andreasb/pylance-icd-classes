@@ -1,6 +1,6 @@
 def WFNotificationSet():
-    '''    public WFNotificationSet(final MboServerInterface ms)
+    '''public WFNotificationSet(final MboServerInterface ms)
     '''
 def activateNotifications():
-    '''    public void activateNotifications()
+    '''public void activateNotifications()
     '''

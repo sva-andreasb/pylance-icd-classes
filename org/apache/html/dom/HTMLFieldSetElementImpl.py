@@ -1,3 +1,3 @@
 def HTMLFieldSetElementImpl():
-    '''    public HTMLFieldSetElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''public HTMLFieldSetElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
     '''

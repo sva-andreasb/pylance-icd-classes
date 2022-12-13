@@ -1,6 +1,6 @@
 def FldJSONMapMapType():
-    '''    public FldJSONMapMapType(final MboValue mbv)
+    '''public FldJSONMapMapType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

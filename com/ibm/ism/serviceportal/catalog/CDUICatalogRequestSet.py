@@ -1,3 +1,3 @@
 def CDUICatalogRequestSet():
-    '''    public CDUICatalogRequestSet(final MboServerInterface ms)
+    '''public CDUICatalogRequestSet(final MboServerInterface ms)
     '''

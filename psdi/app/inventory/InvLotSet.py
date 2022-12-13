@@ -1,3 +1,3 @@
 def InvLotSet():
-    '''    public InvLotSet(final MboServerInterface ms)
+    '''public InvLotSet(final MboServerInterface ms)
     '''

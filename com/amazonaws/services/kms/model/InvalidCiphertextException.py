@@ -1,3 +1,3 @@
 def InvalidCiphertextException():
-    '''    public InvalidCiphertextException(final String message)
+    '''public InvalidCiphertextException(final String message)
     '''

@@ -1,3 +1,3 @@
 def SKDAction():
-    '''    public SKDAction(final MboSet ms)
+    '''public SKDAction(final MboSet ms)
     '''

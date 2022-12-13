@@ -1,3 +1,3 @@
 def ApptBookJobPlanSet():
-    '''    public ApptBookJobPlanSet(final MboServerInterface ms)
+    '''public ApptBookJobPlanSet(final MboServerInterface ms)
     '''

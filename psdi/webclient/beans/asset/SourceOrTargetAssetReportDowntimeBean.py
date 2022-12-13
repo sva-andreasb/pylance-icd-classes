@@ -1,6 +1,6 @@
 def SourceOrTargetAssetReportDowntimeBean():
-    '''    public SourceOrTargetAssetReportDowntimeBean()
+    '''public SourceOrTargetAssetReportDowntimeBean()
     '''
 def execute():
-    '''    public synchronized int execute()
+    '''public synchronized int execute()
     '''

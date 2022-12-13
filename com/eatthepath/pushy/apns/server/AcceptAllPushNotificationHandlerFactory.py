@@ -1,3 +1,3 @@
 def buildHandler():
-    '''    public PushNotificationHandler buildHandler(final SSLSession sslSession)
+    '''public PushNotificationHandler buildHandler(final SSLSession sslSession)
     '''

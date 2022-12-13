@@ -1,9 +1,9 @@
 def FldAutoScript():
-    '''    public FldAutoScript(final MboValue mbv)
+    '''public FldAutoScript(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

@@ -1,3 +1,3 @@
 def FmtLayout2IndexDerby():
-    '''    public FmtLayout2IndexDerby(final SDBConnection connection)
+    '''public FmtLayout2IndexDerby(final SDBConnection connection)
     '''

@@ -1,3 +1,3 @@
 def SolutionSet():
-    '''    public SolutionSet(final MboServerInterface ms)
+    '''public SolutionSet(final MboServerInterface ms)
     '''

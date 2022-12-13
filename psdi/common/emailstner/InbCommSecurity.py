@@ -1,6 +1,6 @@
 def InbCommSecurity():
-    '''    public InbCommSecurity(final MboSet ms)
+    '''public InbCommSecurity(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -1,6 +1,6 @@
 def FldMRLineRefWO():
-    '''    public FldMRLineRefWO(final MboValue mbv)
+    '''public FldMRLineRefWO(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

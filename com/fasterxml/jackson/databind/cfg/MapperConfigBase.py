@@ -1,5 +1,5 @@
 def with():
-    '''    public final T with(final MapperFeature... features)
+    '''public final T with(final MapperFeature... features)
     public final T with(final MapperFeature feature, final boolean state)
     public final T with(final AnnotationIntrospector ai)
     public final T with(final ClassIntrospector ci)
@@ -13,52 +13,52 @@ def with():
     public final T with(final TimeZone tz)
     '''
 def without():
-    '''    public final T without(final MapperFeature... features)
+    '''public final T without(final MapperFeature... features)
     '''
 def withAppendedAnnotationIntrospector():
-    '''    public final T withAppendedAnnotationIntrospector(final AnnotationIntrospector ai)
+    '''public final T withAppendedAnnotationIntrospector(final AnnotationIntrospector ai)
     '''
 def withInsertedAnnotationIntrospector():
-    '''    public final T withInsertedAnnotationIntrospector(final AnnotationIntrospector ai)
+    '''public final T withInsertedAnnotationIntrospector(final AnnotationIntrospector ai)
     '''
 def withAttributes():
-    '''    public T withAttributes(final Map<?, ?> attributes)
+    '''public T withAttributes(final Map<?, ?> attributes)
     '''
 def withAttribute():
-    '''    public T withAttribute(final Object key, final Object value)
+    '''public T withAttribute(final Object key, final Object value)
     '''
 def withoutAttribute():
-    '''    public T withoutAttribute(final Object key)
+    '''public T withoutAttribute(final Object key)
     '''
 def withRootName():
-    '''    public T withRootName(final String rootName)
+    '''public T withRootName(final String rootName)
     '''
 def getSubtypeResolver():
-    '''    public final SubtypeResolver getSubtypeResolver()
+    '''public final SubtypeResolver getSubtypeResolver()
     '''
 def getRootName():
-    '''    public final String getRootName()
+    '''public final String getRootName()
     '''
 def getFullRootName():
-    '''    public final PropertyName getFullRootName()
+    '''public final PropertyName getFullRootName()
     '''
 def getAttributes():
-    '''    public final ContextAttributes getAttributes()
+    '''public final ContextAttributes getAttributes()
     '''
 def getConfigOverride():
-    '''    public final ConfigOverride getConfigOverride(final Class<?> type)
+    '''public final ConfigOverride getConfigOverride(final Class<?> type)
     '''
 def findConfigOverride():
-    '''    public final ConfigOverride findConfigOverride(final Class<?> type)
+    '''public final ConfigOverride findConfigOverride(final Class<?> type)
     '''
 def getDefaultMergeable():
-    '''    public Boolean getDefaultMergeable()
+    '''public Boolean getDefaultMergeable()
     public Boolean getDefaultMergeable(final Class<?> baseType)
     '''
 def findRootName():
-    '''    public PropertyName findRootName(final JavaType rootType)
+    '''public PropertyName findRootName(final JavaType rootType)
     public PropertyName findRootName(final Class<?> rawRootType)
     '''
 def mixInCount():
-    '''    public final int mixInCount()
+    '''public final int mixInCount()
     '''

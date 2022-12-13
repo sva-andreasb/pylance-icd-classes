@@ -1,6 +1,6 @@
 def FldMaxVarInputSiteID():
-    '''    public FldMaxVarInputSiteID(final MboValue mbv)
+    '''public FldMaxVarInputSiteID(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

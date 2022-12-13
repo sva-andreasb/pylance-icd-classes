@@ -1,61 +1,61 @@
 def ExternalLinksTable():
-    '''    public ExternalLinksTable()
+    '''public ExternalLinksTable()
     public ExternalLinksTable(final PackagePart part)
     '''
 def readFrom():
-    '''    public void readFrom(final InputStream is)
+    '''public void readFrom(final InputStream is)
     '''
 def writeTo():
-    '''    public void writeTo(final OutputStream out)
+    '''public void writeTo(final OutputStream out)
     '''
 def getCTExternalLink():
-    '''    public CTExternalLink getCTExternalLink()
+    '''public CTExternalLink getCTExternalLink()
     '''
 def getLinkedFileName():
-    '''    public String getLinkedFileName()
+    '''public String getLinkedFileName()
     '''
 def setLinkedFileName():
-    '''    public void setLinkedFileName(final String target)
+    '''public void setLinkedFileName(final String target)
     '''
 def getSheetNames():
-    '''    public List<String> getSheetNames()
+    '''public List<String> getSheetNames()
     '''
 def getDefinedNames():
-    '''    public List<Name> getDefinedNames()
+    '''public List<Name> getDefinedNames()
     '''
 def getNameName():
-    '''    public String getNameName()
+    '''public String getNameName()
     '''
 def setNameName():
-    '''    public void setNameName(final String name)
+    '''public void setNameName(final String name)
     '''
 def getSheetName():
-    '''    public String getSheetName()
+    '''public String getSheetName()
     '''
 def getSheetIndex():
-    '''    public int getSheetIndex()
+    '''public int getSheetIndex()
     '''
 def setSheetIndex():
-    '''    public void setSheetIndex(final int sheetId)
+    '''public void setSheetIndex(final int sheetId)
     '''
 def getRefersToFormula():
-    '''    public String getRefersToFormula()
+    '''public String getRefersToFormula()
     '''
 def setRefersToFormula():
-    '''    public void setRefersToFormula(final String formulaText)
+    '''public void setRefersToFormula(final String formulaText)
     '''
 def isFunctionName():
-    '''    public boolean isFunctionName()
+    '''public boolean isFunctionName()
     '''
 def isDeleted():
-    '''    public boolean isDeleted()
+    '''public boolean isDeleted()
     '''
 def getComment():
-    '''    public String getComment()
+    '''public String getComment()
     '''
 def setComment():
-    '''    public void setComment(final String comment)
+    '''public void setComment(final String comment)
     '''
 def setFunction():
-    '''    public void setFunction(final boolean value)
+    '''public void setFunction(final boolean value)
     '''

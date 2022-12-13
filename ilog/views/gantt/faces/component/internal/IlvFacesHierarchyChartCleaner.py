@@ -1,12 +1,12 @@
 def IlvFacesHierarchyChartCleaner():
-    '''    public IlvFacesHierarchyChartCleaner(final IlvHierarchyChart a)
+    '''public IlvFacesHierarchyChartCleaner(final IlvHierarchyChart a)
     '''
 def valueBound():
-    '''    public void valueBound(final HttpSessionBindingEvent httpSessionBindingEvent)
+    '''public void valueBound(final HttpSessionBindingEvent httpSessionBindingEvent)
     '''
 def valueUnbound():
-    '''    public void valueUnbound(final HttpSessionBindingEvent httpSessionBindingEvent)
+    '''public void valueUnbound(final HttpSessionBindingEvent httpSessionBindingEvent)
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''

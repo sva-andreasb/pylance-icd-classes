@@ -1,6 +1,6 @@
 def PmscFldClassStructureid():
-    '''    public PmscFldClassStructureid(final MboValue mbv)
+    '''public PmscFldClassStructureid(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

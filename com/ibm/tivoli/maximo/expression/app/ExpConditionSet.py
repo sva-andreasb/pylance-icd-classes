@@ -1,3 +1,3 @@
 def ExpConditionSet():
-    '''    public ExpConditionSet(final MboServerInterface ms)
+    '''public ExpConditionSet(final MboServerInterface ms)
     '''

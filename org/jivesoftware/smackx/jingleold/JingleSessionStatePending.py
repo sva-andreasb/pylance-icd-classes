@@ -1,12 +1,12 @@
 def getInstance():
-    '''    public static synchronized JingleSessionState getInstance()
+    '''public static synchronized JingleSessionState getInstance()
     '''
 def enter():
-    '''    public void enter()
+    '''public void enter()
     '''
 def exit():
-    '''    public void exit()
+    '''public void exit()
     '''
 def processJingle():
-    '''    public IQ processJingle(final JingleSession session, final Jingle jingle, final JingleActionEnum action)
+    '''public IQ processJingle(final JingleSession session, final Jingle jingle, final JingleActionEnum action)
     '''

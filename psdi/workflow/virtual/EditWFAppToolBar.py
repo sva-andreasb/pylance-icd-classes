@@ -1,12 +1,12 @@
 def EditWFAppToolBar():
-    '''    public EditWFAppToolBar(final MboSet ms)
+    '''public EditWFAppToolBar(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def addGeneral():
-    '''    public MboRemote addGeneral()
+    '''public MboRemote addGeneral()
     '''
 def addSpecific():
-    '''    public MboRemote addSpecific()
+    '''public MboRemote addSpecific()
     '''

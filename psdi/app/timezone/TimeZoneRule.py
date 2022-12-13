@@ -1,19 +1,19 @@
 def TimeZoneRule():
-    '''    public TimeZoneRule(final MboSet ms)
+    '''public TimeZoneRule(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def validateRule():
-    '''    public void validateRule(final String ruleRels)
+    '''public void validateRule(final String ruleRels)
     public void validateRule()
     '''

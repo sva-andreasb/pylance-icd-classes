@@ -1,9 +1,9 @@
 def FldLaborCertHistCertificateNum():
-    '''    public FldLaborCertHistCertificateNum(final MboValue mbv)
+    '''public FldLaborCertHistCertificateNum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

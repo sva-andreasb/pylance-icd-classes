@@ -1,6 +1,6 @@
 def getUsernameRequested():
-    '''    public String getUsernameRequested()
+    '''public String getUsernameRequested()
     '''
 def handle():
-    '''    public void handle(final Callback[] callbacks)
+    '''public void handle(final Callback[] callbacks)
     '''

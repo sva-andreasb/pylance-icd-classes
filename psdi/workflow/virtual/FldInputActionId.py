@@ -1,12 +1,12 @@
 def FldInputActionId():
-    '''    public FldInputActionId(final MboValue mbv)
+    '''public FldInputActionId(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def hasList():
-    '''    public boolean hasList()
+    '''public boolean hasList()
     '''

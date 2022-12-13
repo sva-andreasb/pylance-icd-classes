@@ -1,3 +1,3 @@
 def get():
-    '''    public CalendarParser get()
+    '''public CalendarParser get()
     '''

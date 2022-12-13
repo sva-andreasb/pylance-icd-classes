@@ -1,3 +1,3 @@
 def OAuthAuthorizeTemporaryTokenUrl():
-    '''    public OAuthAuthorizeTemporaryTokenUrl(final String encodedUserAuthorizationUrl)
+    '''public OAuthAuthorizeTemporaryTokenUrl(final String encodedUserAuthorizationUrl)
     '''

@@ -1,6 +1,6 @@
 def PlusPFldPSFeePriceFormula():
-    '''    public PlusPFldPSFeePriceFormula(final MboValue mbv)
+    '''public PlusPFldPSFeePriceFormula(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

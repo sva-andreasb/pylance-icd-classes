@@ -1,9 +1,9 @@
 def CDUIMobileOutboundProc():
-    '''    public CDUIMobileOutboundProc()
+    '''public CDUIMobileOutboundProc()
     '''
 def checkBusinessRules():
-    '''    public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
     '''
 def mostRecentBrandIcon():
-    '''    public void mostRecentBrandIcon(final MboSet mboSet)
+    '''public void mostRecentBrandIcon(final MboSet mboSet)
     '''

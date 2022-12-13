@@ -1,6 +1,6 @@
 def PlusPFldPlusPPriceSchedPriceSchedule():
-    '''    public PlusPFldPlusPPriceSchedPriceSchedule(final MboValue mbv)
+    '''public PlusPFldPlusPPriceSchedPriceSchedule(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

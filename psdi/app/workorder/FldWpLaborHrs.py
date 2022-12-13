@@ -1,6 +1,6 @@
 def FldWpLaborHrs():
-    '''    public FldWpLaborHrs(final MboValue mbv)
+    '''public FldWpLaborHrs(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,25 +1,25 @@
 def CharSequenceReader():
-    '''    public CharSequenceReader(final CharSequence charSequence)
+    '''public CharSequenceReader(final CharSequence charSequence)
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def mark():
-    '''    public void mark(final int readAheadLimit)
+    '''public void mark(final int readAheadLimit)
     '''
 def markSupported():
-    '''    public boolean markSupported()
+    '''public boolean markSupported()
     '''
 def read():
-    '''    public int read()
+    '''public int read()
     public int read(final char[] array, final int offset, final int length)
     '''
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''
 def skip():
-    '''    public long skip(final long n)
+    '''public long skip(final long n)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

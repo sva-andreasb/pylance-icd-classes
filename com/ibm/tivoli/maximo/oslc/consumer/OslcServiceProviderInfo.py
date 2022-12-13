@@ -1,6 +1,6 @@
 def getUri():
-    '''    public String getUri()
+    '''public String getUri()
     '''
 def getTitle():
-    '''    public String getTitle()
+    '''public String getTitle()
     '''

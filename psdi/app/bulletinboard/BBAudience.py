@@ -1,6 +1,6 @@
 def BBAudience():
-    '''    public BBAudience(final MboSet ms)
+    '''public BBAudience(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

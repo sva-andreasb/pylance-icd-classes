@@ -1,9 +1,9 @@
 def FldSiteID():
-    '''    public FldSiteID(final MboValue mbv)
+    '''public FldSiteID(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

@@ -1,6 +1,6 @@
 def SplitActionListener():
-    '''    public SplitActionListener(final IlvReservation reservation)
+    '''public SplitActionListener(final IlvReservation reservation)
     '''
 def actionPerformed():
-    '''    public void actionPerformed(final ActionEvent e)
+    '''public void actionPerformed(final ActionEvent e)
     '''

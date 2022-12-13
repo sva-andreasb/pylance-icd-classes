@@ -1,15 +1,15 @@
 def MaxPMProcess():
-    '''    public MaxPMProcess()
+    '''public MaxPMProcess()
     '''
 def checkBusinessRules():
-    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
     '''
 def setAdditionalData():
-    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
     '''
 def checkValidateErrors():
-    '''    public void checkValidateErrors()
+    '''public void checkValidateErrors()
     '''
 def changeStatus():
-    '''    public void changeStatus(final MboRemote setMbo, final String stat, final String memo)
+    '''public void changeStatus(final MboRemote setMbo, final String stat, final String memo)
     '''

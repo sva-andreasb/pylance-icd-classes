@@ -1,12 +1,12 @@
 def TransferCurItemSet():
-    '''    public TransferCurItemSet(final MboServerInterface ms)
+    '''public TransferCurItemSet(final MboServerInterface ms)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

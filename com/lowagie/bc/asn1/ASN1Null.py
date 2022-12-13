@@ -1,6 +1,6 @@
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''

@@ -1,6 +1,6 @@
 def FldReportProcReserveEndReserve():
-    '''    public FldReportProcReserveEndReserve(final MboValue mbv)
+    '''public FldReportProcReserveEndReserve(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

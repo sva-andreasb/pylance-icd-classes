@@ -1,3 +1,3 @@
 def TAMITAssetSpecSet():
-    '''    public TAMITAssetSpecSet(final MboServerInterface ms)
+    '''public TAMITAssetSpecSet(final MboServerInterface ms)
     '''

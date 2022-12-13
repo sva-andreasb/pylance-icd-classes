@@ -1,3 +1,3 @@
 def FldSchemaName():
-    '''    public FldSchemaName(final MboValue mbv)
+    '''public FldSchemaName(final MboValue mbv)
     '''

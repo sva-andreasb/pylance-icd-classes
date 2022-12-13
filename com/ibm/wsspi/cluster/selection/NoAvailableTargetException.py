@@ -1,3 +1,3 @@
 def NoAvailableTargetException():
-    '''    public NoAvailableTargetException(final String message)
+    '''public NoAvailableTargetException(final String message)
     '''

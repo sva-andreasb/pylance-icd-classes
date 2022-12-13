@@ -1,97 +1,97 @@
 def getAccountId():
-    '''    public Long getAccountId()
+    '''public Long getAccountId()
     '''
 def setAccountId():
-    '''    public void setAccountId(final Long accountId)
+    '''public void setAccountId(final Long accountId)
     '''
 def isAccountIdSpecified():
-    '''    public boolean isAccountIdSpecified()
+    '''public boolean isAccountIdSpecified()
     '''
 def unsetAccountId():
-    '''    public void unsetAccountId()
+    '''public void unsetAccountId()
     '''
 def getAction():
-    '''    public String getAction()
+    '''public String getAction()
     '''
 def setAction():
-    '''    public void setAction(final String action)
+    '''public void setAction(final String action)
     '''
 def isActionSpecified():
-    '''    public boolean isActionSpecified()
+    '''public boolean isActionSpecified()
     '''
 def unsetAction():
-    '''    public void unsetAction()
+    '''public void unsetAction()
     '''
 def getCreateDate():
-    '''    public GregorianCalendar getCreateDate()
+    '''public GregorianCalendar getCreateDate()
     '''
 def setCreateDate():
-    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''public void setCreateDate(final GregorianCalendar createDate)
     '''
 def isCreateDateSpecified():
-    '''    public boolean isCreateDateSpecified()
+    '''public boolean isCreateDateSpecified()
     '''
 def unsetCreateDate():
-    '''    public void unsetCreateDate()
+    '''public void unsetCreateDate()
     '''
 def getId():
-    '''    public Long getId()
+    '''public Long getId()
     '''
 def setId():
-    '''    public void setId(final Long id)
+    '''public void setId(final Long id)
     '''
 def isIdSpecified():
-    '''    public boolean isIdSpecified()
+    '''public boolean isIdSpecified()
     '''
 def unsetId():
-    '''    public void unsetId()
+    '''public void unsetId()
     '''
 def getModifyDate():
-    '''    public GregorianCalendar getModifyDate()
+    '''public GregorianCalendar getModifyDate()
     '''
 def setModifyDate():
-    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''public void setModifyDate(final GregorianCalendar modifyDate)
     '''
 def isModifyDateSpecified():
-    '''    public boolean isModifyDateSpecified()
+    '''public boolean isModifyDateSpecified()
     '''
 def unsetModifyDate():
-    '''    public void unsetModifyDate()
+    '''public void unsetModifyDate()
     '''
 def getStatus():
-    '''    public String getStatus()
+    '''public String getStatus()
     '''
 def setStatus():
-    '''    public void setStatus(final String status)
+    '''public void setStatus(final String status)
     '''
 def isStatusSpecified():
-    '''    public boolean isStatusSpecified()
+    '''public boolean isStatusSpecified()
     '''
 def unsetStatus():
-    '''    public void unsetStatus()
+    '''public void unsetStatus()
     '''
 def asService():
-    '''    public Service asService(final ApiClient client)
+    '''public Service asService(final ApiClient client)
     '''
 def service():
-    '''    public static Service service(final ApiClient client)
+    '''public static Service service(final ApiClient client)
     public static Service service(final ApiClient client, final Long id)
     '''
 def accountId():
-    '''    public Mask accountId()
+    '''public Mask accountId()
     '''
 def action():
-    '''    public Mask action()
+    '''public Mask action()
     '''
 def createDate():
-    '''    public Mask createDate()
+    '''public Mask createDate()
     '''
 def id():
-    '''    public Mask id()
+    '''public Mask id()
     '''
 def modifyDate():
-    '''    public Mask modifyDate()
+    '''public Mask modifyDate()
     '''
 def status():
-    '''    public Mask status()
+    '''public Mask status()
     '''

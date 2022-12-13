@@ -1,6 +1,6 @@
 def FldUserQueryOSName():
-    '''    public FldUserQueryOSName(final MboValue mbv)
+    '''public FldUserQueryOSName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

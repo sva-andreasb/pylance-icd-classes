@@ -1,6 +1,6 @@
 def CrontaskMonitor():
-    '''    public CrontaskMonitor(final MboSet ms)
+    '''public CrontaskMonitor(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

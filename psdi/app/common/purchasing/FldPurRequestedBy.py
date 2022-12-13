@@ -1,6 +1,6 @@
 def FldPurRequestedBy():
-    '''    public FldPurRequestedBy(final MboValue mbv)
+    '''public FldPurRequestedBy(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

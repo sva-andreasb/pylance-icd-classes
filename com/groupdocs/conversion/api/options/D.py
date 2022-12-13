@@ -1,6 +1,6 @@
 def D():
-    '''    public D(final IResourceCallback a)
+    '''public D(final IResourceCallback a)
     '''
 def a():
-    '''    public void a(final bF.a a)
+    '''public void a(final bF.a a)
     '''

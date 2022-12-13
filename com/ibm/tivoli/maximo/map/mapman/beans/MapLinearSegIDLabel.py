@@ -1,3 +1,3 @@
 def MapLinearSegIDLabel():
-    '''    public MapLinearSegIDLabel()
+    '''public MapLinearSegIDLabel()
     '''

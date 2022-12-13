@@ -34,43 +34,43 @@ SEPERATORS = "String  \" /-.:\""
 MINSPERHOUR = "double  60.0"
 SPECIALSAVECHARS = "String  \"=: \t\r\n\f#!\""
 def stringToDate():
-    '''    public static Date stringToDate(final String s)
+    '''public static Date stringToDate(final String s)
     public static Date stringToDate(final String s, final ULocale l)
     public static Date stringToDate(final String s, final ULocale l, final TimeZone tz)
     public static Date stringToDate(final String strDate, final String strFormat)
     '''
 def dateToString():
-    '''    public static String dateToString(final Date d)
+    '''public static String dateToString(final Date d)
     public static String dateToString(final Date d, final ULocale l)
     public static String dateToString(final Date d, final ULocale l, final TimeZone tz)
     '''
 def stringToDateTime():
-    '''    public static Date stringToDateTime(final String s)
+    '''public static Date stringToDateTime(final String s)
     public static Date stringToDateTime(final String s, final ULocale l)
     public static Date stringToDateTime(final String s, final ULocale l, final TimeZone tz)
     '''
 def dateTimeToParseString():
-    '''    public static String dateTimeToParseString(final Date d)
+    '''public static String dateTimeToParseString(final Date d)
     public static String dateTimeToParseString(final Date d, final ULocale l)
     public static String dateTimeToParseString(final Date d, final ULocale l, final com.ibm.icu.util.TimeZone tz)
     '''
 def dateTimeToString():
-    '''    public static String dateTimeToString(final Date d)
+    '''public static String dateTimeToString(final Date d)
     public static String dateTimeToString(final Date d, final ULocale l)
     public static String dateTimeToString(final Date d, final ULocale l, final TimeZone tz)
     '''
 def dateTimeToSQLString():
-    '''    public static String dateTimeToSQLString(final Date d)
+    '''public static String dateTimeToSQLString(final Date d)
     '''
 def dateToSQLString():
-    '''    public static String dateToSQLString(final Date d)
+    '''public static String dateToSQLString(final Date d)
     '''
 def getDateOnly():
-    '''    public static Date getDateOnly(final Date date)
+    '''public static Date getDateOnly(final Date date)
     '''
 def parseDateTime():
-    '''    public static int[] parseDateTime(final String s, final ULocale l, final String pattern)
+    '''public static int[] parseDateTime(final String s, final ULocale l, final String pattern)
     '''
 def setSettingProp():
-    '''    public static synchronized void setSettingProp(final String propName, final String propValue)
+    '''public static synchronized void setSettingProp(final String propName, final String propValue)
     '''

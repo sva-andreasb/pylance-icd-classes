@@ -1,6 +1,6 @@
 def noprocess():
-    '''    public int noprocess()
+    '''public int noprocess()
     '''
 def process():
-    '''    public int process()
+    '''public int process()
     '''

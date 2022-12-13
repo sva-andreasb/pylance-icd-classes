@@ -1,9 +1,9 @@
 def FldInventoryAddToStoreLoc():
-    '''    public FldInventoryAddToStoreLoc(final MboValue mbv)
+    '''public FldInventoryAddToStoreLoc(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

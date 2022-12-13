@@ -1,12 +1,12 @@
 def JPChangeStatus():
-    '''    public JPChangeStatus(final MboSet ms)
+    '''public JPChangeStatus(final MboSet ms)
     '''
 def setFromResult():
-    '''    public void setFromResult(final boolean flag)
+    '''public void setFromResult(final boolean flag)
     '''
 def getFromResult():
-    '''    public boolean getFromResult()
+    '''public boolean getFromResult()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

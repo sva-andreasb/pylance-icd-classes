@@ -1,6 +1,6 @@
 def BIMSessionSet():
-    '''    public BIMSessionSet(final MboServerInterface ms)
+    '''public BIMSessionSet(final MboServerInterface ms)
     '''
 def addAtIndex():
-    '''    public MboRemote addAtIndex(final long accessModifier, final int ind)
+    '''public MboRemote addAtIndex(final long accessModifier, final int ind)
     '''

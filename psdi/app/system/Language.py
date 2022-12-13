@@ -1,15 +1,15 @@
 def Language():
-    '''    public Language(final MboSet ms)
+    '''public Language(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def enable():
-    '''    public void enable(final boolean flag)
+    '''public void enable(final boolean flag)
     '''

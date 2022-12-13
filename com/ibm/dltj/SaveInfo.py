@@ -1,18 +1,18 @@
 def getFsaHeaderSize():
-    '''    public int getFsaHeaderSize()
+    '''public int getFsaHeaderSize()
     '''
 def getFsaSize():
-    '''    public int getFsaSize()
+    '''public int getFsaSize()
     '''
 def getGlossCollectionSize():
-    '''    public int getGlossCollectionSize()
+    '''public int getGlossCollectionSize()
     '''
 def getMwIndicesFstSize():
-    '''    public int getMwIndicesFstSize()
+    '''public int getMwIndicesFstSize()
     '''
 def getGlossSize():
-    '''    public int getGlossSize()
+    '''public int getGlossSize()
     '''
 def getHeaderSize():
-    '''    public int getHeaderSize()
+    '''public int getHeaderSize()
     '''

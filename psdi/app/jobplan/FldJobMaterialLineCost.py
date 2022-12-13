@@ -1,6 +1,6 @@
 def FldJobMaterialLineCost():
-    '''    public FldJobMaterialLineCost(final MboValue mbv)
+    '''public FldJobMaterialLineCost(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

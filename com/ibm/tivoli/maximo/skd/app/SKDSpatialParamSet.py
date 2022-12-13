@@ -1,3 +1,3 @@
 def SKDSpatialParamSet():
-    '''    public SKDSpatialParamSet(final MboServerInterface ms)
+    '''public SKDSpatialParamSet(final MboServerInterface ms)
     '''

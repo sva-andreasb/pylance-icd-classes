@@ -1,12 +1,12 @@
 def NameSetBuilder():
-    '''    public NameSetBuilder()
+    '''public NameSetBuilder()
     '''
 def invert():
-    '''    public void invert()
+    '''public void invert()
     '''
 def add():
-    '''    public void add(final String name)
+    '''public void add(final String name)
     '''
 def toNameSet():
-    '''    public NameSet toNameSet()
+    '''public NameSet toNameSet()
     '''

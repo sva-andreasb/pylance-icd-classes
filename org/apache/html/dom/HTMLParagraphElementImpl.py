@@ -1,9 +1,9 @@
 def getAlign():
-    '''    public String getAlign()
+    '''public String getAlign()
     '''
 def setAlign():
-    '''    public void setAlign(final String s)
+    '''public void setAlign(final String s)
     '''
 def HTMLParagraphElementImpl():
-    '''    public HTMLParagraphElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''public HTMLParagraphElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
     '''

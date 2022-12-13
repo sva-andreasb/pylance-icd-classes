@@ -18,14 +18,14 @@ TRANSACTION_LOG_RECOVERY_STEP_NAME = "String  \"transactionLogRecovery\""
 BOUNDING_NODE_GROUP_NAME_STEP_NAME = "String  \"boundingNodeGroupName\""
 MEMBERS_STEP_NAME = "String  \"members\""
 def createCommand():
-    '''    public AbstractAdminCommand createCommand(final CommandMetadata metadata)
+    '''public AbstractAdminCommand createCommand(final CommandMetadata metadata)
     '''
 def loadCommand():
-    '''    public AbstractAdminCommand loadCommand(final CommandData cmdData)
+    '''public AbstractAdminCommand loadCommand(final CommandData cmdData)
     '''
 def createCommandStep():
-    '''    public AbstractCommandStep createCommandStep(final AbstractTaskCommand taskCmd, final String stepName)
+    '''public AbstractCommandStep createCommandStep(final AbstractTaskCommand taskCmd, final String stepName)
     '''
 def loadCommandStep():
-    '''    public AbstractCommandStep loadCommandStep(final AbstractTaskCommand taskCmd, final CommandStepData stepData)
+    '''public AbstractCommandStep loadCommandStep(final AbstractTaskCommand taskCmd, final CommandStepData stepData)
     '''

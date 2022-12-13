@@ -1,3 +1,3 @@
 def getMsgTracker():
-    '''    public static MessageTracker getMsgTracker()
+    '''public static MessageTracker getMsgTracker()
     '''

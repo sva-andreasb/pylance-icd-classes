@@ -24,5 +24,5 @@ BORDER_STRIPED = "int  22"
 BORDER_EMBOSS = "int  23"
 BORDER_ENGRAVE = "int  24"
 def write():
-    '''    public byte[] write()
+    '''public byte[] write()
     '''

@@ -1,3 +1,3 @@
 def resize():
-    '''    public static final Object resize(final Object o, final int n)
+    '''public static final Object resize(final Object o, final int n)
     '''

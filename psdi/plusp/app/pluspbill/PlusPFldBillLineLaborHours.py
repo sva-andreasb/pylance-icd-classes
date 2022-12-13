@@ -1,6 +1,6 @@
 def PlusPFldBillLineLaborHours():
-    '''    public PlusPFldBillLineLaborHours(final MboValue mbv)
+    '''public PlusPFldBillLineLaborHours(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

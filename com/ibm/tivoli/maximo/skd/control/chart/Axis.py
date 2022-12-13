@@ -36,11 +36,11 @@ DROP_LABELS = "String  \"dropLabels\""
 LABEL_SIZE_CHANGE = "String  \"labelSizeChange\""
 ID = "String  \"_axisId\""
 def Axis():
-    '''    public Axis(final String axisId)
+    '''public Axis(final String axisId)
     '''
 def newXAxis():
-    '''    public static Axis newXAxis()
+    '''public static Axis newXAxis()
     '''
 def newYAxis():
-    '''    public static Axis newYAxis()
+    '''public static Axis newYAxis()
     '''

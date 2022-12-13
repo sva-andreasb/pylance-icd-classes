@@ -1,6 +1,6 @@
 def FldServRecTransWonum():
-    '''    public FldServRecTransWonum(final MboValue mbv)
+    '''public FldServRecTransWonum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

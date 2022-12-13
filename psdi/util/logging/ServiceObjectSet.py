@@ -1,3 +1,3 @@
 def ServiceObjectSet():
-    '''    public ServiceObjectSet(final MboServerInterface ms)
+    '''public ServiceObjectSet(final MboServerInterface ms)
     '''

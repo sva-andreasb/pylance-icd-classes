@@ -8,47 +8,47 @@ COMMENT = "String  \"comment\""
 COMMENTURL = "String  \"commenturl\""
 DISCARD = "String  \"discard\""
 def Cookie2():
-    '''    public Cookie2()
+    '''public Cookie2()
     public Cookie2(final String domain, final String name, final String value)
     public Cookie2(final String domain, final String name, final String value, final String path, final Date expires, final boolean secure)
     public Cookie2(final String domain, final String name, final String value, final String path, final Date expires, final boolean secure, final int[] ports)
     '''
 def getCommentURL():
-    '''    public String getCommentURL()
+    '''public String getCommentURL()
     '''
 def setCommentURL():
-    '''    public void setCommentURL(final String commentURL)
+    '''public void setCommentURL(final String commentURL)
     '''
 def getPorts():
-    '''    public int[] getPorts()
+    '''public int[] getPorts()
     '''
 def setPorts():
-    '''    public void setPorts(final int[] ports)
+    '''public void setPorts(final int[] ports)
     '''
 def setDiscard():
-    '''    public void setDiscard(final boolean toDiscard)
+    '''public void setDiscard(final boolean toDiscard)
     '''
 def isPersistent():
-    '''    public boolean isPersistent()
+    '''public boolean isPersistent()
     '''
 def setPortAttributeSpecified():
-    '''    public void setPortAttributeSpecified(final boolean value)
+    '''public void setPortAttributeSpecified(final boolean value)
     '''
 def isPortAttributeSpecified():
-    '''    public boolean isPortAttributeSpecified()
+    '''public boolean isPortAttributeSpecified()
     '''
 def setPortAttributeBlank():
-    '''    public void setPortAttributeBlank(final boolean value)
+    '''public void setPortAttributeBlank(final boolean value)
     '''
 def isPortAttributeBlank():
-    '''    public boolean isPortAttributeBlank()
+    '''public boolean isPortAttributeBlank()
     '''
 def setVersionAttributeSpecified():
-    '''    public void setVersionAttributeSpecified(final boolean value)
+    '''public void setVersionAttributeSpecified(final boolean value)
     '''
 def isVersionAttributeSpecified():
-    '''    public boolean isVersionAttributeSpecified()
+    '''public boolean isVersionAttributeSpecified()
     '''
 def toExternalForm():
-    '''    public String toExternalForm()
+    '''public String toExternalForm()
     '''

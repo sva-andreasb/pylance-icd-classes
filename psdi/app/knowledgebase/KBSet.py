@@ -1,3 +1,3 @@
 def KBSet():
-    '''    public KBSet(final MboServerInterface ms)
+    '''public KBSet(final MboServerInterface ms)
     '''

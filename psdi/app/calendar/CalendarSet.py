@@ -1,3 +1,3 @@
 def CalendarSet():
-    '''    public CalendarSet(final MboServerInterface ms)
+    '''public CalendarSet(final MboServerInterface ms)
     '''

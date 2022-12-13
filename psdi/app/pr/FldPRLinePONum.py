@@ -1,6 +1,6 @@
 def FldPRLinePONum():
-    '''    public FldPRLinePONum(final MboValue mbv)
+    '''public FldPRLinePONum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

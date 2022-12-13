@@ -1,3 +1,3 @@
 def PlusPAppliesToFieldSet():
-    '''    public PlusPAppliesToFieldSet(final MboServerInterface ms)
+    '''public PlusPAppliesToFieldSet(final MboServerInterface ms)
     '''

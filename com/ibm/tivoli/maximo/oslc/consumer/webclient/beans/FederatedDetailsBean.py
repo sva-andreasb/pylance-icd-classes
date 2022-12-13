@@ -1,3 +1,3 @@
 def natpreview():
-    '''    public int natpreview()
+    '''public int natpreview()
     '''

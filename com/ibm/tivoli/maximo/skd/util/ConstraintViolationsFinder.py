@@ -1,9 +1,9 @@
 def ConstraintViolationsFinder():
-    '''    public ConstraintViolationsFinder(final Schedule schedule)
+    '''public ConstraintViolationsFinder(final Schedule schedule)
     '''
 def run():
-    '''    public Violations run()
+    '''public Violations run()
     '''
 def computeActivity():
-    '''    public void computeActivity(final IMXActivity activity)
+    '''public void computeActivity(final IMXActivity activity)
     '''

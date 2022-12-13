@@ -1,6 +1,6 @@
 def FldMaxSysKeysColName():
-    '''    public FldMaxSysKeysColName(final MboValue mbv)
+    '''public FldMaxSysKeysColName(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,18 +1,18 @@
 def TupleLoaderHashMySQL():
-    '''    public TupleLoaderHashMySQL(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
+    '''public TupleLoaderHashMySQL(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
     '''
 def getNodeColTypes():
-    '''    public String[] getNodeColTypes()
+    '''public String[] getNodeColTypes()
     '''
 def getTupleColType():
-    '''    public String getTupleColType()
+    '''public String getTupleColType()
     '''
 def getCreateTempTable():
-    '''    public String[] getCreateTempTable()
+    '''public String[] getCreateTempTable()
     '''
 def getLoadNodes():
-    '''    public String getLoadNodes()
+    '''public String getLoadNodes()
     '''
 def getLoadTuples():
-    '''    public String getLoadTuples()
+    '''public String getLoadTuples()
     '''

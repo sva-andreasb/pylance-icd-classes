@@ -1,9 +1,9 @@
 def DMPkgIdentiferSet():
-    '''    public DMPkgIdentiferSet(final MboServerInterface ms)
+    '''public DMPkgIdentiferSet(final MboServerInterface ms)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''
 def getSourceIdentifiers():
-    '''    public Map getSourceIdentifiers()
+    '''public Map getSourceIdentifiers()
     '''

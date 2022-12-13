@@ -1,6 +1,6 @@
 def FldSKDActGanttPropPropertyOrder():
-    '''    public FldSKDActGanttPropPropertyOrder(final MboValue mbv)
+    '''public FldSKDActGanttPropPropertyOrder(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

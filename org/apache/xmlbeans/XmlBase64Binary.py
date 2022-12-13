@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_base64Binary\")"
 def newInstance():
-    '''    public static XmlBase64Binary newInstance()
+    '''public static XmlBase64Binary newInstance()
     public static XmlBase64Binary newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlBase64Binary newValue(final Object obj)
+    '''public static XmlBase64Binary newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlBase64Binary parse(final String s)
+    '''public static XmlBase64Binary parse(final String s)
     public static XmlBase64Binary parse(final String s, final XmlOptions options)
     public static XmlBase64Binary parse(final File f)
     public static XmlBase64Binary parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlBase64Binary parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

@@ -1,3 +1,3 @@
 def TKTempltActivitySet():
-    '''    public TKTempltActivitySet(final MboServerInterface ms)
+    '''public TKTempltActivitySet(final MboServerInterface ms)
     '''

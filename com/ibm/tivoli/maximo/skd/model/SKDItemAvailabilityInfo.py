@@ -1,57 +1,57 @@
 def SKDItemAvailabilityInfo():
-    '''    public SKDItemAvailabilityInfo()
+    '''public SKDItemAvailabilityInfo()
     '''
 def setKeyStr():
-    '''    public void setKeyStr(final String str)
+    '''public void setKeyStr(final String str)
     '''
 def getKeyStr():
-    '''    public String getKeyStr()
+    '''public String getKeyStr()
     '''
 def setLocation():
-    '''    public void setLocation(final String str)
+    '''public void setLocation(final String str)
     '''
 def getLocation():
-    '''    public String getLocation()
+    '''public String getLocation()
     '''
 def setLocationSite():
-    '''    public void setLocationSite(final String str)
+    '''public void setLocationSite(final String str)
     '''
 def getLocationSite():
-    '''    public String getLocationSite()
+    '''public String getLocationSite()
     '''
 def setDescription():
-    '''    public void setDescription(final String desc)
+    '''public void setDescription(final String desc)
     '''
 def getDescription():
-    '''    public String getDescription()
+    '''public String getDescription()
     '''
 def setCurrentBalance():
-    '''    public void setCurrentBalance(final double qty)
+    '''public void setCurrentBalance(final double qty)
     '''
 def getCurrentBalance():
-    '''    public double getCurrentBalance()
+    '''public double getCurrentBalance()
     '''
 def setAvailableBalance():
-    '''    public void setAvailableBalance(final double qty)
+    '''public void setAvailableBalance(final double qty)
     '''
 def getAvailableBalance():
-    '''    public double getAvailableBalance()
+    '''public double getAvailableBalance()
     '''
 def setRequestedBalance():
-    '''    public void setRequestedBalance(final double qty)
+    '''public void setRequestedBalance(final double qty)
     '''
 def getRequestedBalance():
-    '''    public double getRequestedBalance()
+    '''public double getRequestedBalance()
     '''
 def setBalanceFlag():
-    '''    public void setBalanceFlag(final int i)
+    '''public void setBalanceFlag(final int i)
     '''
 def getBalanceFlag():
-    '''    public int getBalanceFlag()
+    '''public int getBalanceFlag()
     '''
 def setResType():
-    '''    public void setResType(final String restype)
+    '''public void setResType(final String restype)
     '''
 def getResType():
-    '''    public String getResType()
+    '''public String getResType()
     '''

@@ -1,9 +1,9 @@
 def getInputStream():
-    '''    public InputStream getInputStream()
+    '''public InputStream getInputStream()
     '''
 def getErrorStream():
-    '''    public InputStream getErrorStream()
+    '''public InputStream getErrorStream()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''

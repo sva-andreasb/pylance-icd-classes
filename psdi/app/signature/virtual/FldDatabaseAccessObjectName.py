@@ -1,6 +1,6 @@
 def FldDatabaseAccessObjectName():
-    '''    public FldDatabaseAccessObjectName(final MboValue mbv)
+    '''public FldDatabaseAccessObjectName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

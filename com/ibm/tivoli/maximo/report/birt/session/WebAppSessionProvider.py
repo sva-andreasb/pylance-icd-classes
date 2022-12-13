@@ -1,3 +1,3 @@
 def getNewWebAppSession():
-    '''    public static MXSession getNewWebAppSession()
+    '''public static MXSession getNewWebAppSession()
     '''

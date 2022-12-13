@@ -1,6 +1,6 @@
 def PlusPFldJpQuoteType():
-    '''    public PlusPFldJpQuoteType(final MboValue mv)
+    '''public PlusPFldJpQuoteType(final MboValue mv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

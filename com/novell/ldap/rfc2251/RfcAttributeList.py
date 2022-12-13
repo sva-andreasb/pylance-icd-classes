@@ -1,3 +1,3 @@
 def RfcAttributeList():
-    '''    public RfcAttributeList(final int n)
+    '''public RfcAttributeList(final int n)
     '''

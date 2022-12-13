@@ -1,9 +1,9 @@
 def DownloadFile():
-    '''    public DownloadFile(final String filePath)
+    '''public DownloadFile(final String filePath)
     '''
 def getPath():
-    '''    public String getPath()
+    '''public String getPath()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

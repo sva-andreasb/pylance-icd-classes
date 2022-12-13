@@ -1,3 +1,3 @@
 def LiveChat():
-    '''    public LiveChat(final MboSet ms)
+    '''public LiveChat(final MboSet ms)
     '''

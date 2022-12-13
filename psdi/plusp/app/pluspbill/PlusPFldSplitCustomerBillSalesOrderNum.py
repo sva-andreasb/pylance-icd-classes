@@ -1,6 +1,6 @@
 def PlusPFldSplitCustomerBillSalesOrderNum():
-    '''    public PlusPFldSplitCustomerBillSalesOrderNum(final MboValue mbv)
+    '''public PlusPFldSplitCustomerBillSalesOrderNum(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

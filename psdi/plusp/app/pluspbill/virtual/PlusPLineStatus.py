@@ -1,6 +1,6 @@
 def PlusPLineStatus():
-    '''    public PlusPLineStatus(final MboSet ms)
+    '''public PlusPLineStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

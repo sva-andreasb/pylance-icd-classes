@@ -1,6 +1,6 @@
 def FldInventoryRQtyNotStaged():
-    '''    public FldInventoryRQtyNotStaged(final MboValue mbv)
+    '''public FldInventoryRQtyNotStaged(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

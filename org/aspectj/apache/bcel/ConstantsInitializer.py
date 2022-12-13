@@ -1,3 +1,3 @@
 def initialize():
-    '''    public static Object initialize()
+    '''public static Object initialize()
     '''

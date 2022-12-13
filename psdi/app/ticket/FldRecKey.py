@@ -1,6 +1,6 @@
 def FldRecKey():
-    '''    public FldRecKey(final MboValue mbv)
+    '''public FldRecKey(final MboValue mbv)
     '''
 def getAppLink():
-    '''    public String[] getAppLink()
+    '''public String[] getAppLink()
     '''

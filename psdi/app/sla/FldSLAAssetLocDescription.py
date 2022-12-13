@@ -1,6 +1,6 @@
 def FldSLAAssetLocDescription():
-    '''    public FldSLAAssetLocDescription(final MboValue mbv)
+    '''public FldSLAAssetLocDescription(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

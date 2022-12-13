@@ -1,6 +1,6 @@
 def FldResourceName():
-    '''    public FldResourceName(final MboValue mbv)
+    '''public FldResourceName(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

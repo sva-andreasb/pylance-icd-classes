@@ -1,3 +1,3 @@
 def IpcSelectedParts():
-    '''    public IpcSelectedParts(final MboSet ms)
+    '''public IpcSelectedParts(final MboSet ms)
     '''

@@ -1,3 +1,3 @@
 def OSLCCommonDataBean():
-    '''    public OSLCCommonDataBean()
+    '''public OSLCCommonDataBean()
     '''

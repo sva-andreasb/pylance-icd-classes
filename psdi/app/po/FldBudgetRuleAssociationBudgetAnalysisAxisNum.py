@@ -1,3 +1,3 @@
 def FldBudgetRuleAssociationBudgetAnalysisAxisNum():
-    '''    public FldBudgetRuleAssociationBudgetAnalysisAxisNum(final MboValue mbv)
+    '''public FldBudgetRuleAssociationBudgetAnalysisAxisNum(final MboValue mbv)
     '''

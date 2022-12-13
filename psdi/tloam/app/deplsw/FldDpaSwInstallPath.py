@@ -1,12 +1,12 @@
 def FldDpaSwInstallPath():
-    '''    public FldDpaSwInstallPath(final MboValue mbv)
+    '''public FldDpaSwInstallPath(final MboValue mbv)
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''public void setValueFromLookup(final MboRemote sourceMbo)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

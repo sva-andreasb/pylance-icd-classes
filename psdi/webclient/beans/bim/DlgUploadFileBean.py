@@ -1,9 +1,9 @@
 def DlgUploadFileBean():
-    '''    public DlgUploadFileBean()
+    '''public DlgUploadFileBean()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def loadFile():
-    '''    public int loadFile()
+    '''public int loadFile()
     '''

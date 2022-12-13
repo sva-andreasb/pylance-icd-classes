@@ -4,14 +4,14 @@ CUSTOM = "Enum  Enum.forString(\"custom\")"
 INT_AUTO = "int  1"
 INT_CUSTOM = "int  2"
 def newValue():
-    '''    public static STInsetMode newValue(final Object o)
+    '''public static STInsetMode newValue(final Object o)
     '''
 def newInstance():
-    '''    public static STInsetMode newInstance()
+    '''public static STInsetMode newInstance()
     public static STInsetMode newInstance(final XmlOptions xmlOptions)
     '''
 def parse():
-    '''    public static STInsetMode parse(final String s)
+    '''public static STInsetMode parse(final String s)
     public static STInsetMode parse(final String s, final XmlOptions xmlOptions)
     public static STInsetMode parse(final File file)
     public static STInsetMode parse(final File file, final XmlOptions xmlOptions)
@@ -29,12 +29,12 @@ def parse():
     public static STInsetMode parse(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''
 def forString():
-    '''    public static Enum forString(final String s)
+    '''public static Enum forString(final String s)
     '''
 def forInt():
-    '''    public static Enum forInt(final int n)
+    '''public static Enum forInt(final int n)
     '''

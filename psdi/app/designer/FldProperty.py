@@ -1,6 +1,6 @@
 def FldProperty():
-    '''    public FldProperty(final MboValue mbv)
+    '''public FldProperty(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

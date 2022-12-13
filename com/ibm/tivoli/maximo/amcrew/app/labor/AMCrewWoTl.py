@@ -1,12 +1,12 @@
 def AMCrewWoTl():
-    '''    public AMCrewWoTl(final MboSet ms)
+    '''public AMCrewWoTl(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def setAllReadOny():
-    '''    public void setAllReadOny()
+    '''public void setAllReadOny()
     '''

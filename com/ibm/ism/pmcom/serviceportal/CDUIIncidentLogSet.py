@@ -1,3 +1,3 @@
 def CDUIIncidentLogSet():
-    '''    public CDUIIncidentLogSet(final MboServerInterface ms)
+    '''public CDUIIncidentLogSet(final MboServerInterface ms)
     '''

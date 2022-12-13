@@ -1,12 +1,12 @@
 def MaximoMacroTransformer():
-    '''    public MaximoMacroTransformer(final String macroName, final String macroValue)
+    '''public MaximoMacroTransformer(final String macroName, final String macroValue)
     '''
 def transform():
-    '''    public String transform(final Node n)
+    '''public String transform(final Node n)
     '''
 def getMacroName():
-    '''    public String getMacroName()
+    '''public String getMacroName()
     '''
 def getMacroValue():
-    '''    public String getMacroValue()
+    '''public String getMacroValue()
     '''

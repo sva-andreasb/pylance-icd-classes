@@ -1,3 +1,3 @@
 def PlusCWODSInstrSet():
-    '''    public PlusCWODSInstrSet(final MboServerInterface ms)
+    '''public PlusCWODSInstrSet(final MboServerInterface ms)
     '''

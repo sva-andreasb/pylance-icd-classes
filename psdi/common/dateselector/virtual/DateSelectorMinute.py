@@ -1,6 +1,6 @@
 def DateSelectorMinute():
-    '''    public DateSelectorMinute(final MboSet ms)
+    '''public DateSelectorMinute(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

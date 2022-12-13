@@ -1,18 +1,18 @@
 def ICUNotifier():
-    '''    public ICUNotifier()
+    '''public ICUNotifier()
     '''
 def addListener():
-    '''    public void addListener(final EventListener l)
+    '''public void addListener(final EventListener l)
     '''
 def removeListener():
-    '''    public void removeListener(final EventListener l)
+    '''public void removeListener(final EventListener l)
     '''
 def notifyChanged():
-    '''    public void notifyChanged()
+    '''public void notifyChanged()
     '''
 def queue():
-    '''    public void queue(final EventListener[] list)
+    '''public void queue(final EventListener[] list)
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''

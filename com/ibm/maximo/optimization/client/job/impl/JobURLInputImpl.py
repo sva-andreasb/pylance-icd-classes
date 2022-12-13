@@ -1,12 +1,12 @@
 def JobURLInputImpl():
-    '''    public JobURLInputImpl(final String name, final URL url)
+    '''public JobURLInputImpl(final String name, final URL url)
     '''
 def getLength():
-    '''    public long getLength()
+    '''public long getLength()
     '''
 def upload():
-    '''    public void upload(final JobClient client, final String jobid)
+    '''public void upload(final JobClient client, final String jobid)
     '''
 def isRepeatable():
-    '''    public boolean isRepeatable()
+    '''public boolean isRepeatable()
     '''

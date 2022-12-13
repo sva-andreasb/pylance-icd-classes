@@ -1,28 +1,28 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def IloObjectiveModel():
-    '''    public IloObjectiveModel(final IloGoalsDesc descs)
+    '''public IloObjectiveModel(final IloGoalsDesc descs)
     '''
 def getModelGoalByName():
-    '''    public IloGoalModel getModelGoalByName(final String id)
+    '''public IloGoalModel getModelGoalByName(final String id)
     '''
 def hasGoals():
-    '''    public boolean hasGoals()
+    '''public boolean hasGoals()
     '''
 def makeObjective():
-    '''    public void makeObjective(final IloOplModel oplModel, final IloModeler modeler, final IloEngineRequest request, final IloScenario currentScenario, final IloIssueReporter reporter)
+    '''public void makeObjective(final IloOplModel oplModel, final IloModeler modeler, final IloEngineRequest request, final IloScenario currentScenario, final IloIssueReporter reporter)
     '''
 def updateOneGoal():
-    '''    public void updateOneGoal(final String goalId, final Double newWeight, final Boolean newActive)
+    '''public void updateOneGoal(final String goalId, final Double newWeight, final Boolean newActive)
     '''
 def getVisibleGoals():
-    '''    public Iterator<IloGoalModel> getVisibleGoals()
+    '''public Iterator<IloGoalModel> getVisibleGoals()
     '''
 def remove():
-    '''    public void remove()
+    '''public void remove()
     '''
 def hasNext():
-    '''    public boolean hasNext()
+    '''public boolean hasNext()
     '''
 def next():
-    '''    public IloGoalModel next()
+    '''public IloGoalModel next()
     '''

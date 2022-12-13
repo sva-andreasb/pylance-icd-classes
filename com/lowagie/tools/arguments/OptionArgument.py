@@ -1,37 +1,37 @@
 def OptionArgument():
-    '''    public OptionArgument(final AbstractTool tool, final String name, final String description)
+    '''public OptionArgument(final AbstractTool tool, final String name, final String description)
     '''
 def addOption():
-    '''    public void addOption(final Object description, final Object value)
+    '''public void addOption(final Object description, final Object value)
     '''
 def getArgument():
-    '''    public Object getArgument()
+    '''public Object getArgument()
     '''
 def getUsage():
-    '''    public String getUsage()
+    '''public String getUsage()
     '''
 def actionPerformed():
-    '''    public void actionPerformed(final ActionEvent evt)
+    '''public void actionPerformed(final ActionEvent evt)
     '''
 def Entry():
-    '''    public Entry(final Object value)
+    '''public Entry(final Object value)
     public Entry(final Object description, final Object value)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getValueToString():
-    '''    public String getValueToString()
+    '''public String getValueToString()
     '''
 def getDescription():
-    '''    public Object getDescription()
+    '''public Object getDescription()
     '''
 def setDescription():
-    '''    public void setDescription(final Object description)
+    '''public void setDescription(final Object description)
     '''
 def getValue():
-    '''    public Object getValue()
+    '''public Object getValue()
     '''
 def setValue():
-    '''    public void setValue(final Object value)
+    '''public void setValue(final Object value)
     '''

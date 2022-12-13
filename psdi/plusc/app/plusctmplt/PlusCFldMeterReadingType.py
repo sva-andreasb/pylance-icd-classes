@@ -1,9 +1,9 @@
 def PlusCFldMeterReadingType():
-    '''    public PlusCFldMeterReadingType(final MboValue mbv)
+    '''public PlusCFldMeterReadingType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

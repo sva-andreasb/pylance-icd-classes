@@ -1,6 +1,6 @@
 def GWACrewAssignmentBean():
-    '''    public GWACrewAssignmentBean()
+    '''public GWACrewAssignmentBean()
     '''
 def getUserInfo():
-    '''    public UserInfo getUserInfo()
+    '''public UserInfo getUserInfo()
     '''

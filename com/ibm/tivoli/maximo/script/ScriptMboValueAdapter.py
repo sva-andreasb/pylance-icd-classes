@@ -1,45 +1,45 @@
 def ScriptMboValueAdapter():
-    '''    public ScriptMboValueAdapter(final MboValue mboValue)
+    '''public ScriptMboValueAdapter(final MboValue mboValue)
     '''
 def setInitValueScript():
-    '''    public void setInitValueScript(final String initValueSN, final String initValueLN)
+    '''public void setInitValueScript(final String initValueSN, final String initValueLN)
     '''
 def setInitARScript():
-    '''    public void setInitARScript(final String initARSN, final String initARLN)
+    '''public void setInitARScript(final String initARSN, final String initARLN)
     '''
 def setActionScript():
-    '''    public void setActionScript(final String actionSN, final String actionLN)
+    '''public void setActionScript(final String actionSN, final String actionLN)
     '''
 def setValidateScript():
-    '''    public void setValidateScript(final String validateSN, final String validateLN)
+    '''public void setValidateScript(final String validateSN, final String validateLN)
     '''
 def setListScript():
-    '''    public void setListScript(final String listSN, final String listLN)
+    '''public void setListScript(final String listSN, final String listLN)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def superGetList():
-    '''    public MboSetRemote superGetList()
+    '''public MboSetRemote superGetList()
     '''
 def superValidate():
-    '''    public void superValidate()
+    '''public void superValidate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def hasList():
-    '''    public boolean hasList()
+    '''public boolean hasList()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''public void setValueFromLookup(final MboRemote sourceMbo)
     '''

@@ -19,14 +19,14 @@ SEARCH_RESULT_REFERENCE = "int  19"
 EXTENDED_REQUEST = "int  23"
 EXTENDED_RESPONSE = "int  24"
 def LDAPMessage():
-    '''    public LDAPMessage(final com.novell.ldap.LDAPMessage message)
+    '''public LDAPMessage(final com.novell.ldap.LDAPMessage message)
     '''
 def getControls():
-    '''    public LDAPControl[] getControls()
+    '''public LDAPControl[] getControls()
     '''
 def getMessageID():
-    '''    public int getMessageID()
+    '''public int getMessageID()
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''

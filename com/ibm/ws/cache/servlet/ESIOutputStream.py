@@ -1,9 +1,9 @@
 def ESIOutputStream():
-    '''    public ESIOutputStream(final OutputStream out)
+    '''public ESIOutputStream(final OutputStream out)
     '''
 def flush():
-    '''    public void flush()
+    '''public void flush()
     '''
 def flushWithResponse():
-    '''    public ESIInputStream flushWithResponse()
+    '''public ESIInputStream flushWithResponse()
     '''

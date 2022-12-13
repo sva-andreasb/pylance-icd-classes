@@ -1,3 +1,3 @@
 def DDUserAuth():
-    '''    public DDUserAuth(final MboSet ms)
+    '''public DDUserAuth(final MboSet ms)
     '''

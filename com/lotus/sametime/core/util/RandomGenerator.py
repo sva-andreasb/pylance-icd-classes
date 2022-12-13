@@ -1,3 +1,3 @@
 def getRandomGenerator():
-    '''    public static Random getRandomGenerator()
+    '''public static Random getRandomGenerator()
     '''

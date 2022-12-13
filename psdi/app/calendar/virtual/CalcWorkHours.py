@@ -1,6 +1,6 @@
 def CalcWorkHours():
-    '''    public CalcWorkHours(final MboSet ms)
+    '''public CalcWorkHours(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

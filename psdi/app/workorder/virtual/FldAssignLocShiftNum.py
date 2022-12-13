@@ -1,6 +1,6 @@
 def FldAssignLocShiftNum():
-    '''    public FldAssignLocShiftNum(final MboValue mbv)
+    '''public FldAssignLocShiftNum(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

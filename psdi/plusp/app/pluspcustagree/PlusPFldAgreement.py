@@ -1,6 +1,6 @@
 def PlusPFldAgreement():
-    '''    public PlusPFldAgreement(final MboValue mboValue)
+    '''public PlusPFldAgreement(final MboValue mboValue)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,6 +1,6 @@
 def unmarshall():
-    '''    public AliasListEntry unmarshall(final JsonUnmarshallerContext context)
+    '''public AliasListEntry unmarshall(final JsonUnmarshallerContext context)
     '''
 def getInstance():
-    '''    public static AliasListEntryJsonUnmarshaller getInstance()
+    '''public static AliasListEntryJsonUnmarshaller getInstance()
     '''

@@ -22,26 +22,26 @@ visWholeShape = "int  3"
 visGuideIntersect = "int  4"
 visToAngle = "int  7"
 def XDGFConnection():
-    '''    public XDGFConnection(final ConnectType connect, final XDGFShape from, final XDGFShape to)
+    '''public XDGFConnection(final ConnectType connect, final XDGFShape from, final XDGFShape to)
     '''
 def getFromShape():
-    '''    public XDGFShape getFromShape()
+    '''public XDGFShape getFromShape()
     '''
 def getFromCell():
-    '''    public XDGFCell getFromCell()
+    '''public XDGFCell getFromCell()
     '''
 def getFromCellName():
-    '''    public String getFromCellName()
+    '''public String getFromCellName()
     '''
 def getToShape():
-    '''    public XDGFShape getToShape()
+    '''public XDGFShape getToShape()
     '''
 def getToCellName():
-    '''    public String getToCellName()
+    '''public String getToCellName()
     '''
 def getFromPart():
-    '''    public Integer getFromPart()
+    '''public Integer getFromPart()
     '''
 def getToPart():
-    '''    public Integer getToPart()
+    '''public Integer getToPart()
     '''

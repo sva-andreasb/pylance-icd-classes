@@ -1,58 +1,58 @@
 def ListObjectsRequest():
-    '''    public ListObjectsRequest()
+    '''public ListObjectsRequest()
     public ListObjectsRequest(final String bucketName, final String prefix, final String marker, final String delimiter, final Integer maxKeys)
     '''
 def getBucketName():
-    '''    public String getBucketName()
+    '''public String getBucketName()
     '''
 def setBucketName():
-    '''    public void setBucketName(final String bucketName)
+    '''public void setBucketName(final String bucketName)
     '''
 def withBucketName():
-    '''    public ListObjectsRequest withBucketName(final String bucketName)
+    '''public ListObjectsRequest withBucketName(final String bucketName)
     '''
 def getPrefix():
-    '''    public String getPrefix()
+    '''public String getPrefix()
     '''
 def setPrefix():
-    '''    public void setPrefix(final String prefix)
+    '''public void setPrefix(final String prefix)
     '''
 def withPrefix():
-    '''    public ListObjectsRequest withPrefix(final String prefix)
+    '''public ListObjectsRequest withPrefix(final String prefix)
     '''
 def getMarker():
-    '''    public String getMarker()
+    '''public String getMarker()
     '''
 def setMarker():
-    '''    public void setMarker(final String marker)
+    '''public void setMarker(final String marker)
     '''
 def withMarker():
-    '''    public ListObjectsRequest withMarker(final String marker)
+    '''public ListObjectsRequest withMarker(final String marker)
     '''
 def getDelimiter():
-    '''    public String getDelimiter()
+    '''public String getDelimiter()
     '''
 def setDelimiter():
-    '''    public void setDelimiter(final String delimiter)
+    '''public void setDelimiter(final String delimiter)
     '''
 def withDelimiter():
-    '''    public ListObjectsRequest withDelimiter(final String delimiter)
+    '''public ListObjectsRequest withDelimiter(final String delimiter)
     '''
 def getMaxKeys():
-    '''    public Integer getMaxKeys()
+    '''public Integer getMaxKeys()
     '''
 def setMaxKeys():
-    '''    public void setMaxKeys(final Integer maxKeys)
+    '''public void setMaxKeys(final Integer maxKeys)
     '''
 def withMaxKeys():
-    '''    public ListObjectsRequest withMaxKeys(final Integer maxKeys)
+    '''public ListObjectsRequest withMaxKeys(final Integer maxKeys)
     '''
 def getEncodingType():
-    '''    public String getEncodingType()
+    '''public String getEncodingType()
     '''
 def setEncodingType():
-    '''    public void setEncodingType(final String encodingType)
+    '''public void setEncodingType(final String encodingType)
     '''
 def withEncodingType():
-    '''    public ListObjectsRequest withEncodingType(final String encodingType)
+    '''public ListObjectsRequest withEncodingType(final String encodingType)
     '''

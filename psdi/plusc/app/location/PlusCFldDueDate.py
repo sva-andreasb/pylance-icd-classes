@@ -1,6 +1,6 @@
 def PlusCFldDueDate():
-    '''    public PlusCFldDueDate(final MboValue mbv)
+    '''public PlusCFldDueDate(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

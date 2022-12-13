@@ -1,6 +1,6 @@
 def SlotCompilerIndex():
-    '''    public SlotCompilerIndex(final SDBRequest request)
+    '''public SlotCompilerIndex(final SDBRequest request)
     '''
 def start():
-    '''    public SqlNode start(final QuadBlock quads)
+    '''public SqlNode start(final QuadBlock quads)
     '''

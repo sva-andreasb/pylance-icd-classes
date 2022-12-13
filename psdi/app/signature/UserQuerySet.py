@@ -1,3 +1,3 @@
 def UserQuerySet():
-    '''    public UserQuerySet(final MboServerInterface ms)
+    '''public UserQuerySet(final MboServerInterface ms)
     '''

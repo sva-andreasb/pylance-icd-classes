@@ -1,6 +1,6 @@
 def OSAccessLog():
-    '''    public OSAccessLog(final MboSet ms)
+    '''public OSAccessLog(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

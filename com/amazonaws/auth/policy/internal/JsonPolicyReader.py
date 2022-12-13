@@ -1,9 +1,9 @@
 def createPolicyFromJsonString():
-    '''    public Policy createPolicyFromJsonString(final String jsonString)
+    '''public Policy createPolicyFromJsonString(final String jsonString)
     '''
 def NamedAction():
-    '''    public NamedAction(final String actionName)
+    '''public NamedAction(final String actionName)
     '''
 def getActionName():
-    '''    public String getActionName()
+    '''public String getActionName()
     '''

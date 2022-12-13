@@ -1,3 +1,3 @@
 def readFrom():
-    '''    public long readFrom(final InputStream inputStream, final long length)
+    '''public long readFrom(final InputStream inputStream, final long length)
     '''

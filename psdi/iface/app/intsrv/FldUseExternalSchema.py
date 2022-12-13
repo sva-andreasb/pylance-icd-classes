@@ -1,6 +1,6 @@
 def FldUseExternalSchema():
-    '''    public FldUseExternalSchema(final MboValue mbv)
+    '''public FldUseExternalSchema(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

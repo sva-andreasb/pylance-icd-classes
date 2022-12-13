@@ -1,3 +1,3 @@
 def FldNPInspFormInspFormNum():
-    '''    public FldNPInspFormInspFormNum(final MboValue mbv)
+    '''public FldNPInspFormInspFormNum(final MboValue mbv)
     '''

@@ -1,15 +1,15 @@
 def WoHazardPrecSet():
-    '''    public WoHazardPrecSet(final MboServerInterface ms)
+    '''public WoHazardPrecSet(final MboServerInterface ms)
     '''
 def copyFromHazardPrec():
-    '''    public MboRemote copyFromHazardPrec(final MboRemote hazardPrec, final String dataSource)
+    '''public MboRemote copyFromHazardPrec(final MboRemote hazardPrec, final String dataSource)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''
 def setThisRelationName():
-    '''    public void setThisRelationName(final String relName)
+    '''public void setThisRelationName(final String relName)
     '''
 def getThisRelationName():
-    '''    public String getThisRelationName()
+    '''public String getThisRelationName()
     '''

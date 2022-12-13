@@ -1,6 +1,6 @@
 def FldCommonStartApp():
-    '''    public FldCommonStartApp(final MboValue mbv)
+    '''public FldCommonStartApp(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

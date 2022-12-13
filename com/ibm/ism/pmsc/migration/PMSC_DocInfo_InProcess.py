@@ -7,17 +7,17 @@ OWNERID = "String  \"OWNERID\""
 DOCINFOID = "String  \"DOCINFOID\""
 DOCTYPE = "String  \"DOCTYPE\""
 def PMSC_DocInfo_InProcess():
-    '''    public PMSC_DocInfo_InProcess()
+    '''public PMSC_DocInfo_InProcess()
     '''
 def checkBusinessRules():
-    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
     '''
 def setAdditionalData():
-    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
     '''
 def checkValidateErrors():
-    '''    public void checkValidateErrors()
+    '''public void checkValidateErrors()
     '''
 def delete():
-    '''    public void delete(final MboRemote mbo, final MosDetailInfo mdi)
+    '''public void delete(final MboRemote mbo, final MosDetailInfo mdi)
     '''

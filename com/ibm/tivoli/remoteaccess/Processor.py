@@ -1,6 +1,6 @@
 def getProcessorSpeed():
-    '''    public int getProcessorSpeed()
+    '''public int getProcessorSpeed()
     '''
 def getProcessorDesc():
-    '''    public String getProcessorDesc()
+    '''public String getProcessorDesc()
     '''

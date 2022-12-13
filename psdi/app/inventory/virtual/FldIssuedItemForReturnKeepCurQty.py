@@ -1,6 +1,6 @@
 def FldIssuedItemForReturnKeepCurQty():
-    '''    public FldIssuedItemForReturnKeepCurQty(final MboValue mbv)
+    '''public FldIssuedItemForReturnKeepCurQty(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

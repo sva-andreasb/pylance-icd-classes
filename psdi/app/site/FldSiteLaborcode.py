@@ -1,3 +1,3 @@
 def FldSiteLaborcode():
-    '''    public FldSiteLaborcode(final MboValue mbv)
+    '''public FldSiteLaborcode(final MboValue mbv)
     '''

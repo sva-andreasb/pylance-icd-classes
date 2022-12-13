@@ -1,6 +1,6 @@
 def FldCIAssetLocSiteId():
-    '''    public FldCIAssetLocSiteId(final MboValue mbv)
+    '''public FldCIAssetLocSiteId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

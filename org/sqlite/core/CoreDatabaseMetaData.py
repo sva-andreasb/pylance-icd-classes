@@ -1,3 +1,3 @@
 def close():
-    '''    public synchronized void close()
+    '''public synchronized void close()
     '''

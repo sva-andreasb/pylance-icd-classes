@@ -1,9 +1,9 @@
 def MethodFunction():
-    '''    public MethodFunction(final Method method)
+    '''public MethodFunction(final Method method)
     '''
 def invoke():
-    '''    public Object invoke(final ExpressionContext context, Object[] parameters)
+    '''public Object invoke(final ExpressionContext context, Object[] parameters)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

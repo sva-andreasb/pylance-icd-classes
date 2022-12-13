@@ -1,6 +1,6 @@
 def FieldPredicate():
-    '''    public FieldPredicate(final String fld, final Object value)
+    '''public FieldPredicate(final String fld, final Object value)
     '''
 def test():
-    '''    public boolean test(final IlvActivity in)
+    '''public boolean test(final IlvActivity in)
     '''

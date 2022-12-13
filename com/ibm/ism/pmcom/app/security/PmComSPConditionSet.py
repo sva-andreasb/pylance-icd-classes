@@ -1,3 +1,3 @@
 def PmComSPConditionSet():
-    '''    public PmComSPConditionSet(final MboServerInterface ms)
+    '''public PmComSPConditionSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def ShowActualLaborSet():
-    '''    public ShowActualLaborSet(final MboRemote owner)
+    '''public ShowActualLaborSet(final MboRemote owner)
     '''

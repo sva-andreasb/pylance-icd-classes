@@ -1,3 +1,3 @@
 def DepSchedPeriodsSet():
-    '''    public DepSchedPeriodsSet(final MboServerInterface ms)
+    '''public DepSchedPeriodsSet(final MboServerInterface ms)
     '''

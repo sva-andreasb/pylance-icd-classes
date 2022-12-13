@@ -1,42 +1,42 @@
 def getDefault():
-    '''    public static BasicPeriodFormatterFactory getDefault()
+    '''public static BasicPeriodFormatterFactory getDefault()
     '''
 def setLocale():
-    '''    public PeriodFormatterFactory setLocale(final String localeName)
+    '''public PeriodFormatterFactory setLocale(final String localeName)
     '''
 def setDisplayLimit():
-    '''    public PeriodFormatterFactory setDisplayLimit(final boolean display)
+    '''public PeriodFormatterFactory setDisplayLimit(final boolean display)
     '''
 def getDisplayLimit():
-    '''    public boolean getDisplayLimit()
+    '''public boolean getDisplayLimit()
     '''
 def setDisplayPastFuture():
-    '''    public PeriodFormatterFactory setDisplayPastFuture(final boolean display)
+    '''public PeriodFormatterFactory setDisplayPastFuture(final boolean display)
     '''
 def getDisplayPastFuture():
-    '''    public boolean getDisplayPastFuture()
+    '''public boolean getDisplayPastFuture()
     '''
 def setSeparatorVariant():
-    '''    public PeriodFormatterFactory setSeparatorVariant(final int variant)
+    '''public PeriodFormatterFactory setSeparatorVariant(final int variant)
     '''
 def getSeparatorVariant():
-    '''    public int getSeparatorVariant()
+    '''public int getSeparatorVariant()
     '''
 def setUnitVariant():
-    '''    public PeriodFormatterFactory setUnitVariant(final int variant)
+    '''public PeriodFormatterFactory setUnitVariant(final int variant)
     '''
 def getUnitVariant():
-    '''    public int getUnitVariant()
+    '''public int getUnitVariant()
     '''
 def setCountVariant():
-    '''    public PeriodFormatterFactory setCountVariant(final int variant)
+    '''public PeriodFormatterFactory setCountVariant(final int variant)
     '''
 def getCountVariant():
-    '''    public int getCountVariant()
+    '''public int getCountVariant()
     '''
 def getFormatter():
-    '''    public PeriodFormatter getFormatter()
+    '''public PeriodFormatter getFormatter()
     '''
 def copy():
-    '''    public Customizations copy()
+    '''public Customizations copy()
     '''

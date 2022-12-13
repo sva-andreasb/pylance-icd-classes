@@ -1,39 +1,39 @@
 def DISInfo():
-    '''    public DISInfo()
+    '''public DISInfo()
     '''
 def getPromotedFrom():
-    '''    public MboRemote getPromotedFrom()
+    '''public MboRemote getPromotedFrom()
     '''
 def setPromotedFrom():
-    '''    public void setPromotedFrom(final MboRemote promotedFrom)
+    '''public void setPromotedFrom(final MboRemote promotedFrom)
     '''
 def isAllowDISDups():
-    '''    public boolean isAllowDISDups()
+    '''public boolean isAllowDISDups()
     '''
 def setAllowDISDups():
-    '''    public void setAllowDISDups(final boolean allowDISDups)
+    '''public void setAllowDISDups(final boolean allowDISDups)
     '''
 def getNewGuid():
-    '''    public String getNewGuid()
+    '''public String getNewGuid()
     '''
 def setNewGuid():
-    '''    public void setNewGuid(final String newGuid)
+    '''public void setNewGuid(final String newGuid)
     '''
 def getDisDuplicate():
-    '''    public MboRemote getDisDuplicate()
+    '''public MboRemote getDisDuplicate()
     '''
 def setDisDuplicate():
-    '''    public void setDisDuplicate(final MboRemote disDuplicate)
+    '''public void setDisDuplicate(final MboRemote disDuplicate)
     '''
 def isDoNothing():
-    '''    public boolean isDoNothing()
+    '''public boolean isDoNothing()
     '''
 def setDoNothing():
-    '''    public void setDoNothing(final boolean doNothing)
+    '''public void setDoNothing(final boolean doNothing)
     '''
 def isForceGen():
-    '''    public boolean isForceGen()
+    '''public boolean isForceGen()
     '''
 def setForceGen():
-    '''    public void setForceGen(final boolean forceGen)
+    '''public void setForceGen(final boolean forceGen)
     '''

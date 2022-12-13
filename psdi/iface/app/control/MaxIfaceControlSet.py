@@ -1,6 +1,6 @@
 def MaxIfaceControlSet():
-    '''    public MaxIfaceControlSet(final MboServerInterface ms)
+    '''public MaxIfaceControlSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

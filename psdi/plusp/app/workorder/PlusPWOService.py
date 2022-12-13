@@ -1,13 +1,13 @@
 def PlusPWOService():
-    '''    public PlusPWOService()
+    '''public PlusPWOService()
     public PlusPWOService(final MXServer arg0)
     '''
 def applyPriceSchedule():
-    '''    public void applyPriceSchedule(@WSMboKey("WORKORDER") final WORemote woRemote)
+    '''public void applyPriceSchedule(@WSMboKey("WORKORDER") final WORemote woRemote)
     '''
 def createBillBatch():
-    '''    public PlusPBillBatchRemote createBillBatch(@WSMboKey("WORKORDER") final WORemote woRemote)
+    '''public PlusPBillBatchRemote createBillBatch(@WSMboKey("WORKORDER") final WORemote woRemote)
     '''
 def billWorkOrder():
-    '''    public PlusPBillBatchRemote billWorkOrder(@WSMboKey("WORKORDER") final WORemote mr, final boolean b, final String s, final Date date)
+    '''public PlusPBillBatchRemote billWorkOrder(@WSMboKey("WORKORDER") final WORemote mr, final boolean b, final String s, final Date date)
     '''

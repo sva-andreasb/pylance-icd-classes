@@ -1,18 +1,18 @@
 def PdfLayerMembership():
-    '''    public PdfLayerMembership(final PdfWriter writer)
+    '''public PdfLayerMembership(final PdfWriter writer)
     '''
 def getRef():
-    '''    public PdfIndirectReference getRef()
+    '''public PdfIndirectReference getRef()
     '''
 def addMember():
-    '''    public void addMember(final PdfLayer layer)
+    '''public void addMember(final PdfLayer layer)
     '''
 def getLayers():
-    '''    public Collection getLayers()
+    '''public Collection getLayers()
     '''
 def setVisibilityPolicy():
-    '''    public void setVisibilityPolicy(final PdfName type)
+    '''public void setVisibilityPolicy(final PdfName type)
     '''
 def getPdfObject():
-    '''    public PdfObject getPdfObject()
+    '''public PdfObject getPdfObject()
     '''

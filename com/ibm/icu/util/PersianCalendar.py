@@ -1,5 +1,5 @@
 def PersianCalendar():
-    '''    public PersianCalendar()
+    '''public PersianCalendar()
     public PersianCalendar(final TimeZone zone)
     public PersianCalendar(final Locale aLocale)
     public PersianCalendar(final ULocale locale)
@@ -10,5 +10,5 @@ def PersianCalendar():
     public PersianCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''

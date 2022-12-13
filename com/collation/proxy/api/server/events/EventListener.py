@@ -1,19 +1,19 @@
 CHANGE_MANAGER = "int  4"
 def notify():
-    '''    public void notify(final RemoteEvent event)
+    '''public void notify(final RemoteEvent event)
     '''
 def EventListener():
-    '''    public EventListener(final int messageType, final String bindName)
+    '''public EventListener(final int messageType, final String bindName)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def added():
-    '''    public void added(final Object service)
+    '''public void added(final Object service)
     '''
 def removed():
-    '''    public void removed(final Object service)
+    '''public void removed(final Object service)
     '''
 def changed():
-    '''    public void changed(final Object oldService, final Object newService)
+    '''public void changed(final Object oldService, final Object newService)
     '''

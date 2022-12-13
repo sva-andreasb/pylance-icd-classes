@@ -1,3 +1,3 @@
 def PmChgWPSet():
-    '''    public PmChgWPSet(final MboServerInterface ms)
+    '''public PmChgWPSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def getErrnoSaveFunction():
-    '''    public static final long getErrnoSaveFunction()
+    '''public static final long getErrnoSaveFunction()
     '''

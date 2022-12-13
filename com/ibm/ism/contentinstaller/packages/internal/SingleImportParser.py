@@ -1,9 +1,9 @@
 def SingleImportParser():
-    '''    public SingleImportParser(final IPackageResolver resolver)
+    '''public SingleImportParser(final IPackageResolver resolver)
     '''
 def getSchemaSource():
-    '''    public String getSchemaSource()
+    '''public String getSchemaSource()
     '''
 def parse():
-    '''    public RootTag parse(final Document document)
+    '''public RootTag parse(final Document document)
     '''

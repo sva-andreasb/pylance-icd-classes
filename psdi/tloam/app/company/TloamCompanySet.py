@@ -1,3 +1,3 @@
 def TloamCompanySet():
-    '''    public TloamCompanySet(final MboServerInterface ms)
+    '''public TloamCompanySet(final MboServerInterface ms)
     '''

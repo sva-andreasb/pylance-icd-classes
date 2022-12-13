@@ -100,19 +100,19 @@ JP_ERA_2019_ROOT = "String  \"Reiwa\""
 JP_ERA_2019_JA = "String  \"\u4ee4\u548c\""
 JP_ERA_2019_NARROW = "String  \"R\""
 def format():
-    '''    public final StringBuffer format(final Object obj, final StringBuffer toAppendTo, final FieldPosition fieldPosition)
+    '''public final StringBuffer format(final Object obj, final StringBuffer toAppendTo, final FieldPosition fieldPosition)
     public StringBuffer format(final Date date, final StringBuffer toAppendTo, final FieldPosition fieldPosition)
     public final String format(final Date date)
     '''
 def parse():
-    '''    public Date parse(final String text)
+    '''public Date parse(final String text)
     public Date parse(final String text, final ParsePosition pos)
     '''
 def parseObject():
-    '''    public Object parseObject(final String source, final ParsePosition pos)
+    '''public Object parseObject(final String source, final ParsePosition pos)
     '''
 def getTimeInstance():
-    '''    public static final DateFormat getTimeInstance()
+    '''public static final DateFormat getTimeInstance()
     public static final DateFormat getTimeInstance(final int style)
     public static final DateFormat getTimeInstance(final int style, final Locale aLocale)
     public static final DateFormat getTimeInstance(final int style, final ULocale locale)
@@ -121,7 +121,7 @@ def getTimeInstance():
     public static final DateFormat getTimeInstance(final Calendar cal, final int timeStyle)
     '''
 def getDateInstance():
-    '''    public static final DateFormat getDateInstance()
+    '''public static final DateFormat getDateInstance()
     public static final DateFormat getDateInstance(final int style)
     public static final DateFormat getDateInstance(final int style, final Locale aLocale)
     public static final DateFormat getDateInstance(final int style, final ULocale locale)
@@ -130,7 +130,7 @@ def getDateInstance():
     public static final DateFormat getDateInstance(final Calendar cal, final int dateStyle)
     '''
 def getDateTimeInstance():
-    '''    public static final DateFormat getDateTimeInstance()
+    '''public static final DateFormat getDateTimeInstance()
     public static final DateFormat getDateTimeInstance(final int dateStyle, final int timeStyle)
     public static final DateFormat getDateTimeInstance(final int dateStyle, final int timeStyle, final Locale aLocale)
     public static final DateFormat getDateTimeInstance(final int dateStyle, final int timeStyle, final ULocale locale)
@@ -139,85 +139,85 @@ def getDateTimeInstance():
     public static final DateFormat getDateTimeInstance(final Calendar cal, final int dateStyle, final int timeStyle)
     '''
 def getInstance():
-    '''    public static final DateFormat getInstance()
+    '''public static final DateFormat getInstance()
     public static final DateFormat getInstance(final Calendar cal, final Locale locale)
     public static final DateFormat getInstance(final Calendar cal, final ULocale locale)
     public static final DateFormat getInstance(final Calendar cal)
     '''
 def getAvailableLocales():
-    '''    public static Locale[] getAvailableLocales()
+    '''public static Locale[] getAvailableLocales()
     '''
 def getAvailableULocales():
-    '''    public static ULocale[] getAvailableULocales()
+    '''public static ULocale[] getAvailableULocales()
     '''
 def setCalendar():
-    '''    public void setCalendar(final Calendar newCalendar)
+    '''public void setCalendar(final Calendar newCalendar)
     '''
 def getCalendar():
-    '''    public Calendar getCalendar()
+    '''public Calendar getCalendar()
     '''
 def setNumberFormat():
-    '''    public void setNumberFormat(final NumberFormat newNumberFormat)
+    '''public void setNumberFormat(final NumberFormat newNumberFormat)
     '''
 def getNumberFormat():
-    '''    public NumberFormat getNumberFormat()
+    '''public NumberFormat getNumberFormat()
     '''
 def setTimeZone():
-    '''    public void setTimeZone(final TimeZone zone)
+    '''public void setTimeZone(final TimeZone zone)
     '''
 def getTimeZone():
-    '''    public TimeZone getTimeZone()
+    '''public TimeZone getTimeZone()
     '''
 def setLenient():
-    '''    public void setLenient(final boolean lenient)
+    '''public void setLenient(final boolean lenient)
     '''
 def isLenient():
-    '''    public boolean isLenient()
+    '''public boolean isLenient()
     '''
 def setCalendarLenient():
-    '''    public void setCalendarLenient(final boolean lenient)
+    '''public void setCalendarLenient(final boolean lenient)
     '''
 def isCalendarLenient():
-    '''    public boolean isCalendarLenient()
+    '''public boolean isCalendarLenient()
     '''
 def setBooleanAttribute():
-    '''    public DateFormat setBooleanAttribute(BooleanAttribute key, final boolean value)
+    '''public DateFormat setBooleanAttribute(BooleanAttribute key, final boolean value)
     '''
 def getBooleanAttribute():
-    '''    public boolean getBooleanAttribute(BooleanAttribute key)
+    '''public boolean getBooleanAttribute(BooleanAttribute key)
     '''
 def setContext():
-    '''    public void setContext(final DisplayContext context)
+    '''public void setContext(final DisplayContext context)
     '''
 def getContext():
-    '''    public DisplayContext getContext(final DisplayContext.Type type)
+    '''public DisplayContext getContext(final DisplayContext.Type type)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''
 def getInstanceForSkeleton():
-    '''    public static final DateFormat getInstanceForSkeleton(final String skeleton)
+    '''public static final DateFormat getInstanceForSkeleton(final String skeleton)
     public static final DateFormat getInstanceForSkeleton(final String skeleton, final Locale locale)
     public static final DateFormat getInstanceForSkeleton(final String skeleton, final ULocale locale)
     public static final DateFormat getInstanceForSkeleton(final Calendar cal, final String skeleton, final Locale locale)
     public static final DateFormat getInstanceForSkeleton(final Calendar cal, final String skeleton, ULocale locale)
     '''
 def getPatternInstance():
-    '''    public static final DateFormat getPatternInstance(final String skeleton)
+    '''public static final DateFormat getPatternInstance(final String skeleton)
     public static final DateFormat getPatternInstance(final String skeleton, final Locale locale)
     public static final DateFormat getPatternInstance(final String skeleton, final ULocale locale)
     public static final DateFormat getPatternInstance(final Calendar cal, final String skeleton, final Locale locale)
     public static final DateFormat getPatternInstance(final Calendar cal, final String skeleton, final ULocale locale)
     '''
 def ofCalendarField():
-    '''    public static Field ofCalendarField(final int calendarField)
+    '''public static Field ofCalendarField(final int calendarField)
     '''
 def getCalendarField():
-    '''    public int getCalendarField()
+    '''public int getCalendarField()
     '''

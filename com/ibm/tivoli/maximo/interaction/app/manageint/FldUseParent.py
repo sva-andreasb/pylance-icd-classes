@@ -1,6 +1,6 @@
 def FldUseParent():
-    '''    public FldUseParent(final MboValue mbv)
+    '''public FldUseParent(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

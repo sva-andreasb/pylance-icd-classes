@@ -1,57 +1,57 @@
 def getElements():
-    '''    public HTMLCollection getElements()
+    '''public HTMLCollection getElements()
     '''
 def getLength():
-    '''    public int getLength()
+    '''public int getLength()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def setName():
-    '''    public void setName(final String s)
+    '''public void setName(final String s)
     '''
 def getAcceptCharset():
-    '''    public String getAcceptCharset()
+    '''public String getAcceptCharset()
     '''
 def setAcceptCharset():
-    '''    public void setAcceptCharset(final String s)
+    '''public void setAcceptCharset(final String s)
     '''
 def getAction():
-    '''    public String getAction()
+    '''public String getAction()
     '''
 def setAction():
-    '''    public void setAction(final String s)
+    '''public void setAction(final String s)
     '''
 def getEnctype():
-    '''    public String getEnctype()
+    '''public String getEnctype()
     '''
 def setEnctype():
-    '''    public void setEnctype(final String s)
+    '''public void setEnctype(final String s)
     '''
 def getMethod():
-    '''    public String getMethod()
+    '''public String getMethod()
     '''
 def setMethod():
-    '''    public void setMethod(final String s)
+    '''public void setMethod(final String s)
     '''
 def getTarget():
-    '''    public String getTarget()
+    '''public String getTarget()
     '''
 def setTarget():
-    '''    public void setTarget(final String s)
+    '''public void setTarget(final String s)
     '''
 def submit():
-    '''    public void submit()
+    '''public void submit()
     '''
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''
 def getChildNodes():
-    '''    public NodeList getChildNodes()
+    '''public NodeList getChildNodes()
     '''
 def cloneNode():
-    '''    public Node cloneNode(final boolean b)
+    '''public Node cloneNode(final boolean b)
     '''
 def HTMLFormElementImpl():
-    '''    public HTMLFormElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''public HTMLFormElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
     '''

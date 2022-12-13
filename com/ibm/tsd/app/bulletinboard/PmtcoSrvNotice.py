@@ -1,6 +1,6 @@
 def PmtcoSrvNotice():
-    '''    public PmtcoSrvNotice(final MboSet ms)
+    '''public PmtcoSrvNotice(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

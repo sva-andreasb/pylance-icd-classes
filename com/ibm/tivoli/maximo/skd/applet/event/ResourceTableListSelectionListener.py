@@ -1,9 +1,9 @@
 def ResourceTableListSelectionListener():
-    '''    public ResourceTableListSelectionListener(final IlvScheduleChart chart)
+    '''public ResourceTableListSelectionListener(final IlvScheduleChart chart)
     '''
 def valueChanged():
-    '''    public void valueChanged(final ListSelectionEvent e)
+    '''public void valueChanged(final ListSelectionEvent e)
     '''
 def setEnabled():
-    '''    public void setEnabled(final boolean b)
+    '''public void setEnabled(final boolean b)
     '''

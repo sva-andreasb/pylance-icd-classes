@@ -1,3 +1,3 @@
 def NoModificationAllowedException():
-    '''    public NoModificationAllowedException(final String message)
+    '''public NoModificationAllowedException(final String message)
     '''

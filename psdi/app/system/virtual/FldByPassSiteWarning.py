@@ -1,6 +1,6 @@
 def FldByPassSiteWarning():
-    '''    public FldByPassSiteWarning(final MboValue mbv)
+    '''public FldByPassSiteWarning(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

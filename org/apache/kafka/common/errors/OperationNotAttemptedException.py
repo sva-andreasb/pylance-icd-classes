@@ -1,3 +1,3 @@
 def OperationNotAttemptedException():
-    '''    public OperationNotAttemptedException(final String message)
+    '''public OperationNotAttemptedException(final String message)
     '''

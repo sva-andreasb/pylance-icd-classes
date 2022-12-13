@@ -1,6 +1,6 @@
 def FldMaxAppsKeyAttr():
-    '''    public FldMaxAppsKeyAttr(final MboValue mbv)
+    '''public FldMaxAppsKeyAttr(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

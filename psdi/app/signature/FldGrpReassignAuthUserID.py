@@ -1,3 +1,3 @@
 def FldGrpReassignAuthUserID():
-    '''    public FldGrpReassignAuthUserID(final MboValue mbv)
+    '''public FldGrpReassignAuthUserID(final MboValue mbv)
     '''

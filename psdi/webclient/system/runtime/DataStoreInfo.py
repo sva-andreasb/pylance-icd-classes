@@ -17,66 +17,66 @@ JSONKEY_FILTERS = "String  \"filters\""
 JSONKEY_SITEORGFILTER = "String  \"siteorgfilter\""
 JSONKEY_TYPEAHEAD = "String  \"typeahead\""
 def DataStoreInfo():
-    '''    public DataStoreInfo(final Element dataStoreElement, final EntityRelationshipModel erm, final boolean designMode)
+    '''public DataStoreInfo(final Element dataStoreElement, final EntityRelationshipModel erm, final boolean designMode)
     public DataStoreInfo(final String id, final DomainInfo domainInfo)
     '''
 def getMboSetForDataStore():
-    '''    public MboSetRemote getMboSetForDataStore(final WebClientSession wcs, final boolean useZombie)
+    '''public MboSetRemote getMboSetForDataStore(final WebClientSession wcs, final boolean useZombie)
     '''
 def getDomainAttributes():
-    '''    public String[] getDomainAttributes()
+    '''public String[] getDomainAttributes()
     '''
 def isSimpleDomain():
-    '''    public boolean isSimpleDomain()
+    '''public boolean isSimpleDomain()
     '''
 def getDomainInfo():
-    '''    public DomainInfo getDomainInfo()
+    '''public DomainInfo getDomainInfo()
     '''
 def getId():
-    '''    public String getId()
+    '''public String getId()
     '''
 def getFilterMap():
-    '''    public Map<UIERMAttribute, String> getFilterMap()
+    '''public Map<UIERMAttribute, String> getFilterMap()
     '''
 def getTypeAhead():
-    '''    public JSONObject getTypeAhead()
+    '''public JSONObject getTypeAhead()
     '''
 def getSetValueMap():
-    '''    public Map<UIERMAttribute, String> getSetValueMap()
+    '''public Map<UIERMAttribute, String> getSetValueMap()
     '''
 def getValidFor():
-    '''    public int getValidFor()
+    '''public int getValidFor()
     '''
 def getAsJSON():
-    '''    public JSONObject getAsJSON(final PageInstance page)
+    '''public JSONObject getAsJSON(final PageInstance page)
     '''
 def getFiltersAsJSON():
-    '''    public JSONObject getFiltersAsJSON(final PageInstance page)
+    '''public JSONObject getFiltersAsJSON(final PageInstance page)
     '''
 def getSetValuesAsJSON():
-    '''    public JSONObject getSetValuesAsJSON(final PageInstance page)
+    '''public JSONObject getSetValuesAsJSON(final PageInstance page)
     '''
 def getDomainType():
-    '''    public DomainType getDomainType()
+    '''public DomainType getDomainType()
     '''
 def getDomainTimeStamp():
-    '''    public String getDomainTimeStamp()
+    '''public String getDomainTimeStamp()
     '''
 def getElementId():
-    '''    public String getElementId()
+    '''public String getElementId()
     '''
 def needsToConsiderSiteOrg():
-    '''    public boolean needsToConsiderSiteOrg()
+    '''public boolean needsToConsiderSiteOrg()
     '''
 def getAsJSONForDownload():
-    '''    public JSONObject getAsJSONForDownload()
+    '''public JSONObject getAsJSONForDownload()
     '''
 def cleanup():
-    '''    public void cleanup()
+    '''public void cleanup()
     '''
 def getTableName():
-    '''    public String getTableName()
+    '''public String getTableName()
     '''
 def InvalidDataStoreElementException():
-    '''    public InvalidDataStoreElementException(final String message)
+    '''public InvalidDataStoreElementException(final String message)
     '''

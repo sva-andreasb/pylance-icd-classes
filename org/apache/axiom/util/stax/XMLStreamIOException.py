@@ -1,6 +1,6 @@
 def XMLStreamIOException():
-    '''    public XMLStreamIOException(final XMLStreamException cause)
+    '''public XMLStreamIOException(final XMLStreamException cause)
     '''
 def getXMLStreamException():
-    '''    public XMLStreamException getXMLStreamException()
+    '''public XMLStreamException getXMLStreamException()
     '''

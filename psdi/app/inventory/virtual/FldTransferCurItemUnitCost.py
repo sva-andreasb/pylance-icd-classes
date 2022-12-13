@@ -1,6 +1,6 @@
 def FldTransferCurItemUnitCost():
-    '''    public FldTransferCurItemUnitCost(final MboValue mbv)
+    '''public FldTransferCurItemUnitCost(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

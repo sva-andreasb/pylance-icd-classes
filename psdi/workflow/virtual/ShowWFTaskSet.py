@@ -1,6 +1,6 @@
 def ShowWFTaskSet():
-    '''    public ShowWFTaskSet(final MboServerInterface ms)
+    '''public ShowWFTaskSet(final MboServerInterface ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

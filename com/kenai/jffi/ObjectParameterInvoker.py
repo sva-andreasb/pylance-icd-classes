@@ -1,3 +1,3 @@
 def getInstance():
-    '''    public static ObjectParameterInvoker getInstance()
+    '''public static ObjectParameterInvoker getInstance()
     '''

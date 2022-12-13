@@ -1,10 +1,10 @@
 type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(TextType.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"texttyped2ectype\")"
 def newInstance():
-    '''    public static TextType newInstance()
+    '''public static TextType newInstance()
     public static TextType newInstance(final XmlOptions xmlOptions)
     '''
 def parse():
-    '''    public static TextType parse(final String s)
+    '''public static TextType parse(final String s)
     public static TextType parse(final String s, final XmlOptions xmlOptions)
     public static TextType parse(final File file)
     public static TextType parse(final File file, final XmlOptions xmlOptions)
@@ -22,6 +22,6 @@ def parse():
     public static TextType parse(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''

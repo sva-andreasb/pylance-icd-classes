@@ -1,27 +1,27 @@
 def WMLAccessElementImpl():
-    '''    public WMLAccessElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
+    '''public WMLAccessElementImpl(final WMLDocumentImpl wmlDocumentImpl, final String s)
     '''
 def setClassName():
-    '''    public void setClassName(final String s)
+    '''public void setClassName(final String s)
     '''
 def getClassName():
-    '''    public String getClassName()
+    '''public String getClassName()
     '''
 def setDomain():
-    '''    public void setDomain(final String s)
+    '''public void setDomain(final String s)
     '''
 def getDomain():
-    '''    public String getDomain()
+    '''public String getDomain()
     '''
 def setId():
-    '''    public void setId(final String s)
+    '''public void setId(final String s)
     '''
 def getId():
-    '''    public String getId()
+    '''public String getId()
     '''
 def setPath():
-    '''    public void setPath(final String s)
+    '''public void setPath(final String s)
     '''
 def getPath():
-    '''    public String getPath()
+    '''public String getPath()
     '''

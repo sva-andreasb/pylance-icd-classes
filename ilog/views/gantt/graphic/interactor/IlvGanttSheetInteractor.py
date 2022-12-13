@@ -1,6 +1,6 @@
 def getGanttSheet():
-    '''    public final IlvGanttSheet getGanttSheet()
+    '''public final IlvGanttSheet getGanttSheet()
     '''
 def getGanttModel():
-    '''    public final IlvGanttModel getGanttModel()
+    '''public final IlvGanttModel getGanttModel()
     '''

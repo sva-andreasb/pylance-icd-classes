@@ -1,6 +1,6 @@
 def cancelReport():
-    '''    public int cancelReport()
+    '''public int cancelReport()
     '''
 def refreshReport():
-    '''    public int refreshReport()
+    '''public int refreshReport()
     '''

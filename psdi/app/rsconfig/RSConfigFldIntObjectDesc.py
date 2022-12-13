@@ -1,9 +1,9 @@
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def RSConfigFldIntObjectDesc():
-    '''    public RSConfigFldIntObjectDesc(final MboValue mbv)
+    '''public RSConfigFldIntObjectDesc(final MboValue mbv)
     '''

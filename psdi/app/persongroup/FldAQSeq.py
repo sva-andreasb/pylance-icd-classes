@@ -1,9 +1,9 @@
 def FldAQSeq():
-    '''    public FldAQSeq(final MboValue mbv)
+    '''public FldAQSeq(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

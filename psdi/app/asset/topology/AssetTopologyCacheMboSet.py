@@ -1,3 +1,3 @@
 def AssetTopologyCacheMboSet():
-    '''    public AssetTopologyCacheMboSet(final MboServerInterface ms)
+    '''public AssetTopologyCacheMboSet(final MboServerInterface ms)
     '''

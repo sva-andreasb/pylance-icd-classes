@@ -1,6 +1,6 @@
 def getInstanceFor():
-    '''    public static synchronized JingleTransportMethodManager getInstanceFor(final XMPPConnection connection)
+    '''public static synchronized JingleTransportMethodManager getInstanceFor(final XMPPConnection connection)
     '''
 def registerTransportManager():
-    '''    public void registerTransportManager(final JingleTransportManager<?> manager)
+    '''public void registerTransportManager(final JingleTransportManager<?> manager)
     '''

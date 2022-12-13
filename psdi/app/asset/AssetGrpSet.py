@@ -1,3 +1,3 @@
 def AssetGrpSet():
-    '''    public AssetGrpSet(final MboServerInterface ms)
+    '''public AssetGrpSet(final MboServerInterface ms)
     '''

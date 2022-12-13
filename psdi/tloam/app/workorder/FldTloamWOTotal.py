@@ -1,6 +1,6 @@
 def FldTloamWOTotal():
-    '''    public FldTloamWOTotal(final MboValue mbv)
+    '''public FldTloamWOTotal(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

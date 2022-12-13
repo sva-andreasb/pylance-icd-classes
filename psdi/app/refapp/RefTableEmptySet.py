@@ -1,3 +1,3 @@
 def RefTableEmptySet():
-    '''    public RefTableEmptySet(final MboServerInterface ms)
+    '''public RefTableEmptySet(final MboServerInterface ms)
     '''

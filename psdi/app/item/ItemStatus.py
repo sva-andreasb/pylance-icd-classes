@@ -1,9 +1,9 @@
 def ItemStatus():
-    '''    public ItemStatus(final MboSet ms)
+    '''public ItemStatus(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

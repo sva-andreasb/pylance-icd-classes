@@ -1,3 +1,3 @@
 def ContLeaseEndAsstSet():
-    '''    public ContLeaseEndAsstSet(final MboServerInterface ms)
+    '''public ContLeaseEndAsstSet(final MboServerInterface ms)
     '''

@@ -7,15 +7,15 @@ PROPERTY_APP_DEV_BASE = "String  \"app.dev.base\""
 PROPERTY_APP_JAR_BASE = "String  \"app.jar.base\""
 APP_MAIN_CLASS_DIR = "String  \"classes/\""
 def ApplicationSecurityEnforcer():
-    '''    public ApplicationSecurityEnforcer(final Class appMainClass, final String securityPolicy, final String appJarFile)
+    '''public ApplicationSecurityEnforcer(final Class appMainClass, final String securityPolicy, final String appJarFile)
     public ApplicationSecurityEnforcer(final Class appMainClass, final String securityPolicy)
     '''
 def enforceSecurity():
-    '''    public void enforceSecurity(final boolean enforce)
+    '''public void enforceSecurity(final boolean enforce)
     '''
 def getPolicyURL():
-    '''    public URL getPolicyURL()
+    '''public URL getPolicyURL()
     '''
 def installSecurityManager():
-    '''    public void installSecurityManager()
+    '''public void installSecurityManager()
     '''

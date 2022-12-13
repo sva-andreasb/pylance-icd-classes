@@ -1,9 +1,9 @@
 def DPAMSWSuiteComp():
-    '''    public DPAMSWSuiteComp(final MboSet ms)
+    '''public DPAMSWSuiteComp(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

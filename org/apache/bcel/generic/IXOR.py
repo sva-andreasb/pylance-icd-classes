@@ -1,6 +1,6 @@
 def IXOR():
-    '''    public IXOR()
+    '''public IXOR()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

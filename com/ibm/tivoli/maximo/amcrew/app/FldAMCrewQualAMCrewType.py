@@ -1,3 +1,3 @@
 def FldAMCrewQualAMCrewType():
-    '''    public FldAMCrewQualAMCrewType(final MboValue mbv)
+    '''public FldAMCrewQualAMCrewType(final MboValue mbv)
     '''

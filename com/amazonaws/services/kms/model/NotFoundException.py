@@ -1,3 +1,3 @@
 def NotFoundException():
-    '''    public NotFoundException(final String message)
+    '''public NotFoundException(final String message)
     '''

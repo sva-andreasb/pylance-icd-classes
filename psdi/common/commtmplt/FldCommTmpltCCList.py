@@ -1,6 +1,6 @@
 def FldCommTmpltCCList():
-    '''    public FldCommTmpltCCList(final MboValue mbv)
+    '''public FldCommTmpltCCList(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

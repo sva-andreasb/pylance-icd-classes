@@ -1,6 +1,6 @@
 def FldSKDCostCalDate():
-    '''    public FldSKDCostCalDate(final MboValue mbv)
+    '''public FldSKDCostCalDate(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

@@ -1,6 +1,6 @@
 def FldWpToolHrs():
-    '''    public FldWpToolHrs(final MboValue mbv)
+    '''public FldWpToolHrs(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

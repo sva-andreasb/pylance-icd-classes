@@ -1,12 +1,12 @@
 def PlusPFldItem():
-    '''    public PlusPFldItem(final MboValue mbv)
+    '''public PlusPFldItem(final MboValue mbv)
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote valueFromLookup)
+    '''public void setValueFromLookup(final MboRemote valueFromLookup)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

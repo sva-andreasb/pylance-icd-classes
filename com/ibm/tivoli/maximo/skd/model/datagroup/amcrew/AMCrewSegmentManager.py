@@ -1,3 +1,3 @@
 def AMCrewSegmentManager():
-    '''    public AMCrewSegmentManager()
+    '''public AMCrewSegmentManager()
     '''

@@ -1,3 +1,3 @@
 def PlusPWOTotals():
-    '''    public PlusPWOTotals(final MboSet ms)
+    '''public PlusPWOTotals(final MboSet ms)
     '''

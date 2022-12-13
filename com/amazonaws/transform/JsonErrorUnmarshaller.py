@@ -1,9 +1,9 @@
 def JsonErrorUnmarshaller():
-    '''    public JsonErrorUnmarshaller(final Class<? extends AmazonServiceException> exceptionClass, final String handledErrorCode)
+    '''public JsonErrorUnmarshaller(final Class<? extends AmazonServiceException> exceptionClass, final String handledErrorCode)
     '''
 def unmarshall():
-    '''    public AmazonServiceException unmarshall(final JsonNode jsonContent)
+    '''public AmazonServiceException unmarshall(final JsonNode jsonContent)
     '''
 def matchErrorCode():
-    '''    public boolean matchErrorCode(final String actualErrorCode)
+    '''public boolean matchErrorCode(final String actualErrorCode)
     '''

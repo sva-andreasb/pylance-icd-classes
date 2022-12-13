@@ -1,9 +1,9 @@
 def ToolQual():
-    '''    public ToolQual(final MboSet ms)
+    '''public ToolQual(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

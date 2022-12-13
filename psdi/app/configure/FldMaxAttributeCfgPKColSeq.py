@@ -1,6 +1,6 @@
 def FldMaxAttributeCfgPKColSeq():
-    '''    public FldMaxAttributeCfgPKColSeq(final MboValue mbv)
+    '''public FldMaxAttributeCfgPKColSeq(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

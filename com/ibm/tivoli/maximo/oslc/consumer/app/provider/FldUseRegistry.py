@@ -1,6 +1,6 @@
 def FldUseRegistry():
-    '''    public FldUseRegistry(final MboValue mbv)
+    '''public FldUseRegistry(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

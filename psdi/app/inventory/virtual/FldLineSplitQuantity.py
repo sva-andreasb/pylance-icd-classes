@@ -1,9 +1,9 @@
 def FldLineSplitQuantity():
-    '''    public FldLineSplitQuantity(final MboValue mbv)
+    '''public FldLineSplitQuantity(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

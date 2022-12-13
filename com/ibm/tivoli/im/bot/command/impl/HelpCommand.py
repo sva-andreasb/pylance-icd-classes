@@ -1,6 +1,6 @@
 def help():
-    '''    public String help()
+    '''public String help()
     '''
 def process():
-    '''    public String process(final String s, final String s2)
+    '''public String process(final String s, final String s2)
     '''

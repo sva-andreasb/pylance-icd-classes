@@ -1,3 +1,3 @@
 def CommTmpltChangeStatusSet():
-    '''    public CommTmpltChangeStatusSet(final MboServerInterface ms)
+    '''public CommTmpltChangeStatusSet(final MboServerInterface ms)
     '''

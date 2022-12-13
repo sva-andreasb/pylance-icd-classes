@@ -1,6 +1,6 @@
 def ReconRule():
-    '''    public ReconRule(final MboSet ms)
+    '''public ReconRule(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

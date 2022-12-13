@@ -1,6 +1,6 @@
 def GuestTrustDomainSet():
-    '''    public GuestTrustDomainSet(final MboServerInterface ms)
+    '''public GuestTrustDomainSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

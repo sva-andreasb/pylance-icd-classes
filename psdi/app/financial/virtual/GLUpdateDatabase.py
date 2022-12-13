@@ -1,6 +1,6 @@
 def GLUpdateDatabase():
-    '''    public GLUpdateDatabase(final MboSet ms)
+    '''public GLUpdateDatabase(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

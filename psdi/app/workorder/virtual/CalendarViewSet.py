@@ -1,24 +1,24 @@
 def CalendarViewSet():
-    '''    public CalendarViewSet(final MboServerInterface ms)
+    '''public CalendarViewSet(final MboServerInterface ms)
     '''
 def setSetAllDatesOnInit():
-    '''    public void setSetAllDatesOnInit(final boolean newSetting)
+    '''public void setSetAllDatesOnInit(final boolean newSetting)
     '''
 def getSetAllDatesOnInit():
-    '''    public boolean getSetAllDatesOnInit()
+    '''public boolean getSetAllDatesOnInit()
     '''
 def setClientAMWorkDate():
-    '''    public void setClientAMWorkDate(final Date newClientAMWorkDate)
+    '''public void setClientAMWorkDate(final Date newClientAMWorkDate)
     '''
 def getClientAMWorkDate():
-    '''    public Date getClientAMWorkDate()
+    '''public Date getClientAMWorkDate()
     '''
 def resetDates():
-    '''    public void resetDates(final Date newAMClientWorkDate)
+    '''public void resetDates(final Date newAMClientWorkDate)
     '''
 def getClientDTFromServerDT():
-    '''    public Date getClientDTFromServerDT(final Date serverDateTime)
+    '''public Date getClientDTFromServerDT(final Date serverDateTime)
     '''
 def getServerDTFromClientDT():
-    '''    public Date getServerDTFromClientDT(final Date clientDateTime)
+    '''public Date getServerDTFromClientDT(final Date clientDateTime)
     '''

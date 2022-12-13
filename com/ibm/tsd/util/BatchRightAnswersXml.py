@@ -40,130 +40,130 @@ NO_USER_EXCEPTION = "String  \"CTGRD8012E\""
 NO_PASSWORD_EXCEPTION = "String  \"CTGRD8013E\""
 LOGGER_NAME = "String  \"com.ibm.tsd.util.logger\""
 def batch():
-    '''    public void batch()
+    '''public void batch()
     '''
 def BatchRightAnswersXml():
-    '''    public BatchRightAnswersXml(final boolean secure, final String user, final String password, final int batchSize, final String xmlPath, final URLSender urlSender, final String xslPath, final String meaUrl)
+    '''public BatchRightAnswersXml(final boolean secure, final String user, final String password, final int batchSize, final String xmlPath, final URLSender urlSender, final String xslPath, final String meaUrl)
     '''
 def main():
-    '''    public static void main(final String[] args)
+    '''public static void main(final String[] args)
     '''
 def StartElement():
-    '''    public StartElement(final String uri, final String localHome, final String qName, final Attributes attributes)
+    '''public StartElement(final String uri, final String localHome, final String qName, final Attributes attributes)
     '''
 def getUri():
-    '''    public final String getUri()
+    '''public final String getUri()
     '''
 def getLocalHome():
-    '''    public final String getLocalHome()
+    '''public final String getLocalHome()
     '''
 def getQName():
-    '''    public final String getQName()
+    '''public final String getQName()
     public final String getQName()
     '''
 def getAttributes():
-    '''    public final Attributes getAttributes()
+    '''public final Attributes getAttributes()
     '''
 def Characters():
-    '''    public Characters(final char[] buffer, final int offset, final int length)
+    '''public Characters(final char[] buffer, final int offset, final int length)
     '''
 def getBuffer():
-    '''    public final char[] getBuffer()
+    '''public final char[] getBuffer()
     '''
 def EndElement():
-    '''    public EndElement(final String namespaceURI, final String sName, final String qName)
+    '''public EndElement(final String namespaceURI, final String sName, final String qName)
     '''
 def getNamespaceURI():
-    '''    public final String getNamespaceURI()
+    '''public final String getNamespaceURI()
     '''
 def getSName():
-    '''    public final String getSName()
+    '''public final String getSName()
     '''
 def SecondPassHandler():
-    '''    public SecondPassHandler(final StartElement rootStart, final ArrayList<Characters> charactersArray, final EndElement rootEnd, final int batchSize)
+    '''public SecondPassHandler(final StartElement rootStart, final ArrayList<Characters> charactersArray, final EndElement rootEnd, final int batchSize)
     '''
 def startElement():
-    '''    public void startElement(final String uri, final String localHome, final String qName, final Attributes attributes)
+    '''public void startElement(final String uri, final String localHome, final String qName, final Attributes attributes)
     public void startElement(final String uri, final String localHome, final String qName, final Attributes attributes)
     '''
 def doStartElement():
-    '''    public void doStartElement(final String uri, final String localHome, final String qName, final Attributes attributes)
+    '''public void doStartElement(final String uri, final String localHome, final String qName, final Attributes attributes)
     '''
 def doEndElement():
-    '''    public void doEndElement(final String namespaceURI, final String sName, final String qName)
+    '''public void doEndElement(final String namespaceURI, final String sName, final String qName)
     '''
 def endElement():
-    '''    public void endElement(final String namespaceURI, final String sName, final String qName)
+    '''public void endElement(final String namespaceURI, final String sName, final String qName)
     public void endElement(final String namespaceURI, final String sName, final String qName)
     '''
 def characters():
-    '''    public void characters(final char[] buffer, final int offset, final int len)
+    '''public void characters(final char[] buffer, final int offset, final int len)
     public void characters(final char[] buffer, final int offset, final int len)
     '''
 def doCharacters():
-    '''    public void doCharacters(final char[] buffer, final int offset, final int len)
+    '''public void doCharacters(final char[] buffer, final int offset, final int len)
     '''
 def endDocument():
-    '''    public void endDocument()
+    '''public void endDocument()
     '''
 def processBatch():
-    '''    public void processBatch(final byte[] bytes)
+    '''public void processBatch(final byte[] bytes)
     '''
 def FirstPassHandler():
-    '''    public FirstPassHandler()
+    '''public FirstPassHandler()
     '''
 def getRootStart():
-    '''    public StartElement getRootStart()
+    '''public StartElement getRootStart()
     '''
 def getCharactersArray():
-    '''    public final ArrayList<Characters> getCharactersArray()
+    '''public final ArrayList<Characters> getCharactersArray()
     '''
 def getRootEnd():
-    '''    public EndElement getRootEnd()
+    '''public EndElement getRootEnd()
     '''
 def XslFileNotFoundException():
-    '''    public XslFileNotFoundException(final String file)
+    '''public XslFileNotFoundException(final String file)
     '''
 def getFileName():
-    '''    public final String getFileName()
+    '''public final String getFileName()
     public final String getFileName()
     public final String getFileName()
     public String getFileName()
     '''
 def XmlFileNotFoundException():
-    '''    public XmlFileNotFoundException(final String file)
+    '''public XmlFileNotFoundException(final String file)
     '''
 def XmlIOException():
-    '''    public XmlIOException(final String file, final IOException cause)
+    '''public XmlIOException(final String file, final IOException cause)
     '''
 def ConfigIOException():
-    '''    public ConfigIOException(final String file, final IOException cause)
+    '''public ConfigIOException(final String file, final IOException cause)
     '''
 def MEAConnectException():
-    '''    public MEAConnectException(final Throwable cause, final String meaURL)
+    '''public MEAConnectException(final Throwable cause, final String meaURL)
     '''
 def getURL():
-    '''    public final String getURL()
+    '''public final String getURL()
     '''
 def Config():
-    '''    public Config()
+    '''public Config()
     public Config(final String[] args)
     '''
 def getIntValue():
-    '''    public int getIntValue(final String key)
+    '''public int getIntValue(final String key)
     '''
 def setValue():
-    '''    public void setValue(final String key, final String value)
+    '''public void setValue(final String key, final String value)
     '''
 def getValue():
-    '''    public String getValue(final String key)
+    '''public String getValue(final String key)
     '''
 def getBoolean():
-    '''    public boolean getBoolean(final String key)
+    '''public boolean getBoolean(final String key)
     '''
 def getLogLevel():
-    '''    public Level getLogLevel(final String loggerName)
+    '''public Level getLogLevel(final String loggerName)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

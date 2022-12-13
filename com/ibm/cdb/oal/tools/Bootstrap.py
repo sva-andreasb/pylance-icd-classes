@@ -1,6 +1,6 @@
 def main():
-    '''    public static void main(final String[] args)
+    '''public static void main(final String[] args)
     '''
 def initDb():
-    '''    public void initDb(final TopomgrProps props)
+    '''public void initDb(final TopomgrProps props)
     '''

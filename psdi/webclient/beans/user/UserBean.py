@@ -1,39 +1,39 @@
 def UserBean():
-    '''    public UserBean()
+    '''public UserBean()
     '''
 def initializeApp():
-    '''    public void initializeApp()
+    '''public void initializeApp()
     '''
 def DELETE():
-    '''    public int DELETE()
+    '''public int DELETE()
     '''
 def PWHINT():
-    '''    public int PWHINT()
+    '''public int PWHINT()
     '''
 def RESESIG():
-    '''    public int RESESIG()
+    '''public int RESESIG()
     '''
 def GRPASSIGN():
-    '''    public int GRPASSIGN()
+    '''public int GRPASSIGN()
     '''
 def CHGPERSON():
-    '''    public int CHGPERSON()
+    '''public int CHGPERSON()
     '''
 def VIEWHIST():
-    '''    public int VIEWHIST()
+    '''public int VIEWHIST()
     '''
 def cancelDialog():
-    '''    public int cancelDialog()
+    '''public int cancelDialog()
     '''
 def setpswd():
-    '''    public int setpswd()
+    '''public int setpswd()
     '''
 def cancelpwnew():
-    '''    public int cancelpwnew()
+    '''public int cancelpwnew()
     '''
 def genpswd():
-    '''    public int genpswd()
+    '''public int genpswd()
     '''
 def savesessions():
-    '''    public int savesessions()
+    '''public int savesessions()
     '''

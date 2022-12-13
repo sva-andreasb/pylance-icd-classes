@@ -1,3 +1,3 @@
 def hasBody():
-    '''    public final boolean hasBody()
+    '''public final boolean hasBody()
     '''

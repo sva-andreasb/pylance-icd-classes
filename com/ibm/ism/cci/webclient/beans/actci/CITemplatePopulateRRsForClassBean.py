@@ -1,12 +1,12 @@
 def CITemplatePopulateRRsForClassBean():
-    '''    public CITemplatePopulateRRsForClassBean()
+    '''public CITemplatePopulateRRsForClassBean()
     '''
 def getMboSetRemote():
-    '''    public MboSetRemote getMboSetRemote()
+    '''public MboSetRemote getMboSetRemote()
     '''
 def createSelectedRRs():
-    '''    public int createSelectedRRs()
+    '''public int createSelectedRRs()
     '''
 def selectall():
-    '''    public int selectall()
+    '''public int selectall()
     '''

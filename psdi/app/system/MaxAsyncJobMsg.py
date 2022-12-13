@@ -1,3 +1,3 @@
 def MaxAsyncJobMsg():
-    '''    public MaxAsyncJobMsg(final MboSet ms)
+    '''public MaxAsyncJobMsg(final MboSet ms)
     '''

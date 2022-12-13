@@ -4,8 +4,8 @@ PINNED = "int  8"
 NULTERMINATE = "int  4"
 CLEAR = "int  16"
 def isOut():
-    '''    public static final boolean isOut(final int flags)
+    '''public static final boolean isOut(final int flags)
     '''
 def isIn():
-    '''    public static final boolean isIn(final int flags)
+    '''public static final boolean isIn(final int flags)
     '''

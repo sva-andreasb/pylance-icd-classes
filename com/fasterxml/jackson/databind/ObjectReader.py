@@ -1,8 +1,8 @@
 def version():
-    '''    public Version version()
+    '''public Version version()
     '''
 def with():
-    '''    public ObjectReader with(final DeserializationFeature feature)
+    '''public ObjectReader with(final DeserializationFeature feature)
     public ObjectReader with(final DeserializationFeature first, final DeserializationFeature... other)
     public ObjectReader with(final JsonParser.Feature feature)
     public ObjectReader with(final FormatFeature feature)
@@ -17,87 +17,87 @@ def with():
     public ObjectReader with(final ContextAttributes attrs)
     '''
 def withFeatures():
-    '''    public ObjectReader withFeatures(final DeserializationFeature... features)
+    '''public ObjectReader withFeatures(final DeserializationFeature... features)
     public ObjectReader withFeatures(final JsonParser.Feature... features)
     public ObjectReader withFeatures(final FormatFeature... features)
     '''
 def without():
-    '''    public ObjectReader without(final DeserializationFeature feature)
+    '''public ObjectReader without(final DeserializationFeature feature)
     public ObjectReader without(final DeserializationFeature first, final DeserializationFeature... other)
     public ObjectReader without(final JsonParser.Feature feature)
     public ObjectReader without(final FormatFeature feature)
     '''
 def withoutFeatures():
-    '''    public ObjectReader withoutFeatures(final DeserializationFeature... features)
+    '''public ObjectReader withoutFeatures(final DeserializationFeature... features)
     public ObjectReader withoutFeatures(final JsonParser.Feature... features)
     public ObjectReader withoutFeatures(final FormatFeature... features)
     '''
 def at():
-    '''    public ObjectReader at(final String value)
+    '''public ObjectReader at(final String value)
     public ObjectReader at(final JsonPointer pointer)
     '''
 def withRootName():
-    '''    public ObjectReader withRootName(final String rootName)
+    '''public ObjectReader withRootName(final String rootName)
     public ObjectReader withRootName(final PropertyName rootName)
     '''
 def withoutRootName():
-    '''    public ObjectReader withoutRootName()
+    '''public ObjectReader withoutRootName()
     '''
 def forType():
-    '''    public ObjectReader forType(final JavaType valueType)
+    '''public ObjectReader forType(final JavaType valueType)
     public ObjectReader forType(final Class<?> valueType)
     public ObjectReader forType(final TypeReference<?> valueTypeRef)
     '''
 def withType():
-    '''    public ObjectReader withType(final JavaType valueType)
+    '''public ObjectReader withType(final JavaType valueType)
     public ObjectReader withType(final Class<?> valueType)
     public ObjectReader withType(final Type valueType)
     public ObjectReader withType(final TypeReference<?> valueTypeRef)
     '''
 def withValueToUpdate():
-    '''    public ObjectReader withValueToUpdate(final Object value)
+    '''public ObjectReader withValueToUpdate(final Object value)
     '''
 def withView():
-    '''    public ObjectReader withView(final Class<?> activeView)
+    '''public ObjectReader withView(final Class<?> activeView)
     '''
 def withHandler():
-    '''    public ObjectReader withHandler(final DeserializationProblemHandler h)
+    '''public ObjectReader withHandler(final DeserializationProblemHandler h)
     '''
 def withFormatDetection():
-    '''    public ObjectReader withFormatDetection(final ObjectReader... readers)
+    '''public ObjectReader withFormatDetection(final ObjectReader... readers)
     public ObjectReader withFormatDetection(final DataFormatReaders readers)
     '''
 def withAttributes():
-    '''    public ObjectReader withAttributes(final Map<?, ?> attrs)
+    '''public ObjectReader withAttributes(final Map<?, ?> attrs)
     '''
 def withAttribute():
-    '''    public ObjectReader withAttribute(final Object key, final Object value)
+    '''public ObjectReader withAttribute(final Object key, final Object value)
     '''
 def withoutAttribute():
-    '''    public ObjectReader withoutAttribute(final Object key)
+    '''public ObjectReader withoutAttribute(final Object key)
     '''
 def isEnabled():
-    '''    public boolean isEnabled(final DeserializationFeature f)
+    '''public boolean isEnabled(final DeserializationFeature f)
     public boolean isEnabled(final MapperFeature f)
     public boolean isEnabled(final JsonParser.Feature f)
     '''
 def getConfig():
-    '''    public DeserializationConfig getConfig()
+    '''public DeserializationConfig getConfig()
     '''
 def getFactory():
-    '''    public JsonFactory getFactory()
+    '''public JsonFactory getFactory()
     '''
 def getTypeFactory():
-    '''    public TypeFactory getTypeFactory()
+    '''public TypeFactory getTypeFactory()
     '''
 def getAttributes():
-    '''    public ContextAttributes getAttributes()
+    '''public ContextAttributes getAttributes()
     '''
 def getInjectableValues():
-    '''    public InjectableValues getInjectableValues()
+    '''public InjectableValues getInjectableValues()
     '''
 def readValue():
-    '''    public <T> T readValue(final JsonParser p)
+    '''public <T> T readValue(final JsonParser p)
     public <T> T readValue(final JsonParser p, final Class<T> valueType)
     public <T> T readValue(final JsonParser p, final TypeReference<?> valueTypeRef)
     public <T> T readValue(final JsonParser p, final ResolvedType valueType)
@@ -113,7 +113,7 @@ def readValue():
     public <T> T readValue(final DataInput src)
     '''
 def readValues():
-    '''    public <T> Iterator<T> readValues(final JsonParser p, final Class<T> valueType)
+    '''public <T> Iterator<T> readValues(final JsonParser p, final Class<T> valueType)
     public <T> Iterator<T> readValues(final JsonParser p, final TypeReference<?> valueTypeRef)
     public <T> Iterator<T> readValues(final JsonParser p, final ResolvedType valueType)
     public <T> Iterator<T> readValues(final JsonParser p, final JavaType valueType)
@@ -128,27 +128,27 @@ def readValues():
     public <T> MappingIterator<T> readValues(final DataInput src)
     '''
 def createArrayNode():
-    '''    public JsonNode createArrayNode()
+    '''public JsonNode createArrayNode()
     '''
 def createObjectNode():
-    '''    public JsonNode createObjectNode()
+    '''public JsonNode createObjectNode()
     '''
 def treeAsTokens():
-    '''    public JsonParser treeAsTokens(final TreeNode n)
+    '''public JsonParser treeAsTokens(final TreeNode n)
     '''
 def readTree():
-    '''    public <T extends TreeNode> T readTree(final JsonParser p)
+    '''public <T extends TreeNode> T readTree(final JsonParser p)
     public JsonNode readTree(final InputStream in)
     public JsonNode readTree(final Reader r)
     public JsonNode readTree(final String json)
     public JsonNode readTree(final DataInput src)
     '''
 def writeTree():
-    '''    public void writeTree(final JsonGenerator g, final TreeNode rootNode)
+    '''public void writeTree(final JsonGenerator g, final TreeNode rootNode)
     '''
 def treeToValue():
-    '''    public <T> T treeToValue(final TreeNode n, final Class<T> valueType)
+    '''public <T> T treeToValue(final TreeNode n, final Class<T> valueType)
     '''
 def writeValue():
-    '''    public void writeValue(final JsonGenerator gen, final Object value)
+    '''public void writeValue(final JsonGenerator gen, final Object value)
     '''

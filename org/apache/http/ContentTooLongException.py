@@ -1,3 +1,3 @@
 def ContentTooLongException():
-    '''    public ContentTooLongException(final String message)
+    '''public ContentTooLongException(final String message)
     '''

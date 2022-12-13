@@ -1,6 +1,6 @@
 def PlusPFldPSSLAFeeSLA():
-    '''    public PlusPFldPSSLAFeeSLA(final MboValue mbv)
+    '''public PlusPFldPSSLAFeeSLA(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,3 +1,3 @@
 def FldNumValue():
-    '''    public FldNumValue(final MboValue mbv)
+    '''public FldNumValue(final MboValue mbv)
     '''

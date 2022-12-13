@@ -1,6 +1,6 @@
 def VirtualSystemsTableGenerator():
-    '''    public VirtualSystemsTableGenerator(final Guid guid, final long version, final TableContent content, final SessionContext session)
+    '''public VirtualSystemsTableGenerator(final Guid guid, final long version, final TableContent content, final SessionContext session)
     '''
 def getModel():
-    '''    public DetailTableModel getModel()
+    '''public DetailTableModel getModel()
     '''

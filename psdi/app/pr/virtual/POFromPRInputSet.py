@@ -1,9 +1,9 @@
 def POFromPRInputSet():
-    '''    public POFromPRInputSet(final MboServerInterface ms)
+    '''public POFromPRInputSet(final MboServerInterface ms)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

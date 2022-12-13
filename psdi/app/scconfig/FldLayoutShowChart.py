@@ -1,6 +1,6 @@
 def FldLayoutShowChart():
-    '''    public FldLayoutShowChart(final MboValue mbv)
+    '''public FldLayoutShowChart(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

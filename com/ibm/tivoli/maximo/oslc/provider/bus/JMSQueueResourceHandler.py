@@ -1,6 +1,6 @@
 def JMSQueueResourceHandler():
-    '''    public JMSQueueResourceHandler(final BusResourceInfo resInfo, final String contextURI)
+    '''public JMSQueueResourceHandler(final BusResourceInfo resInfo, final String contextURI)
     '''
 def handleRequest():
-    '''    public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
+    '''public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
     '''

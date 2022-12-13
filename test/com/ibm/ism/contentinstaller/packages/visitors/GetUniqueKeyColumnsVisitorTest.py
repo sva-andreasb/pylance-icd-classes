@@ -1,3 +1,3 @@
 def testGetUniqueKeyColumns():
-    '''    public void testGetUniqueKeyColumns()
+    '''public void testGetUniqueKeyColumns()
     '''

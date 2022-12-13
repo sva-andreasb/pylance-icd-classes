@@ -1,6 +1,6 @@
 def SniffedXmlReader():
-    '''    public SniffedXmlReader(final Reader reader)
+    '''public SniffedXmlReader(final Reader reader)
     '''
 def getXmlEncoding():
-    '''    public String getXmlEncoding()
+    '''public String getXmlEncoding()
     '''

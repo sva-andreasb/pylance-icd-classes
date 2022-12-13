@@ -1,6 +1,6 @@
 def DateSelectorPreview():
-    '''    public DateSelectorPreview(final MboSet ms)
+    '''public DateSelectorPreview(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

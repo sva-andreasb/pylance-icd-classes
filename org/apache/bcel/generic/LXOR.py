@@ -1,6 +1,6 @@
 def LXOR():
-    '''    public LXOR()
+    '''public LXOR()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

@@ -1,6 +1,6 @@
 def Insight():
-    '''    public Insight(final MboSet ms)
+    '''public Insight(final MboSet ms)
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''

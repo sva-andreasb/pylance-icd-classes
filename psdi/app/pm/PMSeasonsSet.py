@@ -1,9 +1,9 @@
 def PMSeasonsSet():
-    '''    public PMSeasonsSet(final MboServerInterface ms)
+    '''public PMSeasonsSet(final MboServerInterface ms)
     '''
 def setOwner():
-    '''    public void setOwner(final MboRemote mbo)
+    '''public void setOwner(final MboRemote mbo)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

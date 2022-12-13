@@ -10,21 +10,21 @@ SHORT_COMMONLY_USED = "int  6"
 GENERIC_LOCATION = "int  7"
 UNKNOWN_ZONE_ID = "String  \"Etc/Unknown\""
 def TimeZone():
-    '''    public TimeZone()
+    '''public TimeZone()
     '''
 def getOffset():
-    '''    public int getOffset(final long date)
+    '''public int getOffset(final long date)
     public void getOffset(long date, final boolean local, final int[] offsets)
     public int getOffset(final int era, final int year, final int month, final int day, final int dayOfWeek, final int milliseconds)
     '''
 def getID():
-    '''    public String getID()
+    '''public String getID()
     '''
 def setID():
-    '''    public void setID(final String ID)
+    '''public void setID(final String ID)
     '''
 def getDisplayName():
-    '''    public final String getDisplayName()
+    '''public final String getDisplayName()
     public final String getDisplayName(final Locale locale)
     public final String getDisplayName(final ULocale locale)
     public final String getDisplayName(final boolean daylight, final int style)
@@ -32,94 +32,94 @@ def getDisplayName():
     public String getDisplayName(final boolean daylight, final int style, final ULocale locale)
     '''
 def getDSTSavings():
-    '''    public int getDSTSavings()
+    '''public int getDSTSavings()
     '''
 def observesDaylightTime():
-    '''    public boolean observesDaylightTime()
+    '''public boolean observesDaylightTime()
     '''
 def getTimeZone():
-    '''    public static TimeZone getTimeZone(final String ID)
+    '''public static TimeZone getTimeZone(final String ID)
     public static TimeZone getTimeZone(final String ID, final int type)
     '''
 def getFrozenTimeZone():
-    '''    public static TimeZone getFrozenTimeZone(final String ID)
+    '''public static TimeZone getFrozenTimeZone(final String ID)
     '''
 def setDefaultTimeZoneType():
-    '''    public static synchronized void setDefaultTimeZoneType(final int type)
+    '''public static synchronized void setDefaultTimeZoneType(final int type)
     '''
 def getDefaultTimeZoneType():
-    '''    public static int getDefaultTimeZoneType()
+    '''public static int getDefaultTimeZoneType()
     '''
 def getAvailableIDs():
-    '''    public static Set<String> getAvailableIDs(final SystemTimeZoneType zoneType, final String region, final Integer rawOffset)
+    '''public static Set<String> getAvailableIDs(final SystemTimeZoneType zoneType, final String region, final Integer rawOffset)
     public static String[] getAvailableIDs(final int rawOffset)
     public static String[] getAvailableIDs(final String country)
     public static String[] getAvailableIDs()
     '''
 def countEquivalentIDs():
-    '''    public static int countEquivalentIDs(final String id)
+    '''public static int countEquivalentIDs(final String id)
     '''
 def getEquivalentID():
-    '''    public static String getEquivalentID(final String id, final int index)
+    '''public static String getEquivalentID(final String id, final int index)
     '''
 def getDefault():
-    '''    public static TimeZone getDefault()
+    '''public static TimeZone getDefault()
     '''
 def setDefault():
-    '''    public static synchronized void setDefault(final TimeZone tz)
+    '''public static synchronized void setDefault(final TimeZone tz)
     '''
 def setICUDefault():
-    '''    public static synchronized void setICUDefault(final TimeZone tz)
+    '''public static synchronized void setICUDefault(final TimeZone tz)
     '''
 def hasSameRules():
-    '''    public boolean hasSameRules(final TimeZone other)
+    '''public boolean hasSameRules(final TimeZone other)
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def getTZDataVersion():
-    '''    public static String getTZDataVersion()
+    '''public static String getTZDataVersion()
     '''
 def getCanonicalID():
-    '''    public static String getCanonicalID(final String id)
+    '''public static String getCanonicalID(final String id)
     public static String getCanonicalID(final String id, final boolean[] isSystemID)
     '''
 def getRegion():
-    '''    public static String getRegion(final String id)
+    '''public static String getRegion(final String id)
     '''
 def getWindowsID():
-    '''    public static String getWindowsID(String id)
+    '''public static String getWindowsID(String id)
     '''
 def getIDForWindowsID():
-    '''    public static String getIDForWindowsID(final String winid, final String region)
+    '''public static String getIDForWindowsID(final String winid, final String region)
     '''
 def isFrozen():
-    '''    public boolean isFrozen()
+    '''public boolean isFrozen()
     public boolean isFrozen()
     '''
 def freeze():
-    '''    public TimeZone freeze()
+    '''public TimeZone freeze()
     public TimeZone freeze()
     '''
 def cloneAsThawed():
-    '''    public TimeZone cloneAsThawed()
+    '''public TimeZone cloneAsThawed()
     public TimeZone cloneAsThawed()
     '''
 def setRawOffset():
-    '''    public void setRawOffset(final int offsetMillis)
+    '''public void setRawOffset(final int offsetMillis)
     '''
 def getRawOffset():
-    '''    public int getRawOffset()
+    '''public int getRawOffset()
     '''
 def useDaylightTime():
-    '''    public boolean useDaylightTime()
+    '''public boolean useDaylightTime()
     '''
 def inDaylightTime():
-    '''    public boolean inDaylightTime(final Date date)
+    '''public boolean inDaylightTime(final Date date)
     '''

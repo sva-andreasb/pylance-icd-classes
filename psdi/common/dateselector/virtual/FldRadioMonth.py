@@ -1,6 +1,6 @@
 def FldRadioMonth():
-    '''    public FldRadioMonth(final MboValue mbv)
+    '''public FldRadioMonth(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

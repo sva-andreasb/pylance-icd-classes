@@ -1,3 +1,3 @@
 def parse():
-    '''    public OmemoDeviceListVAxolotlElement parse(final XmlPullParser parser, final int initialDepth)
+    '''public OmemoDeviceListVAxolotlElement parse(final XmlPullParser parser, final int initialDepth)
     '''

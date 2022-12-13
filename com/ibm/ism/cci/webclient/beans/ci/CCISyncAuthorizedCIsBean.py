@@ -1,6 +1,6 @@
 def dosync():
-    '''    public int dosync()
+    '''public int dosync()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''

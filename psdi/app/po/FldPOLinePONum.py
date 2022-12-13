@@ -1,3 +1,3 @@
 def FldPOLinePONum():
-    '''    public FldPOLinePONum(final MboValue mbv)
+    '''public FldPOLinePONum(final MboValue mbv)
     '''

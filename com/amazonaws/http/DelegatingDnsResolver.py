@@ -1,6 +1,6 @@
 def DelegatingDnsResolver():
-    '''    public DelegatingDnsResolver(final com.amazonaws.DnsResolver delegate)
+    '''public DelegatingDnsResolver(final com.amazonaws.DnsResolver delegate)
     '''
 def resolve():
-    '''    public InetAddress[] resolve(final String host)
+    '''public InetAddress[] resolve(final String host)
     '''

@@ -1,3 +1,3 @@
 def PlusPCreateMultipleEstimatesSet():
-    '''    public PlusPCreateMultipleEstimatesSet(final MboServerInterface ms)
+    '''public PlusPCreateMultipleEstimatesSet(final MboServerInterface ms)
     '''

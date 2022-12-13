@@ -1,6 +1,6 @@
 def reconcile():
-    '''    public int reconcile()
+    '''public int reconcile()
     '''
 def close():
-    '''    public synchronized void close()
+    '''public synchronized void close()
     '''

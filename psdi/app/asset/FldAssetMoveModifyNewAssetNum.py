@@ -1,9 +1,9 @@
 def FldAssetMoveModifyNewAssetNum():
-    '''    public FldAssetMoveModifyNewAssetNum(final MboValue mbv)
+    '''public FldAssetMoveModifyNewAssetNum(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

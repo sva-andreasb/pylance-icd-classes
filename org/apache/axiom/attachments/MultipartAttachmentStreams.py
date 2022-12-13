@@ -1,6 +1,6 @@
 def MultipartAttachmentStreams():
-    '''    public MultipartAttachmentStreams(final BoundaryDelimitedStream delimitedStream)
+    '''public MultipartAttachmentStreams(final BoundaryDelimitedStream delimitedStream)
     '''
 def getNextStream():
-    '''    public IncomingAttachmentInputStream getNextStream()
+    '''public IncomingAttachmentInputStream getNextStream()
     '''

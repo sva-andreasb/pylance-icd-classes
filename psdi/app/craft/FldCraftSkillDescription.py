@@ -1,6 +1,6 @@
 def FldCraftSkillDescription():
-    '''    public FldCraftSkillDescription(final MboValue mbv)
+    '''public FldCraftSkillDescription(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

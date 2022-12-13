@@ -1,70 +1,70 @@
 def UTF8StreamJsonParser():
-    '''    public UTF8StreamJsonParser(final IOContext ctxt, final int features, final InputStream in, final ObjectCodec codec, final ByteQuadsCanonicalizer sym, final byte[] inputBuffer, final int start, final int end, final boolean bufferRecyclable)
+    '''public UTF8StreamJsonParser(final IOContext ctxt, final int features, final InputStream in, final ObjectCodec codec, final ByteQuadsCanonicalizer sym, final byte[] inputBuffer, final int start, final int end, final boolean bufferRecyclable)
     '''
 def getCodec():
-    '''    public ObjectCodec getCodec()
+    '''public ObjectCodec getCodec()
     '''
 def setCodec():
-    '''    public void setCodec(final ObjectCodec c)
+    '''public void setCodec(final ObjectCodec c)
     '''
 def releaseBuffered():
-    '''    public int releaseBuffered(final OutputStream out)
+    '''public int releaseBuffered(final OutputStream out)
     '''
 def getInputSource():
-    '''    public Object getInputSource()
+    '''public Object getInputSource()
     '''
 def getText():
-    '''    public String getText()
+    '''public String getText()
     public int getText(final Writer writer)
     '''
 def getValueAsString():
-    '''    public String getValueAsString()
+    '''public String getValueAsString()
     public String getValueAsString(final String defValue)
     '''
 def getValueAsInt():
-    '''    public int getValueAsInt()
+    '''public int getValueAsInt()
     public int getValueAsInt(final int defValue)
     '''
 def getTextCharacters():
-    '''    public char[] getTextCharacters()
+    '''public char[] getTextCharacters()
     '''
 def getTextLength():
-    '''    public int getTextLength()
+    '''public int getTextLength()
     '''
 def getTextOffset():
-    '''    public int getTextOffset()
+    '''public int getTextOffset()
     '''
 def getBinaryValue():
-    '''    public byte[] getBinaryValue(final Base64Variant b64variant)
+    '''public byte[] getBinaryValue(final Base64Variant b64variant)
     '''
 def readBinaryValue():
-    '''    public int readBinaryValue(final Base64Variant b64variant, final OutputStream out)
+    '''public int readBinaryValue(final Base64Variant b64variant, final OutputStream out)
     '''
 def nextToken():
-    '''    public JsonToken nextToken()
+    '''public JsonToken nextToken()
     '''
 def finishToken():
-    '''    public void finishToken()
+    '''public void finishToken()
     '''
 def nextFieldName():
-    '''    public boolean nextFieldName(final SerializableString str)
+    '''public boolean nextFieldName(final SerializableString str)
     public String nextFieldName()
     '''
 def nextTextValue():
-    '''    public String nextTextValue()
+    '''public String nextTextValue()
     '''
 def nextIntValue():
-    '''    public int nextIntValue(final int defaultValue)
+    '''public int nextIntValue(final int defaultValue)
     '''
 def nextLongValue():
-    '''    public long nextLongValue(final long defaultValue)
+    '''public long nextLongValue(final long defaultValue)
     '''
 def nextBooleanValue():
-    '''    public Boolean nextBooleanValue()
+    '''public Boolean nextBooleanValue()
     '''
 def getTokenLocation():
-    '''    public JsonLocation getTokenLocation()
+    '''public JsonLocation getTokenLocation()
     '''
 def getCurrentLocation():
-    '''    public JsonLocation getCurrentLocation()
+    '''public JsonLocation getCurrentLocation()
     '''

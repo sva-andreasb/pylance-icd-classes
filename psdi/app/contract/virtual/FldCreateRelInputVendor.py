@@ -1,6 +1,6 @@
 def FldCreateRelInputVendor():
-    '''    public FldCreateRelInputVendor(final MboValue mbv)
+    '''public FldCreateRelInputVendor(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

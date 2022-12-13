@@ -1,9 +1,9 @@
 def DoubleHolder():
-    '''    public DoubleHolder()
+    '''public DoubleHolder()
     '''
 def getNumber():
-    '''    public Double getNumber()
+    '''public Double getNumber()
     '''
 def setNumber():
-    '''    public void setNumber(final Double number)
+    '''public void setNumber(final Double number)
     '''

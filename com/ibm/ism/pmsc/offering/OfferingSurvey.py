@@ -1,3 +1,3 @@
 def OfferingSurvey():
-    '''    public OfferingSurvey(final MboSet ms)
+    '''public OfferingSurvey(final MboSet ms)
     '''

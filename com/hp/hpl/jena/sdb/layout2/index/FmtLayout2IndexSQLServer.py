@@ -1,3 +1,3 @@
 def FmtLayout2IndexSQLServer():
-    '''    public FmtLayout2IndexSQLServer(final SDBConnection connection)
+    '''public FmtLayout2IndexSQLServer(final SDBConnection connection)
     '''

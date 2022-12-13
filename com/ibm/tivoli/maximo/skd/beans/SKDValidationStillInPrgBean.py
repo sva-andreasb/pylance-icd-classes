@@ -1,3 +1,3 @@
 def longopstillinprogress():
-    '''    public int longopstillinprogress()
+    '''public int longopstillinprogress()
     '''

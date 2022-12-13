@@ -1,6 +1,6 @@
 def ManageCICollectionsBean():
-    '''    public ManageCICollectionsBean()
+    '''public ManageCICollectionsBean()
     '''
 def addrow():
-    '''    public int addrow()
+    '''public int addrow()
     '''

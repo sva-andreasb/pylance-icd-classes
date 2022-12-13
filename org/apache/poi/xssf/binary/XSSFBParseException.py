@@ -1,3 +1,3 @@
 def XSSFBParseException():
-    '''    public XSSFBParseException(final String msg)
+    '''public XSSFBParseException(final String msg)
     '''

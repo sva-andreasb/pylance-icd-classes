@@ -1,6 +1,6 @@
 def SKDOptParam():
-    '''    public SKDOptParam(final MboSet ms)
+    '''public SKDOptParam(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

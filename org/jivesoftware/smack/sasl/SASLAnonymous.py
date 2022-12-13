@@ -1,10 +1,10 @@
 def SASLAnonymous():
-    '''    public SASLAnonymous(final SASLAuthentication saslAuthentication)
+    '''public SASLAnonymous(final SASLAuthentication saslAuthentication)
     '''
 def authenticate():
-    '''    public void authenticate(final String username, final String host, final CallbackHandler cbh)
+    '''public void authenticate(final String username, final String host, final CallbackHandler cbh)
     public void authenticate(final String username, final String host, final String password)
     '''
 def challengeReceived():
-    '''    public void challengeReceived(final String challenge)
+    '''public void challengeReceived(final String challenge)
     '''

@@ -1,12 +1,12 @@
 def DBConnectionStatSet():
-    '''    public DBConnectionStatSet(final MboServerInterface ms)
+    '''public DBConnectionStatSet(final MboServerInterface ms)
     '''
 def getMbo():
-    '''    public synchronized MboRemote getMbo(final int row)
+    '''public synchronized MboRemote getMbo(final int row)
     '''
 def setTenant():
-    '''    public void setTenant(final int id)
+    '''public void setTenant(final int id)
     '''
 def setLandlordInfo():
-    '''    public void setLandlordInfo(final UserInfo landlord)
+    '''public void setLandlordInfo(final UserInfo landlord)
     '''

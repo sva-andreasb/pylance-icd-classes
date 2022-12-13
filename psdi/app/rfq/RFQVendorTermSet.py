@@ -1,3 +1,3 @@
 def RFQVendorTermSet():
-    '''    public RFQVendorTermSet(final MboServerInterface ms)
+    '''public RFQVendorTermSet(final MboServerInterface ms)
     '''

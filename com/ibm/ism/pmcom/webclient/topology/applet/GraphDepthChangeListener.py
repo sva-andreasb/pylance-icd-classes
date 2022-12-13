@@ -1,3 +1,3 @@
 def stateChanged():
-    '''    public void stateChanged(final ChangeEvent e)
+    '''public void stateChanged(final ChangeEvent e)
     '''

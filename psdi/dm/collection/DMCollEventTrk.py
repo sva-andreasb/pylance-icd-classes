@@ -1,6 +1,6 @@
 def DMCollEventTrk():
-    '''    public DMCollEventTrk(final MboSet ms)
+    '''public DMCollEventTrk(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

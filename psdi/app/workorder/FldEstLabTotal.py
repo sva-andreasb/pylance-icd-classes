@@ -1,3 +1,3 @@
 def FldEstLabTotal():
-    '''    public FldEstLabTotal(final MboValue mbv)
+    '''public FldEstLabTotal(final MboValue mbv)
     '''

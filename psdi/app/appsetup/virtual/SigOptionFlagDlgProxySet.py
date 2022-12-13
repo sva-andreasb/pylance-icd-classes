@@ -1,3 +1,3 @@
 def SigOptionFlagDlgProxySet():
-    '''    public SigOptionFlagDlgProxySet(final MboServerInterface ms)
+    '''public SigOptionFlagDlgProxySet(final MboServerInterface ms)
     '''

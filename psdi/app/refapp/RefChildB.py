@@ -1,3 +1,3 @@
 def RefChildB():
-    '''    public RefChildB(final MboSet mboSet0)
+    '''public RefChildB(final MboSet mboSet0)
     '''

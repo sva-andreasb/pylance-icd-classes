@@ -1,6 +1,6 @@
 def MaxObjectAppAuthSet():
-    '''    public MaxObjectAppAuthSet(final MboServerInterface ms)
+    '''public MaxObjectAppAuthSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

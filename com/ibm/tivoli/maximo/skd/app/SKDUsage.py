@@ -1,3 +1,3 @@
 def SKDUsage():
-    '''    public SKDUsage(final MboSet ms)
+    '''public SKDUsage(final MboSet ms)
     '''

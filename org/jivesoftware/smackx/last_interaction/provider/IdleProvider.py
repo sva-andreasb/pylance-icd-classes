@@ -1,3 +1,3 @@
 def parse():
-    '''    public IdleElement parse(final XmlPullParser parser, final int initialDepth)
+    '''public IdleElement parse(final XmlPullParser parser, final int initialDepth)
     '''

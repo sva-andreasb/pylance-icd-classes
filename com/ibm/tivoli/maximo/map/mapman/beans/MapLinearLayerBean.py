@@ -1,3 +1,3 @@
 def delete():
-    '''    public synchronized void delete(final int i)
+    '''public synchronized void delete(final int i)
     '''

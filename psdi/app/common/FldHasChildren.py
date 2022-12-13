@@ -1,6 +1,6 @@
 def FldHasChildren():
-    '''    public FldHasChildren(final MboValue mbv)
+    '''public FldHasChildren(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

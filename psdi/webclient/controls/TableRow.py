@@ -4,41 +4,41 @@ FILTERROW = "int  -2"
 NOCOLUMNS = "int  -1"
 DATAROW = "int  0"
 def TableRow():
-    '''    public TableRow()
+    '''public TableRow()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def tableHasData():
-    '''    public boolean tableHasData()
+    '''public boolean tableHasData()
     '''
 def isrowselected():
-    '''    public boolean isrowselected()
+    '''public boolean isrowselected()
     '''
 def hasData():
-    '''    public boolean hasData()
+    '''public boolean hasData()
     '''
 def getRenderRow():
-    '''    public int getRenderRow()
+    '''public int getRenderRow()
     '''
 def getRow():
-    '''    public int getRow()
+    '''public int getRow()
     '''
 def getTableControl():
-    '''    public Table getTableControl()
+    '''public Table getTableControl()
     '''
 def toggleselectrow():
-    '''    public int toggleselectrow()
+    '''public int toggleselectrow()
     '''
 def setCurrent():
-    '''    public void setCurrent()
+    '''public void setCurrent()
     '''
 def rowVisible():
-    '''    public boolean rowVisible()
+    '''public boolean rowVisible()
     '''
 def isExpanded():
-    '''    public boolean isExpanded()
+    '''public boolean isExpanded()
     '''
 def getHeaders():
-    '''    public String getHeaders()
+    '''public String getHeaders()
     '''

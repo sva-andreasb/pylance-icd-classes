@@ -1,3 +1,3 @@
 def CurrencySet():
-    '''    public CurrencySet(final MboServerInterface ms)
+    '''public CurrencySet(final MboServerInterface ms)
     '''

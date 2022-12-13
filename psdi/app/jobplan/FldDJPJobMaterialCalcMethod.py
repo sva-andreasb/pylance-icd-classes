@@ -1,9 +1,9 @@
 def FldDJPJobMaterialCalcMethod():
-    '''    public FldDJPJobMaterialCalcMethod(final MboValue mv)
+    '''public FldDJPJobMaterialCalcMethod(final MboValue mv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

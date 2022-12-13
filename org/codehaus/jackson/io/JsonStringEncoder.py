@@ -1,15 +1,15 @@
 def JsonStringEncoder():
-    '''    public JsonStringEncoder()
+    '''public JsonStringEncoder()
     '''
 def getInstance():
-    '''    public static JsonStringEncoder getInstance()
+    '''public static JsonStringEncoder getInstance()
     '''
 def quoteAsString():
-    '''    public char[] quoteAsString(final String input)
+    '''public char[] quoteAsString(final String input)
     '''
 def quoteAsUTF8():
-    '''    public byte[] quoteAsUTF8(final String text)
+    '''public byte[] quoteAsUTF8(final String text)
     '''
 def encodeAsUTF8():
-    '''    public byte[] encodeAsUTF8(final String text)
+    '''public byte[] encodeAsUTF8(final String text)
     '''

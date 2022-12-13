@@ -1,37 +1,37 @@
 def AdminModeManager():
-    '''    public AdminModeManager()
+    '''public AdminModeManager()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def reload():
-    '''    public void reload()
+    '''public void reload()
     public void reload(final String key)
     '''
 def isAdminModeOnThisInstance():
-    '''    public boolean isAdminModeOnThisInstance()
+    '''public boolean isAdminModeOnThisInstance()
     '''
 def isAdminModePendingThisInstance():
-    '''    public boolean isAdminModePendingThisInstance()
+    '''public boolean isAdminModePendingThisInstance()
     '''
 def isAdminModeTurningOffThisInstance():
-    '''    public boolean isAdminModeTurningOffThisInstance()
+    '''public boolean isAdminModeTurningOffThisInstance()
     '''
 def isAdminModeForAllInstances():
-    '''    public synchronized boolean isAdminModeForAllInstances(final boolean activeVal)
+    '''public synchronized boolean isAdminModeForAllInstances(final boolean activeVal)
     '''
 def listenToAdmin():
-    '''    public void listenToAdmin(final MboRemote listenerMbo, final boolean listen)
+    '''public void listenToAdmin(final MboRemote listenerMbo, final boolean listen)
     '''
 def clearListeners():
-    '''    public void clearListeners()
+    '''public void clearListeners()
     '''
 def isTenantAdminMode():
-    '''    public boolean isTenantAdminMode()
+    '''public boolean isTenantAdminMode()
     '''
 def setTenantAdminMode():
-    '''    public void setTenantAdminMode(final boolean tenantAdminMode)
+    '''public void setTenantAdminMode(final boolean tenantAdminMode)
     '''

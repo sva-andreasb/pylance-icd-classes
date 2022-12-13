@@ -1,3 +1,3 @@
 def SKDOriginDestMatrixSet():
-    '''    public SKDOriginDestMatrixSet(final MboServerInterface ms)
+    '''public SKDOriginDestMatrixSet(final MboServerInterface ms)
     '''

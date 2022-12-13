@@ -1,3 +1,3 @@
 def ControlEvent():
-    '''    public ControlEvent(final Object o)
+    '''public ControlEvent(final Object o)
     '''

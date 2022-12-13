@@ -1,51 +1,51 @@
 def IlvTimeScrollSupport():
-    '''    public IlvTimeScrollSupport(final IlvTimeScrollable owner)
+    '''public IlvTimeScrollSupport(final IlvTimeScrollable owner)
     public IlvTimeScrollSupport()
     public IlvTimeScrollSupport(final IlvTimeScrollSupport ilvTimeScrollSupport)
     '''
 def getTimeConverter():
-    '''    public IlvTimeConverter getTimeConverter()
+    '''public IlvTimeConverter getTimeConverter()
     '''
 def setTimeConverter():
-    '''    public void setTimeConverter(final IlvTimeConverter a)
+    '''public void setTimeConverter(final IlvTimeConverter a)
     '''
 def getViewStart():
-    '''    public int getViewStart()
+    '''public int getViewStart()
     '''
 def setViewStart():
-    '''    public void setViewStart(final int g)
+    '''public void setViewStart(final int g)
     '''
 def getViewWidth():
-    '''    public int getViewWidth()
+    '''public int getViewWidth()
     '''
 def setLeftToRight():
-    '''    public void setLeftToRight(final boolean i)
+    '''public void setLeftToRight(final boolean i)
     '''
 def isLeftToRight():
-    '''    public boolean isLeftToRight()
+    '''public boolean isLeftToRight()
     '''
 def isConstantZoomFactorOnWidthChange():
-    '''    public boolean isConstantZoomFactorOnWidthChange()
+    '''public boolean isConstantZoomFactorOnWidthChange()
     '''
 def setConstantZoomFactorOnWidthChange():
-    '''    public void setConstantZoomFactorOnWidthChange(final boolean d)
+    '''public void setConstantZoomFactorOnWidthChange(final boolean d)
     '''
 def setViewWidth():
-    '''    public void setViewWidth(final int h, final boolean b)
+    '''public void setViewWidth(final int h, final boolean b)
     public void setViewWidth(final int n)
     '''
 def getZoomFactor():
-    '''    public double getZoomFactor()
+    '''public double getZoomFactor()
     '''
 def getOffset():
-    '''    public double getOffset()
+    '''public double getOffset()
     '''
 def getTime():
-    '''    public Date getTime(final long n)
+    '''public Date getTime(final long n)
     '''
 def getLocation():
-    '''    public long getLocation(final Date date)
+    '''public long getLocation(final Date date)
     '''
 def computeVisibleTimeScroll():
-    '''    public Date computeVisibleTimeScroll(final long n, final long n2)
+    '''public Date computeVisibleTimeScroll(final long n, final long n2)
     '''

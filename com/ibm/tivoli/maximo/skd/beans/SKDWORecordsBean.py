@@ -1,6 +1,6 @@
 def getRemoteForDownload():
-    '''    public MboSetRemote getRemoteForDownload()
+    '''public MboSetRemote getRemoteForDownload()
     '''
 def filterByError():
-    '''    public void filterByError(final String valMsg)
+    '''public void filterByError(final String valMsg)
     '''

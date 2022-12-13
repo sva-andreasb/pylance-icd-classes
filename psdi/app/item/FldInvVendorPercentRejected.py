@@ -1,6 +1,6 @@
 def FldInvVendorPercentRejected():
-    '''    public FldInvVendorPercentRejected(final MboValue mbv)
+    '''public FldInvVendorPercentRejected(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

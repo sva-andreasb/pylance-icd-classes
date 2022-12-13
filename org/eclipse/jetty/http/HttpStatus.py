@@ -47,36 +47,36 @@ HTTP_VERSION_NOT_SUPPORTED_505 = "int  505"
 INSUFFICIENT_STORAGE_507 = "int  507"
 MAX_CODE = "int  507"
 def getCode():
-    '''    public static Code getCode(final int code)
+    '''public static Code getCode(final int code)
     public int getCode()
     '''
 def getMessage():
-    '''    public static String getMessage(final int code)
+    '''public static String getMessage(final int code)
     public String getMessage()
     '''
 def isInformational():
-    '''    public static boolean isInformational(final int code)
+    '''public static boolean isInformational(final int code)
     public boolean isInformational()
     '''
 def isSuccess():
-    '''    public static boolean isSuccess(final int code)
+    '''public static boolean isSuccess(final int code)
     public boolean isSuccess()
     '''
 def isRedirection():
-    '''    public static boolean isRedirection(final int code)
+    '''public static boolean isRedirection(final int code)
     public boolean isRedirection()
     '''
 def isClientError():
-    '''    public static boolean isClientError(final int code)
+    '''public static boolean isClientError(final int code)
     public boolean isClientError()
     '''
 def isServerError():
-    '''    public static boolean isServerError(final int code)
+    '''public static boolean isServerError(final int code)
     public boolean isServerError()
     '''
 def equals():
-    '''    public boolean equals(final int code)
+    '''public boolean equals(final int code)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

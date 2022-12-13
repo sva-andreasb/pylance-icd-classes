@@ -1,9 +1,9 @@
 def FldAssetIssueItemsSiteId():
-    '''    public FldAssetIssueItemsSiteId(final MboValue mbv)
+    '''public FldAssetIssueItemsSiteId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

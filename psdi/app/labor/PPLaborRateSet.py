@@ -1,3 +1,3 @@
 def PPLaborRateSet():
-    '''    public PPLaborRateSet(final MboServerInterface ms)
+    '''public PPLaborRateSet(final MboServerInterface ms)
     '''

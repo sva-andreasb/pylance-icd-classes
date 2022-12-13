@@ -1,6 +1,6 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''

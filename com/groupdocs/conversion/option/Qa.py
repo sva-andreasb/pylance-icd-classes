@@ -1,9 +1,9 @@
 def Qa():
-    '''    public Qa()
+    '''public Qa()
     '''
 def d():
-    '''    public ByteArrayInputStream d()
+    '''public ByteArrayInputStream d()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''

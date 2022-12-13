@@ -1,21 +1,21 @@
 def KPIGConfigSet():
-    '''    public KPIGConfigSet(final MboServerInterface ms)
+    '''public KPIGConfigSet(final MboServerInterface ms)
     '''
 def getSelectedKPIs():
-    '''    public Vector getSelectedKPIs()
+    '''public Vector getSelectedKPIs()
     '''
 def updateSelectedKPIs():
-    '''    public void updateSelectedKPIs(final MboSetRemote dataSet)
+    '''public void updateSelectedKPIs(final MboSetRemote dataSet)
     '''
 def runSelectedKPI():
-    '''    public void runSelectedKPI()
+    '''public void runSelectedKPI()
     '''
 def latestDate():
-    '''    public String latestDate()
+    '''public String latestDate()
     '''
 def getKPIInfo():
-    '''    public Vector getKPIInfo()
+    '''public Vector getKPIInfo()
     '''
 def resetSelectedKPIs():
-    '''    public void resetSelectedKPIs()
+    '''public void resetSelectedKPIs()
     '''

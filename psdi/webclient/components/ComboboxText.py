@@ -1,9 +1,9 @@
 def ComboboxText():
-    '''    public ComboboxText()
+    '''public ComboboxText()
     '''
 def getString():
-    '''    public String getString()
+    '''public String getString()
     '''
 def updateCachedDataValue():
-    '''    public void updateCachedDataValue(final String value)
+    '''public void updateCachedDataValue(final String value)
     '''

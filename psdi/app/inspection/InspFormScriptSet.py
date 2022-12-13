@@ -1,3 +1,3 @@
 def InspFormScriptSet():
-    '''    public InspFormScriptSet(final MboServerInterface ms)
+    '''public InspFormScriptSet(final MboServerInterface ms)
     '''

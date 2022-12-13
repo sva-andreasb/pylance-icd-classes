@@ -1,6 +1,6 @@
 def FldAssignLaborVendor():
-    '''    public FldAssignLaborVendor(final MboValue mbv)
+    '''public FldAssignLaborVendor(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

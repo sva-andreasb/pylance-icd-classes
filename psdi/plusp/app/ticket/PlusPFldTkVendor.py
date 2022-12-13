@@ -1,3 +1,3 @@
 def PlusPFldTkVendor():
-    '''    public PlusPFldTkVendor(final MboValue arg0)
+    '''public PlusPFldTkVendor(final MboValue arg0)
     '''

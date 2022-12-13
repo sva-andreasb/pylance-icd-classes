@@ -1,20 +1,20 @@
 def setprintFlag():
-    '''    public static void setprintFlag(final boolean printactivity)
+    '''public static void setprintFlag(final boolean printactivity)
     '''
 def initPrintingController():
-    '''    public static void initPrintingController(final IlvHierarchyChart gantt)
+    '''public static void initPrintingController(final IlvHierarchyChart gantt)
     '''
 def GanttPrintAction():
-    '''    public GanttPrintAction(final Viewer viewer, final HashMap printbuttonlabels)
+    '''public GanttPrintAction(final Viewer viewer, final HashMap printbuttonlabels)
     '''
 def actionPerformed():
-    '''    public void actionPerformed(final ActionEvent event)
+    '''public void actionPerformed(final ActionEvent event)
     public void actionPerformed(final ActionEvent event)
     public void actionPerformed(final ActionEvent event)
     '''
 def GanttPrintSetupAction():
-    '''    public GanttPrintSetupAction(final Viewer viewer, final HashMap printbuttonlabels)
+    '''public GanttPrintSetupAction(final Viewer viewer, final HashMap printbuttonlabels)
     '''
 def GanttPrintPreviewAction():
-    '''    public GanttPrintPreviewAction(final Viewer viewer, final HashMap printbuttonlabels)
+    '''public GanttPrintPreviewAction(final Viewer viewer, final HashMap printbuttonlabels)
     '''

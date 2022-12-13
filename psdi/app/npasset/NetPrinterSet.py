@@ -1,3 +1,3 @@
 def NetPrinterSet():
-    '''    public NetPrinterSet(final MboServerInterface ms)
+    '''public NetPrinterSet(final MboServerInterface ms)
     '''

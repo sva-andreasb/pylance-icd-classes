@@ -1,6 +1,6 @@
 def FldCompleteActionId():
-    '''    public FldCompleteActionId(final MboValue mbv)
+    '''public FldCompleteActionId(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

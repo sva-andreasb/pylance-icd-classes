@@ -76,17 +76,17 @@ COMMAND_SYNTAX_ERROR = "int  501"
 PERMISSION_DENIED = "int  502"
 PROGRAM_FAULT = "int  503"
 def isInformational():
-    '''    public static boolean isInformational(final int reply)
+    '''public static boolean isInformational(final int reply)
     '''
 def isPositiveCompletion():
-    '''    public static boolean isPositiveCompletion(final int reply)
+    '''public static boolean isPositiveCompletion(final int reply)
     '''
 def isPositiveIntermediate():
-    '''    public static boolean isPositiveIntermediate(final int reply)
+    '''public static boolean isPositiveIntermediate(final int reply)
     '''
 def isNegativeTransient():
-    '''    public static boolean isNegativeTransient(final int reply)
+    '''public static boolean isNegativeTransient(final int reply)
     '''
 def isNegativePermanent():
-    '''    public static boolean isNegativePermanent(final int reply)
+    '''public static boolean isNegativePermanent(final int reply)
     '''

@@ -1,6 +1,6 @@
 def getJsonFactory():
-    '''    public JsonFactory getJsonFactory()
+    '''public JsonFactory getJsonFactory()
     '''
 def getFactory():
-    '''    public JsonFactory getFactory()
+    '''public JsonFactory getFactory()
     '''

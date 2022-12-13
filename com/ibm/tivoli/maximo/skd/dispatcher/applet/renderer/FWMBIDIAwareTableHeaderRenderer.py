@@ -1,3 +1,3 @@
 def FWMBIDIAwareTableHeaderRenderer():
-    '''    public FWMBIDIAwareTableHeaderRenderer(final TableCellRenderer defaultRenderer)
+    '''public FWMBIDIAwareTableHeaderRenderer(final TableCellRenderer defaultRenderer)
     '''

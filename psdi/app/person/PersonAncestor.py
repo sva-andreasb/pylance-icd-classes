@@ -1,3 +1,3 @@
 def PersonAncestor():
-    '''    public PersonAncestor(final MboSet ms)
+    '''public PersonAncestor(final MboSet ms)
     '''

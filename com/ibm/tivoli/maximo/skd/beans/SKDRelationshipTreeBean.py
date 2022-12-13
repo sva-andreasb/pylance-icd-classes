@@ -1,3 +1,3 @@
 def getTreeControlObjectName():
-    '''    public String getTreeControlObjectName()
+    '''public String getTreeControlObjectName()
     '''

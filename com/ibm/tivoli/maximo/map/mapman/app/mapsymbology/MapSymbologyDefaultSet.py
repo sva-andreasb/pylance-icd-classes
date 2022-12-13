@@ -1,3 +1,3 @@
 def MapSymbologyDefaultSet():
-    '''    public MapSymbologyDefaultSet(final MboServerInterface ms)
+    '''public MapSymbologyDefaultSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def FldInvAdjustmentPercentageIncrease():
-    '''    public FldInvAdjustmentPercentageIncrease(final MboValue mbv)
+    '''public FldInvAdjustmentPercentageIncrease(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

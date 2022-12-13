@@ -1,33 +1,33 @@
 def MicTransactable():
-    '''    public MicTransactable()
+    '''public MicTransactable()
     '''
 def setMboSet():
-    '''    public void setMboSet(final MboSetRemote set)
+    '''public void setMboSet(final MboSetRemote set)
     '''
 def getMboSet():
-    '''    public MboSetRemote getMboSet()
+    '''public MboSetRemote getMboSet()
     '''
 def saveTransaction():
-    '''    public void saveTransaction(final MXTransaction txn)
+    '''public void saveTransaction(final MXTransaction txn)
     '''
 def commitTransaction():
-    '''    public void commitTransaction(final MXTransaction txn)
+    '''public void commitTransaction(final MXTransaction txn)
     '''
 def rollbackTransaction():
-    '''    public void rollbackTransaction(final MXTransaction txn)
+    '''public void rollbackTransaction(final MXTransaction txn)
     '''
 def undoTransaction():
-    '''    public void undoTransaction(final MXTransaction txn)
+    '''public void undoTransaction(final MXTransaction txn)
     '''
 def validateTransaction():
-    '''    public boolean validateTransaction(final MXTransaction txn)
+    '''public boolean validateTransaction(final MXTransaction txn)
     '''
 def fireEventsBeforeDB():
-    '''    public void fireEventsBeforeDB(final MXTransaction txn)
+    '''public void fireEventsBeforeDB(final MXTransaction txn)
     '''
 def fireEventsAfterDB():
-    '''    public void fireEventsAfterDB(final MXTransaction txn)
+    '''public void fireEventsAfterDB(final MXTransaction txn)
     '''
 def fireEventsAfterDBCommit():
-    '''    public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
     '''

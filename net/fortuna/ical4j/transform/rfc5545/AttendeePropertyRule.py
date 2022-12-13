@@ -1,6 +1,6 @@
 def applyTo():
-    '''    public void applyTo(final Attendee element)
+    '''public void applyTo(final Attendee element)
     '''
 def getSupportedType():
-    '''    public Class<Attendee> getSupportedType()
+    '''public Class<Attendee> getSupportedType()
     '''

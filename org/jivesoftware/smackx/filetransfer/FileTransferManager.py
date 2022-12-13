@@ -1,15 +1,15 @@
 def getInstanceFor():
-    '''    public static synchronized FileTransferManager getInstanceFor(final XMPPConnection connection)
+    '''public static synchronized FileTransferManager getInstanceFor(final XMPPConnection connection)
     '''
 def handleIQRequest():
-    '''    public IQ handleIQRequest(final IQ packet)
+    '''public IQ handleIQRequest(final IQ packet)
     '''
 def addFileTransferListener():
-    '''    public void addFileTransferListener(final FileTransferListener li)
+    '''public void addFileTransferListener(final FileTransferListener li)
     '''
 def removeFileTransferListener():
-    '''    public void removeFileTransferListener(final FileTransferListener li)
+    '''public void removeFileTransferListener(final FileTransferListener li)
     '''
 def createOutgoingFileTransfer():
-    '''    public OutgoingFileTransfer createOutgoingFileTransfer(final EntityFullJid userID)
+    '''public OutgoingFileTransfer createOutgoingFileTransfer(final EntityFullJid userID)
     '''

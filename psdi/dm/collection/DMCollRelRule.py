@@ -1,6 +1,6 @@
 def DMCollRelRule():
-    '''    public DMCollRelRule(final MboSet ms)
+    '''public DMCollRelRule(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

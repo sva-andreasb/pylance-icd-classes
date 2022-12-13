@@ -1,6 +1,6 @@
 def FldDeployedMeterActive():
-    '''    public FldDeployedMeterActive(final MboValue mbv)
+    '''public FldDeployedMeterActive(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

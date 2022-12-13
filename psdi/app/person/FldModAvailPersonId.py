@@ -1,3 +1,3 @@
 def FldModAvailPersonId():
-    '''    public FldModAvailPersonId(final MboValue mbv)
+    '''public FldModAvailPersonId(final MboValue mbv)
     '''

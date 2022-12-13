@@ -1,3 +1,3 @@
 def ImageInfo():
-    '''    public ImageInfo()
+    '''public ImageInfo()
     '''

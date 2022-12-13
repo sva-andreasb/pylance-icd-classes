@@ -1,3 +1,3 @@
 def POStatusSet():
-    '''    public POStatusSet(final MboServerInterface ms)
+    '''public POStatusSet(final MboServerInterface ms)
     '''

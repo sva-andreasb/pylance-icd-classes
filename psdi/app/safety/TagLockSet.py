@@ -1,6 +1,6 @@
 def TagLockSet():
-    '''    public TagLockSet(final MboServerInterface ms)
+    '''public TagLockSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

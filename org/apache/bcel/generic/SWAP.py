@@ -1,6 +1,6 @@
 def SWAP():
-    '''    public SWAP()
+    '''public SWAP()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

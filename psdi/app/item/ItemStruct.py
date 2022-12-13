@@ -1,81 +1,81 @@
 def ItemStruct():
-    '''    public ItemStruct(final MboSet ms)
+    '''public ItemStruct(final MboSet ms)
     '''
 def isTop():
-    '''    public boolean isTop()
+    '''public boolean isTop()
     '''
 def getTop():
-    '''    public MboSetRemote getTop()
+    '''public MboSetRemote getTop()
     '''
 def hasChildren():
-    '''    public boolean hasChildren()
+    '''public boolean hasChildren()
     '''
 def hasParents():
-    '''    public boolean hasParents()
+    '''public boolean hasParents()
     '''
 def getChildren():
-    '''    public MboSetRemote getChildren()
+    '''public MboSetRemote getChildren()
     '''
 def getParents():
-    '''    public MboSetRemote getParents()
+    '''public MboSetRemote getParents()
     '''
 def getHierarchy():
-    '''    public String[] getHierarchy()
+    '''public String[] getHierarchy()
     '''
 def applyIAS():
-    '''    public void applyIAS(final MboRemote thisOwner, final ItemRemote myItemMbo)
+    '''public void applyIAS(final MboRemote thisOwner, final ItemRemote myItemMbo)
     '''
 def getMyItemMbo():
-    '''    public ItemRemote getMyItemMbo()
+    '''public ItemRemote getMyItemMbo()
     '''
 def getMyAssetMbo():
-    '''    public MboRemote getMyAssetMbo()
+    '''public MboRemote getMyAssetMbo()
     '''
 def getMyAssetInputMbo():
-    '''    public MboRemote getMyAssetInputMbo()
+    '''public MboRemote getMyAssetInputMbo()
     '''
 def getMyLocationMbo():
-    '''    public MboRemote getMyLocationMbo()
+    '''public MboRemote getMyLocationMbo()
     '''
 def getAutoKey():
-    '''    public boolean getAutoKey()
+    '''public boolean getAutoKey()
     '''
 def setAutoKey():
-    '''    public void setAutoKey()
+    '''public void setAutoKey()
     '''
 def isRotating():
-    '''    public boolean isRotating()
+    '''public boolean isRotating()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def delete():
-    '''    public void delete(final long access)
+    '''public void delete(final long access)
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def copyIAS():
-    '''    public void copyIAS(final MboSetRemote adoptedItemStructSet, final boolean justTopItem)
+    '''public void copyIAS(final MboSetRemote adoptedItemStructSet, final boolean justTopItem)
     '''
 def copyItemOnly():
-    '''    public void copyItemOnly(final boolean justTheItem)
+    '''public void copyItemOnly(final boolean justTheItem)
     '''
 def getOrgForGL():
-    '''    public String getOrgForGL(final String lookupAttr)
+    '''public String getOrgForGL(final String lookupAttr)
     '''
 def setValue():
-    '''    public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''public void setValue(final String attributeName, final String val, final long accessModifier)
     '''
 def setIsApplyIAS():
-    '''    public void setIsApplyIAS(final boolean isInApplyIAS)
+    '''public void setIsApplyIAS(final boolean isInApplyIAS)
     '''

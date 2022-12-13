@@ -1,23 +1,23 @@
 def getDatabaseTypeOnly():
-    '''    public static String getDatabaseTypeOnly(final String maxType, final String lengthStr, final MaximoDatabaseInfo mdi)
+    '''public static String getDatabaseTypeOnly(final String maxType, final String lengthStr, final MaximoDatabaseInfo mdi)
     public static String getDatabaseTypeOnly(final String maxType, final Integer length, final MaximoDatabaseInfo mdi)
     '''
 def getDatabaseType():
-    '''    public static String getDatabaseType(final String maxtype, final Integer length, final Integer scale, final MaximoDatabaseInfo mdi)
+    '''public static String getDatabaseType(final String maxtype, final Integer length, final Integer scale, final MaximoDatabaseInfo mdi)
     public static String getDatabaseType(final String maxtype, Integer length, final Integer scale, final MaximoDatabaseInfo mdi, final boolean typeOnly)
     '''
 def getVarCharColumnLength():
-    '''    public static int getVarCharColumnLength(final int length, final MaximoDatabaseInfo mdi)
+    '''public static int getVarCharColumnLength(final int length, final MaximoDatabaseInfo mdi)
     '''
 def needScale():
-    '''    public static boolean needScale(final String maxtype)
+    '''public static boolean needScale(final String maxtype)
     '''
 def needLength():
-    '''    public static boolean needLength(final String maxtype)
+    '''public static boolean needLength(final String maxtype)
     '''
 def varCharMultipleAffected():
-    '''    public static boolean varCharMultipleAffected(final String maxType)
+    '''public static boolean varCharMultipleAffected(final String maxType)
     '''
 def getMaxDef():
-    '''    public static AttributeStorage getMaxDef(final DatabaseInformation di, String dbType, final Integer dbLength, final Integer dbScale)
+    '''public static AttributeStorage getMaxDef(final DatabaseInformation di, String dbType, final Integer dbLength, final Integer dbScale)
     '''

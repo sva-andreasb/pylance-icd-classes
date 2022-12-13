@@ -1,9 +1,9 @@
 def ValidateIssuedItemForReturnDataBean():
-    '''    public ValidateIssuedItemForReturnDataBean()
+    '''public ValidateIssuedItemForReturnDataBean()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''
 def cancelDialog():
-    '''    public int cancelDialog()
+    '''public int cancelDialog()
     '''

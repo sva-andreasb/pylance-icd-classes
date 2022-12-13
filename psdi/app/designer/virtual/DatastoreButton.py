@@ -1,3 +1,3 @@
 def DatastoreButton():
-    '''    public DatastoreButton(final MboSet ms)
+    '''public DatastoreButton(final MboSet ms)
     '''

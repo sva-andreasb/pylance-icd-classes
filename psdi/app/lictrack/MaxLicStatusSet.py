@@ -1,3 +1,3 @@
 def MaxLicStatusSet():
-    '''    public MaxLicStatusSet(final MboServerInterface ms)
+    '''public MaxLicStatusSet(final MboServerInterface ms)
     '''

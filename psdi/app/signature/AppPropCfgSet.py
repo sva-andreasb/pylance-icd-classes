@@ -1,6 +1,6 @@
 def AppPropCfgSet():
-    '''    public AppPropCfgSet(final MboServerInterface ms)
+    '''public AppPropCfgSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

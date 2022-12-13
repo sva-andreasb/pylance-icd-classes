@@ -1,3 +1,3 @@
 def readUima():
-    '''    public TagTypeDataMap readUima(final InputStream inputStream)
+    '''public TagTypeDataMap readUima(final InputStream inputStream)
     '''

@@ -1,6 +1,6 @@
 def IEMSWDCustomMbo():
-    '''    public IEMSWDCustomMbo(final MboSet ms)
+    '''public IEMSWDCustomMbo(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

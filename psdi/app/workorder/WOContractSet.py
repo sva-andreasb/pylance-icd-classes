@@ -1,6 +1,6 @@
 def WOContractSet():
-    '''    public WOContractSet(final MboServerInterface ms)
+    '''public WOContractSet(final MboServerInterface ms)
     '''
 def add():
-    '''    public void add(final MboRemote ctrctAsst)
+    '''public void add(final MboRemote ctrctAsst)
     '''

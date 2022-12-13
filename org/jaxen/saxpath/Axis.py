@@ -13,6 +13,6 @@ SELF = "int  11"
 DESCENDANT_OR_SELF = "int  12"
 ANCESTOR_OR_SELF = "int  13"
 def lookup():
-    '''    public static String lookup(final int axisNum)
+    '''public static String lookup(final int axisNum)
     public static int lookup(final String axisName)
     '''

@@ -1,3 +1,3 @@
 def MergedGLTransSet():
-    '''    public MergedGLTransSet(final MboServerInterface ms)
+    '''public MergedGLTransSet(final MboServerInterface ms)
     '''

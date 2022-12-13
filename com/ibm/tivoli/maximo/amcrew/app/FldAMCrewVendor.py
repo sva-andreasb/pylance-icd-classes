@@ -1,3 +1,3 @@
 def FldAMCrewVendor():
-    '''    public FldAMCrewVendor(final MboValue mbv)
+    '''public FldAMCrewVendor(final MboValue mbv)
     '''

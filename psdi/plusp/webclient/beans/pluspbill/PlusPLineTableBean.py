@@ -1,6 +1,6 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def LINESTATUS():
-    '''    public int LINESTATUS()
+    '''public int LINESTATUS()
     '''

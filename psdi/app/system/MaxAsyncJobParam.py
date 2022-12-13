@@ -1,6 +1,6 @@
 def MaxAsyncJobParam():
-    '''    public MaxAsyncJobParam(final MboSet ms)
+    '''public MaxAsyncJobParam(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -1,3 +1,3 @@
 def PlusPFldCustRPCustomer():
-    '''    public PlusPFldCustRPCustomer(final MboValue mboValue)
+    '''public PlusPFldCustRPCustomer(final MboValue mboValue)
     '''

@@ -1,3 +1,3 @@
 def TLOAMADRT():
-    '''    public int TLOAMADRT()
+    '''public int TLOAMADRT()
     '''

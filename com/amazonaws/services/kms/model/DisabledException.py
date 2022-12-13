@@ -1,3 +1,3 @@
 def DisabledException():
-    '''    public DisabledException(final String message)
+    '''public DisabledException(final String message)
     '''

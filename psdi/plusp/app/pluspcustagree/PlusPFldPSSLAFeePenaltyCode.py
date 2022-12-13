@@ -1,6 +1,6 @@
 def PlusPFldPSSLAFeePenaltyCode():
-    '''    public PlusPFldPSSLAFeePenaltyCode(final MboValue mbv)
+    '''public PlusPFldPSSLAFeePenaltyCode(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

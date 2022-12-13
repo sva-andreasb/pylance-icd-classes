@@ -1,3 +1,3 @@
 def PmSolutionSet():
-    '''    public PmSolutionSet(final MboServerInterface ms)
+    '''public PmSolutionSet(final MboServerInterface ms)
     '''

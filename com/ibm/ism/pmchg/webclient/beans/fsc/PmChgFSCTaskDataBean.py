@@ -8,17 +8,17 @@ CHANGE_SITEID = "String  \"PMCHGFSCTSKTOCHG.siteid\""
 PERSON_ID = "String  \"PMCHGFSCTSKTOCHG.owner\""
 PERSON_GROUP_ID = "String  \"PMCHGFSCTSKTOCHG.ownergroup\""
 def selectchange():
-    '''    public int selectchange()
+    '''public int selectchange()
     '''
 def selecttask():
-    '''    public int selecttask()
+    '''public int selecttask()
     '''
 def selecttasktoschedule():
-    '''    public int selecttasktoschedule()
+    '''public int selecttasktoschedule()
     '''
 def selectperson():
-    '''    public int selectperson()
+    '''public int selectperson()
     '''
 def selectpersongroup():
-    '''    public int selectpersongroup()
+    '''public int selectpersongroup()
     '''

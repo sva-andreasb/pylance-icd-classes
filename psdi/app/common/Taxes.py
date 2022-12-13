@@ -1,9 +1,9 @@
 def Taxes():
-    '''    public Taxes(final MboRemote mbo)
+    '''public Taxes(final MboRemote mbo)
     '''
 def calculateTax():
-    '''    public double calculateTax(double linecost, final String taxCode, final int whichTax)
+    '''public double calculateTax(double linecost, final String taxCode, final int whichTax)
     '''
 def findTypeCode():
-    '''    public int findTypeCode(final String thisAttrName)
+    '''public int findTypeCode(final String thisAttrName)
     '''

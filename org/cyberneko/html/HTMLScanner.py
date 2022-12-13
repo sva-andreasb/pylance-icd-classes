@@ -20,141 +20,141 @@ PARSE_NOSCRIPT_CONTENT = "String  \"http://cyberneko.org/html/features/parse-nos
 ALLOW_SELFCLOSING_IFRAME = "String  \"http://cyberneko.org/html/features/scanner/allow-selfclosing-iframe\""
 ALLOW_SELFCLOSING_TAGS = "String  \"http://cyberneko.org/html/features/scanner/allow-selfclosing-tags\""
 def HTMLScanner():
-    '''    public HTMLScanner()
+    '''public HTMLScanner()
     '''
 def pushInputSource():
-    '''    public void pushInputSource(final XMLInputSource inputSource)
+    '''public void pushInputSource(final XMLInputSource inputSource)
     '''
 def evaluateInputSource():
-    '''    public void evaluateInputSource(final XMLInputSource inputSource)
+    '''public void evaluateInputSource(final XMLInputSource inputSource)
     '''
 def cleanup():
-    '''    public void cleanup(final boolean closeall)
+    '''public void cleanup(final boolean closeall)
     '''
 def getEncoding():
-    '''    public String getEncoding()
+    '''public String getEncoding()
     '''
 def getPublicId():
-    '''    public String getPublicId()
+    '''public String getPublicId()
     '''
 def getBaseSystemId():
-    '''    public String getBaseSystemId()
+    '''public String getBaseSystemId()
     '''
 def getLiteralSystemId():
-    '''    public String getLiteralSystemId()
+    '''public String getLiteralSystemId()
     '''
 def getExpandedSystemId():
-    '''    public String getExpandedSystemId()
+    '''public String getExpandedSystemId()
     '''
 def getLineNumber():
-    '''    public int getLineNumber()
+    '''public int getLineNumber()
     public int getLineNumber()
     '''
 def getColumnNumber():
-    '''    public int getColumnNumber()
+    '''public int getColumnNumber()
     '''
 def getXMLVersion():
-    '''    public String getXMLVersion()
+    '''public String getXMLVersion()
     '''
 def getCharacterOffset():
-    '''    public int getCharacterOffset()
+    '''public int getCharacterOffset()
     '''
 def getFeatureDefault():
-    '''    public Boolean getFeatureDefault(final String featureId)
+    '''public Boolean getFeatureDefault(final String featureId)
     '''
 def getPropertyDefault():
-    '''    public Object getPropertyDefault(final String propertyId)
+    '''public Object getPropertyDefault(final String propertyId)
     '''
 def getRecognizedFeatures():
-    '''    public String[] getRecognizedFeatures()
+    '''public String[] getRecognizedFeatures()
     '''
 def getRecognizedProperties():
-    '''    public String[] getRecognizedProperties()
+    '''public String[] getRecognizedProperties()
     '''
 def reset():
-    '''    public void reset(final XMLComponentManager manager)
+    '''public void reset(final XMLComponentManager manager)
     '''
 def setFeature():
-    '''    public void setFeature(final String featureId, final boolean state)
+    '''public void setFeature(final String featureId, final boolean state)
     '''
 def setProperty():
-    '''    public void setProperty(final String propertyId, final Object value)
+    '''public void setProperty(final String propertyId, final Object value)
     '''
 def setInputSource():
-    '''    public void setInputSource(final XMLInputSource source)
+    '''public void setInputSource(final XMLInputSource source)
     '''
 def scanDocument():
-    '''    public boolean scanDocument(final boolean complete)
+    '''public boolean scanDocument(final boolean complete)
     '''
 def setDocumentHandler():
-    '''    public void setDocumentHandler(final XMLDocumentHandler handler)
+    '''public void setDocumentHandler(final XMLDocumentHandler handler)
     '''
 def getDocumentHandler():
-    '''    public XMLDocumentHandler getDocumentHandler()
+    '''public XMLDocumentHandler getDocumentHandler()
     '''
 def expandSystemId():
-    '''    public static String expandSystemId(final String systemId, final String baseSystemId)
+    '''public static String expandSystemId(final String systemId, final String baseSystemId)
     '''
 def CurrentEntity():
-    '''    public CurrentEntity(final Reader stream, final String encoding, final String publicId, final String baseSystemId, final String literalSystemId, final String expandedSystemId)
+    '''public CurrentEntity(final Reader stream, final String encoding, final String publicId, final String baseSystemId, final String literalSystemId, final String expandedSystemId)
     '''
 def ContentScanner():
-    '''    public ContentScanner()
+    '''public ContentScanner()
     '''
 def scan():
-    '''    public boolean scan(final boolean complete)
+    '''public boolean scan(final boolean complete)
     public boolean scan(final boolean complete)
     '''
 def SpecialScanner():
-    '''    public SpecialScanner()
+    '''public SpecialScanner()
     '''
 def setElementName():
-    '''    public Scanner setElementName(final String ename)
+    '''public Scanner setElementName(final String ename)
     '''
 def PlaybackInputStream():
-    '''    public PlaybackInputStream(final InputStream in)
+    '''public PlaybackInputStream(final InputStream in)
     '''
 def detectEncoding():
-    '''    public void detectEncoding(final String[] encodings)
+    '''public void detectEncoding(final String[] encodings)
     '''
 def playback():
-    '''    public void playback()
+    '''public void playback()
     '''
 def clear():
-    '''    public void clear()
+    '''public void clear()
     '''
 def read():
-    '''    public int read()
+    '''public int read()
     public int read(final byte[] array)
     public int read(final byte[] array, final int offset, int length)
     '''
 def LocationItem():
-    '''    public LocationItem()
+    '''public LocationItem()
     '''
 def setValues():
-    '''    public void setValues(final int beginLine, final int beginColumn, final int beginOffset, final int endLine, final int endColumn, final int endOffset)
+    '''public void setValues(final int beginLine, final int beginColumn, final int beginOffset, final int endLine, final int endColumn, final int endOffset)
     '''
 def getBeginLineNumber():
-    '''    public int getBeginLineNumber()
+    '''public int getBeginLineNumber()
     '''
 def getBeginColumnNumber():
-    '''    public int getBeginColumnNumber()
+    '''public int getBeginColumnNumber()
     '''
 def getBeginCharacterOffset():
-    '''    public int getBeginCharacterOffset()
+    '''public int getBeginCharacterOffset()
     '''
 def getEndLineNumber():
-    '''    public int getEndLineNumber()
+    '''public int getEndLineNumber()
     '''
 def getEndColumnNumber():
-    '''    public int getEndColumnNumber()
+    '''public int getEndColumnNumber()
     '''
 def getEndCharacterOffset():
-    '''    public int getEndCharacterOffset()
+    '''public int getEndCharacterOffset()
     '''
 def isSynthesized():
-    '''    public boolean isSynthesized()
+    '''public boolean isSynthesized()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

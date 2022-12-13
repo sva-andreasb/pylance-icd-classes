@@ -1,3 +1,3 @@
 def DMPkgCfgObjDefSet():
-    '''    public DMPkgCfgObjDefSet(final MboServerInterface ms)
+    '''public DMPkgCfgObjDefSet(final MboServerInterface ms)
     '''

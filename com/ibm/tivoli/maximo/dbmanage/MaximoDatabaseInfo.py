@@ -1,12 +1,12 @@
 def isSQLServer():
-    '''    public boolean isSQLServer()
+    '''public boolean isSQLServer()
     '''
 def isDB2():
-    '''    public boolean isDB2()
+    '''public boolean isDB2()
     '''
 def isOracle():
-    '''    public boolean isOracle()
+    '''public boolean isOracle()
     '''
 def isMTEnabled():
-    '''    public boolean isMTEnabled()
+    '''public boolean isMTEnabled()
     '''

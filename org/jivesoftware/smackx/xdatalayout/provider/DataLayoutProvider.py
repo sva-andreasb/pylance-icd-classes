@@ -1,3 +1,3 @@
 def parse():
-    '''    public static DataLayout parse(final XmlPullParser parser)
+    '''public static DataLayout parse(final XmlPullParser parser)
     '''

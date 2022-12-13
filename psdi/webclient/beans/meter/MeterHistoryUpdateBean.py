@@ -1,6 +1,6 @@
 def setvalue():
-    '''    public int setvalue()
+    '''public int setvalue()
     '''
 def updatereading():
-    '''    public void updatereading()
+    '''public void updatereading()
     '''

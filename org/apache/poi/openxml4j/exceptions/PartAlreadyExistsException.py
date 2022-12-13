@@ -1,3 +1,3 @@
 def PartAlreadyExistsException():
-    '''    public PartAlreadyExistsException(final String message)
+    '''public PartAlreadyExistsException(final String message)
     '''

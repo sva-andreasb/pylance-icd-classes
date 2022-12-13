@@ -1,3 +1,3 @@
 def FldTargetAsset():
-    '''    public FldTargetAsset(final MboValue mbv)
+    '''public FldTargetAsset(final MboValue mbv)
     '''

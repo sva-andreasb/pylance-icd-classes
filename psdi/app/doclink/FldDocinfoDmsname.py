@@ -1,3 +1,3 @@
 def FldDocinfoDmsname():
-    '''    public FldDocinfoDmsname(final MboValue mbv)
+    '''public FldDocinfoDmsname(final MboValue mbv)
     '''

@@ -1,3 +1,3 @@
 def FldReconTaskLinkRuleName():
-    '''    public FldReconTaskLinkRuleName(final MboValue mbv)
+    '''public FldReconTaskLinkRuleName(final MboValue mbv)
     '''

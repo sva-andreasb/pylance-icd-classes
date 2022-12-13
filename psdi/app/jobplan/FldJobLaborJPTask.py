@@ -1,6 +1,6 @@
 def FldJobLaborJPTask():
-    '''    public FldJobLaborJPTask(final MboValue mbv)
+    '''public FldJobLaborJPTask(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

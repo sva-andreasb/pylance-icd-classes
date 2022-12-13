@@ -1,28 +1,28 @@
 def addHandler():
-    '''    public void addHandler(final QName handler)
+    '''public void addHandler(final QName handler)
     '''
 def addChain():
-    '''    public void addChain(final QName chain)
+    '''public void addChain(final QName chain)
     '''
 def addTransport():
-    '''    public void addTransport(final QName transport)
+    '''public void addTransport(final QName transport)
     '''
 def addService():
-    '''    public void addService(final QName service)
+    '''public void addService(final QName service)
     '''
 def deployTypeMapping():
-    '''    public void deployTypeMapping(final WSDDTypeMapping typeMapping)
+    '''public void deployTypeMapping(final WSDDTypeMapping typeMapping)
     '''
 def WSDDUndeployment():
-    '''    public WSDDUndeployment()
+    '''public WSDDUndeployment()
     public WSDDUndeployment(final Element e)
     '''
 def undeployFromRegistry():
-    '''    public void undeployFromRegistry(final WSDDDeployment registry)
+    '''public void undeployFromRegistry(final WSDDDeployment registry)
     '''
 def writeToContext():
-    '''    public void writeToContext(final SerializationContext context)
+    '''public void writeToContext(final SerializationContext context)
     '''
 def getTypeMappings():
-    '''    public WSDDTypeMapping[] getTypeMappings()
+    '''public WSDDTypeMapping[] getTypeMappings()
     '''

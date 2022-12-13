@@ -1,3 +1,3 @@
 def CrontaskDefSet():
-    '''    public CrontaskDefSet(final MboServerInterface ms)
+    '''public CrontaskDefSet(final MboServerInterface ms)
     '''

@@ -1,18 +1,18 @@
 def getForegroundColor():
-    '''    public String getForegroundColor()
+    '''public String getForegroundColor()
     '''
 def getBackgroundColor():
-    '''    public String getBackgroundColor()
+    '''public String getBackgroundColor()
     '''
 def isBold():
-    '''    public boolean isBold()
+    '''public boolean isBold()
     '''
 def setBold():
-    '''    public ExportCellStyle setBold(final boolean b)
+    '''public ExportCellStyle setBold(final boolean b)
     '''
 def setForegroundColor():
-    '''    public ExportCellStyle setForegroundColor(final String col)
+    '''public ExportCellStyle setForegroundColor(final String col)
     '''
 def setBackgroundColor():
-    '''    public ExportCellStyle setBackgroundColor(final String col)
+    '''public ExportCellStyle setBackgroundColor(final String col)
     '''

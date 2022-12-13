@@ -1,18 +1,18 @@
 def getTableName():
-    '''    public String getTableName()
+    '''public String getTableName()
     '''
 def getTableDesc():
-    '''    public TableDesc getTableDesc()
+    '''public TableDesc getTableDesc()
     '''
 def setTableDesc():
-    '''    public void setTableDesc(final TableDesc tDesc)
+    '''public void setTableDesc(final TableDesc tDesc)
     '''
 def start():
-    '''    public void start()
+    '''public void start()
     '''
 def finish():
-    '''    public void finish()
+    '''public void finish()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''

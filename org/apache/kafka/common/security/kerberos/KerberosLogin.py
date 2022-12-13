@@ -1,21 +1,21 @@
 def KerberosLogin():
-    '''    public KerberosLogin()
+    '''public KerberosLogin()
     '''
 def configure():
-    '''    public void configure(final Map<String, ?> configs, final JaasContext jaasContext)
+    '''public void configure(final Map<String, ?> configs, final JaasContext jaasContext)
     '''
 def login():
-    '''    public LoginContext login()
+    '''public LoginContext login()
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def subject():
-    '''    public Subject subject()
+    '''public Subject subject()
     '''
 def serviceName():
-    '''    public String serviceName()
+    '''public String serviceName()
     '''

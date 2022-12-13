@@ -38,62 +38,62 @@ OAUTH_PARAMETERS_ABSENT = "String  \"oauth_parameters_absent\""
 OAUTH_PARAMETERS_REJECTED = "String  \"oauth_parameters_rejected\""
 OAUTH_PROBLEM_ADVICE = "String  \"oauth_problem_advice\""
 def setCharacterEncoding():
-    '''    public static void setCharacterEncoding(final String encoding)
+    '''public static void setCharacterEncoding(final String encoding)
     '''
 def decodeCharacters():
-    '''    public static String decodeCharacters(final byte[] from)
+    '''public static String decodeCharacters(final byte[] from)
     '''
 def encodeCharacters():
-    '''    public static byte[] encodeCharacters(final String from)
+    '''public static byte[] encodeCharacters(final String from)
     '''
 def isFormEncoded():
-    '''    public static boolean isFormEncoded(String contentType)
+    '''public static boolean isFormEncoded(String contentType)
     '''
 def formEncode():
-    '''    public static String formEncode(final Iterable<? extends Map.Entry> parameters)
+    '''public static String formEncode(final Iterable<? extends Map.Entry> parameters)
     public static void formEncode(final Iterable<? extends Map.Entry> parameters, final OutputStream into)
     '''
 def decodeForm():
-    '''    public static List<Parameter> decodeForm(final String form)
+    '''public static List<Parameter> decodeForm(final String form)
     '''
 def percentEncode():
-    '''    public static String percentEncode(final Iterable values)
+    '''public static String percentEncode(final Iterable values)
     public static String percentEncode(final String s)
     '''
 def decodePercent():
-    '''    public static String decodePercent(final String s)
+    '''public static String decodePercent(final String s)
     '''
 def newMap():
-    '''    public static Map<String, String> newMap(final Iterable<? extends Map.Entry> from)
+    '''public static Map<String, String> newMap(final Iterable<? extends Map.Entry> from)
     '''
 def newList():
-    '''    public static List<Parameter> newList(final String... parameters)
+    '''public static List<Parameter> newList(final String... parameters)
     '''
 def addParameters():
-    '''    public static String addParameters(final String url, final String... parameters)
+    '''public static String addParameters(final String url, final String... parameters)
     public static String addParameters(final String url, final Iterable<? extends Map.Entry<String, String>> parameters)
     '''
 def isEmpty():
-    '''    public static boolean isEmpty(final String str)
+    '''public static boolean isEmpty(final String str)
     '''
 def Parameter():
-    '''    public Parameter(final String key, final String value)
+    '''public Parameter(final String key, final String value)
     '''
 def getKey():
-    '''    public String getKey()
+    '''public String getKey()
     '''
 def getValue():
-    '''    public String getValue()
+    '''public String getValue()
     '''
 def setValue():
-    '''    public String setValue(final String value)
+    '''public String setValue(final String value)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''

@@ -1,3 +1,3 @@
 def WarrViewChgStatSet():
-    '''    public WarrViewChgStatSet(final MboServerInterface ms)
+    '''public WarrViewChgStatSet(final MboServerInterface ms)
     '''

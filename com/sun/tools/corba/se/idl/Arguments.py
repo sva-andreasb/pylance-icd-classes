@@ -1,3 +1,3 @@
 def Arguments():
-    '''    public Arguments()
+    '''public Arguments()
     '''

@@ -1,6 +1,6 @@
 def Header():
-    '''    public Header(final String name, final String content)
+    '''public Header(final String name, final String content)
     '''
 def name():
-    '''    public String name()
+    '''public String name()
     '''

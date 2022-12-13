@@ -1,21 +1,21 @@
 def MasterView():
-    '''    public MasterView(final MboSet ms)
+    '''public MasterView(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def getStatusListName():
-    '''    public String getStatusListName()
+    '''public String getStatusListName()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def canAssociateChildren():
-    '''    public void canAssociateChildren()
+    '''public void canAssociateChildren()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def initRelationship():
-    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
     '''

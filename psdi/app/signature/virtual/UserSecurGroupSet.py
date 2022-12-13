@@ -1,9 +1,9 @@
 def UserSecurGroupSet():
-    '''    public UserSecurGroupSet(final MboServerInterface ms)
+    '''public UserSecurGroupSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

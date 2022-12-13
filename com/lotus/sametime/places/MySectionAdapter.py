@@ -1,6 +1,6 @@
 def sectionChanged():
-    '''    public void sectionChanged(final MyselfEvent myselfEvent)
+    '''public void sectionChanged(final MyselfEvent myselfEvent)
     '''
 def changeSectionFailed():
-    '''    public void changeSectionFailed(final MyselfEvent myselfEvent)
+    '''public void changeSectionFailed(final MyselfEvent myselfEvent)
     '''

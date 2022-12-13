@@ -1,6 +1,6 @@
 def TAMITFldLicGroupName():
-    '''    public TAMITFldLicGroupName(final MboValue mbv)
+    '''public TAMITFldLicGroupName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

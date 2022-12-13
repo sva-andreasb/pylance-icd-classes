@@ -1,3 +1,3 @@
 def ThreadLoggerList():
-    '''    public ThreadLoggerList(final MboSet ms)
+    '''public ThreadLoggerList(final MboSet ms)
     '''

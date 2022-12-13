@@ -1,6 +1,6 @@
 def FldAssetLocUserCustCustodian():
-    '''    public FldAssetLocUserCustCustodian(final MboValue mbv)
+    '''public FldAssetLocUserCustCustodian(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

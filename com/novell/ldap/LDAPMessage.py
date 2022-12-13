@@ -20,35 +20,35 @@ EXTENDED_REQUEST = "int  23"
 EXTENDED_RESPONSE = "int  24"
 INTERMEDIATE_RESPONSE = "int  25"
 def getControls():
-    '''    public LDAPControl[] getControls()
+    '''public LDAPControl[] getControls()
     '''
 def getMessageID():
-    '''    public int getMessageID()
+    '''public int getMessageID()
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''
 def isRequest():
-    '''    public boolean isRequest()
+    '''public boolean isRequest()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def setTag():
-    '''    public void setTag(final String stringTag)
+    '''public void setTag(final String stringTag)
     '''
 def getTag():
-    '''    public String getTag()
+    '''public String getTag()
     '''
 def writeDSML():
-    '''    public void writeDSML(final OutputStream outputStream)
+    '''public void writeDSML(final OutputStream outputStream)
     '''
 def readDSML():
-    '''    public static Object readDSML(final InputStream inputStream)
+    '''public static Object readDSML(final InputStream inputStream)
     '''
 def writeExternal():
-    '''    public void writeExternal(final ObjectOutput objectOutput)
+    '''public void writeExternal(final ObjectOutput objectOutput)
     '''
 def readExternal():
-    '''    public void readExternal(final ObjectInput objectInput)
+    '''public void readExternal(final ObjectInput objectInput)
     '''

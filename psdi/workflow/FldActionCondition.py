@@ -1,3 +1,3 @@
 def FldActionCondition():
-    '''    public FldActionCondition(final MboValue mbv)
+    '''public FldActionCondition(final MboValue mbv)
     '''

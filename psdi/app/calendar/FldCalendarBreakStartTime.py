@@ -1,6 +1,6 @@
 def FldCalendarBreakStartTime():
-    '''    public FldCalendarBreakStartTime(final MboValue mbv)
+    '''public FldCalendarBreakStartTime(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

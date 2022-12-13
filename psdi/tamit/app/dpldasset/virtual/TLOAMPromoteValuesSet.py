@@ -1,3 +1,3 @@
 def TLOAMPromoteValuesSet():
-    '''    public TLOAMPromoteValuesSet(final MboServerInterface ms)
+    '''public TLOAMPromoteValuesSet(final MboServerInterface ms)
     '''

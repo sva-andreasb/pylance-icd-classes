@@ -1,24 +1,24 @@
 def ReorderpadBean():
-    '''    public ReorderpadBean()
+    '''public ReorderpadBean()
     '''
 def reorderresults():
-    '''    public void reorderresults(final boolean direct, final boolean async)
+    '''public void reorderresults(final boolean direct, final boolean async)
     '''
 def reorderresultsdirect():
-    '''    public int reorderresultsdirect()
+    '''public int reorderresultsdirect()
     '''
 def reorderresultsitem():
-    '''    public int reorderresultsitem()
+    '''public int reorderresultsitem()
     '''
 def getReorderItemsSet():
-    '''    public MboSetRemote getReorderItemsSet()
+    '''public MboSetRemote getReorderItemsSet()
     '''
 def cancelDialog():
-    '''    public int cancelDialog()
+    '''public int cancelDialog()
     '''
 def RUNREPORTBYNAME():
-    '''    public int RUNREPORTBYNAME()
+    '''public int RUNREPORTBYNAME()
     '''
 def close():
-    '''    public synchronized void close()
+    '''public synchronized void close()
     '''

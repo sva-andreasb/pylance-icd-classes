@@ -1,3 +1,3 @@
 def FailureCodeSet():
-    '''    public FailureCodeSet(final MboServerInterface ms)
+    '''public FailureCodeSet(final MboServerInterface ms)
     '''

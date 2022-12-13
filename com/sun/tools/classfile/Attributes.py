@@ -1,19 +1,19 @@
 def Attributes():
-    '''    public Attributes(final ConstantPool constantPool, final Attribute[] attrs)
+    '''public Attributes(final ConstantPool constantPool, final Attribute[] attrs)
     '''
 def iterator():
-    '''    public Iterator<Attribute> iterator()
+    '''public Iterator<Attribute> iterator()
     '''
 def get():
-    '''    public Attribute get(final int n)
+    '''public Attribute get(final int n)
     public Attribute get(final String s)
     '''
 def getIndex():
-    '''    public int getIndex(final ConstantPool constantPool, final String anObject)
+    '''public int getIndex(final ConstantPool constantPool, final String anObject)
     '''
 def size():
-    '''    public int size()
+    '''public int size()
     '''
 def byteLength():
-    '''    public int byteLength()
+    '''public int byteLength()
     '''

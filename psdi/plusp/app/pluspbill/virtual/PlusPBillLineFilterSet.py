@@ -1,3 +1,3 @@
 def PlusPBillLineFilterSet():
-    '''    public PlusPBillLineFilterSet(final MboServerInterface ms)
+    '''public PlusPBillLineFilterSet(final MboServerInterface ms)
     '''

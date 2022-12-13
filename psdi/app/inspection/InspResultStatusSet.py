@@ -1,3 +1,3 @@
 def InspResultStatusSet():
-    '''    public InspResultStatusSet(final MboServerInterface ms)
+    '''public InspResultStatusSet(final MboServerInterface ms)
     '''

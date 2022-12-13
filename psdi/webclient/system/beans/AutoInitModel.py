@@ -1,12 +1,12 @@
 def AutoInitModel():
-    '''    public AutoInitModel()
+    '''public AutoInitModel()
     '''
 def activate():
-    '''    public void activate(final MboRemote newMbo)
+    '''public void activate(final MboRemote newMbo)
     '''
 def doAutoInit():
-    '''    public boolean doAutoInit()
+    '''public boolean doAutoInit()
     '''
 def clear():
-    '''    public void clear()
+    '''public void clear()
     '''

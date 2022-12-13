@@ -1,6 +1,6 @@
 def GroupNotEmptyException():
-    '''    public GroupNotEmptyException(final String groupId)
+    '''public GroupNotEmptyException(final String groupId)
     '''
 def groupId():
-    '''    public String groupId()
+    '''public String groupId()
     '''

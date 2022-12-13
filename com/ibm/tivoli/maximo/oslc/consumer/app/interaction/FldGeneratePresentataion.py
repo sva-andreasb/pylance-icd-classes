@@ -1,6 +1,6 @@
 def FldGeneratePresentataion():
-    '''    public FldGeneratePresentataion(final MboValue mbv)
+    '''public FldGeneratePresentataion(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,6 +1,6 @@
 def FldAMCrewUnRestrictedReturnDate():
-    '''    public FldAMCrewUnRestrictedReturnDate(final MboValue mbv)
+    '''public FldAMCrewUnRestrictedReturnDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

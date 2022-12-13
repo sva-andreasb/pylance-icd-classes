@@ -1,6 +1,6 @@
 def FldPurTotalTax():
-    '''    public FldPurTotalTax(final MboValue mbv)
+    '''public FldPurTotalTax(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

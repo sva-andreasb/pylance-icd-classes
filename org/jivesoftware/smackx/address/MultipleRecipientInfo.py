@@ -1,6 +1,6 @@
 def getReplyRoom():
-    '''    public Jid getReplyRoom()
+    '''public Jid getReplyRoom()
     '''
 def shouldNotReply():
-    '''    public boolean shouldNotReply()
+    '''public boolean shouldNotReply()
     '''

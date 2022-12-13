@@ -6,14 +6,14 @@ FIELD_CHANGEDATE = "String  \"CHANGEDATE\""
 FIELD_STATUS = "String  \"STATUS\""
 FIELD_MEMO = "String  \"MEMO\""
 def BIMProductStatus():
-    '''    public BIMProductStatus(final MboSet ms)
+    '''public BIMProductStatus(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''

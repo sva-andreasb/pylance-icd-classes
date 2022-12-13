@@ -1,6 +1,6 @@
 def ALNValueSet():
-    '''    public ALNValueSet(final MboServerInterface ms)
+    '''public ALNValueSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

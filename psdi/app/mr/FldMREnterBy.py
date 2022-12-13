@@ -1,3 +1,3 @@
 def FldMREnterBy():
-    '''    public FldMREnterBy(final MboValue mbv)
+    '''public FldMREnterBy(final MboValue mbv)
     '''

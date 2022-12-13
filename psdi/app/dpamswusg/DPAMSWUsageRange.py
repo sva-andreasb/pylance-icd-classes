@@ -1,12 +1,12 @@
 def DPAMSWUsageRange():
-    '''    public DPAMSWUsageRange(final MboSet ms)
+    '''public DPAMSWUsageRange(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''

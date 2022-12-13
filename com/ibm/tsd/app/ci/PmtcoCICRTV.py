@@ -1,6 +1,6 @@
 def PmtcoCICRTV():
-    '''    public PmtcoCICRTV(final MboSet ms)
+    '''public PmtcoCICRTV(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

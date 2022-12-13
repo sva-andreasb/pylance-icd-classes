@@ -8,105 +8,105 @@ MODE_NORMAL = "int  0"
 MODE_DRAW_LINE = "int  1"
 MODE_DRAW_NEGATIVE_LINE = "int  2"
 def EditableDiagram():
-    '''    public EditableDiagram(final Workflow workflow, final WorkflowEditor editor, final WorkflowApplet applet, final boolean canEdit)
+    '''public EditableDiagram(final Workflow workflow, final WorkflowEditor editor, final WorkflowApplet applet, final boolean canEdit)
     '''
 def setWorkflow():
-    '''    public void setWorkflow(final Workflow workflow)
+    '''public void setWorkflow(final Workflow workflow)
     public void setWorkflow(final Workflow workflow, final WorkflowEditor editor, final boolean canEdit)
     '''
 def buildDiagram():
-    '''    public void buildDiagram()
+    '''public void buildDiagram()
     '''
 def setMode():
-    '''    public void setMode(final int mode)
+    '''public void setMode(final int mode)
     '''
 def getMode():
-    '''    public int getMode()
+    '''public int getMode()
     '''
 def getModeCursor():
-    '''    public Cursor getModeCursor()
+    '''public Cursor getModeCursor()
     '''
 def setCursor():
-    '''    public void setCursor(final String name, final Cursor cursor)
+    '''public void setCursor(final String name, final Cursor cursor)
     '''
 def getCursor():
-    '''    public Cursor getCursor(final String name)
+    '''public Cursor getCursor(final String name)
     '''
 def setToolTip():
-    '''    public void setToolTip(final String name, final String text)
+    '''public void setToolTip(final String name, final String text)
     '''
 def setScrollPane():
-    '''    public void setScrollPane(final JScrollPane scrollPane)
+    '''public void setScrollPane(final JScrollPane scrollPane)
     '''
 def setSelection():
-    '''    public void setSelection(final WorkflowEntity selection, final JScrollPane scrollPane)
+    '''public void setSelection(final WorkflowEntity selection, final JScrollPane scrollPane)
     '''
 def getToolTip():
-    '''    public String getToolTip(final String name)
+    '''public String getToolTip(final String name)
     '''
 def workflowChanged():
-    '''    public void workflowChanged(final WorkflowEditEvent e)
+    '''public void workflowChanged(final WorkflowEditEvent e)
     '''
 def getPreferredSize():
-    '''    public Dimension getPreferredSize()
+    '''public Dimension getPreferredSize()
     '''
 def isDragOk():
-    '''    public boolean isDragOk(final DropTargetDragEvent event)
+    '''public boolean isDragOk(final DropTargetDragEvent event)
     '''
 def dragEnter():
-    '''    public void dragEnter(final DropTargetDragEvent event)
+    '''public void dragEnter(final DropTargetDragEvent event)
     '''
 def dragExit():
-    '''    public void dragExit(final DropTargetEvent event)
+    '''public void dragExit(final DropTargetEvent event)
     '''
 def dragOver():
-    '''    public void dragOver(final DropTargetDragEvent event)
+    '''public void dragOver(final DropTargetDragEvent event)
     '''
 def drop():
-    '''    public void drop(final DropTargetDropEvent event)
+    '''public void drop(final DropTargetDropEvent event)
     '''
 def dropActionChanged():
-    '''    public void dropActionChanged(final DropTargetDragEvent event)
+    '''public void dropActionChanged(final DropTargetDragEvent event)
     '''
 def getAutoscrollInsets():
-    '''    public Insets getAutoscrollInsets()
+    '''public Insets getAutoscrollInsets()
     '''
 def autoscroll():
-    '''    public void autoscroll(final Point p)
+    '''public void autoscroll(final Point p)
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''
 def mouseClicked():
-    '''    public void mouseClicked(final MouseEvent e)
+    '''public void mouseClicked(final MouseEvent e)
     '''
 def mouseEntered():
-    '''    public void mouseEntered(final MouseEvent e)
+    '''public void mouseEntered(final MouseEvent e)
     '''
 def mouseExited():
-    '''    public void mouseExited(final MouseEvent e)
+    '''public void mouseExited(final MouseEvent e)
     '''
 def mousePressed():
-    '''    public void mousePressed(final MouseEvent e)
+    '''public void mousePressed(final MouseEvent e)
     '''
 def mouseReleased():
-    '''    public void mouseReleased(final MouseEvent e)
+    '''public void mouseReleased(final MouseEvent e)
     '''
 def mouseDragged():
-    '''    public void mouseDragged(final MouseEvent e)
+    '''public void mouseDragged(final MouseEvent e)
     '''
 def mouseMoved():
-    '''    public void mouseMoved(final MouseEvent e)
+    '''public void mouseMoved(final MouseEvent e)
     '''
 def getProxy():
-    '''    public Transferable getProxy(final DiagramWorkflowNode node)
+    '''public Transferable getProxy(final DiagramWorkflowNode node)
     '''
 def isDropSupported():
-    '''    public boolean isDropSupported()
+    '''public boolean isDropSupported()
     '''
 def dropComplete():
-    '''    public void dropComplete(final WorkflowNode sourceNode, final WorkflowNode dropNode)
+    '''public void dropComplete(final WorkflowNode sourceNode, final WorkflowNode dropNode)
     '''
 def clearCursor():
-    '''    public void clearCursor()
+    '''public void clearCursor()
     '''

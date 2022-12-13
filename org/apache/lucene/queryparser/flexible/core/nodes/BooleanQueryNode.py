@@ -1,12 +1,12 @@
 def BooleanQueryNode():
-    '''    public BooleanQueryNode(final List<QueryNode> clauses)
+    '''public BooleanQueryNode(final List<QueryNode> clauses)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def toQueryString():
-    '''    public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
+    '''public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
     '''
 def cloneTree():
-    '''    public QueryNode cloneTree()
+    '''public QueryNode cloneTree()
     '''

@@ -1,6 +1,6 @@
 def execute():
-    '''    public synchronized int execute()
+    '''public synchronized int execute()
     '''
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''

@@ -1,6 +1,6 @@
 def FldInvCostNewStdCost():
-    '''    public FldInvCostNewStdCost(final MboValue mbv)
+    '''public FldInvCostNewStdCost(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

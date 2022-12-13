@@ -1,3 +1,3 @@
 def DMPkgDistTargetSet():
-    '''    public DMPkgDistTargetSet(final MboServerInterface ms)
+    '''public DMPkgDistTargetSet(final MboServerInterface ms)
     '''

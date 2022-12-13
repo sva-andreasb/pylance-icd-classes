@@ -1,6 +1,6 @@
 def SRMFldTkOwnerGroup():
-    '''    public SRMFldTkOwnerGroup(final MboValue mbv)
+    '''public SRMFldTkOwnerGroup(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

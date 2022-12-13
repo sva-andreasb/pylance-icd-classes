@@ -1,6 +1,6 @@
 def ExceptionHandlers():
-    '''    public ExceptionHandlers(final MethodGen mg)
+    '''public ExceptionHandlers(final MethodGen mg)
     '''
 def getExceptionHandlers():
-    '''    public ExceptionHandler[] getExceptionHandlers(final InstructionHandle ih)
+    '''public ExceptionHandler[] getExceptionHandlers(final InstructionHandle ih)
     '''

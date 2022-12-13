@@ -1,3 +1,3 @@
 def PlusPFldCustomerLanguageCode():
-    '''    public PlusPFldCustomerLanguageCode(final MboValue mbv)
+    '''public PlusPFldCustomerLanguageCode(final MboValue mbv)
     '''

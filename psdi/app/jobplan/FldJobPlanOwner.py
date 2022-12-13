@@ -1,6 +1,6 @@
 def FldJobPlanOwner():
-    '''    public FldJobPlanOwner(final MboValue mbv)
+    '''public FldJobPlanOwner(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,3 +1,3 @@
 def RefTable4Values():
-    '''    public RefTable4Values(final MboSet mboSet)
+    '''public RefTable4Values(final MboSet mboSet)
     '''

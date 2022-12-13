@@ -1,6 +1,6 @@
 def PlusPTKPriceTotals():
-    '''    public PlusPTKPriceTotals(final MboSet ms)
+    '''public PlusPTKPriceTotals(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -1,6 +1,6 @@
 def instantdelete():
-    '''    public int instantdelete()
+    '''public int instantdelete()
     '''
 def deleteInteraction():
-    '''    public void deleteInteraction(final MboRemote mbo)
+    '''public void deleteInteraction(final MboRemote mbo)
     '''

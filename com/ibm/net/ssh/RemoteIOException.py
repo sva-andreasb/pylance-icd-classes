@@ -1,3 +1,3 @@
 def getStatus():
-    '''    public Status getStatus()
+    '''public Status getStatus()
     '''

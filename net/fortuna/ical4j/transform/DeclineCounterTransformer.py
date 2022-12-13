@@ -1,6 +1,6 @@
 def DeclineCounterTransformer():
-    '''    public DeclineCounterTransformer(final Organizer organizer, final UidGenerator uidGenerator)
+    '''public DeclineCounterTransformer(final Organizer organizer, final UidGenerator uidGenerator)
     '''
 def transform():
-    '''    public Calendar transform(final Calendar object)
+    '''public Calendar transform(final Calendar object)
     '''

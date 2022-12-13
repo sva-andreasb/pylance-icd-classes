@@ -1,6 +1,6 @@
 def SKDActivityChangeListener():
-    '''    public SKDActivityChangeListener(final ModelChangesManager changesManager)
+    '''public SKDActivityChangeListener(final ModelChangesManager changesManager)
     '''
 def activityChanged():
-    '''    public void activityChanged(final ActivityEvent event)
+    '''public void activityChanged(final ActivityEvent event)
     '''

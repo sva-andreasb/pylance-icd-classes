@@ -1,3 +1,3 @@
 def StartCenterTemplateSet():
-    '''    public StartCenterTemplateSet(final MboServerInterface ms)
+    '''public StartCenterTemplateSet(final MboServerInterface ms)
     '''

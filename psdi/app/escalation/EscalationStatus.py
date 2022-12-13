@@ -1,3 +1,3 @@
 def EscalationStatus():
-    '''    public EscalationStatus(final MboSet ms)
+    '''public EscalationStatus(final MboSet ms)
     '''

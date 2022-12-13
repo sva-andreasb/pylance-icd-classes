@@ -1,3 +1,3 @@
 def WeatherAssetSet():
-    '''    public WeatherAssetSet(final MboServerInterface ms)
+    '''public WeatherAssetSet(final MboServerInterface ms)
     '''

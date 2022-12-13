@@ -1,6 +1,6 @@
 def getDefaultJsonFactory():
-    '''    public static JsonFactory getDefaultJsonFactory()
+    '''public static JsonFactory getDefaultJsonFactory()
     '''
 def getDefaultTransport():
-    '''    public static HttpTransport getDefaultTransport()
+    '''public static HttpTransport getDefaultTransport()
     '''

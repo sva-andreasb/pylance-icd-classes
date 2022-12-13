@@ -1,3 +1,3 @@
 def invoke():
-    '''    public void invoke(final MessageContext context)
+    '''public void invoke(final MessageContext context)
     '''

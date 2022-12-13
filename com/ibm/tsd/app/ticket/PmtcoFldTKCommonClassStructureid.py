@@ -1,6 +1,6 @@
 def PmtcoFldTKCommonClassStructureid():
-    '''    public PmtcoFldTKCommonClassStructureid(final MboValue mbv)
+    '''public PmtcoFldTKCommonClassStructureid(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,12 +1,12 @@
 def WebSocketServlet():
-    '''    public WebSocketServlet()
+    '''public WebSocketServlet()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def checkOrigin():
-    '''    public boolean checkOrigin(final HttpServletRequest request, final String origin)
+    '''public boolean checkOrigin(final HttpServletRequest request, final String origin)
     '''
 def destroy():
-    '''    public void destroy()
+    '''public void destroy()
     '''

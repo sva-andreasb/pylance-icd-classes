@@ -3,11 +3,11 @@ FIELD_CURRENCYCODE = "String  \"CURRENCYCODE\""
 FIELD_LINEARUNITS = "String  \"LINEARUNITS\""
 FIELD_VOLUMEUNITS = "String  \"VOLUMEUNITS\""
 def ExportLogger():
-    '''    public ExportLogger(final UserInfo userInfo, final long sessionId, final String messageBundleName)
+    '''public ExportLogger(final UserInfo userInfo, final long sessionId, final String messageBundleName)
     '''
 def getSessionId():
-    '''    public long getSessionId()
+    '''public long getSessionId()
     '''
 def itemOfIntersetLoaded():
-    '''    public void itemOfIntersetLoaded(final ItemFACILITY facility)
+    '''public void itemOfIntersetLoaded(final ItemFACILITY facility)
     '''

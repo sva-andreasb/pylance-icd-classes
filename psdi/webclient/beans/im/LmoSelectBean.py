@@ -1,6 +1,6 @@
 def LmoSelectBean():
-    '''    public LmoSelectBean()
+    '''public LmoSelectBean()
     '''
 def callMethod():
-    '''    public int callMethod(final WebClientEvent event)
+    '''public int callMethod(final WebClientEvent event)
     '''

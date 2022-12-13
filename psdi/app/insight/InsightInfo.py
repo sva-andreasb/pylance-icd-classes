@@ -1,30 +1,30 @@
 def InsightInfo():
-    '''    public InsightInfo(final String insightName, final String description, final String objectName, final String formula, final Double lowerThreshold, final Double upperThreshold)
+    '''public InsightInfo(final String insightName, final String description, final String objectName, final String formula, final Double lowerThreshold, final Double upperThreshold)
     '''
 def addInsightFactor():
-    '''    public void addInsightFactor(final String factorName, final InsightFactorInfo insightFactorInfo)
+    '''public void addInsightFactor(final String factorName, final InsightFactorInfo insightFactorInfo)
     '''
 def getAllInsightFactors():
-    '''    public Map<String, InsightFactorInfo> getAllInsightFactors()
+    '''public Map<String, InsightFactorInfo> getAllInsightFactors()
     '''
 def getInsightFactor():
-    '''    public InsightFactorInfo getInsightFactor(final String factorName)
+    '''public InsightFactorInfo getInsightFactor(final String factorName)
     '''
 def getObjectName():
-    '''    public String getObjectName()
+    '''public String getObjectName()
     '''
 def getDescription():
-    '''    public String getDescription()
+    '''public String getDescription()
     '''
 def getFormula():
-    '''    public String getFormula()
+    '''public String getFormula()
     '''
 def getInsightName():
-    '''    public String getInsightName()
+    '''public String getInsightName()
     '''
 def getLowerThreshold():
-    '''    public Double getLowerThreshold()
+    '''public Double getLowerThreshold()
     '''
 def getUpperThreshold():
-    '''    public Double getUpperThreshold()
+    '''public Double getUpperThreshold()
     '''

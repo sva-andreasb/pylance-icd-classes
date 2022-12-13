@@ -1,15 +1,15 @@
 def ReservationChange():
-    '''    public ReservationChange()
+    '''public ReservationChange()
     '''
 def setReservation():
-    '''    public void setReservation(final IlvGeneralReservation reserv)
+    '''public void setReservation(final IlvGeneralReservation reserv)
     '''
 def getReservation():
-    '''    public IlvGeneralReservation getReservation()
+    '''public IlvGeneralReservation getReservation()
     '''
 def getReservationRef():
-    '''    public IlvGeneralReservation getReservationRef()
+    '''public IlvGeneralReservation getReservationRef()
     '''
 def setReservationRef():
-    '''    public void setReservationRef(final IlvGeneralReservation reservationRef)
+    '''public void setReservationRef(final IlvGeneralReservation reservationRef)
     '''

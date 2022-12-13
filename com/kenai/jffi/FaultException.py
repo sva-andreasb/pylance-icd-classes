@@ -1,3 +1,3 @@
 def getSignal():
-    '''    public int getSignal()
+    '''public int getSignal()
     '''

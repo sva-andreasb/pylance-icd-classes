@@ -1,6 +1,6 @@
 def FldCIClassStructureid():
-    '''    public FldCIClassStructureid(final MboValue mbv)
+    '''public FldCIClassStructureid(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

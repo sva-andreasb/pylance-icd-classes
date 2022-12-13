@@ -1,6 +1,6 @@
 def MaxLogMSGToolBar():
-    '''    public MaxLogMSGToolBar(final MboSet ms)
+    '''public MaxLogMSGToolBar(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -1,6 +1,6 @@
 def FldFilterName():
-    '''    public FldFilterName(final MboValue mbv)
+    '''public FldFilterName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

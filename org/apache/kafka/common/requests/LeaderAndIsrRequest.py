@@ -1,37 +1,37 @@
 def schemaVersions():
-    '''    public static Schema[] schemaVersions()
+    '''public static Schema[] schemaVersions()
     '''
 def LeaderAndIsrRequest():
-    '''    public LeaderAndIsrRequest(final Struct struct, final short version)
+    '''public LeaderAndIsrRequest(final Struct struct, final short version)
     '''
 def getErrorResponse():
-    '''    public LeaderAndIsrResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''public LeaderAndIsrResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
     '''
 def controllerId():
-    '''    public int controllerId()
+    '''public int controllerId()
     '''
 def controllerEpoch():
-    '''    public int controllerEpoch()
+    '''public int controllerEpoch()
     '''
 def partitionStates():
-    '''    public Map<TopicPartition, PartitionState> partitionStates()
+    '''public Map<TopicPartition, PartitionState> partitionStates()
     '''
 def liveLeaders():
-    '''    public Set<Node> liveLeaders()
+    '''public Set<Node> liveLeaders()
     '''
 def parse():
-    '''    public static LeaderAndIsrRequest parse(final ByteBuffer buffer, final short version)
+    '''public static LeaderAndIsrRequest parse(final ByteBuffer buffer, final short version)
     '''
 def Builder():
-    '''    public Builder(final short version, final int controllerId, final int controllerEpoch, final Map<TopicPartition, PartitionState> partitionStates, final Set<Node> liveLeaders)
+    '''public Builder(final short version, final int controllerId, final int controllerEpoch, final Map<TopicPartition, PartitionState> partitionStates, final Set<Node> liveLeaders)
     '''
 def build():
-    '''    public LeaderAndIsrRequest build(final short version)
+    '''public LeaderAndIsrRequest build(final short version)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     public String toString()
     '''
 def PartitionState():
-    '''    public PartitionState(final int controllerEpoch, final int leader, final int leaderEpoch, final List<Integer> isr, final int zkVersion, final List<Integer> replicas, final boolean isNew)
+    '''public PartitionState(final int controllerEpoch, final int leader, final int leaderEpoch, final List<Integer> isr, final int zkVersion, final List<Integer> replicas, final boolean isNew)
     '''

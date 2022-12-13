@@ -1,6 +1,6 @@
 def WeatherAssetSubscription():
-    '''    public WeatherAssetSubscription(final MboSet ms)
+    '''public WeatherAssetSubscription(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

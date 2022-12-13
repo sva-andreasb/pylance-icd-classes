@@ -1,6 +1,6 @@
 def CatalogTableBean():
-    '''    public CatalogTableBean()
+    '''public CatalogTableBean()
     '''
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''

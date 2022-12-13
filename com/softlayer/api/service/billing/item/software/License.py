@@ -1,6 +1,6 @@
 def getResource():
-    '''    public AccountLicense getResource()
+    '''public AccountLicense getResource()
     '''
 def setResource():
-    '''    public void setResource(final AccountLicense resource)
+    '''public void setResource(final AccountLicense resource)
     '''

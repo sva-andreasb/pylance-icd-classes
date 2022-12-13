@@ -1,27 +1,27 @@
 def ProxyReader():
-    '''    public ProxyReader(final Reader proxy)
+    '''public ProxyReader(final Reader proxy)
     '''
 def read():
-    '''    public int read()
+    '''public int read()
     public int read(final char[] chr)
     public int read(final char[] chr, final int st, final int len)
     public int read(final CharBuffer target)
     '''
 def skip():
-    '''    public long skip(final long ln)
+    '''public long skip(final long ln)
     '''
 def ready():
-    '''    public boolean ready()
+    '''public boolean ready()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def mark():
-    '''    public synchronized void mark(final int idx)
+    '''public synchronized void mark(final int idx)
     '''
 def reset():
-    '''    public synchronized void reset()
+    '''public synchronized void reset()
     '''
 def markSupported():
-    '''    public boolean markSupported()
+    '''public boolean markSupported()
     '''

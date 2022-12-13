@@ -9,80 +9,80 @@ READ_PERMISSION = "int  0"
 WRITE_PERMISSION = "int  1"
 EXECUTE_PERMISSION = "int  2"
 def FTPFile():
-    '''    public FTPFile()
+    '''public FTPFile()
     '''
 def setRawListing():
-    '''    public void setRawListing(final String rawListing)
+    '''public void setRawListing(final String rawListing)
     '''
 def getRawListing():
-    '''    public String getRawListing()
+    '''public String getRawListing()
     '''
 def isDirectory():
-    '''    public boolean isDirectory()
+    '''public boolean isDirectory()
     '''
 def isFile():
-    '''    public boolean isFile()
+    '''public boolean isFile()
     '''
 def isSymbolicLink():
-    '''    public boolean isSymbolicLink()
+    '''public boolean isSymbolicLink()
     '''
 def isUnknown():
-    '''    public boolean isUnknown()
+    '''public boolean isUnknown()
     '''
 def setType():
-    '''    public void setType(final int type)
+    '''public void setType(final int type)
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''
 def setName():
-    '''    public void setName(final String name)
+    '''public void setName(final String name)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def setSize():
-    '''    public void setSize(final long size)
+    '''public void setSize(final long size)
     '''
 def getSize():
-    '''    public long getSize()
+    '''public long getSize()
     '''
 def setHardLinkCount():
-    '''    public void setHardLinkCount(final int links)
+    '''public void setHardLinkCount(final int links)
     '''
 def getHardLinkCount():
-    '''    public int getHardLinkCount()
+    '''public int getHardLinkCount()
     '''
 def setGroup():
-    '''    public void setGroup(final String group)
+    '''public void setGroup(final String group)
     '''
 def getGroup():
-    '''    public String getGroup()
+    '''public String getGroup()
     '''
 def setUser():
-    '''    public void setUser(final String user)
+    '''public void setUser(final String user)
     '''
 def getUser():
-    '''    public String getUser()
+    '''public String getUser()
     '''
 def setLink():
-    '''    public void setLink(final String link)
+    '''public void setLink(final String link)
     '''
 def getLink():
-    '''    public String getLink()
+    '''public String getLink()
     '''
 def setTimestamp():
-    '''    public void setTimestamp(final Calendar date)
+    '''public void setTimestamp(final Calendar date)
     '''
 def getTimestamp():
-    '''    public Calendar getTimestamp()
+    '''public Calendar getTimestamp()
     '''
 def setPermission():
-    '''    public void setPermission(final int access, final int permission, final boolean value)
+    '''public void setPermission(final int access, final int permission, final boolean value)
     '''
 def hasPermission():
-    '''    public boolean hasPermission(final int access, final int permission)
+    '''public boolean hasPermission(final int access, final int permission)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

@@ -1,3 +1,3 @@
 def CompatibleMarshallingEncoder():
-    '''    public CompatibleMarshallingEncoder(final MarshallerProvider provider)
+    '''public CompatibleMarshallingEncoder(final MarshallerProvider provider)
     '''

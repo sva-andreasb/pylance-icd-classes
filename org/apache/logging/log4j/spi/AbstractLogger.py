@@ -1,17 +1,17 @@
 def AbstractLogger():
-    '''    public AbstractLogger()
+    '''public AbstractLogger()
     public AbstractLogger(final String name)
     public AbstractLogger(final String name, final MessageFactory messageFactory)
     '''
 def checkMessageFactory():
-    '''    public static void checkMessageFactory(final ExtendedLogger logger, final MessageFactory messageFactory)
+    '''public static void checkMessageFactory(final ExtendedLogger logger, final MessageFactory messageFactory)
     '''
 def catching():
-    '''    public void catching(final Level level, final Throwable throwable)
+    '''public void catching(final Level level, final Throwable throwable)
     public void catching(final Throwable throwable)
     '''
 def debug():
-    '''    public void debug(final Marker marker, final CharSequence message)
+    '''public void debug(final Marker marker, final CharSequence message)
     public void debug(final Marker marker, final CharSequence message, final Throwable throwable)
     public void debug(final Marker marker, final Message message)
     public void debug(final Marker marker, final Message message, final Throwable throwable)
@@ -61,11 +61,11 @@ def debug():
     public void debug(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
     '''
 def entry():
-    '''    public void entry()
+    '''public void entry()
     public void entry(final Object... params)
     '''
 def error():
-    '''    public void error(final Marker marker, final Message message)
+    '''public void error(final Marker marker, final Message message)
     public void error(final Marker marker, final Message message, final Throwable throwable)
     public void error(final Marker marker, final CharSequence message)
     public void error(final Marker marker, final CharSequence message, final Throwable throwable)
@@ -115,11 +115,11 @@ def error():
     public void error(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
     '''
 def exit():
-    '''    public void exit()
+    '''public void exit()
     public <R> R exit(final R result)
     '''
 def fatal():
-    '''    public void fatal(final Marker marker, final Message message)
+    '''public void fatal(final Marker marker, final Message message)
     public void fatal(final Marker marker, final Message message, final Throwable throwable)
     public void fatal(final Marker marker, final CharSequence message)
     public void fatal(final Marker marker, final CharSequence message, final Throwable throwable)
@@ -169,13 +169,13 @@ def fatal():
     public void fatal(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
     '''
 def getMessageFactory():
-    '''    public <MF extends MessageFactory> MF getMessageFactory()
+    '''public <MF extends MessageFactory> MF getMessageFactory()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def info():
-    '''    public void info(final Marker marker, final Message message)
+    '''public void info(final Marker marker, final Message message)
     public void info(final Marker marker, final Message message, final Throwable throwable)
     public void info(final Marker marker, final CharSequence message)
     public void info(final Marker marker, final CharSequence message, final Throwable throwable)
@@ -225,35 +225,35 @@ def info():
     public void info(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
     '''
 def isDebugEnabled():
-    '''    public boolean isDebugEnabled()
+    '''public boolean isDebugEnabled()
     public boolean isDebugEnabled(final Marker marker)
     '''
 def isEnabled():
-    '''    public boolean isEnabled(final Level level)
+    '''public boolean isEnabled(final Level level)
     public boolean isEnabled(final Level level, final Marker marker)
     '''
 def isErrorEnabled():
-    '''    public boolean isErrorEnabled()
+    '''public boolean isErrorEnabled()
     public boolean isErrorEnabled(final Marker marker)
     '''
 def isFatalEnabled():
-    '''    public boolean isFatalEnabled()
+    '''public boolean isFatalEnabled()
     public boolean isFatalEnabled(final Marker marker)
     '''
 def isInfoEnabled():
-    '''    public boolean isInfoEnabled()
+    '''public boolean isInfoEnabled()
     public boolean isInfoEnabled(final Marker marker)
     '''
 def isTraceEnabled():
-    '''    public boolean isTraceEnabled()
+    '''public boolean isTraceEnabled()
     public boolean isTraceEnabled(final Marker marker)
     '''
 def isWarnEnabled():
-    '''    public boolean isWarnEnabled()
+    '''public boolean isWarnEnabled()
     public boolean isWarnEnabled(final Marker marker)
     '''
 def log():
-    '''    public void log(final Level level, final Marker marker, final Message message)
+    '''public void log(final Level level, final Marker marker, final Message message)
     public void log(final Level level, final Marker marker, final Message message, final Throwable throwable)
     public void log(final Level level, final Marker marker, final CharSequence message)
     public void log(final Level level, final Marker marker, final CharSequence message, final Throwable throwable)
@@ -303,7 +303,7 @@ def log():
     public void log(final Level level, final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
     '''
 def logIfEnabled():
-    '''    public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final Message message, final Throwable throwable)
+    '''public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final Message message, final Throwable throwable)
     public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final MessageSupplier messageSupplier, final Throwable throwable)
     public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final Object message, final Throwable throwable)
     public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final CharSequence message, final Throwable throwable)
@@ -324,21 +324,21 @@ def logIfEnabled():
     public void logIfEnabled(final String fqcn, final Level level, final Marker marker, final String message, final Throwable throwable)
     '''
 def logMessage():
-    '''    public void logMessage(final Level level, final Marker marker, final String fqcn, final StackTraceElement location, final Message message, final Throwable throwable)
+    '''public void logMessage(final Level level, final Marker marker, final String fqcn, final StackTraceElement location, final Message message, final Throwable throwable)
     '''
 def printf():
-    '''    public void printf(final Level level, final Marker marker, final String format, final Object... params)
+    '''public void printf(final Level level, final Marker marker, final String format, final Object... params)
     public void printf(final Level level, final String format, final Object... params)
     '''
 def getRecursionDepth():
-    '''    public static int getRecursionDepth()
+    '''public static int getRecursionDepth()
     '''
 def throwing():
-    '''    public <T extends Throwable> T throwing(final T throwable)
+    '''public <T extends Throwable> T throwing(final T throwable)
     public <T extends Throwable> T throwing(final Level level, final T throwable)
     '''
 def trace():
-    '''    public void trace(final Marker marker, final Message message)
+    '''public void trace(final Marker marker, final Message message)
     public void trace(final Marker marker, final Message message, final Throwable throwable)
     public void trace(final Marker marker, final CharSequence message)
     public void trace(final Marker marker, final CharSequence message, final Throwable throwable)
@@ -388,14 +388,14 @@ def trace():
     public void trace(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
     '''
 def traceEntry():
-    '''    public EntryMessage traceEntry()
+    '''public EntryMessage traceEntry()
     public EntryMessage traceEntry(final String format, final Object... params)
     public EntryMessage traceEntry(final Supplier<?>... paramSuppliers)
     public EntryMessage traceEntry(final String format, final Supplier<?>... paramSuppliers)
     public EntryMessage traceEntry(final Message message)
     '''
 def traceExit():
-    '''    public void traceExit()
+    '''public void traceExit()
     public <R> R traceExit(final R result)
     public <R> R traceExit(final String format, final R result)
     public void traceExit(final EntryMessage message)
@@ -403,7 +403,7 @@ def traceExit():
     public <R> R traceExit(final Message message, final R result)
     '''
 def warn():
-    '''    public void warn(final Marker marker, final Message message)
+    '''public void warn(final Marker marker, final Message message)
     public void warn(final Marker marker, final Message message, final Throwable throwable)
     public void warn(final Marker marker, final CharSequence message)
     public void warn(final Marker marker, final CharSequence message, final Throwable throwable)
@@ -453,26 +453,26 @@ def warn():
     public void warn(final String message, final Object p0, final Object p1, final Object p2, final Object p3, final Object p4, final Object p5, final Object p6, final Object p7, final Object p8, final Object p9)
     '''
 def atTrace():
-    '''    public LogBuilder atTrace()
+    '''public LogBuilder atTrace()
     '''
 def atDebug():
-    '''    public LogBuilder atDebug()
+    '''public LogBuilder atDebug()
     '''
 def atInfo():
-    '''    public LogBuilder atInfo()
+    '''public LogBuilder atInfo()
     '''
 def atWarn():
-    '''    public LogBuilder atWarn()
+    '''public LogBuilder atWarn()
     '''
 def atError():
-    '''    public LogBuilder atError()
+    '''public LogBuilder atError()
     '''
 def atFatal():
-    '''    public LogBuilder atFatal()
+    '''public LogBuilder atFatal()
     '''
 def always():
-    '''    public LogBuilder always()
+    '''public LogBuilder always()
     '''
 def atLevel():
-    '''    public LogBuilder atLevel(final Level level)
+    '''public LogBuilder atLevel(final Level level)
     '''

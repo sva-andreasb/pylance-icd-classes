@@ -1,6 +1,6 @@
 def FldWogenHasChildren():
-    '''    public FldWogenHasChildren(final MboValue mbv)
+    '''public FldWogenHasChildren(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

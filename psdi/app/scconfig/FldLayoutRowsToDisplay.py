@@ -1,6 +1,6 @@
 def FldLayoutRowsToDisplay():
-    '''    public FldLayoutRowsToDisplay(final MboValue mbv)
+    '''public FldLayoutRowsToDisplay(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

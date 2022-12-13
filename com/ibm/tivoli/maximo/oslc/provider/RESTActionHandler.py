@@ -1,61 +1,61 @@
 def RESTActionHandler():
-    '''    public RESTActionHandler()
+    '''public RESTActionHandler()
     '''
 def setActionMetaAuthCheck():
-    '''    public void setActionMetaAuthCheck(final boolean actionMetaAuthCheck)
+    '''public void setActionMetaAuthCheck(final boolean actionMetaAuthCheck)
     '''
 def setAppService():
-    '''    public void setAppService(final AppService service)
+    '''public void setAppService(final AppService service)
     '''
 def setActionInfo():
-    '''    public void setActionInfo(final OslcActionInfo actionInfo)
+    '''public void setActionInfo(final OslcActionInfo actionInfo)
     '''
 def setMXTransaction():
-    '''    public void setMXTransaction(final MXTransaction mxTrans)
+    '''public void setMXTransaction(final MXTransaction mxTrans)
     '''
 def setMaximoAuthenticator():
-    '''    public void setMaximoAuthenticator(final MaximoAuthenticator maxAuthenticator)
+    '''public void setMaximoAuthenticator(final MaximoAuthenticator maxAuthenticator)
     '''
 def setRequestOSName():
-    '''    public void setRequestOSName(final String osName)
+    '''public void setRequestOSName(final String osName)
     '''
 def setActionMbo():
-    '''    public void setActionMbo(final MboRemote mbo)
+    '''public void setActionMbo(final MboRemote mbo)
     '''
 def setOslcRespProp():
-    '''    public void setOslcRespProp(final String oslcRespProp)
+    '''public void setOslcRespProp(final String oslcRespProp)
     '''
 def setActionMboSet():
-    '''    public void setActionMboSet(final MboSetRemote mboSet)
+    '''public void setActionMboSet(final MboSetRemote mboSet)
     '''
 def oslcSer():
-    '''    public OslcResourceResponse oslcSer(final Mbo mbo, final OslcRequest request)
+    '''public OslcResourceResponse oslcSer(final Mbo mbo, final OslcRequest request)
     public OslcResourceResponse oslcSer(final MboSetRemote mboSet, final OslcRequest request)
     '''
 def isGET():
-    '''    public boolean isGET()
+    '''public boolean isGET()
     '''
 def isPOST():
-    '''    public boolean isPOST()
+    '''public boolean isPOST()
     '''
 def isCollection():
-    '''    public boolean isCollection()
+    '''public boolean isCollection()
     '''
 def isResource():
-    '''    public boolean isResource()
+    '''public boolean isResource()
     '''
 def setResponseOSName():
-    '''    public void setResponseOSName(final String responseOSName)
+    '''public void setResponseOSName(final String responseOSName)
     '''
 def getRequestSchema():
-    '''    public JSONObject getRequestSchema()
+    '''public JSONObject getRequestSchema()
     '''
 def getRequestHeaders():
-    '''    public Map<String, RESTParamInfo> getRequestHeaders()
+    '''public Map<String, RESTParamInfo> getRequestHeaders()
     '''
 def getRequestQueryParams():
-    '''    public Map<String, RESTParamInfo> getRequestQueryParams()
+    '''public Map<String, RESTParamInfo> getRequestQueryParams()
     '''
 def serializeWarnings():
-    '''    public OslcResourceResponse serializeWarnings(final MboSetRemote msr)
+    '''public OslcResourceResponse serializeWarnings(final MboSetRemote msr)
     '''

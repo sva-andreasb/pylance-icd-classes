@@ -1,3 +1,3 @@
 def PdfNull():
-    '''    public PdfNull()
+    '''public PdfNull()
     '''

@@ -1,19 +1,19 @@
 def schemaVersions():
-    '''    public static Schema[] schemaVersions()
+    '''public static Schema[] schemaVersions()
     '''
 def ControlledShutdownResponse():
-    '''    public ControlledShutdownResponse(final Errors error, final Set<TopicPartition> partitionsRemaining)
+    '''public ControlledShutdownResponse(final Errors error, final Set<TopicPartition> partitionsRemaining)
     public ControlledShutdownResponse(final Struct struct)
     '''
 def error():
-    '''    public Errors error()
+    '''public Errors error()
     '''
 def errorCounts():
-    '''    public Map<Errors, Integer> errorCounts()
+    '''public Map<Errors, Integer> errorCounts()
     '''
 def partitionsRemaining():
-    '''    public Set<TopicPartition> partitionsRemaining()
+    '''public Set<TopicPartition> partitionsRemaining()
     '''
 def parse():
-    '''    public static ControlledShutdownResponse parse(final ByteBuffer buffer, final short version)
+    '''public static ControlledShutdownResponse parse(final ByteBuffer buffer, final short version)
     '''

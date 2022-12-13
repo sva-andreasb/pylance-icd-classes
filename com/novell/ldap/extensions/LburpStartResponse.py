@@ -1,6 +1,6 @@
 def LburpStartResponse():
-    '''    public LburpStartResponse(final RfcLDAPMessage rfcLDAPMessage)
+    '''public LburpStartResponse(final RfcLDAPMessage rfcLDAPMessage)
     '''
 def getTranSize():
-    '''    public int getTranSize()
+    '''public int getTranSize()
     '''

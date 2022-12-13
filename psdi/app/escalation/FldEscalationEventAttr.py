@@ -1,3 +1,3 @@
 def FldEscalationEventAttr():
-    '''    public FldEscalationEventAttr(final MboValue mbv)
+    '''public FldEscalationEventAttr(final MboValue mbv)
     '''

@@ -1,12 +1,12 @@
 def FldPersCommLocation():
-    '''    public FldPersCommLocation(final MboValue mbv)
+    '''public FldPersCommLocation(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''public void setValueFromLookup(final MboRemote sourceMbo)
     '''

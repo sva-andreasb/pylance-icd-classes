@@ -1,9 +1,9 @@
 def TokenWebAppSession():
-    '''    public TokenWebAppSession()
+    '''public TokenWebAppSession()
     '''
 def getSessionToken():
-    '''    public String getSessionToken()
+    '''public String getSessionToken()
     '''
 def setSessionToken():
-    '''    public void setSessionToken(final String token)
+    '''public void setSessionToken(final String token)
     '''

@@ -1,39 +1,39 @@
 def FrameworkLauncher():
-    '''    public FrameworkLauncher()
+    '''public FrameworkLauncher()
     '''
 def init():
-    '''    public void init(final ServletConfig servletConfig)
+    '''public void init(final ServletConfig servletConfig)
     public void init()
     '''
 def destroy():
-    '''    public void destroy()
+    '''public void destroy()
     '''
 def deploy():
-    '''    public synchronized void deploy()
+    '''public synchronized void deploy()
     '''
 def undeploy():
-    '''    public synchronized void undeploy()
+    '''public synchronized void undeploy()
     '''
 def start():
-    '''    public synchronized void start()
+    '''public synchronized void start()
     '''
 def getFrameworkInternalProperties():
-    '''    public Properties getFrameworkInternalProperties(final ClassLoader cl)
+    '''public Properties getFrameworkInternalProperties(final ClassLoader cl)
     '''
 def stop():
-    '''    public synchronized void stop()
+    '''public synchronized void stop()
     '''
 def getFrameworkContextClassLoader():
-    '''    public synchronized ClassLoader getFrameworkContextClassLoader()
+    '''public synchronized ClassLoader getFrameworkContextClassLoader()
     '''
 def accept():
-    '''    public boolean accept(final File candidate)
+    '''public boolean accept(final File candidate)
     '''
 def ChildFirstURLClassLoader():
-    '''    public ChildFirstURLClassLoader(final URL[] urls)
+    '''public ChildFirstURLClassLoader(final URL[] urls)
     public ChildFirstURLClassLoader(final URL[] urls, final ClassLoader parent)
     public ChildFirstURLClassLoader(final URL[] urls, final ClassLoader parent, final URLStreamHandlerFactory factory)
     '''
 def getResource():
-    '''    public URL getResource(final String name)
+    '''public URL getResource(final String name)
     '''

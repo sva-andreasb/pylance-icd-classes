@@ -1,6 +1,6 @@
 def PlusCFldWODSAssetNum():
-    '''    public PlusCFldWODSAssetNum(final MboValue mbv)
+    '''public PlusCFldWODSAssetNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,3 +1,3 @@
 def KeyStoreConfigurationException():
-    '''    public KeyStoreConfigurationException(final Exception e)
+    '''public KeyStoreConfigurationException(final Exception e)
     '''

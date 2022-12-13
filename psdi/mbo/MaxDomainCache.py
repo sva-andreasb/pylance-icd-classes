@@ -1,6 +1,6 @@
 def getInstance():
-    '''    public static final MaxDomainCache getInstance()
+    '''public static final MaxDomainCache getInstance()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''

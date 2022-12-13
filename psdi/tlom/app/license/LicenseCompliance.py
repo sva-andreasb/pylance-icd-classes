@@ -1,3 +1,3 @@
 def LicenseCompliance():
-    '''    public LicenseCompliance(final MboSet ms)
+    '''public LicenseCompliance(final MboSet ms)
     '''

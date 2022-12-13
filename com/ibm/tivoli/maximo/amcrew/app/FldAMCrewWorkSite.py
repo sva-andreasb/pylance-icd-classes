@@ -1,6 +1,6 @@
 def FldAMCrewWorkSite():
-    '''    public FldAMCrewWorkSite(final MboValue mbv)
+    '''public FldAMCrewWorkSite(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

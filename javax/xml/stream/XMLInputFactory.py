@@ -8,6 +8,6 @@ REPORTER = "String  \"javax.xml.stream.reporter\""
 RESOLVER = "String  \"javax.xml.stream.resolver\""
 SUPPORT_DTD = "String  \"javax.xml.stream.supportDTD\""
 def newInstance():
-    '''    public static XMLInputFactory newInstance()
+    '''public static XMLInputFactory newInstance()
     public static XMLInputFactory newInstance(final String s, ClassLoader contextClassLoader)
     '''

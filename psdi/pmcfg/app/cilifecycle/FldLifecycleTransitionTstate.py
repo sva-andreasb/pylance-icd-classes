@@ -1,6 +1,6 @@
 def FldLifecycleTransitionTstate():
-    '''    public FldLifecycleTransitionTstate(final MboValue mv)
+    '''public FldLifecycleTransitionTstate(final MboValue mv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

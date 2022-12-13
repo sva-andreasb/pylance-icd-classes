@@ -34,38 +34,38 @@ MSGFILE = "int  6"
 DB2FILE = "int  7"
 DBCFILE = "int  8"
 def SrmRTEMigrationTool():
-    '''    public SrmRTEMigrationTool()
+    '''public SrmRTEMigrationTool()
     '''
 def getConnection():
-    '''    public Connection getConnection()
+    '''public Connection getConnection()
     '''
 def getRootDirectory():
-    '''    public String getRootDirectory()
+    '''public String getRootDirectory()
     '''
 def getMaximoRootDirectory():
-    '''    public String getMaximoRootDirectory()
+    '''public String getMaximoRootDirectory()
     '''
 def setupLogfile():
-    '''    public static void setupLogfile()
+    '''public static void setupLogfile()
     '''
 def println():
-    '''    public static void println(final String line)
+    '''public static void println(final String line)
     '''
 def main():
-    '''    public static void main(final String[] argv)
+    '''public static void main(final String[] argv)
     '''
 def setup():
-    '''    public void setup(final HashMap<String, String> params)
+    '''public void setup(final HashMap<String, String> params)
     '''
 def getDBType():
-    '''    public int getDBType(final Connection con)
+    '''public int getDBType(final Connection con)
     '''
 def checkSCInstall():
-    '''    public static boolean checkSCInstall(final Connection con)
+    '''public static boolean checkSCInstall(final Connection con)
     '''
 def checkRTEEnabled():
-    '''    public static boolean checkRTEEnabled(final Connection con)
+    '''public static boolean checkRTEEnabled(final Connection con)
     '''
 def forHTML():
-    '''    public static String forHTML(final String aText)
+    '''public static String forHTML(final String aText)
     '''

@@ -1,6 +1,6 @@
 def FldDoclinksAddInfo():
-    '''    public FldDoclinksAddInfo(final MboValue mbv)
+    '''public FldDoclinksAddInfo(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

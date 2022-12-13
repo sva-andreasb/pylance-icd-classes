@@ -9,17 +9,17 @@ FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
 FIELD_PARTNUM = "String  \"PARTNUM\""
 FIELD_ITEMSETID = "String  \"ITEMSETID\""
 def BIMProductPart():
-    '''    public BIMProductPart(final MboSet ms)
+    '''public BIMProductPart(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def copy():
-    '''    public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''

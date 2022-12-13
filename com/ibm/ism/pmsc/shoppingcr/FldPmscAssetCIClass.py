@@ -1,3 +1,3 @@
 def FldPmscAssetCIClass():
-    '''    public FldPmscAssetCIClass(final MboValue mbv)
+    '''public FldPmscAssetCIClass(final MboValue mbv)
     '''

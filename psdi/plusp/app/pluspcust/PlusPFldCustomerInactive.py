@@ -1,3 +1,3 @@
 def PlusPFldCustomerInactive():
-    '''    public PlusPFldCustomerInactive(final MboValue mboValue)
+    '''public PlusPFldCustomerInactive(final MboValue mboValue)
     '''

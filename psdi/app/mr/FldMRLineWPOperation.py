@@ -1,3 +1,3 @@
 def FldMRLineWPOperation():
-    '''    public FldMRLineWPOperation(final MboValue mbv)
+    '''public FldMRLineWPOperation(final MboValue mbv)
     '''

@@ -9,48 +9,48 @@ PNG_FILTER_UP = "int  2"
 PNG_FILTER_AVERAGE = "int  3"
 PNG_FILTER_PAETH = "int  4"
 def PNGRed():
-    '''    public PNGRed(final InputStream stream)
+    '''public PNGRed(final InputStream stream)
     public PNGRed(InputStream stream, PNGDecodeParam decodeParam)
     '''
 def createComponentColorModel():
-    '''    public static ColorModel createComponentColorModel(final SampleModel sm)
+    '''public static ColorModel createComponentColorModel(final SampleModel sm)
     '''
 def copyData():
-    '''    public WritableRaster copyData(final WritableRaster wr)
+    '''public WritableRaster copyData(final WritableRaster wr)
     '''
 def getTile():
-    '''    public Raster getTile(final int tileX, final int tileY)
+    '''public Raster getTile(final int tileX, final int tileY)
     '''
 def PNGChunk():
-    '''    public PNGChunk(final int length, final int type, final byte[] data, final int crc)
+    '''public PNGChunk(final int length, final int type, final byte[] data, final int crc)
     '''
 def getLength():
-    '''    public int getLength()
+    '''public int getLength()
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''
 def getTypeString():
-    '''    public String getTypeString()
+    '''public String getTypeString()
     '''
 def getData():
-    '''    public byte[] getData()
+    '''public byte[] getData()
     '''
 def getByte():
-    '''    public byte getByte(final int offset)
+    '''public byte getByte(final int offset)
     '''
 def getInt1():
-    '''    public int getInt1(final int offset)
+    '''public int getInt1(final int offset)
     '''
 def getInt2():
-    '''    public int getInt2(final int offset)
+    '''public int getInt2(final int offset)
     '''
 def getInt4():
-    '''    public int getInt4(final int offset)
+    '''public int getInt4(final int offset)
     '''
 def getString4():
-    '''    public String getString4(final int offset)
+    '''public String getString4(final int offset)
     '''
 def isType():
-    '''    public boolean isType(final String typeName)
+    '''public boolean isType(final String typeName)
     '''

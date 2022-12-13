@@ -1,9 +1,9 @@
 def SubstituteLoggerFactory():
-    '''    public SubstituteLoggerFactory()
+    '''public SubstituteLoggerFactory()
     '''
 def getLogger():
-    '''    public Logger getLogger(final String name)
+    '''public Logger getLogger(final String name)
     '''
 def getLoggerNameList():
-    '''    public List getLoggerNameList()
+    '''public List getLoggerNameList()
     '''

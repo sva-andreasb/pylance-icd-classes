@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_QName\")"
 def newInstance():
-    '''    public static XmlQName newInstance()
+    '''public static XmlQName newInstance()
     public static XmlQName newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlQName newValue(final Object obj)
+    '''public static XmlQName newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlQName parse(final String s)
+    '''public static XmlQName parse(final String s)
     public static XmlQName parse(final String s, final XmlOptions options)
     public static XmlQName parse(final File f)
     public static XmlQName parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlQName parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

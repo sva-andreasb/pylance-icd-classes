@@ -1,15 +1,15 @@
 def TLOAMItem():
-    '''    public TLOAMItem(final MboSet ms)
+    '''public TLOAMItem(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''

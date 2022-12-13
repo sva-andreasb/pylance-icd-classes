@@ -19,8 +19,8 @@ H_ALIGN_CENTER = "short  1"
 V_ALIGN_BOTTOM = "short  2"
 BORDER_THIN = "short  1"
 def BIMExport():
-    '''    public BIMExport(final MessageLogger logger, final InputStream templateStream, final ExportFormat fileFormat)
+    '''public BIMExport(final MessageLogger logger, final InputStream templateStream, final ExportFormat fileFormat)
     '''
 def exportParseTree():
-    '''    public void exportParseTree(final Hashtable<String, Page> parseTree, final String[] pageNames, final String fileName)
+    '''public void exportParseTree(final Hashtable<String, Page> parseTree, final String[] pageNames, final String fileName)
     '''

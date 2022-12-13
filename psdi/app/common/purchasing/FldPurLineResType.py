@@ -1,6 +1,6 @@
 def FldPurLineResType():
-    '''    public FldPurLineResType(final MboValue mbv)
+    '''public FldPurLineResType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

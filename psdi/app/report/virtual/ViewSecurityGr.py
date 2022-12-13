@@ -1,3 +1,3 @@
 def ViewSecurityGr():
-    '''    public ViewSecurityGr(final MboSet ms)
+    '''public ViewSecurityGr(final MboSet ms)
     '''

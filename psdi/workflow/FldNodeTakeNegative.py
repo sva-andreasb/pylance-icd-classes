@@ -1,6 +1,6 @@
 def FldNodeTakeNegative():
-    '''    public FldNodeTakeNegative(final MboValue mbv)
+    '''public FldNodeTakeNegative(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

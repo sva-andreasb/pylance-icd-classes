@@ -1,6 +1,6 @@
 def FldSKDActGanttPropCanBeSorted():
-    '''    public FldSKDActGanttPropCanBeSorted(final MboValue mbv)
+    '''public FldSKDActGanttPropCanBeSorted(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

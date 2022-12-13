@@ -1,6 +1,6 @@
 def CreateCompanyExt():
-    '''    public CreateCompanyExt()
+    '''public CreateCompanyExt()
     '''
 def setDataIn():
-    '''    public StructureData setDataIn(final StructureData irData)
+    '''public StructureData setDataIn(final StructureData irData)
     '''

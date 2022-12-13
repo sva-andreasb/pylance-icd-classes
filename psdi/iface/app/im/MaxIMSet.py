@@ -1,6 +1,6 @@
 def MaxIMSet():
-    '''    public MaxIMSet(final MboServerInterface ms)
+    '''public MaxIMSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

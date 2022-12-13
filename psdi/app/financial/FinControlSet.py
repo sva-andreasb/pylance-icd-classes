@@ -1,12 +1,12 @@
 def FinControlSet():
-    '''    public FinControlSet(final MboServerInterface ms)
+    '''public FinControlSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''
 def setProjectType():
-    '''    public void setProjectType()
+    '''public void setProjectType()
     '''
 def getUserPrefWhere():
-    '''    public String getUserPrefWhere()
+    '''public String getUserPrefWhere()
     '''

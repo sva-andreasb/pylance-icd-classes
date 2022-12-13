@@ -1,15 +1,15 @@
 def SKDODMERunReportBean():
-    '''    public SKDODMERunReportBean()
+    '''public SKDODMERunReportBean()
     '''
 def opjobrefresh():
-    '''    public int opjobrefresh()
+    '''public int opjobrefresh()
     '''
 def opjobstop():
-    '''    public int opjobstop()
+    '''public int opjobstop()
     '''
 def cancelDialog():
-    '''    public int cancelDialog()
+    '''public int cancelDialog()
     '''
 def getUserInfo():
-    '''    public UserInfo getUserInfo()
+    '''public UserInfo getUserInfo()
     '''

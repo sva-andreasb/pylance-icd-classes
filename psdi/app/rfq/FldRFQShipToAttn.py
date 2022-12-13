@@ -1,3 +1,3 @@
 def FldRFQShipToAttn():
-    '''    public FldRFQShipToAttn(final MboValue mbv)
+    '''public FldRFQShipToAttn(final MboValue mbv)
     '''

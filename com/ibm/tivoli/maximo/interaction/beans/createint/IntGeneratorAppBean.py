@@ -1,60 +1,60 @@
 def IntGeneratorAppBean():
-    '''    public IntGeneratorAppBean()
+    '''public IntGeneratorAppBean()
     '''
 def nexttab():
-    '''    public int nexttab()
+    '''public int nexttab()
     '''
 def getNextTabOrder():
-    '''    public int getNextTabOrder(final int currentTabOrder)
+    '''public int getNextTabOrder(final int currentTabOrder)
     '''
 def prevtab():
-    '''    public int prevtab()
+    '''public int prevtab()
     '''
 def getPreviousTabOrder():
-    '''    public int getPreviousTabOrder(final int currentTabOrder)
+    '''public int getPreviousTabOrder(final int currentTabOrder)
     '''
 def complete():
-    '''    public int complete()
+    '''public int complete()
     '''
 def manageint():
-    '''    public int manageint()
+    '''public int manageint()
     '''
 def optimizereq():
-    '''    public int optimizereq()
+    '''public int optimizereq()
     '''
 def optimizeresp():
-    '''    public int optimizeresp()
+    '''public int optimizeresp()
     '''
 def deletenodereq():
-    '''    public int deletenodereq()
+    '''public int deletenodereq()
     '''
 def deletenoderesp():
-    '''    public int deletenoderesp()
+    '''public int deletenoderesp()
     '''
 def deletenode():
-    '''    public int deletenode(final String id, final boolean isRequest)
+    '''public int deletenode(final String id, final boolean isRequest)
     '''
 def undeletenodereq():
-    '''    public int undeletenodereq()
+    '''public int undeletenodereq()
     '''
 def undeletenoderesp():
-    '''    public int undeletenoderesp()
+    '''public int undeletenoderesp()
     '''
 def undeleteallreq():
-    '''    public int undeleteallreq()
+    '''public int undeleteallreq()
     '''
 def undeleteallresp():
-    '''    public int undeleteallresp()
+    '''public int undeleteallresp()
     '''
 def processnode():
-    '''    public int processnode(final WSIOTreeBean treeBean, final LinkedHashMap<String, String> removeMap, final boolean isRequest)
+    '''public int processnode(final WSIOTreeBean treeBean, final LinkedHashMap<String, String> removeMap, final boolean isRequest)
     '''
 def removeMbo():
-    '''    public boolean removeMbo(final MboRemote currentMbo, final String removeID)
+    '''public boolean removeMbo(final MboRemote currentMbo, final String removeID)
     '''
 def importXML():
-    '''    public void importXML(final String presentationXML)
+    '''public void importXML(final String presentationXML)
     '''
 def cancelchanges():
-    '''    public int cancelchanges()
+    '''public int cancelchanges()
     '''

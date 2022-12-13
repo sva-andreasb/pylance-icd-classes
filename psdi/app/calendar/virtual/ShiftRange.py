@@ -1,6 +1,6 @@
 def ShiftRange():
-    '''    public ShiftRange(final MboSet ms)
+    '''public ShiftRange(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

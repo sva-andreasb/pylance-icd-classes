@@ -1,5 +1,5 @@
 def min():
-    '''    public static double min(final double... array)
+    '''public static double min(final double... array)
     public static float min(final float... array)
     public static double min(final double a, final double b, final double c)
     public static double min(final double a, final double b)
@@ -7,7 +7,7 @@ def min():
     public static float min(final float a, final float b)
     '''
 def max():
-    '''    public static double max(final double... array)
+    '''public static double max(final double... array)
     public static float max(final float... array)
     public static double max(final double a, final double b, final double c)
     public static double max(final double a, final double b)

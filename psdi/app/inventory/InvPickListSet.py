@@ -1,3 +1,3 @@
 def InvPickListSet():
-    '''    public InvPickListSet(final MboServerInterface ms)
+    '''public InvPickListSet(final MboServerInterface ms)
     '''

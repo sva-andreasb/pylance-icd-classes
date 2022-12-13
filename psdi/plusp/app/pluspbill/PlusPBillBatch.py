@@ -1,83 +1,83 @@
 def PlusPBillBatch():
-    '''    public PlusPBillBatch(final MboSet ms)
+    '''public PlusPBillBatch(final MboSet ms)
     '''
 def getLogger():
-    '''    public PlusPLog getLogger()
+    '''public PlusPLog getLogger()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def setFlagsForStatus():
-    '''    public void setFlagsForStatus()
+    '''public void setFlagsForStatus()
     '''
 def createBillLines():
-    '''    public boolean createBillLines()
+    '''public boolean createBillLines()
     public boolean createBillLines(final String s)
     '''
 def getService():
-    '''    public static PlusPCopyServiceRemote getService(final String s)
+    '''public static PlusPCopyServiceRemote getService(final String s)
     '''
 def validateTransaction():
-    '''    public boolean validateTransaction(final MboRemote mboRemote, final MboRemote mboRemote2)
+    '''public boolean validateTransaction(final MboRemote mboRemote, final MboRemote mboRemote2)
     '''
 def calculateTotals():
-    '''    public void calculateTotals()
+    '''public void calculateTotals()
     '''
 def getTicketSet():
-    '''    public MboSetRemote getTicketSet(final boolean b)
+    '''public MboSetRemote getTicketSet(final boolean b)
     '''
 def getWOSet():
-    '''    public MboSetRemote getWOSet(final boolean b)
+    '''public MboSetRemote getWOSet(final boolean b)
     '''
 def getSOSet():
-    '''    public MboSetRemote getSOSet(final boolean b)
+    '''public MboSetRemote getSOSet(final boolean b)
     '''
 def updateBillBatchTotals():
-    '''    public void updateBillBatchTotals(final MboRemote mboRemote, final String s, final String s2)
+    '''public void updateBillBatchTotals(final MboRemote mboRemote, final String s, final String s2)
     public void updateBillBatchTotals()
     '''
 def getBillableStatusWhereClause():
-    '''    public String getBillableStatusWhereClause(final String listName, final String value, final String s)
+    '''public String getBillableStatusWhereClause(final String listName, final String value, final String s)
     '''
 def getStatusListName():
-    '''    public String getStatusListName()
+    '''public String getStatusListName()
     '''
 def isBilled():
-    '''    public boolean isBilled()
+    '''public boolean isBilled()
     '''
 def changeStatus():
-    '''    public void changeStatus(final String val, final Date asOfDate, final String memo, final long accessModifier)
+    '''public void changeStatus(final String val, final Date asOfDate, final String memo, final long accessModifier)
     '''
 def setValueCustomerCurrencyTotal():
-    '''    public void setValueCustomerCurrencyTotal()
+    '''public void setValueCustomerCurrencyTotal()
     '''
 def setRevisionNum():
-    '''    public void setRevisionNum()
+    '''public void setRevisionNum()
     '''
 def canCreateBillLines():
-    '''    public void canCreateBillLines()
+    '''public void canCreateBillLines()
     '''
 def hasCopyInProgress():
-    '''    public boolean hasCopyInProgress()
+    '''public boolean hasCopyInProgress()
     '''
 def updateCopyHistory():
-    '''    public void updateCopyHistory(final String errKey, final String... params)
+    '''public void updateCopyHistory(final String errKey, final String... params)
     '''
 def getBillBatchCopy():
-    '''    public MboRemote getBillBatchCopy()
+    '''public MboRemote getBillBatchCopy()
     '''
 def canChangeStatus():
-    '''    public void canChangeStatus(final String changeToStatus, final long accessModifier)
+    '''public void canChangeStatus(final String changeToStatus, final long accessModifier)
     '''
 def setBillBatchFilters():
-    '''    public void setBillBatchFilters(final MboRemote e)
+    '''public void setBillBatchFilters(final MboRemote e)
     '''
 def getBillBatchFilters():
-    '''    public HashSet<MboRemote> getBillBatchFilters()
+    '''public HashSet<MboRemote> getBillBatchFilters()
     '''

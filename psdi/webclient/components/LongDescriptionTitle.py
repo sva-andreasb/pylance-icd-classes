@@ -1,3 +1,3 @@
 def isVisible():
-    '''    public boolean isVisible()
+    '''public boolean isVisible()
     '''

@@ -1,3 +1,3 @@
 def SelectiveStatusListCache():
-    '''    public SelectiveStatusListCache()
+    '''public SelectiveStatusListCache()
     '''

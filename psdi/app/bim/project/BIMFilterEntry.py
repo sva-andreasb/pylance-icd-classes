@@ -10,14 +10,14 @@ EXPR_TYPE_EXACT = "int  1"
 EXPR_TYPE_SUBSTRING = "int  2"
 EXPR_TYPE_REGEXP = "int  3"
 def BIMFilterEntry():
-    '''    public BIMFilterEntry(final MboSet ms)
+    '''public BIMFilterEntry(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def getInternalSheetName():
-    '''    public String getInternalSheetName()
+    '''public String getInternalSheetName()
     '''
 def getExpressionType():
-    '''    public int getExpressionType()
+    '''public int getExpressionType()
     '''

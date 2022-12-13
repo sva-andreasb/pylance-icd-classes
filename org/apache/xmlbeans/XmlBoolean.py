@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_boolean\")"
 def newInstance():
-    '''    public static XmlBoolean newInstance()
+    '''public static XmlBoolean newInstance()
     public static XmlBoolean newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlBoolean newValue(final Object obj)
+    '''public static XmlBoolean newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlBoolean parse(final String s)
+    '''public static XmlBoolean parse(final String s)
     public static XmlBoolean parse(final String s, final XmlOptions options)
     public static XmlBoolean parse(final File f)
     public static XmlBoolean parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlBoolean parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

@@ -1,6 +1,6 @@
 def FldChangeItemnumConditionCode():
-    '''    public FldChangeItemnumConditionCode(final MboValue mbv)
+    '''public FldChangeItemnumConditionCode(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

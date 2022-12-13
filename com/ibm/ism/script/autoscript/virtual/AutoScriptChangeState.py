@@ -1,6 +1,6 @@
 def AutoScriptChangeState():
-    '''    public AutoScriptChangeState(final MboSet ms)
+    '''public AutoScriptChangeState(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

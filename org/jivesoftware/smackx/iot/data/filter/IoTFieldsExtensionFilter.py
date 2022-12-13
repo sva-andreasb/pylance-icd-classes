@@ -1,3 +1,3 @@
 def IoTFieldsExtensionFilter():
-    '''    public IoTFieldsExtensionFilter(final int seqNr, final boolean onlyDone)
+    '''public IoTFieldsExtensionFilter(final int seqNr, final boolean onlyDone)
     '''

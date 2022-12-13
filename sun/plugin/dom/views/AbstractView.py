@@ -1,6 +1,6 @@
 def AbstractView():
-    '''    public AbstractView(final DocumentView view)
+    '''public AbstractView(final DocumentView view)
     '''
 def getDocument():
-    '''    public DocumentView getDocument()
+    '''public DocumentView getDocument()
     '''

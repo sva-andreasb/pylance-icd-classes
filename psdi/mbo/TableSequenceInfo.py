@@ -1,13 +1,13 @@
 CACHE_NAME = "String  \"BMX.MAXIMODD.SQI\""
 def getTypedReference():
-    '''    public TableSequenceInfoBase getTypedReference()
+    '''public TableSequenceInfoBase getTypedReference()
     '''
 def getSequenceName():
-    '''    public String getSequenceName(final String columnName)
+    '''public String getSequenceName(final String columnName)
     '''
 def isTenantOwned():
-    '''    public boolean isTenantOwned()
+    '''public boolean isTenantOwned()
     '''
 def getCacheName():
-    '''    public String getCacheName()
+    '''public String getCacheName()
     '''

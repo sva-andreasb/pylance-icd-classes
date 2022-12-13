@@ -1,6 +1,6 @@
 def CrontaskParamSet():
-    '''    public CrontaskParamSet(final MboServerInterface ms)
+    '''public CrontaskParamSet(final MboServerInterface ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

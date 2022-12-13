@@ -1,3 +1,3 @@
 def WFConditionSet():
-    '''    public WFConditionSet(final MboServerInterface ms)
+    '''public WFConditionSet(final MboServerInterface ms)
     '''

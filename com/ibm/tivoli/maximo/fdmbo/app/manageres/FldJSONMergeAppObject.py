@@ -1,9 +1,9 @@
 def FldJSONMergeAppObject():
-    '''    public FldJSONMergeAppObject(final MboValue mbv)
+    '''public FldJSONMergeAppObject(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

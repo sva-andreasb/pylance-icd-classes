@@ -1,21 +1,21 @@
 def getEntry():
-    '''    public ZipEntry getEntry(final String name)
+    '''public ZipEntry getEntry(final String name)
     '''
 def entries():
-    '''    public Enumeration entries()
+    '''public Enumeration entries()
     '''
 def hasMoreElements():
-    '''    public boolean hasMoreElements()
+    '''public boolean hasMoreElements()
     '''
 def nextElement():
-    '''    public Object nextElement()
+    '''public Object nextElement()
     '''
 def getManifest():
-    '''    public Manifest getManifest()
+    '''public Manifest getManifest()
     '''
 def getAttributes():
-    '''    public Attributes getAttributes()
+    '''public Attributes getAttributes()
     '''
 def getCertificates():
-    '''    public Certificate[] getCertificates()
+    '''public Certificate[] getCertificates()
     '''

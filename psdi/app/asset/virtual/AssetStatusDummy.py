@@ -1,9 +1,9 @@
 def AssetStatusDummy():
-    '''    public AssetStatusDummy(final MboSet ms)
+    '''public AssetStatusDummy(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

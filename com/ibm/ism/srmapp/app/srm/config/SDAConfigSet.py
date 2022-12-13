@@ -1,3 +1,3 @@
 def SDAConfigSet():
-    '''    public SDAConfigSet(final MboServerInterface ms)
+    '''public SDAConfigSet(final MboServerInterface ms)
     '''

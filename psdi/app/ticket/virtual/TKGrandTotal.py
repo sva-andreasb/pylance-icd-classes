@@ -1,9 +1,9 @@
 def TKGrandTotal():
-    '''    public TKGrandTotal(final MboSet ms)
+    '''public TKGrandTotal(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

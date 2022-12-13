@@ -1,6 +1,6 @@
 def FldWFAsgnEmail():
-    '''    public FldWFAsgnEmail(final MboValue mbv)
+    '''public FldWFAsgnEmail(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,3 +1,3 @@
 def PlusPNewBillBatchSet():
-    '''    public PlusPNewBillBatchSet(final MboServerInterface ms)
+    '''public PlusPNewBillBatchSet(final MboServerInterface ms)
     '''

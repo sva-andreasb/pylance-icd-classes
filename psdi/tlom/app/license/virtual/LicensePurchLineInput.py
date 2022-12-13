@@ -1,6 +1,6 @@
 def LicensePurchLineInput():
-    '''    public LicensePurchLineInput(final MboSet ms)
+    '''public LicensePurchLineInput(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

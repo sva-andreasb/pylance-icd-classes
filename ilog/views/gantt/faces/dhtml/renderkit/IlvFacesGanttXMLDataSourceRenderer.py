@@ -1,3 +1,3 @@
 def getRendererType():
-    '''    public static String getRendererType()
+    '''public static String getRendererType()
     '''

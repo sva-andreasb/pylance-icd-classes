@@ -1,34 +1,34 @@
 def clearSecrets():
-    '''    public void clearSecrets()
+    '''public void clearSecrets()
     '''
 def getSslSocketFactory():
-    '''    public SSLSocketFactory getSslSocketFactory()
+    '''public SSLSocketFactory getSslSocketFactory()
     '''
 def getSslServerSocketFactory():
-    '''    public SSLServerSocketFactory getSslServerSocketFactory()
+    '''public SSLServerSocketFactory getSslServerSocketFactory()
     '''
 def createSSLConfiguration():
-    '''    public static SslConfiguration createSSLConfiguration(@PluginAttribute("protocol") final String protocol, @PluginElement("KeyStore") final KeyStoreConfiguration keyStoreConfig, @PluginElement("TrustStore") final TrustStoreConfiguration trustStoreConfig)
+    '''public static SslConfiguration createSSLConfiguration(@PluginAttribute("protocol") final String protocol, @PluginElement("KeyStore") final KeyStoreConfiguration keyStoreConfig, @PluginElement("TrustStore") final TrustStoreConfiguration trustStoreConfig)
     public static SslConfiguration createSSLConfiguration(@PluginAttribute("protocol") final String protocol, @PluginElement("KeyStore") final KeyStoreConfiguration keyStoreConfig, @PluginElement("TrustStore") final TrustStoreConfiguration trustStoreConfig, @PluginAttribute("verifyHostName") final boolean verifyHostName)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def getKeyStoreConfig():
-    '''    public KeyStoreConfiguration getKeyStoreConfig()
+    '''public KeyStoreConfiguration getKeyStoreConfig()
     '''
 def getTrustStoreConfig():
-    '''    public TrustStoreConfiguration getTrustStoreConfig()
+    '''public TrustStoreConfiguration getTrustStoreConfig()
     '''
 def getSslContext():
-    '''    public SSLContext getSslContext()
+    '''public SSLContext getSslContext()
     '''
 def getProtocol():
-    '''    public String getProtocol()
+    '''public String getProtocol()
     '''
 def isVerifyHostName():
-    '''    public boolean isVerifyHostName()
+    '''public boolean isVerifyHostName()
     '''

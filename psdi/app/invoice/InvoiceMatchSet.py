@@ -1,3 +1,3 @@
 def InvoiceMatchSet():
-    '''    public InvoiceMatchSet(final MboServerInterface ms)
+    '''public InvoiceMatchSet(final MboServerInterface ms)
     '''

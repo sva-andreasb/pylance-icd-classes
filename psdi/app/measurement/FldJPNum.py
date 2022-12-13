@@ -1,6 +1,6 @@
 def FldJPNum():
-    '''    public FldJPNum(final MboValue mbv)
+    '''public FldJPNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

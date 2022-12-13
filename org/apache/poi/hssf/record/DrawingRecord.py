@@ -1,26 +1,26 @@
 sid = "short  236"
 def DrawingRecord():
-    '''    public DrawingRecord()
+    '''public DrawingRecord()
     public DrawingRecord(final RecordInputStream in)
     '''
 def processContinueRecord():
-    '''    public void processContinueRecord(final byte[] record)
+    '''public void processContinueRecord(final byte[] record)
     '''
 def serialize():
-    '''    public void serialize(final LittleEndianOutput out)
+    '''public void serialize(final LittleEndianOutput out)
     '''
 def getSid():
-    '''    public short getSid()
+    '''public short getSid()
     '''
 def getRecordData():
-    '''    public byte[] getRecordData()
+    '''public byte[] getRecordData()
     '''
 def setData():
-    '''    public void setData(final byte[] thedata)
+    '''public void setData(final byte[] thedata)
     '''
 def clone():
-    '''    public DrawingRecord clone()
+    '''public DrawingRecord clone()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

@@ -1,3 +1,3 @@
 def NoEndPointException():
-    '''    public NoEndPointException()
+    '''public NoEndPointException()
     '''

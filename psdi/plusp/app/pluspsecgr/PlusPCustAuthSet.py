@@ -1,3 +1,3 @@
 def PlusPCustAuthSet():
-    '''    public PlusPCustAuthSet(final MboServerInterface ms)
+    '''public PlusPCustAuthSet(final MboServerInterface ms)
     '''

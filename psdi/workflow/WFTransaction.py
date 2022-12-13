@@ -1,3 +1,3 @@
 def WFTransaction():
-    '''    public WFTransaction(final MboSet ms)
+    '''public WFTransaction(final MboSet ms)
     '''

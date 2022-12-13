@@ -1,3 +1,3 @@
 def PlusPWOTransBill():
-    '''    public PlusPWOTransBill(final MboSet ms)
+    '''public PlusPWOTransBill(final MboSet ms)
     '''

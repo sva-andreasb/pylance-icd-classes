@@ -7,101 +7,101 @@ NEWOROLDWF = "String  \"neworoldwf\""
 STOPWF = "String  \"stopwf\""
 ACTIVEWF = "String  \"activewf\""
 def WorkflowDirector():
-    '''    public WorkflowDirector(final MXSession s)
+    '''public WorkflowDirector(final MXSession s)
     '''
 def isInteractionDoublePlay():
-    '''    public boolean isInteractionDoublePlay()
+    '''public boolean isInteractionDoublePlay()
     '''
 def getInstance():
-    '''    public WFInstanceRemote getInstance()
+    '''public WFInstanceRemote getInstance()
     '''
 def getAssignment():
-    '''    public WFAssignmentRemote getAssignment()
+    '''public WFAssignmentRemote getAssignment()
     '''
 def getNextApp():
-    '''    public String getNextApp()
+    '''public String getNextApp()
     '''
 def getNextAction():
-    '''    public String getNextAction()
+    '''public String getNextAction()
     '''
 def getWfSet():
-    '''    public MboSetRemote getWfSet()
+    '''public MboSetRemote getWfSet()
     '''
 def setAssignment():
-    '''    public void setAssignment(final WFAssignmentRemote remote)
+    '''public void setAssignment(final WFAssignmentRemote remote)
     '''
 def setInstance():
-    '''    public void setInstance(final WFInstanceRemote remote)
+    '''public void setInstance(final WFInstanceRemote remote)
     '''
 def getNextDirectionBody():
-    '''    public String getNextDirectionBody()
+    '''public String getNextDirectionBody()
     '''
 def getNextDirectionTitle():
-    '''    public String getNextDirectionTitle()
+    '''public String getNextDirectionTitle()
     '''
 def clearDirections():
-    '''    public void clearDirections()
+    '''public void clearDirections()
     '''
 def input():
-    '''    public void input(final DirectorInput message)
+    '''public void input(final DirectorInput message)
     '''
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''
 def resetNonUI():
-    '''    public void resetNonUI()
+    '''public void resetNonUI()
     '''
 def getControlled():
-    '''    public MboRemote getControlled()
+    '''public MboRemote getControlled()
     '''
 def setControlled():
-    '''    public void setControlled(final MboRemote remote)
+    '''public void setControlled(final MboRemote remote)
     '''
 def getControlledUniqueKey():
-    '''    public long getControlledUniqueKey()
+    '''public long getControlledUniqueKey()
     '''
 def startInput():
-    '''    public void startInput(final String app, final MboRemote target, final DirectorInput message)
+    '''public void startInput(final String app, final MboRemote target, final DirectorInput message)
     '''
 def getNextUniqueId():
-    '''    public long getNextUniqueId()
+    '''public long getNextUniqueId()
     '''
 def getWorkflowWarnings():
-    '''    public MXException[] getWorkflowWarnings()
+    '''public MXException[] getWorkflowWarnings()
     '''
 def addWorkflowWarning():
-    '''    public void addWorkflowWarning(final MXException exception)
+    '''public void addWorkflowWarning(final MXException exception)
     '''
 def isAtInteraction():
-    '''    public boolean isAtInteraction()
+    '''public boolean isAtInteraction()
     '''
 def getNextTab():
-    '''    public String getNextTab()
+    '''public String getNextTab()
     '''
 def setNextTab():
-    '''    public void setNextTab(final String nextTab)
+    '''public void setNextTab(final String nextTab)
     '''
 def getLaunchProcess():
-    '''    public String getLaunchProcess()
+    '''public String getLaunchProcess()
     '''
 def setLaunchProcess():
-    '''    public void setLaunchProcess(final String launchProcess)
+    '''public void setLaunchProcess(final String launchProcess)
     '''
 def setAssignID():
-    '''    public void setAssignID(final int assignID)
+    '''public void setAssignID(final int assignID)
     '''
 def setProcessName():
-    '''    public void setProcessName(final String valueString)
+    '''public void setProcessName(final String valueString)
     '''
 def doAutoInit():
-    '''    public boolean doAutoInit(final MboRemote targetMbo)
+    '''public boolean doAutoInit(final MboRemote targetMbo)
     '''
 def preventAutoInit():
-    '''    public void preventAutoInit()
+    '''public void preventAutoInit()
     '''
 def allowAutoInit():
-    '''    public void allowAutoInit()
+    '''public void allowAutoInit()
     '''
 def clearInteraction():
-    '''    public void clearInteraction()
+    '''public void clearInteraction()
     '''

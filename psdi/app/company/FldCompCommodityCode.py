@@ -1,3 +1,3 @@
 def FldCompCommodityCode():
-    '''    public FldCompCommodityCode(final MboValue mbv)
+    '''public FldCompCommodityCode(final MboValue mbv)
     '''

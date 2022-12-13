@@ -1,6 +1,6 @@
 def FldImOmpProductname():
-    '''    public FldImOmpProductname(final MboValue mbv)
+    '''public FldImOmpProductname(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

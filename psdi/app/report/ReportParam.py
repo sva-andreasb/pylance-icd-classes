@@ -1,9 +1,9 @@
 def ReportParam():
-    '''    public ReportParam(final MboSet ms)
+    '''public ReportParam(final MboSet ms)
     '''
 def sigopGranted():
-    '''    public boolean sigopGranted(final String optionname)
+    '''public boolean sigopGranted(final String optionname)
     '''
 def checkSiteOrgAccessForSave():
-    '''    public void checkSiteOrgAccessForSave()
+    '''public void checkSiteOrgAccessForSave()
     '''

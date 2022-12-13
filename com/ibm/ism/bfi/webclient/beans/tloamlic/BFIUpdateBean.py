@@ -1,9 +1,9 @@
 def BFIUpdateBean():
-    '''    public BFIUpdateBean()
+    '''public BFIUpdateBean()
     '''
 def sendUpdateCustomField():
-    '''    public synchronized int sendUpdateCustomField()
+    '''public synchronized int sendUpdateCustomField()
     '''
 def sendUpdateThreshold():
-    '''    public synchronized int sendUpdateThreshold()
+    '''public synchronized int sendUpdateThreshold()
     '''

@@ -1,3 +1,3 @@
 def SKDAsyncJobMsgRefresh():
-    '''    public SKDAsyncJobMsgRefresh(final MboSet ms)
+    '''public SKDAsyncJobMsgRefresh(final MboSet ms)
     '''

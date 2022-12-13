@@ -1,3 +1,3 @@
 def RejectedNotificationException():
-    '''    public RejectedNotificationException(final RejectionReason rejectionReason)
+    '''public RejectedNotificationException(final RejectionReason rejectionReason)
     '''

@@ -1,6 +1,6 @@
 def FldWOWarrNotice():
-    '''    public FldWOWarrNotice(final MboValue mbv)
+    '''public FldWOWarrNotice(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

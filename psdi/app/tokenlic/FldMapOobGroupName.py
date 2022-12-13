@@ -1,3 +1,3 @@
 def FldMapOobGroupName():
-    '''    public FldMapOobGroupName(final MboValue mbv)
+    '''public FldMapOobGroupName(final MboValue mbv)
     '''

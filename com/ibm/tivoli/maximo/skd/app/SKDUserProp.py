@@ -1,9 +1,9 @@
 def SKDUserProp():
-    '''    public SKDUserProp(final MboSet ms)
+    '''public SKDUserProp(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''

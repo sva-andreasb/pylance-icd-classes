@@ -1,9 +1,9 @@
 def getInstance():
-    '''    public static synchronized EnterpriseServiceDetailCache getInstance()
+    '''public static synchronized EnterpriseServiceDetailCache getInstance()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getEnterpriseServiceList():
-    '''    public List<EnterpriseServiceInfo> getEnterpriseServiceList(final String srv)
+    '''public List<EnterpriseServiceInfo> getEnterpriseServiceList(final String srv)
     '''

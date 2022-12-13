@@ -1,3 +1,3 @@
 def CannotHaveRulesException():
-    '''    public CannotHaveRulesException(final Resource root)
+    '''public CannotHaveRulesException(final Resource root)
     '''

@@ -1,12 +1,12 @@
 def PlusPBSActUse():
-    '''    public PlusPBSActUse(final MboSet set)
+    '''public PlusPBSActUse(final MboSet set)
     '''
 def copy():
-    '''    public MboRemote copy(final MboSetRemote mboSetRemote)
+    '''public MboRemote copy(final MboSetRemote mboSetRemote)
     '''
 def hasRange():
-    '''    public boolean hasRange()
+    '''public boolean hasRange()
     '''
 def rangeContains():
-    '''    public boolean rangeContains(final double n)
+    '''public boolean rangeContains(final double n)
     '''

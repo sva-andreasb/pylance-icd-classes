@@ -1,6 +1,6 @@
 def FldMaxGroupAuthAllRepFacs():
-    '''    public FldMaxGroupAuthAllRepFacs(final MboValue mbv)
+    '''public FldMaxGroupAuthAllRepFacs(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

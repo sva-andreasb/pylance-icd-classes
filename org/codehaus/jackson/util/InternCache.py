@@ -1,3 +1,3 @@
 def intern():
-    '''    public synchronized String intern(final String input)
+    '''public synchronized String intern(final String input)
     '''

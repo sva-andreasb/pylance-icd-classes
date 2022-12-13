@@ -1,40 +1,40 @@
 EDITABLE_PROPERTY = "String  \"Editable\""
 def IlvInputEditor():
-    '''    public IlvInputEditor()
+    '''public IlvInputEditor()
     '''
 def propertyChange():
-    '''    public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
+    '''public void propertyChange(final PropertyChangeEvent propertyChangeEvent)
     '''
 def connectModel():
-    '''    public void connectModel(final IlvEditionContext ilvEditionContext)
+    '''public void connectModel(final IlvEditionContext ilvEditionContext)
     '''
 def connectUI():
-    '''    public void connectUI(final IlvEditionContext ilvEditionContext)
+    '''public void connectUI(final IlvEditionContext ilvEditionContext)
     '''
 def initializeUI():
-    '''    public void initializeUI(final IlvEditionContext ilvEditionContext)
+    '''public void initializeUI(final IlvEditionContext ilvEditionContext)
     '''
 def disconnectUI():
-    '''    public void disconnectUI(final IlvEditionContext ilvEditionContext)
+    '''public void disconnectUI(final IlvEditionContext ilvEditionContext)
     '''
 def getInputText():
-    '''    public String getInputText()
+    '''public String getInputText()
     '''
 def setInputText():
-    '''    public void setInputText(final String inputText)
+    '''public void setInputText(final String inputText)
     '''
 def isEditable():
-    '''    public boolean isEditable()
+    '''public boolean isEditable()
     '''
 def setEditable():
-    '''    public void setEditable(final boolean b)
+    '''public void setEditable(final boolean b)
     '''
 def read():
-    '''    public void read(final Element element)
+    '''public void read(final Element element)
     '''
 def inputActivated():
-    '''    public void inputActivated(final InputEvent inputEvent)
+    '''public void inputActivated(final InputEvent inputEvent)
     '''
 def inputTextChanged():
-    '''    public void inputTextChanged(final InputEvent inputEvent)
+    '''public void inputTextChanged(final InputEvent inputEvent)
     '''

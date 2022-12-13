@@ -1,6 +1,6 @@
 def DMShiftProcess():
-    '''    public DMShiftProcess()
+    '''public DMShiftProcess()
     '''
 def checkValidateErrors():
-    '''    public void checkValidateErrors()
+    '''public void checkValidateErrors()
     '''

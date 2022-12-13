@@ -1,3 +1,3 @@
 def ReschedAssignSet():
-    '''    public ReschedAssignSet(final MboServerInterface ms)
+    '''public ReschedAssignSet(final MboServerInterface ms)
     '''

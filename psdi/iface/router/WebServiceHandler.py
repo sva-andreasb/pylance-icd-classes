@@ -12,15 +12,15 @@ HTTPCONNTIMEOUT = "String  \"HTTPCONNTIMEOUT\""
 HEADERELEMENTS = "String  \"HEADERELEMENTS\""
 SOAPVERSION = "String  \"SOAPVERSION\""
 def WebServiceHandler():
-    '''    public WebServiceHandler()
+    '''public WebServiceHandler()
     public WebServiceHandler(final MaxEndPointInfo endPointInfo)
     '''
 def getProperty():
-    '''    public static String getProperty(final String propName)
+    '''public static String getProperty(final String propName)
     '''
 def invoke():
-    '''    public byte[] invoke(final Map<String, ?> metaData, byte[] data)
+    '''public byte[] invoke(final Map<String, ?> metaData, byte[] data)
     '''
 def getProperties():
-    '''    public List<RouterPropsInfo> getProperties()
+    '''public List<RouterPropsInfo> getProperties()
     '''

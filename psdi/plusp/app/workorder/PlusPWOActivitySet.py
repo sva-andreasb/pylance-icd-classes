@@ -1,9 +1,9 @@
 def PlusPWOActivitySet():
-    '''    public PlusPWOActivitySet(final MboServerInterface arg0)
+    '''public PlusPWOActivitySet(final MboServerInterface arg0)
     '''
 def reportModifiedMbo():
-    '''    public void reportModifiedMbo(final MboRemote modifiedMbo)
+    '''public void reportModifiedMbo(final MboRemote modifiedMbo)
     '''
 def fireEventsAfterDBCommit():
-    '''    public void fireEventsAfterDBCommit(final MXTransaction txn)
+    '''public void fireEventsAfterDBCommit(final MXTransaction txn)
     '''

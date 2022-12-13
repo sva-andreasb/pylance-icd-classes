@@ -1,19 +1,19 @@
 def getReader():
-    '''    public Reader getReader()
+    '''public Reader getReader()
     '''
 def getString():
-    '''    public String getString()
+    '''public String getString()
     public String getString(final int maxLength)
     '''
 def getConfidence():
-    '''    public int getConfidence()
+    '''public int getConfidence()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getLanguage():
-    '''    public String getLanguage()
+    '''public String getLanguage()
     '''
 def compareTo():
-    '''    public int compareTo(final CharsetMatch other)
+    '''public int compareTo(final CharsetMatch other)
     '''

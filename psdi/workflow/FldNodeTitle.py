@@ -1,6 +1,6 @@
 def FldNodeTitle():
-    '''    public FldNodeTitle(final MboValue mbv)
+    '''public FldNodeTitle(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

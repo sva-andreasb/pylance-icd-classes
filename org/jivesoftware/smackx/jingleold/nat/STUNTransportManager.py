@@ -1,3 +1,3 @@
 def STUNTransportManager():
-    '''    public STUNTransportManager()
+    '''public STUNTransportManager()
     '''

@@ -1,24 +1,24 @@
 def schemaVersions():
-    '''    public static Schema[] schemaVersions()
+    '''public static Schema[] schemaVersions()
     '''
 def ControlledShutdownRequest():
-    '''    public ControlledShutdownRequest(final Struct struct, final short version)
+    '''public ControlledShutdownRequest(final Struct struct, final short version)
     '''
 def getErrorResponse():
-    '''    public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
+    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable e)
     '''
 def brokerId():
-    '''    public int brokerId()
+    '''public int brokerId()
     '''
 def parse():
-    '''    public static ControlledShutdownRequest parse(final ByteBuffer buffer, final short version)
+    '''public static ControlledShutdownRequest parse(final ByteBuffer buffer, final short version)
     '''
 def Builder():
-    '''    public Builder(final int brokerId, final short desiredVersion)
+    '''public Builder(final int brokerId, final short desiredVersion)
     '''
 def build():
-    '''    public ControlledShutdownRequest build(final short version)
+    '''public ControlledShutdownRequest build(final short version)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

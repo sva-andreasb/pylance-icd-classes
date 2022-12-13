@@ -1,3 +1,3 @@
 def PurchViewChgStatSet():
-    '''    public PurchViewChgStatSet(final MboServerInterface ms)
+    '''public PurchViewChgStatSet(final MboServerInterface ms)
     '''

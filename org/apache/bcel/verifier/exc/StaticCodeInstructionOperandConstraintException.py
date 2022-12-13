@@ -1,3 +1,3 @@
 def StaticCodeInstructionOperandConstraintException():
-    '''    public StaticCodeInstructionOperandConstraintException(final String message)
+    '''public StaticCodeInstructionOperandConstraintException(final String message)
     '''

@@ -1,7 +1,7 @@
 DEFAULT_PORT = "int  9"
 def DiscardTCPClient():
-    '''    public DiscardTCPClient()
+    '''public DiscardTCPClient()
     '''
 def getOutputStream():
-    '''    public OutputStream getOutputStream()
+    '''public OutputStream getOutputStream()
     '''

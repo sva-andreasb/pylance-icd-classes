@@ -1,35 +1,35 @@
 def SlackMessage():
-    '''    public SlackMessage(final String text)
+    '''public SlackMessage(final String text)
     public SlackMessage(final JSONArray blocks)
     public SlackMessage()
     '''
 def setText():
-    '''    public void setText(final String text)
+    '''public void setText(final String text)
     '''
 def setBlocks():
-    '''    public void setBlocks(final JSONArray blocks)
+    '''public void setBlocks(final JSONArray blocks)
     '''
 def setAttachments():
-    '''    public void setAttachments(final JSONArray attachments)
+    '''public void setAttachments(final JSONArray attachments)
     '''
 def setThreadTs():
-    '''    public void setThreadTs(final String threadTs)
+    '''public void setThreadTs(final String threadTs)
     '''
 def setMrkdwn():
-    '''    public void setMrkdwn(final boolean mrkdwn)
+    '''public void setMrkdwn(final boolean mrkdwn)
     '''
 def getText():
-    '''    public String getText()
+    '''public String getText()
     '''
 def getBlocks():
-    '''    public JSONArray getBlocks()
+    '''public JSONArray getBlocks()
     '''
 def getAttachments():
-    '''    public JSONArray getAttachments()
+    '''public JSONArray getAttachments()
     '''
 def getThreadTs():
-    '''    public String getThreadTs()
+    '''public String getThreadTs()
     '''
 def getMrkdwn():
-    '''    public boolean getMrkdwn()
+    '''public boolean getMrkdwn()
     '''

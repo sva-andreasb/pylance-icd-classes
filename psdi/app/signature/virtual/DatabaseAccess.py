@@ -1,9 +1,9 @@
 def DatabaseAccess():
-    '''    public DatabaseAccess(final MboSet ms)
+    '''public DatabaseAccess(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def saveAccess():
-    '''    public void saveAccess()
+    '''public void saveAccess()
     '''

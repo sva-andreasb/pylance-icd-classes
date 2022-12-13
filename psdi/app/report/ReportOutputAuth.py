@@ -1,6 +1,6 @@
 def ReportOutputAuth():
-    '''    public ReportOutputAuth(final MboSet ms)
+    '''public ReportOutputAuth(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

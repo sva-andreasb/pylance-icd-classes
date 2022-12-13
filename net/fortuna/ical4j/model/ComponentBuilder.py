@@ -1,6 +1,6 @@
 def ComponentBuilder():
-    '''    public ComponentBuilder()
+    '''public ComponentBuilder()
     '''
 def build():
-    '''    public T build()
+    '''public T build()
     '''

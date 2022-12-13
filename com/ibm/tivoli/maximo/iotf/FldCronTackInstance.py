@@ -1,6 +1,6 @@
 def FldCronTackInstance():
-    '''    public FldCronTackInstance(final MboValue mbv)
+    '''public FldCronTackInstance(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

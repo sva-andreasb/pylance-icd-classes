@@ -1,15 +1,15 @@
 def RtfPhrase():
-    '''    public RtfPhrase(final RtfDocument doc, final Phrase phrase)
+    '''public RtfPhrase(final RtfDocument doc, final Phrase phrase)
     '''
 def write():
-    '''    public byte[] write()
+    '''public byte[] write()
     '''
 def setInTable():
-    '''    public void setInTable(final boolean inTable)
+    '''public void setInTable(final boolean inTable)
     '''
 def setInHeader():
-    '''    public void setInHeader(final boolean inHeader)
+    '''public void setInHeader(final boolean inHeader)
     '''
 def setRtfDocument():
-    '''    public void setRtfDocument(final RtfDocument doc)
+    '''public void setRtfDocument(final RtfDocument doc)
     '''

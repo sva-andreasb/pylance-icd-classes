@@ -1,15 +1,15 @@
 def setupBean():
-    '''    public void setupBean(final WebClientSession wcs)
+    '''public void setupBean(final WebClientSession wcs)
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def getMboByAppBean():
-    '''    public MboRemote getMboByAppBean()
+    '''public MboRemote getMboByAppBean()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def execute():
-    '''    public synchronized int execute()
+    '''public synchronized int execute()
     '''

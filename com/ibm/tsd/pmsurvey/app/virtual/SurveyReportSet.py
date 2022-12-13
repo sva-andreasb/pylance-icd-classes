@@ -1,9 +1,9 @@
 def SurveyReportSet():
-    '''    public SurveyReportSet(final MboServerInterface ms)
+    '''public SurveyReportSet(final MboServerInterface ms)
     '''
 def getMbo():
-    '''    public MboRemote getMbo(final int pos)
+    '''public MboRemote getMbo(final int pos)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

@@ -1,6 +1,6 @@
 def PmFldChangeStatus():
-    '''    public PmFldChangeStatus(final MboValue mbv)
+    '''public PmFldChangeStatus(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

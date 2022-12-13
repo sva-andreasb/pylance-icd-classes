@@ -1,6 +1,6 @@
 def SFWViewChgStat():
-    '''    public SFWViewChgStat(final MboSet ms)
+    '''public SFWViewChgStat(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

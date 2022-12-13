@@ -1,3 +1,3 @@
 def UserNotificationPoint():
-    '''    public UserNotificationPoint(final MboSet ms)
+    '''public UserNotificationPoint(final MboSet ms)
     '''

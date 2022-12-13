@@ -1,6 +1,6 @@
 def PmtcoFldTKSolFeedback():
-    '''    public PmtcoFldTKSolFeedback(final MboValue mbv)
+    '''public PmtcoFldTKSolFeedback(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

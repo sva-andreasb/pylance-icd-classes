@@ -1,6 +1,6 @@
 def FldMeasurementMeasureDate():
-    '''    public FldMeasurementMeasureDate(final MboValue mbv)
+    '''public FldMeasurementMeasureDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

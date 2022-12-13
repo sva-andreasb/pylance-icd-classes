@@ -1,3 +1,3 @@
 def TAMITCustomerSet():
-    '''    public TAMITCustomerSet(final MboServerInterface ms)
+    '''public TAMITCustomerSet(final MboServerInterface ms)
     '''

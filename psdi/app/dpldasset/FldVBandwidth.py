@@ -1,6 +1,6 @@
 def FldVBandwidth():
-    '''    public FldVBandwidth(final MboValue mbv)
+    '''public FldVBandwidth(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

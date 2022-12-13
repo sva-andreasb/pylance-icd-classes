@@ -1,6 +1,6 @@
 def SimpleLoggerConfiguration():
-    '''    public SimpleLoggerConfiguration()
+    '''public SimpleLoggerConfiguration()
     '''
 def run():
-    '''    public InputStream run()
+    '''public InputStream run()
     '''

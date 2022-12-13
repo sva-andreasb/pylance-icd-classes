@@ -1,3 +1,3 @@
 def getSystemColor():
-    '''    public static Value getSystemColor(String ident)
+    '''public static Value getSystemColor(String ident)
     '''

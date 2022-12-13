@@ -1,9 +1,9 @@
 def MaxRecordLock():
-    '''    public MaxRecordLock(final MboSet ms)
+    '''public MaxRecordLock(final MboSet ms)
     '''
 def adminReleaseReclock():
-    '''    public void adminReleaseReclock(final long accessModifier)
+    '''public void adminReleaseReclock(final long accessModifier)
     '''
 def timeRecordLocked():
-    '''    public long timeRecordLocked()
+    '''public long timeRecordLocked()
     '''

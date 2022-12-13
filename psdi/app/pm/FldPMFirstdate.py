@@ -1,6 +1,6 @@
 def FldPMFirstdate():
-    '''    public FldPMFirstdate(final MboValue mbv)
+    '''public FldPMFirstdate(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

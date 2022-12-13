@@ -1,6 +1,6 @@
 def PlusPFldToolTransItemnum():
-    '''    public PlusPFldToolTransItemnum(final MboValue arg0)
+    '''public PlusPFldToolTransItemnum(final MboValue arg0)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

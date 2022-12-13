@@ -1,6 +1,6 @@
 def doRefresh():
-    '''    public int doRefresh()
+    '''public int doRefresh()
     '''
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''

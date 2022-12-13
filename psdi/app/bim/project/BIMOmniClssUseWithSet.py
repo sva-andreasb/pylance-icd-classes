@@ -1,3 +1,3 @@
 def BIMOmniClssUseWithSet():
-    '''    public BIMOmniClssUseWithSet(final MboServerInterface ms)
+    '''public BIMOmniClssUseWithSet(final MboServerInterface ms)
     '''

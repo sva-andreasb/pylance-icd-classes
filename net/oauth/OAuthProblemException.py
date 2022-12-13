@@ -6,24 +6,24 @@ HTTP_LOCATION = "String  \"Location\""
 SIGNATURE_BASE_STRING = "String  \"oauth_signature base string\""
 URL = "String  \"URL\""
 def OAuthProblemException():
-    '''    public OAuthProblemException()
+    '''public OAuthProblemException()
     public OAuthProblemException(final String problem)
     '''
 def getMessage():
-    '''    public String getMessage()
+    '''public String getMessage()
     '''
 def setParameter():
-    '''    public void setParameter(final String name, final Object value)
+    '''public void setParameter(final String name, final Object value)
     '''
 def getParameters():
-    '''    public Map<String, Object> getParameters()
+    '''public Map<String, Object> getParameters()
     '''
 def getProblem():
-    '''    public String getProblem()
+    '''public String getProblem()
     '''
 def getHttpStatusCode():
-    '''    public int getHttpStatusCode()
+    '''public int getHttpStatusCode()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

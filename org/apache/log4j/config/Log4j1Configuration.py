@@ -4,14 +4,14 @@ THRESHOLD_PARAM = "String  \"Threshold\""
 INHERITED = "String  \"inherited\""
 NULL = "String  \"null\""
 def Log4j1Configuration():
-    '''    public Log4j1Configuration(final LoggerContext loggerContext, final ConfigurationSource source, final int monitorIntervalSeconds)
+    '''public Log4j1Configuration(final LoggerContext loggerContext, final ConfigurationSource source, final int monitorIntervalSeconds)
     '''
 def getBuilderManager():
-    '''    public BuilderManager getBuilderManager()
+    '''public BuilderManager getBuilderManager()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def reconfigure():
-    '''    public Configuration reconfigure()
+    '''public Configuration reconfigure()
     '''

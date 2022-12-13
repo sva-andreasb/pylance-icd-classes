@@ -1,3 +1,3 @@
 def SRMFldClassstructOwnerGroup():
-    '''    public SRMFldClassstructOwnerGroup(final MboValue mbv)
+    '''public SRMFldClassstructOwnerGroup(final MboValue mbv)
     '''

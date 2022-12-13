@@ -1,6 +1,6 @@
 def ConstructorTarget():
-    '''    public ConstructorTarget(final Constructor constructor, final Deserializer deSerializer)
+    '''public ConstructorTarget(final Constructor constructor, final Deserializer deSerializer)
     '''
 def set():
-    '''    public void set(final Object value)
+    '''public void set(final Object value)
     '''

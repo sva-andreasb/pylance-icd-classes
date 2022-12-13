@@ -1,3 +1,3 @@
 def clearListTable():
-    '''    public int clearListTable()
+    '''public int clearListTable()
     '''

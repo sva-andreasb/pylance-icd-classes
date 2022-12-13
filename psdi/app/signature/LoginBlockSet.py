@@ -1,3 +1,3 @@
 def LoginBlockSet():
-    '''    public LoginBlockSet(final MboServerInterface ms)
+    '''public LoginBlockSet(final MboServerInterface ms)
     '''

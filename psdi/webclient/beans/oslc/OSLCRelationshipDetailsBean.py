@@ -1,3 +1,3 @@
 def OSLCRelationshipDetailsBean():
-    '''    public OSLCRelationshipDetailsBean()
+    '''public OSLCRelationshipDetailsBean()
     '''

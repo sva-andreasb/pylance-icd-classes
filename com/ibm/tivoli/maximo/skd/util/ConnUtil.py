@@ -1,3 +1,3 @@
 def getSPID():
-    '''    public static String getSPID(final Connection connection)
+    '''public static String getSPID(final Connection connection)
     '''

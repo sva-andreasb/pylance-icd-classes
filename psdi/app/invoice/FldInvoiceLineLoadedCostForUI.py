@@ -1,6 +1,6 @@
 def FldInvoiceLineLoadedCostForUI():
-    '''    public FldInvoiceLineLoadedCostForUI(final MboValue mbv)
+    '''public FldInvoiceLineLoadedCostForUI(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

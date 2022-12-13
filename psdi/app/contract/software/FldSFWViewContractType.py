@@ -1,9 +1,9 @@
 def FldSFWViewContractType():
-    '''    public FldSFWViewContractType(final MboValue mbv)
+    '''public FldSFWViewContractType(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

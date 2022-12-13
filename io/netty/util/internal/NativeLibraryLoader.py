@@ -1,9 +1,9 @@
 def loadFirstAvailable():
-    '''    public static void loadFirstAvailable(final ClassLoader loader, final String... names)
+    '''public static void loadFirstAvailable(final ClassLoader loader, final String... names)
     '''
 def load():
-    '''    public static void load(final String originalName, final ClassLoader loader)
+    '''public static void load(final String originalName, final ClassLoader loader)
     '''
 def run():
-    '''    public Object run()
+    '''public Object run()
     '''

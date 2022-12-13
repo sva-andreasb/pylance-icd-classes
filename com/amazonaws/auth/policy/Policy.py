@@ -1,32 +1,32 @@
 def Policy():
-    '''    public Policy()
+    '''public Policy()
     public Policy(final String id)
     public Policy(final String id, final Collection<Statement> statements)
     '''
 def getId():
-    '''    public String getId()
+    '''public String getId()
     '''
 def setId():
-    '''    public void setId(final String id)
+    '''public void setId(final String id)
     '''
 def withId():
-    '''    public Policy withId(final String id)
+    '''public Policy withId(final String id)
     '''
 def getVersion():
-    '''    public String getVersion()
+    '''public String getVersion()
     '''
 def getStatements():
-    '''    public Collection<Statement> getStatements()
+    '''public Collection<Statement> getStatements()
     '''
 def setStatements():
-    '''    public void setStatements(final Collection<Statement> statements)
+    '''public void setStatements(final Collection<Statement> statements)
     '''
 def withStatements():
-    '''    public Policy withStatements(final Statement... statements)
+    '''public Policy withStatements(final Statement... statements)
     '''
 def toJson():
-    '''    public String toJson()
+    '''public String toJson()
     '''
 def fromJson():
-    '''    public static Policy fromJson(final String jsonString)
+    '''public static Policy fromJson(final String jsonString)
     '''

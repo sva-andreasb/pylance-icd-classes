@@ -1,3 +1,3 @@
 def PlusPBillUpdateCustRefSet():
-    '''    public PlusPBillUpdateCustRefSet(final MboServerInterface ms)
+    '''public PlusPBillUpdateCustRefSet(final MboServerInterface ms)
     '''

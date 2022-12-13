@@ -1,6 +1,6 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def returnwithvalue():
-    '''    public int returnwithvalue()
+    '''public int returnwithvalue()
     '''

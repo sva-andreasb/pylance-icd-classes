@@ -9,10 +9,10 @@ ERROR_NEED_JAVASCRIPT = "String  \"message.needjavascript\""
 WARNING_LOSE_CHANGES = "String  \"message.losechanges\""
 WARNING_WF_DELETE = "String  \"message.deleteworkflow\""
 def showException():
-    '''    public static void showException(final JApplet appletObject, final Exception ex)
+    '''public static void showException(final JApplet appletObject, final Exception ex)
     '''
 def showMessage():
-    '''    public static void showMessage(final JApplet appletObject, final Hashtable dialogInfo, final Object message)
+    '''public static void showMessage(final JApplet appletObject, final Hashtable dialogInfo, final Object message)
     public static boolean showMessage(final String key)
     public static boolean showMessage(final String key, final Object arg)
     public static boolean showMessage(final String key, final Object[] args)

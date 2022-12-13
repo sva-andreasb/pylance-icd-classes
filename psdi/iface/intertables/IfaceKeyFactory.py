@@ -1,3 +1,3 @@
 def loadIfaceTbKeys():
-    '''    public static void loadIfaceTbKeys(final List<MosDetailInfo> micInfoList)
+    '''public static void loadIfaceTbKeys(final List<MosDetailInfo> micInfoList)
     '''

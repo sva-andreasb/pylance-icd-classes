@@ -1,6 +1,6 @@
 def add():
-    '''    public JArray add(final JExpression e)
+    '''public JArray add(final JExpression e)
     '''
 def generate():
-    '''    public void generate(final JFormatter f)
+    '''public void generate(final JFormatter f)
     '''

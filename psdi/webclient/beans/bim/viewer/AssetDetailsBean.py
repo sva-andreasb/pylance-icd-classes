@@ -1,9 +1,9 @@
 def AssetDetailsBean():
-    '''    public AssetDetailsBean()
+    '''public AssetDetailsBean()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def execute():
-    '''    public synchronized int execute()
+    '''public synchronized int execute()
     '''

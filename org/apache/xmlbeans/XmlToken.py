@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_token\")"
 def newInstance():
-    '''    public static XmlToken newInstance()
+    '''public static XmlToken newInstance()
     public static XmlToken newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlToken newValue(final Object obj)
+    '''public static XmlToken newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlToken parse(final String s)
+    '''public static XmlToken parse(final String s)
     public static XmlToken parse(final String s, final XmlOptions options)
     public static XmlToken parse(final File f)
     public static XmlToken parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlToken parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

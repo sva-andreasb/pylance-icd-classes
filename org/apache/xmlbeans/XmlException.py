@@ -1,5 +1,5 @@
 def XmlException():
-    '''    public XmlException(final String m)
+    '''public XmlException(final String m)
     public XmlException(final String m, final Throwable t)
     public XmlException(final Throwable t)
     public XmlException(final XmlError error)
@@ -8,8 +8,8 @@ def XmlException():
     public XmlException(final XmlRuntimeException xmlRuntimeException)
     '''
 def getError():
-    '''    public XmlError getError()
+    '''public XmlError getError()
     '''
 def getErrors():
-    '''    public Collection getErrors()
+    '''public Collection getErrors()
     '''

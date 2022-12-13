@@ -1,21 +1,21 @@
 def InvLifoFifoCost():
-    '''    public InvLifoFifoCost(final MboSet ms)
+    '''public InvLifoFifoCost(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def compareTo():
-    '''    public int compareTo(final Object o)
+    '''public int compareTo(final Object o)
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''

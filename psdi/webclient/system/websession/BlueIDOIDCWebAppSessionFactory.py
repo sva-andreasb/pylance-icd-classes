@@ -1,6 +1,6 @@
 def getSession():
-    '''    public MXSession getSession()
+    '''public MXSession getSession()
     '''
 def getNewSession():
-    '''    public MXSession getNewSession()
+    '''public MXSession getNewSession()
     '''

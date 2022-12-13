@@ -1,6 +1,6 @@
 def SKDAssignRepLocWorkLogBean():
-    '''    public SKDAssignRepLocWorkLogBean()
+    '''public SKDAssignRepLocWorkLogBean()
     '''
 def addrow():
-    '''    public int addrow()
+    '''public int addrow()
     '''

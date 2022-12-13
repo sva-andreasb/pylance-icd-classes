@@ -1,3 +1,3 @@
 def next():
-    '''    public E next()
+    '''public E next()
     '''

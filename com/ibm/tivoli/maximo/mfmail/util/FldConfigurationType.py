@@ -1,9 +1,9 @@
 def FldConfigurationType():
-    '''    public FldConfigurationType(final MboValue mv)
+    '''public FldConfigurationType(final MboValue mv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

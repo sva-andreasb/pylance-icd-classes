@@ -1,15 +1,15 @@
 def Py():
-    '''    public Py()
+    '''public Py()
     '''
 def bindStream():
-    '''    public OutputStream bindStream(final OutputStream output)
+    '''public OutputStream bindStream(final OutputStream output)
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def flush():
-    '''    public void flush()
+    '''public void flush()
     '''
 def write():
-    '''    public void write(final int ch)
+    '''public void write(final int ch)
     '''

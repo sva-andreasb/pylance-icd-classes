@@ -1,3 +1,3 @@
 def WritingNotSupportedException():
-    '''    public WritingNotSupportedException(final long variantType, final Object value)
+    '''public WritingNotSupportedException(final long variantType, final Object value)
     '''

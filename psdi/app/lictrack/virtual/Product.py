@@ -1,3 +1,3 @@
 def Product():
-    '''    public Product(final MboSet ms)
+    '''public Product(final MboSet ms)
     '''

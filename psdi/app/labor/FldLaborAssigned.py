@@ -1,6 +1,6 @@
 def FldLaborAssigned():
-    '''    public FldLaborAssigned(final MboValue mbv)
+    '''public FldLaborAssigned(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

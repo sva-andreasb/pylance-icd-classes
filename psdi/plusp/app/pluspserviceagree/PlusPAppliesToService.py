@@ -1,3 +1,3 @@
 def PlusPAppliesToService():
-    '''    public PlusPAppliesToService(final MboSet set)
+    '''public PlusPAppliesToService(final MboSet set)
     '''

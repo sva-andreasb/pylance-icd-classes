@@ -1,6 +1,6 @@
 def getHeight():
-    '''    public int getHeight()
+    '''public int getHeight()
     '''
 def getWidth():
-    '''    public int getWidth()
+    '''public int getWidth()
     '''

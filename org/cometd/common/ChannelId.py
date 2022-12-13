@@ -1,3 +1,3 @@
 def ChannelId():
-    '''    public ChannelId(final String name)
+    '''public ChannelId(final String name)
     '''

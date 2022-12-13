@@ -1,3 +1,3 @@
 def StreamFeatureProviderInfo():
-    '''    public StreamFeatureProviderInfo(final String elementName, final String namespace, final ExtensionElementProvider<ExtensionElement> extProvider)
+    '''public StreamFeatureProviderInfo(final String elementName, final String namespace, final ExtensionElementProvider<ExtensionElement> extProvider)
     '''

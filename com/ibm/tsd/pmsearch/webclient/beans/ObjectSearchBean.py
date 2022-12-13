@@ -9,38 +9,38 @@ DESCRIPTION_LD = "String  \"description_longdescription\""
 TICKETID = "String  \"ticketid\""
 CLASS = "String  \"class\""
 def ObjectSearchBean():
-    '''    public ObjectSearchBean()
+    '''public ObjectSearchBean()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''
 def searchSolutions():
-    '''    public int searchSolutions()
+    '''public int searchSolutions()
     '''
 def initializeApp():
-    '''    public void initializeApp()
+    '''public void initializeApp()
     '''
 def applySolution():
-    '''    public int applySolution()
+    '''public int applySolution()
     '''
 def refresh():
-    '''    public int refresh()
+    '''public int refresh()
     '''
 def APPLYSERCH():
-    '''    public int APPLYSERCH()
+    '''public int APPLYSERCH()
     '''
 def getSelectedSerchFldList():
-    '''    public HashSet<String> getSelectedSerchFldList()
+    '''public HashSet<String> getSelectedSerchFldList()
     '''
 def setSelectedSerchFldList():
-    '''    public void setSelectedSerchFldList(final HashSet<String> selectedSerchFldList)
+    '''public void setSelectedSerchFldList(final HashSet<String> selectedSerchFldList)
     '''
 def setupBean():
-    '''    public void setupBean(final WebClientSession wcs)
+    '''public void setupBean(final WebClientSession wcs)
     '''
 def close():
-    '''    public synchronized void close()
+    '''public synchronized void close()
     '''

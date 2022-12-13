@@ -1,6 +1,6 @@
 def PromoteNodeBean():
-    '''    public PromoteNodeBean()
+    '''public PromoteNodeBean()
     '''
 def associateClassification():
-    '''    public int associateClassification()
+    '''public int associateClassification()
     '''

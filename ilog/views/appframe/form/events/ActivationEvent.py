@@ -1,3 +1,3 @@
 def ActivationEvent():
-    '''    public ActivationEvent(final Object o)
+    '''public ActivationEvent(final Object o)
     '''

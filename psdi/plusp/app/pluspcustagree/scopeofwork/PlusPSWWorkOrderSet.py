@@ -1,3 +1,3 @@
 def PlusPSWWorkOrderSet():
-    '''    public PlusPSWWorkOrderSet(final MboServerInterface ms)
+    '''public PlusPSWWorkOrderSet(final MboServerInterface ms)
     '''

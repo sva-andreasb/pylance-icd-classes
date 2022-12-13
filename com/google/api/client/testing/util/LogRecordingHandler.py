@@ -1,15 +1,15 @@
 def LogRecordingHandler():
-    '''    public LogRecordingHandler()
+    '''public LogRecordingHandler()
     '''
 def publish():
-    '''    public void publish(final LogRecord record)
+    '''public void publish(final LogRecord record)
     '''
 def flush():
-    '''    public void flush()
+    '''public void flush()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def messages():
-    '''    public List<String> messages()
+    '''public List<String> messages()
     '''

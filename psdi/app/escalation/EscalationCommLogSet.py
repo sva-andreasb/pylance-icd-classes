@@ -1,3 +1,3 @@
 def EscalationCommLogSet():
-    '''    public EscalationCommLogSet(final MboServerInterface ms)
+    '''public EscalationCommLogSet(final MboServerInterface ms)
     '''

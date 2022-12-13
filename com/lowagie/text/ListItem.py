@@ -1,5 +1,5 @@
 def ListItem():
-    '''    public ListItem()
+    '''public ListItem()
     public ListItem(final float leading)
     public ListItem(final Chunk chunk)
     public ListItem(final String string)
@@ -11,14 +11,14 @@ def ListItem():
     public ListItem(final Properties attributes)
     '''
 def type():
-    '''    public int type()
+    '''public int type()
     '''
 def setListSymbol():
-    '''    public void setListSymbol(final Chunk symbol)
+    '''public void setListSymbol(final Chunk symbol)
     '''
 def listSymbol():
-    '''    public Chunk listSymbol()
+    '''public Chunk listSymbol()
     '''
 def isTag():
-    '''    public static boolean isTag(final String tag)
+    '''public static boolean isTag(final String tag)
     '''

@@ -1,6 +1,6 @@
 def FldCalendarEndDate():
-    '''    public FldCalendarEndDate(final MboValue mbv)
+    '''public FldCalendarEndDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

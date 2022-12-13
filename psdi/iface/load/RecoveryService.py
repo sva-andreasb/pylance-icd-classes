@@ -1,18 +1,18 @@
 def RecoveryService():
-    '''    public RecoveryService(final File loadFile)
+    '''public RecoveryService(final File loadFile)
     '''
 def startRecovery():
-    '''    public boolean startRecovery()
+    '''public boolean startRecovery()
     '''
 def endRecovery():
-    '''    public void endRecovery()
+    '''public void endRecovery()
     '''
 def releaseResources():
-    '''    public void releaseResources()
+    '''public void releaseResources()
     '''
 def writeRecoveryUnit():
-    '''    public void writeRecoveryUnit(final String unit)
+    '''public void writeRecoveryUnit(final String unit)
     '''
 def readRecoveryUnit():
-    '''    public String readRecoveryUnit()
+    '''public String readRecoveryUnit()
     '''

@@ -1,15 +1,15 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def getRowType():
-    '''    public int getRowType()
+    '''public int getRowType()
     '''
 def rowVisible():
-    '''    public boolean rowVisible()
+    '''public boolean rowVisible()
     '''
 def render():
-    '''    public int render()
+    '''public int render()
     '''
 def maintainControlId():
-    '''    public boolean maintainControlId()
+    '''public boolean maintainControlId()
     '''

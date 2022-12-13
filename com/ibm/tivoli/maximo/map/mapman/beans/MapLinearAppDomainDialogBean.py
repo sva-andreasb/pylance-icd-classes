@@ -1,6 +1,6 @@
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''
 def getMaxAppObject():
-    '''    public String getMaxAppObject(final String app)
+    '''public String getMaxAppObject(final String app)
     '''

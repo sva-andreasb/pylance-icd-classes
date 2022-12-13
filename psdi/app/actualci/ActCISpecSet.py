@@ -1,3 +1,3 @@
 def ActCISpecSet():
-    '''    public ActCISpecSet(final MboServerInterface ms)
+    '''public ActCISpecSet(final MboServerInterface ms)
     '''

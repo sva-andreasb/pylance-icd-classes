@@ -11,33 +11,33 @@ TYPE_CLUSTER_SCOPED_DATA_ADDED = "String  \"type.cluster.scoped.data.added\""
 TYPE_CLUSTER_SCOPED_DATA_REMOVED = "String  \"type.cluster.scoped.data.removed\""
 TYPE_MEMBER_SCOPED_DATA_ADDED = "String  \"type.member.scoped.data.added\""
 def getInstance():
-    '''    public static DescriptionFactory getInstance()
+    '''public static DescriptionFactory getInstance()
     '''
 def createDescription():
-    '''    public Description createDescription(final DescriptionKey key, final String implKey)
+    '''public Description createDescription(final DescriptionKey key, final String implKey)
     '''
 def createLocalDescription():
-    '''    public Description createLocalDescription(final DescriptionKey key, final String implementationKey)
+    '''public Description createLocalDescription(final DescriptionKey key, final String implementationKey)
     '''
 def registerNotificationListener():
-    '''    public synchronized void registerNotificationListener(final DescriptionModificationListener listener, final String key, final String type)
+    '''public synchronized void registerNotificationListener(final DescriptionModificationListener listener, final String key, final String type)
     '''
 def deregisterNotificationListener():
-    '''    public synchronized void deregisterNotificationListener(final DescriptionModificationListener listener, final String key, final String type)
+    '''public synchronized void deregisterNotificationListener(final DescriptionModificationListener listener, final String key, final String type)
     '''
 def notifyListeners():
-    '''    public void notifyListeners(final DescriptionKey key, final String type, final Object data)
+    '''public void notifyListeners(final DescriptionKey key, final String type, final Object data)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     public String toString()
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''

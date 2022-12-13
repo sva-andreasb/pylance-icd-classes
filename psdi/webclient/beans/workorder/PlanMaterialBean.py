@@ -1,15 +1,15 @@
 def copySpareParts():
-    '''    public int copySpareParts(final MboSetRemote spareParts)
+    '''public int copySpareParts(final MboSetRemote spareParts)
     '''
 def catalog():
-    '''    public int catalog()
+    '''public int catalog()
     '''
 def selasparts():
-    '''    public int selasparts()
+    '''public int selasparts()
     '''
 def selectmaterialsonplans():
-    '''    public int selectmaterialsonplans()
+    '''public int selectmaterialsonplans()
     '''
 def addListener():
-    '''    public void addListener(final DataBeanListener listener)
+    '''public void addListener(final DataBeanListener listener)
     '''

@@ -1,3 +1,3 @@
 def getMessage():
-    '''    public int getMessage()
+    '''public int getMessage()
     '''

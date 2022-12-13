@@ -1,3 +1,3 @@
 def PmFldModDowntimeHistRecordKey():
-    '''    public PmFldModDowntimeHistRecordKey(final MboValue mbv)
+    '''public PmFldModDowntimeHistRecordKey(final MboValue mbv)
     '''

@@ -1,9 +1,9 @@
 def PlusCFldUnitOfMeasure():
-    '''    public PlusCFldUnitOfMeasure(final MboValue mbv)
+    '''public PlusCFldUnitOfMeasure(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

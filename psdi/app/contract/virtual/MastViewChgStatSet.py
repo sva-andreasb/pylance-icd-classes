@@ -1,3 +1,3 @@
 def MastViewChgStatSet():
-    '''    public MastViewChgStatSet(final MboServerInterface ms)
+    '''public MastViewChgStatSet(final MboServerInterface ms)
     '''

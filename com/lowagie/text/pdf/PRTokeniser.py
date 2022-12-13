@@ -9,88 +9,88 @@ TK_END_DIC = "int  8"
 TK_REF = "int  9"
 TK_OTHER = "int  10"
 def PRTokeniser():
-    '''    public PRTokeniser(final String filename)
+    '''public PRTokeniser(final String filename)
     public PRTokeniser(final byte[] pdfIn)
     public PRTokeniser(final RandomAccessFileOrArray file)
     '''
 def seek():
-    '''    public void seek(final int pos)
+    '''public void seek(final int pos)
     '''
 def getFilePointer():
-    '''    public int getFilePointer()
+    '''public int getFilePointer()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def length():
-    '''    public int length()
+    '''public int length()
     '''
 def read():
-    '''    public int read()
+    '''public int read()
     '''
 def getSafeFile():
-    '''    public RandomAccessFileOrArray getSafeFile()
+    '''public RandomAccessFileOrArray getSafeFile()
     '''
 def getFile():
-    '''    public RandomAccessFileOrArray getFile()
+    '''public RandomAccessFileOrArray getFile()
     '''
 def readString():
-    '''    public String readString(int size)
+    '''public String readString(int size)
     '''
 def isWhitespace():
-    '''    public static final boolean isWhitespace(final int ch)
+    '''public static final boolean isWhitespace(final int ch)
     '''
 def isDelimiter():
-    '''    public static final boolean isDelimiter(final int ch)
+    '''public static final boolean isDelimiter(final int ch)
     '''
 def isDelimiterWhitespace():
-    '''    public static final boolean isDelimiterWhitespace(final int ch)
+    '''public static final boolean isDelimiterWhitespace(final int ch)
     '''
 def getTokenType():
-    '''    public int getTokenType()
+    '''public int getTokenType()
     '''
 def getStringValue():
-    '''    public String getStringValue()
+    '''public String getStringValue()
     '''
 def getReference():
-    '''    public int getReference()
+    '''public int getReference()
     '''
 def getGeneration():
-    '''    public int getGeneration()
+    '''public int getGeneration()
     '''
 def backOnePosition():
-    '''    public void backOnePosition(final int ch)
+    '''public void backOnePosition(final int ch)
     '''
 def throwError():
-    '''    public void throwError(final String error)
+    '''public void throwError(final String error)
     '''
 def checkPdfHeader():
-    '''    public char checkPdfHeader()
+    '''public char checkPdfHeader()
     '''
 def checkFdfHeader():
-    '''    public void checkFdfHeader()
+    '''public void checkFdfHeader()
     '''
 def getStartxref():
-    '''    public int getStartxref()
+    '''public int getStartxref()
     '''
 def getHex():
-    '''    public static int getHex(final int v)
+    '''public static int getHex(final int v)
     '''
 def nextValidToken():
-    '''    public void nextValidToken()
+    '''public void nextValidToken()
     '''
 def nextToken():
-    '''    public boolean nextToken()
+    '''public boolean nextToken()
     '''
 def intValue():
-    '''    public int intValue()
+    '''public int intValue()
     '''
 def readLineSegment():
-    '''    public boolean readLineSegment(final byte[] input)
+    '''public boolean readLineSegment(final byte[] input)
     '''
 def checkObjectStart():
-    '''    public static int[] checkObjectStart(final byte[] line)
+    '''public static int[] checkObjectStart(final byte[] line)
     '''
 def isHexString():
-    '''    public boolean isHexString()
+    '''public boolean isHexString()
     '''

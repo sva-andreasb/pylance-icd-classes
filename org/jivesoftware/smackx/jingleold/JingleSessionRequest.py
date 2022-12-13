@@ -1,18 +1,18 @@
 def JingleSessionRequest():
-    '''    public JingleSessionRequest(final JingleManager manager, final Jingle jingle)
+    '''public JingleSessionRequest(final JingleManager manager, final Jingle jingle)
     '''
 def getFrom():
-    '''    public Jid getFrom()
+    '''public Jid getFrom()
     '''
 def getSessionID():
-    '''    public String getSessionID()
+    '''public String getSessionID()
     '''
 def getJingle():
-    '''    public Jingle getJingle()
+    '''public Jingle getJingle()
     '''
 def accept():
-    '''    public synchronized JingleSession accept()
+    '''public synchronized JingleSession accept()
     '''
 def reject():
-    '''    public synchronized void reject()
+    '''public synchronized void reject()
     '''

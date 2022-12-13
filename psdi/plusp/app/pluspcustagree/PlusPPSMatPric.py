@@ -1,12 +1,12 @@
 def PlusPPSMatPric():
-    '''    public PlusPPSMatPric(final MboSet set)
+    '''public PlusPPSMatPric(final MboSet set)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def isRecordInTable():
-    '''    public boolean isRecordInTable(final String anotherString)
+    '''public boolean isRecordInTable(final String anotherString)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''

@@ -1,6 +1,6 @@
 def addrow():
-    '''    public int addrow()
+    '''public int addrow()
     '''
 def copyqueries():
-    '''    public int copyqueries()
+    '''public int copyqueries()
     '''

@@ -9,14 +9,14 @@ FAIL = "Kind  new Kind(\"fail\", 50)"
 ABORT = "Kind  new Kind(\"abort\", 60)"
 KINDS = "List<Kind>  Collections.unmodifiableList((List<? extends Kind>)Arrays.asList(IMessage.WEAVEINFO, IMessage.INFO, IMessage.DEBUG, IMessage.TASKTAG, IMessage.WARNING, IMessage.ERROR, IMessage.FAIL, IMessage.ABORT))"
 def isSameOrLessThan():
-    '''    public boolean isSameOrLessThan(final Kind kind)
+    '''public boolean isSameOrLessThan(final Kind kind)
     '''
 def compareTo():
-    '''    public int compareTo(final Kind other)
+    '''public int compareTo(final Kind other)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def compare():
-    '''    public int compare(final Kind one, final Kind two)
+    '''public int compare(final Kind one, final Kind two)
     '''

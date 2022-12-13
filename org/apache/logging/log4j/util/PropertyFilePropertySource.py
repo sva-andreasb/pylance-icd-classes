@@ -1,6 +1,6 @@
 def PropertyFilePropertySource():
-    '''    public PropertyFilePropertySource(final String fileName)
+    '''public PropertyFilePropertySource(final String fileName)
     '''
 def getPriority():
-    '''    public int getPriority()
+    '''public int getPriority()
     '''

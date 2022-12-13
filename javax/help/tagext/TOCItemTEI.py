@@ -1,3 +1,3 @@
 def getVariableInfo():
-    '''    public VariableInfo[] getVariableInfo(final TagData tagData)
+    '''public VariableInfo[] getVariableInfo(final TagData tagData)
     '''

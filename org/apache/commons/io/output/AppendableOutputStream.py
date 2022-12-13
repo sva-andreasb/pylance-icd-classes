@@ -1,9 +1,9 @@
 def AppendableOutputStream():
-    '''    public AppendableOutputStream(final T appendable)
+    '''public AppendableOutputStream(final T appendable)
     '''
 def write():
-    '''    public void write(final int b)
+    '''public void write(final int b)
     '''
 def getAppendable():
-    '''    public T getAppendable()
+    '''public T getAppendable()
     '''

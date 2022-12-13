@@ -1,3 +1,3 @@
 def ArnCondition():
-    '''    public ArnCondition(final ArnComparisonType type, final String key, final String value)
+    '''public ArnCondition(final ArnComparisonType type, final String key, final String value)
     '''

@@ -1,3 +1,3 @@
 def PlusPLineStatusSummary():
-    '''    public PlusPLineStatusSummary(final MboSet ms)
+    '''public PlusPLineStatusSummary(final MboSet ms)
     '''

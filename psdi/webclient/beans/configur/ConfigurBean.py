@@ -1,48 +1,48 @@
 def ConfigurBean():
-    '''    public ConfigurBean()
+    '''public ConfigurBean()
     '''
 def save():
-    '''    public synchronized void save()
+    '''public synchronized void save()
     '''
 def SAVE():
-    '''    public int SAVE()
+    '''public int SAVE()
     '''
 def LOADDBCON():
-    '''    public int LOADDBCON()
+    '''public int LOADDBCON()
     '''
 def CONFIGURE():
-    '''    public int CONFIGURE()
+    '''public int CONFIGURE()
     '''
 def REMOVE():
-    '''    public int REMOVE()
+    '''public int REMOVE()
     '''
 def remove_longOp():
-    '''    public int remove_longOp()
+    '''public int remove_longOp()
     '''
 def STATISTICS():
-    '''    public int STATISTICS()
+    '''public int STATISTICS()
     '''
 def statistics_longOp():
-    '''    public int statistics_longOp()
+    '''public int statistics_longOp()
     '''
 def REFRESHIND():
-    '''    public int REFRESHIND()
+    '''public int REFRESHIND()
     '''
 def refreshind_longOp():
-    '''    public int refreshind_longOp()
+    '''public int refreshind_longOp()
     '''
 def DELETE():
-    '''    public int DELETE()
+    '''public int DELETE()
     '''
 def TAXDATA():
-    '''    public int TAXDATA()
+    '''public int TAXDATA()
     '''
 def NUMTAX():
-    '''    public int NUMTAX()
+    '''public int NUMTAX()
     '''
 def initializeApp():
-    '''    public void initializeApp()
+    '''public void initializeApp()
     '''
 def EXTTABLE():
-    '''    public int EXTTABLE()
+    '''public int EXTTABLE()
     '''

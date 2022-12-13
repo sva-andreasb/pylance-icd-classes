@@ -1,6 +1,6 @@
 def FldCommonCrewAvailDate():
-    '''    public FldCommonCrewAvailDate(final MboValue mbv)
+    '''public FldCommonCrewAvailDate(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

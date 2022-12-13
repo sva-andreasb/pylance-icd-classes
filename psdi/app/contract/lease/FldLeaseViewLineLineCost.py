@@ -1,6 +1,6 @@
 def FldLeaseViewLineLineCost():
-    '''    public FldLeaseViewLineLineCost(final MboValue mbv)
+    '''public FldLeaseViewLineLineCost(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

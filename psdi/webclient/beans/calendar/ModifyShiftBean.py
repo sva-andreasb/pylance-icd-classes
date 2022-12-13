@@ -1,9 +1,9 @@
 def setworkweek():
-    '''    public int setworkweek()
+    '''public int setworkweek()
     '''
 def execute():
-    '''    public synchronized int execute()
+    '''public synchronized int execute()
     '''
 def dialogrefreshcancel():
-    '''    public synchronized int dialogrefreshcancel()
+    '''public synchronized int dialogrefreshcancel()
     '''

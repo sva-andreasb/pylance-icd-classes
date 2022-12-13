@@ -1,6 +1,6 @@
 def DeleteWorkPeriodSet():
-    '''    public DeleteWorkPeriodSet(final MboServerInterface ms)
+    '''public DeleteWorkPeriodSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

@@ -1,34 +1,34 @@
 CACHE_NAME = "String  \"BMX.MAXIMODD.TCI\""
 def getTypedReference():
-    '''    public TableColumnInfoBase getTypedReference()
+    '''public TableColumnInfoBase getTypedReference()
     '''
 def getTypedReferenceForSet():
-    '''    public TableColumnInfoBase getTypedReferenceForSet()
+    '''public TableColumnInfoBase getTypedReferenceForSet()
     '''
 def getColumnName():
-    '''    public String getColumnName()
+    '''public String getColumnName()
     '''
 def getLength():
-    '''    public int getLength()
+    '''public int getLength()
     '''
 def getMaxType():
-    '''    public String getMaxType()
+    '''public String getMaxType()
     '''
 def isNullAllowed():
-    '''    public boolean isNullAllowed()
+    '''public boolean isNullAllowed()
     '''
 def getPrimaryKeyColSequence():
-    '''    public int getPrimaryKeyColSequence()
+    '''public int getPrimaryKeyColSequence()
     '''
 def getScale():
-    '''    public int getScale()
+    '''public int getScale()
     '''
 def getTableName():
-    '''    public String getTableName()
+    '''public String getTableName()
     '''
 def isTenantOwned():
-    '''    public boolean isTenantOwned()
+    '''public boolean isTenantOwned()
     '''
 def getCacheName():
-    '''    public String getCacheName()
+    '''public String getCacheName()
     '''

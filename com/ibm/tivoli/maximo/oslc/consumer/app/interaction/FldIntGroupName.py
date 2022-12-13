@@ -1,6 +1,6 @@
 def FldIntGroupName():
-    '''    public FldIntGroupName(final MboValue mbv)
+    '''public FldIntGroupName(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

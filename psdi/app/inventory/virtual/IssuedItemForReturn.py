@@ -1,6 +1,6 @@
 def IssuedItemForReturn():
-    '''    public IssuedItemForReturn(final MboSet ms)
+    '''public IssuedItemForReturn(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

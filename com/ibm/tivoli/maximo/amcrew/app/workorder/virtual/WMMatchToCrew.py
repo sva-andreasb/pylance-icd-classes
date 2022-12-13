@@ -1,3 +1,3 @@
 def WMMatchToCrew():
-    '''    public WMMatchToCrew(final MboSet ms)
+    '''public WMMatchToCrew(final MboSet ms)
     '''

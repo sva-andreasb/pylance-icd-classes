@@ -1,3 +1,3 @@
 def TenantUsersMaxLogins():
-    '''    public TenantUsersMaxLogins(final MboSet ms)
+    '''public TenantUsersMaxLogins(final MboSet ms)
     '''

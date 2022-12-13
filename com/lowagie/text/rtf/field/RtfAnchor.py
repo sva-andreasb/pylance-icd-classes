@@ -1,3 +1,3 @@
 def RtfAnchor():
-    '''    public RtfAnchor(final RtfDocument doc, final Anchor anchor)
+    '''public RtfAnchor(final RtfDocument doc, final Anchor anchor)
     '''

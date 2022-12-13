@@ -1,6 +1,6 @@
 def serialize():
-    '''    public final void serialize(final Object value)
+    '''public final void serialize(final Object value)
     '''
 def enablePrettyPrint():
-    '''    public void enablePrettyPrint()
+    '''public void enablePrettyPrint()
     '''

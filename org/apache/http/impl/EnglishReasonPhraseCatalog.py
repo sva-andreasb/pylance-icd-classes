@@ -1,3 +1,3 @@
 def getReason():
-    '''    public String getReason(final int status, final Locale loc)
+    '''public String getReason(final int status, final Locale loc)
     '''

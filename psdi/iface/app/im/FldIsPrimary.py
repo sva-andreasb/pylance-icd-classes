@@ -1,6 +1,6 @@
 def FldIsPrimary():
-    '''    public FldIsPrimary(final MboValue mbv)
+    '''public FldIsPrimary(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,21 +1,21 @@
 def setvalue():
-    '''    public int setvalue()
+    '''public int setvalue()
     '''
 def isReadOnly():
-    '''    public boolean isReadOnly()
+    '''public boolean isReadOnly()
     '''
 def hasChanged():
-    '''    public boolean hasChanged()
+    '''public boolean hasChanged()
     '''
 def hasDataChanged():
-    '''    public boolean hasDataChanged()
+    '''public boolean hasDataChanged()
     '''
 def getString():
-    '''    public String getString()
+    '''public String getString()
     '''
 def render():
-    '''    public int render()
+    '''public int render()
     '''
 def getRenderId():
-    '''    public String getRenderId()
+    '''public String getRenderId()
     '''

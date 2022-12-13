@@ -1,6 +1,6 @@
 def FldInvVendorPercentOnTime():
-    '''    public FldInvVendorPercentOnTime(final MboValue mbv)
+    '''public FldInvVendorPercentOnTime(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

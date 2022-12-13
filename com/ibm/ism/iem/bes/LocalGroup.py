@@ -1,6 +1,6 @@
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def setName():
-    '''    public void setName(final String value)
+    '''public void setName(final String value)
     '''

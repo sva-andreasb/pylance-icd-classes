@@ -1,6 +1,6 @@
 def ReportJob():
-    '''    public ReportJob(final MboSet ms)
+    '''public ReportJob(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

@@ -1,8 +1,8 @@
 def CloseableHttpClient():
-    '''    public CloseableHttpClient()
+    '''public CloseableHttpClient()
     '''
 def execute():
-    '''    public CloseableHttpResponse execute(final HttpHost target, final HttpRequest request, final HttpContext context)
+    '''public CloseableHttpResponse execute(final HttpHost target, final HttpRequest request, final HttpContext context)
     public CloseableHttpResponse execute(final HttpUriRequest request, final HttpContext context)
     public CloseableHttpResponse execute(final HttpUriRequest request)
     public CloseableHttpResponse execute(final HttpHost target, final HttpRequest request)

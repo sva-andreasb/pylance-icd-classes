@@ -1,3 +1,3 @@
 def WFViewInfo():
-    '''    public WFViewInfo(final String sequence, final BufferedImage currentImage)
+    '''public WFViewInfo(final String sequence, final BufferedImage currentImage)
     '''

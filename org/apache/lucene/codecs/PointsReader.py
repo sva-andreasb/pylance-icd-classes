@@ -1,3 +1,3 @@
 def getMergeInstance():
-    '''    public PointsReader getMergeInstance()
+    '''public PointsReader getMergeInstance()
     '''

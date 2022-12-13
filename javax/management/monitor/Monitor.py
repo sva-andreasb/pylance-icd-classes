@@ -1,48 +1,48 @@
 def getGranularityPeriod():
-    '''    public synchronized long getGranularityPeriod()
+    '''public synchronized long getGranularityPeriod()
     '''
 def Monitor():
-    '''    public Monitor()
+    '''public Monitor()
     '''
 def postDeregister():
-    '''    public void postDeregister()
+    '''public void postDeregister()
     '''
 def preDeregister():
-    '''    public void preDeregister()
+    '''public void preDeregister()
     '''
 def isActive():
-    '''    public synchronized boolean isActive()
+    '''public synchronized boolean isActive()
     '''
 def setGranularityPeriod():
-    '''    public synchronized void setGranularityPeriod(final long granularityPeriod)
+    '''public synchronized void setGranularityPeriod(final long granularityPeriod)
     '''
 def postRegister():
-    '''    public void postRegister(final Boolean b)
+    '''public void postRegister(final Boolean b)
     '''
 def getObservedAttribute():
-    '''    public String getObservedAttribute()
+    '''public String getObservedAttribute()
     '''
 def setObservedAttribute():
-    '''    public void setObservedAttribute(final String observedAttribute)
+    '''public void setObservedAttribute(final String observedAttribute)
     '''
 def getObservedObject():
-    '''    public ObjectName getObservedObject()
+    '''public ObjectName getObservedObject()
     '''
 def getObservedObjects():
-    '''    public ObjectName[] getObservedObjects()
+    '''public ObjectName[] getObservedObjects()
     '''
 def addObservedObject():
-    '''    public synchronized void addObservedObject(final ObjectName objectName)
+    '''public synchronized void addObservedObject(final ObjectName objectName)
     '''
 def removeObservedObject():
-    '''    public void removeObservedObject(final ObjectName objectName)
+    '''public void removeObservedObject(final ObjectName objectName)
     '''
 def setObservedObject():
-    '''    public synchronized void setObservedObject(final ObjectName objectName)
+    '''public synchronized void setObservedObject(final ObjectName objectName)
     '''
 def containsObservedObject():
-    '''    public boolean containsObservedObject(final ObjectName objectName)
+    '''public boolean containsObservedObject(final ObjectName objectName)
     '''
 def preRegister():
-    '''    public ObjectName preRegister(final MBeanServer server, final ObjectName objectName)
+    '''public ObjectName preRegister(final MBeanServer server, final ObjectName objectName)
     '''

@@ -1,6 +1,6 @@
 def AnswerSet():
-    '''    public AnswerSet(final MboServerInterface ms)
+    '''public AnswerSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

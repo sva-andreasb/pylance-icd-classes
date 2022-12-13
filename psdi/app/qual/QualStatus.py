@@ -1,9 +1,9 @@
 def QualStatus():
-    '''    public QualStatus(final MboSet ms)
+    '''public QualStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''

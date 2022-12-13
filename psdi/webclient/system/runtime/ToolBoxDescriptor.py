@@ -1,6 +1,6 @@
 def ToolBoxDescriptor():
-    '''    public ToolBoxDescriptor(final String appName, final WebClientSession wcs)
+    '''public ToolBoxDescriptor(final String appName, final WebClientSession wcs)
     '''
 def getElement():
-    '''    public Element getElement(final String attribute)
+    '''public Element getElement(final String attribute)
     '''

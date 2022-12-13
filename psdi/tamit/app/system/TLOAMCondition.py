@@ -1,3 +1,3 @@
 def TLOAMCondition():
-    '''    public TLOAMCondition(final MboSet ms)
+    '''public TLOAMCondition(final MboSet ms)
     '''

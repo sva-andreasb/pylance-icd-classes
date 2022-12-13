@@ -1,9 +1,9 @@
 def addrow():
-    '''    public int addrow()
+    '''public int addrow()
     '''
 def insertAtEnd():
-    '''    public synchronized void insertAtEnd()
+    '''public synchronized void insertAtEnd()
     '''
 def toggledeleterow():
-    '''    public int toggledeleterow()
+    '''public int toggledeleterow()
     '''

@@ -1,6 +1,6 @@
 def BooleanCaseWhenCollector():
-    '''    public BooleanCaseWhenCollector()
+    '''public BooleanCaseWhenCollector()
     '''
 def accept():
-    '''    public boolean accept(final Node n)
+    '''public boolean accept(final Node n)
     '''

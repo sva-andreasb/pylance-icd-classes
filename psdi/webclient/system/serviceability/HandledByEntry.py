@@ -1,3 +1,3 @@
 def HandledByEntry():
-    '''    public HandledByEntry(final Object handler)
+    '''public HandledByEntry(final Object handler)
     '''

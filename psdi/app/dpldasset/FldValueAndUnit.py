@@ -1,6 +1,6 @@
 def FldValueAndUnit():
-    '''    public FldValueAndUnit(final MboValue mbv)
+    '''public FldValueAndUnit(final MboValue mbv)
     '''
 def setValueAndUnit():
-    '''    public void setValueAndUnit(final String valueAttribute, final String unitAttribute)
+    '''public void setValueAndUnit(final String valueAttribute, final String unitAttribute)
     '''

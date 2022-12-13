@@ -1,3 +1,3 @@
 def isParent():
-    '''    public boolean isParent()
+    '''public boolean isParent()
     '''

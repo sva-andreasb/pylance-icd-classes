@@ -1,3 +1,3 @@
 def ClearMessage():
-    '''    public ClearMessage()
+    '''public ClearMessage()
     '''

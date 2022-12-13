@@ -1,12 +1,12 @@
 def DERUnknownTag():
-    '''    public DERUnknownTag(final int tag, final byte[] data)
+    '''public DERUnknownTag(final int tag, final byte[] data)
     '''
 def getTag():
-    '''    public int getTag()
+    '''public int getTag()
     '''
 def getData():
-    '''    public byte[] getData()
+    '''public byte[] getData()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''

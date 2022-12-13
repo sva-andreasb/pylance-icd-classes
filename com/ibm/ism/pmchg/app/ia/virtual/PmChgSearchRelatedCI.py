@@ -3,14 +3,14 @@ OFFLINE = "String  \"OFFLINE_KEY\""
 DEGRADATION = "String  \"DEGRADATION_KEY\""
 NONE = "String  \"NONE_KEY\""
 def PmChgSearchRelatedCI():
-    '''    public PmChgSearchRelatedCI(final MboSet ms)
+    '''public PmChgSearchRelatedCI(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def getImpactedCI():
-    '''    public CIRemote getImpactedCI()
+    '''public CIRemote getImpactedCI()
     '''
 def getTargetCI():
-    '''    public CIRemote getTargetCI()
+    '''public CIRemote getTargetCI()
     '''

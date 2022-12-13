@@ -1,3 +1,3 @@
 def PainterException():
-    '''    public PainterException(final String msg)
+    '''public PainterException(final String msg)
     '''

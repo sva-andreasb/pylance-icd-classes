@@ -1,3 +1,3 @@
 def PlusCDSAssetsLinkSet():
-    '''    public PlusCDSAssetsLinkSet(final MboServerInterface ms)
+    '''public PlusCDSAssetsLinkSet(final MboServerInterface ms)
     '''

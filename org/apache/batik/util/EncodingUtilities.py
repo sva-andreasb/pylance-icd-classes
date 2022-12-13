@@ -1,3 +1,3 @@
 def javaEncoding():
-    '''    public static String javaEncoding(final String encoding)
+    '''public static String javaEncoding(final String encoding)
     '''

@@ -1,6 +1,6 @@
 def FldAssetAttributeDataType():
-    '''    public FldAssetAttributeDataType(final MboValue mbv)
+    '''public FldAssetAttributeDataType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

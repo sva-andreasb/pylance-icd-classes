@@ -1,9 +1,9 @@
 def getFingerprint():
-    '''    public byte[] getFingerprint()
+    '''public byte[] getFingerprint()
     '''
 def equals():
-    '''    public boolean equals(final HostKey key)
+    '''public boolean equals(final HostKey key)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

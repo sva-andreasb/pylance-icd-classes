@@ -1,3 +1,3 @@
 def FldTemplateName():
-    '''    public FldTemplateName(final MboValue mbv)
+    '''public FldTemplateName(final MboValue mbv)
     '''

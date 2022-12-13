@@ -1,3 +1,3 @@
 def CsrfToken():
-    '''    public CsrfToken(final MboSet ms)
+    '''public CsrfToken(final MboSet ms)
     '''

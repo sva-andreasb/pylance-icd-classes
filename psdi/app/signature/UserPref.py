@@ -1,9 +1,9 @@
 def UserPref():
-    '''    public UserPref(final MboSet ms)
+    '''public UserPref(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

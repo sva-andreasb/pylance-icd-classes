@@ -1,3 +1,3 @@
 def FmtLayout2IndexHSQL():
-    '''    public FmtLayout2IndexHSQL(final SDBConnection connection)
+    '''public FmtLayout2IndexHSQL(final SDBConnection connection)
     '''

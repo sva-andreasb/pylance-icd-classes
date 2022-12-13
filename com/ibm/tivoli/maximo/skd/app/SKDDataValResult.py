@@ -1,6 +1,6 @@
 def SKDDataValResult():
-    '''    public SKDDataValResult(final MboSet ms)
+    '''public SKDDataValResult(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

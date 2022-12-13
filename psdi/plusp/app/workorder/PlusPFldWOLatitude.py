@@ -1,6 +1,6 @@
 def PlusPFldWOLatitude():
-    '''    public PlusPFldWOLatitude(final MboValue mboValue)
+    '''public PlusPFldWOLatitude(final MboValue mboValue)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

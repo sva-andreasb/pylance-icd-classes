@@ -1,6 +1,6 @@
 def PlusPFldSOCostCenter():
-    '''    public PlusPFldSOCostCenter(final MboValue mbv)
+    '''public PlusPFldSOCostCenter(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

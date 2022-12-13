@@ -1,6 +1,6 @@
 def getExceptionType():
-    '''    public ObjectType getExceptionType()
+    '''public ObjectType getExceptionType()
     '''
 def getHandlerStart():
-    '''    public InstructionHandle getHandlerStart()
+    '''public InstructionHandle getHandlerStart()
     '''

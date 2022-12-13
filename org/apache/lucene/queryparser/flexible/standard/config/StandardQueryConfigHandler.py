@@ -1,3 +1,3 @@
 def StandardQueryConfigHandler():
-    '''    public StandardQueryConfigHandler()
+    '''public StandardQueryConfigHandler()
     '''

@@ -1,81 +1,81 @@
 def getNotificationOccurrenceEvent():
-    '''    public Event getNotificationOccurrenceEvent()
+    '''public Event getNotificationOccurrenceEvent()
     '''
 def setNotificationOccurrenceEvent():
-    '''    public void setNotificationOccurrenceEvent(final Event notificationOccurrenceEvent)
+    '''public void setNotificationOccurrenceEvent(final Event notificationOccurrenceEvent)
     '''
 def getCreateDate():
-    '''    public GregorianCalendar getCreateDate()
+    '''public GregorianCalendar getCreateDate()
     '''
 def setCreateDate():
-    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''public void setCreateDate(final GregorianCalendar createDate)
     '''
 def isCreateDateSpecified():
-    '''    public boolean isCreateDateSpecified()
+    '''public boolean isCreateDateSpecified()
     '''
 def unsetCreateDate():
-    '''    public void unsetCreateDate()
+    '''public void unsetCreateDate()
     '''
 def getFileName():
-    '''    public String getFileName()
+    '''public String getFileName()
     '''
 def setFileName():
-    '''    public void setFileName(final String fileName)
+    '''public void setFileName(final String fileName)
     '''
 def isFileNameSpecified():
-    '''    public boolean isFileNameSpecified()
+    '''public boolean isFileNameSpecified()
     '''
 def unsetFileName():
-    '''    public void unsetFileName()
+    '''public void unsetFileName()
     '''
 def getFileSize():
-    '''    public String getFileSize()
+    '''public String getFileSize()
     '''
 def setFileSize():
-    '''    public void setFileSize(final String fileSize)
+    '''public void setFileSize(final String fileSize)
     '''
 def isFileSizeSpecified():
-    '''    public boolean isFileSizeSpecified()
+    '''public boolean isFileSizeSpecified()
     '''
 def unsetFileSize():
-    '''    public void unsetFileSize()
+    '''public void unsetFileSize()
     '''
 def getId():
-    '''    public Long getId()
+    '''public Long getId()
     '''
 def setId():
-    '''    public void setId(final Long id)
+    '''public void setId(final Long id)
     '''
 def isIdSpecified():
-    '''    public boolean isIdSpecified()
+    '''public boolean isIdSpecified()
     '''
 def unsetId():
-    '''    public void unsetId()
+    '''public void unsetId()
     '''
 def getNotificationOccurrenceEventId():
-    '''    public Long getNotificationOccurrenceEventId()
+    '''public Long getNotificationOccurrenceEventId()
     '''
 def setNotificationOccurrenceEventId():
-    '''    public void setNotificationOccurrenceEventId(final Long notificationOccurrenceEventId)
+    '''public void setNotificationOccurrenceEventId(final Long notificationOccurrenceEventId)
     '''
 def isNotificationOccurrenceEventIdSpecified():
-    '''    public boolean isNotificationOccurrenceEventIdSpecified()
+    '''public boolean isNotificationOccurrenceEventIdSpecified()
     '''
 def unsetNotificationOccurrenceEventId():
-    '''    public void unsetNotificationOccurrenceEventId()
+    '''public void unsetNotificationOccurrenceEventId()
     '''
 def createDate():
-    '''    public Mask createDate()
+    '''public Mask createDate()
     '''
 def fileName():
-    '''    public Mask fileName()
+    '''public Mask fileName()
     '''
 def fileSize():
-    '''    public Mask fileSize()
+    '''public Mask fileSize()
     '''
 def id():
-    '''    public Mask id()
+    '''public Mask id()
     '''
 def notificationOccurrenceEventId():
-    '''    public Mask notificationOccurrenceEventId()
+    '''public Mask notificationOccurrenceEventId()
     '''

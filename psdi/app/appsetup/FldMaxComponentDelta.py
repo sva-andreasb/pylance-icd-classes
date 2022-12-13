@@ -1,6 +1,6 @@
 def FldMaxComponentDelta():
-    '''    public FldMaxComponentDelta(final MboValue mbv)
+    '''public FldMaxComponentDelta(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

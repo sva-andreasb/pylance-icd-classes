@@ -1,6 +1,6 @@
 def NOP():
-    '''    public NOP()
+    '''public NOP()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

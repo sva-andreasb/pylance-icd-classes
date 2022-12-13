@@ -1,108 +1,108 @@
 def getCaption():
-    '''    public synchronized HTMLTableCaptionElement getCaption()
+    '''public synchronized HTMLTableCaptionElement getCaption()
     '''
 def setCaption():
-    '''    public synchronized void setCaption(final HTMLTableCaptionElement htmlTableCaptionElement)
+    '''public synchronized void setCaption(final HTMLTableCaptionElement htmlTableCaptionElement)
     '''
 def createCaption():
-    '''    public synchronized HTMLElement createCaption()
+    '''public synchronized HTMLElement createCaption()
     '''
 def deleteCaption():
-    '''    public synchronized void deleteCaption()
+    '''public synchronized void deleteCaption()
     '''
 def getTHead():
-    '''    public synchronized HTMLTableSectionElement getTHead()
+    '''public synchronized HTMLTableSectionElement getTHead()
     '''
 def setTHead():
-    '''    public synchronized void setTHead(final HTMLTableSectionElement htmlTableSectionElement)
+    '''public synchronized void setTHead(final HTMLTableSectionElement htmlTableSectionElement)
     '''
 def createTHead():
-    '''    public synchronized HTMLElement createTHead()
+    '''public synchronized HTMLElement createTHead()
     '''
 def deleteTHead():
-    '''    public synchronized void deleteTHead()
+    '''public synchronized void deleteTHead()
     '''
 def getTFoot():
-    '''    public synchronized HTMLTableSectionElement getTFoot()
+    '''public synchronized HTMLTableSectionElement getTFoot()
     '''
 def setTFoot():
-    '''    public synchronized void setTFoot(final HTMLTableSectionElement htmlTableSectionElement)
+    '''public synchronized void setTFoot(final HTMLTableSectionElement htmlTableSectionElement)
     '''
 def createTFoot():
-    '''    public synchronized HTMLElement createTFoot()
+    '''public synchronized HTMLElement createTFoot()
     '''
 def deleteTFoot():
-    '''    public synchronized void deleteTFoot()
+    '''public synchronized void deleteTFoot()
     '''
 def getRows():
-    '''    public HTMLCollection getRows()
+    '''public HTMLCollection getRows()
     '''
 def getTBodies():
-    '''    public HTMLCollection getTBodies()
+    '''public HTMLCollection getTBodies()
     '''
 def getAlign():
-    '''    public String getAlign()
+    '''public String getAlign()
     '''
 def setAlign():
-    '''    public void setAlign(final String s)
+    '''public void setAlign(final String s)
     '''
 def getBgColor():
-    '''    public String getBgColor()
+    '''public String getBgColor()
     '''
 def setBgColor():
-    '''    public void setBgColor(final String s)
+    '''public void setBgColor(final String s)
     '''
 def getBorder():
-    '''    public String getBorder()
+    '''public String getBorder()
     '''
 def setBorder():
-    '''    public void setBorder(final String s)
+    '''public void setBorder(final String s)
     '''
 def getCellPadding():
-    '''    public String getCellPadding()
+    '''public String getCellPadding()
     '''
 def setCellPadding():
-    '''    public void setCellPadding(final String s)
+    '''public void setCellPadding(final String s)
     '''
 def getCellSpacing():
-    '''    public String getCellSpacing()
+    '''public String getCellSpacing()
     '''
 def setCellSpacing():
-    '''    public void setCellSpacing(final String s)
+    '''public void setCellSpacing(final String s)
     '''
 def getFrame():
-    '''    public String getFrame()
+    '''public String getFrame()
     '''
 def setFrame():
-    '''    public void setFrame(final String s)
+    '''public void setFrame(final String s)
     '''
 def getRules():
-    '''    public String getRules()
+    '''public String getRules()
     '''
 def setRules():
-    '''    public void setRules(final String s)
+    '''public void setRules(final String s)
     '''
 def getSummary():
-    '''    public String getSummary()
+    '''public String getSummary()
     '''
 def setSummary():
-    '''    public void setSummary(final String s)
+    '''public void setSummary(final String s)
     '''
 def getWidth():
-    '''    public String getWidth()
+    '''public String getWidth()
     '''
 def setWidth():
-    '''    public void setWidth(final String s)
+    '''public void setWidth(final String s)
     '''
 def insertRow():
-    '''    public HTMLElement insertRow(final int n)
+    '''public HTMLElement insertRow(final int n)
     '''
 def deleteRow():
-    '''    public synchronized void deleteRow(int deleteRowX)
+    '''public synchronized void deleteRow(int deleteRowX)
     '''
 def cloneNode():
-    '''    public Node cloneNode(final boolean b)
+    '''public Node cloneNode(final boolean b)
     '''
 def HTMLTableElementImpl():
-    '''    public HTMLTableElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''public HTMLTableElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
     '''

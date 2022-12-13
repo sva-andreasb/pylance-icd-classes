@@ -1,3 +1,3 @@
 def getConfiguration():
-    '''    public PropertiesConfiguration getConfiguration(final LoggerContext loggerContext, final ConfigurationSource source)
+    '''public PropertiesConfiguration getConfiguration(final LoggerContext loggerContext, final ConfigurationSource source)
     '''

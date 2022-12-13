@@ -1,3 +1,3 @@
 def PlusPCustStatusSet():
-    '''    public PlusPCustStatusSet(final MboServerInterface ms)
+    '''public PlusPCustStatusSet(final MboServerInterface ms)
     '''

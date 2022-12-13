@@ -1,3 +1,3 @@
 def UserPurGLSet():
-    '''    public UserPurGLSet(final MboServerInterface ms)
+    '''public UserPurGLSet(final MboServerInterface ms)
     '''

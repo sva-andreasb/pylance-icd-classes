@@ -1,9 +1,9 @@
 def Iframe():
-    '''    public Iframe()
+    '''public Iframe()
     '''
 def submitform():
-    '''    public void submitform()
+    '''public void submitform()
     '''
 def canSubmit():
-    '''    public boolean canSubmit()
+    '''public boolean canSubmit()
     '''

@@ -1,9 +1,9 @@
 def getMboSetRemote():
-    '''    public MboSetRemote getMboSetRemote()
+    '''public MboSetRemote getMboSetRemote()
     '''
 def selectAssets():
-    '''    public int selectAssets()
+    '''public int selectAssets()
     '''
 def refreshData():
-    '''    public int refreshData()
+    '''public int refreshData()
     '''

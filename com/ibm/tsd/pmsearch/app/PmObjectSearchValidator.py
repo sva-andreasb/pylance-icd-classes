@@ -1,7 +1,7 @@
 def PmObjectSearchValidator():
-    '''    public PmObjectSearchValidator()
+    '''public PmObjectSearchValidator()
     public PmObjectSearchValidator(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

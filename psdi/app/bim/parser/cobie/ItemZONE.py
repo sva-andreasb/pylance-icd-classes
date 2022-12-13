@@ -1,21 +1,21 @@
 def ItemZONE():
-    '''    public ItemZONE()
+    '''public ItemZONE()
     '''
 def resolveRerefences():
-    '''    public void resolveRerefences(final Parser project, final long flags)
+    '''public void resolveRerefences(final Parser project, final long flags)
     '''
 def getPageId():
-    '''    public String getPageId()
+    '''public String getPageId()
     '''
 def addSpace():
-    '''    public void addSpace(final ItemSPACE space)
+    '''public void addSpace(final ItemSPACE space)
     '''
 def setSpaceNames():
-    '''    public void setSpaceNames(String spaceNames)
+    '''public void setSpaceNames(String spaceNames)
     '''
 def getSpaceNames():
-    '''    public String getSpaceNames()
+    '''public String getSpaceNames()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

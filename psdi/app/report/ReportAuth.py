@@ -1,12 +1,12 @@
 def ReportAuth():
-    '''    public ReportAuth(final MboSet ms)
+    '''public ReportAuth(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def sigopGranted():
-    '''    public boolean sigopGranted(final String optionname)
+    '''public boolean sigopGranted(final String optionname)
     '''
 def checkSiteOrgAccessForSave():
-    '''    public void checkSiteOrgAccessForSave()
+    '''public void checkSiteOrgAccessForSave()
     '''

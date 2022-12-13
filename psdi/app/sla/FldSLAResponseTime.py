@@ -1,6 +1,6 @@
 def FldSLAResponseTime():
-    '''    public FldSLAResponseTime(final MboValue mbv)
+    '''public FldSLAResponseTime(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

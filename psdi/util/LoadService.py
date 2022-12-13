@@ -1,6 +1,6 @@
 def LoadService():
-    '''    public LoadService()
+    '''public LoadService()
     '''
 def main():
-    '''    public static void main(final String[] argv)
+    '''public static void main(final String[] argv)
     '''

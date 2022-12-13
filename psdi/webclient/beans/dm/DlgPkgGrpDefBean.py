@@ -1,3 +1,3 @@
 def addcfggrpdef():
-    '''    public int addcfggrpdef()
+    '''public int addcfggrpdef()
     '''

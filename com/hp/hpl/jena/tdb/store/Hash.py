@@ -1,18 +1,18 @@
 def Hash():
-    '''    public Hash(final int len)
+    '''public Hash(final int len)
     '''
 def getLen():
-    '''    public int getLen()
+    '''public int getLen()
     '''
 def getBytes():
-    '''    public byte[] getBytes()
+    '''public byte[] getBytes()
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object other)
+    '''public boolean equals(final Object other)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

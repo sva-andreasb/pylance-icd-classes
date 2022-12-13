@@ -1,6 +1,6 @@
 def PlusPRespDup():
-    '''    public PlusPRespDup(final MboSet ms)
+    '''public PlusPRespDup(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -1,9 +1,9 @@
 def MaxTenantRegProcess():
-    '''    public MaxTenantRegProcess()
+    '''public MaxTenantRegProcess()
     '''
 def setAdditionalData():
-    '''    public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
+    '''public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''

@@ -1,36 +1,36 @@
 def getResult():
-    '''    public RelevanceResult getResult()
+    '''public RelevanceResult getResult()
     '''
 def setResult():
-    '''    public void setResult(final RelevanceResult value)
+    '''public void setResult(final RelevanceResult value)
     '''
 def getEvaluation():
-    '''    public Evaluation getEvaluation()
+    '''public Evaluation getEvaluation()
     '''
 def setEvaluation():
-    '''    public void setEvaluation(final Evaluation value)
+    '''public void setEvaluation(final Evaluation value)
     '''
 def getError():
-    '''    public String getError()
+    '''public String getError()
     '''
 def setError():
-    '''    public void setError(final String value)
+    '''public void setError(final String value)
     '''
 def getResource():
-    '''    public String getResource()
+    '''public String getResource()
     '''
 def setResource():
-    '''    public void setResource(final String value)
+    '''public void setResource(final String value)
     '''
 def getTime():
-    '''    public String getTime()
+    '''public String getTime()
     '''
 def setTime():
-    '''    public void setTime(final String value)
+    '''public void setTime(final String value)
     '''
 def getPlurality():
-    '''    public RelevancePlurality getPlurality()
+    '''public RelevancePlurality getPlurality()
     '''
 def setPlurality():
-    '''    public void setPlurality(final RelevancePlurality value)
+    '''public void setPlurality(final RelevancePlurality value)
     '''

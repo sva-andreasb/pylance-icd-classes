@@ -1,3 +1,3 @@
 def ICULangDataTables():
-    '''    public ICULangDataTables()
+    '''public ICULangDataTables()
     '''

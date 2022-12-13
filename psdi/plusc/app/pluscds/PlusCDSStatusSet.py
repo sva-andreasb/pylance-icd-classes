@@ -1,3 +1,3 @@
 def PlusCDSStatusSet():
-    '''    public PlusCDSStatusSet(final MboServerInterface mboserverinterface)
+    '''public PlusCDSStatusSet(final MboServerInterface mboserverinterface)
     '''

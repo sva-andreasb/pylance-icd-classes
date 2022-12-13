@@ -1,18 +1,18 @@
 def MaxLogAppender():
-    '''    public MaxLogAppender(final MboSet ms)
+    '''public MaxLogAppender(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def setReadOnlyFlags():
-    '''    public void setReadOnlyFlags()
+    '''public void setReadOnlyFlags()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def write():
-    '''    public String write()
+    '''public String write()
     '''

@@ -1,6 +1,6 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def addrow():
-    '''    public int addrow()
+    '''public int addrow()
     '''

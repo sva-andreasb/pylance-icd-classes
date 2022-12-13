@@ -1,3 +1,3 @@
 def SourceOrTargetAssetTicketBean():
-    '''    public SourceOrTargetAssetTicketBean()
+    '''public SourceOrTargetAssetTicketBean()
     '''

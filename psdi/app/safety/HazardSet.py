@@ -1,3 +1,3 @@
 def HazardSet():
-    '''    public HazardSet(final MboServerInterface ms)
+    '''public HazardSet(final MboServerInterface ms)
     '''

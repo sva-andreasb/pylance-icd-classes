@@ -1,5 +1,5 @@
 def ReaderInputStream():
-    '''    public ReaderInputStream(final Reader reader, final CharsetEncoder encoder)
+    '''public ReaderInputStream(final Reader reader, final CharsetEncoder encoder)
     public ReaderInputStream(final Reader reader, final CharsetEncoder encoder, final int bufferSize)
     public ReaderInputStream(final Reader reader, final Charset charset, final int bufferSize)
     public ReaderInputStream(final Reader reader, final Charset charset)
@@ -8,10 +8,10 @@ def ReaderInputStream():
     public ReaderInputStream(final Reader reader)
     '''
 def read():
-    '''    public int read(final byte[] b, int off, int len)
+    '''public int read(final byte[] b, int off, int len)
     public int read(final byte[] b)
     public int read()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''

@@ -1,3 +1,3 @@
 def FldGetListNotInSubclass():
-    '''    public FldGetListNotInSubclass(final MboValue mbv)
+    '''public FldGetListNotInSubclass(final MboValue mbv)
     '''

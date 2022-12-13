@@ -1,9 +1,9 @@
 def init():
-    '''    public void init(final ServletConfig sc)
+    '''public void init(final ServletConfig sc)
     '''
 def doGet():
-    '''    public void doGet(final HttpServletRequest request, final HttpServletResponse resp)
+    '''public void doGet(final HttpServletRequest request, final HttpServletResponse resp)
     '''
 def doOptions():
-    '''    public void doOptions(final HttpServletRequest request, final HttpServletResponse response)
+    '''public void doOptions(final HttpServletRequest request, final HttpServletResponse response)
     '''

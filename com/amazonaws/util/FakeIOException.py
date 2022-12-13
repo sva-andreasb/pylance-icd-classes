@@ -1,3 +1,3 @@
 def FakeIOException():
-    '''    public FakeIOException(final String message)
+    '''public FakeIOException(final String message)
     '''

@@ -1,15 +1,15 @@
 def FindByIDActivityVisitor():
-    '''    public FindByIDActivityVisitor(final String id)
+    '''public FindByIDActivityVisitor(final String id)
     '''
 def isCancelled():
-    '''    public boolean isCancelled()
+    '''public boolean isCancelled()
     '''
 def visit():
-    '''    public void visit(final IlvActivity item, final IlvGanttModel model, final HasCancelled state)
+    '''public void visit(final IlvActivity item, final IlvGanttModel model, final HasCancelled state)
     '''
 def cancel():
-    '''    public void cancel()
+    '''public void cancel()
     '''
 def getActivity():
-    '''    public IlvActivity getActivity()
+    '''public IlvActivity getActivity()
     '''

@@ -1,3 +1,3 @@
 def AddHazardsToWOActionHandler():
-    '''    public int AddHazardsToWOActionHandler()
+    '''public int AddHazardsToWOActionHandler()
     '''

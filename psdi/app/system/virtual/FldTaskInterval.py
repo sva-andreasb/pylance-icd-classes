@@ -1,6 +1,6 @@
 def FldTaskInterval():
-    '''    public FldTaskInterval(final MboValue mbv)
+    '''public FldTaskInterval(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

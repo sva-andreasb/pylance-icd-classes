@@ -1,51 +1,51 @@
 def SocketEndPoint():
-    '''    public SocketEndPoint(final Socket socket)
+    '''public SocketEndPoint(final Socket socket)
     '''
 def isOpen():
-    '''    public boolean isOpen()
+    '''public boolean isOpen()
     '''
 def isInputShutdown():
-    '''    public boolean isInputShutdown()
+    '''public boolean isInputShutdown()
     '''
 def isOutputShutdown():
-    '''    public boolean isOutputShutdown()
+    '''public boolean isOutputShutdown()
     '''
 def shutdownOutput():
-    '''    public void shutdownOutput()
+    '''public void shutdownOutput()
     '''
 def shutdownSocketInput():
-    '''    public void shutdownSocketInput()
+    '''public void shutdownSocketInput()
     '''
 def shutdownInput():
-    '''    public void shutdownInput()
+    '''public void shutdownInput()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def getLocalAddr():
-    '''    public String getLocalAddr()
+    '''public String getLocalAddr()
     '''
 def getLocalHost():
-    '''    public String getLocalHost()
+    '''public String getLocalHost()
     '''
 def getLocalPort():
-    '''    public int getLocalPort()
+    '''public int getLocalPort()
     '''
 def getRemoteAddr():
-    '''    public String getRemoteAddr()
+    '''public String getRemoteAddr()
     '''
 def getRemoteHost():
-    '''    public String getRemoteHost()
+    '''public String getRemoteHost()
     '''
 def getRemotePort():
-    '''    public int getRemotePort()
+    '''public int getRemotePort()
     '''
 def getTransport():
-    '''    public Object getTransport()
+    '''public Object getTransport()
     '''
 def setMaxIdleTime():
-    '''    public void setMaxIdleTime(final int timeMs)
+    '''public void setMaxIdleTime(final int timeMs)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

@@ -1,5 +1,5 @@
 def a():
-    '''    public static File[] a(final OC oc, final File... array)
+    '''public static File[] a(final OC oc, final File... array)
     public static File[] a(final OC oc, final Iterable<File> iterable)
     public static List<File> a(final OC oc, final Iterable<File> iterable)
     public static List<File> a(final OC oc, final File... array)
@@ -25,7 +25,7 @@ def a():
     public static OC a(final byte[] array, final long n)
     '''
 def b():
-    '''    public static OC b(final String s)
+    '''public static OC b(final String s)
     public static OC b(final String s, final m m)
     public static OC b()
     public static OC b(final OC oc, final OC oc2)
@@ -34,22 +34,22 @@ def b():
     public static OC b(final long n, final boolean b)
     '''
 def c():
-    '''    public static OC c(final String s)
+    '''public static OC c(final String s)
     public static OC c(final String s, final m m)
     public static OC c(final OC oc)
     public static OC c()
     '''
 def d():
-    '''    public static OC d()
+    '''public static OC d()
     public static OC d(final String s)
     public static OC d(final OC oc)
     '''
 def e():
-    '''    public static OC e(final OC oc)
+    '''public static OC e(final OC oc)
     '''
 def f():
-    '''    public static OC f(final OC oc)
+    '''public static OC f(final OC oc)
     '''
 def g():
-    '''    public static OC g(final OC oc)
+    '''public static OC g(final OC oc)
     '''

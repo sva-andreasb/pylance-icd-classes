@@ -1,3 +1,3 @@
 def WOHierarchyEventFilter():
-    '''    public WOHierarchyEventFilter(final PublishInfo pubInfo)
+    '''public WOHierarchyEventFilter(final PublishInfo pubInfo)
     '''

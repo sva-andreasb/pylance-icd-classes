@@ -1,3 +1,3 @@
 def FldPurchViewLineStatus():
-    '''    public FldPurchViewLineStatus(final MboValue mbv)
+    '''public FldPurchViewLineStatus(final MboValue mbv)
     '''

@@ -1,9 +1,9 @@
 def PmCommTmpltAppBean():
-    '''    public PmCommTmpltAppBean()
+    '''public PmCommTmpltAppBean()
     '''
 def setupBean():
-    '''    public void setupBean(final WebClientSession wcs)
+    '''public void setupBean(final WebClientSession wcs)
     '''
 def MANSURVEY():
-    '''    public int MANSURVEY()
+    '''public int MANSURVEY()
     '''

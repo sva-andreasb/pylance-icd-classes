@@ -20,60 +20,60 @@ BUFFER_WARN_TRIGGER_LIMIT = "String  \"http.method.response.buffer.warnlimit\""
 VIRTUAL_HOST = "String  \"http.virtual-host\""
 MULTIPART_BOUNDARY = "String  \"http.method.multipart.boundary\""
 def HttpMethodParams():
-    '''    public HttpMethodParams()
+    '''public HttpMethodParams()
     public HttpMethodParams(final HttpParams defaults)
     '''
 def getHttpElementCharset():
-    '''    public String getHttpElementCharset()
+    '''public String getHttpElementCharset()
     '''
 def setHttpElementCharset():
-    '''    public void setHttpElementCharset(final String charset)
+    '''public void setHttpElementCharset(final String charset)
     '''
 def getContentCharset():
-    '''    public String getContentCharset()
+    '''public String getContentCharset()
     '''
 def setUriCharset():
-    '''    public void setUriCharset(final String charset)
+    '''public void setUriCharset(final String charset)
     '''
 def getUriCharset():
-    '''    public String getUriCharset()
+    '''public String getUriCharset()
     '''
 def setContentCharset():
-    '''    public void setContentCharset(final String charset)
+    '''public void setContentCharset(final String charset)
     '''
 def getCredentialCharset():
-    '''    public String getCredentialCharset()
+    '''public String getCredentialCharset()
     '''
 def setCredentialCharset():
-    '''    public void setCredentialCharset(final String charset)
+    '''public void setCredentialCharset(final String charset)
     '''
 def getVersion():
-    '''    public HttpVersion getVersion()
+    '''public HttpVersion getVersion()
     '''
 def setVersion():
-    '''    public void setVersion(final HttpVersion version)
+    '''public void setVersion(final HttpVersion version)
     '''
 def getCookiePolicy():
-    '''    public String getCookiePolicy()
+    '''public String getCookiePolicy()
     '''
 def setCookiePolicy():
-    '''    public void setCookiePolicy(final String policy)
+    '''public void setCookiePolicy(final String policy)
     '''
 def getSoTimeout():
-    '''    public int getSoTimeout()
+    '''public int getSoTimeout()
     '''
 def setSoTimeout():
-    '''    public void setSoTimeout(final int timeout)
+    '''public void setSoTimeout(final int timeout)
     '''
 def setVirtualHost():
-    '''    public void setVirtualHost(final String hostname)
+    '''public void setVirtualHost(final String hostname)
     '''
 def getVirtualHost():
-    '''    public String getVirtualHost()
+    '''public String getVirtualHost()
     '''
 def makeStrict():
-    '''    public void makeStrict()
+    '''public void makeStrict()
     '''
 def makeLenient():
-    '''    public void makeLenient()
+    '''public void makeLenient()
     '''

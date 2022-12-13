@@ -25,20 +25,20 @@ VALUE = "String  \"VALUE\""
 VVENUE = "String  \"VVENUE\""
 EXPERIMENTAL_PREFIX = "String  \"X-\""
 def Parameter():
-    '''    public Parameter(final String aName, final ParameterFactory factory)
+    '''public Parameter(final String aName, final ParameterFactory factory)
     '''
 def toString():
-    '''    public final String toString()
+    '''public final String toString()
     '''
 def getName():
-    '''    public final String getName()
+    '''public final String getName()
     '''
 def equals():
-    '''    public final boolean equals(final Object arg0)
+    '''public final boolean equals(final Object arg0)
     '''
 def hashCode():
-    '''    public final int hashCode()
+    '''public final int hashCode()
     '''
 def copy():
-    '''    public <T extends Parameter> T copy()
+    '''public <T extends Parameter> T copy()
     '''

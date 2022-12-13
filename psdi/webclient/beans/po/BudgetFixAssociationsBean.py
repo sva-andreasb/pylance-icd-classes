@@ -1,6 +1,6 @@
 def getMboSet():
-    '''    public MboSetRemote getMboSet()
+    '''public MboSetRemote getMboSet()
     '''
 def createCurrentMissingAssoc():
-    '''    public int createCurrentMissingAssoc()
+    '''public int createCurrentMissingAssoc()
     '''

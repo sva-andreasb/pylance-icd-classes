@@ -1,6 +1,6 @@
 def FldWoSafetyPlanSafetyPlanId():
-    '''    public FldWoSafetyPlanSafetyPlanId(final MboValue mbv)
+    '''public FldWoSafetyPlanSafetyPlanId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

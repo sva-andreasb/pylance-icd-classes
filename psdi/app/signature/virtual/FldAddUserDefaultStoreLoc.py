@@ -1,6 +1,6 @@
 def FldAddUserDefaultStoreLoc():
-    '''    public FldAddUserDefaultStoreLoc(final MboValue mbv)
+    '''public FldAddUserDefaultStoreLoc(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

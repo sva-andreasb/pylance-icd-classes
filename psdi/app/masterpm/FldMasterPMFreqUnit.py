@@ -1,6 +1,6 @@
 def FldMasterPMFreqUnit():
-    '''    public FldMasterPMFreqUnit(final MboValue mbv)
+    '''public FldMasterPMFreqUnit(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

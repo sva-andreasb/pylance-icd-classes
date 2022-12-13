@@ -1,18 +1,18 @@
 def VerifyGLAccountColumns():
-    '''    public VerifyGLAccountColumns(final DatabaseInformation mdi, final ReportCollector ic, final ValidateLogger vl)
+    '''public VerifyGLAccountColumns(final DatabaseInformation mdi, final ReportCollector ic, final ValidateLogger vl)
     '''
 def checkPerConnection():
-    '''    public void checkPerConnection(final Connection dc, final ValidateLogger vl)
+    '''public void checkPerConnection(final Connection dc, final ValidateLogger vl)
     '''
 def getStandardGLLength():
-    '''    public Integer getStandardGLLength(final Connection dc)
+    '''public Integer getStandardGLLength(final Connection dc)
     '''
 def getTitle():
-    '''    public MXException getTitle()
+    '''public MXException getTitle()
     '''
 def conditionsCheck():
-    '''    public boolean conditionsCheck()
+    '''public boolean conditionsCheck()
     '''
 def prerequisitesCheck():
-    '''    public boolean prerequisitesCheck()
+    '''public boolean prerequisitesCheck()
     '''

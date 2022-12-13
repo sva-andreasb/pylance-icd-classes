@@ -1,6 +1,6 @@
 def FldAMCrewLbrPosRequirementStatus():
-    '''    public FldAMCrewLbrPosRequirementStatus(final MboValue mbv)
+    '''public FldAMCrewLbrPosRequirementStatus(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

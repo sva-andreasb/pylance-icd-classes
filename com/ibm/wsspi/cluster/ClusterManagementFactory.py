@@ -1,6 +1,6 @@
 def getClusterManagement():
-    '''    public static ClusterManagement getClusterManagement()
+    '''public static ClusterManagement getClusterManagement()
     '''
 def getNonDistributedClusterManagement():
-    '''    public static ClusterManagement getNonDistributedClusterManagement()
+    '''public static ClusterManagement getNonDistributedClusterManagement()
     '''

@@ -1,6 +1,6 @@
 def LMUL():
-    '''    public LMUL()
+    '''public LMUL()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

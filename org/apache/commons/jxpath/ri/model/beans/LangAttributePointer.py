@@ -1,45 +1,45 @@
 def LangAttributePointer():
-    '''    public LangAttributePointer(final NodePointer parent)
+    '''public LangAttributePointer(final NodePointer parent)
     '''
 def getName():
-    '''    public QName getName()
+    '''public QName getName()
     '''
 def getExpandedName():
-    '''    public QName getExpandedName()
+    '''public QName getExpandedName()
     '''
 def getNamespaceURI():
-    '''    public String getNamespaceURI()
+    '''public String getNamespaceURI()
     '''
 def isCollection():
-    '''    public boolean isCollection()
+    '''public boolean isCollection()
     '''
 def getLength():
-    '''    public int getLength()
+    '''public int getLength()
     '''
 def getBaseValue():
-    '''    public Object getBaseValue()
+    '''public Object getBaseValue()
     '''
 def getImmediateNode():
-    '''    public Object getImmediateNode()
+    '''public Object getImmediateNode()
     '''
 def isLeaf():
-    '''    public boolean isLeaf()
+    '''public boolean isLeaf()
     '''
 def setValue():
-    '''    public void setValue(final Object value)
+    '''public void setValue(final Object value)
     '''
 def asPath():
-    '''    public String asPath()
+    '''public String asPath()
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object object)
+    '''public boolean equals(final Object object)
     '''
 def testNode():
-    '''    public boolean testNode(final NodeTest test)
+    '''public boolean testNode(final NodeTest test)
     '''
 def compareChildNodePointers():
-    '''    public int compareChildNodePointers(final NodePointer pointer1, final NodePointer pointer2)
+    '''public int compareChildNodePointers(final NodePointer pointer1, final NodePointer pointer2)
     '''

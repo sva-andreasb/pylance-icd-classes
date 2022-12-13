@@ -1,3 +1,3 @@
 def PlusCATMasterPMSet():
-    '''    public PlusCATMasterPMSet(final MboServerInterface ms)
+    '''public PlusCATMasterPMSet(final MboServerInterface ms)
     '''

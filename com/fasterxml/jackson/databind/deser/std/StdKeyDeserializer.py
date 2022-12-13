@@ -16,22 +16,22 @@ TYPE_CLASS = "int  15"
 TYPE_CURRENCY = "int  16"
 TYPE_BYTE_ARRAY = "int  17"
 def forType():
-    '''    public static StdKeyDeserializer forType(final Class<?> raw)
+    '''public static StdKeyDeserializer forType(final Class<?> raw)
     public static StringKD forType(final Class<?> nominalType)
     '''
 def deserializeKey():
-    '''    public Object deserializeKey(final String key, final DeserializationContext ctxt)
+    '''public Object deserializeKey(final String key, final DeserializationContext ctxt)
     public Object deserializeKey(final String key, final DeserializationContext ctxt)
     public final Object deserializeKey(final String key, final DeserializationContext ctxt)
     '''
 def _parse():
-    '''    public Object _parse(final String key, final DeserializationContext ctxt)
+    '''public Object _parse(final String key, final DeserializationContext ctxt)
     public Object _parse(final String key, final DeserializationContext ctxt)
     public Object _parse(final String key, final DeserializationContext ctxt)
     '''
 def StringCtorKeyDeserializer():
-    '''    public StringCtorKeyDeserializer(final Constructor<?> ctor)
+    '''public StringCtorKeyDeserializer(final Constructor<?> ctor)
     '''
 def StringFactoryKeyDeserializer():
-    '''    public StringFactoryKeyDeserializer(final Method fm)
+    '''public StringFactoryKeyDeserializer(final Method fm)
     '''

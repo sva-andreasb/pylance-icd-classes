@@ -1,6 +1,6 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def searchcatalog():
-    '''    public int searchcatalog()
+    '''public int searchcatalog()
     '''

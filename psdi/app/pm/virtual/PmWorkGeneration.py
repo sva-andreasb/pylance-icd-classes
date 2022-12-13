@@ -1,6 +1,6 @@
 def PmWorkGeneration():
-    '''    public PmWorkGeneration(final MboSet ms)
+    '''public PmWorkGeneration(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

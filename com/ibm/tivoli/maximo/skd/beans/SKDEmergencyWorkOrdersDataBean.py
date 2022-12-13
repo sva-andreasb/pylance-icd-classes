@@ -1,9 +1,9 @@
 def saveemrg():
-    '''    public int saveemrg()
+    '''public int saveemrg()
     '''
 def runemrgdlg():
-    '''    public int runemrgdlg()
+    '''public int runemrgdlg()
     '''
 def skdquickquerybuilder():
-    '''    public int skdquickquerybuilder()
+    '''public int skdquickquerybuilder()
     '''

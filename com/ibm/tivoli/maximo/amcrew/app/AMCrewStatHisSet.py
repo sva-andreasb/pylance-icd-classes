@@ -1,3 +1,3 @@
 def AMCrewStatHisSet():
-    '''    public AMCrewStatHisSet(final MboServerInterface ms)
+    '''public AMCrewStatHisSet(final MboServerInterface ms)
     '''

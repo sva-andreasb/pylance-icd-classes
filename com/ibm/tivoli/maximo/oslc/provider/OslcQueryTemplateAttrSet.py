@@ -1,6 +1,6 @@
 def OslcQueryTemplateAttrSet():
-    '''    public OslcQueryTemplateAttrSet(final MboServerInterface ms)
+    '''public OslcQueryTemplateAttrSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

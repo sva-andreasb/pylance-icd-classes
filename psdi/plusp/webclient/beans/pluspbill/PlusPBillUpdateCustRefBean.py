@@ -1,3 +1,3 @@
 def updateCustomerReferencesOk():
-    '''    public void updateCustomerReferencesOk()
+    '''public void updateCustomerReferencesOk()
     '''

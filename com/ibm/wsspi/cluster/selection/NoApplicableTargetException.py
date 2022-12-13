@@ -1,3 +1,3 @@
 def NoApplicableTargetException():
-    '''    public NoApplicableTargetException(final String message)
+    '''public NoApplicableTargetException(final String message)
     '''

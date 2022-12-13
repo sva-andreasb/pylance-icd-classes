@@ -1,6 +1,6 @@
 def getType():
-    '''    public Type getType()
+    '''public Type getType()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

@@ -1,3 +1,3 @@
 def parse():
-    '''    public Bytestream parse(final XmlPullParser parser, final int initialDepth)
+    '''public Bytestream parse(final XmlPullParser parser, final int initialDepth)
     '''

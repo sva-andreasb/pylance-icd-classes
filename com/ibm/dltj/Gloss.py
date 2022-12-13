@@ -8,39 +8,39 @@ POS_ADPOSITION = "int  6"
 POS_INTERJECTION = "int  7"
 POS_CONJUNCTION = "int  8"
 def isUserGloss():
-    '''    public static final boolean isUserGloss(final int n)
+    '''public static final boolean isUserGloss(final int n)
     '''
 def parseStr():
-    '''    public static final String parseStr(final int i, final boolean b)
+    '''public static final String parseStr(final int i, final boolean b)
     public static final String parseStr(final int n)
     '''
 def parseInt():
-    '''    public static final int parseInt(final String s)
+    '''public static final int parseInt(final String s)
     '''
 def getTypeName():
-    '''    public String getTypeName()
+    '''public String getTypeName()
     '''
 def recalcPointers():
-    '''    public void recalcPointers(final Gloss[] array)
+    '''public void recalcPointers(final Gloss[] array)
     '''
 def quickHashCode():
-    '''    public int quickHashCode()
+    '''public int quickHashCode()
     '''
 def numChildren():
-    '''    public int numChildren()
+    '''public int numChildren()
     '''
 def getChild():
-    '''    public Gloss getChild(final int n)
+    '''public Gloss getChild(final int n)
     '''
 def setChild():
-    '''    public void setChild(final int n, final Gloss gloss)
+    '''public void setChild(final int n, final Gloss gloss)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def is():
-    '''    public boolean is(final int n)
+    '''public boolean is(final int n)
     '''
 def set():
-    '''    public void set(final int n)
+    '''public void set(final int n)
     '''

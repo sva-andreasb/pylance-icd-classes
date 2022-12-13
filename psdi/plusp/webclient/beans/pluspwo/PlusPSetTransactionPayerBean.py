@@ -1,6 +1,6 @@
 def execute():
-    '''    public synchronized int execute()
+    '''public synchronized int execute()
     '''
 def applyFilter():
-    '''    public int applyFilter()
+    '''public int applyFilter()
     '''

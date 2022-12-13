@@ -1,9 +1,9 @@
 def AnnotationCometdServlet():
-    '''    public AnnotationCometdServlet()
+    '''public AnnotationCometdServlet()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def destroy():
-    '''    public void destroy()
+    '''public void destroy()
     '''

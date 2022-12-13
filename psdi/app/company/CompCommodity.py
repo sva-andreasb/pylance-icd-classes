@@ -1,9 +1,9 @@
 def CompCommodity():
-    '''    public CompCommodity(final MboSet ms)
+    '''public CompCommodity(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete()
+    '''public void delete()
     '''

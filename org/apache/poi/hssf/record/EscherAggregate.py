@@ -205,61 +205,61 @@ ST_HOSTCONTROL = "short  201"
 ST_TEXTBOX = "short  202"
 ST_NIL = "short  4095"
 def EscherAggregate():
-    '''    public EscherAggregate(final boolean createDefaultTree)
+    '''public EscherAggregate(final boolean createDefaultTree)
     '''
 def getSid():
-    '''    public short getSid()
+    '''public short getSid()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def toXml():
-    '''    public String toXml(final String tab)
+    '''public String toXml(final String tab)
     '''
 def createAggregate():
-    '''    public static EscherAggregate createAggregate(final List<RecordBase> records, final int locFirstDrawingRecord)
+    '''public static EscherAggregate createAggregate(final List<RecordBase> records, final int locFirstDrawingRecord)
     '''
 def createRecord():
-    '''    public EscherRecord createRecord(final byte[] data, final int offset)
+    '''public EscherRecord createRecord(final byte[] data, final int offset)
     '''
 def serialize():
-    '''    public int serialize(final int offset, final byte[] data)
+    '''public int serialize(final int offset, final byte[] data)
     '''
 def beforeRecordSerialize():
-    '''    public void beforeRecordSerialize(final int offset, final short recordId, final EscherRecord record)
+    '''public void beforeRecordSerialize(final int offset, final short recordId, final EscherRecord record)
     public void beforeRecordSerialize(final int offset, final short recordId, final EscherRecord record)
     '''
 def afterRecordSerialize():
-    '''    public void afterRecordSerialize(final int offset, final short recordId, final int size, final EscherRecord record)
+    '''public void afterRecordSerialize(final int offset, final short recordId, final int size, final EscherRecord record)
     public void afterRecordSerialize(final int offset, final short recordId, final int size, final EscherRecord record)
     '''
 def getRecordSize():
-    '''    public int getRecordSize()
+    '''public int getRecordSize()
     '''
 def associateShapeToObjRecord():
-    '''    public void associateShapeToObjRecord(final EscherRecord r, final Record objRecord)
+    '''public void associateShapeToObjRecord(final EscherRecord r, final Record objRecord)
     '''
 def removeShapeToObjRecord():
-    '''    public void removeShapeToObjRecord(final EscherRecord rec)
+    '''public void removeShapeToObjRecord(final EscherRecord rec)
     '''
 def setDgId():
-    '''    public void setDgId(final short dgId)
+    '''public void setDgId(final short dgId)
     '''
 def setMainSpRecordId():
-    '''    public void setMainSpRecordId(final int shapeId)
+    '''public void setMainSpRecordId(final int shapeId)
     '''
 def getShapeToObjMapping():
-    '''    public Map<EscherRecord, Record> getShapeToObjMapping()
+    '''public Map<EscherRecord, Record> getShapeToObjMapping()
     '''
 def getTailRecords():
-    '''    public Map<Integer, NoteRecord> getTailRecords()
+    '''public Map<Integer, NoteRecord> getTailRecords()
     '''
 def getNoteRecordByObj():
-    '''    public NoteRecord getNoteRecordByObj(final ObjRecord obj)
+    '''public NoteRecord getNoteRecordByObj(final ObjRecord obj)
     '''
 def addTailRecord():
-    '''    public void addTailRecord(final NoteRecord note)
+    '''public void addTailRecord(final NoteRecord note)
     '''
 def removeTailRecord():
-    '''    public void removeTailRecord(final NoteRecord note)
+    '''public void removeTailRecord(final NoteRecord note)
     '''

@@ -1,6 +1,6 @@
 def FldInventoryCCF():
-    '''    public FldInventoryCCF(final MboValue mbv)
+    '''public FldInventoryCCF(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

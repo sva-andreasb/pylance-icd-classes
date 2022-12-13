@@ -1,6 +1,6 @@
 def OslcNSPrefixSet():
-    '''    public OslcNSPrefixSet(final MboServerInterface ms)
+    '''public OslcNSPrefixSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

@@ -1,9 +1,9 @@
 def WeatherOrganizationSet():
-    '''    public WeatherOrganizationSet(final MboServerInterface ms)
+    '''public WeatherOrganizationSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''
 def setupOrgForSubscription():
-    '''    public void setupOrgForSubscription(final MboRemote parent)
+    '''public void setupOrgForSubscription(final MboRemote parent)
     '''

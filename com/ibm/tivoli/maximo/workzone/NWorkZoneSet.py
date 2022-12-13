@@ -1,3 +1,3 @@
 def NWorkZoneSet():
-    '''    public NWorkZoneSet(final MboServerInterface ms)
+    '''public NWorkZoneSet(final MboServerInterface ms)
     '''

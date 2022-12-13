@@ -1,3 +1,3 @@
 def CommitGroupSet():
-    '''    public CommitGroupSet(final MboServerInterface ms)
+    '''public CommitGroupSet(final MboServerInterface ms)
     '''

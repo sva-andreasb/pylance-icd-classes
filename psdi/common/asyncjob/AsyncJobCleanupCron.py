@@ -1,12 +1,12 @@
 def AsyncJobCleanupCron():
-    '''    public AsyncJobCleanupCron()
+    '''public AsyncJobCleanupCron()
     '''
 def cronAction():
-    '''    public void cronAction()
+    '''public void cronAction()
     '''
 def getParameterValidationMbo():
-    '''    public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
+    '''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
     '''
 def getParameters():
-    '''    public CrontaskParamInfo[] getParameters()
+    '''public CrontaskParamInfo[] getParameters()
     '''

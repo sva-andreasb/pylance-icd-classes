@@ -1,15 +1,15 @@
 def WpEditSetting():
-    '''    public WpEditSetting(final MboSet ms)
+    '''public WpEditSetting(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''

@@ -1,21 +1,21 @@
 def ImportTask():
-    '''    public ImportTask()
+    '''public ImportTask()
     '''
 def setOptional():
-    '''    public void setOptional(final boolean optional)
+    '''public void setOptional(final boolean optional)
     '''
 def setFile():
-    '''    public void setFile(final String file)
+    '''public void setFile(final String file)
     '''
 def setAs():
-    '''    public void setAs(final String prefix)
+    '''public void setAs(final String prefix)
     '''
 def setPrefixSeparator():
-    '''    public void setPrefixSeparator(final String s)
+    '''public void setPrefixSeparator(final String s)
     '''
 def add():
-    '''    public void add(final ResourceCollection r)
+    '''public void add(final ResourceCollection r)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

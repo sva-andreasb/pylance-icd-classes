@@ -12,38 +12,38 @@ SIG_TERM = "String  \"TERM\""
 SIG_USR1 = "String  \"USR1\""
 SIG_USR2 = "String  \"USR2\""
 def getOutputStream():
-    '''    public OutputStream getOutputStream()
+    '''public OutputStream getOutputStream()
     '''
 def getInputStream():
-    '''    public InputStream getInputStream()
+    '''public InputStream getInputStream()
     '''
 def getErrorStream():
-    '''    public InputStream getErrorStream()
+    '''public InputStream getErrorStream()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def signal():
-    '''    public void signal(final String signalName)
+    '''public void signal(final String signalName)
     '''
 def waitFor():
-    '''    public int waitFor()
+    '''public int waitFor()
     '''
 def getStandardOutput():
-    '''    public String getStandardOutput()
+    '''public String getStandardOutput()
     '''
 def getStandardError():
-    '''    public String getStandardError()
+    '''public String getStandardError()
     '''
 def getExitStatus():
-    '''    public int getExitStatus()
+    '''public int getExitStatus()
     '''
 def getExitSignal():
-    '''    public String getExitSignal()
+    '''public String getExitSignal()
     '''
 def didExitSignalDumpCore():
-    '''    public boolean didExitSignalDumpCore()
+    '''public boolean didExitSignalDumpCore()
     '''
 def getExitSignalErrorMessage():
-    '''    public String getExitSignalErrorMessage()
+    '''public String getExitSignalErrorMessage()
     '''

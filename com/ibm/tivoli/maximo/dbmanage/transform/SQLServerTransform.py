@@ -1,12 +1,12 @@
 def SQLServerTransform():
-    '''    public SQLServerTransform(final Connection con)
+    '''public SQLServerTransform(final Connection con)
     '''
 def transform():
-    '''    public String transform(String sql)
+    '''public String transform(String sql)
     '''
 def getSequenceNextValue():
-    '''    public String getSequenceNextValue(final String seqName)
+    '''public String getSequenceNextValue(final String seqName)
     '''
 def nextval():
-    '''    public String nextval(final String seqName)
+    '''public String nextval(final String seqName)
     '''

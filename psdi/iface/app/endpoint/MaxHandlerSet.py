@@ -1,6 +1,6 @@
 def MaxHandlerSet():
-    '''    public MaxHandlerSet(final MboServerInterface ms)
+    '''public MaxHandlerSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

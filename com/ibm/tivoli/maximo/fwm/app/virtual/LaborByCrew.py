@@ -1,6 +1,6 @@
 def LaborByCrew():
-    '''    public LaborByCrew(final MboSet ms)
+    '''public LaborByCrew(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

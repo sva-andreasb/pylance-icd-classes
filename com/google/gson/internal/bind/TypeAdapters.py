@@ -1,8 +1,8 @@
 def newEnumTypeHierarchyFactory():
-    '''    public static TypeAdapterFactory newEnumTypeHierarchyFactory()
+    '''public static TypeAdapterFactory newEnumTypeHierarchyFactory()
     '''
 def create():
-    '''    public <T> TypeAdapter<T> create(final Gson gson, final TypeToken<T> typeToken)
+    '''public <T> TypeAdapter<T> create(final Gson gson, final TypeToken<T> typeToken)
     public <T> TypeAdapter<T> create(final Gson gson, final TypeToken<T> typeToken)
     public <T> TypeAdapter<T> create(final Gson gson, final TypeToken<T> typeToken)
     public <T> TypeAdapter<T> create(final Gson gson, final TypeToken<T> typeToken)
@@ -11,24 +11,24 @@ def create():
     public <T> TypeAdapter<T> create(final Gson gson, final TypeToken<T> typeToken)
     '''
 def newFactory():
-    '''    public static <TT> TypeAdapterFactory newFactory(final TypeToken<TT> type, final TypeAdapter<TT> typeAdapter)
+    '''public static <TT> TypeAdapterFactory newFactory(final TypeToken<TT> type, final TypeAdapter<TT> typeAdapter)
     public static <TT> TypeAdapterFactory newFactory(final Class<TT> type, final TypeAdapter<TT> typeAdapter)
     public static <TT> TypeAdapterFactory newFactory(final Class<TT> unboxed, final Class<TT> boxed, final TypeAdapter<? super TT> typeAdapter)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     public String toString()
     public String toString()
     public String toString()
     '''
 def newFactoryForMultipleTypes():
-    '''    public static <TT> TypeAdapterFactory newFactoryForMultipleTypes(final Class<TT> base, final Class<? extends TT> sub, final TypeAdapter<? super TT> typeAdapter)
+    '''public static <TT> TypeAdapterFactory newFactoryForMultipleTypes(final Class<TT> base, final Class<? extends TT> sub, final TypeAdapter<? super TT> typeAdapter)
     '''
 def newTypeHierarchyFactory():
-    '''    public static <TT> TypeAdapterFactory newTypeHierarchyFactory(final Class<TT> clazz, final TypeAdapter<TT> typeAdapter)
+    '''public static <TT> TypeAdapterFactory newTypeHierarchyFactory(final Class<TT> clazz, final TypeAdapter<TT> typeAdapter)
     '''
 def write():
-    '''    public void write(final JsonWriter out, final Class value)
+    '''public void write(final JsonWriter out, final Class value)
     public void write(final JsonWriter out, final BitSet src)
     public void write(final JsonWriter out, final Boolean value)
     public void write(final JsonWriter out, final Boolean value)
@@ -56,7 +56,7 @@ def write():
     public void write(final JsonWriter out, final T value)
     '''
 def read():
-    '''    public Class read(final JsonReader in)
+    '''public Class read(final JsonReader in)
     public BitSet read(final JsonReader in)
     public Boolean read(final JsonReader in)
     public Boolean read(final JsonReader in)
@@ -84,5 +84,5 @@ def read():
     public T read(final JsonReader in)
     '''
 def EnumTypeAdapter():
-    '''    public EnumTypeAdapter(final Class<T> classOfT)
+    '''public EnumTypeAdapter(final Class<T> classOfT)
     '''

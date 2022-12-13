@@ -1,3 +1,3 @@
 def getInstance():
-    '''    public static XSLFRelation getInstance(final String rel)
+    '''public static XSLFRelation getInstance(final String rel)
     '''

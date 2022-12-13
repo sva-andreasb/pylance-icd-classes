@@ -1,3 +1,3 @@
 def Alias():
-    '''    public Alias(final String path)
+    '''public Alias(final String path)
     '''

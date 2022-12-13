@@ -1,3 +1,3 @@
 def FldPersonGroupDflt():
-    '''    public FldPersonGroupDflt(final MboValue mbv)
+    '''public FldPersonGroupDflt(final MboValue mbv)
     '''

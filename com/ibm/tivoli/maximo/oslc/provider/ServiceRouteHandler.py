@@ -1,3 +1,3 @@
 def handleRequest():
-    '''    public OslcResourceResponse handleRequest(final OslcRequest oslcRequest)
+    '''public OslcResourceResponse handleRequest(final OslcRequest oslcRequest)
     '''

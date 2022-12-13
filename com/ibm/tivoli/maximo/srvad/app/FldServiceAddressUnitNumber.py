@@ -1,6 +1,6 @@
 def FldServiceAddressUnitNumber():
-    '''    public FldServiceAddressUnitNumber(final MboValue mbv)
+    '''public FldServiceAddressUnitNumber(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

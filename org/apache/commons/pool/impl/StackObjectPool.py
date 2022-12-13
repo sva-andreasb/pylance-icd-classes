@@ -1,5 +1,5 @@
 def StackObjectPool():
-    '''    public StackObjectPool()
+    '''public StackObjectPool()
     public StackObjectPool(final int maxIdle)
     public StackObjectPool(final int maxIdle, final int initIdleCapacity)
     public StackObjectPool(final PoolableObjectFactory factory)
@@ -7,29 +7,29 @@ def StackObjectPool():
     public StackObjectPool(final PoolableObjectFactory factory, final int maxIdle, final int initIdleCapacity)
     '''
 def borrowObject():
-    '''    public synchronized Object borrowObject()
+    '''public synchronized Object borrowObject()
     '''
 def returnObject():
-    '''    public synchronized void returnObject(Object obj)
+    '''public synchronized void returnObject(Object obj)
     '''
 def invalidateObject():
-    '''    public synchronized void invalidateObject(final Object obj)
+    '''public synchronized void invalidateObject(final Object obj)
     '''
 def getNumIdle():
-    '''    public synchronized int getNumIdle()
+    '''public synchronized int getNumIdle()
     '''
 def getNumActive():
-    '''    public synchronized int getNumActive()
+    '''public synchronized int getNumActive()
     '''
 def clear():
-    '''    public synchronized void clear()
+    '''public synchronized void clear()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def addObject():
-    '''    public synchronized void addObject()
+    '''public synchronized void addObject()
     '''
 def setFactory():
-    '''    public synchronized void setFactory(final PoolableObjectFactory factory)
+    '''public synchronized void setFactory(final PoolableObjectFactory factory)
     '''

@@ -1,6 +1,6 @@
 def PlusPSecurityRestrict():
-    '''    public PlusPSecurityRestrict(final MboSet arg0)
+    '''public PlusPSecurityRestrict(final MboSet arg0)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

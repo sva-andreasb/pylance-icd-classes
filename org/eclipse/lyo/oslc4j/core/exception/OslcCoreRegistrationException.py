@@ -1,12 +1,12 @@
 def OslcCoreRegistrationException():
-    '''    public OslcCoreRegistrationException(final ServiceProvider serviceProvider, final int statusCode, final String responseMessage)
+    '''public OslcCoreRegistrationException(final ServiceProvider serviceProvider, final int statusCode, final String responseMessage)
     '''
 def getResponseMessage():
-    '''    public String getResponseMessage()
+    '''public String getResponseMessage()
     '''
 def getServiceProvider():
-    '''    public ServiceProvider getServiceProvider()
+    '''public ServiceProvider getServiceProvider()
     '''
 def getStatusCode():
-    '''    public int getStatusCode()
+    '''public int getStatusCode()
     '''

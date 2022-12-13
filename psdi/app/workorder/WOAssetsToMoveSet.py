@@ -1,3 +1,3 @@
 def WOAssetsToMoveSet():
-    '''    public WOAssetsToMoveSet(final MboServerInterface ms)
+    '''public WOAssetsToMoveSet(final MboServerInterface ms)
     '''

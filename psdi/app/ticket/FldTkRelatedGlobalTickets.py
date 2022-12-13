@@ -1,6 +1,6 @@
 def FldTkRelatedGlobalTickets():
-    '''    public FldTkRelatedGlobalTickets(final MboValue mbv)
+    '''public FldTkRelatedGlobalTickets(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

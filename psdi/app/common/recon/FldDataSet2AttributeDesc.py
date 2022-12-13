@@ -1,3 +1,3 @@
 def FldDataSet2AttributeDesc():
-    '''    public FldDataSet2AttributeDesc(final MboValue mbv)
+    '''public FldDataSet2AttributeDesc(final MboValue mbv)
     '''

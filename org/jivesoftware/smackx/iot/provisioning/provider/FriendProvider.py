@@ -1,3 +1,3 @@
 def parse():
-    '''    public Friend parse(final XmlPullParser parser, final int initialDepth)
+    '''public Friend parse(final XmlPullParser parser, final int initialDepth)
     '''

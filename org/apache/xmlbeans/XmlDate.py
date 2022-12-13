@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_date\")"
 def newInstance():
-    '''    public static XmlDate newInstance()
+    '''public static XmlDate newInstance()
     public static XmlDate newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlDate newValue(final Object obj)
+    '''public static XmlDate newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlDate parse(final String s)
+    '''public static XmlDate parse(final String s)
     public static XmlDate parse(final String s, final XmlOptions options)
     public static XmlDate parse(final File f)
     public static XmlDate parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlDate parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

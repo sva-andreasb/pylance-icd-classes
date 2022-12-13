@@ -1,12 +1,12 @@
 def ReconTaskComp():
-    '''    public ReconTaskComp(final MboSet ms)
+    '''public ReconTaskComp(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete(final long modifier)
+    '''public void delete(final long modifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''

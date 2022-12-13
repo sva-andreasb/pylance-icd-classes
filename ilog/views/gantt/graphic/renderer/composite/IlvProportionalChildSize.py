@@ -1,35 +1,35 @@
 ANCHOR_HEIGHT = "int  0"
 ANCHOR_WIDTH = "int  1"
 def IlvProportionalChildSize():
-    '''    public IlvProportionalChildSize()
+    '''public IlvProportionalChildSize()
     '''
 def getHeightConstraint():
-    '''    public int getHeightConstraint()
+    '''public int getHeightConstraint()
     '''
 def setHeightConstraint():
-    '''    public void setHeightConstraint(final int a)
+    '''public void setHeightConstraint(final int a)
     '''
 def getHeightFactor():
-    '''    public float getHeightFactor()
+    '''public float getHeightFactor()
     '''
 def setHeightFactor():
-    '''    public void setHeightFactor(final float c)
+    '''public void setHeightFactor(final float c)
     '''
 def getWidthConstraint():
-    '''    public int getWidthConstraint()
+    '''public int getWidthConstraint()
     '''
 def setWidthConstraint():
-    '''    public void setWidthConstraint(final int b)
+    '''public void setWidthConstraint(final int b)
     '''
 def getWidthFactor():
-    '''    public float getWidthFactor()
+    '''public float getWidthFactor()
     '''
 def setWidthFactor():
-    '''    public void setWidthFactor(final float d)
+    '''public void setWidthFactor(final float d)
     '''
 def getSize():
-    '''    public IlvPoint getSize(final IlvRect ilvRect, final IlvRect ilvRect2)
+    '''public IlvPoint getSize(final IlvRect ilvRect, final IlvRect ilvRect2)
     '''
 def write():
-    '''    public void write(final IlvOutputStream ilvOutputStream)
+    '''public void write(final IlvOutputStream ilvOutputStream)
     '''

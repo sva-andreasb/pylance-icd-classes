@@ -1,6 +1,6 @@
 def MethodUpdate():
-    '''    public MethodUpdate(final Method method)
+    '''public MethodUpdate(final Method method)
     '''
 def transform():
-    '''    public Calendar transform(final Calendar object)
+    '''public Calendar transform(final Calendar object)
     '''

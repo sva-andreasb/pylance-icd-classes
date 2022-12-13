@@ -1,6 +1,6 @@
 def PlusPFldBillLineFilterAttr():
-    '''    public PlusPFldBillLineFilterAttr(final MboValue mv)
+    '''public PlusPFldBillLineFilterAttr(final MboValue mv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

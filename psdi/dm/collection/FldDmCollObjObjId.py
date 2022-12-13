@@ -1,6 +1,6 @@
 def FldDmCollObjObjId():
-    '''    public FldDmCollObjObjId(final MboValue mbv)
+    '''public FldDmCollObjObjId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

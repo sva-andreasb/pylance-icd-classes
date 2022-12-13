@@ -1,3 +1,3 @@
 def SKDResourceSet():
-    '''    public SKDResourceSet(final MboServerInterface ms)
+    '''public SKDResourceSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def createIndex():
-    '''    public Index createIndex(final FileSet fileset, final RecordFactory recordFactory)
+    '''public Index createIndex(final FileSet fileset, final RecordFactory recordFactory)
     '''

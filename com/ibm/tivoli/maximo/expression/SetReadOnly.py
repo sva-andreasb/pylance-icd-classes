@@ -1,9 +1,9 @@
 def SetReadOnly():
-    '''    public SetReadOnly(final Expression exp, final String name, final int numParams)
+    '''public SetReadOnly(final Expression exp, final String name, final int numParams)
     '''
 def eval():
-    '''    public BigDecimal eval(final List<BigDecimal> parameters)
+    '''public BigDecimal eval(final List<BigDecimal> parameters)
     '''
 def resolveOwner():
-    '''    public Object[] resolveOwner(String mboAttrName, final MboRemote mbo)
+    '''public Object[] resolveOwner(String mboAttrName, final MboRemote mbo)
     '''

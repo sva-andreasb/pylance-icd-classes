@@ -1,6 +1,6 @@
 def FldWOInspFormNum():
-    '''    public FldWOInspFormNum(final MboValue mbv)
+    '''public FldWOInspFormNum(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

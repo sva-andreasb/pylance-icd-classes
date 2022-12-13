@@ -1,3 +1,3 @@
 def getContents():
-    '''    public synchronized Object[][] getContents()
+    '''public synchronized Object[][] getContents()
     '''

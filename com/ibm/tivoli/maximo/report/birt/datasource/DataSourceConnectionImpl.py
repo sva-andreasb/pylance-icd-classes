@@ -1,9 +1,9 @@
 def DataSourceConnectionImpl():
-    '''    public DataSourceConnectionImpl(final Connection connection)
+    '''public DataSourceConnectionImpl(final Connection connection)
     '''
 def getConnection():
-    '''    public Connection getConnection()
+    '''public Connection getConnection()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''

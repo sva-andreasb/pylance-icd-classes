@@ -1,3 +1,3 @@
 def FldAssetFailureCode():
-    '''    public FldAssetFailureCode(final MboValue mbv)
+    '''public FldAssetFailureCode(final MboValue mbv)
     '''

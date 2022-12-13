@@ -1,6 +1,6 @@
 def applyTo():
-    '''    public void applyTo(final DateProperty element)
+    '''public void applyTo(final DateProperty element)
     '''
 def getSupportedType():
-    '''    public Class<DateProperty> getSupportedType()
+    '''public Class<DateProperty> getSupportedType()
     '''

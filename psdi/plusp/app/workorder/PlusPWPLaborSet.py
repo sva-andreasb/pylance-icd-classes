@@ -1,3 +1,3 @@
 def PlusPWPLaborSet():
-    '''    public PlusPWPLaborSet(final MboServerInterface arg0)
+    '''public PlusPWPLaborSet(final MboServerInterface arg0)
     '''

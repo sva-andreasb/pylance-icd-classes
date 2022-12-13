@@ -1,12 +1,12 @@
 def ModDatasetStore():
-    '''    public ModDatasetStore()
+    '''public ModDatasetStore()
     '''
 def createDataset():
-    '''    public Dataset createDataset()
+    '''public Dataset createDataset()
     '''
 def registerWith():
-    '''    public void registerWith(final CmdGeneral cmdLine)
+    '''public void registerWith(final CmdGeneral cmdLine)
     '''
 def processArgs():
-    '''    public void processArgs(final CmdArgModule cmdLine)
+    '''public void processArgs(final CmdArgModule cmdLine)
     '''

@@ -1,3 +1,3 @@
 def FldUserStatusChangeStatus():
-    '''    public FldUserStatusChangeStatus(final MboValue mbv)
+    '''public FldUserStatusChangeStatus(final MboValue mbv)
     '''

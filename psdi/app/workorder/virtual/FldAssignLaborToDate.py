@@ -1,6 +1,6 @@
 def FldAssignLaborToDate():
-    '''    public FldAssignLaborToDate(final MboValue mbv)
+    '''public FldAssignLaborToDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

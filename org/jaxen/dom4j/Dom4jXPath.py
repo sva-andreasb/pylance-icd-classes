@@ -1,3 +1,3 @@
 def Dom4jXPath():
-    '''    public Dom4jXPath(final String xpathExpr)
+    '''public Dom4jXPath(final String xpathExpr)
     '''

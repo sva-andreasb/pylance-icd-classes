@@ -1,9 +1,9 @@
 def Tokenizer():
-    '''    public Tokenizer(final Reader reader)
+    '''public Tokenizer(final Reader reader)
     '''
 def next():
-    '''    public Token next()
+    '''public Token next()
     '''
 def onLineCol():
-    '''    public String onLineCol()
+    '''public String onLineCol()
     '''

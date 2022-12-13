@@ -1,3 +1,3 @@
 def PlusPSOStatusSet():
-    '''    public PlusPSOStatusSet(final MboServerInterface ms)
+    '''public PlusPSOStatusSet(final MboServerInterface ms)
     '''

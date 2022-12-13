@@ -25,59 +25,59 @@ USERDATA_AVAILSHIFTBUCKET = "String  \"AVAILSHIFTBUCKET\""
 USERDATA_LOADSHIFTBUCKET = "String  \"USERDATA_LOADSHIFTBUCKET\""
 PROPERTY_TIMEBASED = "String  \"_TIMEBASED\""
 def MXResource():
-    '''    public MXResource(final String id, final String name, final float quantity)
+    '''public MXResource(final String id, final String name, final float quantity)
     public MXResource(final String id, final String name)
     '''
 def setProperty():
-    '''    public Object setProperty(final String property, final Object value, final boolean ignoreChangeTracking)
+    '''public Object setProperty(final String property, final Object value, final boolean ignoreChangeTracking)
     public Object setProperty(final String property, final Object value)
     '''
 def getModifiedProperties():
-    '''    public Iterator getModifiedProperties()
+    '''public Iterator getModifiedProperties()
     '''
 def isModified():
-    '''    public boolean isModified()
+    '''public boolean isModified()
     '''
 def getObjectName():
-    '''    public String getObjectName()
+    '''public String getObjectName()
     '''
 def getObjectId():
-    '''    public long getObjectId()
+    '''public long getObjectId()
     '''
 def getApplinkObject():
-    '''    public String getApplinkObject(final String propertyName)
+    '''public String getApplinkObject(final String propertyName)
     '''
 def getApplinkAppList():
-    '''    public HashMap<String, String> getApplinkAppList(final String propertyName)
+    '''public HashMap<String, String> getApplinkAppList(final String propertyName)
     '''
 def setUserData():
-    '''    public void setUserData(final String key, final Object value)
+    '''public void setUserData(final String key, final Object value)
     '''
 def getUserData():
-    '''    public <T> T getUserData(final String key)
+    '''public <T> T getUserData(final String key)
     '''
 def getInt():
-    '''    public int getInt(final String prop)
+    '''public int getInt(final String prop)
     '''
 def getLong():
-    '''    public long getLong(final String prop)
+    '''public long getLong(final String prop)
     '''
 def getFloat():
-    '''    public float getFloat(final String prop)
+    '''public float getFloat(final String prop)
     '''
 def getDouble():
-    '''    public double getDouble(final String prop)
+    '''public double getDouble(final String prop)
     '''
 def getBoolean():
-    '''    public boolean getBoolean(final String prop)
+    '''public boolean getBoolean(final String prop)
     '''
 def getString():
-    '''    public String getString(final String prop)
+    '''public String getString(final String prop)
     public String getString(final String prop, final String defValue)
     '''
 def getDate():
-    '''    public Date getDate(final String prop)
+    '''public Date getDate(final String prop)
     '''
 def createResource():
-    '''    public MXResource createResource()
+    '''public MXResource createResource()
     '''

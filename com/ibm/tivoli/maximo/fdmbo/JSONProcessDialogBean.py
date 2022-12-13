@@ -1,18 +1,18 @@
 def JSONProcessDialogBean():
-    '''    public JSONProcessDialogBean()
+    '''public JSONProcessDialogBean()
     '''
 def nexttab():
-    '''    public int nexttab()
+    '''public int nexttab()
     '''
 def prevtab():
-    '''    public int prevtab()
+    '''public int prevtab()
     '''
 def process():
-    '''    public int process()
+    '''public int process()
     '''
 def cancelDialog():
-    '''    public int cancelDialog()
+    '''public int cancelDialog()
     '''
 def cancelchanges():
-    '''    public int cancelchanges()
+    '''public int cancelchanges()
     '''

@@ -1,12 +1,12 @@
 def ExportContext():
-    '''    public ExportContext(final UserInfo userInfo)
+    '''public ExportContext(final UserInfo userInfo)
     '''
 def log():
-    '''    public void log(final String msg)
+    '''public void log(final String msg)
     '''
 def getUserInfo():
-    '''    public UserInfo getUserInfo()
+    '''public UserInfo getUserInfo()
     '''
 def setUserInfo():
-    '''    public void setUserInfo(final UserInfo userInfo)
+    '''public void setUserInfo(final UserInfo userInfo)
     '''

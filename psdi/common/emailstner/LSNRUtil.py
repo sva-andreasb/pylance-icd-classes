@@ -1,33 +1,33 @@
 def setLogger():
-    '''    public static void setLogger(final MXLogger log)
+    '''public static void setLogger(final MXLogger log)
     '''
 def getLogger():
-    '''    public static MXLogger getLogger()
+    '''public static MXLogger getLogger()
     '''
 def processMessage():
-    '''    public static void processMessage(MboRemote inboundComm)
+    '''public static void processMessage(MboRemote inboundComm)
     public static void processMessage(final ObjectMessage objm)
     '''
 def handleErrorException():
-    '''    public static void handleErrorException(final Exception e, final String emailAddress, MboRemote inboundComm)
+    '''public static void handleErrorException(final Exception e, final String emailAddress, MboRemote inboundComm)
     '''
 def updateInboundComm():
-    '''    public static MboRemote updateInboundComm(final String[] attributeName, final String[] value, final MboRemote oldInbComm)
+    '''public static MboRemote updateInboundComm(final String[] attributeName, final String[] value, final MboRemote oldInbComm)
     '''
 def getInboundCommRecord():
-    '''    public static MboRemote getInboundCommRecord(final MboRemote oldInbComm)
+    '''public static MboRemote getInboundCommRecord(final MboRemote oldInbComm)
     '''
 def processWorkFlow():
-    '''    public static void processWorkFlow(MboRemote inboundComm, final String processName)
+    '''public static void processWorkFlow(MboRemote inboundComm, final String processName)
     '''
 def getCommTemplate():
-    '''    public static MboRemote getCommTemplate(final String templateId, final UserInfo ui)
+    '''public static MboRemote getCommTemplate(final String templateId, final UserInfo ui)
     '''
 def sendEmail():
-    '''    public static void sendEmail(final String messageStr, final MboRemote ownMbo, String sendTo, final String templateName)
+    '''public static void sendEmail(final String messageStr, final MboRemote ownMbo, String sendTo, final String templateName)
     public static void sendEmail(final MboRemote ownMbo, final String sendTo, final String templateName, final Throwable t)
     public static void sendEmail(final MboRemote ownMbo, final String sendTo, final String templateName, final String senderFrom, final String subject, final Date receivedDate, final Throwable t)
     '''
 def getMboSet():
-    '''    public static MboSetRemote getMboSet(final String name, final UserInfo ui)
+    '''public static MboSetRemote getMboSet(final String name, final UserInfo ui)
     '''

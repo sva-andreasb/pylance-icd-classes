@@ -1,6 +1,6 @@
 def FldLaborQualValidationDate():
-    '''    public FldLaborQualValidationDate(final MboValue mbv)
+    '''public FldLaborQualValidationDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

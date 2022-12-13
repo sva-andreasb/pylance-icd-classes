@@ -1,9 +1,9 @@
 def TestTraversalAction():
-    '''    public TestTraversalAction()
+    '''public TestTraversalAction()
     '''
 def processState():
-    '''    public void processState(final TraversalState state, final UserInfo userInfo)
+    '''public void processState(final TraversalState state, final UserInfo userInfo)
     '''
 def postTraverseAction():
-    '''    public void postTraverseAction(final UserInfo userInfo)
+    '''public void postTraverseAction(final UserInfo userInfo)
     '''

@@ -1,6 +1,6 @@
 def FldTempDesc():
-    '''    public FldTempDesc(final MboValue mbv)
+    '''public FldTempDesc(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

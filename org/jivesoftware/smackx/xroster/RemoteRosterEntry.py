@@ -1,18 +1,18 @@
 def RemoteRosterEntry():
-    '''    public RemoteRosterEntry(final Jid user, final String name, final String[] groups)
+    '''public RemoteRosterEntry(final Jid user, final String name, final String[] groups)
     '''
 def getUser():
-    '''    public Jid getUser()
+    '''public Jid getUser()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getGroupNames():
-    '''    public Iterator<String> getGroupNames()
+    '''public Iterator<String> getGroupNames()
     '''
 def getGroupArrayNames():
-    '''    public String[] getGroupArrayNames()
+    '''public String[] getGroupArrayNames()
     '''
 def toXML():
-    '''    public String toXML()
+    '''public String toXML()
     '''

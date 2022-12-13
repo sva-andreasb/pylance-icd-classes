@@ -1,6 +1,6 @@
 def OSUsedSet():
-    '''    public OSUsedSet(final MboServerInterface ms)
+    '''public OSUsedSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

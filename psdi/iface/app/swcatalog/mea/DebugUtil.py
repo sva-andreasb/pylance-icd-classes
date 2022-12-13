@@ -1,3 +1,3 @@
 def prettyPrintHex():
-    '''    public static String prettyPrintHex(final byte[] data)
+    '''public static String prettyPrintHex(final byte[] data)
     '''

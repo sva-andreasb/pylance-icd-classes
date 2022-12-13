@@ -1,88 +1,88 @@
 def FlowMIRCutCallbackWrapper():
-    '''    public FlowMIRCutCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
+    '''public FlowMIRCutCallbackWrapper(final long cPtr, final boolean cMemoryOwn)
     public FlowMIRCutCallbackWrapper(final IloEnv env)
     '''
 def getCPtr():
-    '''    public static long getCPtr(final FlowMIRCutCallbackWrapper obj)
+    '''public static long getCPtr(final FlowMIRCutCallbackWrapper obj)
     '''
 def delete():
-    '''    public void delete()
+    '''public void delete()
     '''
 def main_cpp():
-    '''    public void main_cpp()
+    '''public void main_cpp()
     '''
 def duplicateCallback():
-    '''    public IloCplex__CallbackI duplicateCallback()
+    '''public IloCplex__CallbackI duplicateCallback()
     '''
 def callbackImpl():
-    '''    public void callbackImpl()
+    '''public void callbackImpl()
     '''
 def abort():
-    '''    public void abort()
+    '''public void abort()
     '''
 def getEnv():
-    '''    public IloEnv getEnv()
+    '''public IloEnv getEnv()
     '''
 def getModel():
-    '''    public IloModel getModel()
+    '''public IloModel getModel()
     '''
 def getNcols():
-    '''    public int getNcols()
+    '''public int getNcols()
     '''
 def getNrows():
-    '''    public int getNrows()
+    '''public int getNrows()
     '''
 def getNQCs():
-    '''    public int getNQCs()
+    '''public int getNQCs()
     '''
 def getBestObjValue():
-    '''    public double getBestObjValue()
+    '''public double getBestObjValue()
     '''
 def getIncumbentObjValue():
-    '''    public double getIncumbentObjValue()
+    '''public double getIncumbentObjValue()
     '''
 def getIncumbentValue():
-    '''    public double getIncumbentValue(final IloNumVar var)
+    '''public double getIncumbentValue(final IloNumVar var)
     public double getIncumbentValue(final IloIntVar var)
     public double getIncumbentValue(final IloNumExprArg ex)
     '''
 def getIncumbentValues():
-    '''    public void getIncumbentValues(final IloNumArray val, final IloNumVarArray vars)
+    '''public void getIncumbentValues(final IloNumArray val, final IloNumVarArray vars)
     public void getIncumbentValues(final IloNumArray val, final IloIntVarArray vars)
     '''
 def getMyThreadNum():
-    '''    public int getMyThreadNum()
+    '''public int getMyThreadNum()
     '''
 def hasIncumbent():
-    '''    public boolean hasIncumbent()
+    '''public boolean hasIncumbent()
     '''
 def getNnodes():
-    '''    public int getNnodes()
+    '''public int getNnodes()
     '''
 def getNremainingNodes():
-    '''    public int getNremainingNodes()
+    '''public int getNremainingNodes()
     '''
 def getNiterations():
-    '''    public int getNiterations()
+    '''public int getNiterations()
     '''
 def getCutoff():
-    '''    public double getCutoff()
+    '''public double getCutoff()
     '''
 def getPriority():
-    '''    public double getPriority(final IloNumVar sos)
+    '''public double getPriority(final IloNumVar sos)
     public double getPriority(final IloIntVar sos)
     '''
 def getUserThreads():
-    '''    public int getUserThreads()
+    '''public int getUserThreads()
     '''
 def getObjCoef():
-    '''    public double getObjCoef(final IloNumVar var)
+    '''public double getObjCoef(final IloNumVar var)
     public double getObjCoef(final IloIntVar var)
     '''
 def getObjCoefs():
-    '''    public void getObjCoefs(final IloNumArray val, final IloNumVarArray vars)
+    '''public void getObjCoefs(final IloNumArray val, final IloNumVarArray vars)
     public void getObjCoefs(final IloNumArray val, final IloIntVarArray vars)
     '''
 def getProgress():
-    '''    public double getProgress()
+    '''public double getProgress()
     '''

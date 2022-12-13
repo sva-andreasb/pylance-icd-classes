@@ -1,21 +1,21 @@
 def IMHProducer():
-    '''    public IMHProducer(final Properties producerProperties)
+    '''public IMHProducer(final Properties producerProperties)
     '''
 def getConnectionMetaData():
-    '''    public Map<String, Object> getConnectionMetaData()
+    '''public Map<String, Object> getConnectionMetaData()
     '''
 def beginTX():
-    '''    public void beginTX()
+    '''public void beginTX()
     '''
 def sendMessage():
-    '''    public void sendMessage(final Message msg)
+    '''public void sendMessage(final Message msg)
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''
 def rollback():
-    '''    public void rollback()
+    '''public void rollback()
     '''

@@ -1,6 +1,6 @@
 def FldUserName():
-    '''    public FldUserName(final MboValue mbv)
+    '''public FldUserName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

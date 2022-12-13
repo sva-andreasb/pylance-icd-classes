@@ -1,48 +1,48 @@
 def getBidiConfig():
-    '''    public String getBidiConfig()
+    '''public String getBidiConfig()
     '''
 def setBidiConfig():
-    '''    public void setBidiConfig(final String config)
+    '''public void setBidiConfig(final String config)
     '''
 def getSystemName():
-    '''    public String getSystemName()
+    '''public String getSystemName()
     '''
 def setSystemName():
-    '''    public void setSystemName(final String n)
+    '''public void setSystemName(final String n)
     '''
 def setEnabled():
-    '''    public void setEnabled(final int e)
+    '''public void setEnabled(final int e)
     '''
 def isEnabled():
-    '''    public boolean isEnabled()
+    '''public boolean isEnabled()
     '''
 def setQueueNameOut():
-    '''    public void setQueueNameOut(final String queueNameOut)
+    '''public void setQueueNameOut(final String queueNameOut)
     '''
 def getQueueNameOut():
-    '''    public String getQueueNameOut()
+    '''public String getQueueNameOut()
     '''
 def setQueueNameInSeq():
-    '''    public void setQueueNameInSeq(final String q)
+    '''public void setQueueNameInSeq(final String q)
     '''
 def getQueueNameInSeq():
-    '''    public String getQueueNameInSeq()
+    '''public String getQueueNameInSeq()
     '''
 def setQueueNameInCont():
-    '''    public void setQueueNameInCont(final String q)
+    '''public void setQueueNameInCont(final String q)
     '''
 def getQueueNameInCont():
-    '''    public String getQueueNameInCont()
+    '''public String getQueueNameInCont()
     '''
 def setEndPointName():
-    '''    public void setEndPointName(final String endPointName)
+    '''public void setEndPointName(final String endPointName)
     '''
 def getEndPointName():
-    '''    public String getEndPointName()
+    '''public String getEndPointName()
     '''
 def setJMSMessageEncoding():
-    '''    public void setJMSMessageEncoding(final String jmsmsgenc)
+    '''public void setJMSMessageEncoding(final String jmsmsgenc)
     '''
 def getJMSMessageEncoding():
-    '''    public String getJMSMessageEncoding()
+    '''public String getJMSMessageEncoding()
     '''

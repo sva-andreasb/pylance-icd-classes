@@ -1,3 +1,3 @@
 def TAMITJobLicenseSet():
-    '''    public TAMITJobLicenseSet(final MboServerInterface ms)
+    '''public TAMITJobLicenseSet(final MboServerInterface ms)
     '''

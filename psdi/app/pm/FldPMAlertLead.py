@@ -1,6 +1,6 @@
 def FldPMAlertLead():
-    '''    public FldPMAlertLead(final MboValue mbv)
+    '''public FldPMAlertLead(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

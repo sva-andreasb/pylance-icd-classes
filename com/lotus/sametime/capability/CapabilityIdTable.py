@@ -1,3 +1,3 @@
 def CapabilityIdTable():
-    '''    public CapabilityIdTable()
+    '''public CapabilityIdTable()
     '''

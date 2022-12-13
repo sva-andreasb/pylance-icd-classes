@@ -1,6 +1,6 @@
 def getValue():
-    '''    public String getValue()
+    '''public String getValue()
     '''
 def setValue():
-    '''    public void setValue(final String value)
+    '''public void setValue(final String value)
     '''

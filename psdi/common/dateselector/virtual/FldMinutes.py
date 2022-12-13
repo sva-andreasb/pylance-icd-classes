@@ -1,12 +1,12 @@
 def FldMinutes():
-    '''    public FldMinutes(final MboValue mbv)
+    '''public FldMinutes(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def hasList():
-    '''    public boolean hasList()
+    '''public boolean hasList()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

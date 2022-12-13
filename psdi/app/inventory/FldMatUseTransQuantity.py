@@ -1,6 +1,6 @@
 def FldMatUseTransQuantity():
-    '''    public FldMatUseTransQuantity(final MboValue mbv)
+    '''public FldMatUseTransQuantity(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

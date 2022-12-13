@@ -1,3 +1,3 @@
 def EscalationStatusSet():
-    '''    public EscalationStatusSet(final MboServerInterface ms)
+    '''public EscalationStatusSet(final MboServerInterface ms)
     '''

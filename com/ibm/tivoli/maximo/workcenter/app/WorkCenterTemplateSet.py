@@ -1,3 +1,3 @@
 def WorkCenterTemplateSet():
-    '''    public WorkCenterTemplateSet(final MboServerInterface ms)
+    '''public WorkCenterTemplateSet(final MboServerInterface ms)
     '''

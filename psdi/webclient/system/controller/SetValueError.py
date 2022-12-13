@@ -1,71 +1,71 @@
 def SetValueError():
-    '''    public SetValueError(final String attribute, final List<MXException> warnings, final DataBean dataBean, final int row, final MboSetRemote mboSetRemote)
+    '''public SetValueError(final String attribute, final List<MXException> warnings, final DataBean dataBean, final int row, final MboSetRemote mboSetRemote)
     public SetValueError(final String attribute, final MXException exception, final DataBean dataBean, final int row, final MboSetRemote mboSetRemote)
     public SetValueError(final ERMAttributeError attributeError, final BoundComponentInstance component)
     '''
 def notifyMbo():
-    '''    public void notifyMbo()
+    '''public void notifyMbo()
     '''
 def getRow():
-    '''    public int getRow()
+    '''public int getRow()
     '''
 def getWarnings():
-    '''    public List<MXException> getWarnings()
+    '''public List<MXException> getWarnings()
     '''
 def getException():
-    '''    public MXException getException()
+    '''public MXException getException()
     '''
 def getErrorType():
-    '''    public int getErrorType()
+    '''public int getErrorType()
     '''
 def invalidate():
-    '''    public void invalidate()
+    '''public void invalidate()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def getMboSet():
-    '''    public MboSetRemote getMboSet()
+    '''public MboSetRemote getMboSet()
     '''
 def resetErrorChecked():
-    '''    public void resetErrorChecked()
+    '''public void resetErrorChecked()
     '''
 def getPreviousValue():
-    '''    public String getPreviousValue()
+    '''public String getPreviousValue()
     '''
 def getUserDisplayValue():
-    '''    public String getUserDisplayValue()
+    '''public String getUserDisplayValue()
     '''
 def getEnteredValue():
-    '''    public String getEnteredValue()
+    '''public String getEnteredValue()
     '''
 def setPreviousValue():
-    '''    public void setPreviousValue(final String previousValue)
+    '''public void setPreviousValue(final String previousValue)
     '''
 def setEnteredValue():
-    '''    public void setEnteredValue(final String enteredValue)
+    '''public void setEnteredValue(final String enteredValue)
     '''
 def setUserDisplayValue():
-    '''    public void setUserDisplayValue(final String userDisplayValue)
+    '''public void setUserDisplayValue(final String userDisplayValue)
     '''
 def hasHigherError():
-    '''    public int hasHigherError(final int errorLevel)
+    '''public int hasHigherError(final int errorLevel)
     '''
 def getAssociatedEvent():
-    '''    public WebClientEvent getAssociatedEvent()
+    '''public WebClientEvent getAssociatedEvent()
     '''
 def setAssociatedEvent():
-    '''    public void setAssociatedEvent(final WebClientEvent associatedEvent)
+    '''public void setAssociatedEvent(final WebClientEvent associatedEvent)
     '''
 def boundToSameMbo():
-    '''    public boolean boundToSameMbo(final SetValueError newError)
+    '''public boolean boundToSameMbo(final SetValueError newError)
     '''
 def setInitialComponent():
-    '''    public void setInitialComponent(final BoundComponentInstance component)
+    '''public void setInitialComponent(final BoundComponentInstance component)
     '''
 def getInitialComponent():
-    '''    public BoundComponentInstance getInitialComponent()
+    '''public BoundComponentInstance getInitialComponent()
     '''
 def getApplicationError():
-    '''    public ApplicationError getApplicationError()
+    '''public ApplicationError getApplicationError()
     '''

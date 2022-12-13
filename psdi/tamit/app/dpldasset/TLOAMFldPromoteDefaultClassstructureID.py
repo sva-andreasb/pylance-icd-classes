@@ -1,12 +1,12 @@
 def TLOAMFldPromoteDefaultClassstructureID():
-    '''    public TLOAMFldPromoteDefaultClassstructureID(final MboValue mbv)
+    '''public TLOAMFldPromoteDefaultClassstructureID(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def validateCustomer():
-    '''    public static void validateCustomer(final MboRemote mbo)
+    '''public static void validateCustomer(final MboRemote mbo)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

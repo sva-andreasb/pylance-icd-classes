@@ -1,9 +1,9 @@
 def MaxServItemProcess():
-    '''    public MaxServItemProcess()
+    '''public MaxServItemProcess()
     '''
 def setAdditionalData():
-    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
     '''
 def changeStatus():
-    '''    public void changeStatus(final MboRemote setMbo, final String stat, final String memo)
+    '''public void changeStatus(final MboRemote setMbo, final String stat, final String memo)
     '''

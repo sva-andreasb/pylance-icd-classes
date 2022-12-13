@@ -1,3 +1,3 @@
 def lookup():
-    '''    public String lookup(final String key)
+    '''public String lookup(final String key)
     '''

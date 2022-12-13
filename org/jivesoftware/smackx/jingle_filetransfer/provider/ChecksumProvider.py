@@ -1,3 +1,3 @@
 def parse():
-    '''    public Checksum parse(final XmlPullParser parser, final int initialDepth)
+    '''public Checksum parse(final XmlPullParser parser, final int initialDepth)
     '''

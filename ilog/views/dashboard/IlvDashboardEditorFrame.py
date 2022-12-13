@@ -1,42 +1,42 @@
 def IlvDashboardEditorFrame():
-    '''    public IlvDashboardEditorFrame(final IlvDashboardEditor a)
+    '''public IlvDashboardEditorFrame(final IlvDashboardEditor a)
     '''
 def windowClosing():
-    '''    public void windowClosing(final WindowEvent windowEvent)
+    '''public void windowClosing(final WindowEvent windowEvent)
     '''
 def getEditor():
-    '''    public IlvDashboardEditor getEditor()
+    '''public IlvDashboardEditor getEditor()
     '''
 def getTopToolBarArea():
-    '''    public JComponent getTopToolBarArea()
+    '''public JComponent getTopToolBarArea()
     '''
 def setTopToolBarArea():
-    '''    public void setTopToolBarArea(final JComponent component)
+    '''public void setTopToolBarArea(final JComponent component)
     '''
 def getStatusBar():
-    '''    public JComponent getStatusBar()
+    '''public JComponent getStatusBar()
     '''
 def setStatusBar():
-    '''    public void setStatusBar(final JComponent component)
+    '''public void setStatusBar(final JComponent component)
     '''
 def setLeftArea():
-    '''    public void setLeftArea(final JComponent component)
+    '''public void setLeftArea(final JComponent component)
     '''
 def getLeftArea():
-    '''    public JComponent getLeftArea()
+    '''public JComponent getLeftArea()
     '''
 def getRightArea():
-    '''    public JComponent getRightArea()
+    '''public JComponent getRightArea()
     '''
 def setRightArea():
-    '''    public void setRightArea(final JComponent component)
+    '''public void setRightArea(final JComponent component)
     '''
 def getCenterArea():
-    '''    public JComponent getCenterArea()
+    '''public JComponent getCenterArea()
     '''
 def setCenterArea():
-    '''    public void setCenterArea(final JComponent component)
+    '''public void setCenterArea(final JComponent component)
     '''
 def savePreferences():
-    '''    public void savePreferences()
+    '''public void savePreferences()
     '''

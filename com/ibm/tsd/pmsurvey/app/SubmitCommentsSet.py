@@ -1,3 +1,3 @@
 def SubmitCommentsSet():
-    '''    public SubmitCommentsSet(final MboServerInterface ms)
+    '''public SubmitCommentsSet(final MboServerInterface ms)
     '''

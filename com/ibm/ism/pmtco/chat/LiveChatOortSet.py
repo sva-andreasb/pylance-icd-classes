@@ -1,3 +1,3 @@
 def LiveChatOortSet():
-    '''    public LiveChatOortSet(final MboServerInterface ms)
+    '''public LiveChatOortSet(final MboServerInterface ms)
     '''

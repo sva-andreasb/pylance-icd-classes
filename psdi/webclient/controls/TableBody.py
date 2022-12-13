@@ -1,51 +1,51 @@
 def TableBody():
-    '''    public TableBody()
+    '''public TableBody()
     '''
 def reInitialize():
-    '''    public void reInitialize()
+    '''public void reInitialize()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def checkRecordLock():
-    '''    public void checkRecordLock(final PageInstance page, final List<TableCol> colControls)
+    '''public void checkRecordLock(final PageInstance page, final List<TableCol> colControls)
     '''
 def setupForSubSelect():
-    '''    public void setupForSubSelect()
+    '''public void setupForSubSelect()
     '''
 def getDisplayRules():
-    '''    public List getDisplayRules()
+    '''public List getDisplayRules()
     '''
 def getRangesForRule():
-    '''    public List getRangesForRule(final String aRule)
+    '''public List getRangesForRule(final String aRule)
     '''
 def render():
-    '''    public int render()
+    '''public int render()
     '''
 def removeChild():
-    '''    public void removeChild(final ControlInstance child)
+    '''public void removeChild(final ControlInstance child)
     '''
 def addChild():
-    '''    public void addChild(final BaseInstance child, final int index)
+    '''public void addChild(final BaseInstance child, final int index)
     '''
 def toggleselectrecords():
-    '''    public int toggleselectrecords()
+    '''public int toggleselectrecords()
     '''
 def setDataRowNum():
-    '''    public void setDataRowNum(final int row)
+    '''public void setDataRowNum(final int row)
     '''
 def setMockRowNum():
-    '''    public void setMockRowNum(final int row)
+    '''public void setMockRowNum(final int row)
     '''
 def canRemove():
-    '''    public boolean canRemove()
+    '''public boolean canRemove()
     '''
 def setTableBodyComponentRenderId():
-    '''    public void setTableBodyComponentRenderId(final String id)
+    '''public void setTableBodyComponentRenderId(final String id)
     '''
 def getTableBodyComponentRenderId():
-    '''    public String getTableBodyComponentRenderId()
+    '''public String getTableBodyComponentRenderId()
     '''
 def maintainControlId():
-    '''    public boolean maintainControlId()
+    '''public boolean maintainControlId()
     '''

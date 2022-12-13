@@ -1,3 +1,3 @@
 def adjustCurBalance():
-    '''    public int adjustCurBalance()
+    '''public int adjustCurBalance()
     '''

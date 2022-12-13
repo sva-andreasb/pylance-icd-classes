@@ -14,14 +14,14 @@ FIELD_OBJECTNAME = "String  \"OBJECTNAME\""
 RELATIONSHIP_CLASSSPEC = "String  \"CLASSSPEC\""
 FIELD_APPLYDOWNHIER = "String  \"APPLYDOWNHIER\""
 def ClassificationBase():
-    '''    public ClassificationBase()
+    '''public ClassificationBase()
     '''
 def getClassStrctSet():
-    '''    public static MboRemote getClassStrctSet(final String classStructId, final UserInfo userInfo)
+    '''public static MboRemote getClassStrctSet(final String classStructId, final UserInfo userInfo)
     '''
 def getObjectValue():
-    '''    public String getObjectValue()
+    '''public String getObjectValue()
     '''
 def getObjectName():
-    '''    public String getObjectName()
+    '''public String getObjectName()
     '''

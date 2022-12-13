@@ -1,6 +1,6 @@
 def FldAutoScriptSource():
-    '''    public FldAutoScriptSource(final MboValue mbv)
+    '''public FldAutoScriptSource(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

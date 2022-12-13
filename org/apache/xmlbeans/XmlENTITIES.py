@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_ENTITIES\")"
 def newInstance():
-    '''    public static XmlENTITIES newInstance()
+    '''public static XmlENTITIES newInstance()
     public static XmlENTITIES newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlENTITIES newValue(final Object obj)
+    '''public static XmlENTITIES newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlENTITIES parse(final String s)
+    '''public static XmlENTITIES parse(final String s)
     public static XmlENTITIES parse(final String s, final XmlOptions options)
     public static XmlENTITIES parse(final File f)
     public static XmlENTITIES parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlENTITIES parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

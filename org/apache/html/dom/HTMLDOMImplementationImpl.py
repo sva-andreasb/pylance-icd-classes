@@ -1,6 +1,6 @@
 def createHTMLDocument():
-    '''    public final HTMLDocument createHTMLDocument(final String title)
+    '''public final HTMLDocument createHTMLDocument(final String title)
     '''
 def getHTMLDOMImplementation():
-    '''    public static HTMLDOMImplementation getHTMLDOMImplementation()
+    '''public static HTMLDOMImplementation getHTMLDOMImplementation()
     '''

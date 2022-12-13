@@ -1,6 +1,6 @@
 def FldCommonLineType():
-    '''    public FldCommonLineType(final MboValue mbv)
+    '''public FldCommonLineType(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

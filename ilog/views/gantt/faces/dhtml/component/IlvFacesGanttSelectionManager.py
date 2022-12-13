@@ -1,24 +1,24 @@
 def IlvFacesGanttSelectionManager():
-    '''    public IlvFacesGanttSelectionManager()
+    '''public IlvFacesGanttSelectionManager()
     '''
 def getFamily():
-    '''    public String getFamily()
+    '''public String getFamily()
     '''
 def getComponentType():
-    '''    public static String getComponentType()
+    '''public static String getComponentType()
     '''
 def getPropertyAccessor():
-    '''    public IlvFacesGanttPropertyAccessor getPropertyAccessor()
+    '''public IlvFacesGanttPropertyAccessor getPropertyAccessor()
     '''
 def setPropertyAccessor():
-    '''    public void setPropertyAccessor(final IlvFacesGanttPropertyAccessor a)
+    '''public void setPropertyAccessor(final IlvFacesGanttPropertyAccessor a)
     '''
 def updateModel():
-    '''    public void updateModel(final FacesContext facesContext)
+    '''public void updateModel(final FacesContext facesContext)
     '''
 def saveState():
-    '''    public Object saveState(final FacesContext facesContext)
+    '''public Object saveState(final FacesContext facesContext)
     '''
 def restoreState():
-    '''    public void restoreState(final FacesContext facesContext, final Object o)
+    '''public void restoreState(final FacesContext facesContext, final Object o)
     '''

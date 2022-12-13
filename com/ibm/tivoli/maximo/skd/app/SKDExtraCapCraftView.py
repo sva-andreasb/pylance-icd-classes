@@ -1,9 +1,9 @@
 def SKDExtraCapCraftView():
-    '''    public SKDExtraCapCraftView(final MboSet ms)
+    '''public SKDExtraCapCraftView(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

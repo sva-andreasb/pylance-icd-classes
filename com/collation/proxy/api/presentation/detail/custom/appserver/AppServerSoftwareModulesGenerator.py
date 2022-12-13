@@ -1,3 +1,3 @@
 def getModel():
-    '''    public DetailTableModel getModel()
+    '''public DetailTableModel getModel()
     '''

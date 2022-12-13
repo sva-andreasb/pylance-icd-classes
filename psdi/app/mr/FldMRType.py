@@ -1,6 +1,6 @@
 def FldMRType():
-    '''    public FldMRType(final MboValue mbv)
+    '''public FldMRType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

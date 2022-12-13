@@ -1,3 +1,3 @@
 def SKDOPASCPSConflict():
-    '''    public SKDOPASCPSConflict(final MboSet ms)
+    '''public SKDOPASCPSConflict(final MboSet ms)
     '''

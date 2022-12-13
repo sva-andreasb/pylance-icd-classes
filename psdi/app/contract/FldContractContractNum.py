@@ -1,6 +1,6 @@
 def FldContractContractNum():
-    '''    public FldContractContractNum(final MboValue mbv)
+    '''public FldContractContractNum(final MboValue mbv)
     '''
 def getAppLink():
-    '''    public String[] getAppLink()
+    '''public String[] getAppLink()
     '''

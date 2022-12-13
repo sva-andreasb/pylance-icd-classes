@@ -1,12 +1,12 @@
 def getComparison():
-    '''    public int getComparison()
+    '''public int getComparison()
     '''
 def getNumber():
-    '''    public int getNumber()
+    '''public int getNumber()
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''

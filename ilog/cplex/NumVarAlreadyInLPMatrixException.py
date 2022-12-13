@@ -1,3 +1,3 @@
 def getNumVar():
-    '''    public IloNumVar getNumVar()
+    '''public IloNumVar getNumVar()
     '''

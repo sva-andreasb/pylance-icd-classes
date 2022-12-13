@@ -1,6 +1,6 @@
 def TAMITFldLicenseAllocationSWProduct():
-    '''    public TAMITFldLicenseAllocationSWProduct(final MboValue mbv)
+    '''public TAMITFldLicenseAllocationSWProduct(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

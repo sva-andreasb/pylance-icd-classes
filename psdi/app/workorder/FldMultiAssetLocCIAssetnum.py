@@ -1,6 +1,6 @@
 def FldMultiAssetLocCIAssetnum():
-    '''    public FldMultiAssetLocCIAssetnum(final MboValue mbv)
+    '''public FldMultiAssetLocCIAssetnum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

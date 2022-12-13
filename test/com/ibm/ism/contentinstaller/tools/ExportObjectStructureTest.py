@@ -1,3 +1,3 @@
 def testExportObjectStructureStringIntStringBoolean():
-    '''    public void testExportObjectStructureStringIntStringBoolean()
+    '''public void testExportObjectStructureStringIntStringBoolean()
     '''

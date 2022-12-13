@@ -9,11 +9,11 @@ FIELD_LOCATION = "String  \"LOCATION\""
 FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
 RELATIOINSHIP_BIMSYSTEMMAPENTRY = "String  \"BIMSYSTEMMAPENTRY\""
 def BIMSystemMapEntry():
-    '''    public BIMSystemMapEntry(final MboSet ms)
+    '''public BIMSystemMapEntry(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

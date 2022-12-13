@@ -1,9 +1,9 @@
 def IFNULL():
-    '''    public IFNULL(final InstructionHandle target)
+    '''public IFNULL(final InstructionHandle target)
     '''
 def negate():
-    '''    public IfInstruction negate()
+    '''public IfInstruction negate()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

@@ -1,3 +1,3 @@
 def MaxUserStatusSet():
-    '''    public MaxUserStatusSet(final MboServerInterface ms)
+    '''public MaxUserStatusSet(final MboServerInterface ms)
     '''

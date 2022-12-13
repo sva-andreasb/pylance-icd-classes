@@ -1,6 +1,6 @@
 def FldCostDate():
-    '''    public FldCostDate(final MboValue mbv)
+    '''public FldCostDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

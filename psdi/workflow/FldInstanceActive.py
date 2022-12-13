@@ -1,3 +1,3 @@
 def FldInstanceActive():
-    '''    public FldInstanceActive(final MboValue mbv)
+    '''public FldInstanceActive(final MboValue mbv)
     '''

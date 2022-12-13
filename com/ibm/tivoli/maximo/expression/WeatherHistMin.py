@@ -1,9 +1,9 @@
 def WeatherHistMin():
-    '''    public WeatherHistMin(final Expression exp, final String name, final int numParams)
+    '''public WeatherHistMin(final Expression exp, final String name, final int numParams)
     '''
 def eval():
-    '''    public BigDecimal eval(final List<BigDecimal> parameters)
+    '''public BigDecimal eval(final List<BigDecimal> parameters)
     '''
 def min():
-    '''    public BigDecimal min(final MboRemote mbo, final String attrName, final BigDecimal days)
+    '''public BigDecimal min(final MboRemote mbo, final String attrName, final BigDecimal days)
     '''

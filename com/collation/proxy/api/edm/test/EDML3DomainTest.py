@@ -1,3 +1,3 @@
 def EDML3DomainTest():
-    '''    public EDML3DomainTest(final String testName)
+    '''public EDML3DomainTest(final String testName)
     '''

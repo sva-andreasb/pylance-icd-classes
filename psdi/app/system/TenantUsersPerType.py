@@ -1,3 +1,3 @@
 def TenantUsersPerType():
-    '''    public TenantUsersPerType(final MboSet ms)
+    '''public TenantUsersPerType(final MboSet ms)
     '''

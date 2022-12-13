@@ -1,6 +1,6 @@
 def PmChgFldRepeat():
-    '''    public PmChgFldRepeat(final MboValue mbv)
+    '''public PmChgFldRepeat(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,6 +1,6 @@
 def test():
-    '''    public int test()
+    '''public int test()
     '''
 def save():
-    '''    public synchronized void save()
+    '''public synchronized void save()
     '''

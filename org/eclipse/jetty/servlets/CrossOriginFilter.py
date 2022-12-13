@@ -11,14 +11,14 @@ ALLOWED_HEADERS_PARAM = "String  \"allowedHeaders\""
 PREFLIGHT_MAX_AGE_PARAM = "String  \"preflightMaxAge\""
 ALLOW_CREDENTIALS_PARAM = "String  \"allowCredentials\""
 def CrossOriginFilter():
-    '''    public CrossOriginFilter()
+    '''public CrossOriginFilter()
     '''
 def init():
-    '''    public void init(final FilterConfig config)
+    '''public void init(final FilterConfig config)
     '''
 def doFilter():
-    '''    public void doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain)
+    '''public void doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain)
     '''
 def destroy():
-    '''    public void destroy()
+    '''public void destroy()
     '''

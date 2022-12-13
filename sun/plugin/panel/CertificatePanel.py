@@ -1,9 +1,9 @@
 def CertificatePanel():
-    '''    public CertificatePanel(final ConfigurationInfo configurationInfo)
+    '''public CertificatePanel(final ConfigurationInfo configurationInfo)
     '''
 def actionPerformed():
-    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''public void actionPerformed(final ActionEvent actionEvent)
     '''
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''

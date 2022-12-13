@@ -1,6 +1,6 @@
 def FldMeasurePointUpperWarning():
-    '''    public FldMeasurePointUpperWarning(final MboValue mbv)
+    '''public FldMeasurePointUpperWarning(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

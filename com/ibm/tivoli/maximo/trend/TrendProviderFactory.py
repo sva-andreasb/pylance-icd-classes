@@ -1,3 +1,3 @@
 def getTrendProvider():
-    '''    public static TrendProvider getTrendProvider()
+    '''public static TrendProvider getTrendProvider()
     '''

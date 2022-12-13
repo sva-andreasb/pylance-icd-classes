@@ -1,3 +1,3 @@
 def FldSimulationMultiAssetLocCILocation():
-    '''    public FldSimulationMultiAssetLocCILocation(final MboValue mbv)
+    '''public FldSimulationMultiAssetLocCILocation(final MboValue mbv)
     '''

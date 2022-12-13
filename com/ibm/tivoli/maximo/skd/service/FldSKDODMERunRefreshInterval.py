@@ -1,6 +1,6 @@
 def FldSKDODMERunRefreshInterval():
-    '''    public FldSKDODMERunRefreshInterval(final MboValue mbv)
+    '''public FldSKDODMERunRefreshInterval(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

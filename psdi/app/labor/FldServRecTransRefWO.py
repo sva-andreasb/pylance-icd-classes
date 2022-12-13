@@ -1,3 +1,3 @@
 def FldServRecTransRefWO():
-    '''    public FldServRecTransRefWO(final MboValue mbv)
+    '''public FldServRecTransRefWO(final MboValue mbv)
     '''

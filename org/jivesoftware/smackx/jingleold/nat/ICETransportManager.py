@@ -1,24 +1,24 @@
 def ICETransportManager():
-    '''    public ICETransportManager(final XMPPConnection xmppConnection, final String server, final int port)
+    '''public ICETransportManager(final XMPPConnection xmppConnection, final String server, final int port)
     '''
 def sessionEstablished():
-    '''    public void sessionEstablished(final PayloadType pt, final TransportCandidate rc, final TransportCandidate lc, final JingleSession jingleSession)
+    '''public void sessionEstablished(final PayloadType pt, final TransportCandidate rc, final TransportCandidate lc, final JingleSession jingleSession)
     '''
 def sessionDeclined():
-    '''    public void sessionDeclined(final String reason, final JingleSession jingleSession)
+    '''public void sessionDeclined(final String reason, final JingleSession jingleSession)
     '''
 def sessionRedirected():
-    '''    public void sessionRedirected(final String redirection, final JingleSession jingleSession)
+    '''public void sessionRedirected(final String redirection, final JingleSession jingleSession)
     '''
 def sessionClosed():
-    '''    public void sessionClosed(final String reason, final JingleSession jingleSession)
+    '''public void sessionClosed(final String reason, final JingleSession jingleSession)
     '''
 def sessionClosedOnError():
-    '''    public void sessionClosedOnError(final XMPPException e, final JingleSession jingleSession)
+    '''public void sessionClosedOnError(final XMPPException e, final JingleSession jingleSession)
     '''
 def sessionMediaReceived():
-    '''    public void sessionMediaReceived(final JingleSession jingleSession, final String participant)
+    '''public void sessionMediaReceived(final JingleSession jingleSession, final String participant)
     '''
 def sessionCreated():
-    '''    public void sessionCreated(final JingleSession jingleSession)
+    '''public void sessionCreated(final JingleSession jingleSession)
     '''

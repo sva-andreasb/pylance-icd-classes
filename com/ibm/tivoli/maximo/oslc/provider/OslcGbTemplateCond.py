@@ -1,3 +1,3 @@
 def OslcGbTemplateCond():
-    '''    public OslcGbTemplateCond(final MboSet ms)
+    '''public OslcGbTemplateCond(final MboSet ms)
     '''

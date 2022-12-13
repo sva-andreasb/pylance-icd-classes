@@ -1,11 +1,11 @@
 def isNullable():
-    '''    public boolean isNullable()
+    '''public boolean isNullable()
     public boolean isNullable()
     public boolean isNullable()
     public boolean isNullable()
     '''
 def write():
-    '''    public void write(final ByteBuffer buffer, final Object o)
+    '''public void write(final ByteBuffer buffer, final Object o)
     public void write(final ByteBuffer buffer, final Object o)
     public void write(final ByteBuffer buffer, final Object o)
     public void write(final ByteBuffer buffer, final Object o)
@@ -20,7 +20,7 @@ def write():
     public void write(final ByteBuffer buffer, final Object o)
     '''
 def read():
-    '''    public Object read(final ByteBuffer buffer)
+    '''public Object read(final ByteBuffer buffer)
     public Object read(final ByteBuffer buffer)
     public Object read(final ByteBuffer buffer)
     public Object read(final ByteBuffer buffer)
@@ -35,7 +35,7 @@ def read():
     public Long read(final ByteBuffer buffer)
     '''
 def sizeOf():
-    '''    public int sizeOf(final Object o)
+    '''public int sizeOf(final Object o)
     public int sizeOf(final Object o)
     public int sizeOf(final Object o)
     public int sizeOf(final Object o)
@@ -50,7 +50,7 @@ def sizeOf():
     public int sizeOf(final Object o)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     public String toString()
     public String toString()
     public String toString()
@@ -65,7 +65,7 @@ def toString():
     public String toString()
     '''
 def validate():
-    '''    public Boolean validate(final Object item)
+    '''public Boolean validate(final Object item)
     public Byte validate(final Object item)
     public Short validate(final Object item)
     public Integer validate(final Object item)

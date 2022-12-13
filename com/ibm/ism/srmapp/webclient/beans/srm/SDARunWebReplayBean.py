@@ -1,3 +1,3 @@
 def RUNWEBREPLAYSCENARIO():
-    '''    public int RUNWEBREPLAYSCENARIO()
+    '''public int RUNWEBREPLAYSCENARIO()
     '''

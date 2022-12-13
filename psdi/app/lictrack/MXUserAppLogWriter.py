@@ -1,3 +1,3 @@
 def addToUserAppLogTable():
-    '''    public static void addToUserAppLogTable(final HashMap<String, String> correlationData)
+    '''public static void addToUserAppLogTable(final HashMap<String, String> correlationData)
     '''

@@ -1,36 +1,36 @@
 def getTitle():
-    '''    public String getTitle()
+    '''public String getTitle()
     '''
 def setTitle():
-    '''    public void setTitle(final String value)
+    '''public void setTitle(final String value)
     '''
 def getRelevance():
-    '''    public RelevanceString getRelevance()
+    '''public RelevanceString getRelevance()
     '''
 def setRelevance():
-    '''    public void setRelevance(final RelevanceString value)
+    '''public void setRelevance(final RelevanceString value)
     '''
 def getActionScript():
-    '''    public ActionScript getActionScript()
+    '''public ActionScript getActionScript()
     '''
 def setActionScript():
-    '''    public void setActionScript(final ActionScript value)
+    '''public void setActionScript(final ActionScript value)
     '''
 def getSuccessCriteria():
-    '''    public ActionSuccessCriteria getSuccessCriteria()
+    '''public ActionSuccessCriteria getSuccessCriteria()
     '''
 def setSuccessCriteria():
-    '''    public void setSuccessCriteria(final ActionSuccessCriteria value)
+    '''public void setSuccessCriteria(final ActionSuccessCriteria value)
     '''
 def isSuccessCriteriaLocked():
-    '''    public Boolean isSuccessCriteriaLocked()
+    '''public Boolean isSuccessCriteriaLocked()
     '''
 def setSuccessCriteriaLocked():
-    '''    public void setSuccessCriteriaLocked(final Boolean value)
+    '''public void setSuccessCriteriaLocked(final Boolean value)
     '''
 def getParameter():
-    '''    public List<BESActionParameter> getParameter()
+    '''public List<BESActionParameter> getParameter()
     '''
 def getSecureParameter():
-    '''    public List<BESActionParameter> getSecureParameter()
+    '''public List<BESActionParameter> getSecureParameter()
     '''

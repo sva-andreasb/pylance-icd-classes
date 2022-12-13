@@ -1,3 +1,3 @@
 def MOVEANDMODIFYALLASSETS():
-    '''    public int MOVEANDMODIFYALLASSETS()
+    '''public int MOVEANDMODIFYALLASSETS()
     '''

@@ -1,9 +1,9 @@
 def ArrayEnumeration():
-    '''    public ArrayEnumeration(final Object[] eArray)
+    '''public ArrayEnumeration(final Object[] eArray)
     '''
 def hasMoreElements():
-    '''    public final boolean hasMoreElements()
+    '''public final boolean hasMoreElements()
     '''
 def nextElement():
-    '''    public final Object nextElement()
+    '''public final Object nextElement()
     '''

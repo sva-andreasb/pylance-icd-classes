@@ -1,30 +1,30 @@
 def ObjectMessage():
-    '''    public ObjectMessage(final Object obj)
+    '''public ObjectMessage(final Object obj)
     '''
 def getFormattedMessage():
-    '''    public String getFormattedMessage()
+    '''public String getFormattedMessage()
     '''
 def formatTo():
-    '''    public void formatTo(final StringBuilder buffer)
+    '''public void formatTo(final StringBuilder buffer)
     '''
 def getFormat():
-    '''    public String getFormat()
+    '''public String getFormat()
     '''
 def getParameter():
-    '''    public Object getParameter()
+    '''public Object getParameter()
     '''
 def getParameters():
-    '''    public Object[] getParameters()
+    '''public Object[] getParameters()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getThrowable():
-    '''    public Throwable getThrowable()
+    '''public Throwable getThrowable()
     '''

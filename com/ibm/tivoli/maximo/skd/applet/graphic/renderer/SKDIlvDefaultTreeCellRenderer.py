@@ -1,3 +1,3 @@
 def getPreferredSize():
-    '''    public Dimension getPreferredSize()
+    '''public Dimension getPreferredSize()
     '''

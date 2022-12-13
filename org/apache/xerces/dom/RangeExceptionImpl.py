@@ -1,3 +1,3 @@
 def RangeExceptionImpl():
-    '''    public RangeExceptionImpl(final short code, final String message)
+    '''public RangeExceptionImpl(final short code, final String message)
     '''

@@ -1,3 +1,3 @@
 def ResourceViewDividerUpdater():
-    '''    public ResourceViewDividerUpdater(final GanttAndResourceUsageView view)
+    '''public ResourceViewDividerUpdater(final GanttAndResourceUsageView view)
     '''

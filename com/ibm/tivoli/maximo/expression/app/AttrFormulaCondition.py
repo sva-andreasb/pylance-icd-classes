@@ -1,12 +1,12 @@
 def AttrFormulaCondition():
-    '''    public AttrFormulaCondition(final MboSet ms)
+    '''public AttrFormulaCondition(final MboSet ms)
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

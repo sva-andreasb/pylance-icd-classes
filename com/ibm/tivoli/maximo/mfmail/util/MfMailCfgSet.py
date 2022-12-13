@@ -1,3 +1,3 @@
 def MfMailCfgSet():
-    '''    public MfMailCfgSet(final MboServerInterface ms)
+    '''public MfMailCfgSet(final MboServerInterface ms)
     '''

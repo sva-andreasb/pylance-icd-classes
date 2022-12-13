@@ -1,3 +1,3 @@
 def PlusPFldRespPlanSolution():
-    '''    public PlusPFldRespPlanSolution(final MboValue arg0)
+    '''public PlusPFldRespPlanSolution(final MboValue arg0)
     '''

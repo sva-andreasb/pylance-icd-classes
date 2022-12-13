@@ -1,10 +1,10 @@
 sid = "short  2190"
 def TableStylesRecord():
-    '''    public TableStylesRecord(final RecordInputStream in)
+    '''public TableStylesRecord(final RecordInputStream in)
     '''
 def getSid():
-    '''    public short getSid()
+    '''public short getSid()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

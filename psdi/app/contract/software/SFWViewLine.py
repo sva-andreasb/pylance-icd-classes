@@ -1,18 +1,18 @@
 def SFWViewLine():
-    '''    public SFWViewLine(final MboSet ms)
+    '''public SFWViewLine(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def associateLicenses():
-    '''    public void associateLicenses(final MboSetRemote licenseSet)
+    '''public void associateLicenses(final MboSetRemote licenseSet)
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def setSFWLicensed():
-    '''    public void setSFWLicensed(MboSetRemote contSfwLicenseSet)
+    '''public void setSFWLicensed(MboSetRemote contSfwLicenseSet)
     '''

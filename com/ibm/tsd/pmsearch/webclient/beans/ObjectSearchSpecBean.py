@@ -1,3 +1,3 @@
 def ObjectSearchSpecBean():
-    '''    public ObjectSearchSpecBean()
+    '''public ObjectSearchSpecBean()
     '''

@@ -1,9 +1,9 @@
 def getMboSet():
-    '''    public MboSetRemote getMboSet()
+    '''public MboSetRemote getMboSet()
     '''
 def filterworkorder():
-    '''    public int filterworkorder()
+    '''public int filterworkorder()
     '''
 def FILTERWORKORDER():
-    '''    public int FILTERWORKORDER()
+    '''public int FILTERWORKORDER()
     '''

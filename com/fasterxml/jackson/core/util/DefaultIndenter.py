@@ -1,22 +1,22 @@
 def DefaultIndenter():
-    '''    public DefaultIndenter()
+    '''public DefaultIndenter()
     public DefaultIndenter(final String indent, final String eol)
     '''
 def withLinefeed():
-    '''    public DefaultIndenter withLinefeed(final String lf)
+    '''public DefaultIndenter withLinefeed(final String lf)
     '''
 def withIndent():
-    '''    public DefaultIndenter withIndent(final String indent)
+    '''public DefaultIndenter withIndent(final String indent)
     '''
 def isInline():
-    '''    public boolean isInline()
+    '''public boolean isInline()
     '''
 def writeIndentation():
-    '''    public void writeIndentation(final JsonGenerator jg, int level)
+    '''public void writeIndentation(final JsonGenerator jg, int level)
     '''
 def getEol():
-    '''    public String getEol()
+    '''public String getEol()
     '''
 def getIndent():
-    '''    public String getIndent()
+    '''public String getIndent()
     '''

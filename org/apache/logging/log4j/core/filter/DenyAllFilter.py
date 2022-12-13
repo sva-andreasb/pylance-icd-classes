@@ -1,9 +1,9 @@
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def newBuilder():
-    '''    public static Builder newBuilder()
+    '''public static Builder newBuilder()
     '''
 def build():
-    '''    public DenyAllFilter build()
+    '''public DenyAllFilter build()
     '''

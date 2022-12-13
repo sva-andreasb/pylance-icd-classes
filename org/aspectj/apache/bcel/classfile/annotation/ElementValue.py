@@ -12,11 +12,11 @@ PRIMITIVE_LONG = "int  74"
 PRIMITIVE_SHORT = "int  83"
 PRIMITIVE_BOOLEAN = "int  90"
 def getElementValueType():
-    '''    public int getElementValueType()
+    '''public int getElementValueType()
     '''
 def readElementValue():
-    '''    public static ElementValue readElementValue(final DataInputStream dis, final ConstantPool cpGen)
+    '''public static ElementValue readElementValue(final DataInputStream dis, final ConstantPool cpGen)
     '''
 def copy():
-    '''    public static ElementValue copy(final ElementValue value, final ConstantPool cpool, final boolean copyPoolEntries)
+    '''public static ElementValue copy(final ElementValue value, final ConstantPool cpool, final boolean copyPoolEntries)
     '''

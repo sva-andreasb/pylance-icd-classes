@@ -1,30 +1,30 @@
 def Email():
-    '''    public Email(final MboSet ms)
+    '''public Email(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def makeOtherNotPrimary():
-    '''    public void makeOtherNotPrimary()
+    '''public void makeOtherNotPrimary()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def delete():
-    '''    public void delete()
+    '''public void delete()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''

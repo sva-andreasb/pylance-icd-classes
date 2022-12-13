@@ -1,3 +1,3 @@
 def SslConfigurationException():
-    '''    public SslConfigurationException(final Exception e)
+    '''public SslConfigurationException(final Exception e)
     '''

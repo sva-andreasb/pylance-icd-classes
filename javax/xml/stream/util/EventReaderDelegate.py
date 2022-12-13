@@ -1,37 +1,37 @@
 def EventReaderDelegate():
-    '''    public EventReaderDelegate()
+    '''public EventReaderDelegate()
     public EventReaderDelegate(final XMLEventReader reader)
     '''
 def setParent():
-    '''    public void setParent(final XMLEventReader reader)
+    '''public void setParent(final XMLEventReader reader)
     '''
 def getParent():
-    '''    public XMLEventReader getParent()
+    '''public XMLEventReader getParent()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def getElementText():
-    '''    public String getElementText()
+    '''public String getElementText()
     '''
 def getProperty():
-    '''    public Object getProperty(final String s)
+    '''public Object getProperty(final String s)
     '''
 def hasNext():
-    '''    public boolean hasNext()
+    '''public boolean hasNext()
     '''
 def next():
-    '''    public Object next()
+    '''public Object next()
     '''
 def nextEvent():
-    '''    public XMLEvent nextEvent()
+    '''public XMLEvent nextEvent()
     '''
 def nextTag():
-    '''    public XMLEvent nextTag()
+    '''public XMLEvent nextTag()
     '''
 def peek():
-    '''    public XMLEvent peek()
+    '''public XMLEvent peek()
     '''
 def remove():
-    '''    public void remove()
+    '''public void remove()
     '''

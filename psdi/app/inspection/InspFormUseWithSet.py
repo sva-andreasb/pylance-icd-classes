@@ -1,3 +1,3 @@
 def InspFormUseWithSet():
-    '''    public InspFormUseWithSet(final MboServerInterface ms)
+    '''public InspFormUseWithSet(final MboServerInterface ms)
     '''

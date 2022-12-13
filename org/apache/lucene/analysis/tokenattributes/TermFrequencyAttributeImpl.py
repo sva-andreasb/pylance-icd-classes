@@ -1,27 +1,27 @@
 def TermFrequencyAttributeImpl():
-    '''    public TermFrequencyAttributeImpl()
+    '''public TermFrequencyAttributeImpl()
     '''
 def setTermFrequency():
-    '''    public void setTermFrequency(final int termFrequency)
+    '''public void setTermFrequency(final int termFrequency)
     '''
 def getTermFrequency():
-    '''    public int getTermFrequency()
+    '''public int getTermFrequency()
     '''
 def clear():
-    '''    public void clear()
+    '''public void clear()
     '''
 def end():
-    '''    public void end()
+    '''public void end()
     '''
 def equals():
-    '''    public boolean equals(final Object other)
+    '''public boolean equals(final Object other)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def copyTo():
-    '''    public void copyTo(final AttributeImpl target)
+    '''public void copyTo(final AttributeImpl target)
     '''
 def reflectWith():
-    '''    public void reflectWith(final AttributeReflector reflector)
+    '''public void reflectWith(final AttributeReflector reflector)
     '''

@@ -1,3 +1,3 @@
 def FldMapTipObjectName():
-    '''    public FldMapTipObjectName(final MboValue mbv)
+    '''public FldMapTipObjectName(final MboValue mbv)
     '''

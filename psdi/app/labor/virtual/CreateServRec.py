@@ -1,6 +1,6 @@
 def CreateServRec():
-    '''    public CreateServRec(final MboSet ms)
+    '''public CreateServRec(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

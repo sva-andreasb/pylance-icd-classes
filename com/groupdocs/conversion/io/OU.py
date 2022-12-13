@@ -1,3 +1,3 @@
 def OU():
-    '''    public OU(final ClassLoader classLoader, final InputStream in)
+    '''public OU(final ClassLoader classLoader, final InputStream in)
     '''

@@ -1,3 +1,3 @@
 def QualSet():
-    '''    public QualSet(final MboServerInterface ms)
+    '''public QualSet(final MboServerInterface ms)
     '''

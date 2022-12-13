@@ -1,6 +1,6 @@
 def FldReceiptInputCostRequested():
-    '''    public FldReceiptInputCostRequested(final MboValue mbv)
+    '''public FldReceiptInputCostRequested(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

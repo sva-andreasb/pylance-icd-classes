@@ -1,3 +1,3 @@
 def WoAncestor():
-    '''    public WoAncestor(final MboSet ms)
+    '''public WoAncestor(final MboSet ms)
     '''

@@ -1,5 +1,5 @@
 def FileAlterationObserver():
-    '''    public FileAlterationObserver(final String directoryName)
+    '''public FileAlterationObserver(final String directoryName)
     public FileAlterationObserver(final String directoryName, final FileFilter fileFilter)
     public FileAlterationObserver(final String directoryName, final FileFilter fileFilter, final IOCase caseSensitivity)
     public FileAlterationObserver(final File directory)
@@ -7,29 +7,29 @@ def FileAlterationObserver():
     public FileAlterationObserver(final File directory, final FileFilter fileFilter, final IOCase caseSensitivity)
     '''
 def getDirectory():
-    '''    public File getDirectory()
+    '''public File getDirectory()
     '''
 def getFileFilter():
-    '''    public FileFilter getFileFilter()
+    '''public FileFilter getFileFilter()
     '''
 def addListener():
-    '''    public void addListener(final FileAlterationListener listener)
+    '''public void addListener(final FileAlterationListener listener)
     '''
 def removeListener():
-    '''    public void removeListener(final FileAlterationListener listener)
+    '''public void removeListener(final FileAlterationListener listener)
     '''
 def getListeners():
-    '''    public Iterable<FileAlterationListener> getListeners()
+    '''public Iterable<FileAlterationListener> getListeners()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def destroy():
-    '''    public void destroy()
+    '''public void destroy()
     '''
 def checkAndNotify():
-    '''    public void checkAndNotify()
+    '''public void checkAndNotify()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

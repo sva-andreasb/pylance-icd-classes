@@ -1,3 +1,3 @@
 def FinancialPeriodsSet():
-    '''    public FinancialPeriodsSet(final MboServerInterface ms)
+    '''public FinancialPeriodsSet(final MboServerInterface ms)
     '''

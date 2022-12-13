@@ -1,3 +1,3 @@
 def SKDPMFOCost():
-    '''    public SKDPMFOCost(final MboSet ms)
+    '''public SKDPMFOCost(final MboSet ms)
     '''

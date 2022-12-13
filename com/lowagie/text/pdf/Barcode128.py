@@ -17,29 +17,29 @@ STARTA = "char  '\u00cb'"
 STARTB = "char  '\u00cc'"
 STARTC = "char  '\u00cd'"
 def Barcode128():
-    '''    public Barcode128()
+    '''public Barcode128()
     '''
 def removeFNC1():
-    '''    public static String removeFNC1(final String code)
+    '''public static String removeFNC1(final String code)
     '''
 def getHumanReadableUCCEAN():
-    '''    public static String getHumanReadableUCCEAN(String code)
+    '''public static String getHumanReadableUCCEAN(String code)
     '''
 def getRawText():
-    '''    public static String getRawText(final String text, final boolean ucc)
+    '''public static String getRawText(final String text, final boolean ucc)
     '''
 def getBarsCode128Raw():
-    '''    public static byte[] getBarsCode128Raw(String text)
+    '''public static byte[] getBarsCode128Raw(String text)
     '''
 def getBarcodeSize():
-    '''    public Rectangle getBarcodeSize()
+    '''public Rectangle getBarcodeSize()
     '''
 def placeBarcode():
-    '''    public Rectangle placeBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)
+    '''public Rectangle placeBarcode(final PdfContentByte cb, final Color barColor, final Color textColor)
     '''
 def createAwtImage():
-    '''    public Image createAwtImage(final Color foreground, final Color background)
+    '''public Image createAwtImage(final Color foreground, final Color background)
     '''
 def setCode():
-    '''    public void setCode(final String code)
+    '''public void setCode(final String code)
     '''

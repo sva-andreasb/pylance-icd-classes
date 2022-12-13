@@ -1,3 +1,3 @@
 def KMSInternalException():
-    '''    public KMSInternalException(final String message)
+    '''public KMSInternalException(final String message)
     '''

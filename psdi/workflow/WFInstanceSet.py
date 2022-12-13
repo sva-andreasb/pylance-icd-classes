@@ -1,3 +1,3 @@
 def WFInstanceSet():
-    '''    public WFInstanceSet(final MboServerInterface ms)
+    '''public WFInstanceSet(final MboServerInterface ms)
     '''

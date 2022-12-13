@@ -1,3 +1,3 @@
 def PmCfgFldReconCiResult():
-    '''    public PmCfgFldReconCiResult(final MboValue mbv)
+    '''public PmCfgFldReconCiResult(final MboValue mbv)
     '''

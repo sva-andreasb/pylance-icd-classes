@@ -1,6 +1,6 @@
 def MultiComparator():
-    '''    public MultiComparator(final Comparator<T>... comparators)
+    '''public MultiComparator(final Comparator<T>... comparators)
     '''
 def compare():
-    '''    public int compare(final T arg0, final T arg1)
+    '''public int compare(final T arg0, final T arg1)
     '''

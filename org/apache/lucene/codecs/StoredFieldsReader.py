@@ -1,3 +1,3 @@
 def getMergeInstance():
-    '''    public StoredFieldsReader getMergeInstance()
+    '''public StoredFieldsReader getMergeInstance()
     '''

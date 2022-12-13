@@ -1,3 +1,3 @@
 def PlusPFldAgreementPriceSched():
-    '''    public PlusPFldAgreementPriceSched(final MboValue mbv)
+    '''public PlusPFldAgreementPriceSched(final MboValue mbv)
     '''

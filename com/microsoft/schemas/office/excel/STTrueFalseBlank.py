@@ -10,14 +10,14 @@ INT_FALSE = "int  3"
 INT_F = "int  4"
 INT_X = "int  5"
 def newValue():
-    '''    public static STTrueFalseBlank newValue(final Object o)
+    '''public static STTrueFalseBlank newValue(final Object o)
     '''
 def newInstance():
-    '''    public static STTrueFalseBlank newInstance()
+    '''public static STTrueFalseBlank newInstance()
     public static STTrueFalseBlank newInstance(final XmlOptions xmlOptions)
     '''
 def parse():
-    '''    public static STTrueFalseBlank parse(final String s)
+    '''public static STTrueFalseBlank parse(final String s)
     public static STTrueFalseBlank parse(final String s, final XmlOptions xmlOptions)
     public static STTrueFalseBlank parse(final File file)
     public static STTrueFalseBlank parse(final File file, final XmlOptions xmlOptions)
@@ -35,12 +35,12 @@ def parse():
     public static STTrueFalseBlank parse(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''
 def forString():
-    '''    public static Enum forString(final String s)
+    '''public static Enum forString(final String s)
     '''
 def forInt():
-    '''    public static Enum forInt(final int n)
+    '''public static Enum forInt(final int n)
     '''

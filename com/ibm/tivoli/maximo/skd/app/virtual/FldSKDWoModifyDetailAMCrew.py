@@ -1,3 +1,3 @@
 def FldSKDWoModifyDetailAMCrew():
-    '''    public FldSKDWoModifyDetailAMCrew(final MboValue mbv)
+    '''public FldSKDWoModifyDetailAMCrew(final MboValue mbv)
     '''

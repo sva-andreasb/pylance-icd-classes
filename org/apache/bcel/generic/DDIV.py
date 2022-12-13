@@ -1,6 +1,6 @@
 def DDIV():
-    '''    public DDIV()
+    '''public DDIV()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

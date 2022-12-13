@@ -1,39 +1,39 @@
 def getVersion():
-    '''    public static final int getVersion()
+    '''public static final int getVersion()
     '''
 def getMinorVersion():
-    '''    public static final int getMinorVersion()
+    '''public static final int getMinorVersion()
     '''
 def getSubMinorVersion():
-    '''    public static final int getSubMinorVersion()
+    '''public static final int getSubMinorVersion()
     '''
 def getPatchLevel():
-    '''    public static final int getPatchLevel()
+    '''public static final int getPatchLevel()
     '''
 def getBuildNumber():
-    '''    public static final long getBuildNumber()
+    '''public static final long getBuildNumber()
     '''
 def getReleaseDate():
-    '''    public static final int getReleaseDate()
+    '''public static final int getReleaseDate()
     '''
 def getBundleVersion():
-    '''    public int getBundleVersion()
+    '''public int getBundleVersion()
     '''
 def getBundleMinorVersion():
-    '''    public int getBundleMinorVersion()
+    '''public int getBundleMinorVersion()
     '''
 def getBundleSubMinorVersion():
-    '''    public int getBundleSubMinorVersion()
+    '''public int getBundleSubMinorVersion()
     '''
 def getBundlePatchLevel():
-    '''    public int getBundlePatchLevel()
+    '''public int getBundlePatchLevel()
     '''
 def getBundleReleaseDate():
-    '''    public int getBundleReleaseDate()
+    '''public int getBundleReleaseDate()
     '''
 def isJLMManaged():
-    '''    public boolean isJLMManaged()
+    '''public boolean isJLMManaged()
     '''
 def isFullInstaller():
-    '''    public boolean isFullInstaller()
+    '''public boolean isFullInstaller()
     '''

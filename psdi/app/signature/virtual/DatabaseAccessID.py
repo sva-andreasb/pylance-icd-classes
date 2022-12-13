@@ -1,21 +1,21 @@
 def DatabaseAccessID():
-    '''    public DatabaseAccessID(final MboSet ms)
+    '''public DatabaseAccessID(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def clearDatabaseUserID():
-    '''    public void clearDatabaseUserID()
+    '''public void clearDatabaseUserID()
     '''
 def saveAccess():
-    '''    public void saveAccess()
+    '''public void saveAccess()
     '''
 def dbUserToBeDropped():
-    '''    public boolean dbUserToBeDropped()
+    '''public boolean dbUserToBeDropped()
     '''
 def setValue():
-    '''    public void setValue(String attributeName, final String val, final long accessModifier)
+    '''public void setValue(String attributeName, final String val, final long accessModifier)
     '''

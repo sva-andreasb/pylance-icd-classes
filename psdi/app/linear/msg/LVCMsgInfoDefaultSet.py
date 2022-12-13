@@ -1,3 +1,3 @@
 def LVCMsgInfoDefaultSet():
-    '''    public LVCMsgInfoDefaultSet(final MboServerInterface ms)
+    '''public LVCMsgInfoDefaultSet(final MboServerInterface ms)
     '''

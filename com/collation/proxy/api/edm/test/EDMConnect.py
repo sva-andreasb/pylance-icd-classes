@@ -1,3 +1,3 @@
 def getApi():
-    '''    public static DataApi getApi()
+    '''public static DataApi getApi()
     '''

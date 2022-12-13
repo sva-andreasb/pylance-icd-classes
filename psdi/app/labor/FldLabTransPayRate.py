@@ -1,6 +1,6 @@
 def FldLabTransPayRate():
-    '''    public FldLabTransPayRate(final MboValue mbv)
+    '''public FldLabTransPayRate(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

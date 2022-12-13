@@ -14,47 +14,47 @@ ASSEMBLY_TYPE_LAYER = "int  5"
 ASSEMBLY_TYPE_PATCH = "int  6"
 ASSEMBLY_TYPE_MIX = "int  7"
 def ItemASSEMBLY():
-    '''    public ItemASSEMBLY()
+    '''public ItemASSEMBLY()
     '''
 def resolveRerefences():
-    '''    public void resolveRerefences(final Parser project, final long flags)
+    '''public void resolveRerefences(final Parser project, final long flags)
     '''
 def getPageId():
-    '''    public String getPageId()
+    '''public String getPageId()
     '''
 def skip():
-    '''    public boolean skip(final Parser parser, final long flags)
+    '''public boolean skip(final Parser parser, final long flags)
     '''
 def getAssemblyType():
-    '''    public int getAssemblyType()
+    '''public int getAssemblyType()
     '''
 def setAssemblyType():
-    '''    public void setAssemblyType(final String assemblyType)
+    '''public void setAssemblyType(final String assemblyType)
     '''
 def getChildern():
-    '''    public String[] getChildern()
+    '''public String[] getChildern()
     '''
 def setChildNames():
-    '''    public void setChildNames(String childNames)
+    '''public void setChildNames(String childNames)
     '''
 def childern():
-    '''    public Iterator<Item> childern()
+    '''public Iterator<Item> childern()
     '''
 def getParentName():
-    '''    public String getParentName()
+    '''public String getParentName()
     '''
 def setParentName():
-    '''    public void setParentName(final String parentName)
+    '''public void setParentName(final String parentName)
     '''
 def getSheetName():
-    '''    public String getSheetName()
+    '''public String getSheetName()
     '''
 def setSheetName():
-    '''    public void setSheetName(final String sheetName)
+    '''public void setSheetName(final String sheetName)
     '''
 def getParentItemRef():
-    '''    public Item getParentItemRef()
+    '''public Item getParentItemRef()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

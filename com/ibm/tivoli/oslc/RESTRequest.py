@@ -5,64 +5,64 @@ HTTP_DELETE = "String  \"DELETE\""
 HTTP_PATCH = "String  \"PATCH\""
 HTTP_HEAD = "String  \"HEAD\""
 def RESTRequest():
-    '''    public RESTRequest(final Map<String, List<String>> headers, final Map<String, String[]> queryParams, final String httpMethod, final String clientAddr, final String clientHost)
+    '''public RESTRequest(final Map<String, List<String>> headers, final Map<String, String[]> queryParams, final String httpMethod, final String clientAddr, final String clientHost)
     public RESTRequest(final HttpServletRequest request)
     '''
 def getPrincipal():
-    '''    public Principal getPrincipal()
+    '''public Principal getPrincipal()
     '''
 def getHeaderParams():
-    '''    public BaseHttpHeaders getHeaderParams()
+    '''public BaseHttpHeaders getHeaderParams()
     '''
 def getHttpMethod():
-    '''    public String getHttpMethod()
+    '''public String getHttpMethod()
     '''
 def getResponseFormat():
-    '''    public String getResponseFormat()
+    '''public String getResponseFormat()
     '''
 def getRequestFormat():
-    '''    public String getRequestFormat()
+    '''public String getRequestFormat()
     '''
 def getQueryParams():
-    '''    public Map<String, String[]> getQueryParams()
+    '''public Map<String, String[]> getQueryParams()
     '''
 def isPOST():
-    '''    public boolean isPOST()
+    '''public boolean isPOST()
     '''
 def isPUT():
-    '''    public boolean isPUT()
+    '''public boolean isPUT()
     '''
 def isDELETE():
-    '''    public boolean isDELETE()
+    '''public boolean isDELETE()
     '''
 def isGET():
-    '''    public boolean isGET()
+    '''public boolean isGET()
     '''
 def isPATCH():
-    '''    public boolean isPATCH()
+    '''public boolean isPATCH()
     '''
 def isHEAD():
-    '''    public boolean isHEAD()
+    '''public boolean isHEAD()
     '''
 def getResponseMIMEType():
-    '''    public String getResponseMIMEType()
+    '''public String getResponseMIMEType()
     '''
 def getRequestMIMEType():
-    '''    public String getRequestMIMEType()
+    '''public String getRequestMIMEType()
     '''
 def getQueryParam():
-    '''    public String getQueryParam(final String param)
+    '''public String getQueryParam(final String param)
     public String getQueryParam(final String param, final String def)
     '''
 def getIntegerQueryParam():
-    '''    public Integer getIntegerQueryParam(final String param)
+    '''public Integer getIntegerQueryParam(final String param)
     '''
 def getBooleanQueryParam():
-    '''    public Boolean getBooleanQueryParam(final String param, final boolean def)
+    '''public Boolean getBooleanQueryParam(final String param, final boolean def)
     '''
 def getClientAddr():
-    '''    public String getClientAddr()
+    '''public String getClientAddr()
     '''
 def getClientHost():
-    '''    public String getClientHost()
+    '''public String getClientHost()
     '''

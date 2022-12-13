@@ -1,12 +1,12 @@
 def DefaultIdGeneratorImpl():
-    '''    public DefaultIdGeneratorImpl()
+    '''public DefaultIdGeneratorImpl()
     '''
 def getId():
-    '''    public String getId(final ServletCacheRequest request)
+    '''public String getId(final ServletCacheRequest request)
     '''
 def getSharingPolicy():
-    '''    public int getSharingPolicy(final ServletCacheRequest request)
+    '''public int getSharingPolicy(final ServletCacheRequest request)
     '''
 def initialize():
-    '''    public void initialize(final CacheConfig cc)
+    '''public void initialize(final CacheConfig cc)
     '''

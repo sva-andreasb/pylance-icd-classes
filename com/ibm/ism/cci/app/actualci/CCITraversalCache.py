@@ -2,155 +2,155 @@ IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(
 CACHE_CLASS_SPECS = "long  1L"
 CACHE_CUSTOMERS = "long  2L"
 def generateCache():
-    '''    public static CCITraversalCache generateCache(final String topAuthCIClass, final long cacheOptions)
+    '''public static CCITraversalCache generateCache(final String topAuthCIClass, final long cacheOptions)
     '''
 def getHierarchyPath():
-    '''    public String getHierarchyPath(final String classId)
+    '''public String getHierarchyPath(final String classId)
     '''
 def isClassGlobal():
-    '''    public boolean isClassGlobal(final String classId)
+    '''public boolean isClassGlobal(final String classId)
     '''
 def getCustomers():
-    '''    public List<String> getCustomers(final String classId)
+    '''public List<String> getCustomers(final String classId)
     public List<String> getCustomers()
     '''
 def getRelationRulesForClassID():
-    '''    public ArrayList<RelationRuleInfo> getRelationRulesForClassID(final String authClassID, final boolean isSource)
+    '''public ArrayList<RelationRuleInfo> getRelationRulesForClassID(final String authClassID, final boolean isSource)
     '''
 def getRelationRulesForActClassID():
-    '''    public ArrayList<RelationRuleInfo> getRelationRulesForActClassID(final String actClassID, final boolean isSource)
+    '''public ArrayList<RelationRuleInfo> getRelationRulesForActClassID(final String actClassID, final boolean isSource)
     '''
 def getTemplateCache():
-    '''    public HashMap<String, ArrayList<String>> getTemplateCache()
+    '''public HashMap<String, ArrayList<String>> getTemplateCache()
     '''
 def populateTopLevelActCICustomers():
-    '''    public void populateTopLevelActCICustomers(final MboRemote topLevelActCI)
+    '''public void populateTopLevelActCICustomers(final MboRemote topLevelActCI)
     '''
 def isPropagateCustomerToActCI():
-    '''    public boolean isPropagateCustomerToActCI()
+    '''public boolean isPropagateCustomerToActCI()
     '''
 def getTopLevelActCICustomers():
-    '''    public HashMap<String, List<CustomerInfo>> getTopLevelActCICustomers()
+    '''public HashMap<String, List<CustomerInfo>> getTopLevelActCICustomers()
     '''
 def getTopLevelActualCIPrimaryCustomers():
-    '''    public HashMap<String, String> getTopLevelActualCIPrimaryCustomers()
+    '''public HashMap<String, String> getTopLevelActualCIPrimaryCustomers()
     '''
 def getClassSpecs():
-    '''    public HashMap<String, HashMap<String, ClassSpecInfo>> getClassSpecs()
+    '''public HashMap<String, HashMap<String, ClassSpecInfo>> getClassSpecs()
     '''
 def getClassSpecUseWiths():
-    '''    public HashMap<String, HashMap<String, ClassSpecUseWithInfo>> getClassSpecUseWiths()
+    '''public HashMap<String, HashMap<String, ClassSpecUseWithInfo>> getClassSpecUseWiths()
     '''
 def RelationRuleHashObject():
-    '''    public RelationRuleHashObject()
+    '''public RelationRuleHashObject()
     '''
 def getClassIsASourceList():
-    '''    public ArrayList<RelationRuleInfo> getClassIsASourceList()
+    '''public ArrayList<RelationRuleInfo> getClassIsASourceList()
     '''
 def getClassIsATargetList():
-    '''    public ArrayList<RelationRuleInfo> getClassIsATargetList()
+    '''public ArrayList<RelationRuleInfo> getClassIsATargetList()
     '''
 def ClassSpecInfo():
-    '''    public ClassSpecInfo(final ClassSpecRemote csr)
+    '''public ClassSpecInfo(final ClassSpecRemote csr)
     '''
 def getSection():
-    '''    public String getSection()
+    '''public String getSection()
     '''
 def setSection():
-    '''    public void setSection(final String section)
+    '''public void setSection(final String section)
     '''
 def getClassSpecID():
-    '''    public long getClassSpecID()
+    '''public long getClassSpecID()
     public Double getClassSpecID()
     '''
 def setClassSpecID():
-    '''    public void setClassSpecID(final int classSpecID)
+    '''public void setClassSpecID(final int classSpecID)
     public void setClassSpecID(final Double classSpecID)
     '''
 def getLinearType():
-    '''    public String getLinearType()
+    '''public String getLinearType()
     '''
 def setLinearType():
-    '''    public void setLinearType(final String linearType)
+    '''public void setLinearType(final String linearType)
     '''
 def getAssetAttrID():
-    '''    public String getAssetAttrID()
+    '''public String getAssetAttrID()
     '''
 def setAssetAttrID():
-    '''    public void setAssetAttrID(final String assetAttrID)
+    '''public void setAssetAttrID(final String assetAttrID)
     '''
 def getClassStructureID():
-    '''    public String getClassStructureID()
+    '''public String getClassStructureID()
     '''
 def setClassStructureID():
-    '''    public void setClassStructureID(final String classStructureID)
+    '''public void setClassStructureID(final String classStructureID)
     '''
 def getMeasureUnitID():
-    '''    public String getMeasureUnitID()
+    '''public String getMeasureUnitID()
     '''
 def setMeasureUnitID():
-    '''    public void setMeasureUnitID(final String measureUnitID)
+    '''public void setMeasureUnitID(final String measureUnitID)
     '''
 def getPluspIsGlobal():
-    '''    public boolean getPluspIsGlobal()
+    '''public boolean getPluspIsGlobal()
     '''
 def setPluspIsGlobal():
-    '''    public void setPluspIsGlobal(final boolean pluspIsGlobal)
+    '''public void setPluspIsGlobal(final boolean pluspIsGlobal)
     '''
 def setCustomers():
-    '''    public void setCustomers(final List<String> customers)
+    '''public void setCustomers(final List<String> customers)
     '''
 def ClassSpecUseWithInfo():
-    '''    public ClassSpecUseWithInfo(final ClassSpecUseWithRemote csuwr)
+    '''public ClassSpecUseWithInfo(final ClassSpecUseWithRemote csuwr)
     '''
 def isUseInSpec():
-    '''    public boolean isUseInSpec()
+    '''public boolean isUseInSpec()
     '''
 def setUseInSpec():
-    '''    public void setUseInSpec(final boolean useInSpec)
+    '''public void setUseInSpec(final boolean useInSpec)
     '''
 def getSiteID():
-    '''    public String getSiteID()
+    '''public String getSiteID()
     '''
 def setSiteID():
-    '''    public void setSiteID(final String siteID)
+    '''public void setSiteID(final String siteID)
     '''
 def getSequence():
-    '''    public Double getSequence()
+    '''public Double getSequence()
     '''
 def setSequence():
-    '''    public void setSequence(final Double sequence)
+    '''public void setSequence(final Double sequence)
     '''
 def getMandatory():
-    '''    public Boolean getMandatory()
+    '''public Boolean getMandatory()
     '''
 def setMandatory():
-    '''    public void setMandatory(final Boolean mandatory)
+    '''public void setMandatory(final Boolean mandatory)
     '''
 def getDefaultAlnValue():
-    '''    public String getDefaultAlnValue()
+    '''public String getDefaultAlnValue()
     '''
 def setDefaultAlnValue():
-    '''    public void setDefaultAlnValue(final String defaultAlnValue)
+    '''public void setDefaultAlnValue(final String defaultAlnValue)
     '''
 def getDefaultNumValue():
-    '''    public Double getDefaultNumValue()
+    '''public Double getDefaultNumValue()
     '''
 def setDefaultNumValue():
-    '''    public void setDefaultNumValue(final Double defaultNumValue)
+    '''public void setDefaultNumValue(final Double defaultNumValue)
     '''
 def getDefaultTableValue():
-    '''    public String getDefaultTableValue()
+    '''public String getDefaultTableValue()
     '''
 def setDefaultTableValue():
-    '''    public void setDefaultTableValue(final String defaultTableValue)
+    '''public void setDefaultTableValue(final String defaultTableValue)
     '''
 def isDefaultAlnValueNull():
-    '''    public boolean isDefaultAlnValueNull()
+    '''public boolean isDefaultAlnValueNull()
     '''
 def isDefaultNumValueNull():
-    '''    public boolean isDefaultNumValueNull()
+    '''public boolean isDefaultNumValueNull()
     '''
 def isDefaultTableValueNull():
-    '''    public boolean isDefaultTableValueNull()
+    '''public boolean isDefaultTableValueNull()
     '''

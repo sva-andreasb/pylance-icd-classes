@@ -1,3 +1,3 @@
 def LocationMntSKDSet():
-    '''    public LocationMntSKDSet(final MboServerInterface ms)
+    '''public LocationMntSKDSet(final MboServerInterface ms)
     '''

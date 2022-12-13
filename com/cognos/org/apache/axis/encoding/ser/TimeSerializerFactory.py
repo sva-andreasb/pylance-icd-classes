@@ -1,3 +1,3 @@
 def TimeSerializerFactory():
-    '''    public TimeSerializerFactory(final Class javaType, final QName xmlType)
+    '''public TimeSerializerFactory(final Class javaType, final QName xmlType)
     '''

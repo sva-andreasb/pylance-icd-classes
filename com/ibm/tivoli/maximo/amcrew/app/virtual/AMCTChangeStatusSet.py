@@ -1,3 +1,3 @@
 def AMCTChangeStatusSet():
-    '''    public AMCTChangeStatusSet(final MboServerInterface ms)
+    '''public AMCTChangeStatusSet(final MboServerInterface ms)
     '''

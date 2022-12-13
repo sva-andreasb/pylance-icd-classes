@@ -1,13 +1,13 @@
 def ClasspathPropertiesFileCredentialsProvider():
-    '''    public ClasspathPropertiesFileCredentialsProvider()
+    '''public ClasspathPropertiesFileCredentialsProvider()
     public ClasspathPropertiesFileCredentialsProvider(final String credentialsFilePath)
     '''
 def getCredentials():
-    '''    public AWSCredentials getCredentials()
+    '''public AWSCredentials getCredentials()
     '''
 def refresh():
-    '''    public void refresh()
+    '''public void refresh()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

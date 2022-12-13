@@ -1,6 +1,6 @@
 def FldErlstWoGenDate():
-    '''    public FldErlstWoGenDate(final MboValue mbv)
+    '''public FldErlstWoGenDate(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

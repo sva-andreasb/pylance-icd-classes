@@ -1,6 +1,6 @@
 def AnalyticData():
-    '''    public AnalyticData(final MboSet ms)
+    '''public AnalyticData(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

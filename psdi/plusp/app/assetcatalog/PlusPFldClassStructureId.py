@@ -1,6 +1,6 @@
 def PlusPFldClassStructureId():
-    '''    public PlusPFldClassStructureId(final MboValue mbv)
+    '''public PlusPFldClassStructureId(final MboValue mbv)
     '''
 def getObjectName():
-    '''    public String getObjectName()
+    '''public String getObjectName()
     '''

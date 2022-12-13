@@ -1,6 +1,6 @@
 def MaxIntErrorMsgSet():
-    '''    public MaxIntErrorMsgSet(final MboServerInterface ms)
+    '''public MaxIntErrorMsgSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

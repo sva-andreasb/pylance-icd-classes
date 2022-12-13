@@ -1,9 +1,9 @@
 def FldReportObject():
-    '''    public FldReportObject(final MboValue mbv)
+    '''public FldReportObject(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,12 +1,12 @@
 def NEW():
-    '''    public NEW(final int index)
+    '''public NEW(final int index)
     '''
 def getExceptions():
-    '''    public Class[] getExceptions()
+    '''public Class[] getExceptions()
     '''
 def getLoadClassType():
-    '''    public ObjectType getLoadClassType(final ConstantPoolGen cpg)
+    '''public ObjectType getLoadClassType(final ConstantPoolGen cpg)
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

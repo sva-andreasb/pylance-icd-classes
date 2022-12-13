@@ -1,6 +1,6 @@
 def TLOAMFldAssetItemnum():
-    '''    public TLOAMFldAssetItemnum(final MboValue mbv)
+    '''public TLOAMFldAssetItemnum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -200,40 +200,40 @@ KHITAN_SMALL_SCRIPT = "int  191"
 YEZIDI = "int  192"
 CODE_LIMIT = "int  193"
 def getCode():
-    '''    public static final int[] getCode(final Locale locale)
+    '''public static final int[] getCode(final Locale locale)
     public static final int[] getCode(final ULocale locale)
     public static final int[] getCode(final String nameOrAbbrOrLocale)
     '''
 def getCodeFromName():
-    '''    public static final int getCodeFromName(final String nameOrAbbr)
+    '''public static final int getCodeFromName(final String nameOrAbbr)
     '''
 def getScript():
-    '''    public static final int getScript(final int codepoint)
+    '''public static final int getScript(final int codepoint)
     '''
 def hasScript():
-    '''    public static final boolean hasScript(final int c, final int sc)
+    '''public static final boolean hasScript(final int c, final int sc)
     '''
 def getScriptExtensions():
-    '''    public static final int getScriptExtensions(final int c, final BitSet set)
+    '''public static final int getScriptExtensions(final int c, final BitSet set)
     '''
 def getName():
-    '''    public static final String getName(final int scriptCode)
+    '''public static final String getName(final int scriptCode)
     '''
 def getShortName():
-    '''    public static final String getShortName(final int scriptCode)
+    '''public static final String getShortName(final int scriptCode)
     '''
 def getSampleString():
-    '''    public static final String getSampleString(final int script)
+    '''public static final String getSampleString(final int script)
     '''
 def getUsage():
-    '''    public static final ScriptUsage getUsage(final int script)
+    '''public static final ScriptUsage getUsage(final int script)
     '''
 def isRightToLeft():
-    '''    public static final boolean isRightToLeft(final int script)
+    '''public static final boolean isRightToLeft(final int script)
     '''
 def breaksBetweenLetters():
-    '''    public static final boolean breaksBetweenLetters(final int script)
+    '''public static final boolean breaksBetweenLetters(final int script)
     '''
 def isCased():
-    '''    public static final boolean isCased(final int script)
+    '''public static final boolean isCased(final int script)
     '''

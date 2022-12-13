@@ -1,6 +1,6 @@
 def AssetAllocDep():
-    '''    public AssetAllocDep(final MboSet ms)
+    '''public AssetAllocDep(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

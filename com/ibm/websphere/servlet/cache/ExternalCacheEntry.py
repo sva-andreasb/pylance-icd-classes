@@ -1,3 +1,3 @@
 def ExternalCacheEntry():
-    '''    public ExternalCacheEntry()
+    '''public ExternalCacheEntry()
     '''

@@ -1,6 +1,6 @@
 def execute():
-    '''    public synchronized int execute()
+    '''public synchronized int execute()
     '''
 def select():
-    '''    public synchronized void select(final int startIndex, final int count)
+    '''public synchronized void select(final int startIndex, final int count)
     '''

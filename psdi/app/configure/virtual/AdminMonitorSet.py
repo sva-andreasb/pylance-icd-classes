@@ -1,3 +1,3 @@
 def AdminMonitorSet():
-    '''    public AdminMonitorSet(final MboServerInterface ms)
+    '''public AdminMonitorSet(final MboServerInterface ms)
     '''

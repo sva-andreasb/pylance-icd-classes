@@ -1,3 +1,3 @@
 def RESTSysAction():
-    '''    public RESTSysAction(final MboSet ms)
+    '''public RESTSysAction(final MboSet ms)
     '''

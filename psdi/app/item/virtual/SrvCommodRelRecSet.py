@@ -1,3 +1,3 @@
 def SrvCommodRelRecSet():
-    '''    public SrvCommodRelRecSet(final MboServerInterface ms)
+    '''public SrvCommodRelRecSet(final MboServerInterface ms)
     '''

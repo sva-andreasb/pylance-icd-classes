@@ -1,12 +1,12 @@
 def JsonLocationInstantiator():
-    '''    public JsonLocationInstantiator()
+    '''public JsonLocationInstantiator()
     '''
 def canCreateFromObjectWith():
-    '''    public boolean canCreateFromObjectWith()
+    '''public boolean canCreateFromObjectWith()
     '''
 def getFromObjectArguments():
-    '''    public SettableBeanProperty[] getFromObjectArguments(final DeserializationConfig config)
+    '''public SettableBeanProperty[] getFromObjectArguments(final DeserializationConfig config)
     '''
 def createFromObjectWith():
-    '''    public Object createFromObjectWith(final DeserializationContext ctxt, final Object[] args)
+    '''public Object createFromObjectWith(final DeserializationContext ctxt, final Object[] args)
     '''

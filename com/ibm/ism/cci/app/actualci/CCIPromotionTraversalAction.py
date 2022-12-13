@@ -7,29 +7,29 @@ CREATE_RELATED_CIS = "long  16L"
 COPY_ATTRIBUTES_FOR_NEW = "long  32L"
 ALLOW_DUP_DISGUID = "long  268435456L"
 def CCIPromotionTraversalAction():
-    '''    public CCIPromotionTraversalAction(final String authTopCIClassId, final long synchronizationOptions, final CCITraversalCache tc, final Set<String> inProcessSet)
+    '''public CCIPromotionTraversalAction(final String authTopCIClassId, final long synchronizationOptions, final CCITraversalCache tc, final Set<String> inProcessSet)
     '''
 def getFailedRelations():
-    '''    public Map<String, CIRelationHelper> getFailedRelations()
+    '''public Map<String, CIRelationHelper> getFailedRelations()
     '''
 def processState():
-    '''    public void processState(final TraversalState state, final UserInfo userInfo)
+    '''public void processState(final TraversalState state, final UserInfo userInfo)
     '''
 def isNull():
-    '''    public boolean isNull(final String input)
+    '''public boolean isNull(final String input)
     '''
 def postTraverseAction():
-    '''    public void postTraverseAction(final UserInfo userInfo)
+    '''public void postTraverseAction(final UserInfo userInfo)
     '''
 def processRelation():
-    '''    public static boolean processRelation(final CIRelationHelper relation, final CCICIRelationSetRemote newCiRelations, final CCICIRelationSetRemote ciExistingRelations, final Map<String, LinkedCIInfo> actCIToCIMap, final boolean createRelationships, final UserInfo userInfo)
+    '''public static boolean processRelation(final CIRelationHelper relation, final CCICIRelationSetRemote newCiRelations, final CCICIRelationSetRemote ciExistingRelations, final Map<String, LinkedCIInfo> actCIToCIMap, final boolean createRelationships, final UserInfo userInfo)
     '''
 def getExistingCIsMap():
-    '''    public Map<String, LinkedCIInfo> getExistingCIsMap()
+    '''public Map<String, LinkedCIInfo> getExistingCIsMap()
     '''
 def copyAttributes():
-    '''    public boolean copyAttributes(final MboRemote actualCI, final MboRemote authorizedCI, final boolean overwriteAttributes, final boolean removeBlanksOnly, final boolean createdCI)
+    '''public boolean copyAttributes(final MboRemote actualCI, final MboRemote authorizedCI, final boolean overwriteAttributes, final boolean removeBlanksOnly, final boolean createdCI)
     '''
 def getResults():
-    '''    public List<CCIPromotionResults> getResults()
+    '''public List<CCIPromotionResults> getResults()
     '''

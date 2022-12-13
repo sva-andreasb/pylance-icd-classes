@@ -1,3 +1,3 @@
 def getContentStorePackageLocation():
-    '''    public static String getContentStorePackageLocation(String contentStorePackageLocation)
+    '''public static String getContentStorePackageLocation(String contentStorePackageLocation)
     '''

@@ -1,6 +1,6 @@
 def FldMasterPMAdjNextDue():
-    '''    public FldMasterPMAdjNextDue(final MboValue mbv)
+    '''public FldMasterPMAdjNextDue(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

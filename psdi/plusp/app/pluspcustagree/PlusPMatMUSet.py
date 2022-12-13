@@ -1,6 +1,6 @@
 def PlusPMatMUSet():
-    '''    public PlusPMatMUSet(final MboServerInterface ms)
+    '''public PlusPMatMUSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

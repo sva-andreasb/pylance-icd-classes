@@ -1,35 +1,35 @@
 ELEMENT_NAME = "String  \"macros\""
 NAMESPACE = "String  \"http://jivesoftware.com/protocol/workgroup\""
 def Macros():
-    '''    public Macros()
+    '''public Macros()
     '''
 def getRootGroup():
-    '''    public MacroGroup getRootGroup()
+    '''public MacroGroup getRootGroup()
     '''
 def setRootGroup():
-    '''    public void setRootGroup(final MacroGroup rootGroup)
+    '''public void setRootGroup(final MacroGroup rootGroup)
     '''
 def isPersonal():
-    '''    public boolean isPersonal()
+    '''public boolean isPersonal()
     '''
 def setPersonal():
-    '''    public void setPersonal(final boolean personal)
+    '''public void setPersonal(final boolean personal)
     '''
 def getPersonalMacroGroup():
-    '''    public MacroGroup getPersonalMacroGroup()
+    '''public MacroGroup getPersonalMacroGroup()
     '''
 def setPersonalMacroGroup():
-    '''    public void setPersonalMacroGroup(final MacroGroup personalMacroGroup)
+    '''public void setPersonalMacroGroup(final MacroGroup personalMacroGroup)
     '''
 def parse():
-    '''    public Macros parse(final XmlPullParser parser, final int initialDepth)
+    '''public Macros parse(final XmlPullParser parser, final int initialDepth)
     '''
 def parseMacro():
-    '''    public Macro parseMacro(final XmlPullParser parser)
+    '''public Macro parseMacro(final XmlPullParser parser)
     '''
 def parseMacroGroup():
-    '''    public MacroGroup parseMacroGroup(final XmlPullParser parser)
+    '''public MacroGroup parseMacroGroup(final XmlPullParser parser)
     '''
 def parseMacroGroups():
-    '''    public MacroGroup parseMacroGroups(final String macros)
+    '''public MacroGroup parseMacroGroups(final String macros)
     '''

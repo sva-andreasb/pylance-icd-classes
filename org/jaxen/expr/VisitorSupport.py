@@ -1,5 +1,5 @@
 def visit():
-    '''    public void visit(final PathExpr path)
+    '''public void visit(final PathExpr path)
     public void visit(final LocationPath path)
     public void visit(final LogicalExpr expr)
     public void visit(final EqualityExpr expr)

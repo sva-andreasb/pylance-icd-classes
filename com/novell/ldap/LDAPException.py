@@ -59,7 +59,7 @@ INVALID_RESPONSE = "int  100"
 AMBIGUOUS_RESPONSE = "int  101"
 TLS_NOT_SUPPORTED = "int  112"
 def LDAPException():
-    '''    public LDAPException()
+    '''public LDAPException()
     public LDAPException(final String s, final int n, final String s2)
     public LDAPException(final String s, final Object[] array, final int n, final String s2)
     public LDAPException(final String s, final int n, final String s2, final Throwable t)
@@ -68,29 +68,29 @@ def LDAPException():
     public LDAPException(final String s, final Object[] array, final int n, final String s2, final String s3)
     '''
 def resultCodeToString():
-    '''    public String resultCodeToString()
+    '''public String resultCodeToString()
     public static String resultCodeToString(final int n)
     public String resultCodeToString(final Locale locale)
     public static String resultCodeToString(final int n, final Locale locale)
     '''
 def getLDAPErrorMessage():
-    '''    public String getLDAPErrorMessage()
+    '''public String getLDAPErrorMessage()
     '''
 def getCause():
-    '''    public Throwable getCause()
+    '''public Throwable getCause()
     '''
 def getResultCode():
-    '''    public int getResultCode()
+    '''public int getResultCode()
     '''
 def getMatchedDN():
-    '''    public String getMatchedDN()
+    '''public String getMatchedDN()
     '''
 def getMessage():
-    '''    public String getMessage()
+    '''public String getMessage()
     '''
 def getLocalizedMessage():
-    '''    public String getLocalizedMessage()
+    '''public String getLocalizedMessage()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

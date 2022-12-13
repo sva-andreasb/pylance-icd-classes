@@ -1,9 +1,9 @@
 def PlusPCreateMultipleEstimates():
-    '''    public PlusPCreateMultipleEstimates(final MboSet ms)
+    '''public PlusPCreateMultipleEstimates(final MboSet ms)
     '''
 def isPackageEmpty():
-    '''    public boolean isPackageEmpty()
+    '''public boolean isPackageEmpty()
     '''
 def createEstimates():
-    '''    public void createEstimates()
+    '''public void createEstimates()
     '''

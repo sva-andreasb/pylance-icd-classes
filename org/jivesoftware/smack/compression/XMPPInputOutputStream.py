@@ -1,6 +1,6 @@
 def setFlushMethod():
-    '''    public static void setFlushMethod(final FlushMethod flushMethod)
+    '''public static void setFlushMethod(final FlushMethod flushMethod)
     '''
 def getCompressionMethod():
-    '''    public String getCompressionMethod()
+    '''public String getCompressionMethod()
     '''

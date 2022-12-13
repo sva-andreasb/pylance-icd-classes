@@ -1,3 +1,3 @@
 def AssociateRelationshipBean():
-    '''    public AssociateRelationshipBean()
+    '''public AssociateRelationshipBean()
     '''

@@ -1,6 +1,6 @@
 def FldServRecEndDate():
-    '''    public FldServRecEndDate(final MboValue mbv)
+    '''public FldServRecEndDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,9 +1,9 @@
 def INVOKESTATIC():
-    '''    public INVOKESTATIC(final int index)
+    '''public INVOKESTATIC(final int index)
     '''
 def getExceptions():
-    '''    public Class[] getExceptions()
+    '''public Class[] getExceptions()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

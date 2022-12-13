@@ -1,6 +1,6 @@
 def MeterReadingSet():
-    '''    public MeterReadingSet(final MboServerInterface ms)
+    '''public MeterReadingSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

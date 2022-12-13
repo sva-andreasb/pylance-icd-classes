@@ -1,6 +1,6 @@
 def IoTPayloadPropsSet():
-    '''    public IoTPayloadPropsSet(final MboServerInterface ms)
+    '''public IoTPayloadPropsSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

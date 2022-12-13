@@ -1,6 +1,6 @@
 def QuantizationError():
-    '''    public QuantizationError(final DistanceMeasure distance)
+    '''public QuantizationError(final DistanceMeasure distance)
     '''
 def computeImage():
-    '''    public double[][] computeImage(final NeuronSquareMesh2D map, final Iterable<double[]> data)
+    '''public double[][] computeImage(final NeuronSquareMesh2D map, final Iterable<double[]> data)
     '''

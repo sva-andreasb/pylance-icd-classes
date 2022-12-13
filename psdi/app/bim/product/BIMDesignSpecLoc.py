@@ -6,11 +6,11 @@ FIELD_PRODUCTID = "String  \"PRODUCTID\""
 FIELD_LOCATION = "String  \"LOCATION\""
 FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
 def BIMDesignSpecLoc():
-    '''    public BIMDesignSpecLoc(final MboSet ms)
+    '''public BIMDesignSpecLoc(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

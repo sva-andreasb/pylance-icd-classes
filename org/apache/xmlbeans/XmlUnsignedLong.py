@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_unsignedLong\")"
 def newInstance():
-    '''    public static XmlUnsignedLong newInstance()
+    '''public static XmlUnsignedLong newInstance()
     public static XmlUnsignedLong newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlUnsignedLong newValue(final Object obj)
+    '''public static XmlUnsignedLong newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlUnsignedLong parse(final String s)
+    '''public static XmlUnsignedLong parse(final String s)
     public static XmlUnsignedLong parse(final String s, final XmlOptions options)
     public static XmlUnsignedLong parse(final File f)
     public static XmlUnsignedLong parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlUnsignedLong parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

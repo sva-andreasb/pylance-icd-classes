@@ -1,55 +1,55 @@
 def IoTServicesCacheImpl():
-    '''    public IoTServicesCacheImpl()
+    '''public IoTServicesCacheImpl()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def reload():
-    '''    public void reload()
+    '''public void reload()
     public void reload(final String key)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getIotServices():
-    '''    public Map<String, IoTServicesInfo> getIotServices()
+    '''public Map<String, IoTServicesInfo> getIotServices()
     '''
 def getPayloadPropsForAllServices():
-    '''    public Map<String, Map<String, String>> getPayloadPropsForAllServices()
+    '''public Map<String, Map<String, String>> getPayloadPropsForAllServices()
     '''
 def getPayloadPropsInfoForAllServices():
-    '''    public Map<String, List<IoTPayloadPropsInfo>> getPayloadPropsInfoForAllServices()
+    '''public Map<String, List<IoTPayloadPropsInfo>> getPayloadPropsInfoForAllServices()
     '''
 def getIotRestEndPoints():
-    '''    public Map<String, List<IoTRestEndPointsInfo>> getIotRestEndPoints()
+    '''public Map<String, List<IoTRestEndPointsInfo>> getIotRestEndPoints()
     '''
 def getDeviceTypeInfoForActiveService():
-    '''    public Map<String, IoTServiceDeviceTypeInfo> getDeviceTypeInfoForActiveService()
+    '''public Map<String, IoTServiceDeviceTypeInfo> getDeviceTypeInfoForActiveService()
     '''
 def getJsonResourceForActiveService():
-    '''    public String getJsonResourceForActiveService()
+    '''public String getJsonResourceForActiveService()
     '''
 def setJsonResourceForActiveService():
-    '''    public void setJsonResourceForActiveService(final String jsonResourceForActiveService)
+    '''public void setJsonResourceForActiveService(final String jsonResourceForActiveService)
     '''
 def getDefaultHistorian():
-    '''    public String getDefaultHistorian()
+    '''public String getDefaultHistorian()
     '''
 def setDefaultHistorian():
-    '''    public void setDefaultHistorian(final String defaultHistorian)
+    '''public void setDefaultHistorian(final String defaultHistorian)
     '''
 def getDefaultHistorianProcessor():
-    '''    public String getDefaultHistorianProcessor()
+    '''public String getDefaultHistorianProcessor()
     '''
 def getDefaultHistorianEndPoint():
-    '''    public String getDefaultHistorianEndPoint()
+    '''public String getDefaultHistorianEndPoint()
     '''
 def getDefaultHistorianIotServiceName():
-    '''    public String getDefaultHistorianIotServiceName()
+    '''public String getDefaultHistorianIotServiceName()
     '''
 def setDefaultHistorianProcessor():
-    '''    public void setDefaultHistorianProcessor(final String defaultHistorianProcessor)
+    '''public void setDefaultHistorianProcessor(final String defaultHistorianProcessor)
     '''
 def setDefaultHistorianEndPoint():
-    '''    public void setDefaultHistorianEndPoint(final String defaultHistorianEndPoint)
+    '''public void setDefaultHistorianEndPoint(final String defaultHistorianEndPoint)
     '''

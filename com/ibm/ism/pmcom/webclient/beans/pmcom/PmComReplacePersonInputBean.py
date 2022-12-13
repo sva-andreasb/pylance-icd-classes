@@ -1,3 +1,3 @@
 def processPersonGroups():
-    '''    public int processPersonGroups()
+    '''public int processPersonGroups()
     '''

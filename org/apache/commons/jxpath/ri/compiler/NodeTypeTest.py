@@ -1,12 +1,12 @@
 def NodeTypeTest():
-    '''    public NodeTypeTest(final int nodeType)
+    '''public NodeTypeTest(final int nodeType)
     '''
 def getNodeType():
-    '''    public int getNodeType()
+    '''public int getNodeType()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def nodeTypeToString():
-    '''    public static String nodeTypeToString(final int code)
+    '''public static String nodeTypeToString(final int code)
     '''

@@ -1,9 +1,9 @@
 def InvoiceCostSet():
-    '''    public InvoiceCostSet(final MboServerInterface ms)
+    '''public InvoiceCostSet(final MboServerInterface ms)
     '''
 def validateInvoiceCost():
-    '''    public void validateInvoiceCost()
+    '''public void validateInvoiceCost()
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

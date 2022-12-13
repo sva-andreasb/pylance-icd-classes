@@ -1,15 +1,15 @@
 def DefaultMessageHandler():
-    '''    public DefaultMessageHandler()
+    '''public DefaultMessageHandler()
     '''
 def handleMessage():
-    '''    public boolean handleMessage(final IMessage message)
+    '''public boolean handleMessage(final IMessage message)
     '''
 def isIgnoring():
-    '''    public boolean isIgnoring(final IMessage.Kind kind)
+    '''public boolean isIgnoring(final IMessage.Kind kind)
     '''
 def dontIgnore():
-    '''    public void dontIgnore(final IMessage.Kind kind)
+    '''public void dontIgnore(final IMessage.Kind kind)
     '''
 def ignore():
-    '''    public void ignore(final IMessage.Kind kind)
+    '''public void ignore(final IMessage.Kind kind)
     '''

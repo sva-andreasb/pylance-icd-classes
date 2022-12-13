@@ -1,3 +1,3 @@
 def WOLocUserCustSet():
-    '''    public WOLocUserCustSet(final MboServerInterface ms)
+    '''public WOLocUserCustSet(final MboServerInterface ms)
     '''

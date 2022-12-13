@@ -1,6 +1,6 @@
 def FldSurveyEscalation():
-    '''    public FldSurveyEscalation(final MboValue mbv)
+    '''public FldSurveyEscalation(final MboValue mbv)
     '''
 def getAppLink():
-    '''    public String[] getAppLink()
+    '''public String[] getAppLink()
     '''

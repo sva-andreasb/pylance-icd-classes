@@ -1,27 +1,27 @@
 def SearchAttributeBean():
-    '''    public SearchAttributeBean()
+    '''public SearchAttributeBean()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def getOriginatingAttribute():
-    '''    public String getOriginatingAttribute()
+    '''public String getOriginatingAttribute()
     '''
 def getOriginatingDataBean():
-    '''    public DataBean getOriginatingDataBean()
+    '''public DataBean getOriginatingDataBean()
     '''
 def attributeSearch():
-    '''    public String attributeSearch(final MboSetRemote searchResultSet)
+    '''public String attributeSearch(final MboSetRemote searchResultSet)
     '''
 def clearSearch():
-    '''    public int clearSearch()
+    '''public int clearSearch()
     '''
 def setSelectValueAttrBean():
-    '''    public void setSelectValueAttrBean(final DataBean selectBean)
+    '''public void setSelectValueAttrBean(final DataBean selectBean)
     '''
 def newrow():
-    '''    public int newrow()
+    '''public int newrow()
     '''
 def toUseAssetFeature():
-    '''    public boolean toUseAssetFeature()
+    '''public boolean toUseAssetFeature()
     '''

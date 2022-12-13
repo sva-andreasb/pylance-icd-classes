@@ -1,6 +1,6 @@
 def FldFeatureStatus():
-    '''    public FldFeatureStatus(final MboValue mv)
+    '''public FldFeatureStatus(final MboValue mv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

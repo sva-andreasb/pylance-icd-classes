@@ -1,3 +1,3 @@
 def FldLicenseVendor():
-    '''    public FldLicenseVendor(final MboValue mbv)
+    '''public FldLicenseVendor(final MboValue mbv)
     '''

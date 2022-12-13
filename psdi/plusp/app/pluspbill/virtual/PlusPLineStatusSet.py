@@ -1,3 +1,3 @@
 def PlusPLineStatusSet():
-    '''    public PlusPLineStatusSet(final MboServerInterface ms)
+    '''public PlusPLineStatusSet(final MboServerInterface ms)
     '''

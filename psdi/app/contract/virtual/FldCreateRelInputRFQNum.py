@@ -1,6 +1,6 @@
 def FldCreateRelInputRFQNum():
-    '''    public FldCreateRelInputRFQNum(final MboValue mbv)
+    '''public FldCreateRelInputRFQNum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

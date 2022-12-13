@@ -1,45 +1,45 @@
 def size():
-    '''    public int size()
+    '''public int size()
     '''
 def iterator():
-    '''    public Iterator iterator()
+    '''public Iterator iterator()
     '''
 def hasToBeJustified():
-    '''    public boolean hasToBeJustified()
+    '''public boolean hasToBeJustified()
     '''
 def resetAlignment():
-    '''    public void resetAlignment()
+    '''public void resetAlignment()
     '''
 def setListItem():
-    '''    public void setListItem(final ListItem listItem)
+    '''public void setListItem(final ListItem listItem)
     '''
 def listSymbol():
-    '''    public PdfChunk listSymbol()
+    '''public PdfChunk listSymbol()
     '''
 def listIndent():
-    '''    public float listIndent()
+    '''public float listIndent()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def isNewlineSplit():
-    '''    public boolean isNewlineSplit()
+    '''public boolean isNewlineSplit()
     '''
 def getLastStrokeChunk():
-    '''    public int getLastStrokeChunk()
+    '''public int getLastStrokeChunk()
     '''
 def getChunk():
-    '''    public PdfChunk getChunk(final int idx)
+    '''public PdfChunk getChunk(final int idx)
     '''
 def getOriginalWidth():
-    '''    public float getOriginalWidth()
+    '''public float getOriginalWidth()
     '''
 def getWidthCorrected():
-    '''    public float getWidthCorrected(final float charSpacing, final float wordSpacing)
+    '''public float getWidthCorrected(final float charSpacing, final float wordSpacing)
     '''
 def getAscender():
-    '''    public float getAscender()
+    '''public float getAscender()
     '''
 def getDescender():
-    '''    public float getDescender()
+    '''public float getDescender()
     '''

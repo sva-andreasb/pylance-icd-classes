@@ -1,3 +1,3 @@
 def AssetSpecHistSet():
-    '''    public AssetSpecHistSet(final MboServerInterface ms)
+    '''public AssetSpecHistSet(final MboServerInterface ms)
     '''

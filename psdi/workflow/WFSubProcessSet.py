@@ -1,3 +1,3 @@
 def WFSubProcessSet():
-    '''    public WFSubProcessSet(final MboServerInterface ms)
+    '''public WFSubProcessSet(final MboServerInterface ms)
     '''

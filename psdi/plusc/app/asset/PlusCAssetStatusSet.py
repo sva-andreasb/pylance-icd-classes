@@ -1,3 +1,3 @@
 def PlusCAssetStatusSet():
-    '''    public PlusCAssetStatusSet(final MboServerInterface ms)
+    '''public PlusCAssetStatusSet(final MboServerInterface ms)
     '''

@@ -1,9 +1,9 @@
 def getCTCommentsList():
-    '''    public CTCommentList getCTCommentsList()
+    '''public CTCommentList getCTCommentsList()
     '''
 def getNumberOfComments():
-    '''    public int getNumberOfComments()
+    '''public int getNumberOfComments()
     '''
 def getCommentAt():
-    '''    public CTComment getCommentAt(final int pos)
+    '''public CTComment getCommentAt(final int pos)
     '''

@@ -1,6 +1,6 @@
 def FldSKDPropertyAlwaysVisible():
-    '''    public FldSKDPropertyAlwaysVisible(final MboValue mbv)
+    '''public FldSKDPropertyAlwaysVisible(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

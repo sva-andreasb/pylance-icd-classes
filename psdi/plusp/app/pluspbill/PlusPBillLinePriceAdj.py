@@ -1,18 +1,18 @@
 def PlusPBillLinePriceAdj():
-    '''    public PlusPBillLinePriceAdj(final MboSet ms)
+    '''public PlusPBillLinePriceAdj(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def editAdjustment():
-    '''    public void editAdjustment()
+    '''public void editAdjustment()
     '''
 def viewLastAdjustment():
-    '''    public void viewLastAdjustment()
+    '''public void viewLastAdjustment()
     '''
 def applyBilledPriceAdjustment():
-    '''    public void applyBilledPriceAdjustment()
+    '''public void applyBilledPriceAdjustment()
     '''
 def setPrices():
-    '''    public void setPrices()
+    '''public void setPrices()
     '''

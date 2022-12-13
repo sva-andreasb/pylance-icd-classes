@@ -1,3 +1,3 @@
 def click():
-    '''    public int click()
+    '''public int click()
     '''

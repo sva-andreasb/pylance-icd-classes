@@ -1,3 +1,3 @@
 def FldAddressCode():
-    '''    public FldAddressCode(final MboValue mbv)
+    '''public FldAddressCode(final MboValue mbv)
     '''

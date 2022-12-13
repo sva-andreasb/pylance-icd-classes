@@ -1,12 +1,12 @@
 def setLog():
-    '''    public static void setLog(final Log _log)
+    '''public static void setLog(final Log _log)
     '''
 def findResourceNames():
-    '''    public ResourceNameIterator findResourceNames(final String resourceName)
+    '''public ResourceNameIterator findResourceNames(final String resourceName)
     '''
 def hasNext():
-    '''    public boolean hasNext()
+    '''public boolean hasNext()
     '''
 def nextResourceName():
-    '''    public String nextResourceName()
+    '''public String nextResourceName()
     '''

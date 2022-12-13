@@ -1,6 +1,6 @@
 def FldJobPlanClassWOClass():
-    '''    public FldJobPlanClassWOClass(final MboValue mbv)
+    '''public FldJobPlanClassWOClass(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

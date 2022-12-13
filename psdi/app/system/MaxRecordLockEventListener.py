@@ -1,3 +1,3 @@
 def checkSigoption():
-    '''    public static void checkSigoption(final Mbo mbo)
+    '''public static void checkSigoption(final Mbo mbo)
     '''

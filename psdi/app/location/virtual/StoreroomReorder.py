@@ -1,3 +1,3 @@
 def StoreroomReorder():
-    '''    public StoreroomReorder(final MboSet ms)
+    '''public StoreroomReorder(final MboSet ms)
     '''

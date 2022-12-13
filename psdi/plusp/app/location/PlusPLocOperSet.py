@@ -1,6 +1,6 @@
 def PlusPLocOperSet():
-    '''    public PlusPLocOperSet(final MboServerInterface arg0)
+    '''public PlusPLocOperSet(final MboServerInterface arg0)
     '''
 def appendToWhere():
-    '''    public String appendToWhere()
+    '''public String appendToWhere()
     '''

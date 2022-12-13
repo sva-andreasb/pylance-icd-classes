@@ -1,6 +1,6 @@
 def FldFCMServiceAcctJson():
-    '''    public FldFCMServiceAcctJson(final MboValue mbv)
+    '''public FldFCMServiceAcctJson(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

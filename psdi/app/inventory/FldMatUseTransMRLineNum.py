@@ -1,6 +1,6 @@
 def FldMatUseTransMRLineNum():
-    '''    public FldMatUseTransMRLineNum(final MboValue mbv)
+    '''public FldMatUseTransMRLineNum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

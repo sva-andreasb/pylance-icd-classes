@@ -1,6 +1,6 @@
 def isMultiTenancySet():
-    '''    public static boolean isMultiTenancySet(final String s)
+    '''public static boolean isMultiTenancySet(final String s)
     '''
 def main():
-    '''    public static void main(final String[] array)
+    '''public static void main(final String[] array)
     '''

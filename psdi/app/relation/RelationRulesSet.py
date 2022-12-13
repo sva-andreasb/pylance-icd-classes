@@ -1,6 +1,6 @@
 def RelationRulesSet():
-    '''    public RelationRulesSet(final MboServerInterface ms)
+    '''public RelationRulesSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

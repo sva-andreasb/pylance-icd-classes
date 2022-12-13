@@ -1,3 +1,3 @@
 def toByteArray():
-    '''    public byte[] toByteArray()
+    '''public byte[] toByteArray()
     '''

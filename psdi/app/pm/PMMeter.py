@@ -1,37 +1,37 @@
 def PMMeter():
-    '''    public PMMeter(final MboSet ms)
+    '''public PMMeter(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def delete():
-    '''    public void delete(final long modifier)
+    '''public void delete(final long modifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def getUnitsToGoReading():
-    '''    public double getUnitsToGoReading()
+    '''public double getUnitsToGoReading()
     public double getUnitsToGoReading(final MboRemote assetLocMeterMbo)
     '''
 def getReadingAtNextWO():
-    '''    public double getReadingAtNextWO()
+    '''public double getReadingAtNextWO()
     '''
 def checkForUseTargetStartAndOpenWo():
-    '''    public boolean checkForUseTargetStartAndOpenWo()
+    '''public boolean checkForUseTargetStartAndOpenWo()
     '''
 def setRollOverAndAverage():
-    '''    public void setRollOverAndAverage()
+    '''public void setRollOverAndAverage()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''

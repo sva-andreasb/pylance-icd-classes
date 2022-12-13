@@ -1,6 +1,6 @@
 def FldInvoiceVariance():
-    '''    public FldInvoiceVariance(final MboValue mbv)
+    '''public FldInvoiceVariance(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

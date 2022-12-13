@@ -1,21 +1,21 @@
 def getInstance():
-    '''    public static ProjectHelperRepository getInstance()
+    '''public static ProjectHelperRepository getInstance()
     '''
 def getProjectHelperForBuildFile():
-    '''    public ProjectHelper getProjectHelperForBuildFile(final Resource buildFile)
+    '''public ProjectHelper getProjectHelperForBuildFile(final Resource buildFile)
     '''
 def getProjectHelperForAntlib():
-    '''    public ProjectHelper getProjectHelperForAntlib(final Resource antlib)
+    '''public ProjectHelper getProjectHelperForAntlib(final Resource antlib)
     '''
 def getHelpers():
-    '''    public Iterator getHelpers()
+    '''public Iterator getHelpers()
     '''
 def hasNext():
-    '''    public boolean hasNext()
+    '''public boolean hasNext()
     '''
 def next():
-    '''    public Object next()
+    '''public Object next()
     '''
 def remove():
-    '''    public void remove()
+    '''public void remove()
     '''

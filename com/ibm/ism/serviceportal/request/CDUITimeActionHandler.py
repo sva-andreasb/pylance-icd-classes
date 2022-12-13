@@ -1,3 +1,3 @@
 def CDUITimeActionHandler():
-    '''    public CDUITimeActionHandler()
+    '''public CDUITimeActionHandler()
     '''

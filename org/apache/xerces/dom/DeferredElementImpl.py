@@ -1,3 +1,3 @@
 def getNodeIndex():
-    '''    public final int getNodeIndex()
+    '''public final int getNodeIndex()
     '''

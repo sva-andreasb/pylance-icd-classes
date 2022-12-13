@@ -1,6 +1,6 @@
 def FldBudgetRuleAssociationAttributeName():
-    '''    public FldBudgetRuleAssociationAttributeName(final MboValue mbv)
+    '''public FldBudgetRuleAssociationAttributeName(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

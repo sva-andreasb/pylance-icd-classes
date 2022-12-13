@@ -1,6 +1,6 @@
 def ImpactUrgencySet():
-    '''    public ImpactUrgencySet(final MboServerInterface ms)
+    '''public ImpactUrgencySet(final MboServerInterface ms)
     '''
 def save():
-    '''    public void save(final long flags)
+    '''public void save(final long flags)
     '''

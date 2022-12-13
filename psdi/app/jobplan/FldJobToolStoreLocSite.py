@@ -1,6 +1,6 @@
 def FldJobToolStoreLocSite():
-    '''    public FldJobToolStoreLocSite(final MboValue mbv)
+    '''public FldJobToolStoreLocSite(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

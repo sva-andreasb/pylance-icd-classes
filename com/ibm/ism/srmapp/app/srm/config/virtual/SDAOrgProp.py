@@ -1,3 +1,3 @@
 def SDAOrgProp():
-    '''    public SDAOrgProp(final MboSet ms)
+    '''public SDAOrgProp(final MboSet ms)
     '''

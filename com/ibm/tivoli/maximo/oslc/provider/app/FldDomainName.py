@@ -1,6 +1,6 @@
 def FldDomainName():
-    '''    public FldDomainName(final MboValue mbv)
+    '''public FldDomainName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

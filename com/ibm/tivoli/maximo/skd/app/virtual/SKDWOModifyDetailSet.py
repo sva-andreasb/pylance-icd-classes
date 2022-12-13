@@ -1,6 +1,6 @@
 def SKDWOModifyDetailSet():
-    '''    public SKDWOModifyDetailSet(final MboServerInterface ms)
+    '''public SKDWOModifyDetailSet(final MboServerInterface ms)
     '''
 def getAttributes():
-    '''    public HashMap<String, Integer> getAttributes()
+    '''public HashMap<String, Integer> getAttributes()
     '''

@@ -1,6 +1,6 @@
 def FldSearchSolutionClassification():
-    '''    public FldSearchSolutionClassification(final MboValue mbv)
+    '''public FldSearchSolutionClassification(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

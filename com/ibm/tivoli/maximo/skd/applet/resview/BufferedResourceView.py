@@ -1,54 +1,54 @@
 def BufferedResourceView():
-    '''    public BufferedResourceView(final Container stubView)
+    '''public BufferedResourceView(final Container stubView)
     '''
 def initializeView():
-    '''    public Component initializeView()
+    '''public Component initializeView()
     '''
 def attachModel():
-    '''    public void attachModel(final AppletGanttModel model)
+    '''public void attachModel(final AppletGanttModel model)
     '''
 def setResourceViewContext():
-    '''    public void setResourceViewContext(final ResourceViewContext context)
+    '''public void setResourceViewContext(final ResourceViewContext context)
     '''
 def setDividerLocation():
-    '''    public void setDividerLocation(final int location)
+    '''public void setDividerLocation(final int location)
     '''
 def print():
-    '''    public void print()
+    '''public void print()
     '''
 def printPreview():
-    '''    public void printPreview()
+    '''public void printPreview()
     '''
 def printSetup():
-    '''    public void printSetup()
+    '''public void printSetup()
     '''
 def attachGanttModelToViewComponents():
-    '''    public void attachGanttModelToViewComponents()
+    '''public void attachGanttModelToViewComponents()
     '''
 def detachGanttModelFromViewComponents():
-    '''    public void detachGanttModelFromViewComponents()
+    '''public void detachGanttModelFromViewComponents()
     '''
 def activate():
-    '''    public void activate()
+    '''public void activate()
     '''
 def deactivate():
-    '''    public void deactivate()
+    '''public void deactivate()
     '''
 def applyActivityQbeFilter():
-    '''    public void applyActivityQbeFilter(final Map<String, String> map)
+    '''public void applyActivityQbeFilter(final Map<String, String> map)
     '''
 def applyActivityFilter():
-    '''    public void applyActivityFilter(final String s)
+    '''public void applyActivityFilter(final String s)
     '''
 def setViewId():
-    '''    public void setViewId(final String id)
+    '''public void setViewId(final String id)
     '''
 def getViewId():
-    '''    public String getViewId()
+    '''public String getViewId()
     '''
 def getResourceViewContext():
-    '''    public ResourceViewContext getResourceViewContext()
+    '''public ResourceViewContext getResourceViewContext()
     '''
 def getModel():
-    '''    public AppletGanttModel getModel()
+    '''public AppletGanttModel getModel()
     '''

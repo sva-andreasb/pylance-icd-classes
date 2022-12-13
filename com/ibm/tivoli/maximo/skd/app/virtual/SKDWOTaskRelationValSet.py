@@ -1,9 +1,9 @@
 def SKDWOTaskRelationValSet():
-    '''    public SKDWOTaskRelationValSet(final MboServerInterface ms)
+    '''public SKDWOTaskRelationValSet(final MboServerInterface ms)
     '''
 def preSetValues():
-    '''    public void preSetValues(final MboSetRemote mboSet)
+    '''public void preSetValues(final MboSetRemote mboSet)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

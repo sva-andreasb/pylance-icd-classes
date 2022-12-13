@@ -1,6 +1,6 @@
 def PlusPFldBSFirstBillPeriod():
-    '''    public PlusPFldBSFirstBillPeriod(final MboValue mbv)
+    '''public PlusPFldBSFirstBillPeriod(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

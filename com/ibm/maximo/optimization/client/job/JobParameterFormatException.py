@@ -1,3 +1,3 @@
 def JobParameterFormatException():
-    '''    public JobParameterFormatException(final Object[] params, final Exception e)
+    '''public JobParameterFormatException(final Object[] params, final Exception e)
     '''

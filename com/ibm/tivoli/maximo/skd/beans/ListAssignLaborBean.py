@@ -1,3 +1,3 @@
 def selectrecord():
-    '''    public int selectrecord(final MboRemote laborassign)
+    '''public int selectrecord(final MboRemote laborassign)
     '''

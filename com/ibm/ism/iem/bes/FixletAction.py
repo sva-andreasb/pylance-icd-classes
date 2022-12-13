@@ -1,60 +1,60 @@
 def getDescription():
-    '''    public Description getDescription()
+    '''public Description getDescription()
     '''
 def setDescription():
-    '''    public void setDescription(final Description value)
+    '''public void setDescription(final Description value)
     '''
 def getActionScript():
-    '''    public ActionScript getActionScript()
+    '''public ActionScript getActionScript()
     '''
 def setActionScript():
-    '''    public void setActionScript(final ActionScript value)
+    '''public void setActionScript(final ActionScript value)
     '''
 def getSuccessCriteria():
-    '''    public ActionSuccessCriteria getSuccessCriteria()
+    '''public ActionSuccessCriteria getSuccessCriteria()
     '''
 def setSuccessCriteria():
-    '''    public void setSuccessCriteria(final ActionSuccessCriteria value)
+    '''public void setSuccessCriteria(final ActionSuccessCriteria value)
     '''
 def isSuccessCriteriaLocked():
-    '''    public Boolean isSuccessCriteriaLocked()
+    '''public Boolean isSuccessCriteriaLocked()
     '''
 def setSuccessCriteriaLocked():
-    '''    public void setSuccessCriteriaLocked(final Boolean value)
+    '''public void setSuccessCriteriaLocked(final Boolean value)
     '''
 def getSettings():
-    '''    public ActionSettingsType getSettings()
+    '''public ActionSettingsType getSettings()
     '''
 def setSettings():
-    '''    public void setSettings(final ActionSettingsType value)
+    '''public void setSettings(final ActionSettingsType value)
     '''
 def getSettingsLocks():
-    '''    public ActionSettingsLocks getSettingsLocks()
+    '''public ActionSettingsLocks getSettingsLocks()
     '''
 def setSettingsLocks():
-    '''    public void setSettingsLocks(final ActionSettingsLocks value)
+    '''public void setSettingsLocks(final ActionSettingsLocks value)
     '''
 def getID():
-    '''    public String getID()
+    '''public String getID()
     '''
 def setID():
-    '''    public void setID(final String value)
+    '''public void setID(final String value)
     '''
 def getPreLink():
-    '''    public String getPreLink()
+    '''public String getPreLink()
     '''
 def setPreLink():
-    '''    public void setPreLink(final String value)
+    '''public void setPreLink(final String value)
     '''
 def getLink():
-    '''    public String getLink()
+    '''public String getLink()
     '''
 def setLink():
-    '''    public void setLink(final String value)
+    '''public void setLink(final String value)
     '''
 def getPostLink():
-    '''    public String getPostLink()
+    '''public String getPostLink()
     '''
 def setPostLink():
-    '''    public void setPostLink(final String value)
+    '''public void setPostLink(final String value)
     '''

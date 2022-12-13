@@ -1,6 +1,6 @@
 def FldSKDProjectChangeStatusAutoCommit():
-    '''    public FldSKDProjectChangeStatusAutoCommit(final MboValue mbv)
+    '''public FldSKDProjectChangeStatusAutoCommit(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

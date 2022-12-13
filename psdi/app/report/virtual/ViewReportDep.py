@@ -1,3 +1,3 @@
 def ViewReportDep():
-    '''    public ViewReportDep(final MboSet ms)
+    '''public ViewReportDep(final MboSet ms)
     '''

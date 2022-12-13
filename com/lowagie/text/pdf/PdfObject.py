@@ -11,53 +11,53 @@ NOTHING = "String  \"\""
 TEXT_PDFDOCENCODING = "String  \"PDF\""
 TEXT_UNICODE = "String  \"UnicodeBig\""
 def toPdf():
-    '''    public void toPdf(final PdfWriter writer, final OutputStream os)
+    '''public void toPdf(final PdfWriter writer, final OutputStream os)
     '''
 def getBytes():
-    '''    public byte[] getBytes()
+    '''public byte[] getBytes()
     '''
 def canBeInObjStm():
-    '''    public boolean canBeInObjStm()
+    '''public boolean canBeInObjStm()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def length():
-    '''    public int length()
+    '''public int length()
     '''
 def type():
-    '''    public int type()
+    '''public int type()
     '''
 def isNull():
-    '''    public boolean isNull()
+    '''public boolean isNull()
     '''
 def isBoolean():
-    '''    public boolean isBoolean()
+    '''public boolean isBoolean()
     '''
 def isNumber():
-    '''    public boolean isNumber()
+    '''public boolean isNumber()
     '''
 def isString():
-    '''    public boolean isString()
+    '''public boolean isString()
     '''
 def isName():
-    '''    public boolean isName()
+    '''public boolean isName()
     '''
 def isArray():
-    '''    public boolean isArray()
+    '''public boolean isArray()
     '''
 def isDictionary():
-    '''    public boolean isDictionary()
+    '''public boolean isDictionary()
     '''
 def isStream():
-    '''    public boolean isStream()
+    '''public boolean isStream()
     '''
 def isIndirect():
-    '''    public boolean isIndirect()
+    '''public boolean isIndirect()
     '''
 def getIndRef():
-    '''    public PRIndirectReference getIndRef()
+    '''public PRIndirectReference getIndRef()
     '''
 def setIndRef():
-    '''    public void setIndRef(final PRIndirectReference indRef)
+    '''public void setIndRef(final PRIndirectReference indRef)
     '''

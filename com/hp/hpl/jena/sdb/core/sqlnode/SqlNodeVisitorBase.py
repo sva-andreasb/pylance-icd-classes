@@ -1,5 +1,5 @@
 def visit():
-    '''    public void visit(final SqlProject sqlProject)
+    '''public void visit(final SqlProject sqlProject)
     public void visit(final SqlDistinct sqlDistinct)
     public void visit(final SqlRestrict sqlRestrict)
     public void visit(final SqlRename sqlRename)

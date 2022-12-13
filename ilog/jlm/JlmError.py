@@ -1,3 +1,3 @@
 def getMessage():
-    '''    public final String getMessage()
+    '''public final String getMessage()
     '''

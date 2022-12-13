@@ -1,6 +1,6 @@
 def FldAssetInstallDate():
-    '''    public FldAssetInstallDate(final MboValue mbv)
+    '''public FldAssetInstallDate(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,6 +1,6 @@
 def PutKeyPolicyRequestMarshaller():
-    '''    public PutKeyPolicyRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+    '''public PutKeyPolicyRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
     '''
 def marshall():
-    '''    public Request<PutKeyPolicyRequest> marshall(final PutKeyPolicyRequest putKeyPolicyRequest)
+    '''public Request<PutKeyPolicyRequest> marshall(final PutKeyPolicyRequest putKeyPolicyRequest)
     '''

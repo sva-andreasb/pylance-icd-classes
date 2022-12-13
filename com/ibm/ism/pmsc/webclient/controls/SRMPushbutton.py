@@ -6,14 +6,14 @@ PROPERTY_HIDE_APP = "String  \"srmhideappid\""
 PROPERTY_HIDE_DIALOG_IN_STACK = "String  \"srmhidewhendialoginstack\""
 PROPERTY_HIDE_DIALOG_NOT_IN_STACK = "String  \"srmhidewhendialognotinstack\""
 def SRMPushbutton():
-    '''    public SRMPushbutton()
+    '''public SRMPushbutton()
     '''
 def preRenderChecks():
-    '''    public void preRenderChecks()
+    '''public void preRenderChecks()
     '''
 def isParent():
-    '''    public boolean isParent(final String dialog)
+    '''public boolean isParent(final String dialog)
     '''
 def isInAppPageControlInstanceIndex():
-    '''    public boolean isInAppPageControlInstanceIndex(final String dialogId)
+    '''public boolean isInAppPageControlInstanceIndex(final String dialogId)
     '''

@@ -1,6 +1,6 @@
 def FldVUnusedSpace():
-    '''    public FldVUnusedSpace(final MboValue mbv)
+    '''public FldVUnusedSpace(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

@@ -1,6 +1,6 @@
 def CentroidCluster():
-    '''    public CentroidCluster(final Clusterable center)
+    '''public CentroidCluster(final Clusterable center)
     '''
 def getCenter():
-    '''    public Clusterable getCenter()
+    '''public Clusterable getCenter()
     '''

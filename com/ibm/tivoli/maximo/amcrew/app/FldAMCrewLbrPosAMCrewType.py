@@ -1,3 +1,3 @@
 def FldAMCrewLbrPosAMCrewType():
-    '''    public FldAMCrewLbrPosAMCrewType(final MboValue mbv)
+    '''public FldAMCrewLbrPosAMCrewType(final MboValue mbv)
     '''

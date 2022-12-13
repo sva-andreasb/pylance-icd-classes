@@ -1,3 +1,3 @@
 def setResource():
-    '''    public void setResource(final com.softlayer.api.service.network.component.Firewall resource)
+    '''public void setResource(final com.softlayer.api.service.network.component.Firewall resource)
     '''

@@ -1,3 +1,3 @@
 def InvalidGrantTokenException():
-    '''    public InvalidGrantTokenException(final String message)
+    '''public InvalidGrantTokenException(final String message)
     '''

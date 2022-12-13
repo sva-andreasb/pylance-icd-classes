@@ -1,9 +1,9 @@
 def PlusPFldWOQuoteType():
-    '''    public PlusPFldWOQuoteType(final MboValue mv)
+    '''public PlusPFldWOQuoteType(final MboValue mv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

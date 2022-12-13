@@ -1,15 +1,15 @@
 def PlusPFldObjectName():
-    '''    public PlusPFldObjectName(final MboValue arg0)
+    '''public PlusPFldObjectName(final MboValue arg0)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

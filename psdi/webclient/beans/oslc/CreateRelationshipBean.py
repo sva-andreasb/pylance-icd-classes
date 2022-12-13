@@ -1,3 +1,3 @@
 def CreateRelationshipBean():
-    '''    public CreateRelationshipBean()
+    '''public CreateRelationshipBean()
     '''

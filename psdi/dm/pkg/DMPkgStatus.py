@@ -1,6 +1,6 @@
 def DMPkgStatus():
-    '''    public DMPkgStatus(final MboSet ms)
+    '''public DMPkgStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

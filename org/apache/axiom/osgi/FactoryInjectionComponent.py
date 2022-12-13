@@ -1,3 +1,3 @@
 def FactoryInjectionComponent():
-    '''    public FactoryInjectionComponent()
+    '''public FactoryInjectionComponent()
     '''

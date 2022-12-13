@@ -1,6 +1,6 @@
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''

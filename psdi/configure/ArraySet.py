@@ -1,3 +1,3 @@
 def ArraySet():
-    '''    public ArraySet(final T... values)
+    '''public ArraySet(final T... values)
     '''

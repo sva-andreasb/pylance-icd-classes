@@ -1,9 +1,9 @@
 def MaxIntMsgTrkDtl():
-    '''    public MaxIntMsgTrkDtl(final MboSet ms)
+    '''public MaxIntMsgTrkDtl(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''

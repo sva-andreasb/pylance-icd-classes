@@ -1,9 +1,9 @@
 def FldPreview():
-    '''    public FldPreview(final MboValue mbv)
+    '''public FldPreview(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def hasList():
-    '''    public boolean hasList()
+    '''public boolean hasList()
     '''

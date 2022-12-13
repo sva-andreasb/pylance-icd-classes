@@ -5,11 +5,11 @@ KEY_OUTLOOK_COMPATIBILITY = "String  \"ical4j.compatibility.outlook\""
 KEY_NOTES_COMPATIBILITY = "String  \"ical4j.compatibility.notes\""
 KEY_VCARD_COMPATIBILITY = "String  \"ical4j.compatibility.vcard\""
 def setHintEnabled():
-    '''    public static void setHintEnabled(final String key, final boolean enabled)
+    '''public static void setHintEnabled(final String key, final boolean enabled)
     '''
 def clearHintEnabled():
-    '''    public static void clearHintEnabled(final String key)
+    '''public static void clearHintEnabled(final String key)
     '''
 def isHintEnabled():
-    '''    public static boolean isHintEnabled(final String key)
+    '''public static boolean isHintEnabled(final String key)
     '''

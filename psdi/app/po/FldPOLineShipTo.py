@@ -1,6 +1,6 @@
 def FldPOLineShipTo():
-    '''    public FldPOLineShipTo(final MboValue mbv)
+    '''public FldPOLineShipTo(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

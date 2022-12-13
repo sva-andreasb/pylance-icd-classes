@@ -1,6 +1,6 @@
 def ConfirmLabtransSet():
-    '''    public ConfirmLabtransSet(final MboServerInterface ms)
+    '''public ConfirmLabtransSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

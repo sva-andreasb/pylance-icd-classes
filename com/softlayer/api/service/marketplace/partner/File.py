@@ -1,27 +1,27 @@
 def getAttributes():
-    '''    public Attributes getAttributes()
+    '''public Attributes getAttributes()
     '''
 def setAttributes():
-    '''    public void setAttributes(final Attributes attributes)
+    '''public void setAttributes(final Attributes attributes)
     '''
 def isAttributesSpecified():
-    '''    public boolean isAttributesSpecified()
+    '''public boolean isAttributesSpecified()
     '''
 def unsetAttributes():
-    '''    public void unsetAttributes()
+    '''public void unsetAttributes()
     '''
 def getContents():
-    '''    public byte[] getContents()
+    '''public byte[] getContents()
     '''
 def setContents():
-    '''    public void setContents(final byte[] contents)
+    '''public void setContents(final byte[] contents)
     '''
 def isContentsSpecified():
-    '''    public boolean isContentsSpecified()
+    '''public boolean isContentsSpecified()
     '''
 def unsetContents():
-    '''    public void unsetContents()
+    '''public void unsetContents()
     '''
 def contents():
-    '''    public Mask contents()
+    '''public Mask contents()
     '''

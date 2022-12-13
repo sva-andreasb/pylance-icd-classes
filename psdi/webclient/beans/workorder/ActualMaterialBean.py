@@ -1,12 +1,12 @@
 def copySpareParts():
-    '''    public int copySpareParts(final MboSetRemote spareParts)
+    '''public int copySpareParts(final MboSetRemote spareParts)
     '''
 def selectmaterialsonactuals():
-    '''    public int selectmaterialsonactuals()
+    '''public int selectmaterialsonactuals()
     '''
 def acmaterials():
-    '''    public int acmaterials()
+    '''public int acmaterials()
     '''
 def selasparts():
-    '''    public int selasparts()
+    '''public int selasparts()
     '''

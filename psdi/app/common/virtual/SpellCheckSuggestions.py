@@ -1,3 +1,3 @@
 def SpellCheckSuggestions():
-    '''    public SpellCheckSuggestions(final MboSet ms)
+    '''public SpellCheckSuggestions(final MboSet ms)
     '''

@@ -1,6 +1,6 @@
 def TAMITFldAssetClassStructureid():
-    '''    public TAMITFldAssetClassStructureid(final MboValue mbv)
+    '''public TAMITFldAssetClassStructureid(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,3 +1,3 @@
 def MaxLookupMapSet():
-    '''    public MaxLookupMapSet(final MboServerInterface ms)
+    '''public MaxLookupMapSet(final MboServerInterface ms)
     '''

@@ -1,22 +1,22 @@
 def getDefaultStyle():
-    '''    public static ToStringStyle getDefaultStyle()
+    '''public static ToStringStyle getDefaultStyle()
     '''
 def setDefaultStyle():
-    '''    public static void setDefaultStyle(final ToStringStyle style)
+    '''public static void setDefaultStyle(final ToStringStyle style)
     '''
 def reflectionToString():
-    '''    public static String reflectionToString(final Object object)
+    '''public static String reflectionToString(final Object object)
     public static String reflectionToString(final Object object, final ToStringStyle style)
     public static String reflectionToString(final Object object, final ToStringStyle style, final boolean outputTransients)
     public static <T> String reflectionToString(final T object, final ToStringStyle style, final boolean outputTransients, final Class<? super T> reflectUpToClass)
     '''
 def ToStringBuilder():
-    '''    public ToStringBuilder(final Object object)
+    '''public ToStringBuilder(final Object object)
     public ToStringBuilder(final Object object, final ToStringStyle style)
     public ToStringBuilder(final Object object, ToStringStyle style, StringBuffer buffer)
     '''
 def append():
-    '''    public ToStringBuilder append(final boolean value)
+    '''public ToStringBuilder append(final boolean value)
     public ToStringBuilder append(final boolean[] array)
     public ToStringBuilder append(final byte value)
     public ToStringBuilder append(final byte[] array)
@@ -64,26 +64,26 @@ def append():
     public ToStringBuilder append(final String fieldName, final short[] array, final boolean fullDetail)
     '''
 def appendAsObjectToString():
-    '''    public ToStringBuilder appendAsObjectToString(final Object srcObject)
+    '''public ToStringBuilder appendAsObjectToString(final Object srcObject)
     '''
 def appendSuper():
-    '''    public ToStringBuilder appendSuper(final String superToString)
+    '''public ToStringBuilder appendSuper(final String superToString)
     '''
 def appendToString():
-    '''    public ToStringBuilder appendToString(final String toString)
+    '''public ToStringBuilder appendToString(final String toString)
     '''
 def getObject():
-    '''    public Object getObject()
+    '''public Object getObject()
     '''
 def getStringBuffer():
-    '''    public StringBuffer getStringBuffer()
+    '''public StringBuffer getStringBuffer()
     '''
 def getStyle():
-    '''    public ToStringStyle getStyle()
+    '''public ToStringStyle getStyle()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def build():
-    '''    public String build()
+    '''public String build()
     '''

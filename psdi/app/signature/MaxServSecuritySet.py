@@ -1,3 +1,3 @@
 def MaxServSecuritySet():
-    '''    public MaxServSecuritySet(final MboServerInterface ms)
+    '''public MaxServSecuritySet(final MboServerInterface ms)
     '''

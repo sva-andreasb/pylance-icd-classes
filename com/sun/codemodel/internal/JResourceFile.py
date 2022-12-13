@@ -1,3 +1,3 @@
 def name():
-    '''    public String name()
+    '''public String name()
     '''

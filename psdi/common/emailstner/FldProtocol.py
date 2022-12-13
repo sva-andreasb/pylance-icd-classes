@@ -1,6 +1,6 @@
 def FldProtocol():
-    '''    public FldProtocol(final MboValue mbv)
+    '''public FldProtocol(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

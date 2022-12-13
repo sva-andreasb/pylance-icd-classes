@@ -1,57 +1,57 @@
 def TupleLoaderBase():
-    '''    public TupleLoaderBase(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
+    '''public TupleLoaderBase(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
     '''
 def getArity():
-    '''    public int getArity()
+    '''public int getArity()
     '''
 def load():
-    '''    public void load(final Node... row)
+    '''public void load(final Node... row)
     '''
 def unload():
-    '''    public void unload(final Node... row)
+    '''public void unload(final Node... row)
     '''
 def finish():
-    '''    public void finish()
+    '''public void finish()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def getNodeLoader():
-    '''    public String getNodeLoader()
+    '''public String getNodeLoader()
     '''
 def getTupleLoader():
-    '''    public String getTupleLoader()
+    '''public String getTupleLoader()
     '''
 def getCreateTempNodes():
-    '''    public String getCreateTempNodes()
+    '''public String getCreateTempNodes()
     '''
 def getCreateTempTuples():
-    '''    public String getCreateTempTuples()
+    '''public String getCreateTempTuples()
     '''
 def getInsertTempNodes():
-    '''    public String getInsertTempNodes()
+    '''public String getInsertTempNodes()
     '''
 def getInsertTempTuples():
-    '''    public String getInsertTempTuples()
+    '''public String getInsertTempTuples()
     '''
 def getLoadNodes():
-    '''    public String getLoadNodes()
+    '''public String getLoadNodes()
     '''
 def getClearTempNodes():
-    '''    public String getClearTempNodes()
+    '''public String getClearTempNodes()
     '''
 def getClearTempTuples():
-    '''    public String getClearTempTuples()
+    '''public String getClearTempTuples()
     '''
 def clearsOnCommit():
-    '''    public boolean clearsOnCommit()
+    '''public boolean clearsOnCommit()
     '''
 def addToStatement():
-    '''    public void addToStatement(final PreparedStatement s)
+    '''public void addToStatement(final PreparedStatement s)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object other)
+    '''public boolean equals(final Object other)
     '''

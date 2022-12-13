@@ -1,46 +1,46 @@
 def QueryCapability():
-    '''    public QueryCapability()
+    '''public QueryCapability()
     public QueryCapability(final String title, final URI queryBase)
     '''
 def addResourceType():
-    '''    public void addResourceType(final URI resourceType)
+    '''public void addResourceType(final URI resourceType)
     '''
 def addUsage():
-    '''    public void addUsage(final URI usage)
+    '''public void addUsage(final URI usage)
     '''
 def getLabel():
-    '''    public String getLabel()
+    '''public String getLabel()
     '''
 def getQueryBase():
-    '''    public URI getQueryBase()
+    '''public URI getQueryBase()
     '''
 def getResourceShape():
-    '''    public URI getResourceShape()
+    '''public URI getResourceShape()
     '''
 def getResourceTypes():
-    '''    public URI[] getResourceTypes()
+    '''public URI[] getResourceTypes()
     '''
 def getTitle():
-    '''    public String getTitle()
+    '''public String getTitle()
     '''
 def getUsages():
-    '''    public URI[] getUsages()
+    '''public URI[] getUsages()
     '''
 def setLabel():
-    '''    public void setLabel(final String label)
+    '''public void setLabel(final String label)
     '''
 def setQueryBase():
-    '''    public void setQueryBase(final URI queryBase)
+    '''public void setQueryBase(final URI queryBase)
     '''
 def setResourceShape():
-    '''    public void setResourceShape(final URI resourceShape)
+    '''public void setResourceShape(final URI resourceShape)
     '''
 def setResourceTypes():
-    '''    public void setResourceTypes(final URI[] resourceTypes)
+    '''public void setResourceTypes(final URI[] resourceTypes)
     '''
 def setTitle():
-    '''    public void setTitle(final String title)
+    '''public void setTitle(final String title)
     '''
 def setUsages():
-    '''    public void setUsages(final URI[] usages)
+    '''public void setUsages(final URI[] usages)
     '''

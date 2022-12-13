@@ -1,6 +1,6 @@
 def RETURN():
-    '''    public RETURN()
+    '''public RETURN()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

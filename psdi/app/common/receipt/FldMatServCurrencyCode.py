@@ -1,6 +1,6 @@
 def FldMatServCurrencyCode():
-    '''    public FldMatServCurrencyCode(final MboValue mbv)
+    '''public FldMatServCurrencyCode(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

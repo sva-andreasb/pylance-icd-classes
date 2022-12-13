@@ -1,73 +1,73 @@
 def mapValueToField():
-    '''    public void mapValueToField(final MboRemote sc, final MfMailControlContainer control, final MfMailValueContainer value)
+    '''public void mapValueToField(final MboRemote sc, final MfMailControlContainer control, final MfMailValueContainer value)
     '''
 def getCtrlCfgBaseName():
-    '''    public String getCtrlCfgBaseName()
+    '''public String getCtrlCfgBaseName()
     '''
 def createControlEntry():
-    '''    public MfMailControlContainer createControlEntry(final MboRemote ctrlCfg)
+    '''public MfMailControlContainer createControlEntry(final MboRemote ctrlCfg)
     '''
 def getValueCfgBaseName():
-    '''    public String getValueCfgBaseName()
+    '''public String getValueCfgBaseName()
     '''
 def getValueAttributeName():
-    '''    public String getValueAttributeName()
+    '''public String getValueAttributeName()
     '''
 def crateValueEntry():
-    '''    public MfMailValueContainer crateValueEntry(final MboRemote valueCfg)
+    '''public MfMailValueContainer crateValueEntry(final MboRemote valueCfg)
     '''
 def getTargetTableBaseName():
-    '''    public String getTargetTableBaseName()
+    '''public String getTargetTableBaseName()
     '''
 def getDeactiveWhereClause():
-    '''    public String getDeactiveWhereClause(final MfMailCfgRemote config)
+    '''public String getDeactiveWhereClause(final MfMailCfgRemote config)
     '''
 def prepareObject():
-    '''    public void prepareObject(final MfMailCfgRemote config)
+    '''public void prepareObject(final MfMailCfgRemote config)
     '''
 def getDeactivationCheckWhereClause():
-    '''    public String getDeactivationCheckWhereClause(final MfMailCfgRemote config)
+    '''public String getDeactivationCheckWhereClause(final MfMailCfgRemote config)
     '''
 def getHasOtherActivatedCfgWhereClause():
-    '''    public String getHasOtherActivatedCfgWhereClause(final MfMailCfgRemote config)
+    '''public String getHasOtherActivatedCfgWhereClause(final MfMailCfgRemote config)
     '''
 def Control():
-    '''    public Control(final String commTemplate, final String attributes, final String status, final String sendTo, final String replyTemplateNoST)
+    '''public Control(final String commTemplate, final String attributes, final String status, final String sendTo, final String replyTemplateNoST)
     '''
 def getCommTemplate():
-    '''    public String getCommTemplate()
+    '''public String getCommTemplate()
     '''
 def getOrigin():
-    '''    public int getOrigin()
+    '''public int getOrigin()
     '''
 def getAttributes():
-    '''    public String getAttributes()
+    '''public String getAttributes()
     '''
 def getStatus():
-    '''    public String getStatus()
+    '''public String getStatus()
     '''
 def getSendTo():
-    '''    public String getSendTo()
+    '''public String getSendTo()
     '''
 def getReplyTemplateNoST():
-    '''    public String getReplyTemplateNoST()
+    '''public String getReplyTemplateNoST()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     public String toString()
     '''
 def Value():
-    '''    public Value(final int position, final int value, final String nextStatus, final String replyTemplate)
+    '''public Value(final int position, final int value, final String nextStatus, final String replyTemplate)
     '''
 def getPosition():
-    '''    public int getPosition()
+    '''public int getPosition()
     '''
 def getValue():
-    '''    public int getValue()
+    '''public int getValue()
     '''
 def getNextStatus():
-    '''    public String getNextStatus()
+    '''public String getNextStatus()
     '''
 def getReplyTemplate():
-    '''    public String getReplyTemplate()
+    '''public String getReplyTemplate()
     '''

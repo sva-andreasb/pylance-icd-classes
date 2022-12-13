@@ -1,33 +1,33 @@
 def AttendanceSet():
-    '''    public AttendanceSet(final MboServerInterface ms)
+    '''public AttendanceSet(final MboServerInterface ms)
     '''
 def addToUserPrefWhere():
-    '''    public String addToUserPrefWhere()
+    '''public String addToUserPrefWhere()
     '''
 def setAllDates():
-    '''    public void setAllDates(final boolean allDatesAtt)
+    '''public void setAllDates(final boolean allDatesAtt)
     '''
 def setStartDate():
-    '''    public void setStartDate(final Date startDateAtt)
+    '''public void setStartDate(final Date startDateAtt)
     '''
 def setEndDate():
-    '''    public void setEndDate(final Date endDateAtt)
+    '''public void setEndDate(final Date endDateAtt)
     '''
 def getAllDates():
-    '''    public boolean getAllDates()
+    '''public boolean getAllDates()
     '''
 def getStartDate():
-    '''    public Date getStartDate()
+    '''public Date getStartDate()
     '''
 def getEndDate():
-    '''    public Date getEndDate()
+    '''public Date getEndDate()
     '''
 def getUserPrefWhere():
-    '''    public String getUserPrefWhere()
+    '''public String getUserPrefWhere()
     '''
 def addDates():
-    '''    public Date addDates(final Date date, final int days)
+    '''public Date addDates(final Date date, final int days)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

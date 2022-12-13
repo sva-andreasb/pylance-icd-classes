@@ -1,5 +1,5 @@
 def checkArgument():
-    '''    public static void checkArgument(final boolean expression)
+    '''public static void checkArgument(final boolean expression)
     public static void checkArgument(final boolean expression, @Nullable final Object errorMessage)
     public static void checkArgument(final boolean expression, @Nullable final String errorMessageTemplate, @Nullable final Object... errorMessageArgs)
     public static void checkArgument(final boolean b, @Nullable final String errorMessageTemplate, final char p1)
@@ -26,7 +26,7 @@ def checkArgument():
     public static void checkArgument(final boolean b, @Nullable final String errorMessageTemplate, @Nullable final Object p1, @Nullable final Object p2, @Nullable final Object p3, @Nullable final Object p4)
     '''
 def checkState():
-    '''    public static void checkState(final boolean expression)
+    '''public static void checkState(final boolean expression)
     public static void checkState(final boolean expression, @Nullable final Object errorMessage)
     public static void checkState(final boolean expression, @Nullable final String errorMessageTemplate, @Nullable final Object... errorMessageArgs)
     public static void checkState(final boolean b, @Nullable final String errorMessageTemplate, final char p1)
@@ -53,7 +53,7 @@ def checkState():
     public static void checkState(final boolean b, @Nullable final String errorMessageTemplate, @Nullable final Object p1, @Nullable final Object p2, @Nullable final Object p3, @Nullable final Object p4)
     '''
 def checkNotNull():
-    '''    public static <T> T checkNotNull(final T reference)
+    '''public static <T> T checkNotNull(final T reference)
     public static <T> T checkNotNull(final T reference, @Nullable final Object errorMessage)
     public static <T> T checkNotNull(final T reference, @Nullable final String errorMessageTemplate, @Nullable final Object... errorMessageArgs)
     public static <T> T checkNotNull(final T obj, @Nullable final String errorMessageTemplate, final char p1)
@@ -80,13 +80,13 @@ def checkNotNull():
     public static <T> T checkNotNull(final T obj, @Nullable final String errorMessageTemplate, @Nullable final Object p1, @Nullable final Object p2, @Nullable final Object p3, @Nullable final Object p4)
     '''
 def checkElementIndex():
-    '''    public static int checkElementIndex(final int index, final int size)
+    '''public static int checkElementIndex(final int index, final int size)
     public static int checkElementIndex(final int index, final int size, @Nullable final String desc)
     '''
 def checkPositionIndex():
-    '''    public static int checkPositionIndex(final int index, final int size)
+    '''public static int checkPositionIndex(final int index, final int size)
     public static int checkPositionIndex(final int index, final int size, @Nullable final String desc)
     '''
 def checkPositionIndexes():
-    '''    public static void checkPositionIndexes(final int start, final int end, final int size)
+    '''public static void checkPositionIndexes(final int start, final int end, final int size)
     '''

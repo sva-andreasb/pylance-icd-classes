@@ -1,3 +1,3 @@
 def UserProfileCategory():
-    '''    public UserProfileCategory(final MboSet ms)
+    '''public UserProfileCategory(final MboSet ms)
     '''

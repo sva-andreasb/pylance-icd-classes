@@ -1,5 +1,5 @@
 def getMessage():
-    '''    public String getMessage(final String key)
+    '''public String getMessage(final String key)
     public String getMessage(final String s, final Object o)
     public String getMessage(final String s, final Object o, final Object o2)
     public String getMessage(final String s, final Object o, final Object o2, final Object o3)

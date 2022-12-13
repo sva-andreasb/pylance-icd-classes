@@ -1,6 +1,6 @@
 def FldCtrlConditionConditionSeq():
-    '''    public FldCtrlConditionConditionSeq(final MboValue mbv)
+    '''public FldCtrlConditionConditionSeq(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

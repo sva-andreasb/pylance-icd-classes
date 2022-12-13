@@ -1,3 +1,3 @@
 def TicketPropSet():
-    '''    public TicketPropSet(final MboServerInterface ms)
+    '''public TicketPropSet(final MboServerInterface ms)
     '''

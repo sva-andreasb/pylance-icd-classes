@@ -1,3 +1,3 @@
 def EmailTracking():
-    '''    public EmailTracking(final MboSet ms)
+    '''public EmailTracking(final MboSet ms)
     '''

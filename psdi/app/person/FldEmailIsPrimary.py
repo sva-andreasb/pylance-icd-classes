@@ -1,6 +1,6 @@
 def FldEmailIsPrimary():
-    '''    public FldEmailIsPrimary(final MboValue mbv)
+    '''public FldEmailIsPrimary(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

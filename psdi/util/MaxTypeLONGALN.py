@@ -1,9 +1,9 @@
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''
 def asLong():
-    '''    public long asLong()
+    '''public long asLong()
     '''

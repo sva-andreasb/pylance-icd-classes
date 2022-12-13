@@ -5,10 +5,10 @@ TYPE_SEPARATION = "int  3"
 TYPE_PATTERN = "int  4"
 TYPE_SHADING = "int  5"
 def ExtendedColor():
-    '''    public ExtendedColor(final int type)
+    '''public ExtendedColor(final int type)
     public ExtendedColor(final int type, final float red, final float green, final float blue)
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     public static int getType(final Color color)
     '''

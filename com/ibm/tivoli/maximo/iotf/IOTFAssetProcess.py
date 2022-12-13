@@ -1,9 +1,9 @@
 def IOTFAssetProcess():
-    '''    public IOTFAssetProcess()
+    '''public IOTFAssetProcess()
     '''
 def createMboSet():
-    '''    public MboSetRemote createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
+    '''public MboSetRemote createMboSet(final boolean primaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
     '''
 def createAssetFromTemplate():
-    '''    public void createAssetFromTemplate()
+    '''public void createAssetFromTemplate()
     '''

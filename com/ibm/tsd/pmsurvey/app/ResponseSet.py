@@ -1,6 +1,6 @@
 def ResponseSet():
-    '''    public ResponseSet(final MboServerInterface ms)
+    '''public ResponseSet(final MboServerInterface ms)
     '''
 def saveSurveyResponse():
-    '''    public synchronized void saveSurveyResponse(final List questionsAnswerList)
+    '''public synchronized void saveSurveyResponse(final List questionsAnswerList)
     '''

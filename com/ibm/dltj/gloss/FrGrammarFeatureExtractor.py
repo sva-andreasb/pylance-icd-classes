@@ -1,3 +1,3 @@
 def FrGrammarFeatureExtractor():
-    '''    public FrGrammarFeatureExtractor()
+    '''public FrGrammarFeatureExtractor()
     '''

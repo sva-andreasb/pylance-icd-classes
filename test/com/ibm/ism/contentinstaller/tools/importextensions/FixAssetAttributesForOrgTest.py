@@ -1,6 +1,6 @@
 def testProcessObjectConnectionPrintStreamProcessableInt():
-    '''    public void testProcessObjectConnectionPrintStreamProcessableInt()
+    '''public void testProcessObjectConnectionPrintStreamProcessableInt()
     '''
 def testProcessObjectConnectionPrintStreamElementInt():
-    '''    public void testProcessObjectConnectionPrintStreamElementInt()
+    '''public void testProcessObjectConnectionPrintStreamElementInt()
     '''

@@ -1,3 +1,3 @@
 def parse():
-    '''    public XHTMLExtension parse(final XmlPullParser parser, final int initialDepth)
+    '''public XHTMLExtension parse(final XmlPullParser parser, final int initialDepth)
     '''

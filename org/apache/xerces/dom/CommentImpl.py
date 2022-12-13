@@ -1,9 +1,9 @@
 def CommentImpl():
-    '''    public CommentImpl(final CoreDocumentImpl coreDocumentImpl, final String s)
+    '''public CommentImpl(final CoreDocumentImpl coreDocumentImpl, final String s)
     '''
 def getNodeType():
-    '''    public short getNodeType()
+    '''public short getNodeType()
     '''
 def getNodeName():
-    '''    public String getNodeName()
+    '''public String getNodeName()
     '''

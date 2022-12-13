@@ -1,6 +1,6 @@
 def ASTORE():
-    '''    public ASTORE(final int n)
+    '''public ASTORE(final int n)
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

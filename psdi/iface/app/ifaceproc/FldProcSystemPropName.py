@@ -1,6 +1,6 @@
 def FldProcSystemPropName():
-    '''    public FldProcSystemPropName(final MboValue mbv)
+    '''public FldProcSystemPropName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

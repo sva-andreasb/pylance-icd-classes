@@ -1,3 +1,3 @@
 def intern():
-    '''    public String intern(final String input)
+    '''public String intern(final String input)
     '''

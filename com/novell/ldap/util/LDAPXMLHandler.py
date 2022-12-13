@@ -1,6 +1,6 @@
 def LDAPXMLHandler():
-    '''    public LDAPXMLHandler(final String elementName, final LDAPXMLHandler parenthandler)
+    '''public LDAPXMLHandler(final String elementName, final LDAPXMLHandler parenthandler)
     '''
 def getObject():
-    '''    public final Object getObject()
+    '''public final Object getObject()
     '''

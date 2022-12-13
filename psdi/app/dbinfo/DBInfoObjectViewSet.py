@@ -1,27 +1,27 @@
 def DBInfoObjectViewSet():
-    '''    public DBInfoObjectViewSet(final MboServerInterface ms)
+    '''public DBInfoObjectViewSet(final MboServerInterface ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def appendToWhere():
-    '''    public String appendToWhere()
+    '''public String appendToWhere()
     '''
 def applyChanges():
-    '''    public void applyChanges()
+    '''public void applyChanges()
     '''
 def discardChanges():
-    '''    public void discardChanges()
+    '''public void discardChanges()
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''
 def applyNeeded():
-    '''    public boolean applyNeeded()
+    '''public boolean applyNeeded()
     '''
 def setExtColNull():
-    '''    public void setExtColNull(final Map<String, ArrayList<String>> toNull, final int tenantid)
+    '''public void setExtColNull(final Map<String, ArrayList<String>> toNull, final int tenantid)
     '''
 def createExtensionViews():
-    '''    public void createExtensionViews()
+    '''public void createExtensionViews()
     '''

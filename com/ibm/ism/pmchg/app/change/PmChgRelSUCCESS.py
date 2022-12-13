@@ -1,8 +1,8 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 SUCCESS_ACTION = "String  \"PMCHG_REL_SUCCESS\""
 def applyCustomAction():
-    '''    public void applyCustomAction(final MboRemote mbo, final Object[] params)
+    '''public void applyCustomAction(final MboRemote mbo, final Object[] params)
     '''
 def setPMCHGRELSTATE():
-    '''    public static void setPMCHGRELSTATE(final MboRemote mbo, final Object[] params, final String status)
+    '''public static void setPMCHGRELSTATE(final MboRemote mbo, final Object[] params, final String status)
     '''

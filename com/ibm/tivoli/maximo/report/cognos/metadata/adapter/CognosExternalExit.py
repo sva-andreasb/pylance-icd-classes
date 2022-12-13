@@ -1,3 +1,3 @@
 def setDataOut():
-    '''    public StructureData setDataOut(final StructureData userExitData)
+    '''public StructureData setDataOut(final StructureData userExitData)
     '''

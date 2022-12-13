@@ -1,6 +1,6 @@
 def SKDDateSelector():
-    '''    public SKDDateSelector(final MboSet ms)
+    '''public SKDDateSelector(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

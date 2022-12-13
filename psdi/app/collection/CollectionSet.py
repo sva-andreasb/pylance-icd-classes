@@ -1,3 +1,3 @@
 def CollectionSet():
-    '''    public CollectionSet(final MboServerInterface ms)
+    '''public CollectionSet(final MboServerInterface ms)
     '''

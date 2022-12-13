@@ -1,3 +1,3 @@
 def SKDOPASCPSAlert():
-    '''    public SKDOPASCPSAlert(final MboSet ms)
+    '''public SKDOPASCPSAlert(final MboSet ms)
     '''

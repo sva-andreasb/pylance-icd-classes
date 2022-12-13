@@ -1,6 +1,6 @@
 def FldSKDShowErrorWarningOnly():
-    '''    public FldSKDShowErrorWarningOnly(final MboValue mbv)
+    '''public FldSKDShowErrorWarningOnly(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

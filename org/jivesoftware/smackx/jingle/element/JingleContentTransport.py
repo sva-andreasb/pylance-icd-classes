@@ -1,13 +1,13 @@
 ELEMENT = "String  \"transport\""
 def getCandidates():
-    '''    public List<JingleContentTransportCandidate> getCandidates()
+    '''public List<JingleContentTransportCandidate> getCandidates()
     '''
 def getInfo():
-    '''    public JingleContentTransportInfo getInfo()
+    '''public JingleContentTransportInfo getInfo()
     '''
 def getElementName():
-    '''    public String getElementName()
+    '''public String getElementName()
     '''
 def toXML():
-    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''public XmlStringBuilder toXML(final String enclosingNamespace)
     '''

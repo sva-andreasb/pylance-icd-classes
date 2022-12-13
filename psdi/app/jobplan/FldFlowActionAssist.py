@@ -1,3 +1,3 @@
 def FldFlowActionAssist():
-    '''    public FldFlowActionAssist(final MboValue mbv)
+    '''public FldFlowActionAssist(final MboValue mbv)
     '''

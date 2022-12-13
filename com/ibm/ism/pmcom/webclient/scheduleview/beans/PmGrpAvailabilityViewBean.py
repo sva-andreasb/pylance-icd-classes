@@ -1,52 +1,52 @@
 def PmGrpAvailabilityViewBean():
-    '''    public PmGrpAvailabilityViewBean()
+    '''public PmGrpAvailabilityViewBean()
     '''
 def goToapplink():
-    '''    public int goToapplink()
+    '''public int goToapplink()
     '''
 def createGanttModel():
-    '''    public IlvDefaultGanttModel createGanttModel()
+    '''public IlvDefaultGanttModel createGanttModel()
     public IlvDefaultGanttModel createGanttModel(final Date startDate, final Date endDate)
     '''
 def createGanttModel_for_date():
-    '''    public IlvDefaultGanttModel createGanttModel_for_date(final long datefromui)
+    '''public IlvDefaultGanttModel createGanttModel_for_date(final long datefromui)
     '''
 def convertDate():
-    '''    public Date convertDate(final Date date, final TimeZone from, final TimeZone to)
+    '''public Date convertDate(final Date date, final TimeZone from, final TimeZone to)
     '''
 def ganttNodeCollapsed():
-    '''    public void ganttNodeCollapsed(final Long arg0)
+    '''public void ganttNodeCollapsed(final Long arg0)
     '''
 def ganttNodeExpanded():
-    '''    public void ganttNodeExpanded(final Long arg0)
+    '''public void ganttNodeExpanded(final Long arg0)
     '''
 def ganttViewRange():
-    '''    public void ganttViewRange(final Date arg0, final Date arg1)
+    '''public void ganttViewRange(final Date arg0, final Date arg1)
     '''
 def onReset():
-    '''    public void onReset()
+    '''public void onReset()
     '''
 def async_push_client_message():
-    '''    public void async_push_client_message()
+    '''public void async_push_client_message()
     '''
 def sendEventToClient():
-    '''    public void sendEventToClient(final String eventId, final String eventArg)
+    '''public void sendEventToClient(final String eventId, final String eventArg)
     '''
 def getPresentationOptions():
-    '''    public JSONObject getPresentationOptions()
+    '''public JSONObject getPresentationOptions()
     '''
 def filterCss():
-    '''    public String filterCss(String css, final MiniAppControl control)
+    '''public String filterCss(String css, final MiniAppControl control)
     '''
 def setupBean():
-    '''    public void setupBean(final WebClientSession wcs)
+    '''public void setupBean(final WebClientSession wcs)
     '''
 def getApplicationResource():
-    '''    public String getApplicationResource(final String path)
+    '''public String getApplicationResource(final String path)
     '''
 def getClientSession():
-    '''    public WebClientSession getClientSession()
+    '''public WebClientSession getClientSession()
     '''
 def getMyData():
-    '''    public Map<Integer, Map<String, String>> getMyData(@MXEventParam("cmd") final String command)
+    '''public Map<Integer, Map<String, String>> getMyData(@MXEventParam("cmd") final String command)
     '''

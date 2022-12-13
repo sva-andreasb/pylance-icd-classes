@@ -1,28 +1,28 @@
 def BcelAnnotation():
-    '''    public BcelAnnotation(final AnnotationGen theBcelAnnotation, final World world)
+    '''public BcelAnnotation(final AnnotationGen theBcelAnnotation, final World world)
     public BcelAnnotation(final AnnotationGen theBcelAnnotation, final ResolvedType resolvedAnnotationType)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getTargets():
-    '''    public Set<String> getTargets()
+    '''public Set<String> getTargets()
     '''
 def hasNameValuePair():
-    '''    public boolean hasNameValuePair(final String name, final String value)
+    '''public boolean hasNameValuePair(final String name, final String value)
     '''
 def hasNamedValue():
-    '''    public boolean hasNamedValue(final String name)
+    '''public boolean hasNamedValue(final String name)
     '''
 def stringify():
-    '''    public String stringify()
+    '''public String stringify()
     '''
 def isRuntimeVisible():
-    '''    public boolean isRuntimeVisible()
+    '''public boolean isRuntimeVisible()
     '''
 def getBcelAnnotation():
-    '''    public AnnotationGen getBcelAnnotation()
+    '''public AnnotationGen getBcelAnnotation()
     '''
 def getStringFormOfValue():
-    '''    public String getStringFormOfValue(final String name)
+    '''public String getStringFormOfValue(final String name)
     '''

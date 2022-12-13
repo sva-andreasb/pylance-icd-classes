@@ -1,232 +1,232 @@
 def getAcknowledgedFlag():
-    '''    public Boolean getAcknowledgedFlag()
+    '''public Boolean getAcknowledgedFlag()
     '''
 def setAcknowledgedFlag():
-    '''    public void setAcknowledgedFlag(final Boolean acknowledgedFlag)
+    '''public void setAcknowledgedFlag(final Boolean acknowledgedFlag)
     '''
 def getAttachments():
-    '''    public List<Attachment> getAttachments()
+    '''public List<Attachment> getAttachments()
     '''
 def getFirstUpdate():
-    '''    public Update getFirstUpdate()
+    '''public Update getFirstUpdate()
     '''
 def setFirstUpdate():
-    '''    public void setFirstUpdate(final Update firstUpdate)
+    '''public void setFirstUpdate(final Update firstUpdate)
     '''
 def getImpactedAccounts():
-    '''    public List<Account> getImpactedAccounts()
+    '''public List<Account> getImpactedAccounts()
     '''
 def getImpactedResources():
-    '''    public List<Resource> getImpactedResources()
+    '''public List<Resource> getImpactedResources()
     '''
 def getImpactedUsers():
-    '''    public List<User> getImpactedUsers()
+    '''public List<User> getImpactedUsers()
     '''
 def getLastUpdate():
-    '''    public Update getLastUpdate()
+    '''public Update getLastUpdate()
     '''
 def setLastUpdate():
-    '''    public void setLastUpdate(final Update lastUpdate)
+    '''public void setLastUpdate(final Update lastUpdate)
     '''
 def setNotificationOccurrenceEventType():
-    '''    public void setNotificationOccurrenceEventType(final com.softlayer.api.service.notification.occurrence.event.Type notificationOccurrenceEventType)
+    '''public void setNotificationOccurrenceEventType(final com.softlayer.api.service.notification.occurrence.event.Type notificationOccurrenceEventType)
     '''
 def getStatusCode():
-    '''    public Code getStatusCode()
+    '''public Code getStatusCode()
     '''
 def setStatusCode():
-    '''    public void setStatusCode(final Code statusCode)
+    '''public void setStatusCode(final Code statusCode)
     '''
 def getUpdates():
-    '''    public List<Update> getUpdates()
+    '''public List<Update> getUpdates()
     '''
 def getEndDate():
-    '''    public GregorianCalendar getEndDate()
+    '''public GregorianCalendar getEndDate()
     '''
 def setEndDate():
-    '''    public void setEndDate(final GregorianCalendar endDate)
+    '''public void setEndDate(final GregorianCalendar endDate)
     '''
 def isEndDateSpecified():
-    '''    public boolean isEndDateSpecified()
+    '''public boolean isEndDateSpecified()
     '''
 def unsetEndDate():
-    '''    public void unsetEndDate()
+    '''public void unsetEndDate()
     '''
 def getId():
-    '''    public Long getId()
+    '''public Long getId()
     '''
 def setId():
-    '''    public void setId(final Long id)
+    '''public void setId(final Long id)
     '''
 def isIdSpecified():
-    '''    public boolean isIdSpecified()
+    '''public boolean isIdSpecified()
     '''
 def unsetId():
-    '''    public void unsetId()
+    '''public void unsetId()
     '''
 def getLastImpactedUserCount():
-    '''    public Long getLastImpactedUserCount()
+    '''public Long getLastImpactedUserCount()
     '''
 def setLastImpactedUserCount():
-    '''    public void setLastImpactedUserCount(final Long lastImpactedUserCount)
+    '''public void setLastImpactedUserCount(final Long lastImpactedUserCount)
     '''
 def isLastImpactedUserCountSpecified():
-    '''    public boolean isLastImpactedUserCountSpecified()
+    '''public boolean isLastImpactedUserCountSpecified()
     '''
 def unsetLastImpactedUserCount():
-    '''    public void unsetLastImpactedUserCount()
+    '''public void unsetLastImpactedUserCount()
     '''
 def getModifyDate():
-    '''    public GregorianCalendar getModifyDate()
+    '''public GregorianCalendar getModifyDate()
     '''
 def setModifyDate():
-    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''public void setModifyDate(final GregorianCalendar modifyDate)
     '''
 def isModifyDateSpecified():
-    '''    public boolean isModifyDateSpecified()
+    '''public boolean isModifyDateSpecified()
     '''
 def unsetModifyDate():
-    '''    public void unsetModifyDate()
+    '''public void unsetModifyDate()
     '''
 def getRecoveryTime():
-    '''    public Long getRecoveryTime()
+    '''public Long getRecoveryTime()
     '''
 def setRecoveryTime():
-    '''    public void setRecoveryTime(final Long recoveryTime)
+    '''public void setRecoveryTime(final Long recoveryTime)
     '''
 def isRecoveryTimeSpecified():
-    '''    public boolean isRecoveryTimeSpecified()
+    '''public boolean isRecoveryTimeSpecified()
     '''
 def unsetRecoveryTime():
-    '''    public void unsetRecoveryTime()
+    '''public void unsetRecoveryTime()
     '''
 def getStartDate():
-    '''    public GregorianCalendar getStartDate()
+    '''public GregorianCalendar getStartDate()
     '''
 def setStartDate():
-    '''    public void setStartDate(final GregorianCalendar startDate)
+    '''public void setStartDate(final GregorianCalendar startDate)
     '''
 def isStartDateSpecified():
-    '''    public boolean isStartDateSpecified()
+    '''public boolean isStartDateSpecified()
     '''
 def unsetStartDate():
-    '''    public void unsetStartDate()
+    '''public void unsetStartDate()
     '''
 def getSubject():
-    '''    public String getSubject()
+    '''public String getSubject()
     '''
 def setSubject():
-    '''    public void setSubject(final String subject)
+    '''public void setSubject(final String subject)
     '''
 def isSubjectSpecified():
-    '''    public boolean isSubjectSpecified()
+    '''public boolean isSubjectSpecified()
     '''
 def unsetSubject():
-    '''    public void unsetSubject()
+    '''public void unsetSubject()
     '''
 def getSummary():
-    '''    public String getSummary()
+    '''public String getSummary()
     '''
 def setSummary():
-    '''    public void setSummary(final String summary)
+    '''public void setSummary(final String summary)
     '''
 def isSummarySpecified():
-    '''    public boolean isSummarySpecified()
+    '''public boolean isSummarySpecified()
     '''
 def unsetSummary():
-    '''    public void unsetSummary()
+    '''public void unsetSummary()
     '''
 def getSystemTicketId():
-    '''    public Long getSystemTicketId()
+    '''public Long getSystemTicketId()
     '''
 def setSystemTicketId():
-    '''    public void setSystemTicketId(final Long systemTicketId)
+    '''public void setSystemTicketId(final Long systemTicketId)
     '''
 def isSystemTicketIdSpecified():
-    '''    public boolean isSystemTicketIdSpecified()
+    '''public boolean isSystemTicketIdSpecified()
     '''
 def unsetSystemTicketId():
-    '''    public void unsetSystemTicketId()
+    '''public void unsetSystemTicketId()
     '''
 def getAttachmentCount():
-    '''    public Long getAttachmentCount()
+    '''public Long getAttachmentCount()
     '''
 def setAttachmentCount():
-    '''    public void setAttachmentCount(final Long attachmentCount)
+    '''public void setAttachmentCount(final Long attachmentCount)
     '''
 def getImpactedAccountCount():
-    '''    public Long getImpactedAccountCount()
+    '''public Long getImpactedAccountCount()
     '''
 def setImpactedAccountCount():
-    '''    public void setImpactedAccountCount(final Long impactedAccountCount)
+    '''public void setImpactedAccountCount(final Long impactedAccountCount)
     '''
 def getImpactedResourceCount():
-    '''    public Long getImpactedResourceCount()
+    '''public Long getImpactedResourceCount()
     '''
 def setImpactedResourceCount():
-    '''    public void setImpactedResourceCount(final Long impactedResourceCount)
+    '''public void setImpactedResourceCount(final Long impactedResourceCount)
     '''
 def getImpactedUserCount():
-    '''    public Long getImpactedUserCount()
+    '''public Long getImpactedUserCount()
     '''
 def setImpactedUserCount():
-    '''    public void setImpactedUserCount(final Long impactedUserCount)
+    '''public void setImpactedUserCount(final Long impactedUserCount)
     '''
 def getUpdateCount():
-    '''    public Long getUpdateCount()
+    '''public Long getUpdateCount()
     '''
 def setUpdateCount():
-    '''    public void setUpdateCount(final Long updateCount)
+    '''public void setUpdateCount(final Long updateCount)
     '''
 def asService():
-    '''    public Service asService(final ApiClient client)
+    '''public Service asService(final ApiClient client)
     '''
 def service():
-    '''    public static Service service(final ApiClient client)
+    '''public static Service service(final ApiClient client)
     public static Service service(final ApiClient client, final Long id)
     '''
 def acknowledgedFlag():
-    '''    public Mask acknowledgedFlag()
+    '''public Mask acknowledgedFlag()
     '''
 def endDate():
-    '''    public Mask endDate()
+    '''public Mask endDate()
     '''
 def id():
-    '''    public Mask id()
+    '''public Mask id()
     '''
 def lastImpactedUserCount():
-    '''    public Mask lastImpactedUserCount()
+    '''public Mask lastImpactedUserCount()
     '''
 def modifyDate():
-    '''    public Mask modifyDate()
+    '''public Mask modifyDate()
     '''
 def recoveryTime():
-    '''    public Mask recoveryTime()
+    '''public Mask recoveryTime()
     '''
 def startDate():
-    '''    public Mask startDate()
+    '''public Mask startDate()
     '''
 def subject():
-    '''    public Mask subject()
+    '''public Mask subject()
     '''
 def summary():
-    '''    public Mask summary()
+    '''public Mask summary()
     '''
 def systemTicketId():
-    '''    public Mask systemTicketId()
+    '''public Mask systemTicketId()
     '''
 def attachmentCount():
-    '''    public Mask attachmentCount()
+    '''public Mask attachmentCount()
     '''
 def impactedAccountCount():
-    '''    public Mask impactedAccountCount()
+    '''public Mask impactedAccountCount()
     '''
 def impactedResourceCount():
-    '''    public Mask impactedResourceCount()
+    '''public Mask impactedResourceCount()
     '''
 def impactedUserCount():
-    '''    public Mask impactedUserCount()
+    '''public Mask impactedUserCount()
     '''
 def updateCount():
-    '''    public Mask updateCount()
+    '''public Mask updateCount()
     '''

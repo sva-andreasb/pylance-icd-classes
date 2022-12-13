@@ -1,6 +1,6 @@
 def extendMessage():
-    '''    public void extendMessage(String pre, String post)
+    '''public void extendMessage(String pre, String post)
     '''
 def getMessage():
-    '''    public String getMessage()
+    '''public String getMessage()
     '''

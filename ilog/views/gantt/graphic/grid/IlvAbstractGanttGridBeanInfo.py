@@ -1,12 +1,12 @@
 def getBeanDescriptor():
-    '''    public BeanDescriptor getBeanDescriptor()
+    '''public BeanDescriptor getBeanDescriptor()
     '''
 def getAdditionalBeanInfo():
-    '''    public BeanInfo[] getAdditionalBeanInfo()
+    '''public BeanInfo[] getAdditionalBeanInfo()
     '''
 def getPropertyDescriptors():
-    '''    public PropertyDescriptor[] getPropertyDescriptors()
+    '''public PropertyDescriptor[] getPropertyDescriptors()
     '''
 def getIcon():
-    '''    public Image getIcon(final int n)
+    '''public Image getIcon(final int n)
     '''

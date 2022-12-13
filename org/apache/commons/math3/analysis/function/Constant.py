@@ -1,10 +1,10 @@
 def Constant():
-    '''    public Constant(final double c)
+    '''public Constant(final double c)
     '''
 def value():
-    '''    public double value(final double x)
+    '''public double value(final double x)
     public DerivativeStructure value(final DerivativeStructure t)
     '''
 def derivative():
-    '''    public DifferentiableUnivariateFunction derivative()
+    '''public DifferentiableUnivariateFunction derivative()
     '''

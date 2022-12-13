@@ -1,12 +1,12 @@
 def FavItem():
-    '''    public FavItem(final MboSet ms)
+    '''public FavItem(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def isMarketplaceItem():
-    '''    public boolean isMarketplaceItem()
+    '''public boolean isMarketplaceItem()
     '''

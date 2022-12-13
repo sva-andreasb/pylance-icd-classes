@@ -1,6 +1,6 @@
 def CommitPerson():
-    '''    public CommitPerson(final MboSet ms)
+    '''public CommitPerson(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

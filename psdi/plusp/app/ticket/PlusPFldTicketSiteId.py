@@ -1,6 +1,6 @@
 def PlusPFldTicketSiteId():
-    '''    public PlusPFldTicketSiteId(final MboValue arg0)
+    '''public PlusPFldTicketSiteId(final MboValue arg0)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

@@ -11,7 +11,7 @@ SHAWWAL = "int  9"
 DHU_AL_QIDAH = "int  10"
 DHU_AL_HIJJAH = "int  11"
 def IslamicCalendar():
-    '''    public IslamicCalendar()
+    '''public IslamicCalendar()
     public IslamicCalendar(final TimeZone zone)
     public IslamicCalendar(final Locale aLocale)
     public IslamicCalendar(final ULocale locale)
@@ -22,17 +22,17 @@ def IslamicCalendar():
     public IslamicCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
     '''
 def setCivil():
-    '''    public void setCivil(final boolean beCivil)
+    '''public void setCivil(final boolean beCivil)
     '''
 def isCivil():
-    '''    public boolean isCivil()
+    '''public boolean isCivil()
     '''
 def setCalculationType():
-    '''    public void setCalculationType(final CalculationType type)
+    '''public void setCalculationType(final CalculationType type)
     '''
 def getCalculationType():
-    '''    public CalculationType getCalculationType()
+    '''public CalculationType getCalculationType()
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''

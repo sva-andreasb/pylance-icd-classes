@@ -1,6 +1,6 @@
 def FldJobTaskOwner():
-    '''    public FldJobTaskOwner(final MboValue mbv)
+    '''public FldJobTaskOwner(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,6 +1,6 @@
 def FldSupportToolbar():
-    '''    public FldSupportToolbar(final MboValue mbv)
+    '''public FldSupportToolbar(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

@@ -1,3 +1,3 @@
 def PmCfgLifecycleStateSet():
-    '''    public PmCfgLifecycleStateSet(final MboServerInterface ms)
+    '''public PmCfgLifecycleStateSet(final MboServerInterface ms)
     '''

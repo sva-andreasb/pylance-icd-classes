@@ -1,6 +1,6 @@
 def GraphicRenderer():
-    '''    public GraphicRenderer()
+    '''public GraphicRenderer()
     '''
 def setImage():
-    '''    public void setImage(final String image)
+    '''public void setImage(final String image)
     '''

@@ -1,6 +1,6 @@
 def MaxRecordLockSet():
-    '''    public MaxRecordLockSet(final MboServerInterface ms)
+    '''public MaxRecordLockSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

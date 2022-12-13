@@ -1,3 +1,3 @@
 def WeatherCfg():
-    '''    public WeatherCfg(final MboSet ms)
+    '''public WeatherCfg(final MboSet ms)
     '''

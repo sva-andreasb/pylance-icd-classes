@@ -1,18 +1,18 @@
 def LoadBean():
-    '''    public LoadBean()
+    '''public LoadBean()
     '''
 def load():
-    '''    public int load()
+    '''public int load()
     '''
 def importdata():
-    '''    public int importdata()
+    '''public int importdata()
     '''
 def loadData():
-    '''    public int loadData()
+    '''public int loadData()
     '''
 def loadImport():
-    '''    public void loadImport(final UploadFile file)
+    '''public void loadImport(final UploadFile file)
     '''
 def showPreview():
-    '''    public void showPreview()
+    '''public void showPreview()
     '''

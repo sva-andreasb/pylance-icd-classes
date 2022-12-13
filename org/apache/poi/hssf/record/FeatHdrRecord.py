@@ -4,18 +4,18 @@ SHAREDFEATURES_ISFFACTOID = "int  4"
 SHAREDFEATURES_ISFLIST = "int  5"
 sid = "short  2151"
 def FeatHdrRecord():
-    '''    public FeatHdrRecord()
+    '''public FeatHdrRecord()
     public FeatHdrRecord(final RecordInputStream in)
     '''
 def getSid():
-    '''    public short getSid()
+    '''public short getSid()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def serialize():
-    '''    public void serialize(final LittleEndianOutput out)
+    '''public void serialize(final LittleEndianOutput out)
     '''
 def clone():
-    '''    public FeatHdrRecord clone()
+    '''public FeatHdrRecord clone()
     '''

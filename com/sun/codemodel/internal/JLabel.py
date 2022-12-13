@@ -1,3 +1,3 @@
 def state():
-    '''    public void state(final JFormatter f)
+    '''public void state(final JFormatter f)
     '''

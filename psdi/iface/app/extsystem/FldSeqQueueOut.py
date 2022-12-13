@@ -1,3 +1,3 @@
 def FldSeqQueueOut():
-    '''    public FldSeqQueueOut(final MboValue mbv)
+    '''public FldSeqQueueOut(final MboValue mbv)
     '''

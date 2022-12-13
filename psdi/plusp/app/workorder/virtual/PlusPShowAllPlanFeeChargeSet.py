@@ -1,3 +1,3 @@
 def PlusPShowAllPlanFeeChargeSet():
-    '''    public PlusPShowAllPlanFeeChargeSet(final MboRemote arg0)
+    '''public PlusPShowAllPlanFeeChargeSet(final MboRemote arg0)
     '''

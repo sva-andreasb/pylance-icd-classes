@@ -1,3 +1,3 @@
 def handleInput():
-    '''    public void handleInput(final InputRequest request)
+    '''public void handleInput(final InputRequest request)
     '''

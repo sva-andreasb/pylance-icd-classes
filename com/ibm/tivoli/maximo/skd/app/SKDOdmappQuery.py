@@ -1,3 +1,3 @@
 def SKDOdmappQuery():
-    '''    public SKDOdmappQuery(final MboSet ms)
+    '''public SKDOdmappQuery(final MboSet ms)
     '''

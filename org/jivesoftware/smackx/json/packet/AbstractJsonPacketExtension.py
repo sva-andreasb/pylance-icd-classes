@@ -1,6 +1,6 @@
 def getJson():
-    '''    public final String getJson()
+    '''public final String getJson()
     '''
 def toXML():
-    '''    public final XmlStringBuilder toXML(final String enclosingNamespace)
+    '''public final XmlStringBuilder toXML(final String enclosingNamespace)
     '''

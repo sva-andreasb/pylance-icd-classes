@@ -1,27 +1,27 @@
 def IlvAccelerator():
-    '''    public IlvAccelerator(final KeyStroke e, final boolean f)
+    '''public IlvAccelerator(final KeyStroke e, final boolean f)
     public IlvAccelerator(final int d, final int b, final char c, final int a, final boolean f)
     public IlvAccelerator(final int n, final int n2, final int n3, final boolean b)
     public IlvAccelerator(final int n, final int n2, final int n3)
     '''
 def getEventType():
-    '''    public int getEventType()
+    '''public int getEventType()
     '''
 def getKeyCode():
-    '''    public int getKeyCode()
+    '''public int getKeyCode()
     '''
 def getKeyChar():
-    '''    public int getKeyChar()
+    '''public int getKeyChar()
     '''
 def getModifier():
-    '''    public int getModifier()
+    '''public int getModifier()
     '''
 def setConsumeEvents():
-    '''    public void setConsumeEvents(final boolean f)
+    '''public void setConsumeEvents(final boolean f)
     '''
 def isConsumeEvents():
-    '''    public boolean isConsumeEvents()
+    '''public boolean isConsumeEvents()
     '''
 def CtrlChar():
-    '''    public static char CtrlChar(final char c)
+    '''public static char CtrlChar(final char c)
     '''

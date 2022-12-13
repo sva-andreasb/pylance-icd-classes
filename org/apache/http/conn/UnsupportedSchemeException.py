@@ -1,3 +1,3 @@
 def UnsupportedSchemeException():
-    '''    public UnsupportedSchemeException(final String message)
+    '''public UnsupportedSchemeException(final String message)
     '''

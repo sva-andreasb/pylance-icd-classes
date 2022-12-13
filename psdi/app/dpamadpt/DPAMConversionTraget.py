@@ -1,24 +1,24 @@
 def DPAMConversionTraget():
-    '''    public DPAMConversionTraget(final MboSet ms)
+    '''public DPAMConversionTraget(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def setDeleteChildrenFlag():
-    '''    public void setDeleteChildrenFlag(final boolean deleteChildren)
+    '''public void setDeleteChildrenFlag(final boolean deleteChildren)
     '''
 def delete():
-    '''    public void delete(final long modifier)
+    '''public void delete(final long modifier)
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def validateConversionTarget():
-    '''    public static void validateConversionTarget(final MAXTableDomain field)
+    '''public static void validateConversionTarget(final MAXTableDomain field)
     '''
 def validateConversionVariant():
-    '''    public static void validateConversionVariant(final MAXTableDomain field)
+    '''public static void validateConversionVariant(final MAXTableDomain field)
     '''

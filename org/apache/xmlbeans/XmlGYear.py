@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_gYear\")"
 def newInstance():
-    '''    public static XmlGYear newInstance()
+    '''public static XmlGYear newInstance()
     public static XmlGYear newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlGYear newValue(final Object obj)
+    '''public static XmlGYear newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlGYear parse(final String s)
+    '''public static XmlGYear parse(final String s)
     public static XmlGYear parse(final String s, final XmlOptions options)
     public static XmlGYear parse(final File f)
     public static XmlGYear parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlGYear parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

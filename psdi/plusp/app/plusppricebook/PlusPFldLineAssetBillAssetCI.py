@@ -1,6 +1,6 @@
 def PlusPFldLineAssetBillAssetCI():
-    '''    public PlusPFldLineAssetBillAssetCI(final MboValue mbv)
+    '''public PlusPFldLineAssetBillAssetCI(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

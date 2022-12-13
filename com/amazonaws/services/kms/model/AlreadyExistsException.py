@@ -1,3 +1,3 @@
 def AlreadyExistsException():
-    '''    public AlreadyExistsException(final String message)
+    '''public AlreadyExistsException(final String message)
     '''

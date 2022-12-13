@@ -1,9 +1,9 @@
 def FldJobToolSetId():
-    '''    public FldJobToolSetId(final MboValue mbv)
+    '''public FldJobToolSetId(final MboValue mbv)
     '''
 def getCriteria():
-    '''    public String getCriteria()
+    '''public String getCriteria()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

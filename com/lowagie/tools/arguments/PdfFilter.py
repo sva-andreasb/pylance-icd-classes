@@ -1,6 +1,6 @@
 def accept():
-    '''    public boolean accept(final File f)
+    '''public boolean accept(final File f)
     '''
 def getDescription():
-    '''    public String getDescription()
+    '''public String getDescription()
     '''

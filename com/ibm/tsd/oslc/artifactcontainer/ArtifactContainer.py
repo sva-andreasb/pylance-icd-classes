@@ -1,3 +1,3 @@
 def ArtifactContainer():
-    '''    public ArtifactContainer(final MboSet ms)
+    '''public ArtifactContainer(final MboSet ms)
     '''

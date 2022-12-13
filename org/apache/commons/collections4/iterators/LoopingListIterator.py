@@ -1,36 +1,36 @@
 def LoopingListIterator():
-    '''    public LoopingListIterator(final List<E> list)
+    '''public LoopingListIterator(final List<E> list)
     '''
 def hasNext():
-    '''    public boolean hasNext()
+    '''public boolean hasNext()
     '''
 def next():
-    '''    public E next()
+    '''public E next()
     '''
 def nextIndex():
-    '''    public int nextIndex()
+    '''public int nextIndex()
     '''
 def hasPrevious():
-    '''    public boolean hasPrevious()
+    '''public boolean hasPrevious()
     '''
 def previous():
-    '''    public E previous()
+    '''public E previous()
     '''
 def previousIndex():
-    '''    public int previousIndex()
+    '''public int previousIndex()
     '''
 def remove():
-    '''    public void remove()
+    '''public void remove()
     '''
 def add():
-    '''    public void add(final E obj)
+    '''public void add(final E obj)
     '''
 def set():
-    '''    public void set(final E obj)
+    '''public void set(final E obj)
     '''
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''
 def size():
-    '''    public int size()
+    '''public int size()
     '''

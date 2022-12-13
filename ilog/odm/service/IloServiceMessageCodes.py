@@ -20,62 +20,62 @@ CIVDM1117E_Unspecified_Deployment_Exception_RC = "int  99"
 CIVDM1119W_Solve_Status_No_Solution_RC = "int  20"
 CIVDM1120W_Solve_Status_Aborted_RC = "int  21"
 def getRC():
-    '''    public int getRC()
+    '''public int getRC()
     public int getRC()
     '''
 def getSeverity():
-    '''    public final Severity getSeverity()
+    '''public final Severity getSeverity()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     public String toString()
     '''
 def callerMethod():
-    '''    public static Object[] callerMethod(final Object... parameters)
+    '''public static Object[] callerMethod(final Object... parameters)
     public static String callerMethod(final int callerLevel)
     '''
 def getRCOrRethrow():
-    '''    public <E extends Exception> IloServiceMessageCodesWithRC getRCOrRethrow(final E exception)
+    '''public <E extends Exception> IloServiceMessageCodesWithRC getRCOrRethrow(final E exception)
     public <E extends Exception> IloServiceMessageCodesWithRC getRCOrRethrow(final E exception)
     public IloServiceMessageCodesWithRC getRCOrRethrow()
     '''
 def handleRTE():
-    '''    public DeploymentException handleRTE(final RuntimeException rtExc, final Object... parameters)
+    '''public DeploymentException handleRTE(final RuntimeException rtExc, final Object... parameters)
     '''
 def IloServiceMessageCodesWithRC():
-    '''    public IloServiceMessageCodesWithRC()
+    '''public IloServiceMessageCodesWithRC()
     '''
 def logRC():
-    '''    public int logRC(final Object... parameters)
+    '''public int logRC(final Object... parameters)
     '''
 def compareTo():
-    '''    public int compareTo(final IloServiceMessageCodesWithRC o)
+    '''public int compareTo(final IloServiceMessageCodesWithRC o)
     '''
 def help():
-    '''    public static void help(final boolean extended)
+    '''public static void help(final boolean extended)
     '''
 def logExc():
-    '''    public int logExc(final Exception exc)
+    '''public int logExc(final Exception exc)
     '''
 def IllegalArgumentException():
-    '''    public IllegalArgumentException(final Object... parameters)
+    '''public IllegalArgumentException(final Object... parameters)
     public IllegalArgumentException(final java.lang.IllegalArgumentException cause, final Object... parameters)
     '''
 def getMessageCode():
-    '''    public IloServiceMessageCodes getMessageCode()
+    '''public IloServiceMessageCodes getMessageCode()
     public IloServiceMessageCodes getMessageCode()
     '''
 def DeploymentException():
-    '''    public DeploymentException(final Object... parameters)
+    '''public DeploymentException(final Object... parameters)
     public DeploymentException(final Throwable cause, final Object... parameters)
     '''
 def DeploymentExceptionWithCallerMethod():
-    '''    public DeploymentExceptionWithCallerMethod(final Object... parameters)
+    '''public DeploymentExceptionWithCallerMethod(final Object... parameters)
     public DeploymentExceptionWithCallerMethod(final Throwable cause, final Object... parameters)
     '''
 def DeploymentIOException():
-    '''    public DeploymentIOException(final IOException cause, final Object... parameters)
+    '''public DeploymentIOException(final IOException cause, final Object... parameters)
     '''
 def DeploymentSecurityException():
-    '''    public DeploymentSecurityException(final GeneralSecurityException cause)
+    '''public DeploymentSecurityException(final GeneralSecurityException cause)
     '''

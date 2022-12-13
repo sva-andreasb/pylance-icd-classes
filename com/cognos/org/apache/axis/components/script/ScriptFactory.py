@@ -1,3 +1,3 @@
 def getScript():
-    '''    public static Script getScript()
+    '''public static Script getScript()
     '''

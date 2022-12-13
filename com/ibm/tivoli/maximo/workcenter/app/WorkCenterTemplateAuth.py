@@ -1,6 +1,6 @@
 def WorkCenterTemplateAuth():
-    '''    public WorkCenterTemplateAuth(final MboSet ms)
+    '''public WorkCenterTemplateAuth(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

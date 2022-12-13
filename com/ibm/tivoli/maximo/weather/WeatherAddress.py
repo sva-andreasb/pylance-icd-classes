@@ -1,57 +1,57 @@
 def getServiceAddressUniqueId():
-    '''    public long getServiceAddressUniqueId()
+    '''public long getServiceAddressUniqueId()
     '''
 def setServiceAddressUniqueId():
-    '''    public WeatherAddress setServiceAddressUniqueId(final long serviceAddressUniqueId)
+    '''public WeatherAddress setServiceAddressUniqueId(final long serviceAddressUniqueId)
     '''
 def getServiceAddressCode():
-    '''    public String getServiceAddressCode()
+    '''public String getServiceAddressCode()
     '''
 def setServiceAddressCode():
-    '''    public WeatherAddress setServiceAddressCode(final String serviceAddressCode)
+    '''public WeatherAddress setServiceAddressCode(final String serviceAddressCode)
     '''
 def getFormattedAddress():
-    '''    public String getFormattedAddress()
+    '''public String getFormattedAddress()
     '''
 def setFormattedAddress():
-    '''    public WeatherAddress setFormattedAddress(final String formattedAddress)
+    '''public WeatherAddress setFormattedAddress(final String formattedAddress)
     '''
 def getLatitude():
-    '''    public Double getLatitude()
+    '''public Double getLatitude()
     '''
 def setLatitude():
-    '''    public WeatherAddress setLatitude(final Double latitude)
+    '''public WeatherAddress setLatitude(final Double latitude)
     '''
 def getLongitude():
-    '''    public Double getLongitude()
+    '''public Double getLongitude()
     '''
 def setLongitude():
-    '''    public WeatherAddress setLongitude(final Double longitude)
+    '''public WeatherAddress setLongitude(final Double longitude)
     '''
 def getX():
-    '''    public Double getX()
+    '''public Double getX()
     '''
 def getY():
-    '''    public Double getY()
+    '''public Double getY()
     '''
 def setX():
-    '''    public WeatherAddress setX(final Double d)
+    '''public WeatherAddress setX(final Double d)
     '''
 def setY():
-    '''    public WeatherAddress setY(final Double d)
+    '''public WeatherAddress setY(final Double d)
     '''
 def setLatLng():
-    '''    public WeatherAddress setLatLng(final Double lat, final Double lng)
+    '''public WeatherAddress setLatLng(final Double lat, final Double lng)
     '''
 def hasLocationData():
-    '''    public boolean hasLocationData()
+    '''public boolean hasLocationData()
     '''
 def updateFromServiceAddress():
-    '''    public WeatherAddress updateFromServiceAddress(final MboRemote mbo)
+    '''public WeatherAddress updateFromServiceAddress(final MboRemote mbo)
     '''
 def getFormattedAddressTitle():
-    '''    public String getFormattedAddressTitle()
+    '''public String getFormattedAddressTitle()
     '''
 def setFormattedAddressTitle():
-    '''    public void setFormattedAddressTitle(final String formattedAddressTitle)
+    '''public void setFormattedAddressTitle(final String formattedAddressTitle)
     '''

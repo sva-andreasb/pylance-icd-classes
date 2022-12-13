@@ -1,5 +1,5 @@
 def StAXOMBuilder():
-    '''    public StAXOMBuilder(final OMFactory ombuilderFactory, final XMLStreamReader parser)
+    '''public StAXOMBuilder(final OMFactory ombuilderFactory, final XMLStreamReader parser)
     public StAXOMBuilder(final OMFactory factory, final XMLStreamReader parser, final OMElement element, final String characterEncoding)
     public StAXOMBuilder(final OMFactory factory, final XMLStreamReader parser, final OMElement element)
     public StAXOMBuilder(final String filePath)
@@ -8,23 +8,23 @@ def StAXOMBuilder():
     public StAXOMBuilder()
     '''
 def next():
-    '''    public int next()
+    '''public int next()
     '''
 def getDocumentElement():
-    '''    public OMElement getDocumentElement()
+    '''public OMElement getDocumentElement()
     '''
 def setDoDebug():
-    '''    public void setDoDebug(final boolean doDebug)
+    '''public void setDoDebug(final boolean doDebug)
     '''
 def setNamespaceURIInterning():
-    '''    public void setNamespaceURIInterning(final boolean b)
+    '''public void setNamespaceURIInterning(final boolean b)
     '''
 def isNamespaceURIInterning():
-    '''    public boolean isNamespaceURIInterning()
+    '''public boolean isNamespaceURIInterning()
     '''
 def lookahead():
-    '''    public boolean lookahead()
+    '''public boolean lookahead()
     '''
 def isLookahead():
-    '''    public boolean isLookahead()
+    '''public boolean isLookahead()
     '''

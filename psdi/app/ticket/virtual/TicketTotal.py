@@ -1,6 +1,6 @@
 def TicketTotal():
-    '''    public TicketTotal(final MboSet ms)
+    '''public TicketTotal(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

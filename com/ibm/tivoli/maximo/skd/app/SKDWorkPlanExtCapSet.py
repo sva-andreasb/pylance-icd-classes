@@ -1,6 +1,6 @@
 def SKDWorkPlanExtCapSet():
-    '''    public SKDWorkPlanExtCapSet(final MboServerInterface ms)
+    '''public SKDWorkPlanExtCapSet(final MboServerInterface ms)
     '''
 def populateData():
-    '''    public void populateData()
+    '''public void populateData()
     '''

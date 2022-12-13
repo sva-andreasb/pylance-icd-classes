@@ -1,6 +1,6 @@
 def SurveyTemplate():
-    '''    public SurveyTemplate(final MboSet ms)
+    '''public SurveyTemplate(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

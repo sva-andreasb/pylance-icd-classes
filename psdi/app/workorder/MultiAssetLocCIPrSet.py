@@ -1,3 +1,3 @@
 def MultiAssetLocCIPrSet():
-    '''    public MultiAssetLocCIPrSet(final MboServerInterface ms)
+    '''public MultiAssetLocCIPrSet(final MboServerInterface ms)
     '''

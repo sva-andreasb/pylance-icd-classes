@@ -1,3 +1,3 @@
 def FldDependentGroup():
-    '''    public FldDependentGroup(final MboValue mbv)
+    '''public FldDependentGroup(final MboValue mbv)
     '''

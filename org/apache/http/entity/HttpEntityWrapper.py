@@ -1,30 +1,30 @@
 def HttpEntityWrapper():
-    '''    public HttpEntityWrapper(final HttpEntity wrappedEntity)
+    '''public HttpEntityWrapper(final HttpEntity wrappedEntity)
     '''
 def isRepeatable():
-    '''    public boolean isRepeatable()
+    '''public boolean isRepeatable()
     '''
 def isChunked():
-    '''    public boolean isChunked()
+    '''public boolean isChunked()
     '''
 def getContentLength():
-    '''    public long getContentLength()
+    '''public long getContentLength()
     '''
 def getContentType():
-    '''    public Header getContentType()
+    '''public Header getContentType()
     '''
 def getContentEncoding():
-    '''    public Header getContentEncoding()
+    '''public Header getContentEncoding()
     '''
 def getContent():
-    '''    public InputStream getContent()
+    '''public InputStream getContent()
     '''
 def writeTo():
-    '''    public void writeTo(final OutputStream outstream)
+    '''public void writeTo(final OutputStream outstream)
     '''
 def isStreaming():
-    '''    public boolean isStreaming()
+    '''public boolean isStreaming()
     '''
 def consumeContent():
-    '''    public void consumeContent()
+    '''public void consumeContent()
     '''

@@ -1,3 +1,3 @@
 def SKDTooltipService():
-    '''    public SKDTooltipService(final MXServer mxServer)
+    '''public SKDTooltipService(final MXServer mxServer)
     '''

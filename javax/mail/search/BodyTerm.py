@@ -1,9 +1,9 @@
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def BodyTerm():
-    '''    public BodyTerm(final String pattern)
+    '''public BodyTerm(final String pattern)
     '''
 def match():
-    '''    public boolean match(final Message msg)
+    '''public boolean match(final Message msg)
     '''

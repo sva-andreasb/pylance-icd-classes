@@ -1,6 +1,6 @@
 def PlusFldToSite():
-    '''    public PlusFldToSite(final MboValue mbv)
+    '''public PlusFldToSite(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

@@ -1,6 +1,6 @@
 def FldSkdQueryListWhere():
-    '''    public FldSkdQueryListWhere(final MboValue mbv)
+    '''public FldSkdQueryListWhere(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

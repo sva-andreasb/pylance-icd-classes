@@ -14,21 +14,21 @@ HEADER_FOOTER_089C = "int  2204"
 CODENAME_1BA = "int  442"
 PLV_MAC = "int  2248"
 def UnknownRecord():
-    '''    public UnknownRecord(final int id, final byte[] data)
+    '''public UnknownRecord(final int id, final byte[] data)
     public UnknownRecord(final RecordInputStream in)
     '''
 def serialize():
-    '''    public void serialize(final LittleEndianOutput out)
+    '''public void serialize(final LittleEndianOutput out)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getSid():
-    '''    public short getSid()
+    '''public short getSid()
     '''
 def getBiffName():
-    '''    public static String getBiffName(final int sid)
+    '''public static String getBiffName(final int sid)
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''

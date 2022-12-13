@@ -1,3 +1,3 @@
 def FldLicTransRefWo():
-    '''    public FldLicTransRefWo(final MboValue mbv)
+    '''public FldLicTransRefWo(final MboValue mbv)
     '''

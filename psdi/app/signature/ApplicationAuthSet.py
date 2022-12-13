@@ -1,3 +1,3 @@
 def ApplicationAuthSet():
-    '''    public ApplicationAuthSet(final MboServerInterface ms)
+    '''public ApplicationAuthSet(final MboServerInterface ms)
     '''

@@ -1,9 +1,9 @@
 def FldSimulationAssetnum():
-    '''    public FldSimulationAssetnum(final MboValue mbv)
+    '''public FldSimulationAssetnum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote mbo, final long accessModifier)
+    '''public void setValueFromLookup(final MboRemote mbo, final long accessModifier)
     '''

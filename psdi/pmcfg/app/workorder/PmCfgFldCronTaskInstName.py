@@ -1,3 +1,3 @@
 def PmCfgFldCronTaskInstName():
-    '''    public PmCfgFldCronTaskInstName(final MboValue mbv)
+    '''public PmCfgFldCronTaskInstName(final MboValue mbv)
     '''

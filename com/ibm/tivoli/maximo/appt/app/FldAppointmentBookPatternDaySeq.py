@@ -1,6 +1,6 @@
 def FldAppointmentBookPatternDaySeq():
-    '''    public FldAppointmentBookPatternDaySeq(final MboValue mbv)
+    '''public FldAppointmentBookPatternDaySeq(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

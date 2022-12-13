@@ -3,16 +3,16 @@ ACK_ACCEPTED_REQUESTORS = "int  -2147483646"
 AWARENESS_PERMISSION_REQ_CANCELLED = "int  -2147483645"
 AWARENESS_PERMISSION_REQ_FAILED = "int  -2147483644"
 def AwarenessPermissionEvent():
-    '''    public AwarenessPermissionEvent(final Object o, final int n)
+    '''public AwarenessPermissionEvent(final Object o, final int n)
     public AwarenessPermissionEvent(final Object o, final int n, final STUser[] users)
     public AwarenessPermissionEvent(final Object o, final int n, final Integer reason)
     '''
 def getRequestors():
-    '''    public STUser[] getRequestors()
+    '''public STUser[] getRequestors()
     '''
 def getTargets():
-    '''    public STUser[] getTargets()
+    '''public STUser[] getTargets()
     '''
 def getReason():
-    '''    public Integer getReason()
+    '''public Integer getReason()
     '''

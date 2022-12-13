@@ -1,6 +1,6 @@
 def AttributeDesc():
-    '''    public AttributeDesc()
+    '''public AttributeDesc()
     '''
 def setAttributeName():
-    '''    public void setAttributeName(final String name)
+    '''public void setAttributeName(final String name)
     '''

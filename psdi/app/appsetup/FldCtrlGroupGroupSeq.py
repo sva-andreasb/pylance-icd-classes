@@ -1,6 +1,6 @@
 def FldCtrlGroupGroupSeq():
-    '''    public FldCtrlGroupGroupSeq(final MboValue mbv)
+    '''public FldCtrlGroupGroupSeq(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

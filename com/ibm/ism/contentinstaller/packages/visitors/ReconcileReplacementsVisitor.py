@@ -1,6 +1,6 @@
 def ReconcileReplacementsVisitor():
-    '''    public ReconcileReplacementsVisitor()
+    '''public ReconcileReplacementsVisitor()
     '''
 def visit():
-    '''    public void visit(final BaseTag baseTag)
+    '''public void visit(final BaseTag baseTag)
     '''

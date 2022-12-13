@@ -1,3 +1,3 @@
 def TloamDeployedSoftwareService():
-    '''    public TloamDeployedSoftwareService(final MXServer mxServer)
+    '''public TloamDeployedSoftwareService(final MXServer mxServer)
     '''

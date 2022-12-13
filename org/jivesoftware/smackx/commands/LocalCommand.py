@@ -1,21 +1,21 @@
 def LocalCommand():
-    '''    public LocalCommand()
+    '''public LocalCommand()
     '''
 def setSessionID():
-    '''    public void setSessionID(final String sessionID)
+    '''public void setSessionID(final String sessionID)
     '''
 def getSessionID():
-    '''    public String getSessionID()
+    '''public String getSessionID()
     '''
 def setOwnerJID():
-    '''    public void setOwnerJID(final Jid ownerJID)
+    '''public void setOwnerJID(final Jid ownerJID)
     '''
 def getOwnerJID():
-    '''    public Jid getOwnerJID()
+    '''public Jid getOwnerJID()
     '''
 def getCreationDate():
-    '''    public long getCreationDate()
+    '''public long getCreationDate()
     '''
 def getCurrentStage():
-    '''    public int getCurrentStage()
+    '''public int getCurrentStage()
     '''

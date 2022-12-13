@@ -1,6 +1,6 @@
 def ShouldClearSslSessionPredicate():
-    '''    public ShouldClearSslSessionPredicate(final JavaVersionParser.JavaVersion javaVersion)
+    '''public ShouldClearSslSessionPredicate(final JavaVersionParser.JavaVersion javaVersion)
     '''
 def test():
-    '''    public boolean test(final SSLException sslEx)
+    '''public boolean test(final SSLException sslEx)
     '''

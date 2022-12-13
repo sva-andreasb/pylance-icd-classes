@@ -1,3 +1,3 @@
 def stopCurrentBundleAndDefer():
-    '''    public void stopCurrentBundleAndDefer()
+    '''public void stopCurrentBundleAndDefer()
     '''

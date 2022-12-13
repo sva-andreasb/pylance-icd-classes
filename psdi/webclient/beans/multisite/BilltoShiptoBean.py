@@ -1,6 +1,6 @@
 def toggledeleterow():
-    '''    public int toggledeleterow()
+    '''public int toggledeleterow()
     '''
 def addrow():
-    '''    public int addrow()
+    '''public int addrow()
     '''

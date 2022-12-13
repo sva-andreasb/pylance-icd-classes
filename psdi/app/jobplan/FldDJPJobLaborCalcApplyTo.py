@@ -1,9 +1,9 @@
 def FldDJPJobLaborCalcApplyTo():
-    '''    public FldDJPJobLaborCalcApplyTo(final MboValue mv)
+    '''public FldDJPJobLaborCalcApplyTo(final MboValue mv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

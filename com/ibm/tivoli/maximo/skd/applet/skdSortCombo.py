@@ -1,3 +1,3 @@
 def skdSortCombo():
-    '''    public skdSortCombo()
+    '''public skdSortCombo()
     '''

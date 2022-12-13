@@ -10,16 +10,16 @@ CONSTANT_METHODREF_INFO = "byte  10"
 CONSTANT_INTERFACEMETHODREF_INFO = "byte  11"
 CONSTANT_NAMEANDTYPE_INFO = "byte  12"
 def main():
-    '''    public static void main(final String[] args)
+    '''public static void main(final String[] args)
     '''
 def getClassDependencies():
-    '''    public static Set getClassDependencies(final String path, final Set classpath, final boolean rec)
+    '''public static Set getClassDependencies(final String path, final Set classpath, final boolean rec)
     public static Set getClassDependencies(final InputStream is, final Set classpath, final boolean rec)
     public static Set getClassDependencies(final InputStream is)
     '''
 def getInputStream():
-    '''    public InputStream getInputStream()
+    '''public InputStream getInputStream()
     '''
 def compareTo():
-    '''    public int compareTo(final Object o)
+    '''public int compareTo(final Object o)
     '''

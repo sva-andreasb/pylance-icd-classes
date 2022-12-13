@@ -1,3 +1,3 @@
 def VpkMsgEncKey():
-    '''    public VpkMsgEncKey(final byte[] array)
+    '''public VpkMsgEncKey(final byte[] array)
     '''

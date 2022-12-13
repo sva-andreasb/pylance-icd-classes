@@ -1,3 +1,3 @@
 def parse():
-    '''    public IoTIsFriendResponse parse(final XmlPullParser parser, final int initialDepth)
+    '''public IoTIsFriendResponse parse(final XmlPullParser parser, final int initialDepth)
     '''

@@ -1,6 +1,6 @@
 def testProcessConnectionXMLObject():
-    '''    public void testProcessConnectionXMLObject()
+    '''public void testProcessConnectionXMLObject()
     '''
 def testProcessConnectionElement():
-    '''    public void testProcessConnectionElement()
+    '''public void testProcessConnectionElement()
     '''

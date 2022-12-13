@@ -1,6 +1,6 @@
 def DPANetPrinter():
-    '''    public DPANetPrinter(final MboSet ms)
+    '''public DPANetPrinter(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -44,112 +44,112 @@ RESOURCE_PATH = "String  \"com/lowagie/text/pdf/fonts/\""
 CID_NEWLINE = "char  '\u7fff'"
 notdef = "String  \".notdef\""
 def createFont():
-    '''    public static BaseFont createFont(final String name, final String encoding, final boolean embedded)
+    '''public static BaseFont createFont(final String name, final String encoding, final boolean embedded)
     public static BaseFont createFont(final String name, String encoding, boolean embedded, final boolean cached, final byte[] ttfAfm, final byte[] pfb)
     public static BaseFont createFont(final PRIndirectReference fontRef)
     '''
 def getWidth():
-    '''    public int getWidth(final char char1)
+    '''public int getWidth(final char char1)
     public int getWidth(final String text)
     '''
 def getDescent():
-    '''    public int getDescent(final String text)
+    '''public int getDescent(final String text)
     '''
 def getAscent():
-    '''    public int getAscent(final String text)
+    '''public int getAscent(final String text)
     '''
 def getDescentPoint():
-    '''    public float getDescentPoint(final String text, final float fontSize)
+    '''public float getDescentPoint(final String text, final float fontSize)
     '''
 def getAscentPoint():
-    '''    public float getAscentPoint(final String text, final float fontSize)
+    '''public float getAscentPoint(final String text, final float fontSize)
     '''
 def getWidthPointKerned():
-    '''    public float getWidthPointKerned(final String text, final float fontSize)
+    '''public float getWidthPointKerned(final String text, final float fontSize)
     '''
 def getWidthPoint():
-    '''    public float getWidthPoint(final String text, final float fontSize)
+    '''public float getWidthPoint(final String text, final float fontSize)
     public float getWidthPoint(final char char1, final float fontSize)
     '''
 def getEncoding():
-    '''    public String getEncoding()
+    '''public String getEncoding()
     '''
 def getFontType():
-    '''    public int getFontType()
+    '''public int getFontType()
     '''
 def isEmbedded():
-    '''    public boolean isEmbedded()
+    '''public boolean isEmbedded()
     '''
 def isFontSpecific():
-    '''    public boolean isFontSpecific()
+    '''public boolean isFontSpecific()
     '''
 def createSubsetPrefix():
-    '''    public static String createSubsetPrefix()
+    '''public static String createSubsetPrefix()
     '''
 def getFullFontName():
-    '''    public static String[][] getFullFontName(final String name, final String encoding, final byte[] ttfAfm)
+    '''public static String[][] getFullFontName(final String name, final String encoding, final byte[] ttfAfm)
     '''
 def getAllFontNames():
-    '''    public static Object[] getAllFontNames(final String name, final String encoding, final byte[] ttfAfm)
+    '''public static Object[] getAllFontNames(final String name, final String encoding, final byte[] ttfAfm)
     '''
 def getCodePagesSupported():
-    '''    public String[] getCodePagesSupported()
+    '''public String[] getCodePagesSupported()
     '''
 def enumerateTTCNames():
-    '''    public static String[] enumerateTTCNames(final String ttcFile)
+    '''public static String[] enumerateTTCNames(final String ttcFile)
     public static String[] enumerateTTCNames(final byte[] ttcArray)
     '''
 def getWidths():
-    '''    public int[] getWidths()
+    '''public int[] getWidths()
     '''
 def getDifferences():
-    '''    public String[] getDifferences()
+    '''public String[] getDifferences()
     '''
 def getUnicodeDifferences():
-    '''    public char[] getUnicodeDifferences()
+    '''public char[] getUnicodeDifferences()
     '''
 def isForceWidthsOutput():
-    '''    public boolean isForceWidthsOutput()
+    '''public boolean isForceWidthsOutput()
     '''
 def setForceWidthsOutput():
-    '''    public void setForceWidthsOutput(final boolean forceWidthsOutput)
+    '''public void setForceWidthsOutput(final boolean forceWidthsOutput)
     '''
 def isDirectTextToByte():
-    '''    public boolean isDirectTextToByte()
+    '''public boolean isDirectTextToByte()
     '''
 def setDirectTextToByte():
-    '''    public void setDirectTextToByte(final boolean directTextToByte)
+    '''public void setDirectTextToByte(final boolean directTextToByte)
     '''
 def isSubset():
-    '''    public boolean isSubset()
+    '''public boolean isSubset()
     '''
 def setSubset():
-    '''    public void setSubset(final boolean subset)
+    '''public void setSubset(final boolean subset)
     '''
 def getResourceStream():
-    '''    public static InputStream getResourceStream(final String key)
+    '''public static InputStream getResourceStream(final String key)
     public static InputStream getResourceStream(final String key, final ClassLoader loader)
     '''
 def getUnicodeEquivalent():
-    '''    public char getUnicodeEquivalent(final char c)
+    '''public char getUnicodeEquivalent(final char c)
     '''
 def getCidCode():
-    '''    public char getCidCode(final char c)
+    '''public char getCidCode(final char c)
     '''
 def charExists():
-    '''    public boolean charExists(final char c)
+    '''public boolean charExists(final char c)
     '''
 def setCharAdvance():
-    '''    public boolean setCharAdvance(final char c, final int advance)
+    '''public boolean setCharAdvance(final char c, final int advance)
     '''
 def getDocumentFonts():
-    '''    public static ArrayList getDocumentFonts(final PdfReader reader)
+    '''public static ArrayList getDocumentFonts(final PdfReader reader)
     public static ArrayList getDocumentFonts(final PdfReader reader, final int page)
     '''
 def getCharBBox():
-    '''    public int[] getCharBBox(final char c)
+    '''public int[] getCharBBox(final char c)
     '''
 def StreamFont():
-    '''    public StreamFont(final byte[] contents, final int[] lengths)
+    '''public StreamFont(final byte[] contents, final int[] lengths)
     public StreamFont(final byte[] contents, final String subType)
     '''

@@ -1,3 +1,3 @@
 def OperationNotSupportedException():
-    '''    public OperationNotSupportedException(final String msg)
+    '''public OperationNotSupportedException(final String msg)
     '''

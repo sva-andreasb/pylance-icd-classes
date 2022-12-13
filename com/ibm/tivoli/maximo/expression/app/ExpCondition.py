@@ -1,6 +1,6 @@
 def ExpCondition():
-    '''    public ExpCondition(final MboSet ms)
+    '''public ExpCondition(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

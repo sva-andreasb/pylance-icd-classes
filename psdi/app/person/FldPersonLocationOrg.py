@@ -1,6 +1,6 @@
 def FldPersonLocationOrg():
-    '''    public FldPersonLocationOrg(final MboValue mbv)
+    '''public FldPersonLocationOrg(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

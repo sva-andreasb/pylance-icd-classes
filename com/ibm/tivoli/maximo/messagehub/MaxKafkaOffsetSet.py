@@ -1,3 +1,3 @@
 def MaxKafkaOffsetSet():
-    '''    public MaxKafkaOffsetSet(final MboServerInterface ms)
+    '''public MaxKafkaOffsetSet(final MboServerInterface ms)
     '''

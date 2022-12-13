@@ -1,3 +1,3 @@
 def PlusPPersonCustSet():
-    '''    public PlusPPersonCustSet(final MboServerInterface ms)
+    '''public PlusPPersonCustSet(final MboServerInterface ms)
     '''

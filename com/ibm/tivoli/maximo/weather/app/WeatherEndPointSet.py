@@ -1,3 +1,3 @@
 def WeatherEndPointSet():
-    '''    public WeatherEndPointSet(final MboServerInterface ms)
+    '''public WeatherEndPointSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def WFTaskSet():
-    '''    public WFTaskSet(final MboServerInterface ms)
+    '''public WFTaskSet(final MboServerInterface ms)
     '''

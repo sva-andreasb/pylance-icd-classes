@@ -1,36 +1,36 @@
 def PlusPNUMERICDomainInfo():
-    '''    public PlusPNUMERICDomainInfo(final String name)
+    '''public PlusPNUMERICDomainInfo(final String name)
     '''
 def getDomainObject():
-    '''    public MboValueListener getDomainObject(final MboValue mbv)
+    '''public MboValueListener getDomainObject(final MboValue mbv)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def initPlusPDetailObject():
-    '''    public Detail initPlusPDetailObject()
+    '''public Detail initPlusPDetailObject()
     '''
 def setDetail():
-    '''    public void setDetail(final String s, final String s2, final String s3, final Object value)
+    '''public void setDetail(final String s, final String s2, final String s3, final Object value)
     '''
 def getKey():
-    '''    public static String getKey(final String s, final String s2, final String s3)
+    '''public static String getKey(final String s, final String s2, final String s3)
     '''
 def getSiteOrgWhere():
-    '''    public String getSiteOrgWhere(final ALNDomain domain)
+    '''public String getSiteOrgWhere(final ALNDomain domain)
     '''
 def getDetailCustomer():
-    '''    public String getDetailCustomer(final ALNDomain alnDomain)
+    '''public String getDetailCustomer(final ALNDomain alnDomain)
     '''
 def getSignature():
-    '''    public Object[] getSignature(final MboValue value)
+    '''public Object[] getSignature(final MboValue value)
     '''
 def getDetail():
-    '''    public Object getDetail(final Object[] array)
+    '''public Object getDetail(final Object[] array)
     '''
 def getAllInfoHashmapBykey():
-    '''    public Object getAllInfoHashmapBykey(final String key)
+    '''public Object getAllInfoHashmapBykey(final String key)
     '''
 def Detail():
-    '''    public Detail()
+    '''public Detail()
     '''

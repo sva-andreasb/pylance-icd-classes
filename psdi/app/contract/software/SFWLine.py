@@ -1,6 +1,6 @@
 def SFWLine():
-    '''    public SFWLine(final MboSet ms)
+    '''public SFWLine(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -1,3 +1,3 @@
 def GroupReassignAuthSet():
-    '''    public GroupReassignAuthSet(final MboServerInterface ms)
+    '''public GroupReassignAuthSet(final MboServerInterface ms)
     '''

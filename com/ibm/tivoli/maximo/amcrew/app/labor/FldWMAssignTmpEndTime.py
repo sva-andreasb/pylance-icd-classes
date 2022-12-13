@@ -1,6 +1,6 @@
 def FldWMAssignTmpEndTime():
-    '''    public FldWMAssignTmpEndTime(final MboValue mbv)
+    '''public FldWMAssignTmpEndTime(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

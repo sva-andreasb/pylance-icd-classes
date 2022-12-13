@@ -1,6 +1,6 @@
 def PlusPFldCraftRate():
-    '''    public PlusPFldCraftRate(final MboValue mboValue)
+    '''public PlusPFldCraftRate(final MboValue mboValue)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

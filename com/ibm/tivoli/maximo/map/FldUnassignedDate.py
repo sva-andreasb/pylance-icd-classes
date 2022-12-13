@@ -1,6 +1,6 @@
 def FldUnassignedDate():
-    '''    public FldUnassignedDate(final MboValue mbv)
+    '''public FldUnassignedDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

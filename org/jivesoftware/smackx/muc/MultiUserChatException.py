@@ -1,6 +1,6 @@
 def MucNotJoinedException():
-    '''    public MucNotJoinedException(final MultiUserChat multiUserChat)
+    '''public MucNotJoinedException(final MultiUserChat multiUserChat)
     '''
 def MucConfigurationNotSupportedException():
-    '''    public MucConfigurationNotSupportedException(final String configString)
+    '''public MucConfigurationNotSupportedException(final String configString)
     '''

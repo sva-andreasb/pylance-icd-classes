@@ -1,6 +1,6 @@
 def PPAFldStatus():
-    '''    public PPAFldStatus(final MboValue mbv)
+    '''public PPAFldStatus(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

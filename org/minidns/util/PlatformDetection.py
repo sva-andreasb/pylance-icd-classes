@@ -1,3 +1,3 @@
 def isAndroid():
-    '''    public static boolean isAndroid()
+    '''public static boolean isAndroid()
     '''

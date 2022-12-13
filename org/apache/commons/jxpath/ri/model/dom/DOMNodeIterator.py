@@ -1,12 +1,12 @@
 def DOMNodeIterator():
-    '''    public DOMNodeIterator(final NodePointer parent, final NodeTest nodeTest, final boolean reverse, final NodePointer startWith)
+    '''public DOMNodeIterator(final NodePointer parent, final NodeTest nodeTest, final boolean reverse, final NodePointer startWith)
     '''
 def getNodePointer():
-    '''    public NodePointer getNodePointer()
+    '''public NodePointer getNodePointer()
     '''
 def getPosition():
-    '''    public int getPosition()
+    '''public int getPosition()
     '''
 def setPosition():
-    '''    public boolean setPosition(final int position)
+    '''public boolean setPosition(final int position)
     '''

@@ -1,96 +1,96 @@
 def getGlobalUserAgent():
-    '''    public static String getGlobalUserAgent()
+    '''public static String getGlobalUserAgent()
     '''
 def setGlobalUserAgent():
-    '''    public static void setGlobalUserAgent(final String userAgent)
+    '''public static void setGlobalUserAgent(final String userAgent)
     '''
 def getHandler():
-    '''    public static synchronized ParsedURLProtocolHandler getHandler(final String protocol)
+    '''public static synchronized ParsedURLProtocolHandler getHandler(final String protocol)
     '''
 def registerHandler():
-    '''    public static synchronized void registerHandler(final ParsedURLProtocolHandler handler)
+    '''public static synchronized void registerHandler(final ParsedURLProtocolHandler handler)
     '''
 def checkGZIP():
-    '''    public static InputStream checkGZIP(final InputStream is)
+    '''public static InputStream checkGZIP(final InputStream is)
     '''
 def ParsedURL():
-    '''    public ParsedURL(final String urlStr)
+    '''public ParsedURL(final String urlStr)
     public ParsedURL(final URL url)
     public ParsedURL(final String baseStr, final String urlStr)
     public ParsedURL(final URL baseURL, final String urlStr)
     public ParsedURL(final ParsedURL baseURL, final String urlStr)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getPostConnectionURL():
-    '''    public String getPostConnectionURL()
+    '''public String getPostConnectionURL()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def complete():
-    '''    public boolean complete()
+    '''public boolean complete()
     '''
 def getUserAgent():
-    '''    public String getUserAgent()
+    '''public String getUserAgent()
     '''
 def setUserAgent():
-    '''    public void setUserAgent(final String userAgent)
+    '''public void setUserAgent(final String userAgent)
     '''
 def getProtocol():
-    '''    public String getProtocol()
+    '''public String getProtocol()
     '''
 def getHost():
-    '''    public String getHost()
+    '''public String getHost()
     '''
 def getPort():
-    '''    public int getPort()
+    '''public int getPort()
     '''
 def getPath():
-    '''    public String getPath()
+    '''public String getPath()
     '''
 def getRef():
-    '''    public String getRef()
+    '''public String getRef()
     '''
 def getPortStr():
-    '''    public String getPortStr()
+    '''public String getPortStr()
     '''
 def getContentType():
-    '''    public String getContentType()
+    '''public String getContentType()
     '''
 def getContentTypeMediaType():
-    '''    public String getContentTypeMediaType()
+    '''public String getContentTypeMediaType()
     '''
 def getContentTypeCharset():
-    '''    public String getContentTypeCharset()
+    '''public String getContentTypeCharset()
     '''
 def hasContentTypeParameter():
-    '''    public boolean hasContentTypeParameter(final String param)
+    '''public boolean hasContentTypeParameter(final String param)
     '''
 def getContentEncoding():
-    '''    public String getContentEncoding()
+    '''public String getContentEncoding()
     '''
 def openStream():
-    '''    public InputStream openStream()
+    '''public InputStream openStream()
     public InputStream openStream(final String mimeType)
     public InputStream openStream(final String[] mimeTypes)
     public InputStream openStream(final Iterator mimeTypes)
     '''
 def openStreamRaw():
-    '''    public InputStream openStreamRaw()
+    '''public InputStream openStreamRaw()
     public InputStream openStreamRaw(final String mimeType)
     public InputStream openStreamRaw(final String[] mimeTypes)
     public InputStream openStreamRaw(final Iterator mimeTypes)
     '''
 def sameFile():
-    '''    public boolean sameFile(final ParsedURL other)
+    '''public boolean sameFile(final ParsedURL other)
     '''
 def parseURL():
-    '''    public static ParsedURLData parseURL(String urlStr)
+    '''public static ParsedURLData parseURL(String urlStr)
     public static ParsedURLData parseURL(final String baseStr, final String urlStr)
     public static ParsedURLData parseURL(final ParsedURL baseURL, final String urlStr)
     '''

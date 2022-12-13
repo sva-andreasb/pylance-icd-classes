@@ -1,3 +1,3 @@
 def WPServiceSet():
-    '''    public WPServiceSet(final MboServerInterface ms)
+    '''public WPServiceSet(final MboServerInterface ms)
     '''

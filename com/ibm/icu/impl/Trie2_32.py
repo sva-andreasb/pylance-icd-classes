@@ -1,15 +1,15 @@
 def createFromSerialized():
-    '''    public static Trie2_32 createFromSerialized(final InputStream is)
+    '''public static Trie2_32 createFromSerialized(final InputStream is)
     '''
 def get():
-    '''    public final int get(final int codePoint)
+    '''public final int get(final int codePoint)
     '''
 def getFromU16SingleLead():
-    '''    public int getFromU16SingleLead(final char codeUnit)
+    '''public int getFromU16SingleLead(final char codeUnit)
     '''
 def serialize():
-    '''    public int serialize(final OutputStream os)
+    '''public int serialize(final OutputStream os)
     '''
 def getSerializedLength():
-    '''    public int getSerializedLength()
+    '''public int getSerializedLength()
     '''

@@ -1,18 +1,18 @@
 def ApplicationAuth():
-    '''    public ApplicationAuth(final MboSet ms)
+    '''public ApplicationAuth(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''
 def delete():
-    '''    public void delete()
+    '''public void delete()
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''

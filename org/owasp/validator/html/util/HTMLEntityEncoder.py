@@ -1,3 +1,3 @@
 def htmlEntityEncode():
-    '''    public static String htmlEntityEncode(final String value)
+    '''public static String htmlEntityEncode(final String value)
     '''

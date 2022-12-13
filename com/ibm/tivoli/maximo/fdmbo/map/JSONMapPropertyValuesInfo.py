@@ -1,9 +1,9 @@
 def JSONMapPropertyValuesInfo():
-    '''    public JSONMapPropertyValuesInfo(final String condition, final String value)
+    '''public JSONMapPropertyValuesInfo(final String condition, final String value)
     '''
 def getCondition():
-    '''    public String getCondition()
+    '''public String getCondition()
     '''
 def getValue():
-    '''    public String getValue()
+    '''public String getValue()
     '''

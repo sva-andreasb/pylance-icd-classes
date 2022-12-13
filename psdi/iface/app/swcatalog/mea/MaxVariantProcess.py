@@ -1,6 +1,6 @@
 def MaxVariantProcess():
-    '''    public MaxVariantProcess()
+    '''public MaxVariantProcess()
     '''
 def checkBusinessRules():
-    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
     '''

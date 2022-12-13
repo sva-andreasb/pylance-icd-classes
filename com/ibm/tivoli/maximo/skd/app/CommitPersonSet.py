@@ -1,3 +1,3 @@
 def CommitPersonSet():
-    '''    public CommitPersonSet(final MboServerInterface ms)
+    '''public CommitPersonSet(final MboServerInterface ms)
     '''

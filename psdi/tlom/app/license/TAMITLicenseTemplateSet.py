@@ -1,3 +1,3 @@
 def TAMITLicenseTemplateSet():
-    '''    public TAMITLicenseTemplateSet(final MboServerInterface ms)
+    '''public TAMITLicenseTemplateSet(final MboServerInterface ms)
     '''

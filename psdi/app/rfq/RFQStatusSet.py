@@ -1,3 +1,3 @@
 def RFQStatusSet():
-    '''    public RFQStatusSet(final MboServerInterface ms)
+    '''public RFQStatusSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def HttpContentTooLargeException():
-    '''    public HttpContentTooLargeException(final String message, final int maxlen)
+    '''public HttpContentTooLargeException(final String message, final int maxlen)
     '''
 def getMaxLength():
-    '''    public int getMaxLength()
+    '''public int getMaxLength()
     '''

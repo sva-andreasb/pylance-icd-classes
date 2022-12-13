@@ -1,6 +1,6 @@
 def FldVarBindingType():
-    '''    public FldVarBindingType(final MboValue mbv)
+    '''public FldVarBindingType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

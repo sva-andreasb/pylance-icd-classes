@@ -1,6 +1,6 @@
 def LicenseRelatedSet():
-    '''    public LicenseRelatedSet(final MboServerInterface ms)
+    '''public LicenseRelatedSet(final MboServerInterface ms)
     '''
 def isRelLicenseExisted():
-    '''    public boolean isRelLicenseExisted(final long licenseid)
+    '''public boolean isRelLicenseExisted(final long licenseid)
     '''

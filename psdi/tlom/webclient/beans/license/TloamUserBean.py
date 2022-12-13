@@ -1,3 +1,3 @@
 def DELETE():
-    '''    public int DELETE()
+    '''public int DELETE()
     '''

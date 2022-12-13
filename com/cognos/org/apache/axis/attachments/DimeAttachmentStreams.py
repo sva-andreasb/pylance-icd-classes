@@ -1,6 +1,6 @@
 def DimeAttachmentStreams():
-    '''    public DimeAttachmentStreams(final DimeDelimitedInputStream stream)
+    '''public DimeAttachmentStreams(final DimeDelimitedInputStream stream)
     '''
 def getNextStream():
-    '''    public IncomingAttachmentInputStream getNextStream()
+    '''public IncomingAttachmentInputStream getNextStream()
     '''

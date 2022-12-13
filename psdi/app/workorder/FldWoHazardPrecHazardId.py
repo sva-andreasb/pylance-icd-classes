@@ -1,6 +1,6 @@
 def FldWoHazardPrecHazardId():
-    '''    public FldWoHazardPrecHazardId(final MboValue mbv)
+    '''public FldWoHazardPrecHazardId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

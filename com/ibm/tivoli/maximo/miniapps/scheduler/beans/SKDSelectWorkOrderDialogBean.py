@@ -1,3 +1,3 @@
 def selectSuccWos():
-    '''    public int selectSuccWos()
+    '''public int selectSuccWos()
     '''

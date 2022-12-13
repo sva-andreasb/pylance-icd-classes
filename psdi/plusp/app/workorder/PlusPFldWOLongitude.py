@@ -1,6 +1,6 @@
 def PlusPFldWOLongitude():
-    '''    public PlusPFldWOLongitude(final MboValue mboValue)
+    '''public PlusPFldWOLongitude(final MboValue mboValue)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

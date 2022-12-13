@@ -1,6 +1,6 @@
 def MaxIntObjectColsSet():
-    '''    public MaxIntObjectColsSet(final MboServerInterface ms)
+    '''public MaxIntObjectColsSet(final MboServerInterface ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

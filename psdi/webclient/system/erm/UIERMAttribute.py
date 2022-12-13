@@ -1,51 +1,51 @@
 def UIERMAttribute():
-    '''    public UIERMAttribute(final String dataAttr)
+    '''public UIERMAttribute(final String dataAttr)
     '''
 def addControl():
-    '''    public void addControl(final UIERMBoundControl control)
+    '''public void addControl(final UIERMBoundControl control)
     '''
 def getControls():
-    '''    public List<UIERMBoundControl> getControls()
+    '''public List<UIERMBoundControl> getControls()
     '''
 def getLabelForAttribute():
-    '''    public String getLabelForAttribute(final WebClientSession wcs)
+    '''public String getLabelForAttribute(final WebClientSession wcs)
     '''
 def setSigOption():
-    '''    public void setSigOption(final String sigOption, final UIERMEntity sigOptEntity)
+    '''public void setSigOption(final String sigOption, final UIERMEntity sigOptEntity)
     '''
 def isRequired():
-    '''    public boolean isRequired()
+    '''public boolean isRequired()
     '''
 def isPresentationRequired():
-    '''    public boolean isPresentationRequired()
+    '''public boolean isPresentationRequired()
     '''
 def getSigOption():
-    '''    public String getSigOption()
+    '''public String getSigOption()
     '''
 def getSigOptEntity():
-    '''    public UIERMEntity getSigOptEntity()
+    '''public UIERMEntity getSigOptEntity()
     '''
 def setRequired():
-    '''    public void setRequired(final boolean required)
+    '''public void setRequired(final boolean required)
     '''
 def getDataStoreInfo():
-    '''    public DataStoreInfo getDataStoreInfo()
+    '''public DataStoreInfo getDataStoreInfo()
     '''
 def setDataStoreInfo():
-    '''    public void setDataStoreInfo(final DataStoreInfo dataStoreInfo)
+    '''public void setDataStoreInfo(final DataStoreInfo dataStoreInfo)
     '''
 def createTakesValueList():
-    '''    public JSONArray createTakesValueList(final PageInstance page)
+    '''public JSONArray createTakesValueList(final PageInstance page)
     '''
 def isCloned():
-    '''    public boolean isCloned()
+    '''public boolean isCloned()
     '''
 def setIsCloned():
-    '''    public void setIsCloned(final boolean aBool)
+    '''public void setIsCloned(final boolean aBool)
     '''
 def clone():
-    '''    public UIERMAttribute clone()
+    '''public UIERMAttribute clone()
     '''
 def cleanup():
-    '''    public void cleanup()
+    '''public void cleanup()
     '''

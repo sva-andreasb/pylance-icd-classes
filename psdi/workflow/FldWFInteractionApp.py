@@ -1,6 +1,6 @@
 def FldWFInteractionApp():
-    '''    public FldWFInteractionApp(final MboValue mbv)
+    '''public FldWFInteractionApp(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

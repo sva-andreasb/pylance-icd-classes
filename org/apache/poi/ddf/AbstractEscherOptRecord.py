@@ -1,36 +1,36 @@
 def AbstractEscherOptRecord():
-    '''    public AbstractEscherOptRecord()
+    '''public AbstractEscherOptRecord()
     '''
 def addEscherProperty():
-    '''    public void addEscherProperty(final EscherProperty prop)
+    '''public void addEscherProperty(final EscherProperty prop)
     '''
 def fillFields():
-    '''    public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
+    '''public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
     '''
 def getEscherProperties():
-    '''    public List<EscherProperty> getEscherProperties()
+    '''public List<EscherProperty> getEscherProperties()
     '''
 def getEscherProperty():
-    '''    public EscherProperty getEscherProperty(final int index)
+    '''public EscherProperty getEscherProperty(final int index)
     '''
 def getRecordSize():
-    '''    public int getRecordSize()
+    '''public int getRecordSize()
     '''
 def lookup():
-    '''    public <T extends EscherProperty> T lookup(final int propId)
+    '''public <T extends EscherProperty> T lookup(final int propId)
     '''
 def serialize():
-    '''    public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
     '''
 def sortProperties():
-    '''    public void sortProperties()
+    '''public void sortProperties()
     '''
 def compare():
-    '''    public int compare(final EscherProperty p1, final EscherProperty p2)
+    '''public int compare(final EscherProperty p1, final EscherProperty p2)
     '''
 def setEscherProperty():
-    '''    public void setEscherProperty(final EscherProperty value)
+    '''public void setEscherProperty(final EscherProperty value)
     '''
 def removeEscherProperty():
-    '''    public void removeEscherProperty(final int num)
+    '''public void removeEscherProperty(final int num)
     '''

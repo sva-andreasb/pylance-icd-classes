@@ -1,12 +1,12 @@
 def FldWOCombinedTotal():
-    '''    public FldWOCombinedTotal(final MboValue mbv)
+    '''public FldWOCombinedTotal(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

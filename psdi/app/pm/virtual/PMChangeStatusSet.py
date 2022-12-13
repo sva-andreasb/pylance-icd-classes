@@ -1,6 +1,6 @@
 def PMChangeStatusSet():
-    '''    public PMChangeStatusSet(final MboServerInterface ms)
+    '''public PMChangeStatusSet(final MboServerInterface ms)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

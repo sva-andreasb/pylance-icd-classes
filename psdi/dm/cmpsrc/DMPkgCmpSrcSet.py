@@ -1,3 +1,3 @@
 def DMPkgCmpSrcSet():
-    '''    public DMPkgCmpSrcSet(final MboServerInterface ms)
+    '''public DMPkgCmpSrcSet(final MboServerInterface ms)
     '''

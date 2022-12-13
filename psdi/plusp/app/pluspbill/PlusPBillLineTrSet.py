@@ -1,3 +1,3 @@
 def PlusPBillLineTrSet():
-    '''    public PlusPBillLineTrSet(final MboServerInterface ms)
+    '''public PlusPBillLineTrSet(final MboServerInterface ms)
     '''

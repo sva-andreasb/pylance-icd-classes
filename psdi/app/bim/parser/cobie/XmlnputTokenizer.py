@@ -1,29 +1,29 @@
 def parse():
-    '''    public static XmlnputTokenizer parse(final Reader in)
+    '''public static XmlnputTokenizer parse(final Reader in)
     public static XmlnputTokenizer parse(final InputStream in)
     public static XmlnputTokenizer parse(final InputSource in)
     '''
 def getChild():
-    '''    public XmlnputTokenizer getChild(final String name)
+    '''public XmlnputTokenizer getChild(final String name)
     '''
 def getChildren():
-    '''    public List<XmlnputTokenizer> getChildren(final String name)
+    '''public List<XmlnputTokenizer> getChildren(final String name)
     '''
 def find():
-    '''    public List<XmlnputTokenizer> find(final String query)
+    '''public List<XmlnputTokenizer> find(final String query)
     '''
 def findElement():
-    '''    public XmlnputTokenizer findElement(final String query)
+    '''public XmlnputTokenizer findElement(final String query)
     '''
 def getAttribute():
-    '''    public String getAttribute(final String attrName)
+    '''public String getAttribute(final String attrName)
     '''
 def getChildValue():
-    '''    public String getChildValue(final String childName)
+    '''public String getChildValue(final String childName)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getXML():
-    '''    public String getXML()
+    '''public String getXML()
     '''

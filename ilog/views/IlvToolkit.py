@@ -1,6 +1,6 @@
 def screenSize():
-    '''    public static final Dimension screenSize()
+    '''public static final Dimension screenSize()
     '''
 def screenResolution():
-    '''    public static final int screenResolution()
+    '''public static final int screenResolution()
     '''

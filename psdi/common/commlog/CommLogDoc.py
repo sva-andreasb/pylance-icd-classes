@@ -1,12 +1,12 @@
 def CommLogDoc():
-    '''    public CommLogDoc(final MboSet ms)
+    '''public CommLogDoc(final MboSet ms)
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def getURLType():
-    '''    public String getURLType()
+    '''public String getURLType()
     '''

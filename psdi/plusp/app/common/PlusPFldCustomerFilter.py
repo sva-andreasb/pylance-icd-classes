@@ -1,6 +1,6 @@
 def PlusPFldCustomerFilter():
-    '''    public PlusPFldCustomerFilter(final MboValue mbv)
+    '''public PlusPFldCustomerFilter(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

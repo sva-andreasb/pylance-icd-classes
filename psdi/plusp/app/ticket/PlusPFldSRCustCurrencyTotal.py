@@ -1,6 +1,6 @@
 def PlusPFldSRCustCurrencyTotal():
-    '''    public PlusPFldSRCustCurrencyTotal(final MboValue mbv)
+    '''public PlusPFldSRCustCurrencyTotal(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

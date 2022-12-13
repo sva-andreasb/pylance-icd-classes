@@ -1,6 +1,6 @@
 def LocLeadTime():
-    '''    public LocLeadTime(final MboSet ms)
+    '''public LocLeadTime(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

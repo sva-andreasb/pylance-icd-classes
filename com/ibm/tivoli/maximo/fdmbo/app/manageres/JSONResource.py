@@ -1,12 +1,12 @@
 def JSONResource():
-    '''    public JSONResource(final MboSet ms)
+    '''public JSONResource(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def removeResource():
-    '''    public void removeResource()
+    '''public void removeResource()
     '''
 def delete():
-    '''    public void delete()
+    '''public void delete()
     '''

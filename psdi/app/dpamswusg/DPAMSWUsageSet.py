@@ -1,3 +1,3 @@
 def DPAMSWUsageSet():
-    '''    public DPAMSWUsageSet(final MboServerInterface ms)
+    '''public DPAMSWUsageSet(final MboServerInterface ms)
     '''

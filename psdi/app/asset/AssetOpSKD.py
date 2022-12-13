@@ -1,9 +1,9 @@
 def AssetOpSKD():
-    '''    public AssetOpSKD(final MboSet ms)
+    '''public AssetOpSKD(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

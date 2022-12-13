@@ -1,11 +1,11 @@
 def MessageFactory2Adapter():
-    '''    public MessageFactory2Adapter(final MessageFactory wrapped)
+    '''public MessageFactory2Adapter(final MessageFactory wrapped)
     '''
 def getOriginal():
-    '''    public MessageFactory getOriginal()
+    '''public MessageFactory getOriginal()
     '''
 def newMessage():
-    '''    public Message newMessage(final CharSequence charSequence)
+    '''public Message newMessage(final CharSequence charSequence)
     public Message newMessage(final String message, final Object p0)
     public Message newMessage(final String message, final Object p0, final Object p1)
     public Message newMessage(final String message, final Object p0, final Object p1, final Object p2)

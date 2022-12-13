@@ -1,3 +1,3 @@
 def needsConnectionLeftOpen():
-    '''    public boolean needsConnectionLeftOpen()
+    '''public boolean needsConnectionLeftOpen()
     '''

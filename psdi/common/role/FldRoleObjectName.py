@@ -1,6 +1,6 @@
 def FldRoleObjectName():
-    '''    public FldRoleObjectName(final MboValue mbv)
+    '''public FldRoleObjectName(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

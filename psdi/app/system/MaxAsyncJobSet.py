@@ -1,3 +1,3 @@
 def MaxAsyncJobSet():
-    '''    public MaxAsyncJobSet(final MboServerInterface ms)
+    '''public MaxAsyncJobSet(final MboServerInterface ms)
     '''

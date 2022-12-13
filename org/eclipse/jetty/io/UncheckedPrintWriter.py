@@ -1,27 +1,27 @@
 def UncheckedPrintWriter():
-    '''    public UncheckedPrintWriter(final Writer out)
+    '''public UncheckedPrintWriter(final Writer out)
     public UncheckedPrintWriter(final Writer out, final boolean autoFlush)
     public UncheckedPrintWriter(final OutputStream out)
     public UncheckedPrintWriter(final OutputStream out, final boolean autoFlush)
     '''
 def checkError():
-    '''    public boolean checkError()
+    '''public boolean checkError()
     '''
 def flush():
-    '''    public void flush()
+    '''public void flush()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def write():
-    '''    public void write(final int c)
+    '''public void write(final int c)
     public void write(final char[] buf, final int off, final int len)
     public void write(final char[] buf)
     public void write(final String s, final int off, final int len)
     public void write(final String s)
     '''
 def print():
-    '''    public void print(final boolean b)
+    '''public void print(final boolean b)
     public void print(final char c)
     public void print(final int i)
     public void print(final long l)
@@ -32,7 +32,7 @@ def print():
     public void print(final Object obj)
     '''
 def println():
-    '''    public void println()
+    '''public void println()
     public void println(final boolean x)
     public void println(final char x)
     public void println(final int x)

@@ -1,6 +1,6 @@
 def TsdFldStatusDomain():
-    '''    public TsdFldStatusDomain(final MboValue mbv)
+    '''public TsdFldStatusDomain(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

@@ -1,42 +1,42 @@
 def WPItem():
-    '''    public WPItem(final MboSet ms)
+    '''public WPItem(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''
 def copyPlan():
-    '''    public void copyPlan(final MboRemote source)
+    '''public void copyPlan(final MboRemote source)
     '''
 def copyHazardForItem():
-    '''    public void copyHazardForItem()
+    '''public void copyHazardForItem()
     '''
 def updateTotals():
-    '''    public void updateTotals(final MboRemote wo, final boolean isGain)
+    '''public void updateTotals(final MboRemote wo, final boolean isGain)
     '''
 def setEstCost():
-    '''    public void setEstCost(final MboRemote wo, final double lineCost)
+    '''public void setEstCost(final MboRemote wo, final double lineCost)
     '''
 def validateStoreLocSite():
-    '''    public void validateStoreLocSite()
+    '''public void validateStoreLocSite()
     '''
 def setLocation():
-    '''    public void setLocation()
+    '''public void setLocation()
     '''
 def getRequiredMaterialCost():
-    '''    public void getRequiredMaterialCost()
+    '''public void getRequiredMaterialCost()
     '''
 def setBaseCurrencyUnitCost():
-    '''    public void setBaseCurrencyUnitCost(final double vendorunitcost)
+    '''public void setBaseCurrencyUnitCost(final double vendorunitcost)
     '''
 def getValidateOrder():
-    '''    public String[] getValidateOrder()
+    '''public String[] getValidateOrder()
     '''
 def isNullQty():
-    '''    public void isNullQty()
+    '''public void isNullQty()
     '''
 def setVendor():
-    '''    public void setVendor()
+    '''public void setVendor()
     '''

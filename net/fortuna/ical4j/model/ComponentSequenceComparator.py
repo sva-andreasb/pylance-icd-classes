@@ -1,3 +1,3 @@
 def compare():
-    '''    public int compare(final Component o1, final Component o2)
+    '''public int compare(final Component o1, final Component o2)
     '''

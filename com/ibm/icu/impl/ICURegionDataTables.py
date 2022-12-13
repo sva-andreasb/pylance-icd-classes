@@ -1,3 +1,3 @@
 def ICURegionDataTables():
-    '''    public ICURegionDataTables()
+    '''public ICURegionDataTables()
     '''

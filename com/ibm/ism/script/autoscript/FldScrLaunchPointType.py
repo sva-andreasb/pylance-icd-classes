@@ -1,6 +1,6 @@
 def FldScrLaunchPointType():
-    '''    public FldScrLaunchPointType(final MboValue mbv)
+    '''public FldScrLaunchPointType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

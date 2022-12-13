@@ -1,6 +1,6 @@
 def StringInputStream():
-    '''    public StringInputStream(final String s)
+    '''public StringInputStream(final String s)
     '''
 def getString():
-    '''    public String getString()
+    '''public String getString()
     '''

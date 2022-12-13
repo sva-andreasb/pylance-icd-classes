@@ -1,9 +1,9 @@
 def PmSrvReqChgStatusBean():
-    '''    public PmSrvReqChgStatusBean()
+    '''public PmSrvReqChgStatusBean()
     '''
 def execute():
-    '''    public synchronized int execute()
+    '''public synchronized int execute()
     '''
 def getProperty():
-    '''    public String getProperty(final String propName)
+    '''public String getProperty(final String propName)
     '''

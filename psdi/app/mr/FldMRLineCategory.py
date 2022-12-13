@@ -1,3 +1,3 @@
 def FldMRLineCategory():
-    '''    public FldMRLineCategory(final MboValue mbv)
+    '''public FldMRLineCategory(final MboValue mbv)
     '''

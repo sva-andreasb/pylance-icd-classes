@@ -1,6 +1,6 @@
 def WFActivation():
-    '''    public WFActivation(final MboSet ms)
+    '''public WFActivation(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

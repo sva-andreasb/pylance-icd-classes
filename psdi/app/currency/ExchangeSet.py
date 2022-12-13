@@ -1,3 +1,3 @@
 def ExchangeSet():
-    '''    public ExchangeSet(final MboServerInterface ms)
+    '''public ExchangeSet(final MboServerInterface ms)
     '''

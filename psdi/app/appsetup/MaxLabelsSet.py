@@ -1,3 +1,3 @@
 def MaxLabelsSet():
-    '''    public MaxLabelsSet(final MboServerInterface ms)
+    '''public MaxLabelsSet(final MboServerInterface ms)
     '''

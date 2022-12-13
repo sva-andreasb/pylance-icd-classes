@@ -1,9 +1,9 @@
 def getName():
-    '''    public CharSequence getName()
+    '''public CharSequence getName()
     '''
 def getData():
-    '''    public V getData()
+    '''public V getData()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

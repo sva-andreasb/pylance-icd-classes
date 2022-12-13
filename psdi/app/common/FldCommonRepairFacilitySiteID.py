@@ -1,3 +1,3 @@
 def FldCommonRepairFacilitySiteID():
-    '''    public FldCommonRepairFacilitySiteID(final MboValue mbv)
+    '''public FldCommonRepairFacilitySiteID(final MboValue mbv)
     '''

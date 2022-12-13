@@ -1,12 +1,12 @@
 def LeaseViewStatusHandler():
-    '''    public LeaseViewStatusHandler(final StatefulMbo sm)
+    '''public LeaseViewStatusHandler(final StatefulMbo sm)
     '''
 def approve():
-    '''    public void approve(final String desiredStatus, final Date approveDate)
+    '''public void approve(final String desiredStatus, final Date approveDate)
     '''
 def cancel():
-    '''    public void cancel(final String desiredStatus, final Date cancelDate)
+    '''public void cancel(final String desiredStatus, final Date cancelDate)
     '''
 def close():
-    '''    public void close(final String desiredStatus, final Date closeDate)
+    '''public void close(final String desiredStatus, final Date closeDate)
     '''

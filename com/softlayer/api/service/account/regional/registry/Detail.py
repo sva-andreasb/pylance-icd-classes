@@ -1,136 +1,136 @@
 def getAccount():
-    '''    public Account getAccount()
+    '''public Account getAccount()
     '''
 def setAccount():
-    '''    public void setAccount(final Account account)
+    '''public void setAccount(final Account account)
     '''
 def setDetailType():
-    '''    public void setDetailType(final com.softlayer.api.service.account.regional.registry.detail.Type detailType)
+    '''public void setDetailType(final com.softlayer.api.service.account.regional.registry.detail.Type detailType)
     '''
 def getDetails():
-    '''    public List<Details> getDetails()
+    '''public List<Details> getDetails()
     '''
 def getProperties():
-    '''    public List<Property> getProperties()
+    '''public List<Property> getProperties()
     '''
 def getRegionalInternetRegistryHandle():
-    '''    public Handle getRegionalInternetRegistryHandle()
+    '''public Handle getRegionalInternetRegistryHandle()
     '''
 def setRegionalInternetRegistryHandle():
-    '''    public void setRegionalInternetRegistryHandle(final Handle regionalInternetRegistryHandle)
+    '''public void setRegionalInternetRegistryHandle(final Handle regionalInternetRegistryHandle)
     '''
 def getAccountId():
-    '''    public Long getAccountId()
+    '''public Long getAccountId()
     '''
 def setAccountId():
-    '''    public void setAccountId(final Long accountId)
+    '''public void setAccountId(final Long accountId)
     '''
 def isAccountIdSpecified():
-    '''    public boolean isAccountIdSpecified()
+    '''public boolean isAccountIdSpecified()
     '''
 def unsetAccountId():
-    '''    public void unsetAccountId()
+    '''public void unsetAccountId()
     '''
 def getCreateDate():
-    '''    public GregorianCalendar getCreateDate()
+    '''public GregorianCalendar getCreateDate()
     '''
 def setCreateDate():
-    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''public void setCreateDate(final GregorianCalendar createDate)
     '''
 def isCreateDateSpecified():
-    '''    public boolean isCreateDateSpecified()
+    '''public boolean isCreateDateSpecified()
     '''
 def unsetCreateDate():
-    '''    public void unsetCreateDate()
+    '''public void unsetCreateDate()
     '''
 def getDetailTypeId():
-    '''    public Long getDetailTypeId()
+    '''public Long getDetailTypeId()
     '''
 def setDetailTypeId():
-    '''    public void setDetailTypeId(final Long detailTypeId)
+    '''public void setDetailTypeId(final Long detailTypeId)
     '''
 def isDetailTypeIdSpecified():
-    '''    public boolean isDetailTypeIdSpecified()
+    '''public boolean isDetailTypeIdSpecified()
     '''
 def unsetDetailTypeId():
-    '''    public void unsetDetailTypeId()
+    '''public void unsetDetailTypeId()
     '''
 def getId():
-    '''    public Long getId()
+    '''public Long getId()
     '''
 def setId():
-    '''    public void setId(final Long id)
+    '''public void setId(final Long id)
     '''
 def isIdSpecified():
-    '''    public boolean isIdSpecified()
+    '''public boolean isIdSpecified()
     '''
 def unsetId():
-    '''    public void unsetId()
+    '''public void unsetId()
     '''
 def getModifyDate():
-    '''    public GregorianCalendar getModifyDate()
+    '''public GregorianCalendar getModifyDate()
     '''
 def setModifyDate():
-    '''    public void setModifyDate(final GregorianCalendar modifyDate)
+    '''public void setModifyDate(final GregorianCalendar modifyDate)
     '''
 def isModifyDateSpecified():
-    '''    public boolean isModifyDateSpecified()
+    '''public boolean isModifyDateSpecified()
     '''
 def unsetModifyDate():
-    '''    public void unsetModifyDate()
+    '''public void unsetModifyDate()
     '''
 def getRegionalInternetRegistryHandleId():
-    '''    public Long getRegionalInternetRegistryHandleId()
+    '''public Long getRegionalInternetRegistryHandleId()
     '''
 def setRegionalInternetRegistryHandleId():
-    '''    public void setRegionalInternetRegistryHandleId(final Long regionalInternetRegistryHandleId)
+    '''public void setRegionalInternetRegistryHandleId(final Long regionalInternetRegistryHandleId)
     '''
 def isRegionalInternetRegistryHandleIdSpecified():
-    '''    public boolean isRegionalInternetRegistryHandleIdSpecified()
+    '''public boolean isRegionalInternetRegistryHandleIdSpecified()
     '''
 def unsetRegionalInternetRegistryHandleId():
-    '''    public void unsetRegionalInternetRegistryHandleId()
+    '''public void unsetRegionalInternetRegistryHandleId()
     '''
 def getDetailCount():
-    '''    public Long getDetailCount()
+    '''public Long getDetailCount()
     '''
 def setDetailCount():
-    '''    public void setDetailCount(final Long detailCount)
+    '''public void setDetailCount(final Long detailCount)
     '''
 def getPropertyCount():
-    '''    public Long getPropertyCount()
+    '''public Long getPropertyCount()
     '''
 def setPropertyCount():
-    '''    public void setPropertyCount(final Long propertyCount)
+    '''public void setPropertyCount(final Long propertyCount)
     '''
 def asService():
-    '''    public Service asService(final ApiClient client)
+    '''public Service asService(final ApiClient client)
     '''
 def service():
-    '''    public static Service service(final ApiClient client)
+    '''public static Service service(final ApiClient client)
     public static Service service(final ApiClient client, final Long id)
     '''
 def accountId():
-    '''    public Mask accountId()
+    '''public Mask accountId()
     '''
 def createDate():
-    '''    public Mask createDate()
+    '''public Mask createDate()
     '''
 def detailTypeId():
-    '''    public Mask detailTypeId()
+    '''public Mask detailTypeId()
     '''
 def id():
-    '''    public Mask id()
+    '''public Mask id()
     '''
 def modifyDate():
-    '''    public Mask modifyDate()
+    '''public Mask modifyDate()
     '''
 def regionalInternetRegistryHandleId():
-    '''    public Mask regionalInternetRegistryHandleId()
+    '''public Mask regionalInternetRegistryHandleId()
     '''
 def detailCount():
-    '''    public Mask detailCount()
+    '''public Mask detailCount()
     '''
 def propertyCount():
-    '''    public Mask propertyCount()
+    '''public Mask propertyCount()
     '''

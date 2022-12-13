@@ -1,6 +1,6 @@
 def getDOMImplementation():
-    '''    public DOMImplementation getDOMImplementation(final String s)
+    '''public DOMImplementation getDOMImplementation(final String s)
     '''
 def getDOMImplementationList():
-    '''    public DOMImplementationList getDOMImplementationList(final String s)
+    '''public DOMImplementationList getDOMImplementationList(final String s)
     '''

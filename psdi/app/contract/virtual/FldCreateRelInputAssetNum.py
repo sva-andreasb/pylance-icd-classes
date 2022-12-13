@@ -1,6 +1,6 @@
 def FldCreateRelInputAssetNum():
-    '''    public FldCreateRelInputAssetNum(final MboValue mbv)
+    '''public FldCreateRelInputAssetNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,5 +1,5 @@
 def HttpConnection():
-    '''    public HttpConnection(final String host, final int port)
+    '''public HttpConnection(final String host, final int port)
     public HttpConnection(final String host, final int port, final Protocol protocol)
     public HttpConnection(final String host, final String virtualHost, final int port, final Protocol protocol)
     public HttpConnection(final String proxyHost, final int proxyPort, final String host, final int port)
@@ -8,150 +8,150 @@ def HttpConnection():
     public HttpConnection(final String proxyHost, final int proxyPort, final String host, final int port, final Protocol protocol)
     '''
 def getHost():
-    '''    public String getHost()
+    '''public String getHost()
     '''
 def setHost():
-    '''    public void setHost(final String host)
+    '''public void setHost(final String host)
     '''
 def getVirtualHost():
-    '''    public String getVirtualHost()
+    '''public String getVirtualHost()
     '''
 def setVirtualHost():
-    '''    public void setVirtualHost(final String host)
+    '''public void setVirtualHost(final String host)
     '''
 def getPort():
-    '''    public int getPort()
+    '''public int getPort()
     '''
 def setPort():
-    '''    public void setPort(final int port)
+    '''public void setPort(final int port)
     '''
 def getProxyHost():
-    '''    public String getProxyHost()
+    '''public String getProxyHost()
     '''
 def setProxyHost():
-    '''    public void setProxyHost(final String host)
+    '''public void setProxyHost(final String host)
     '''
 def getProxyPort():
-    '''    public int getProxyPort()
+    '''public int getProxyPort()
     '''
 def setProxyPort():
-    '''    public void setProxyPort(final int port)
+    '''public void setProxyPort(final int port)
     '''
 def isSecure():
-    '''    public boolean isSecure()
+    '''public boolean isSecure()
     '''
 def getProtocol():
-    '''    public Protocol getProtocol()
+    '''public Protocol getProtocol()
     '''
 def setProtocol():
-    '''    public void setProtocol(final Protocol protocol)
+    '''public void setProtocol(final Protocol protocol)
     '''
 def getLocalAddress():
-    '''    public InetAddress getLocalAddress()
+    '''public InetAddress getLocalAddress()
     '''
 def setLocalAddress():
-    '''    public void setLocalAddress(final InetAddress localAddress)
+    '''public void setLocalAddress(final InetAddress localAddress)
     '''
 def isOpen():
-    '''    public boolean isOpen()
+    '''public boolean isOpen()
     '''
 def closeIfStale():
-    '''    public boolean closeIfStale()
+    '''public boolean closeIfStale()
     '''
 def isStaleCheckingEnabled():
-    '''    public boolean isStaleCheckingEnabled()
+    '''public boolean isStaleCheckingEnabled()
     '''
 def setStaleCheckingEnabled():
-    '''    public void setStaleCheckingEnabled(final boolean staleCheckEnabled)
+    '''public void setStaleCheckingEnabled(final boolean staleCheckEnabled)
     '''
 def isProxied():
-    '''    public boolean isProxied()
+    '''public boolean isProxied()
     '''
 def setLastResponseInputStream():
-    '''    public void setLastResponseInputStream(final InputStream inStream)
+    '''public void setLastResponseInputStream(final InputStream inStream)
     '''
 def getLastResponseInputStream():
-    '''    public InputStream getLastResponseInputStream()
+    '''public InputStream getLastResponseInputStream()
     '''
 def getParams():
-    '''    public HttpConnectionParams getParams()
+    '''public HttpConnectionParams getParams()
     '''
 def setParams():
-    '''    public void setParams(final HttpConnectionParams params)
+    '''public void setParams(final HttpConnectionParams params)
     '''
 def setSoTimeout():
-    '''    public void setSoTimeout(final int timeout)
+    '''public void setSoTimeout(final int timeout)
     '''
 def setSocketTimeout():
-    '''    public void setSocketTimeout(final int timeout)
+    '''public void setSocketTimeout(final int timeout)
     '''
 def getSoTimeout():
-    '''    public int getSoTimeout()
+    '''public int getSoTimeout()
     '''
 def setConnectionTimeout():
-    '''    public void setConnectionTimeout(final int timeout)
+    '''public void setConnectionTimeout(final int timeout)
     '''
 def open():
-    '''    public void open()
+    '''public void open()
     '''
 def tunnelCreated():
-    '''    public void tunnelCreated()
+    '''public void tunnelCreated()
     '''
 def isTransparent():
-    '''    public boolean isTransparent()
+    '''public boolean isTransparent()
     '''
 def flushRequestOutputStream():
-    '''    public void flushRequestOutputStream()
+    '''public void flushRequestOutputStream()
     '''
 def getRequestOutputStream():
-    '''    public OutputStream getRequestOutputStream()
+    '''public OutputStream getRequestOutputStream()
     '''
 def getResponseInputStream():
-    '''    public InputStream getResponseInputStream()
+    '''public InputStream getResponseInputStream()
     '''
 def isResponseAvailable():
-    '''    public boolean isResponseAvailable()
+    '''public boolean isResponseAvailable()
     public boolean isResponseAvailable(final int timeout)
     '''
 def write():
-    '''    public void write(final byte[] data)
+    '''public void write(final byte[] data)
     public void write(final byte[] data, final int offset, final int length)
     '''
 def writeLine():
-    '''    public void writeLine(final byte[] data)
+    '''public void writeLine(final byte[] data)
     public void writeLine()
     '''
 def print():
-    '''    public void print(final String data)
+    '''public void print(final String data)
     public void print(final String data, final String charset)
     '''
 def printLine():
-    '''    public void printLine(final String data)
+    '''public void printLine(final String data)
     public void printLine(final String data, final String charset)
     public void printLine()
     '''
 def readLine():
-    '''    public String readLine()
+    '''public String readLine()
     public String readLine(final String charset)
     '''
 def shutdownOutput():
-    '''    public void shutdownOutput()
+    '''public void shutdownOutput()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def getHttpConnectionManager():
-    '''    public HttpConnectionManager getHttpConnectionManager()
+    '''public HttpConnectionManager getHttpConnectionManager()
     '''
 def setHttpConnectionManager():
-    '''    public void setHttpConnectionManager(final HttpConnectionManager httpConnectionManager)
+    '''public void setHttpConnectionManager(final HttpConnectionManager httpConnectionManager)
     '''
 def releaseConnection():
-    '''    public void releaseConnection()
+    '''public void releaseConnection()
     '''
 def getSendBufferSize():
-    '''    public int getSendBufferSize()
+    '''public int getSendBufferSize()
     '''
 def setSendBufferSize():
-    '''    public void setSendBufferSize(final int sendBufferSize)
+    '''public void setSendBufferSize(final int sendBufferSize)
     '''

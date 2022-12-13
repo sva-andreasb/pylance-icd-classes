@@ -1,6 +1,6 @@
 def FldOptimParameterAsync():
-    '''    public FldOptimParameterAsync(final MboValue mbv)
+    '''public FldOptimParameterAsync(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

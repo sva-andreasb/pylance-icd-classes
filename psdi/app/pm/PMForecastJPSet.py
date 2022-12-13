@@ -1,3 +1,3 @@
 def PMForecastJPSet():
-    '''    public PMForecastJPSet(final MboServerInterface ms)
+    '''public PMForecastJPSet(final MboServerInterface ms)
     '''

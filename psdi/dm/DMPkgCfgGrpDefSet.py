@@ -1,6 +1,6 @@
 def DMPkgCfgGrpDefSet():
-    '''    public DMPkgCfgGrpDefSet(final MboServerInterface ms)
+    '''public DMPkgCfgGrpDefSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

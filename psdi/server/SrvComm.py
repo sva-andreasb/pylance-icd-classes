@@ -1,83 +1,83 @@
 def SrvComm():
-    '''    public SrvComm(final MXServer mxServer)
+    '''public SrvComm(final MXServer mxServer)
     public SrvComm()
     '''
 def checkMemory():
-    '''    public String checkMemory()
+    '''public String checkMemory()
     '''
 def shutDown():
-    '''    public void shutDown()
+    '''public void shutDown()
     public void shutDown(final String serviceType)
     '''
 def reloadDBConnections():
-    '''    public Date reloadDBConnections()
+    '''public Date reloadDBConnections()
     '''
 def restartRegistry():
-    '''    public Date restartRegistry()
+    '''public Date restartRegistry()
     '''
 def enableService():
-    '''    public void enableService(final String module)
+    '''public void enableService(final String module)
     '''
 def disableService():
-    '''    public void disableService(final String module)
+    '''public void disableService(final String module)
     '''
 def setLoggerLevel():
-    '''    public void setLoggerLevel(final String nameValue)
+    '''public void setLoggerLevel(final String nameValue)
     '''
 def mboCount():
-    '''    public void mboCount(final boolean on)
+    '''public void mboCount(final boolean on)
     '''
 def getRemoteUsersSize():
-    '''    public int getRemoteUsersSize()
+    '''public int getRemoteUsersSize()
     '''
 def getDBConnTotal():
-    '''    public int getDBConnTotal()
+    '''public int getDBConnTotal()
     '''
 def getDBConnUsed():
-    '''    public int getDBConnUsed()
+    '''public int getDBConnUsed()
     '''
 def getDBConnFree():
-    '''    public int getDBConnFree()
+    '''public int getDBConnFree()
     '''
 def main():
-    '''    public static void main(final String[] argv)
+    '''public static void main(final String[] argv)
     '''
 def cmd():
-    '''    public void cmd(final String[] argv)
+    '''public void cmd(final String[] argv)
     '''
 def stop():
-    '''    public void stop()
+    '''public void stop()
     '''
 def serviceOn():
-    '''    public void serviceOn(final String arg)
+    '''public void serviceOn(final String arg)
     '''
 def serviceOff():
-    '''    public void serviceOff(final String arg)
+    '''public void serviceOff(final String arg)
     '''
 def logger():
-    '''    public void logger(final String arg)
+    '''public void logger(final String arg)
     '''
 def mboCountOn():
-    '''    public void mboCountOn()
+    '''public void mboCountOn()
     '''
 def mboCountOff():
-    '''    public void mboCountOff()
+    '''public void mboCountOff()
     '''
 def printUsage():
-    '''    public void printUsage()
+    '''public void printUsage()
     '''
 def getMemory():
-    '''    public String[] getMemory()
+    '''public String[] getMemory()
     '''
 def getFreeMemory():
-    '''    public String[] getFreeMemory()
+    '''public String[] getFreeMemory()
     '''
 def getRuntimeManagedBean():
-    '''    public RuntimeMXBean getRuntimeManagedBean()
+    '''public RuntimeMXBean getRuntimeManagedBean()
     '''
 def getHeapUsage():
-    '''    public String[] getHeapUsage()
+    '''public String[] getHeapUsage()
     '''
 def getGarbageCollectors():
-    '''    public Vector getGarbageCollectors()
+    '''public Vector getGarbageCollectors()
     '''

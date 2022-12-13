@@ -1,15 +1,15 @@
 def IssueCurrentItem():
-    '''    public IssueCurrentItem(final MboSet ms)
+    '''public IssueCurrentItem(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def getWO():
-    '''    public MboRemote getWO()
+    '''public MboRemote getWO()
     '''

@@ -18,89 +18,89 @@ MAXTYPE_INTEGER = "String  \"INTEGER\""
 MAXTYPE_BIGINT = "String  \"BIGINT\""
 MAXTYPE_DECIMAL = "String  \"DECIMAL\""
 def JSONPropertyInfo():
-    '''    public JSONPropertyInfo(final String name, final int type, final long suggestedLength, final String title)
+    '''public JSONPropertyInfo(final String name, final int type, final long suggestedLength, final String title)
     public JSONPropertyInfo(final String name, final String attributeName, final int type, final Object defaultValue, final long suggestedLength, final String title, final String dateFormatType, final String dateFormat)
     public JSONPropertyInfo(final String attributeName, final String propName, final String dateFormatType, final String dateFormat)
     '''
 def setEditable():
-    '''    public void setEditable(final boolean editable)
+    '''public void setEditable(final boolean editable)
     '''
 def setDomainName():
-    '''    public void setDomainName(final String domainName)
+    '''public void setDomainName(final String domainName)
     '''
 def getDomainName():
-    '''    public String getDomainName()
+    '''public String getDomainName()
     '''
 def setRequired():
-    '''    public void setRequired(final boolean required)
+    '''public void setRequired(final boolean required)
     '''
 def isEditable():
-    '''    public boolean isEditable()
+    '''public boolean isEditable()
     '''
 def isRequired():
-    '''    public boolean isRequired()
+    '''public boolean isRequired()
     '''
 def getSuggestedLength():
-    '''    public long getSuggestedLength()
+    '''public long getSuggestedLength()
     '''
 def setLength():
-    '''    public void setLength(final int l)
+    '''public void setLength(final int l)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getAttributeName():
-    '''    public String getAttributeName()
+    '''public String getAttributeName()
     '''
 def setAttributeName():
-    '''    public void setAttributeName(final String attr)
+    '''public void setAttributeName(final String attr)
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''
 def getScale():
-    '''    public int getScale()
+    '''public int getScale()
     '''
 def setScale():
-    '''    public void setScale(final int t)
+    '''public void setScale(final int t)
     '''
 def getTitle():
-    '''    public String getTitle()
+    '''public String getTitle()
     '''
 def setTitle():
-    '''    public void setTitle(final String t)
+    '''public void setTitle(final String t)
     '''
 def setDefaultValue():
-    '''    public void setDefaultValue(final String t)
+    '''public void setDefaultValue(final String t)
     '''
 def getDefaultValue():
-    '''    public Object getDefaultValue()
+    '''public Object getDefaultValue()
     '''
 def getMaxType():
-    '''    public String getMaxType()
+    '''public String getMaxType()
     public String getMaxType(final int type)
     '''
 def setMaxType():
-    '''    public void setMaxType(final String t)
+    '''public void setMaxType(final String t)
     '''
 def setDateFormatType():
-    '''    public String setDateFormatType(final String dt)
+    '''public String setDateFormatType(final String dt)
     '''
 def setDateFormat():
-    '''    public String setDateFormat(final String df)
+    '''public String setDateFormat(final String df)
     '''
 def getDomainMap():
-    '''    public Map<Object, String> getDomainMap()
+    '''public Map<Object, String> getDomainMap()
     '''
 def getDateFormatType():
-    '''    public String getDateFormatType()
+    '''public String getDateFormatType()
     '''
 def getDateFormat():
-    '''    public String getDateFormat()
+    '''public String getDateFormat()
     '''
 def setDomainMap():
-    '''    public void setDomainMap(final Map<Object, String> domainMap)
+    '''public void setDomainMap(final Map<Object, String> domainMap)
     '''
 def setConstraints():
-    '''    public void setConstraints(final PropertyConstraints pc)
+    '''public void setConstraints(final PropertyConstraints pc)
     '''

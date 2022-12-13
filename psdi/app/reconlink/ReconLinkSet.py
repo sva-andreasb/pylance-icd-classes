@@ -1,6 +1,6 @@
 def ReconLinkSet():
-    '''    public ReconLinkSet(final MboServerInterface ms)
+    '''public ReconLinkSet(final MboServerInterface ms)
     '''
 def deleteAll():
-    '''    public void deleteAll()
+    '''public void deleteAll()
     '''

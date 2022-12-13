@@ -1,31 +1,31 @@
 def EventBasedExcelExtractor():
-    '''    public EventBasedExcelExtractor(final DirectoryNode dir)
+    '''public EventBasedExcelExtractor(final DirectoryNode dir)
     public EventBasedExcelExtractor(final POIFSFileSystem fs)
     '''
 def getDocSummaryInformation():
-    '''    public DocumentSummaryInformation getDocSummaryInformation()
+    '''public DocumentSummaryInformation getDocSummaryInformation()
     '''
 def getSummaryInformation():
-    '''    public SummaryInformation getSummaryInformation()
+    '''public SummaryInformation getSummaryInformation()
     '''
 def setIncludeCellComments():
-    '''    public void setIncludeCellComments(final boolean includeComments)
+    '''public void setIncludeCellComments(final boolean includeComments)
     '''
 def setIncludeHeadersFooters():
-    '''    public void setIncludeHeadersFooters(final boolean includeHeadersFooters)
+    '''public void setIncludeHeadersFooters(final boolean includeHeadersFooters)
     '''
 def setIncludeSheetNames():
-    '''    public void setIncludeSheetNames(final boolean includeSheetNames)
+    '''public void setIncludeSheetNames(final boolean includeSheetNames)
     '''
 def setFormulasNotResults():
-    '''    public void setFormulasNotResults(final boolean formulasNotResults)
+    '''public void setFormulasNotResults(final boolean formulasNotResults)
     '''
 def getText():
-    '''    public String getText()
+    '''public String getText()
     '''
 def TextListener():
-    '''    public TextListener()
+    '''public TextListener()
     '''
 def processRecord():
-    '''    public void processRecord(final Record record)
+    '''public void processRecord(final Record record)
     '''

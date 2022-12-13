@@ -1,78 +1,78 @@
 def getAccessType():
-    '''    public String getAccessType()
+    '''public String getAccessType()
     '''
 def setAccessType():
-    '''    public Tokeninfo setAccessType(final String accessType)
+    '''public Tokeninfo setAccessType(final String accessType)
     '''
 def getAudience():
-    '''    public String getAudience()
+    '''public String getAudience()
     '''
 def setAudience():
-    '''    public Tokeninfo setAudience(final String audience)
+    '''public Tokeninfo setAudience(final String audience)
     '''
 def getEmail():
-    '''    public String getEmail()
+    '''public String getEmail()
     '''
 def setEmail():
-    '''    public Tokeninfo setEmail(final String email)
+    '''public Tokeninfo setEmail(final String email)
     '''
 def getEmailVerified():
-    '''    public Boolean getEmailVerified()
+    '''public Boolean getEmailVerified()
     '''
 def setEmailVerified():
-    '''    public Tokeninfo setEmailVerified(final Boolean emailVerified)
+    '''public Tokeninfo setEmailVerified(final Boolean emailVerified)
     '''
 def getExpiresIn():
-    '''    public Integer getExpiresIn()
+    '''public Integer getExpiresIn()
     '''
 def setExpiresIn():
-    '''    public Tokeninfo setExpiresIn(final Integer expiresIn)
+    '''public Tokeninfo setExpiresIn(final Integer expiresIn)
     '''
 def getIssuedAt():
-    '''    public Integer getIssuedAt()
+    '''public Integer getIssuedAt()
     '''
 def setIssuedAt():
-    '''    public Tokeninfo setIssuedAt(final Integer issuedAt)
+    '''public Tokeninfo setIssuedAt(final Integer issuedAt)
     '''
 def getIssuedTo():
-    '''    public String getIssuedTo()
+    '''public String getIssuedTo()
     '''
 def setIssuedTo():
-    '''    public Tokeninfo setIssuedTo(final String issuedTo)
+    '''public Tokeninfo setIssuedTo(final String issuedTo)
     '''
 def getIssuer():
-    '''    public String getIssuer()
+    '''public String getIssuer()
     '''
 def setIssuer():
-    '''    public Tokeninfo setIssuer(final String issuer)
+    '''public Tokeninfo setIssuer(final String issuer)
     '''
 def getNonce():
-    '''    public String getNonce()
+    '''public String getNonce()
     '''
 def setNonce():
-    '''    public Tokeninfo setNonce(final String nonce)
+    '''public Tokeninfo setNonce(final String nonce)
     '''
 def getScope():
-    '''    public String getScope()
+    '''public String getScope()
     '''
 def setScope():
-    '''    public Tokeninfo setScope(final String scope)
+    '''public Tokeninfo setScope(final String scope)
     '''
 def getUserId():
-    '''    public String getUserId()
+    '''public String getUserId()
     '''
 def setUserId():
-    '''    public Tokeninfo setUserId(final String userId)
+    '''public Tokeninfo setUserId(final String userId)
     '''
 def getVerifiedEmail():
-    '''    public Boolean getVerifiedEmail()
+    '''public Boolean getVerifiedEmail()
     '''
 def setVerifiedEmail():
-    '''    public Tokeninfo setVerifiedEmail(final Boolean verifiedEmail)
+    '''public Tokeninfo setVerifiedEmail(final Boolean verifiedEmail)
     '''
 def set():
-    '''    public Tokeninfo set(final String s, final Object o)
+    '''public Tokeninfo set(final String s, final Object o)
     '''
 def clone():
-    '''    public Tokeninfo clone()
+    '''public Tokeninfo clone()
     '''

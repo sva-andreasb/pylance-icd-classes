@@ -1,3 +1,3 @@
 def PmComRelatedExternalSet():
-    '''    public PmComRelatedExternalSet(final MboServerInterface ms)
+    '''public PmComRelatedExternalSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def IntErrorChangeStatus():
-    '''    public IntErrorChangeStatus(final MboSet ms)
+    '''public IntErrorChangeStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

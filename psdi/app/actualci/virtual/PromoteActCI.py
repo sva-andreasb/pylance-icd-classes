@@ -1,3 +1,3 @@
 def PromoteActCI():
-    '''    public PromoteActCI(final MboSet ms)
+    '''public PromoteActCI(final MboSet ms)
     '''

@@ -8,35 +8,35 @@ CONNECTION_TYPE_HTTP_POLLING = "int  6"
 CONNECTION_TYPE_AGENT = "int  7"
 CONNECTION_TYPE_HYBRID_POLLING = "int  8"
 def getConnectionType():
-    '''    public int getConnectionType()
+    '''public int getConnectionType()
     '''
 def getHostName():
-    '''    public String getHostName()
+    '''public String getHostName()
     '''
 def getServerPort():
-    '''    public int getServerPort()
+    '''public int getServerPort()
     '''
 def getServerProtocol():
-    '''    public String getServerProtocol()
+    '''public String getServerProtocol()
     '''
 def getHostUrl():
-    '''    public URL getHostUrl()
+    '''public URL getHostUrl()
     '''
 def getProxyServer():
-    '''    public String getProxyServer()
+    '''public String getProxyServer()
     '''
 def getProxyPort():
-    '''    public int getProxyPort()
+    '''public int getProxyPort()
     '''
 def getProxyLogin():
-    '''    public String getProxyLogin()
+    '''public String getProxyLogin()
     '''
 def getProxyPassword():
-    '''    public String getProxyPassword()
+    '''public String getProxyPassword()
     '''
 def isOurOwnConnection():
-    '''    public boolean isOurOwnConnection()
+    '''public boolean isOurOwnConnection()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

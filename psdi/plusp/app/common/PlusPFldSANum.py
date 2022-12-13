@@ -1,6 +1,6 @@
 def PlusPFldSANum():
-    '''    public PlusPFldSANum(final MboValue arg0)
+    '''public PlusPFldSANum(final MboValue arg0)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

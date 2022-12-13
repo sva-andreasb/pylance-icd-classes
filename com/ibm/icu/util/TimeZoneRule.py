@@ -1,18 +1,18 @@
 def TimeZoneRule():
-    '''    public TimeZoneRule(final String name, final int rawOffset, final int dstSavings)
+    '''public TimeZoneRule(final String name, final int rawOffset, final int dstSavings)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getRawOffset():
-    '''    public int getRawOffset()
+    '''public int getRawOffset()
     '''
 def getDSTSavings():
-    '''    public int getDSTSavings()
+    '''public int getDSTSavings()
     '''
 def isEquivalentTo():
-    '''    public boolean isEquivalentTo(final TimeZoneRule other)
+    '''public boolean isEquivalentTo(final TimeZoneRule other)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

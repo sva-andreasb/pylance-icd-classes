@@ -1,3 +1,3 @@
 def FldLaborAuthLaborcode():
-    '''    public FldLaborAuthLaborcode(final MboValue mbv)
+    '''public FldLaborAuthLaborcode(final MboValue mbv)
     '''

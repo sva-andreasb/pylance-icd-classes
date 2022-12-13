@@ -1,6 +1,6 @@
 def FldWpLaborOutside():
-    '''    public FldWpLaborOutside(final MboValue mbv)
+    '''public FldWpLaborOutside(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

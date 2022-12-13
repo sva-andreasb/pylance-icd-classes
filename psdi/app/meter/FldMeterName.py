@@ -1,3 +1,3 @@
 def FldMeterName():
-    '''    public FldMeterName(final MboValue mbv)
+    '''public FldMeterName(final MboValue mbv)
     '''

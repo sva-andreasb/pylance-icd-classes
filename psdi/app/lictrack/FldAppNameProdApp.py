@@ -1,3 +1,3 @@
 def FldAppNameProdApp():
-    '''    public FldAppNameProdApp(final MboValue mbv)
+    '''public FldAppNameProdApp(final MboValue mbv)
     '''

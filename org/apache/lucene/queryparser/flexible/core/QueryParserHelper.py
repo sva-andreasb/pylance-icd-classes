@@ -1,30 +1,30 @@
 def QueryParserHelper():
-    '''    public QueryParserHelper(final QueryConfigHandler queryConfigHandler, final SyntaxParser syntaxParser, final QueryNodeProcessor processor, final QueryBuilder builder)
+    '''public QueryParserHelper(final QueryConfigHandler queryConfigHandler, final SyntaxParser syntaxParser, final QueryNodeProcessor processor, final QueryBuilder builder)
     '''
 def getQueryNodeProcessor():
-    '''    public QueryNodeProcessor getQueryNodeProcessor()
+    '''public QueryNodeProcessor getQueryNodeProcessor()
     '''
 def setQueryNodeProcessor():
-    '''    public void setQueryNodeProcessor(final QueryNodeProcessor processor)
+    '''public void setQueryNodeProcessor(final QueryNodeProcessor processor)
     '''
 def setSyntaxParser():
-    '''    public void setSyntaxParser(final SyntaxParser syntaxParser)
+    '''public void setSyntaxParser(final SyntaxParser syntaxParser)
     '''
 def setQueryBuilder():
-    '''    public void setQueryBuilder(final QueryBuilder queryBuilder)
+    '''public void setQueryBuilder(final QueryBuilder queryBuilder)
     '''
 def getQueryConfigHandler():
-    '''    public QueryConfigHandler getQueryConfigHandler()
+    '''public QueryConfigHandler getQueryConfigHandler()
     '''
 def getQueryBuilder():
-    '''    public QueryBuilder getQueryBuilder()
+    '''public QueryBuilder getQueryBuilder()
     '''
 def getSyntaxParser():
-    '''    public SyntaxParser getSyntaxParser()
+    '''public SyntaxParser getSyntaxParser()
     '''
 def setQueryConfigHandler():
-    '''    public void setQueryConfigHandler(final QueryConfigHandler config)
+    '''public void setQueryConfigHandler(final QueryConfigHandler config)
     '''
 def parse():
-    '''    public Object parse(final String query, final String defaultField)
+    '''public Object parse(final String query, final String defaultField)
     '''

@@ -1,3 +1,3 @@
 def StaticCodeConstraintException():
-    '''    public StaticCodeConstraintException(final String message)
+    '''public StaticCodeConstraintException(final String message)
     '''

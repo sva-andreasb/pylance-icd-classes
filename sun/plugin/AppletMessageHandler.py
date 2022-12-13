@@ -1,8 +1,8 @@
 def AppletMessageHandler():
-    '''    public AppletMessageHandler(final String baseKey)
+    '''public AppletMessageHandler(final String baseKey)
     '''
 def getMessage():
-    '''    public String getMessage(final String s)
+    '''public String getMessage(final String s)
     public String getMessage(final String s, Object o)
     public String getMessage(final String s, Object o, Object o2)
     public String getMessage(final String s, Object o, Object o2, Object o3)

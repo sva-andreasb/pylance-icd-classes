@@ -1,6 +1,6 @@
 def MaxCIProcess():
-    '''    public MaxCIProcess()
+    '''public MaxCIProcess()
     '''
 def setAdditionalData():
-    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
     '''

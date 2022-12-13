@@ -1,6 +1,6 @@
 def Characters():
-    '''    public Characters(final char[] buffer, final int offset, final int length)
+    '''public Characters(final char[] buffer, final int offset, final int length)
     '''
 def getBuffer():
-    '''    public final char[] getBuffer()
+    '''public final char[] getBuffer()
     '''

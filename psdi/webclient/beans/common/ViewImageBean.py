@@ -1,6 +1,6 @@
 def ViewImageBean():
-    '''    public ViewImageBean()
+    '''public ViewImageBean()
     '''
 def close():
-    '''    public synchronized void close()
+    '''public synchronized void close()
     '''

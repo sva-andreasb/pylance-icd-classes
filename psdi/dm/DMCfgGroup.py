@@ -1,21 +1,21 @@
 def DMCfgGroup():
-    '''    public DMCfgGroup(final MboSet ms)
+    '''public DMCfgGroup(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def getMboSet():
-    '''    public MboSetRemote getMboSet(final String name, final String objectName, final String relationship)
+    '''public MboSetRemote getMboSet(final String name, final String objectName, final String relationship)
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''

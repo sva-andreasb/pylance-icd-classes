@@ -1,6 +1,6 @@
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''
 def instantdelete():
-    '''    public int instantdelete()
+    '''public int instantdelete()
     '''

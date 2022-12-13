@@ -1,3 +1,3 @@
 def PmtcoSelectAssetBean():
-    '''    public PmtcoSelectAssetBean()
+    '''public PmtcoSelectAssetBean()
     '''

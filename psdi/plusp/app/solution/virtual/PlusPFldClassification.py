@@ -1,6 +1,6 @@
 def PlusPFldClassification():
-    '''    public PlusPFldClassification(final MboValue arg0)
+    '''public PlusPFldClassification(final MboValue arg0)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

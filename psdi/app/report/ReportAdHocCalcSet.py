@@ -1,3 +1,3 @@
 def ReportAdHocCalcSet():
-    '''    public ReportAdHocCalcSet(final MboServerInterface ms)
+    '''public ReportAdHocCalcSet(final MboServerInterface ms)
     '''

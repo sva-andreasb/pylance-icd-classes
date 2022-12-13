@@ -1,6 +1,6 @@
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def PlusCTPAssociatedAsset():
-    '''    public PlusCTPAssociatedAsset(final MboSet ms)
+    '''public PlusCTPAssociatedAsset(final MboSet ms)
     '''

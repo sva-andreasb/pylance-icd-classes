@@ -1,3 +1,3 @@
 def toString():
-    '''    public final String toString()
+    '''public final String toString()
     '''

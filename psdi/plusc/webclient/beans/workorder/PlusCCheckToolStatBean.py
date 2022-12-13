@@ -1,3 +1,3 @@
 def searchts():
-    '''    public int searchts()
+    '''public int searchts()
     '''

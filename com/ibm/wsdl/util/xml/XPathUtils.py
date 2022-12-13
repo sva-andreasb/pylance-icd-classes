@@ -1,3 +1,3 @@
 def getXPathExprFromNode():
-    '''    public static String getXPathExprFromNode(final Node node)
+    '''public static String getXPathExprFromNode(final Node node)
     '''

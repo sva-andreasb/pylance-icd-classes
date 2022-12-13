@@ -1,3 +1,3 @@
 def CrontaskHistorySet():
-    '''    public CrontaskHistorySet(final MboServerInterface ms)
+    '''public CrontaskHistorySet(final MboServerInterface ms)
     '''

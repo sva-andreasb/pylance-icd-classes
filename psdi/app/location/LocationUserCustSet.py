@@ -1,3 +1,3 @@
 def LocationUserCustSet():
-    '''    public LocationUserCustSet(final MboServerInterface ms)
+    '''public LocationUserCustSet(final MboServerInterface ms)
     '''

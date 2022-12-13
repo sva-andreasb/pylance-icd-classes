@@ -1,9 +1,9 @@
 def PlusPFldLabTransLineCost():
-    '''    public PlusPFldLabTransLineCost(final MboValue arg0)
+    '''public PlusPFldLabTransLineCost(final MboValue arg0)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

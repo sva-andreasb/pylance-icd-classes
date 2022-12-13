@@ -1,6 +1,6 @@
 def FldSessionStatus():
-    '''    public FldSessionStatus(final MboValue mbv)
+    '''public FldSessionStatus(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

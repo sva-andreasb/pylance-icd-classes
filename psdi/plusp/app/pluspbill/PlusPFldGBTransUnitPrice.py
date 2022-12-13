@@ -1,6 +1,6 @@
 def PlusPFldGBTransUnitPrice():
-    '''    public PlusPFldGBTransUnitPrice(final MboValue mbv)
+    '''public PlusPFldGBTransUnitPrice(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

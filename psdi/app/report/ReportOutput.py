@@ -1,6 +1,6 @@
 def ReportOutput():
-    '''    public ReportOutput(final MboSet ms)
+    '''public ReportOutput(final MboSet ms)
     '''
 def generateAutoKey():
-    '''    public void generateAutoKey()
+    '''public void generateAutoKey()
     '''

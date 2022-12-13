@@ -1,9 +1,9 @@
 def FldLocLocation():
-    '''    public FldLocLocation(final MboValue mbv)
+    '''public FldLocLocation(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

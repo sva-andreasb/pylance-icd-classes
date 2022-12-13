@@ -1,27 +1,27 @@
 def UVector64():
-    '''    public UVector64()
+    '''public UVector64()
     '''
 def isEmpty():
-    '''    public boolean isEmpty()
+    '''public boolean isEmpty()
     '''
 def size():
-    '''    public int size()
+    '''public int size()
     '''
 def elementAti():
-    '''    public long elementAti(final int i)
+    '''public long elementAti(final int i)
     '''
 def getBuffer():
-    '''    public long[] getBuffer()
+    '''public long[] getBuffer()
     '''
 def addElement():
-    '''    public void addElement(final long e)
+    '''public void addElement(final long e)
     '''
 def setElementAt():
-    '''    public void setElementAt(final long elem, final int index)
+    '''public void setElementAt(final long elem, final int index)
     '''
 def insertElementAt():
-    '''    public void insertElementAt(final long elem, final int index)
+    '''public void insertElementAt(final long elem, final int index)
     '''
 def removeAllElements():
-    '''    public void removeAllElements()
+    '''public void removeAllElements()
     '''

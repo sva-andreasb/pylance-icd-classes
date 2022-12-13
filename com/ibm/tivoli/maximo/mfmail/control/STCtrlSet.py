@@ -1,3 +1,3 @@
 def STCtrlSet():
-    '''    public STCtrlSet(final MboServerInterface ms)
+    '''public STCtrlSet(final MboServerInterface ms)
     '''

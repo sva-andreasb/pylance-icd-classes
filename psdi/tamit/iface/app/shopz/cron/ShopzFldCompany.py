@@ -1,6 +1,6 @@
 def ShopzFldCompany():
-    '''    public ShopzFldCompany(final MboValue mbv)
+    '''public ShopzFldCompany(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

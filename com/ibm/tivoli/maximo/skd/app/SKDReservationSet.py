@@ -1,3 +1,3 @@
 def SKDReservationSet():
-    '''    public SKDReservationSet(final MboServerInterface ms)
+    '''public SKDReservationSet(final MboServerInterface ms)
     '''

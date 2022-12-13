@@ -1,12 +1,12 @@
 def MaxLicStatus():
-    '''    public MaxLicStatus(final MboSet ms)
+    '''public MaxLicStatus(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def getMaxLicStatus():
-    '''    public Vector getMaxLicStatus()
+    '''public Vector getMaxLicStatus()
     '''

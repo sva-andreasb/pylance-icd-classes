@@ -1,6 +1,6 @@
 def UserStatusChangeSet():
-    '''    public UserStatusChangeSet(final MboServerInterface ms)
+    '''public UserStatusChangeSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

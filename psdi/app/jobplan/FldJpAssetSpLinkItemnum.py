@@ -1,15 +1,15 @@
 def FldJpAssetSpLinkItemnum():
-    '''    public FldJpAssetSpLinkItemnum(final MboValue mbv)
+    '''public FldJpAssetSpLinkItemnum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def buildListCriteria():
-    '''    public String buildListCriteria()
+    '''public String buildListCriteria()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

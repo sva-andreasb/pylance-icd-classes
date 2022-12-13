@@ -1,33 +1,33 @@
 def MaxInteraction():
-    '''    public MaxInteraction(final MboSet ms)
+    '''public MaxInteraction(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def deleteInteraction():
-    '''    public String deleteInteraction(final byte[] presentataion)
+    '''public String deleteInteraction(final byte[] presentataion)
     '''
 def runConfigDB():
-    '''    public void runConfigDB(final MboRemote listenerMbo)
+    '''public void runConfigDB(final MboRemote listenerMbo)
     '''
 def getParentTbName():
-    '''    public String getParentTbName(final MboRemote mapObject)
+    '''public String getParentTbName(final MboRemote mapObject)
     '''
 def checkMappingObject():
-    '''    public void checkMappingObject(final MboRemote mapObject, final String colsRelation)
+    '''public void checkMappingObject(final MboRemote mapObject, final String colsRelation)
     '''
 def validateInteraction():
-    '''    public boolean validateInteraction()
+    '''public boolean validateInteraction()
     '''
 def exportInteraction():
-    '''    public void exportInteraction()
+    '''public void exportInteraction()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''

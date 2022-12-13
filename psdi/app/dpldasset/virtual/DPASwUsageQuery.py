@@ -1,3 +1,3 @@
 def DPASwUsageQuery():
-    '''    public DPASwUsageQuery(final MboSet ms)
+    '''public DPASwUsageQuery(final MboSet ms)
     '''

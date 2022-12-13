@@ -1,22 +1,22 @@
 def MaxServiceCache():
-    '''    public MaxServiceCache(final Properties propsFromFile)
+    '''public MaxServiceCache(final Properties propsFromFile)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def reload():
-    '''    public void reload()
+    '''public void reload()
     public void reload(final String key)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getServiceInfo():
-    '''    public ServiceInfo getServiceInfo(final String service)
+    '''public ServiceInfo getServiceInfo(final String service)
     '''
 def getServicesInfo():
-    '''    public Iterator getServicesInfo()
+    '''public Iterator getServicesInfo()
     '''

@@ -1,3 +1,3 @@
 def PlusPFldCreateCustomerBillBatchNum():
-    '''    public PlusPFldCreateCustomerBillBatchNum(final MboValue mboValue)
+    '''public PlusPFldCreateCustomerBillBatchNum(final MboValue mboValue)
     '''

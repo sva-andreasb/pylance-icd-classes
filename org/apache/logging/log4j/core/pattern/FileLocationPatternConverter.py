@@ -1,6 +1,6 @@
 def newInstance():
-    '''    public static FileLocationPatternConverter newInstance(final String[] options)
+    '''public static FileLocationPatternConverter newInstance(final String[] options)
     '''
 def format():
-    '''    public void format(final LogEvent event, final StringBuilder output)
+    '''public void format(final LogEvent event, final StringBuilder output)
     '''

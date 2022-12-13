@@ -1,6 +1,6 @@
 def ExtAttrTableGenerator():
-    '''    public ExtAttrTableGenerator(final Guid guid, final long version, final TableContent content, final SessionContext session)
+    '''public ExtAttrTableGenerator(final Guid guid, final long version, final TableContent content, final SessionContext session)
     '''
 def getModel():
-    '''    public DetailTableModel getModel()
+    '''public DetailTableModel getModel()
     '''

@@ -1,3 +1,3 @@
 def ArabicShapingException():
-    '''    public ArabicShapingException(final String message)
+    '''public ArabicShapingException(final String message)
     '''

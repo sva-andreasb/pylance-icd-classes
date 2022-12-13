@@ -6,15 +6,15 @@ CONTENT_STORE_PACKAGE_LOCATION = "String  \"CONTENT_STORE_PACKAGE_LOCATION\""
 AUTHENTICATION_METHOD = "String  \"AUTHENTICATION_METHOD\""
 MULTISERVER_ENABLED = "String  \"MULTISERVER_ENABLED\""
 def CognosHandler():
-    '''    public CognosHandler()
+    '''public CognosHandler()
     public CognosHandler(final MaxEndPointInfo endPointInfo)
     '''
 def setUserInfo():
-    '''    public static void setUserInfo(final UserInfo userInfo)
+    '''public static void setUserInfo(final UserInfo userInfo)
     '''
 def getProperties():
-    '''    public List<RouterPropsInfo> getProperties()
+    '''public List<RouterPropsInfo> getProperties()
     '''
 def invoke():
-    '''    public byte[] invoke(final Map<String, ?> metadata, byte[] data)
+    '''public byte[] invoke(final Map<String, ?> metadata, byte[] data)
     '''

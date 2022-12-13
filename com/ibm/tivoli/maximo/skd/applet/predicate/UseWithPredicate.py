@@ -1,6 +1,6 @@
 def UseWithPredicate():
-    '''    public UseWithPredicate(final String useWith)
+    '''public UseWithPredicate(final String useWith)
     '''
 def evaluate():
-    '''    public boolean evaluate(final IlvHierarchyChart chart, final IlvHierarchyNode in)
+    '''public boolean evaluate(final IlvHierarchyChart chart, final IlvHierarchyNode in)
     '''

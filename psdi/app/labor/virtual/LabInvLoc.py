@@ -1,6 +1,6 @@
 def LabInvLoc():
-    '''    public LabInvLoc(final MboSet ms)
+    '''public LabInvLoc(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

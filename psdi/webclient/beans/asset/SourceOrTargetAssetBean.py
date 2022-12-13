@@ -1,3 +1,3 @@
 def SourceOrTargetAssetBean():
-    '''    public SourceOrTargetAssetBean()
+    '''public SourceOrTargetAssetBean()
     '''

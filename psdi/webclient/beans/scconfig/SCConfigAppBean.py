@@ -1,3 +1,3 @@
 def gotostartcenter():
-    '''    public int gotostartcenter()
+    '''public int gotostartcenter()
     '''

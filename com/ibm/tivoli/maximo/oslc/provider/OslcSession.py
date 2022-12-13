@@ -1,53 +1,53 @@
 OSLCSESSION = "String  \"oslcsession\""
 def OslcSession():
-    '''    public OslcSession()
+    '''public OslcSession()
     '''
 def getCsrfToken():
-    '''    public String getCsrfToken()
+    '''public String getCsrfToken()
     '''
 def setCsrfToken():
-    '''    public void setCsrfToken()
+    '''public void setCsrfToken()
     public void setCsrfToken(final String csrfToken)
     '''
 def getMXToken():
-    '''    public String getMXToken()
+    '''public String getMXToken()
     '''
 def setMXSession():
-    '''    public void setMXSession(final MXSession mxSession)
+    '''public void setMXSession(final MXSession mxSession)
     '''
 def isLeanJSON():
-    '''    public boolean isLeanJSON()
+    '''public boolean isLeanJSON()
     '''
 def setLeanJSON():
-    '''    public void setLeanJSON(final boolean leanJSON)
+    '''public void setLeanJSON(final boolean leanJSON)
     '''
 def setRelativeURI():
-    '''    public void setRelativeURI(final boolean relativeURI)
+    '''public void setRelativeURI(final boolean relativeURI)
     '''
 def isRelativeURI():
-    '''    public boolean isRelativeURI()
+    '''public boolean isRelativeURI()
     '''
 def setPublicURI():
-    '''    public void setPublicURI(final String publicURI)
+    '''public void setPublicURI(final String publicURI)
     '''
 def getPublicURI():
-    '''    public String getPublicURI()
+    '''public String getPublicURI()
     '''
 def getMbosInSession():
-    '''    public Map<String, MboRemote> getMbosInSession()
+    '''public Map<String, MboRemote> getMbosInSession()
     '''
 def addStableId():
-    '''    public void addStableId(final String stableId)
+    '''public void addStableId(final String stableId)
     '''
 def bindMbo():
-    '''    public String bindMbo(final String osName, final MboRemote mbo)
+    '''public String bindMbo(final String osName, final MboRemote mbo)
     '''
 def unbindMbo():
-    '''    public MboRemote unbindMbo(final MboRemote mbo)
+    '''public MboRemote unbindMbo(final MboRemote mbo)
     '''
 def cleanup():
-    '''    public void cleanup()
+    '''public void cleanup()
     '''
 def getBoundMbo():
-    '''    public MboRemote getBoundMbo(final String esid)
+    '''public MboRemote getBoundMbo(final String esid)
     '''

@@ -1,3 +1,3 @@
 def FldCharPointActionPMNum():
-    '''    public FldCharPointActionPMNum(final MboValue mbv)
+    '''public FldCharPointActionPMNum(final MboValue mbv)
     '''

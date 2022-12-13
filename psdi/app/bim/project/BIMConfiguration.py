@@ -14,11 +14,11 @@ FIELD_ZONECLASSIFICATIONID = "String  \"ZONECLASSIFICATIONID\""
 FIELD_PRODUCTSEQ = "String  \"PRODUCTSEQ\""
 FIELD_ATTRIBSEQ = "String  \"ATTRIBSEQ\""
 def BIMConfiguration():
-    '''    public BIMConfiguration(final MboSet ms)
+    '''public BIMConfiguration(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

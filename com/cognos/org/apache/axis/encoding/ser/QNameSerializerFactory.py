@@ -1,3 +1,3 @@
 def QNameSerializerFactory():
-    '''    public QNameSerializerFactory(final Class javaType, final QName xmlType)
+    '''public QNameSerializerFactory(final Class javaType, final QName xmlType)
     '''

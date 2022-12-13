@@ -1,6 +1,6 @@
 def UserNotificationPointSet():
-    '''    public UserNotificationPointSet(final MboServerInterface ms)
+    '''public UserNotificationPointSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

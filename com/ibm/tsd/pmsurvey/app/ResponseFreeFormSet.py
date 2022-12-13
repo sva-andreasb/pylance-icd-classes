@@ -1,3 +1,3 @@
 def ResponseFreeFormSet():
-    '''    public ResponseFreeFormSet(final MboServerInterface ms)
+    '''public ResponseFreeFormSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def FldNegativeInventory():
-    '''    public FldNegativeInventory(final MboValue mbv)
+    '''public FldNegativeInventory(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

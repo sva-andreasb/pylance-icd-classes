@@ -1,6 +1,6 @@
 def SKDProjectActivityRefresher():
-    '''    public SKDProjectActivityRefresher(final MXServer mxServer)
+    '''public SKDProjectActivityRefresher(final MXServer mxServer)
     '''
 def refreshProjectData():
-    '''    public List<IMXActivity> refreshProjectData(final IMXGanttModel model, final UserInfo userInfo, final MboRemote projectMbo, final List<IMXActivity> selectedActivities, final int populateInt, final boolean preserveSkdData)
+    '''public List<IMXActivity> refreshProjectData(final IMXGanttModel model, final UserInfo userInfo, final MboRemote projectMbo, final List<IMXActivity> selectedActivities, final int populateInt, final boolean preserveSkdData)
     '''

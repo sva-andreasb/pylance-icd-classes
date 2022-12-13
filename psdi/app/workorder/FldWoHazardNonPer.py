@@ -1,6 +1,6 @@
 def FldWoHazardNonPer():
-    '''    public FldWoHazardNonPer(final MboValue mbv)
+    '''public FldWoHazardNonPer(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

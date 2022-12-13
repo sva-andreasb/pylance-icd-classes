@@ -1,27 +1,27 @@
 def PMTSCHED():
-    '''    public int PMTSCHED()
+    '''public int PMTSCHED()
     '''
 def DETAILREP():
-    '''    public int DETAILREP()
+    '''public int DETAILREP()
     '''
 def PRINTDOCS():
-    '''    public int PRINTDOCS()
+    '''public int PRINTDOCS()
     '''
 def CHGST():
-    '''    public int CHGST()
+    '''public int CHGST()
     '''
 def AUTHSITES():
-    '''    public int AUTHSITES()
+    '''public int AUTHSITES()
     '''
 def REVCONT():
-    '''    public int REVCONT()
+    '''public int REVCONT()
     '''
 def APPLYPRAD():
-    '''    public int APPLYPRAD()
+    '''public int APPLYPRAD()
     '''
 def PURCHASST():
-    '''    public int PURCHASST()
+    '''public int PURCHASST()
     '''
 def RETNASST():
-    '''    public int RETNASST()
+    '''public int RETNASST()
     '''

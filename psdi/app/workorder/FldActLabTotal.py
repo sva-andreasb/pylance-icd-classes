@@ -1,3 +1,3 @@
 def FldActLabTotal():
-    '''    public FldActLabTotal(final MboValue mbv)
+    '''public FldActLabTotal(final MboValue mbv)
     '''

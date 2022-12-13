@@ -1,6 +1,6 @@
 def FldLabTransEnterByClass():
-    '''    public FldLabTransEnterByClass(final MboValue mbv)
+    '''public FldLabTransEnterByClass(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

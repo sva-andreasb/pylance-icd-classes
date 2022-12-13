@@ -1,6 +1,6 @@
 def TAMITFldMaintenance():
-    '''    public TAMITFldMaintenance(final MboValue mbv)
+    '''public TAMITFldMaintenance(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

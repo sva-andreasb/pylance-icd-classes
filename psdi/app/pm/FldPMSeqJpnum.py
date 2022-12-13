@@ -1,12 +1,12 @@
 def FldPMSeqJpnum():
-    '''    public FldPMSeqJpnum(final MboValue mbv)
+    '''public FldPMSeqJpnum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''public void setValueFromLookup(final MboRemote sourceMbo)
     '''

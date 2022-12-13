@@ -1,259 +1,259 @@
 def IpInterfacePropagatorConfigurationImpl():
-    '''    public IpInterfacePropagatorConfigurationImpl()
+    '''public IpInterfacePropagatorConfigurationImpl()
     public IpInterfacePropagatorConfigurationImpl(final Map m)
     '''
 def getThresholdPercentage():
-    '''    public int getThresholdPercentage()
+    '''public int getThresholdPercentage()
     '''
 def hasThresholdPercentage():
-    '''    public boolean hasThresholdPercentage()
+    '''public boolean hasThresholdPercentage()
     '''
 def setThresholdPercentage():
-    '''    public void setThresholdPercentage(final int percentage)
+    '''public void setThresholdPercentage(final int percentage)
     '''
 def getComputerSystemPropagation():
-    '''    public boolean getComputerSystemPropagation()
+    '''public boolean getComputerSystemPropagation()
     '''
 def hasComputerSystemPropagation():
-    '''    public boolean hasComputerSystemPropagation()
+    '''public boolean hasComputerSystemPropagation()
     '''
 def setComputerSystemPropagation():
-    '''    public void setComputerSystemPropagation(final boolean enabled)
+    '''public void setComputerSystemPropagation(final boolean enabled)
     '''
 def getGuid():
-    '''    public Guid getGuid()
+    '''public Guid getGuid()
     '''
 def hasGuid():
-    '''    public boolean hasGuid()
+    '''public boolean hasGuid()
     '''
 def setGuid():
-    '''    public void setGuid(final Guid guid)
+    '''public void setGuid(final Guid guid)
     '''
 def getDisplayName():
-    '''    public String getDisplayName()
+    '''public String getDisplayName()
     '''
 def hasDisplayName():
-    '''    public boolean hasDisplayName()
+    '''public boolean hasDisplayName()
     '''
 def getContextIp():
-    '''    public String getContextIp()
+    '''public String getContextIp()
     '''
 def hasContextIp():
-    '''    public boolean hasContextIp()
+    '''public boolean hasContextIp()
     '''
 def setContextIp():
-    '''    public void setContextIp(final String ctx)
+    '''public void setContextIp(final String ctx)
     '''
 def getObjectType():
-    '''    public String getObjectType()
+    '''public String getObjectType()
     '''
 def hasObjectType():
-    '''    public boolean hasObjectType()
+    '''public boolean hasObjectType()
     '''
 def setObjectType():
-    '''    public void setObjectType(final String type)
+    '''public void setObjectType(final String type)
     '''
 def getCDMSource():
-    '''    public String getCDMSource()
+    '''public String getCDMSource()
     '''
 def hasCDMSource():
-    '''    public boolean hasCDMSource()
+    '''public boolean hasCDMSource()
     '''
 def setCDMSource():
-    '''    public void setCDMSource(final String source)
+    '''public void setCDMSource(final String source)
     '''
 def getSourceToken():
-    '''    public String getSourceToken()
+    '''public String getSourceToken()
     '''
 def hasSourceToken():
-    '''    public boolean hasSourceToken()
+    '''public boolean hasSourceToken()
     '''
 def setSourceToken():
-    '''    public void setSourceToken(final String sourceToken)
+    '''public void setSourceToken(final String sourceToken)
     '''
 def getCmdbSource():
-    '''    public Guid getCmdbSource()
+    '''public Guid getCmdbSource()
     '''
 def hasCmdbSource():
-    '''    public boolean hasCmdbSource()
+    '''public boolean hasCmdbSource()
     '''
 def setCmdbSource():
-    '''    public void setCmdbSource(final Guid cmdbsource)
+    '''public void setCmdbSource(final Guid cmdbsource)
     '''
 def getLabel():
-    '''    public String getLabel()
+    '''public String getLabel()
     '''
 def hasLabel():
-    '''    public boolean hasLabel()
+    '''public boolean hasLabel()
     '''
 def setLabel():
-    '''    public void setLabel(final String label)
+    '''public void setLabel(final String label)
     '''
 def getDescription():
-    '''    public String getDescription()
+    '''public String getDescription()
     '''
 def hasDescription():
-    '''    public boolean hasDescription()
+    '''public boolean hasDescription()
     '''
 def setDescription():
-    '''    public void setDescription(final String description)
+    '''public void setDescription(final String description)
     '''
 def getAdminState():
-    '''    public int getAdminState()
+    '''public int getAdminState()
     '''
 def hasAdminState():
-    '''    public boolean hasAdminState()
+    '''public boolean hasAdminState()
     '''
 def setAdminState():
-    '''    public void setAdminState(final int state)
+    '''public void setAdminState(final int state)
     '''
 def getBidiFlag():
-    '''    public int getBidiFlag()
+    '''public int getBidiFlag()
     '''
 def hasBidiFlag():
-    '''    public boolean hasBidiFlag()
+    '''public boolean hasBidiFlag()
     '''
 def setBidiFlag():
-    '''    public void setBidiFlag(final int bidiflag)
+    '''public void setBidiFlag(final int bidiflag)
     '''
 def getBidiFormat():
-    '''    public String getBidiFormat()
+    '''public String getBidiFormat()
     '''
 def hasBidiFormat():
-    '''    public boolean hasBidiFormat()
+    '''public boolean hasBidiFormat()
     '''
 def setBidiFormat():
-    '''    public void setBidiFormat(final String bidiformat)
+    '''public void setBidiFormat(final String bidiformat)
     '''
 def getAllAttributes():
-    '''    public Map getAllAttributes()
+    '''public Map getAllAttributes()
     '''
 def getCreatedBy():
-    '''    public String getCreatedBy()
+    '''public String getCreatedBy()
     '''
 def hasCreatedBy():
-    '''    public boolean hasCreatedBy()
+    '''public boolean hasCreatedBy()
     '''
 def getLastModifiedTime():
-    '''    public long getLastModifiedTime()
+    '''public long getLastModifiedTime()
     '''
 def hasLastModifiedTime():
-    '''    public boolean hasLastModifiedTime()
+    '''public boolean hasLastModifiedTime()
     '''
 def getLastModifiedBy():
-    '''    public String getLastModifiedBy()
+    '''public String getLastModifiedBy()
     '''
 def hasLastModifiedBy():
-    '''    public boolean hasLastModifiedBy()
+    '''public boolean hasLastModifiedBy()
     '''
 def getExtendedAttributes():
-    '''    public byte[] getExtendedAttributes()
+    '''public byte[] getExtendedAttributes()
     '''
 def hasExtendedAttributes():
-    '''    public boolean hasExtendedAttributes()
+    '''public boolean hasExtendedAttributes()
     '''
 def setExtendedAttributes():
-    '''    public void setExtendedAttributes(final byte[] eAttribMap)
+    '''public void setExtendedAttributes(final byte[] eAttribMap)
     '''
 def getPropagatorClassName():
-    '''    public String getPropagatorClassName()
+    '''public String getPropagatorClassName()
     '''
 def hasPropagatorClassName():
-    '''    public boolean hasPropagatorClassName()
+    '''public boolean hasPropagatorClassName()
     '''
 def setPropagatorClassName():
-    '''    public void setPropagatorClassName(final String name)
+    '''public void setPropagatorClassName(final String name)
     '''
 def getLevel():
-    '''    public int getLevel()
+    '''public int getLevel()
     '''
 def hasLevel():
-    '''    public boolean hasLevel()
+    '''public boolean hasLevel()
     '''
 def setLevel():
-    '''    public void setLevel(final int level)
+    '''public void setLevel(final int level)
     '''
 def getCategory():
-    '''    public int getCategory()
+    '''public int getCategory()
     '''
 def hasCategory():
-    '''    public boolean hasCategory()
+    '''public boolean hasCategory()
     '''
 def setCategory():
-    '''    public void setCategory(final int category)
+    '''public void setCategory(final int category)
     '''
 def getDependentPropagation():
-    '''    public boolean getDependentPropagation()
+    '''public boolean getDependentPropagation()
     '''
 def hasDependentPropagation():
-    '''    public boolean hasDependentPropagation()
+    '''public boolean hasDependentPropagation()
     '''
 def setDependentPropagation():
-    '''    public void setDependentPropagation(final boolean enabled)
+    '''public void setDependentPropagation(final boolean enabled)
     '''
 def getContainerPropagation():
-    '''    public boolean getContainerPropagation()
+    '''public boolean getContainerPropagation()
     '''
 def hasContainerPropagation():
-    '''    public boolean hasContainerPropagation()
+    '''public boolean hasContainerPropagation()
     '''
 def setContainerPropagation():
-    '''    public void setContainerPropagation(final boolean enabled)
+    '''public void setContainerPropagation(final boolean enabled)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def hasName():
-    '''    public boolean hasName()
+    '''public boolean hasName()
     '''
 def setName():
-    '''    public void setName(final String name)
+    '''public void setName(final String name)
     '''
 def getFamilyName():
-    '''    public String getFamilyName()
+    '''public String getFamilyName()
     '''
 def hasFamilyName():
-    '''    public boolean hasFamilyName()
+    '''public boolean hasFamilyName()
     '''
 def setFamilyName():
-    '''    public void setFamilyName(final String name)
+    '''public void setFamilyName(final String name)
     '''
 def getEnabled():
-    '''    public boolean getEnabled()
+    '''public boolean getEnabled()
     '''
 def hasEnabled():
-    '''    public boolean hasEnabled()
+    '''public boolean hasEnabled()
     '''
 def setEnabled():
-    '''    public void setEnabled(final boolean enabled)
+    '''public void setEnabled(final boolean enabled)
     '''
 def getOperationalStatus():
-    '''    public int getOperationalStatus()
+    '''public int getOperationalStatus()
     '''
 def hasOperationalStatus():
-    '''    public boolean hasOperationalStatus()
+    '''public boolean hasOperationalStatus()
     '''
 def setOperationalStatus():
-    '''    public void setOperationalStatus(final int status)
+    '''public void setOperationalStatus(final int status)
     '''
 def getRejectionReason():
-    '''    public String getRejectionReason()
+    '''public String getRejectionReason()
     '''
 def hasRejectionReason():
-    '''    public boolean hasRejectionReason()
+    '''public boolean hasRejectionReason()
     '''
 def setRejectionReason():
-    '''    public void setRejectionReason(final String reason)
+    '''public void setRejectionReason(final String reason)
     '''
 def getMssGuid():
-    '''    public String getMssGuid()
+    '''public String getMssGuid()
     '''
 def hasMssGuid():
-    '''    public boolean hasMssGuid()
+    '''public boolean hasMssGuid()
     '''
 def setMssGuid():
-    '''    public void setMssGuid(final String mssGuid)
+    '''public void setMssGuid(final String mssGuid)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

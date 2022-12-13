@@ -1,6 +1,6 @@
 def FldWoEnableRepFac():
-    '''    public FldWoEnableRepFac(final MboValue mbv)
+    '''public FldWoEnableRepFac(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

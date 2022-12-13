@@ -1,12 +1,12 @@
 def FldPPCraftRatePremiumPayCode():
-    '''    public FldPPCraftRatePremiumPayCode(final MboValue mbv)
+    '''public FldPPCraftRatePremiumPayCode(final MboValue mbv)
     '''
 def hasList():
-    '''    public boolean hasList()
+    '''public boolean hasList()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

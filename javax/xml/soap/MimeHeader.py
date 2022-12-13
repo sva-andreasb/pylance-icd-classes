@@ -1,9 +1,9 @@
 def MimeHeader():
-    '''    public MimeHeader(final String name, final String value)
+    '''public MimeHeader(final String name, final String value)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getValue():
-    '''    public String getValue()
+    '''public String getValue()
     '''

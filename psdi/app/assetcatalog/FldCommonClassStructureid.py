@@ -1,6 +1,6 @@
 def FldCommonClassStructureid():
-    '''    public FldCommonClassStructureid(final MboValue mbv)
+    '''public FldCommonClassStructureid(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,3 +1,3 @@
 def LocMeterReadingSet():
-    '''    public LocMeterReadingSet(final MboServerInterface ms)
+    '''public LocMeterReadingSet(final MboServerInterface ms)
     '''

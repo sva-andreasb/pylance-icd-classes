@@ -1,6 +1,6 @@
 def SRMSolOwnerGroupBean():
-    '''    public SRMSolOwnerGroupBean()
+    '''public SRMSolOwnerGroupBean()
     '''
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''

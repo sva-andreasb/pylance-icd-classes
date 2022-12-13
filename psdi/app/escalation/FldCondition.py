@@ -1,6 +1,6 @@
 def FldCondition():
-    '''    public FldCondition(final MboValue mbv)
+    '''public FldCondition(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

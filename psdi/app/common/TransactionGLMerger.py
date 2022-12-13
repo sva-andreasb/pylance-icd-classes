@@ -1,87 +1,87 @@
 def TransactionGLMerger():
-    '''    public TransactionGLMerger(final Mbo mbo)
+    '''public TransactionGLMerger(final Mbo mbo)
     '''
 def getMergedDebitGLAccount():
-    '''    public String getMergedDebitGLAccount()
+    '''public String getMergedDebitGLAccount()
     '''
 def mergedGL():
-    '''    public String mergedGL(final String topGL, final String bottomGL)
+    '''public String mergedGL(final String topGL, final String bottomGL)
     '''
 def getInventoryGLAccount():
-    '''    public String getInventoryGLAccount()
+    '''public String getInventoryGLAccount()
     '''
 def getItemOrgInfoGLAccount():
-    '''    public String getItemOrgInfoGLAccount()
+    '''public String getItemOrgInfoGLAccount()
     '''
 def getItemResourceAccount():
-    '''    public String getItemResourceAccount()
+    '''public String getItemResourceAccount()
     '''
 def setMRInfo():
-    '''    public void setMRInfo(final String mrnum, final String mrlinenum)
+    '''public void setMRInfo(final String mrnum, final String mrlinenum)
     '''
 def setItem():
-    '''    public void setItem(final String itemnum)
+    '''public void setItem(final String itemnum)
     '''
 def setOrgID():
-    '''    public void setOrgID(final String orgid)
+    '''public void setOrgID(final String orgid)
     '''
 def setItemSetID():
-    '''    public void setItemSetID(final String itemsetid)
+    '''public void setItemSetID(final String itemsetid)
     '''
 def setAssetnum():
-    '''    public void setAssetnum(final String assetnum)
+    '''public void setAssetnum(final String assetnum)
     '''
 def setWonum():
-    '''    public void setWonum(final String wonum)
+    '''public void setWonum(final String wonum)
     '''
 def setWO():
-    '''    public void setWO(final MboRemote wo)
+    '''public void setWO(final MboRemote wo)
     '''
 def setLocation():
-    '''    public void setLocation(final String location)
+    '''public void setLocation(final String location)
     '''
 def setMRGLAccount():
-    '''    public void setMRGLAccount(final String glAcct)
+    '''public void setMRGLAccount(final String glAcct)
     '''
 def setStoreLoc():
-    '''    public void setStoreLoc(final String storeloc)
+    '''public void setStoreLoc(final String storeloc)
     '''
 def setChargeToStore():
-    '''    public void setChargeToStore(final boolean chargeToStore)
+    '''public void setChargeToStore(final boolean chargeToStore)
     '''
 def setLaborcode():
-    '''    public void setLaborcode(final String laborcode)
+    '''public void setLaborcode(final String laborcode)
     '''
 def setCraft():
-    '''    public void setCraft(final String craft)
+    '''public void setCraft(final String craft)
     '''
 def setSkillLevel():
-    '''    public void setSkillLevel(final String skilllevel)
+    '''public void setSkillLevel(final String skilllevel)
     '''
 def setVendor():
-    '''    public void setVendor(final String vendor)
+    '''public void setVendor(final String vendor)
     '''
 def setContractnum():
-    '''    public void setContractnum(final String contractnum)
+    '''public void setContractnum(final String contractnum)
     '''
 def setToolnum():
-    '''    public void setToolnum(final String toolnum)
+    '''public void setToolnum(final String toolnum)
     '''
 def getTicketResourceAccount():
-    '''    public String getTicketResourceAccount()
+    '''public String getTicketResourceAccount()
     '''
 def setTicketID():
-    '''    public void setTicketID(final String ticket)
+    '''public void setTicketID(final String ticket)
     '''
 def setTicketClass():
-    '''    public void setTicketClass(final String ticketclass)
+    '''public void setTicketClass(final String ticketclass)
     '''
 def setTicket():
-    '''    public void setTicket(final MboRemote ticketMbo)
+    '''public void setTicket(final MboRemote ticketMbo)
     '''
 def setConditionCode():
-    '''    public void setConditionCode(final String condCode)
+    '''public void setConditionCode(final String condCode)
     '''
 def getInventorySetLIFOFIFO():
-    '''    public MboSetRemote getInventorySetLIFOFIFO()
+    '''public MboSetRemote getInventorySetLIFOFIFO()
     '''

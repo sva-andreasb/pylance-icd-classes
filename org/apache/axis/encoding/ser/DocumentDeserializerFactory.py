@@ -1,3 +1,3 @@
 def DocumentDeserializerFactory():
-    '''    public DocumentDeserializerFactory()
+    '''public DocumentDeserializerFactory()
     '''

@@ -1,5 +1,5 @@
 def newMessage():
-    '''    public Message newMessage(final CharSequence message)
+    '''public Message newMessage(final CharSequence message)
     public Message newMessage(final Object message)
     public Message newMessage(final String message)
     public Message newMessage(final String message, final Object p0)

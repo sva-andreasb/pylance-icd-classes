@@ -1,24 +1,24 @@
 def Pair():
-    '''    public Pair(final A a, final B b)
+    '''public Pair(final A a, final B b)
     '''
 def getLeft():
-    '''    public A getLeft()
+    '''public A getLeft()
     '''
 def getRight():
-    '''    public B getRight()
+    '''public B getRight()
     '''
 def car():
-    '''    public A car()
+    '''public A car()
     '''
 def cdr():
-    '''    public B cdr()
+    '''public B cdr()
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object other)
+    '''public boolean equals(final Object other)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

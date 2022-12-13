@@ -1,12 +1,12 @@
 def SKDOverrideAvail():
-    '''    public SKDOverrideAvail(final MboSet ms)
+    '''public SKDOverrideAvail(final MboSet ms)
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''

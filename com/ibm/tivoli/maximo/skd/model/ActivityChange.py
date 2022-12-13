@@ -1,15 +1,15 @@
 def ActivityChange():
-    '''    public ActivityChange()
+    '''public ActivityChange()
     '''
 def setActivity():
-    '''    public void setActivity(final IlvGeneralActivity activity)
+    '''public void setActivity(final IlvGeneralActivity activity)
     '''
 def getActivity():
-    '''    public IlvGeneralActivity getActivity()
+    '''public IlvGeneralActivity getActivity()
     '''
 def getActivityRef():
-    '''    public IlvGeneralActivity getActivityRef()
+    '''public IlvGeneralActivity getActivityRef()
     '''
 def setActivityRef():
-    '''    public void setActivityRef(final IlvGeneralActivity activityRef)
+    '''public void setActivityRef(final IlvGeneralActivity activityRef)
     '''

@@ -1,21 +1,21 @@
 def o():
-    '''    public o(final Reader in)
+    '''public o(final Reader in)
     '''
 def hasNext():
-    '''    public boolean hasNext()
+    '''public boolean hasNext()
     '''
 def next():
-    '''    public String next()
+    '''public String next()
     '''
 def nextLine():
-    '''    public String nextLine()
+    '''public String nextLine()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def remove():
-    '''    public void remove()
+    '''public void remove()
     '''
 def a():
-    '''    public static void a(final o o)
+    '''public static void a(final o o)
     '''

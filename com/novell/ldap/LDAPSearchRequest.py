@@ -12,34 +12,34 @@ INITIAL = "int  0"
 ANY = "int  1"
 FINAL = "int  2"
 def LDAPSearchRequest():
-    '''    public LDAPSearchRequest()
+    '''public LDAPSearchRequest()
     public LDAPSearchRequest(final String s, final int n, final String s2, final String[] array, final int n2, final int n3, final int n4, final boolean b, final LDAPControl[] array2)
     public LDAPSearchRequest(final String s, final int n, final RfcFilter rfcFilter, final String[] array, final int n2, final int n3, final int n4, final boolean b, final LDAPControl[] array2)
     '''
 def getDN():
-    '''    public String getDN()
+    '''public String getDN()
     '''
 def getScope():
-    '''    public int getScope()
+    '''public int getScope()
     '''
 def getDereference():
-    '''    public int getDereference()
+    '''public int getDereference()
     '''
 def getMaxResults():
-    '''    public int getMaxResults()
+    '''public int getMaxResults()
     '''
 def getServerTimeLimit():
-    '''    public int getServerTimeLimit()
+    '''public int getServerTimeLimit()
     '''
 def isTypesOnly():
-    '''    public boolean isTypesOnly()
+    '''public boolean isTypesOnly()
     '''
 def getAttributes():
-    '''    public String[] getAttributes()
+    '''public String[] getAttributes()
     '''
 def getStringFilter():
-    '''    public String getStringFilter()
+    '''public String getStringFilter()
     '''
 def getSearchFilter():
-    '''    public Iterator getSearchFilter()
+    '''public Iterator getSearchFilter()
     '''

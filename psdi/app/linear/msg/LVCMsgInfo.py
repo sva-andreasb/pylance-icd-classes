@@ -1,9 +1,9 @@
 def LVCMsgInfo():
-    '''    public LVCMsgInfo(final MboSet ms)
+    '''public LVCMsgInfo(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete()
+    '''public void delete()
     '''

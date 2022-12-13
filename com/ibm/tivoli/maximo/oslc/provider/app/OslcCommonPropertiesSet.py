@@ -1,3 +1,3 @@
 def OslcCommonPropertiesSet():
-    '''    public OslcCommonPropertiesSet(final MboServerInterface ms)
+    '''public OslcCommonPropertiesSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def getEditor():
-    '''    public IlvDashboardEditor getEditor()
+    '''public IlvDashboardEditor getEditor()
     '''

@@ -1,3 +1,3 @@
 def virtualMachineManager():
-    '''    public static synchronized VirtualMachineManager virtualMachineManager()
+    '''public static synchronized VirtualMachineManager virtualMachineManager()
     '''

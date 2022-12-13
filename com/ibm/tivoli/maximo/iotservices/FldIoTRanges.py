@@ -1,6 +1,6 @@
 def FldIoTRanges():
-    '''    public FldIoTRanges(final MboValue mbv)
+    '''public FldIoTRanges(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,3 +1,3 @@
 def PersonStatusSet():
-    '''    public PersonStatusSet(final MboServerInterface ms)
+    '''public PersonStatusSet(final MboServerInterface ms)
     '''

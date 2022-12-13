@@ -1,3 +1,3 @@
 def SourceOrTargetAssetWorkorderBean():
-    '''    public SourceOrTargetAssetWorkorderBean()
+    '''public SourceOrTargetAssetWorkorderBean()
     '''

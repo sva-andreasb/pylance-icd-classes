@@ -1,6 +1,6 @@
 def readCode():
-    '''    public void readCode()
+    '''public void readCode()
     '''
 def NameAndType():
-    '''    public NameAndType(final String name, final String type)
+    '''public NameAndType(final String name, final String type)
     '''

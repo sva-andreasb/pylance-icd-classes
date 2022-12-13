@@ -183,87 +183,87 @@ WARRANTY_LABOR = "int  2"
 WARRANTY_SHORT = "int  3"
 WARRANTY_LONG = "int  4"
 def BIMSession():
-    '''    public BIMSession(final MboSet ms)
+    '''public BIMSession(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def cleanUploadDir():
-    '''    public void cleanUploadDir()
+    '''public void cleanUploadDir()
     '''
 def exportToCOBie():
-    '''    public void exportToCOBie()
+    '''public void exportToCOBie()
     '''
 def getInitialAssetStatus():
-    '''    public String getInitialAssetStatus()
+    '''public String getInitialAssetStatus()
     '''
 def getInitialAssetType():
-    '''    public String getInitialAssetType()
+    '''public String getInitialAssetType()
     '''
 def getInitialJobPlanStatus():
-    '''    public String getInitialJobPlanStatus()
+    '''public String getInitialJobPlanStatus()
     '''
 def getInitialLocationStatus():
-    '''    public String getInitialLocationStatus()
+    '''public String getInitialLocationStatus()
     '''
 def getInitialProductStatus():
-    '''    public String getInitialProductStatus()
+    '''public String getInitialProductStatus()
     '''
 def getComponentAttributeLocation():
-    '''    public long getComponentAttributeLocation()
+    '''public long getComponentAttributeLocation()
     '''
 def getContactTreatment():
-    '''    public int getContactTreatment()
+    '''public int getContactTreatment()
     '''
 def getExportIdType():
-    '''    public int getExportIdType()
+    '''public int getExportIdType()
     '''
 def getSessionType():
-    '''    public int getSessionType()
+    '''public int getSessionType()
     public int getSessionType(String sessionType)
     '''
 def getAttribTypeIdCalc():
-    '''    public int getAttribTypeIdCalc()
+    '''public int getAttribTypeIdCalc()
     '''
 def getFacilityrIdCalc():
-    '''    public int getFacilityrIdCalc()
+    '''public int getFacilityrIdCalc()
     '''
 def getFloorIdCalc():
-    '''    public int getFloorIdCalc()
+    '''public int getFloorIdCalc()
     '''
 def getSpaceIdCalc():
-    '''    public int getSpaceIdCalc()
+    '''public int getSpaceIdCalc()
     '''
 def getOperatingLocIdCalc():
-    '''    public int getOperatingLocIdCalc()
+    '''public int getOperatingLocIdCalc()
     '''
 def getComponentIdCalc():
-    '''    public int getComponentIdCalc()
+    '''public int getComponentIdCalc()
     '''
 def getObjectLevel():
-    '''    public int getObjectLevel(final String objectName)
+    '''public int getObjectLevel(final String objectName)
     '''
 def getUnitTreatment():
-    '''    public int getUnitTreatment()
+    '''public int getUnitTreatment()
     '''
 def getUpdateBehavior():
-    '''    public int getUpdateBehavior()
+    '''public int getUpdateBehavior()
     '''
 def getWarrantyCalcMethod():
-    '''    public int getWarrantyCalcMethod()
+    '''public int getWarrantyCalcMethod()
     '''
 def setOptionsReadOnly():
-    '''    public void setOptionsReadOnly()
+    '''public void setOptionsReadOnly()
     '''
 def getUploadDirectory():
-    '''    public String getUploadDirectory()
+    '''public String getUploadDirectory()
     '''
 def setWriteStatusForFacilityFields():
-    '''    public void setWriteStatusForFacilityFields(final boolean status)
+    '''public void setWriteStatusForFacilityFields(final boolean status)
     '''

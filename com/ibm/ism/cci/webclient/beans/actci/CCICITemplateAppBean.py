@@ -1,3 +1,3 @@
 def VALIDATE():
-    '''    public int VALIDATE()
+    '''public int VALIDATE()
     '''

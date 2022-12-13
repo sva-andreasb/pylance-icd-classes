@@ -1,3 +1,3 @@
 def ValScope():
-    '''    public ValScope(final Var var, final ValueSpace valType)
+    '''public ValScope(final Var var, final ValueSpace valType)
     '''

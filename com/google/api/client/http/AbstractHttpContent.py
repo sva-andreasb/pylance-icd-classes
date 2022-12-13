@@ -1,18 +1,18 @@
 def getLength():
-    '''    public long getLength()
+    '''public long getLength()
     '''
 def getMediaType():
-    '''    public final HttpMediaType getMediaType()
+    '''public final HttpMediaType getMediaType()
     '''
 def setMediaType():
-    '''    public AbstractHttpContent setMediaType(final HttpMediaType mediaType)
+    '''public AbstractHttpContent setMediaType(final HttpMediaType mediaType)
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''
 def retrySupported():
-    '''    public boolean retrySupported()
+    '''public boolean retrySupported()
     '''
 def computeLength():
-    '''    public static long computeLength(final HttpContent content)
+    '''public static long computeLength(final HttpContent content)
     '''

@@ -1,12 +1,12 @@
 def getURI():
-    '''    public static String getURI()
+    '''public static String getURI()
     '''
 def init():
-    '''    public static synchronized void init()
+    '''public static synchronized void init()
     '''
 def register():
-    '''    public static void register(final AssemblerGroup g)
+    '''public static void register(final AssemblerGroup g)
     '''
 def assemblerClass():
-    '''    public static void assemblerClass(AssemblerGroup group, final Resource r, final Assembler a)
+    '''public static void assemblerClass(AssemblerGroup group, final Resource r, final Assembler a)
     '''

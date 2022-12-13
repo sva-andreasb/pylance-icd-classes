@@ -1,6 +1,6 @@
 def XMLStreamValidationException():
-    '''    public XMLStreamValidationException(final XmlError xmlError)
+    '''public XMLStreamValidationException(final XmlError xmlError)
     '''
 def getXmlError():
-    '''    public XmlError getXmlError()
+    '''public XmlError getXmlError()
     '''

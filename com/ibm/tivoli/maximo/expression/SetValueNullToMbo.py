@@ -1,6 +1,6 @@
 def SetValueNullToMbo():
-    '''    public SetValueNullToMbo(final Expression exp, final String name, final int numParams)
+    '''public SetValueNullToMbo(final Expression exp, final String name, final int numParams)
     '''
 def eval():
-    '''    public BigDecimal eval(final List<BigDecimal> parameters)
+    '''public BigDecimal eval(final List<BigDecimal> parameters)
     '''

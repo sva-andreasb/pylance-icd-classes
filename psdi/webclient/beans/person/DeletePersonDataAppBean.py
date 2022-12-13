@@ -1,3 +1,3 @@
 def DELETEPERSONDATA():
-    '''    public int DELETEPERSONDATA()
+    '''public int DELETEPERSONDATA()
     '''

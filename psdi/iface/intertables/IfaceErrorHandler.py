@@ -1,12 +1,12 @@
 def IfaceErrorHandler():
-    '''    public IfaceErrorHandler(final String queueTable, final String extSystem, final Connection errConn)
+    '''public IfaceErrorHandler(final String queueTable, final String extSystem, final Connection errConn)
     '''
 def isValidConnection():
-    '''    public boolean isValidConnection()
+    '''public boolean isValidConnection()
     '''
 def handleError():
-    '''    public void handleError(final long transid, final Connection conn, final Throwable t)
+    '''public void handleError(final long transid, final Connection conn, final Throwable t)
     '''
 def releaseResources():
-    '''    public void releaseResources()
+    '''public void releaseResources()
     '''

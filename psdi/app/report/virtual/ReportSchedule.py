@@ -1,3 +1,3 @@
 def ReportSchedule():
-    '''    public ReportSchedule(final MboSet ms)
+    '''public ReportSchedule(final MboSet ms)
     '''

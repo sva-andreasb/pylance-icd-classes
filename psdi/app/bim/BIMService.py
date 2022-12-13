@@ -20,48 +20,48 @@ VERSION_LESS_THAN_7116 = "int  0"
 VERSION_7116_OR_GREATER = "int  1"
 VERSION_75_OR_GREATER = "int  2"
 def BIMService():
-    '''    public BIMService(final MXServer mxServer)
+    '''public BIMService(final MXServer mxServer)
     public BIMService()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def getLoaderFactory():
-    '''    public Factory getLoaderFactory()
+    '''public Factory getLoaderFactory()
     '''
 def setFactory():
-    '''    public void setFactory(final Factory factory)
+    '''public void setFactory(final Factory factory)
     '''
 def getMaximoVersion():
-    '''    public int getMaximoVersion()
+    '''public int getMaximoVersion()
     '''
 def getProject():
-    '''    public MboRemote getProject(final UserInfo userInfo, final String attribute, final long key)
+    '''public MboRemote getProject(final UserInfo userInfo, final String attribute, final long key)
     '''
 def makeDir():
-    '''    public void makeDir(final File newDir)
+    '''public void makeDir(final File newDir)
     '''
 def copyFile():
-    '''    public void copyFile(final InputStream is, final String targetDir, final String fileName)
+    '''public void copyFile(final InputStream is, final String targetDir, final String fileName)
     '''
 def uploadClassification():
-    '''    public void uploadClassification(final OslcRequest request)
+    '''public void uploadClassification(final OslcRequest request)
     '''
 def uploadCOBieFile():
-    '''    public void uploadCOBieFile(final OslcRequest request)
+    '''public void uploadCOBieFile(final OslcRequest request)
     '''
 def startSession():
-    '''    public MboRemote startSession(final UserInfo userInfo, final String projectId, final String sessionId, final String siteId)
+    '''public MboRemote startSession(final UserInfo userInfo, final String projectId, final String sessionId, final String siteId)
     '''
 def startBuildingCommisioning():
-    '''    public MboRemote startBuildingCommisioning(final UserInfo userInfo, final String projectId, final String commissioningId)
+    '''public MboRemote startBuildingCommisioning(final UserInfo userInfo, final String projectId, final String commissioningId)
     '''
 def startClassificationImport():
-    '''    public MboRemote startClassificationImport(final UserInfo userInfo, final String importId, final String fileType)
+    '''public MboRemote startClassificationImport(final UserInfo userInfo, final String importId, final String fileType)
     '''
 def deleteDirecotry():
-    '''    public static void deleteDirecotry(final File file)
+    '''public static void deleteDirecotry(final File file)
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''

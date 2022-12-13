@@ -1,3 +1,3 @@
 def GanttState():
-    '''    public GanttState()
+    '''public GanttState()
     '''

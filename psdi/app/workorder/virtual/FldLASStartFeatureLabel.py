@@ -1,3 +1,3 @@
 def FldLASStartFeatureLabel():
-    '''    public FldLASStartFeatureLabel(final MboValue mbv)
+    '''public FldLASStartFeatureLabel(final MboValue mbv)
     '''

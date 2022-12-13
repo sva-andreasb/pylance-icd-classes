@@ -1,48 +1,48 @@
 def setSourceName():
-    '''    public void setSourceName(final String sourceName)
+    '''public void setSourceName(final String sourceName)
     '''
 def getSourceName():
-    '''    public String getSourceName()
+    '''public String getSourceName()
     '''
 def setEncoding():
-    '''    public void setEncoding(final String encoding)
+    '''public void setEncoding(final String encoding)
     '''
 def getEncoding():
-    '''    public String getEncoding()
+    '''public String getEncoding()
     '''
 def setVersion():
-    '''    public void setVersion(final String version)
+    '''public void setVersion(final String version)
     '''
 def getVersion():
-    '''    public String getVersion()
+    '''public String getVersion()
     '''
 def setStandalone():
-    '''    public void setStandalone(final boolean standalone)
+    '''public void setStandalone(final boolean standalone)
     '''
 def getStandalone():
-    '''    public boolean getStandalone()
+    '''public boolean getStandalone()
     '''
 def setDoctypeName():
-    '''    public void setDoctypeName(final String doctypename)
+    '''public void setDoctypeName(final String doctypename)
     '''
 def getDoctypeName():
-    '''    public String getDoctypeName()
+    '''public String getDoctypeName()
     '''
 def setDoctypePublicId():
-    '''    public void setDoctypePublicId(final String publicid)
+    '''public void setDoctypePublicId(final String publicid)
     '''
 def getDoctypePublicId():
-    '''    public String getDoctypePublicId()
+    '''public String getDoctypePublicId()
     '''
 def setDoctypeSystemId():
-    '''    public void setDoctypeSystemId(final String systemid)
+    '''public void setDoctypeSystemId(final String systemid)
     '''
 def getDoctypeSystemId():
-    '''    public String getDoctypeSystemId()
+    '''public String getDoctypeSystemId()
     '''
 def setMessageDigest():
-    '''    public void setMessageDigest(final byte[] digest)
+    '''public void setMessageDigest(final byte[] digest)
     '''
 def getMessageDigest():
-    '''    public byte[] getMessageDigest()
+    '''public byte[] getMessageDigest()
     '''

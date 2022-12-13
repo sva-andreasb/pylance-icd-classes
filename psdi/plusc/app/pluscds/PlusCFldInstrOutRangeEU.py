@@ -1,6 +1,6 @@
 def PlusCFldInstrOutRangeEU():
-    '''    public PlusCFldInstrOutRangeEU(final MboValue mbv)
+    '''public PlusCFldInstrOutRangeEU(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

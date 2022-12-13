@@ -1,21 +1,21 @@
 def IlvDefaultChartDataPicker():
-    '''    public IlvDefaultChartDataPicker(final int a, final int b, final int c)
+    '''public IlvDefaultChartDataPicker(final int a, final int b, final int c)
     '''
 def getPickX():
-    '''    public int getPickX()
+    '''public int getPickX()
     '''
 def getPickY():
-    '''    public int getPickY()
+    '''public int getPickY()
     '''
 def getPickDistance():
-    '''    public int getPickDistance()
+    '''public int getPickDistance()
     '''
 def useDataSpace():
-    '''    public boolean useDataSpace()
+    '''public boolean useDataSpace()
     '''
 def accept():
-    '''    public boolean accept(final IlvChartRenderer ilvChartRenderer)
+    '''public boolean accept(final IlvChartRenderer ilvChartRenderer)
     '''
 def computeDistance():
-    '''    public double computeDistance(final double n, final double n2, final double n3, final double n4)
+    '''public double computeDistance(final double n, final double n2, final double n3, final double n4)
     '''

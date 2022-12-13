@@ -1,3 +1,3 @@
 def FldCompanyPayOnReceipt():
-    '''    public FldCompanyPayOnReceipt(final MboValue mbv)
+    '''public FldCompanyPayOnReceipt(final MboValue mbv)
     '''

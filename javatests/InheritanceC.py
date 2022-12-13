@@ -1,21 +1,21 @@
 def replicateMe():
-    '''    public Inheritance replicateMe()
+    '''public Inheritance replicateMe()
     '''
 def replicateParent():
-    '''    public Inheritance replicateParent()
+    '''public Inheritance replicateParent()
     '''
 def build():
-    '''    public static Inheritance build()
+    '''public static Inheritance build()
     '''
 def buildParent():
-    '''    public static Inheritance buildParent()
+    '''public static Inheritance buildParent()
     '''
 def whoAmI():
-    '''    public String whoAmI()
+    '''public String whoAmI()
     '''
 def everyOther():
-    '''    public String everyOther()
+    '''public String everyOther()
     '''
 def staticWhoAmI():
-    '''    public static String staticWhoAmI()
+    '''public static String staticWhoAmI()
     '''

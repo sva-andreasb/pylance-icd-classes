@@ -1,27 +1,27 @@
 def OperationInfo():
-    '''    public OperationInfo()
+    '''public OperationInfo()
     '''
 def getInputElement():
-    '''    public QName getInputElement()
+    '''public QName getInputElement()
     '''
 def getMep():
-    '''    public String getMep()
+    '''public String getMep()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getOutputElement():
-    '''    public QName getOutputElement()
+    '''public QName getOutputElement()
     '''
 def getSoapAction():
-    '''    public String getSoapAction()
+    '''public String getSoapAction()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getInputSample():
-    '''    public Document getInputSample()
+    '''public Document getInputSample()
     '''
 def getOutputSample():
-    '''    public Document getOutputSample()
+    '''public Document getOutputSample()
     '''

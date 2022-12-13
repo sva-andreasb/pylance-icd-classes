@@ -1,3 +1,3 @@
 def PmRelDslFldClassStructid():
-    '''    public PmRelDslFldClassStructid(final MboValue mbv)
+    '''public PmRelDslFldClassStructid(final MboValue mbv)
     '''

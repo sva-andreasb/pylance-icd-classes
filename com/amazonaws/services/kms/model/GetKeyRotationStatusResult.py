@@ -1,24 +1,24 @@
 def setKeyRotationEnabled():
-    '''    public void setKeyRotationEnabled(final Boolean keyRotationEnabled)
+    '''public void setKeyRotationEnabled(final Boolean keyRotationEnabled)
     '''
 def getKeyRotationEnabled():
-    '''    public Boolean getKeyRotationEnabled()
+    '''public Boolean getKeyRotationEnabled()
     '''
 def withKeyRotationEnabled():
-    '''    public GetKeyRotationStatusResult withKeyRotationEnabled(final Boolean keyRotationEnabled)
+    '''public GetKeyRotationStatusResult withKeyRotationEnabled(final Boolean keyRotationEnabled)
     '''
 def isKeyRotationEnabled():
-    '''    public Boolean isKeyRotationEnabled()
+    '''public Boolean isKeyRotationEnabled()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def clone():
-    '''    public GetKeyRotationStatusResult clone()
+    '''public GetKeyRotationStatusResult clone()
     '''

@@ -1,3 +1,3 @@
 def ExtensionProviderInfo():
-    '''    public ExtensionProviderInfo(final String elementName, final String namespace, final ExtensionElementProvider<ExtensionElement> extProvider)
+    '''public ExtensionProviderInfo(final String elementName, final String namespace, final ExtensionElementProvider<ExtensionElement> extProvider)
     '''

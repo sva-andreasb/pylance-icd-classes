@@ -1,3 +1,3 @@
 def adapt():
-    '''    public ByteBuffer adapt(final String source)
+    '''public ByteBuffer adapt(final String source)
     '''

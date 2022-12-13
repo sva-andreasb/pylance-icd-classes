@@ -1,23 +1,23 @@
 sid = "short  95"
 def SaveRecalcRecord():
-    '''    public SaveRecalcRecord()
+    '''public SaveRecalcRecord()
     public SaveRecalcRecord(final RecordInputStream in)
     '''
 def setRecalc():
-    '''    public void setRecalc(final boolean recalc)
+    '''public void setRecalc(final boolean recalc)
     '''
 def getRecalc():
-    '''    public boolean getRecalc()
+    '''public boolean getRecalc()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def serialize():
-    '''    public void serialize(final LittleEndianOutput out)
+    '''public void serialize(final LittleEndianOutput out)
     '''
 def getSid():
-    '''    public short getSid()
+    '''public short getSid()
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''

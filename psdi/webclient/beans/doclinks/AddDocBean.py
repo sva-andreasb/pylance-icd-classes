@@ -1,6 +1,6 @@
 def save():
-    '''    public synchronized void save()
+    '''public synchronized void save()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''

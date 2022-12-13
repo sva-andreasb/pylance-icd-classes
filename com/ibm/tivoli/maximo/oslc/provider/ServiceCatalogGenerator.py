@@ -1,9 +1,9 @@
 def ServiceCatalogGenerator():
-    '''    public ServiceCatalogGenerator(final String resourceURI)
+    '''public ServiceCatalogGenerator(final String resourceURI)
     '''
 def getRepresentation():
-    '''    public byte[] getRepresentation()
+    '''public byte[] getRepresentation()
     '''
 def generateRDFModel():
-    '''    public Model generateRDFModel()
+    '''public Model generateRDFModel()
     '''

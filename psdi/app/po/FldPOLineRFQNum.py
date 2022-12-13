@@ -1,6 +1,6 @@
 def FldPOLineRFQNum():
-    '''    public FldPOLineRFQNum(final MboValue mbv)
+    '''public FldPOLineRFQNum(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

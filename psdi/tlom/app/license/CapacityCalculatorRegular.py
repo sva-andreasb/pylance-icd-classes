@@ -1,12 +1,12 @@
 def CapacityCalculatorRegular():
-    '''    public CapacityCalculatorRegular(final MboRemote license)
+    '''public CapacityCalculatorRegular(final MboRemote license)
     '''
 def calculateCapacity():
-    '''    public boolean calculateCapacity()
+    '''public boolean calculateCapacity()
     '''
 def isTotalIntCapGreaterLicCap():
-    '''    public boolean isTotalIntCapGreaterLicCap()
+    '''public boolean isTotalIntCapGreaterLicCap()
     '''
 def calcSoftwareContractCapacity():
-    '''    public void calcSoftwareContractCapacity()
+    '''public void calcSoftwareContractCapacity()
     '''

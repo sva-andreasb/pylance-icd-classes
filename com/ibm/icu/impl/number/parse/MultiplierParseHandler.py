@@ -1,9 +1,9 @@
 def MultiplierParseHandler():
-    '''    public MultiplierParseHandler(final Scale multiplier)
+    '''public MultiplierParseHandler(final Scale multiplier)
     '''
 def postProcess():
-    '''    public void postProcess(final ParsedNumber result)
+    '''public void postProcess(final ParsedNumber result)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

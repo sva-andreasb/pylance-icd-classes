@@ -1,3 +1,3 @@
 def parse():
-    '''    public static Pattern parse(final String text)
+    '''public static Pattern parse(final String text)
     '''

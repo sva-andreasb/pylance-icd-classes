@@ -1,6 +1,6 @@
 def SKDPropertyMapSet():
-    '''    public SKDPropertyMapSet(final MboServerInterface ms)
+    '''public SKDPropertyMapSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

@@ -1,21 +1,21 @@
 def StatefulMicSetIn():
-    '''    public StatefulMicSetIn()
+    '''public StatefulMicSetIn()
     '''
 def unapprove():
-    '''    public void unapprove(final String domainid)
+    '''public void unapprove(final String domainid)
     '''
 def checkAdditionalRules():
-    '''    public void checkAdditionalRules()
+    '''public void checkAdditionalRules()
     '''
 def checkForUpdate():
-    '''    public boolean checkForUpdate()
+    '''public boolean checkForUpdate()
     '''
 def afterProcess():
-    '''    public void afterProcess()
+    '''public void afterProcess()
     '''
 def processStatefulSet():
-    '''    public void processStatefulSet(final MboSetRemote set)
+    '''public void processStatefulSet(final MboSetRemote set)
     '''
 def changeStatus():
-    '''    public void changeStatus(final MboRemote setMbo, final String stat, final String memo)
+    '''public void changeStatus(final MboRemote setMbo, final String stat, final String memo)
     '''

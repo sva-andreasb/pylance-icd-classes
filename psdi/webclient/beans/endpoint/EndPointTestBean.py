@@ -1,6 +1,6 @@
 def testxml():
-    '''    public int testxml()
+    '''public int testxml()
     '''
 def cancelDialog():
-    '''    public int cancelDialog()
+    '''public int cancelDialog()
     '''

@@ -13,14 +13,14 @@ CHARCONVMSOLISO2022JPFWID = "int  11"
 CHARCONVMSOLISO2022JPHWID = "int  12"
 CHARCONVGBKID = "int  13"
 def CharacterConverter():
-    '''    public CharacterConverter()
+    '''public CharacterConverter()
     '''
 def getGroupId():
-    '''    public int getGroupId()
+    '''public int getGroupId()
     '''
 def getOracleId():
-    '''    public int getOracleId()
+    '''public int getOracleId()
     '''
 def getLeadingCodes():
-    '''    public char[] getLeadingCodes()
+    '''public char[] getLeadingCodes()
     '''

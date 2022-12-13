@@ -4,32 +4,32 @@ PROBLEMCODE = "String  \"problemcode_longdescription\""
 SRMRTEQBE = "String  \"SRMRTESAVEDQBE\""
 DEBUG_ON = "boolean  false"
 def SRMSearchSolutionQbeBean():
-    '''    public SRMSearchSolutionQbeBean()
+    '''public SRMSearchSolutionQbeBean()
     '''
 def checkQuery():
-    '''    public void checkQuery(final DataBean results)
+    '''public void checkQuery(final DataBean results)
     '''
 def clearqryandfld():
-    '''    public int clearqryandfld()
+    '''public int clearqryandfld()
     '''
 def clearfield():
-    '''    public int clearfield()
+    '''public int clearfield()
     '''
 def restoredefaultqry():
-    '''    public int restoredefaultqry()
+    '''public int restoredefaultqry()
     '''
 def clearfieldExec():
-    '''    public int clearfieldExec()
+    '''public int clearfieldExec()
     '''
 def clearqryandfldExec():
-    '''    public int clearqryandfldExec()
+    '''public int clearqryandfldExec()
     '''
 def restoredefaultqryExec():
-    '''    public int restoredefaultqryExec()
+    '''public int restoredefaultqryExec()
     '''
 def qbeclear():
-    '''    public int qbeclear()
+    '''public int qbeclear()
     '''
 def qbeclearExec():
-    '''    public int qbeclearExec()
+    '''public int qbeclearExec()
     '''

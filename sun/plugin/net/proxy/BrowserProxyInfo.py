@@ -1,82 +1,82 @@
 def BrowserProxyInfo():
-    '''    public BrowserProxyInfo()
+    '''public BrowserProxyInfo()
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''
 def setType():
-    '''    public void setType(final int type)
+    '''public void setType(final int type)
     '''
 def getHttpHost():
-    '''    public String getHttpHost()
+    '''public String getHttpHost()
     '''
 def setHttpHost():
-    '''    public void setHttpHost(final String httpHost)
+    '''public void setHttpHost(final String httpHost)
     '''
 def getHttpPort():
-    '''    public int getHttpPort()
+    '''public int getHttpPort()
     '''
 def setHttpPort():
-    '''    public void setHttpPort(final int httpPort)
+    '''public void setHttpPort(final int httpPort)
     '''
 def getHttpsHost():
-    '''    public String getHttpsHost()
+    '''public String getHttpsHost()
     '''
 def setHttpsHost():
-    '''    public void setHttpsHost(final String httpsHost)
+    '''public void setHttpsHost(final String httpsHost)
     '''
 def getHttpsPort():
-    '''    public int getHttpsPort()
+    '''public int getHttpsPort()
     '''
 def setHttpsPort():
-    '''    public void setHttpsPort(final int httpsPort)
+    '''public void setHttpsPort(final int httpsPort)
     '''
 def getFtpHost():
-    '''    public String getFtpHost()
+    '''public String getFtpHost()
     '''
 def setFtpHost():
-    '''    public void setFtpHost(final String ftpHost)
+    '''public void setFtpHost(final String ftpHost)
     '''
 def getFtpPort():
-    '''    public int getFtpPort()
+    '''public int getFtpPort()
     '''
 def setFtpPort():
-    '''    public void setFtpPort(final int ftpPort)
+    '''public void setFtpPort(final int ftpPort)
     '''
 def getGopherHost():
-    '''    public String getGopherHost()
+    '''public String getGopherHost()
     '''
 def setGopherHost():
-    '''    public void setGopherHost(final String gopherHost)
+    '''public void setGopherHost(final String gopherHost)
     '''
 def getGopherPort():
-    '''    public int getGopherPort()
+    '''public int getGopherPort()
     '''
 def setGopherPort():
-    '''    public void setGopherPort(final int gopherPort)
+    '''public void setGopherPort(final int gopherPort)
     '''
 def getSocksHost():
-    '''    public String getSocksHost()
+    '''public String getSocksHost()
     '''
 def setSocksHost():
-    '''    public void setSocksHost(final String socksHost)
+    '''public void setSocksHost(final String socksHost)
     '''
 def getSocksPort():
-    '''    public int getSocksPort()
+    '''public int getSocksPort()
     '''
 def setSocksPort():
-    '''    public void setSocksPort(final int socksPort)
+    '''public void setSocksPort(final int socksPort)
     '''
 def getOverrides():
-    '''    public String[] getOverrides()
+    '''public String[] getOverrides()
     '''
 def setOverrides():
-    '''    public void setOverrides(final String[] overrides)
+    '''public void setOverrides(final String[] overrides)
     public void setOverrides(final List c)
     '''
 def getAutoConfigURL():
-    '''    public String getAutoConfigURL()
+    '''public String getAutoConfigURL()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

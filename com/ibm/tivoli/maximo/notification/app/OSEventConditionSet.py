@@ -1,3 +1,3 @@
 def OSEventConditionSet():
-    '''    public OSEventConditionSet(final MboServerInterface ms)
+    '''public OSEventConditionSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def InvalidStateException():
-    '''    public InvalidStateException(final String message)
+    '''public InvalidStateException(final String message)
     '''

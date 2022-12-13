@@ -1,6 +1,6 @@
 def FldPurInclusive():
-    '''    public FldPurInclusive(final MboValue mbv)
+    '''public FldPurInclusive(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

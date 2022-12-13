@@ -1,3 +1,3 @@
 def OslcMethodNPMbo():
-    '''    public OslcMethodNPMbo(final MboSet ms)
+    '''public OslcMethodNPMbo(final MboSet ms)
     '''

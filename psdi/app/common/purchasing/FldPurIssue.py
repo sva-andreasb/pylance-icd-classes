@@ -1,6 +1,6 @@
 def FldPurIssue():
-    '''    public FldPurIssue(final MboValue mbv)
+    '''public FldPurIssue(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

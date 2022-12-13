@@ -1,3 +1,3 @@
 def OslcExtensionMediatype():
-    '''    public OslcExtensionMediatype(final MboSet ms)
+    '''public OslcExtensionMediatype(final MboSet ms)
     '''

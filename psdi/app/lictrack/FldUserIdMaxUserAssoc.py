@@ -1,9 +1,9 @@
 def FldUserIdMaxUserAssoc():
-    '''    public FldUserIdMaxUserAssoc(final MboValue mbv)
+    '''public FldUserIdMaxUserAssoc(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

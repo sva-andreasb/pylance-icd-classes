@@ -1,6 +1,6 @@
 def PmRankingSolutionCron():
-    '''    public PmRankingSolutionCron()
+    '''public PmRankingSolutionCron()
     '''
 def cronAction():
-    '''    public void cronAction()
+    '''public void cronAction()
     '''

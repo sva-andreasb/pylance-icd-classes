@@ -16,29 +16,29 @@ PMCHGCWORG = "String  \"CI.pmchgcworg\""
 PERSON_ID = "String  \"PMCHGFSCTRGCITOTSK.PMCHGFSCTSKTOCHG.owner\""
 PERSON_GROUP_ID = "String  \"PMCHGFSCTRGCITOTSK.PMCHGFSCTSKTOCHG.ownergroup\""
 def selectchange():
-    '''    public int selectchange()
+    '''public int selectchange()
     '''
 def selectci():
-    '''    public int selectci()
+    '''public int selectci()
     '''
 def selectasset():
-    '''    public int selectasset()
+    '''public int selectasset()
     '''
 def selectlocation():
-    '''    public int selectlocation()
+    '''public int selectlocation()
     '''
 def selectchgwin():
-    '''    public int selectchgwin()
+    '''public int selectchgwin()
     '''
 def selecttask():
-    '''    public int selecttask()
+    '''public int selecttask()
     '''
 def selecttasktoschedule():
-    '''    public int selecttasktoschedule()
+    '''public int selecttasktoschedule()
     '''
 def selectperson():
-    '''    public int selectperson()
+    '''public int selectperson()
     '''
 def selectpersongroup():
-    '''    public int selectpersongroup()
+    '''public int selectpersongroup()
     '''

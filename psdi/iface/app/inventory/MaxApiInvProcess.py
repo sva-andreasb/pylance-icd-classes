@@ -1,12 +1,12 @@
 def MaxApiInvProcess():
-    '''    public MaxApiInvProcess()
+    '''public MaxApiInvProcess()
     '''
 def setAdditionalData():
-    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
     '''
 def checkBusinessRules():
-    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
     '''
 def copyParentKey():
-    '''    public void copyParentKey(final String attributeName, final String value)
+    '''public void copyParentKey(final String attributeName, final String value)
     '''

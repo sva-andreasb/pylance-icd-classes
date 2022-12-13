@@ -1,6 +1,6 @@
 def getValue():
-    '''    public Object getValue()
+    '''public Object getValue()
     '''
 def setValue():
-    '''    public void setValue(final Object value)
+    '''public void setValue(final Object value)
     '''

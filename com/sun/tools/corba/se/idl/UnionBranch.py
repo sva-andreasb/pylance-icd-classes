@@ -1,3 +1,3 @@
 def UnionBranch():
-    '''    public UnionBranch()
+    '''public UnionBranch()
     '''

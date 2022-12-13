@@ -1,3 +1,3 @@
 def FldPOProcessName():
-    '''    public FldPOProcessName(final MboValue mbv)
+    '''public FldPOProcessName(final MboValue mbv)
     '''

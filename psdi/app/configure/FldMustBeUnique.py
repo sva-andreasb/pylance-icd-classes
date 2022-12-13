@@ -1,6 +1,6 @@
 def FldMustBeUnique():
-    '''    public FldMustBeUnique(final MboValue mbv)
+    '''public FldMustBeUnique(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

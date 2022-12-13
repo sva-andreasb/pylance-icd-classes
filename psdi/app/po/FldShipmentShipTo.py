@@ -1,3 +1,3 @@
 def FldShipmentShipTo():
-    '''    public FldShipmentShipTo(final MboValue mbv)
+    '''public FldShipmentShipTo(final MboValue mbv)
     '''

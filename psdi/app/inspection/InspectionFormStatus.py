@@ -1,9 +1,9 @@
 def InspectionFormStatus():
-    '''    public InspectionFormStatus(final MboSet ms)
+    '''public InspectionFormStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def generateAutoKey():
-    '''    public void generateAutoKey()
+    '''public void generateAutoKey()
     '''

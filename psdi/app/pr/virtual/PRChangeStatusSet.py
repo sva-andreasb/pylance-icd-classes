@@ -1,3 +1,3 @@
 def PRChangeStatusSet():
-    '''    public PRChangeStatusSet(final MboServerInterface ms)
+    '''public PRChangeStatusSet(final MboServerInterface ms)
     '''

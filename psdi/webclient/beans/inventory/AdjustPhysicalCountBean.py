@@ -1,9 +1,9 @@
 def AdjustPhysicalCountBean():
-    '''    public AdjustPhysicalCountBean()
+    '''public AdjustPhysicalCountBean()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''
 def refreshcountdate():
-    '''    public int refreshcountdate()
+    '''public int refreshcountdate()
     '''

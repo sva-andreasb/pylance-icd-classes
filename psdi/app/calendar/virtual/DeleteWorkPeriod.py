@@ -1,6 +1,6 @@
 def DeleteWorkPeriod():
-    '''    public DeleteWorkPeriod(final MboSet ms)
+    '''public DeleteWorkPeriod(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

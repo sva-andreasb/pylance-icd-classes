@@ -1,48 +1,48 @@
 def WorkflowRelationship():
-    '''    public WorkflowRelationship(final WorkflowNode predecessorNode, final WorkflowNode successorNode)
+    '''public WorkflowRelationship(final WorkflowNode predecessorNode, final WorkflowNode successorNode)
     '''
 def getWorkflow():
-    '''    public Workflow getWorkflow()
+    '''public Workflow getWorkflow()
     '''
 def setWorkflow():
-    '''    public void setWorkflow(final Workflow workflow)
+    '''public void setWorkflow(final Workflow workflow)
     '''
 def getPredecessorNode():
-    '''    public WorkflowNode getPredecessorNode()
+    '''public WorkflowNode getPredecessorNode()
     '''
 def getSuccessorNode():
-    '''    public WorkflowNode getSuccessorNode()
+    '''public WorkflowNode getSuccessorNode()
     '''
 def getAction():
-    '''    public Object getAction()
+    '''public Object getAction()
     '''
 def setAction():
-    '''    public void setAction(final Object action)
+    '''public void setAction(final Object action)
     '''
 def getInstruction():
-    '''    public Object getInstruction()
+    '''public Object getInstruction()
     '''
 def setInstruction():
-    '''    public void setInstruction(final Object instruction)
+    '''public void setInstruction(final Object instruction)
     '''
 def setNegative():
-    '''    public void setNegative(final boolean isNegative)
+    '''public void setNegative(final boolean isNegative)
     '''
 def isNegative():
-    '''    public boolean isNegative()
+    '''public boolean isNegative()
     '''
 def getHorizontalRelationship():
-    '''    public int getHorizontalRelationship()
+    '''public int getHorizontalRelationship()
     '''
 def getVerticalRelationship():
-    '''    public int getVerticalRelationship()
+    '''public int getVerticalRelationship()
     '''
 def copy():
-    '''    public WorkflowEntity copy()
+    '''public WorkflowEntity copy()
     '''
 def restoreFrom():
-    '''    public void restoreFrom(final WorkflowEntity entity)
+    '''public void restoreFrom(final WorkflowEntity entity)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

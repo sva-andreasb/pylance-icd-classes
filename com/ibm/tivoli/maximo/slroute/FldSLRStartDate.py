@@ -1,6 +1,6 @@
 def FldSLRStartDate():
-    '''    public FldSLRStartDate(final MboValue mbv)
+    '''public FldSLRStartDate(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

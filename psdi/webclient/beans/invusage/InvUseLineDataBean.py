@@ -1,33 +1,33 @@
 def InvUseLineDataBean():
-    '''    public InvUseLineDataBean()
+    '''public InvUseLineDataBean()
     '''
 def setCurEvent():
-    '''    public void setCurEvent(final WebClientEvent thisEvent)
+    '''public void setCurEvent(final WebClientEvent thisEvent)
     '''
 def getCurEvent():
-    '''    public WebClientEvent getCurEvent()
+    '''public WebClientEvent getCurEvent()
     '''
 def selectitems():
-    '''    public int selectitems()
+    '''public int selectitems()
     '''
 def selectitemsforreturnissue():
-    '''    public int selectitemsforreturnissue()
+    '''public int selectitemsforreturnissue()
     '''
 def selectreserveditems():
-    '''    public int selectreserveditems()
+    '''public int selectreserveditems()
     '''
 def selectspareparts():
-    '''    public int selectspareparts()
+    '''public int selectspareparts()
     '''
 def addrow():
-    '''    public int addrow()
+    '''public int addrow()
     '''
 def checkReservation():
-    '''    public void checkReservation()
+    '''public void checkReservation()
     '''
 def checkReturn():
-    '''    public void checkReturn()
+    '''public void checkReturn()
     '''
 def validateinfo():
-    '''    public int validateinfo()
+    '''public int validateinfo()
     '''

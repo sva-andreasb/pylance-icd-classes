@@ -1,12 +1,12 @@
 def DefaultLangCondition():
-    '''    public DefaultLangCondition(final String lang)
+    '''public DefaultLangCondition(final String lang)
     '''
 def getConditionType():
-    '''    public short getConditionType()
+    '''public short getConditionType()
     '''
 def getLang():
-    '''    public String getLang()
+    '''public String getLang()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

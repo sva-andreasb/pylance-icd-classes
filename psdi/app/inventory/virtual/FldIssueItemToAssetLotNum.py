@@ -1,6 +1,6 @@
 def FldIssueItemToAssetLotNum():
-    '''    public FldIssueItemToAssetLotNum(final MboValue mbv)
+    '''public FldIssueItemToAssetLotNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

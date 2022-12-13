@@ -1,3 +1,3 @@
 def AdvancedSigOptionSet():
-    '''    public AdvancedSigOptionSet(final MboServerInterface ms)
+    '''public AdvancedSigOptionSet(final MboServerInterface ms)
     '''

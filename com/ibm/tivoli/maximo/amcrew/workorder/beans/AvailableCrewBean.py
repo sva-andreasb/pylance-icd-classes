@@ -1,6 +1,6 @@
 def refreshCrewList():
-    '''    public int refreshCrewList()
+    '''public int refreshCrewList()
     '''
 def selectRecord():
-    '''    public int selectRecord(final MboRemote crewAssign)
+    '''public int selectRecord(final MboRemote crewAssign)
     '''

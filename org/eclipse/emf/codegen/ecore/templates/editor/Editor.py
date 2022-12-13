@@ -1,9 +1,9 @@
 def Editor():
-    '''    public Editor()
+    '''public Editor()
     '''
 def create():
-    '''    public static synchronized Editor create(final String lineSeparator)
+    '''public static synchronized Editor create(final String lineSeparator)
     '''
 def generate():
-    '''    public String generate(final Object argument)
+    '''public String generate(final Object argument)
     '''

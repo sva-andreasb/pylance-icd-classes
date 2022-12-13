@@ -1,6 +1,6 @@
 def FldInvVendorQtyReceived():
-    '''    public FldInvVendorQtyReceived(final MboValue mbv)
+    '''public FldInvVendorQtyReceived(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

@@ -1,3 +1,3 @@
 def ViewReportDepSet():
-    '''    public ViewReportDepSet(final MboServerInterface ms)
+    '''public ViewReportDepSet(final MboServerInterface ms)
     '''

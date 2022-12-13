@@ -1,6 +1,6 @@
 def FldLaborCraftRateStandardRate():
-    '''    public FldLaborCraftRateStandardRate(final MboValue mbv)
+    '''public FldLaborCraftRateStandardRate(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

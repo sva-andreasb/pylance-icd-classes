@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_duration\")"
 def newInstance():
-    '''    public static XmlDuration newInstance()
+    '''public static XmlDuration newInstance()
     public static XmlDuration newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlDuration newValue(final Object obj)
+    '''public static XmlDuration newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlDuration parse(final String s)
+    '''public static XmlDuration parse(final String s)
     public static XmlDuration parse(final String s, final XmlOptions options)
     public static XmlDuration parse(final File f)
     public static XmlDuration parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlDuration parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

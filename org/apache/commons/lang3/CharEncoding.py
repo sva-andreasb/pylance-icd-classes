@@ -5,5 +5,5 @@ UTF_16BE = "String  \"UTF-16BE\""
 UTF_16LE = "String  \"UTF-16LE\""
 UTF_8 = "String  \"UTF-8\""
 def isSupported():
-    '''    public static boolean isSupported(final String name)
+    '''public static boolean isSupported(final String name)
     '''

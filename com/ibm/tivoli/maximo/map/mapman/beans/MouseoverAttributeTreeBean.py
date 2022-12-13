@@ -1,3 +1,3 @@
 def MouseoverAttributeTreeBean():
-    '''    public MouseoverAttributeTreeBean()
+    '''public MouseoverAttributeTreeBean()
     '''

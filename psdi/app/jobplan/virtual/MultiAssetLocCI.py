@@ -1,6 +1,6 @@
 def MultiAssetLocCI():
-    '''    public MultiAssetLocCI(final MboSet ms)
+    '''public MultiAssetLocCI(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

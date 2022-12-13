@@ -1,3 +1,3 @@
 def CompareID():
-    '''    public CompareID(final String id)
+    '''public CompareID(final String id)
     '''

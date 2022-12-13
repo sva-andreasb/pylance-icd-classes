@@ -1,13 +1,13 @@
 def StripLineBreaks():
-    '''    public StripLineBreaks()
+    '''public StripLineBreaks()
     public StripLineBreaks(final Reader in)
     '''
 def read():
-    '''    public int read()
+    '''public int read()
     '''
 def setLineBreaks():
-    '''    public void setLineBreaks(final String lineBreaks)
+    '''public void setLineBreaks(final String lineBreaks)
     '''
 def chain():
-    '''    public Reader chain(final Reader rdr)
+    '''public Reader chain(final Reader rdr)
     '''

@@ -1,3 +1,3 @@
 def DMCompResRecordSet():
-    '''    public DMCompResRecordSet(final MboServerInterface ms)
+    '''public DMCompResRecordSet(final MboServerInterface ms)
     '''

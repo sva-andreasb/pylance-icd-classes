@@ -1,9 +1,9 @@
 def PlusCFldMeasuredValues():
-    '''    public PlusCFldMeasuredValues(final MboValue mbv)
+    '''public PlusCFldMeasuredValues(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

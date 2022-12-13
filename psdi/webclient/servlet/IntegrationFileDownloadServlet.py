@@ -1,3 +1,3 @@
 def isFolderAllowed():
-    '''    public static boolean isFolderAllowed(String resourceReq)
+    '''public static boolean isFolderAllowed(String resourceReq)
     '''

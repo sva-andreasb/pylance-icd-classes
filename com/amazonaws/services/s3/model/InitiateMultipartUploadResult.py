@@ -1,36 +1,36 @@
 def getBucketName():
-    '''    public String getBucketName()
+    '''public String getBucketName()
     '''
 def setBucketName():
-    '''    public void setBucketName(final String bucketName)
+    '''public void setBucketName(final String bucketName)
     '''
 def getKey():
-    '''    public String getKey()
+    '''public String getKey()
     '''
 def setKey():
-    '''    public void setKey(final String key)
+    '''public void setKey(final String key)
     '''
 def getUploadId():
-    '''    public String getUploadId()
+    '''public String getUploadId()
     '''
 def setUploadId():
-    '''    public void setUploadId(final String uploadId)
+    '''public void setUploadId(final String uploadId)
     '''
 def getAbortDate():
-    '''    public Date getAbortDate()
+    '''public Date getAbortDate()
     '''
 def setAbortDate():
-    '''    public void setAbortDate(final Date abortDate)
+    '''public void setAbortDate(final Date abortDate)
     '''
 def getAbortRuleId():
-    '''    public String getAbortRuleId()
+    '''public String getAbortRuleId()
     '''
 def setAbortRuleId():
-    '''    public void setAbortRuleId(final String abortRuleId)
+    '''public void setAbortRuleId(final String abortRuleId)
     '''
 def isRequesterCharged():
-    '''    public boolean isRequesterCharged()
+    '''public boolean isRequesterCharged()
     '''
 def setRequesterCharged():
-    '''    public void setRequesterCharged(final boolean isRequesterCharged)
+    '''public void setRequesterCharged(final boolean isRequesterCharged)
     '''

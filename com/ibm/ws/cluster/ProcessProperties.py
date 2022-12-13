@@ -28,13 +28,13 @@ KEY_IGNORE_BB_UPDATES = "String  \"key.ignore.bb.updates\""
 KEY_SERVER_LOG_ROOT = "String  \"key.server.log.root\""
 KEY_PROXY_SERVER_INSTANCE = "String  \"key.proxy.server.instance\""
 def run():
-    '''    public Object run()
+    '''public Object run()
     public Object run()
     public Object run()
     '''
 def getInstance():
-    '''    public static ProcessProperties getInstance()
+    '''public static ProcessProperties getInstance()
     '''
 def introspectSelf():
-    '''    public String[] introspectSelf()
+    '''public String[] introspectSelf()
     '''

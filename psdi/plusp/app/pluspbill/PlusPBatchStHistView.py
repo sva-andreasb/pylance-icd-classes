@@ -1,3 +1,3 @@
 def PlusPBatchStHistView():
-    '''    public PlusPBatchStHistView(final MboSet ms)
+    '''public PlusPBatchStHistView(final MboSet ms)
     '''

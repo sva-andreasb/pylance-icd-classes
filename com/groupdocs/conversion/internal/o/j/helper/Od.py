@@ -1,5 +1,5 @@
 def a():
-    '''    public static e a(final String s, final String s2)
+    '''public static e a(final String s, final String s2)
     public static e a(final String s, final String s2, final f f)
     public static e a(final String s)
     public static e a(final File file, final String s, final String s2)
@@ -13,9 +13,9 @@ def a():
     public static boolean a(final String s, final b b)
     '''
 def e():
-    '''    public static Ob e(final String s)
+    '''public static Ob e(final String s)
     '''
 def b():
-    '''    public static e b(final String s, final String s2)
+    '''public static e b(final String s, final String s2)
     public static e b(final String s)
     '''

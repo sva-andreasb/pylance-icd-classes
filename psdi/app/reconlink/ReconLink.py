@@ -1,9 +1,9 @@
 def ReconLink():
-    '''    public ReconLink(final MboSet ms)
+    '''public ReconLink(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def delete():
-    '''    public void delete()
+    '''public void delete()
     '''

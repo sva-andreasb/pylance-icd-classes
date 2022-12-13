@@ -1,12 +1,12 @@
 def FldLeaseViewLineItemNum():
-    '''    public FldLeaseViewLineItemNum(final MboValue mbv)
+    '''public FldLeaseViewLineItemNum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

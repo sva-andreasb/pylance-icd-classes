@@ -1,6 +1,6 @@
 def FldSwKbtCronPartialRun():
-    '''    public FldSwKbtCronPartialRun(final MboValue mbv)
+    '''public FldSwKbtCronPartialRun(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

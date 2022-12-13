@@ -1,11 +1,11 @@
 COPY_ALWAYS = "boolean  true"
 COPY_ONLY_ON_CHANGE = "boolean  false"
 def SqlTransformCopy():
-    '''    public SqlTransformCopy()
+    '''public SqlTransformCopy()
     public SqlTransformCopy(final boolean alwaysDuplicate)
     '''
 def transform():
-    '''    public SqlNode transform(final SqlProject sqlProject, final SqlNode subNode)
+    '''public SqlNode transform(final SqlProject sqlProject, final SqlNode subNode)
     public SqlNode transform(final SqlDistinct sqlDistinct, final SqlNode subNode)
     public SqlNode transform(final SqlRestrict sqlRestrict, final SqlNode subNode)
     public SqlNode transform(final SqlSlice sqlSlice, final SqlNode subNode)

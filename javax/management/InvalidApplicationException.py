@@ -1,3 +1,3 @@
 def InvalidApplicationException():
-    '''    public InvalidApplicationException(final Object val)
+    '''public InvalidApplicationException(final Object val)
     '''

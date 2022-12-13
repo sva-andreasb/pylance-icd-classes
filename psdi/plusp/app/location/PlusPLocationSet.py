@@ -1,3 +1,3 @@
 def PlusPLocationSet():
-    '''    public PlusPLocationSet(final MboServerInterface arg0)
+    '''public PlusPLocationSet(final MboServerInterface arg0)
     '''

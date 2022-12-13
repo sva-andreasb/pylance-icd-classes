@@ -1,9 +1,9 @@
 def PlainFileMem():
-    '''    public PlainFileMem()
+    '''public PlainFileMem()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def sync():
-    '''    public void sync(final boolean force)
+    '''public void sync(final boolean force)
     '''

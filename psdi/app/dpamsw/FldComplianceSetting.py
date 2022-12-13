@@ -1,3 +1,3 @@
 def FldComplianceSetting():
-    '''    public FldComplianceSetting(final MboValue mv)
+    '''public FldComplianceSetting(final MboValue mv)
     '''

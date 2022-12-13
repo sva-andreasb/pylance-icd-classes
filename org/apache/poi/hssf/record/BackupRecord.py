@@ -1,20 +1,20 @@
 sid = "short  64"
 def BackupRecord():
-    '''    public BackupRecord()
+    '''public BackupRecord()
     public BackupRecord(final RecordInputStream in)
     '''
 def setBackup():
-    '''    public void setBackup(final short backup)
+    '''public void setBackup(final short backup)
     '''
 def getBackup():
-    '''    public short getBackup()
+    '''public short getBackup()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def serialize():
-    '''    public void serialize(final LittleEndianOutput out)
+    '''public void serialize(final LittleEndianOutput out)
     '''
 def getSid():
-    '''    public short getSid()
+    '''public short getSid()
     '''

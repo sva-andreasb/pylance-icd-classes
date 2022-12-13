@@ -1,3 +1,3 @@
 def build():
-    '''    public RegionMetadata build()
+    '''public RegionMetadata build()
     '''

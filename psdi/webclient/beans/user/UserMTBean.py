@@ -1,3 +1,3 @@
 def process():
-    '''    public synchronized int process()
+    '''public synchronized int process()
     '''

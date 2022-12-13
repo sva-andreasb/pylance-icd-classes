@@ -1,3 +1,3 @@
 def MXCollabSet():
-    '''    public MXCollabSet(final MboServerInterface ms)
+    '''public MXCollabSet(final MboServerInterface ms)
     '''

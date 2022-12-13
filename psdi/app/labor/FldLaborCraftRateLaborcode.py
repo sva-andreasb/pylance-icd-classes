@@ -1,9 +1,9 @@
 def FldLaborCraftRateLaborcode():
-    '''    public FldLaborCraftRateLaborcode(final MboValue mbv)
+    '''public FldLaborCraftRateLaborcode(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

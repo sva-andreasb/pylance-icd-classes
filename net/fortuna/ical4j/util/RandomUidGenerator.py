@@ -1,3 +1,3 @@
 def generateUid():
-    '''    public Uid generateUid()
+    '''public Uid generateUid()
     '''

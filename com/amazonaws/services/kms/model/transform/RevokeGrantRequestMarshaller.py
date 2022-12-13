@@ -1,6 +1,6 @@
 def RevokeGrantRequestMarshaller():
-    '''    public RevokeGrantRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+    '''public RevokeGrantRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
     '''
 def marshall():
-    '''    public Request<RevokeGrantRequest> marshall(final RevokeGrantRequest revokeGrantRequest)
+    '''public Request<RevokeGrantRequest> marshall(final RevokeGrantRequest revokeGrantRequest)
     '''

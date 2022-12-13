@@ -1,6 +1,6 @@
 def PlusCFldUpdateRequiredFlag():
-    '''    public PlusCFldUpdateRequiredFlag(final MboValue mbv)
+    '''public PlusCFldUpdateRequiredFlag(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

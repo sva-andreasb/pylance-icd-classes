@@ -1,6 +1,6 @@
 def FldWorkPeriodWorkDate():
-    '''    public FldWorkPeriodWorkDate(final MboValue mbv)
+    '''public FldWorkPeriodWorkDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

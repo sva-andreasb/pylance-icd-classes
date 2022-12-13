@@ -1,3 +1,3 @@
 def OAuthCallbackUrl():
-    '''    public OAuthCallbackUrl(final String encodedUrl)
+    '''public OAuthCallbackUrl(final String encodedUrl)
     '''

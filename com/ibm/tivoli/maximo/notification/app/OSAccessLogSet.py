@@ -1,6 +1,6 @@
 def OSAccessLogSet():
-    '''    public OSAccessLogSet(final MboServerInterface ms)
+    '''public OSAccessLogSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

@@ -1,9 +1,9 @@
 def MaxEndPointTestSet():
-    '''    public MaxEndPointTestSet(final MboServerInterface ms)
+    '''public MaxEndPointTestSet(final MboServerInterface ms)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

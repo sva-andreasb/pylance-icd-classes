@@ -1,6 +1,6 @@
 def FldLicTypeMaxLicense():
-    '''    public FldLicTypeMaxLicense(final MboValue mbv)
+    '''public FldLicTypeMaxLicense(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

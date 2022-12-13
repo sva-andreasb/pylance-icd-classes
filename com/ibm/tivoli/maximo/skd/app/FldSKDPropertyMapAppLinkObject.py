@@ -1,3 +1,3 @@
 def FldSKDPropertyMapAppLinkObject():
-    '''    public FldSKDPropertyMapAppLinkObject(final MboValue mbv)
+    '''public FldSKDPropertyMapAppLinkObject(final MboValue mbv)
     '''

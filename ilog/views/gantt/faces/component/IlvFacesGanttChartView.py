@@ -1,15 +1,15 @@
 def getFamily():
-    '''    public String getFamily()
+    '''public String getFamily()
     '''
 def getComponentType():
-    '''    public static String getComponentType()
+    '''public static String getComponentType()
     '''
 def createHierarchyChart():
-    '''    public IlvHierarchyChart createHierarchyChart()
+    '''public IlvHierarchyChart createHierarchyChart()
     '''
 def getResult():
-    '''    public Object getResult()
+    '''public Object getResult()
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''

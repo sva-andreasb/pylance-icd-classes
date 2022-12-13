@@ -1,3 +1,3 @@
 def RedisArrayAggregator():
-    '''    public RedisArrayAggregator()
+    '''public RedisArrayAggregator()
     '''

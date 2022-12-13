@@ -1,9 +1,9 @@
 def MfMailAttributesMultiLookupBean():
-    '''    public MfMailAttributesMultiLookupBean()
+    '''public MfMailAttributesMultiLookupBean()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''
 def getMboSetRemote():
-    '''    public MboSetRemote getMboSetRemote()
+    '''public MboSetRemote getMboSetRemote()
     '''

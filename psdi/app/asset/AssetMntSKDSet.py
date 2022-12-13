@@ -1,3 +1,3 @@
 def AssetMntSKDSet():
-    '''    public AssetMntSKDSet(final MboServerInterface ms)
+    '''public AssetMntSKDSet(final MboServerInterface ms)
     '''

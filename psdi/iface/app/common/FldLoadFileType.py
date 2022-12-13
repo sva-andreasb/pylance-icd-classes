@@ -1,6 +1,6 @@
 def FldLoadFileType():
-    '''    public FldLoadFileType(final MboValue mbv)
+    '''public FldLoadFileType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

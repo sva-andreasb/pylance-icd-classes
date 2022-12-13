@@ -1,6 +1,6 @@
 def FldWOAreasAffectedAssetnum():
-    '''    public FldWOAreasAffectedAssetnum(final MboValue mbv)
+    '''public FldWOAreasAffectedAssetnum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

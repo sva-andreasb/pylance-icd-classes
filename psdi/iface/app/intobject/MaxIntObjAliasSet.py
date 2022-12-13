@@ -1,3 +1,3 @@
 def MaxIntObjAliasSet():
-    '''    public MaxIntObjAliasSet(final MboServerInterface ms)
+    '''public MaxIntObjAliasSet(final MboServerInterface ms)
     '''

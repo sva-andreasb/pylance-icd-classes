@@ -1,6 +1,6 @@
 def FldVAvailableSize():
-    '''    public FldVAvailableSize(final MboValue mbv)
+    '''public FldVAvailableSize(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

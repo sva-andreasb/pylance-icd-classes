@@ -1,6 +1,6 @@
 def FldLocationWorkZoneWorkZone():
-    '''    public FldLocationWorkZoneWorkZone(final MboValue mbv)
+    '''public FldLocationWorkZoneWorkZone(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

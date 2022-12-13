@@ -1,6 +1,6 @@
 def TagTypeDataMap():
-    '''    public TagTypeDataMap()
+    '''public TagTypeDataMap()
     '''
 def getTypeData():
-    '''    public UimaTypeData getTypeData(final int value)
+    '''public UimaTypeData getTypeData(final int value)
     '''

@@ -1,3 +1,3 @@
 def PlusPCustomerLogSet():
-    '''    public PlusPCustomerLogSet(final MboServerInterface ms)
+    '''public PlusPCustomerLogSet(final MboServerInterface ms)
     '''

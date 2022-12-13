@@ -1,9 +1,9 @@
 def XPath2XMLVisitor():
-    '''    public XPath2XMLVisitor()
+    '''public XPath2XMLVisitor()
     public XPath2XMLVisitor(final PrintWriter printer)
     '''
 def visit():
-    '''    public void visit(final PathExpr expr)
+    '''public void visit(final PathExpr expr)
     public void visit(final LocationPath expr)
     public void visit(final LogicalExpr expr)
     public void visit(final EqualityExpr expr)

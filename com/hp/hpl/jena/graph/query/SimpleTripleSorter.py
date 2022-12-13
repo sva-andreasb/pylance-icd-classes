@@ -1,6 +1,6 @@
 def SimpleTripleSorter():
-    '''    public SimpleTripleSorter()
+    '''public SimpleTripleSorter()
     '''
 def sort():
-    '''    public Triple[] sort(final Triple[] ts)
+    '''public Triple[] sort(final Triple[] ts)
     '''

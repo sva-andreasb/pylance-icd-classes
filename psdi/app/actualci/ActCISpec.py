@@ -1,6 +1,6 @@
 def ActCISpec():
-    '''    public ActCISpec(final MboSet ms)
+    '''public ActCISpec(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

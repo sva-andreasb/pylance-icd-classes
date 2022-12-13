@@ -1,3 +1,3 @@
 def PlusPReconCompRuleSet():
-    '''    public PlusPReconCompRuleSet(final MboServerInterface arg0)
+    '''public PlusPReconCompRuleSet(final MboServerInterface arg0)
     '''

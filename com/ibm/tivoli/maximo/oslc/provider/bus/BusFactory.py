@@ -1,3 +1,3 @@
 def getBus():
-    '''    public static Bus getBus()
+    '''public static Bus getBus()
     '''

@@ -1,6 +1,6 @@
 def FldInvBalancesAdustedPhysCnt():
-    '''    public FldInvBalancesAdustedPhysCnt(final MboValue mbv)
+    '''public FldInvBalancesAdustedPhysCnt(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

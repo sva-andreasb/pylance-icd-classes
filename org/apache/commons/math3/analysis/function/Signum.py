@@ -1,3 +1,3 @@
 def value():
-    '''    public double value(final double x)
+    '''public double value(final double x)
     '''

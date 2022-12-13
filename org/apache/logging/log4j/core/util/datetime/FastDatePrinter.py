@@ -3,7 +3,7 @@ LONG = "int  1"
 MEDIUM = "int  2"
 SHORT = "int  3"
 def format():
-    '''    public StringBuilder format(final Object obj, final StringBuilder toAppendTo, final FieldPosition pos)
+    '''public StringBuilder format(final Object obj, final StringBuilder toAppendTo, final FieldPosition pos)
     public String format(final long millis)
     public String format(final Date date)
     public String format(final Calendar calendar)
@@ -12,30 +12,30 @@ def format():
     public <B extends Appendable> B format(Calendar calendar, final B buf)
     '''
 def getPattern():
-    '''    public String getPattern()
+    '''public String getPattern()
     '''
 def getTimeZone():
-    '''    public TimeZone getTimeZone()
+    '''public TimeZone getTimeZone()
     '''
 def getLocale():
-    '''    public Locale getLocale()
+    '''public Locale getLocale()
     '''
 def getMaxLengthEstimate():
-    '''    public int getMaxLengthEstimate()
+    '''public int getMaxLengthEstimate()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     public int hashCode()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def estimateLength():
-    '''    public int estimateLength()
+    '''public int estimateLength()
     public int estimateLength()
     public int estimateLength()
     public int estimateLength()
@@ -53,7 +53,7 @@ def estimateLength():
     public int estimateLength()
     '''
 def appendTo():
-    '''    public void appendTo(final Appendable buffer, final Calendar calendar)
+    '''public void appendTo(final Appendable buffer, final Calendar calendar)
     public void appendTo(final Appendable buffer, final Calendar calendar)
     public void appendTo(final Appendable buffer, final Calendar calendar)
     public void appendTo(final Appendable buffer, final Calendar calendar)

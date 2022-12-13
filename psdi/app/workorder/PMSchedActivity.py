@@ -1,3 +1,3 @@
 def PMSchedActivity():
-    '''    public PMSchedActivity(final MboSet ms)
+    '''public PMSchedActivity(final MboSet ms)
     '''

@@ -1,3 +1,3 @@
 def parse():
-    '''    public static ValidateElement parse(final XmlPullParser parser)
+    '''public static ValidateElement parse(final XmlPullParser parser)
     '''

@@ -1,3 +1,3 @@
 def FldReportAppName():
-    '''    public FldReportAppName(final MboValue mbv)
+    '''public FldReportAppName(final MboValue mbv)
     '''

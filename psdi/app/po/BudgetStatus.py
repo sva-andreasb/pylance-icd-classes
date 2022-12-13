@@ -1,6 +1,6 @@
 def BudgetStatus():
-    '''    public BudgetStatus(final MboSet ms)
+    '''public BudgetStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

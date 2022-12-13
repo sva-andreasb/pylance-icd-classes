@@ -1,3 +1,3 @@
 def getProxy():
-    '''    public static Remote getProxy(final Remote obj)
+    '''public static Remote getProxy(final Remote obj)
     '''

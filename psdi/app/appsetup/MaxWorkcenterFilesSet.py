@@ -1,3 +1,3 @@
 def MaxWorkcenterFilesSet():
-    '''    public MaxWorkcenterFilesSet(final MboServerInterface ms)
+    '''public MaxWorkcenterFilesSet(final MboServerInterface ms)
     '''

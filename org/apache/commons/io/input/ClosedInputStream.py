@@ -1,3 +1,3 @@
 def read():
-    '''    public int read()
+    '''public int read()
     '''

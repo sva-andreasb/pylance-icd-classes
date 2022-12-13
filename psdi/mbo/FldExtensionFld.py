@@ -1,6 +1,6 @@
 def FldExtensionFld():
-    '''    public FldExtensionFld(final MboValue mv)
+    '''public FldExtensionFld(final MboValue mv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

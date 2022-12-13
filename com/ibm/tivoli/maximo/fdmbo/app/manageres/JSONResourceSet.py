@@ -1,6 +1,6 @@
 def JSONResourceSet():
-    '''    public JSONResourceSet(final MboServerInterface ms)
+    '''public JSONResourceSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

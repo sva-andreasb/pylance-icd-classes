@@ -1,6 +1,6 @@
 def ShowWFConditionSet():
-    '''    public ShowWFConditionSet(final MboServerInterface ms)
+    '''public ShowWFConditionSet(final MboServerInterface ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

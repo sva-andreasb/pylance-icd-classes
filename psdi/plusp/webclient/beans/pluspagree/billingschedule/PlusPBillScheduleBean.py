@@ -1,9 +1,9 @@
 def setCurrentRow():
-    '''    public synchronized boolean setCurrentRow(final int currentRow)
+    '''public synchronized boolean setCurrentRow(final int currentRow)
     '''
 def fireChildChangedEvent():
-    '''    public void fireChildChangedEvent()
+    '''public void fireChildChangedEvent()
     '''
 def previewbillingdates():
-    '''    public void previewbillingdates()
+    '''public void previewbillingdates()
     '''

@@ -1,6 +1,6 @@
 def returnwithvalue():
-    '''    public int returnwithvalue()
+    '''public int returnwithvalue()
     '''
 def CIHIERAR():
-    '''    public int CIHIERAR()
+    '''public int CIHIERAR()
     '''

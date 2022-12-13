@@ -14,143 +14,143 @@ TYPE_DOUBLE = "String  \"Double\""
 TYPE_FLOAT = "String  \"Float\""
 TYPE_BOOLEAN = "String  \"Boolean\""
 def WSIOAttribute():
-    '''    public WSIOAttribute()
+    '''public WSIOAttribute()
     '''
 def getFractionDigits():
-    '''    public int getFractionDigits()
+    '''public int getFractionDigits()
     '''
 def setFractionDigits():
-    '''    public void setFractionDigits(final int fractionDigits)
+    '''public void setFractionDigits(final int fractionDigits)
     '''
 def getLength():
-    '''    public int getLength()
+    '''public int getLength()
     '''
 def setLength():
-    '''    public void setLength(final int length)
+    '''public void setLength(final int length)
     '''
 def getMaxLength():
-    '''    public int getMaxLength()
+    '''public int getMaxLength()
     '''
 def setMaxLength():
-    '''    public void setMaxLength(final int maxLength)
+    '''public void setMaxLength(final int maxLength)
     '''
 def getMinLength():
-    '''    public int getMinLength()
+    '''public int getMinLength()
     '''
 def setMinLength():
-    '''    public void setMinLength(final int minLength)
+    '''public void setMinLength(final int minLength)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def setName():
-    '''    public void setName(final String name)
+    '''public void setName(final String name)
     '''
 def isReadOnly():
-    '''    public boolean isReadOnly()
+    '''public boolean isReadOnly()
     '''
 def setReadOnly():
-    '''    public void setReadOnly(final boolean readOnly)
+    '''public void setReadOnly(final boolean readOnly)
     '''
 def getTotalDigits():
-    '''    public int getTotalDigits()
+    '''public int getTotalDigits()
     '''
 def setTotalDigits():
-    '''    public void setTotalDigits(final int totalDigits)
+    '''public void setTotalDigits(final int totalDigits)
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''
 def setType():
-    '''    public void setType(final String type)
+    '''public void setType(final String type)
     '''
 def isGenerated():
-    '''    public boolean isGenerated()
+    '''public boolean isGenerated()
     '''
 def getDefaultValue():
-    '''    public String getDefaultValue()
+    '''public String getDefaultValue()
     '''
 def setDefaultValue():
-    '''    public void setDefaultValue(final String defaultValue)
+    '''public void setDefaultValue(final String defaultValue)
     '''
 def getEnumList():
-    '''    public List<String> getEnumList()
+    '''public List<String> getEnumList()
     '''
 def setEnumList():
-    '''    public void setEnumList(final List<String> enumList)
+    '''public void setEnumList(final List<String> enumList)
     '''
 def hasDefaultValue():
-    '''    public boolean hasDefaultValue()
+    '''public boolean hasDefaultValue()
     '''
 def getPatterns():
-    '''    public String[] getPatterns()
+    '''public String[] getPatterns()
     '''
 def setPatterns():
-    '''    public void setPatterns(final String[] patterns)
+    '''public void setPatterns(final String[] patterns)
     '''
 def setContainerAttributeName():
-    '''    public void setContainerAttributeName(final String parentAttrName)
+    '''public void setContainerAttributeName(final String parentAttrName)
     '''
 def getContainerAttributeName():
-    '''    public String getContainerAttributeName()
+    '''public String getContainerAttributeName()
     '''
 def isMapToParent():
-    '''    public boolean isMapToParent()
+    '''public boolean isMapToParent()
     '''
 def setMapToParent():
-    '''    public void setMapToParent(final boolean mapToParent)
+    '''public void setMapToParent(final boolean mapToParent)
     '''
 def validate():
-    '''    public void validate(final Object value)
+    '''public void validate(final Object value)
     '''
 def getContainerAttrId():
-    '''    public int getContainerAttrId()
+    '''public int getContainerAttrId()
     '''
 def setContainerAttrId():
-    '''    public void setContainerAttrId(final int parentAttrId)
+    '''public void setContainerAttrId(final int parentAttrId)
     '''
 def setMaxExclusive():
-    '''    public void setMaxExclusive(final String maxExclusive)
+    '''public void setMaxExclusive(final String maxExclusive)
     '''
 def getMinExclusive():
-    '''    public String getMinExclusive()
+    '''public String getMinExclusive()
     '''
 def setMinExclusive():
-    '''    public void setMinExclusive(final String minExclusive)
+    '''public void setMinExclusive(final String minExclusive)
     '''
 def getMinInclusive():
-    '''    public String getMinInclusive()
+    '''public String getMinInclusive()
     '''
 def setMinInclusive():
-    '''    public void setMinInclusive(final String minInclusive)
+    '''public void setMinInclusive(final String minInclusive)
     '''
 def getMaxInclusive():
-    '''    public String getMaxInclusive()
+    '''public String getMaxInclusive()
     '''
 def setMaxInclusive():
-    '''    public void setMaxInclusive(final String maxInclusive)
+    '''public void setMaxInclusive(final String maxInclusive)
     '''
 def getMaxExclusive():
-    '''    public String getMaxExclusive()
+    '''public String getMaxExclusive()
     '''
 def isXmlAttribute():
-    '''    public boolean isXmlAttribute()
+    '''public boolean isXmlAttribute()
     '''
 def isNillable():
-    '''    public boolean isNillable()
+    '''public boolean isNillable()
     '''
 def setNillable():
-    '''    public void setNillable(final boolean nillable)
+    '''public void setNillable(final boolean nillable)
     '''
 def getParentWSIOName():
-    '''    public String getParentWSIOName()
+    '''public String getParentWSIOName()
     '''
 def setParentWSIOName():
-    '''    public void setParentWSIOName(final String parentWSIOName)
+    '''public void setParentWSIOName(final String parentWSIOName)
     '''
 def setEnumType():
-    '''    public void setEnumType(final QName type)
+    '''public void setEnumType(final QName type)
     '''
 def getEnumType():
-    '''    public QName getEnumType()
+    '''public QName getEnumType()
     '''

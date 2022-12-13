@@ -1,10 +1,10 @@
 type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(DocumentSettingsType.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"documentsettingstype945btype\")"
 def newInstance():
-    '''    public static DocumentSettingsType newInstance()
+    '''public static DocumentSettingsType newInstance()
     public static DocumentSettingsType newInstance(final XmlOptions xmlOptions)
     '''
 def parse():
-    '''    public static DocumentSettingsType parse(final String s)
+    '''public static DocumentSettingsType parse(final String s)
     public static DocumentSettingsType parse(final String s, final XmlOptions xmlOptions)
     public static DocumentSettingsType parse(final File file)
     public static DocumentSettingsType parse(final File file, final XmlOptions xmlOptions)
@@ -22,6 +22,6 @@ def parse():
     public static DocumentSettingsType parse(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''

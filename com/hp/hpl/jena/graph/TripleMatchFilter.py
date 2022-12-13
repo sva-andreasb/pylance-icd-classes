@@ -1,6 +1,6 @@
 def TripleMatchFilter():
-    '''    public TripleMatchFilter(final Triple tMatch)
+    '''public TripleMatchFilter(final Triple tMatch)
     '''
 def accept():
-    '''    public boolean accept(final Triple t)
+    '''public boolean accept(final Triple t)
     '''

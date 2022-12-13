@@ -8,16 +8,16 @@ turtleWriter = "String  \"TURTLE\""
 turtleWriterAlt1 = "String  \"Turtle\""
 turtleWriterAlt2 = "String  \"TTL\""
 def N3JenaWriter():
-    '''    public N3JenaWriter()
+    '''public N3JenaWriter()
     public N3JenaWriter(final N3JenaWriterCommon w)
     '''
 def write():
-    '''    public void write(final Model model, final Writer out, final String base)
+    '''public void write(final Model model, final Writer out, final String base)
     public void write(final Model model, final OutputStream out, final String base)
     '''
 def setProperty():
-    '''    public Object setProperty(final String propName, final Object propValue)
+    '''public Object setProperty(final String propName, final Object propValue)
     '''
 def setErrorHandler():
-    '''    public RDFErrorHandler setErrorHandler(final RDFErrorHandler errHandler)
+    '''public RDFErrorHandler setErrorHandler(final RDFErrorHandler errHandler)
     '''

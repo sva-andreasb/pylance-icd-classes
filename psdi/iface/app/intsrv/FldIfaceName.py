@@ -1,6 +1,6 @@
 def FldIfaceName():
-    '''    public FldIfaceName(final MboValue mbv)
+    '''public FldIfaceName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

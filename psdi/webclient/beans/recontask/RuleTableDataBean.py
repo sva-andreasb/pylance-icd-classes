@@ -1,6 +1,6 @@
 def selectlinkrecord():
-    '''    public int selectlinkrecord()
+    '''public int selectlinkrecord()
     '''
 def selectcomprecord():
-    '''    public int selectcomprecord()
+    '''public int selectcomprecord()
     '''

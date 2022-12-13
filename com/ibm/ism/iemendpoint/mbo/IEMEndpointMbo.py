@@ -1,6 +1,6 @@
 def IEMEndpointMbo():
-    '''    public IEMEndpointMbo(final MboSet ms)
+    '''public IEMEndpointMbo(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

@@ -1,3 +1,3 @@
 def MaxComponentSet():
-    '''    public MaxComponentSet(final MboServerInterface ms)
+    '''public MaxComponentSet(final MboServerInterface ms)
     '''

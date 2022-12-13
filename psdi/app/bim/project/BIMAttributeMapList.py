@@ -7,8 +7,8 @@ FIELD_ORGID = "String  \"ORGID\""
 FIELD_BIMPROJECTID = "String  \"BIMPROJECTID\""
 FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
 def BIMAttributeMapList():
-    '''    public BIMAttributeMapList(final MboSet ms)
+    '''public BIMAttributeMapList(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

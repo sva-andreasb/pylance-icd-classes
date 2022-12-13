@@ -1,6 +1,6 @@
 def ServiceProviderGenerator():
-    '''    public ServiceProviderGenerator(final String providerObjName, final UserInfo userInfo)
+    '''public ServiceProviderGenerator(final String providerObjName, final UserInfo userInfo)
     '''
 def getRepresentation():
-    '''    public OslcResourceResponse getRepresentation()
+    '''public OslcResourceResponse getRepresentation()
     '''

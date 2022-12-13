@@ -1,6 +1,6 @@
 def getDefaultInstance():
-    '''    public static MemoryDataStoreFactory getDefaultInstance()
+    '''public static MemoryDataStoreFactory getDefaultInstance()
     '''
 def getDataStoreFactory():
-    '''    public MemoryDataStoreFactory getDataStoreFactory()
+    '''public MemoryDataStoreFactory getDataStoreFactory()
     '''

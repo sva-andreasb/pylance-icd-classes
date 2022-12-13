@@ -1,3 +1,3 @@
 def KPIAuthSet():
-    '''    public KPIAuthSet(final MboServerInterface ms)
+    '''public KPIAuthSet(final MboServerInterface ms)
     '''

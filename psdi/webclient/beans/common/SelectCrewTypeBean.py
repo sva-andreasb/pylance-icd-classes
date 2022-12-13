@@ -1,3 +1,3 @@
 def getCrewTypeSet():
-    '''    public MboSetRemote getCrewTypeSet(final MboRemote ctMbo)
+    '''public MboSetRemote getCrewTypeSet(final MboRemote ctMbo)
     '''

@@ -1,3 +1,3 @@
 def PlusPAppliesToCondSet():
-    '''    public PlusPAppliesToCondSet(final MboServerInterface mboServerInterface)
+    '''public PlusPAppliesToCondSet(final MboServerInterface mboServerInterface)
     '''

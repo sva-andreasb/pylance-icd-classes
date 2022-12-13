@@ -1,6 +1,6 @@
 def FldContractTypeContractTypeID():
-    '''    public FldContractTypeContractTypeID(final MboValue mbv)
+    '''public FldContractTypeContractTypeID(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

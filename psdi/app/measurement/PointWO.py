@@ -1,9 +1,9 @@
 def PointWO():
-    '''    public PointWO(final MboSet ms)
+    '''public PointWO(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''

@@ -1,6 +1,6 @@
 def AttachmentSearchBean():
-    '''    public AttachmentSearchBean()
+    '''public AttachmentSearchBean()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''

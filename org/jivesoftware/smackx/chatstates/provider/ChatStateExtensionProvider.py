@@ -1,3 +1,3 @@
 def parse():
-    '''    public ChatStateExtension parse(final XmlPullParser parser, final int initialDepth)
+    '''public ChatStateExtension parse(final XmlPullParser parser, final int initialDepth)
     '''

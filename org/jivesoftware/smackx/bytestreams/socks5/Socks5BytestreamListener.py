@@ -1,3 +1,3 @@
 def incomingBytestreamRequest():
-    '''    public void incomingBytestreamRequest(final BytestreamRequest request)
+    '''public void incomingBytestreamRequest(final BytestreamRequest request)
     '''

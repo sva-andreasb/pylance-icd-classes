@@ -1,3 +1,3 @@
 def SKDPersonSearch():
-    '''    public SKDPersonSearch(final MboSet ms)
+    '''public SKDPersonSearch(final MboSet ms)
     '''

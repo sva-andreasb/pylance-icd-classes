@@ -1,3 +1,3 @@
 def PlusPBSPreviewBillDates():
-    '''    public PlusPBSPreviewBillDates(final MboSet ms)
+    '''public PlusPBSPreviewBillDates(final MboSet ms)
     '''

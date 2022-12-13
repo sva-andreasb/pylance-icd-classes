@@ -1,6 +1,6 @@
 def FldInvoiceCostToSiteID():
-    '''    public FldInvoiceCostToSiteID(final MboValue mbv)
+    '''public FldInvoiceCostToSiteID(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

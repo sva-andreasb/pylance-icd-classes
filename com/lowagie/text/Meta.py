@@ -1,39 +1,39 @@
 def Meta():
-    '''    public Meta(final String tag, final String content)
+    '''public Meta(final String tag, final String content)
     '''
 def process():
-    '''    public boolean process(final ElementListener listener)
+    '''public boolean process(final ElementListener listener)
     '''
 def type():
-    '''    public int type()
+    '''public int type()
     '''
 def getChunks():
-    '''    public ArrayList getChunks()
+    '''public ArrayList getChunks()
     '''
 def append():
-    '''    public StringBuffer append(final String string)
+    '''public StringBuffer append(final String string)
     '''
 def content():
-    '''    public String content()
+    '''public String content()
     '''
 def name():
-    '''    public String name()
+    '''public String name()
     '''
 def getType():
-    '''    public static int getType(final String tag)
+    '''public static int getType(final String tag)
     '''
 def setMarkupAttribute():
-    '''    public void setMarkupAttribute(final String name, final String value)
+    '''public void setMarkupAttribute(final String name, final String value)
     '''
 def setMarkupAttributes():
-    '''    public void setMarkupAttributes(final Properties markupAttributes)
+    '''public void setMarkupAttributes(final Properties markupAttributes)
     '''
 def getMarkupAttribute():
-    '''    public String getMarkupAttribute(final String name)
+    '''public String getMarkupAttribute(final String name)
     '''
 def getMarkupAttributeNames():
-    '''    public Set getMarkupAttributeNames()
+    '''public Set getMarkupAttributeNames()
     '''
 def getMarkupAttributes():
-    '''    public Properties getMarkupAttributes()
+    '''public Properties getMarkupAttributes()
     '''

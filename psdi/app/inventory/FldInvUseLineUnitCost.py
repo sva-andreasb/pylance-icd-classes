@@ -1,6 +1,6 @@
 def FldInvUseLineUnitCost():
-    '''    public FldInvUseLineUnitCost(final MboValue mbv)
+    '''public FldInvUseLineUnitCost(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

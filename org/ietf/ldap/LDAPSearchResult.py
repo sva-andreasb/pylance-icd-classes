@@ -1,3 +1,3 @@
 def getEntry():
-    '''    public LDAPEntry getEntry()
+    '''public LDAPEntry getEntry()
     '''

@@ -1,3 +1,3 @@
 def FldAncestorAssetnum():
-    '''    public FldAncestorAssetnum(final MboValue mbv)
+    '''public FldAncestorAssetnum(final MboValue mbv)
     '''

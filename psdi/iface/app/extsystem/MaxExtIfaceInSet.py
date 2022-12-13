@@ -1,6 +1,6 @@
 def MaxExtIfaceInSet():
-    '''    public MaxExtIfaceInSet(final MboServerInterface ms)
+    '''public MaxExtIfaceInSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

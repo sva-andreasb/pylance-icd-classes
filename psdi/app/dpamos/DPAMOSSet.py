@@ -1,3 +1,3 @@
 def DPAMOSSet():
-    '''    public DPAMOSSet(final MboServerInterface ms)
+    '''public DPAMOSSet(final MboServerInterface ms)
     '''

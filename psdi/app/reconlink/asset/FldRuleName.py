@@ -1,3 +1,3 @@
 def FldRuleName():
-    '''    public FldRuleName(final MboValue mbv)
+    '''public FldRuleName(final MboValue mbv)
     '''

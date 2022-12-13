@@ -1,3 +1,3 @@
 def ConcurrentTransactionsException():
-    '''    public ConcurrentTransactionsException(final String message)
+    '''public ConcurrentTransactionsException(final String message)
     '''

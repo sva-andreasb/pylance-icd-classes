@@ -1,9 +1,9 @@
 def Toolbox():
-    '''    public Toolbox()
+    '''public Toolbox()
     '''
 def main():
-    '''    public static void main(final String[] args)
+    '''public static void main(final String[] args)
     '''
 def actionPerformed():
-    '''    public void actionPerformed(final ActionEvent evt)
+    '''public void actionPerformed(final ActionEvent evt)
     '''

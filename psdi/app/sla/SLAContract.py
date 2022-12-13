@@ -1,6 +1,6 @@
 def SLAContract():
-    '''    public SLAContract(final MboSet ms)
+    '''public SLAContract(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

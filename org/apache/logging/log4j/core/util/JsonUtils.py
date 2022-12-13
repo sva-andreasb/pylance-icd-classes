@@ -1,3 +1,3 @@
 def quoteAsString():
-    '''    public static void quoteAsString(final CharSequence input, final StringBuilder output)
+    '''public static void quoteAsString(final CharSequence input, final StringBuilder output)
     '''

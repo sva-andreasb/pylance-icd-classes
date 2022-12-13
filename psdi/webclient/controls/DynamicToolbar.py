@@ -1,27 +1,27 @@
 def DynamicToolbar():
-    '''    public DynamicToolbar()
+    '''public DynamicToolbar()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def wasChanged():
-    '''    public boolean wasChanged()
+    '''public boolean wasChanged()
     '''
 def render():
-    '''    public int render()
+    '''public int render()
     '''
 def reloadToolbar():
-    '''    public void reloadToolbar()
+    '''public void reloadToolbar()
     '''
 def getMenuOptions():
-    '''    public ArrayList<MenuInstance> getMenuOptions()
+    '''public ArrayList<MenuInstance> getMenuOptions()
     '''
 def hasButtons():
-    '''    public boolean hasButtons()
+    '''public boolean hasButtons()
     '''
 def preRender():
-    '''    public boolean preRender()
+    '''public boolean preRender()
     '''
 def getToolbarNumber():
-    '''    public int getToolbarNumber()
+    '''public int getToolbarNumber()
     '''

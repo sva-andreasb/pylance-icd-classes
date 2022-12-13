@@ -1,27 +1,27 @@
 def ContextSql():
-    '''    public ContextSql(final MTContext context, final String sql)
+    '''public ContextSql(final MTContext context, final String sql)
     '''
 def setStatement():
-    '''    public void setStatement(final Statement statement)
+    '''public void setStatement(final Statement statement)
     '''
 def getContext():
-    '''    public MTContext getContext()
+    '''public MTContext getContext()
     '''
 def getSql():
-    '''    public String getSql()
+    '''public String getSql()
     '''
 def getStatement():
-    '''    public Statement getStatement()
+    '''public Statement getStatement()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def createContexts():
-    '''    public static Collection<ContextSql> createContexts(final Collection<MTContext> contexts, final String sql)
+    '''public static Collection<ContextSql> createContexts(final Collection<MTContext> contexts, final String sql)
     '''
 def setIndexRenumbering():
-    '''    public void setIndexRenumbering(final int[] renumberIndex)
+    '''public void setIndexRenumbering(final int[] renumberIndex)
     '''
 def getSubParamIndex():
-    '''    public int getSubParamIndex(final int parameterIndex)
+    '''public int getSubParamIndex(final int parameterIndex)
     '''

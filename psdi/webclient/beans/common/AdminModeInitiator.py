@@ -1,3 +1,3 @@
 def ADMINMODE():
-    '''    public int ADMINMODE()
+    '''public int ADMINMODE()
     '''

@@ -1,12 +1,12 @@
 def KeyValuePair():
-    '''    public KeyValuePair(final K key, final V value)
+    '''public KeyValuePair(final K key, final V value)
     '''
 def getKey():
-    '''    public K getKey()
+    '''public K getKey()
     '''
 def getValue():
-    '''    public V getValue()
+    '''public V getValue()
     '''
 def setValue():
-    '''    public V setValue(final V value)
+    '''public V setValue(final V value)
     '''

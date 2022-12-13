@@ -1,3 +1,3 @@
 def AccountDefaultsSet():
-    '''    public AccountDefaultsSet(final MboServerInterface ms)
+    '''public AccountDefaultsSet(final MboServerInterface ms)
     '''

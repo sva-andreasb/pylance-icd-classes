@@ -10,38 +10,38 @@ AT_LAST_CHUNK = "int  4"
 ENTRY_TYPE_USER = "int  0"
 ENTRY_TYPE_GROUP = "int  1"
 def DirectoryImpl():
-    '''    public DirectoryImpl(final STSession stSession)
+    '''public DirectoryImpl(final STSession stSession)
     '''
 def start():
-    '''    public void start()
+    '''public void start()
     '''
 def stop():
-    '''    public void stop()
+    '''public void stop()
     '''
 def componentLoaded():
-    '''    public void componentLoaded(final STCompApi stCompApi)
+    '''public void componentLoaded(final STCompApi stCompApi)
     '''
 def processSTEvent():
-    '''    public void processSTEvent(final STEvent stEvent)
+    '''public void processSTEvent(final STEvent stEvent)
     '''
 def channelOpened():
-    '''    public void channelOpened(final ChannelEvent channelEvent)
+    '''public void channelOpened(final ChannelEvent channelEvent)
     '''
 def channelOpenFailed():
-    '''    public void channelOpenFailed(final ChannelEvent channelEvent)
+    '''public void channelOpenFailed(final ChannelEvent channelEvent)
     '''
 def channelClosed():
-    '''    public void channelClosed(final ChannelEvent channelEvent)
+    '''public void channelClosed(final ChannelEvent channelEvent)
     '''
 def channelMsgReceived():
-    '''    public void channelMsgReceived(final ChannelEvent channelEvent)
+    '''public void channelMsgReceived(final ChannelEvent channelEvent)
     '''
 def serviceAvailable():
-    '''    public void serviceAvailable(final ServiceEvent serviceEvent)
+    '''public void serviceAvailable(final ServiceEvent serviceEvent)
     '''
 def loggedIn():
-    '''    public void loggedIn(final LoginEvent loginEvent)
+    '''public void loggedIn(final LoginEvent loginEvent)
     '''
 def loggedOut():
-    '''    public void loggedOut(final LoginEvent loginEvent)
+    '''public void loggedOut(final LoginEvent loginEvent)
     '''

@@ -1,21 +1,21 @@
 def WaitingThread():
-    '''    public WaitingThread(final Condition cond, final RouteSpecificPool pool)
+    '''public WaitingThread(final Condition cond, final RouteSpecificPool pool)
     '''
 def getCondition():
-    '''    public final Condition getCondition()
+    '''public final Condition getCondition()
     '''
 def getPool():
-    '''    public final RouteSpecificPool getPool()
+    '''public final RouteSpecificPool getPool()
     '''
 def getThread():
-    '''    public final Thread getThread()
+    '''public final Thread getThread()
     '''
 def await():
-    '''    public boolean await(final Date deadline)
+    '''public boolean await(final Date deadline)
     '''
 def wakeup():
-    '''    public void wakeup()
+    '''public void wakeup()
     '''
 def interrupt():
-    '''    public void interrupt()
+    '''public void interrupt()
     '''

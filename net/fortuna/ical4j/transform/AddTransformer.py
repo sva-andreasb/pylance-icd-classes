@@ -1,6 +1,6 @@
 def AddTransformer():
-    '''    public AddTransformer(final Organizer organizer, final UidGenerator uidGenerator)
+    '''public AddTransformer(final Organizer organizer, final UidGenerator uidGenerator)
     '''
 def transform():
-    '''    public Calendar transform(final Calendar object)
+    '''public Calendar transform(final Calendar object)
     '''

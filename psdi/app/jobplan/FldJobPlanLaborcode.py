@@ -1,6 +1,6 @@
 def FldJobPlanLaborcode():
-    '''    public FldJobPlanLaborcode(final MboValue mbv)
+    '''public FldJobPlanLaborcode(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

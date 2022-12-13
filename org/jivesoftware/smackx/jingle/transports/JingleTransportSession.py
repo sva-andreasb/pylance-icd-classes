@@ -1,6 +1,6 @@
 def JingleTransportSession():
-    '''    public JingleTransportSession(final JingleSession session)
+    '''public JingleTransportSession(final JingleSession session)
     '''
 def processJingle():
-    '''    public void processJingle(final Jingle jingle)
+    '''public void processJingle(final Jingle jingle)
     '''

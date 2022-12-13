@@ -1,6 +1,6 @@
 def FldAMCrewLaborAvailHours():
-    '''    public FldAMCrewLaborAvailHours(final MboValue mbv)
+    '''public FldAMCrewLaborAvailHours(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

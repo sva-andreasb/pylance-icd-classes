@@ -1,47 +1,47 @@
 DELETE_DEFLT = "long  8388608L"
 DELETE_LC = "long  16777216L"
 def PmCfgLifecycleState():
-    '''    public PmCfgLifecycleState(final MboSet ms)
+    '''public PmCfgLifecycleState(final MboSet ms)
     '''
 def getLifecycle():
-    '''    public PmCfgLifecycleRemote getLifecycle()
+    '''public PmCfgLifecycleRemote getLifecycle()
     '''
 def getState():
-    '''    public String getState()
+    '''public String getState()
     '''
 def getLCName():
-    '''    public String getLCName()
+    '''public String getLCName()
     '''
 def getTargetStates():
-    '''    public Collection<String> getTargetStates()
+    '''public Collection<String> getTargetStates()
     '''
 def isDefault():
-    '''    public boolean isDefault()
+    '''public boolean isDefault()
     '''
 def isProtected():
-    '''    public boolean isProtected()
+    '''public boolean isProtected()
     '''
 def setDefault():
-    '''    public void setDefault(final boolean isDefault)
+    '''public void setDefault(final boolean isDefault)
     '''
 def setLifecycle():
-    '''    public void setLifecycle(final PmCfgLifecycleRemote lc)
+    '''public void setLifecycle(final PmCfgLifecycleRemote lc)
     '''
 def setProtected():
-    '''    public void setProtected(final boolean isProtected)
+    '''public void setProtected(final boolean isProtected)
     '''
 def setState():
-    '''    public void setState(final String state)
+    '''public void setState(final String state)
     '''
 def getDefaultLifecycleState():
-    '''    public PmCfgLifecycleStateRemote getDefaultLifecycleState()
+    '''public PmCfgLifecycleStateRemote getDefaultLifecycleState()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete(final long access)
+    '''public void delete(final long access)
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''

@@ -1,12 +1,12 @@
 def LinearMeasurementWoGenCronTask():
-    '''    public LinearMeasurementWoGenCronTask()
+    '''public LinearMeasurementWoGenCronTask()
     '''
 def getParameters():
-    '''    public CrontaskParamInfo[] getParameters()
+    '''public CrontaskParamInfo[] getParameters()
     '''
 def readConfig():
-    '''    public void readConfig()
+    '''public void readConfig()
     '''
 def cronAction():
-    '''    public void cronAction()
+    '''public void cronAction()
     '''

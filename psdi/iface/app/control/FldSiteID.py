@@ -1,6 +1,6 @@
 def FldSiteID():
-    '''    public FldSiteID(final MboValue mbv)
+    '''public FldSiteID(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

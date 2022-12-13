@@ -1,3 +1,3 @@
 def instance():
-    '''    public static JavacTask instance(final ProcessingEnvironment processingEnvironment)
+    '''public static JavacTask instance(final ProcessingEnvironment processingEnvironment)
     '''

@@ -1,10 +1,10 @@
 type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(CTLock.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"ctlock6b8etype\")"
 def newInstance():
-    '''    public static CTLock newInstance()
+    '''public static CTLock newInstance()
     public static CTLock newInstance(final XmlOptions xmlOptions)
     '''
 def parse():
-    '''    public static CTLock parse(final String s)
+    '''public static CTLock parse(final String s)
     public static CTLock parse(final String s, final XmlOptions xmlOptions)
     public static CTLock parse(final File file)
     public static CTLock parse(final File file, final XmlOptions xmlOptions)
@@ -22,6 +22,6 @@ def parse():
     public static CTLock parse(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''

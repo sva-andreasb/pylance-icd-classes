@@ -1,9 +1,9 @@
 def RtfTOCEntry():
-    '''    public RtfTOCEntry(final String entry, final Font font)
+    '''public RtfTOCEntry(final String entry, final Font font)
     '''
 def write():
-    '''    public byte[] write()
+    '''public byte[] write()
     '''
 def setShowPageNumber():
-    '''    public void setShowPageNumber(final boolean showPageNumber)
+    '''public void setShowPageNumber(final boolean showPageNumber)
     '''

@@ -1,3 +1,3 @@
 def HyphenationException():
-    '''    public HyphenationException(final String msg)
+    '''public HyphenationException(final String msg)
     '''

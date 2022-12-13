@@ -1,3 +1,3 @@
 def HttpAbstractParamBean():
-    '''    public HttpAbstractParamBean(final HttpParams params)
+    '''public HttpAbstractParamBean(final HttpParams params)
     '''

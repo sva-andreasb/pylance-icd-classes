@@ -16,5 +16,5 @@ INVALID_ACCESS_ERR = "short  15"
 VALIDATION_ERR = "short  16"
 TYPE_MISMATCH_ERR = "short  17"
 def DOMException():
-    '''    public DOMException(final short code, final String message)
+    '''public DOMException(final short code, final String message)
     '''

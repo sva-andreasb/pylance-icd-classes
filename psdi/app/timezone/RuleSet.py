@@ -1,3 +1,3 @@
 def RuleSet():
-    '''    public RuleSet(final MboServerInterface ms)
+    '''public RuleSet(final MboServerInterface ms)
     '''

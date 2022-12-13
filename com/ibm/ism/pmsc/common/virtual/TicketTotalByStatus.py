@@ -1,6 +1,6 @@
 def TicketTotalByStatus():
-    '''    public TicketTotalByStatus(final MboSet ms)
+    '''public TicketTotalByStatus(final MboSet ms)
     '''
 def getUniqueIDName():
-    '''    public String getUniqueIDName()
+    '''public String getUniqueIDName()
     '''

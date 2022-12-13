@@ -1,6 +1,6 @@
 def FldWoTagLockTagOutId():
-    '''    public FldWoTagLockTagOutId(final MboValue mbv)
+    '''public FldWoTagLockTagOutId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

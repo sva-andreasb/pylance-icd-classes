@@ -1,15 +1,15 @@
 def CaseInsensitiveString():
-    '''    public CaseInsensitiveString(final String s)
+    '''public CaseInsensitiveString(final String s)
     '''
 def getString():
-    '''    public String getString()
+    '''public String getString()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

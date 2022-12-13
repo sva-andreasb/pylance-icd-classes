@@ -1,340 +1,340 @@
 def WebSphereAgentConfigurationImpl():
-    '''    public WebSphereAgentConfigurationImpl()
+    '''public WebSphereAgentConfigurationImpl()
     public WebSphereAgentConfigurationImpl(final Map m)
     '''
 def getShallowDiscoveryLevel():
-    '''    public String getShallowDiscoveryLevel()
+    '''public String getShallowDiscoveryLevel()
     '''
 def hasShallowDiscoveryLevel():
-    '''    public boolean hasShallowDiscoveryLevel()
+    '''public boolean hasShallowDiscoveryLevel()
     '''
 def setShallowDiscoveryLevel():
-    '''    public void setShallowDiscoveryLevel(final String shallowDiscoveryLevel)
+    '''public void setShallowDiscoveryLevel(final String shallowDiscoveryLevel)
     '''
 def getMediumDiscoveryLevel():
-    '''    public String getMediumDiscoveryLevel()
+    '''public String getMediumDiscoveryLevel()
     '''
 def hasMediumDiscoveryLevel():
-    '''    public boolean hasMediumDiscoveryLevel()
+    '''public boolean hasMediumDiscoveryLevel()
     '''
 def setMediumDiscoveryLevel():
-    '''    public void setMediumDiscoveryLevel(final String mediumDiscoveryLevel)
+    '''public void setMediumDiscoveryLevel(final String mediumDiscoveryLevel)
     '''
 def getDeepDiscoveryLevel():
-    '''    public String getDeepDiscoveryLevel()
+    '''public String getDeepDiscoveryLevel()
     '''
 def hasDeepDiscoveryLevel():
-    '''    public boolean hasDeepDiscoveryLevel()
+    '''public boolean hasDeepDiscoveryLevel()
     '''
 def setDeepDiscoveryLevel():
-    '''    public void setDeepDiscoveryLevel(final String deepDiscoveryLevel)
+    '''public void setDeepDiscoveryLevel(final String deepDiscoveryLevel)
     '''
 def getTraceSpecification():
-    '''    public String getTraceSpecification()
+    '''public String getTraceSpecification()
     '''
 def hasTraceSpecification():
-    '''    public boolean hasTraceSpecification()
+    '''public boolean hasTraceSpecification()
     '''
 def setTraceSpecification():
-    '''    public void setTraceSpecification(final String traceSpecification)
+    '''public void setTraceSpecification(final String traceSpecification)
     '''
 def getTraceOutputFile():
-    '''    public String getTraceOutputFile()
+    '''public String getTraceOutputFile()
     '''
 def hasTraceOutputFile():
-    '''    public boolean hasTraceOutputFile()
+    '''public boolean hasTraceOutputFile()
     '''
 def setTraceOutputFile():
-    '''    public void setTraceOutputFile(final String traceOutputFile)
+    '''public void setTraceOutputFile(final String traceOutputFile)
     '''
 def getFfdcLogDirectory():
-    '''    public String getFfdcLogDirectory()
+    '''public String getFfdcLogDirectory()
     '''
 def hasFfdcLogDirectory():
-    '''    public boolean hasFfdcLogDirectory()
+    '''public boolean hasFfdcLogDirectory()
     '''
 def setFfdcLogDirectory():
-    '''    public void setFfdcLogDirectory(final String ffdcLogDirectory)
+    '''public void setFfdcLogDirectory(final String ffdcLogDirectory)
     '''
 def getGuid():
-    '''    public Guid getGuid()
+    '''public Guid getGuid()
     '''
 def hasGuid():
-    '''    public boolean hasGuid()
+    '''public boolean hasGuid()
     '''
 def setGuid():
-    '''    public void setGuid(final Guid guid)
+    '''public void setGuid(final Guid guid)
     '''
 def getDisplayName():
-    '''    public String getDisplayName()
+    '''public String getDisplayName()
     '''
 def hasDisplayName():
-    '''    public boolean hasDisplayName()
+    '''public boolean hasDisplayName()
     '''
 def getContextIp():
-    '''    public String getContextIp()
+    '''public String getContextIp()
     '''
 def hasContextIp():
-    '''    public boolean hasContextIp()
+    '''public boolean hasContextIp()
     '''
 def setContextIp():
-    '''    public void setContextIp(final String ctx)
+    '''public void setContextIp(final String ctx)
     '''
 def getObjectType():
-    '''    public String getObjectType()
+    '''public String getObjectType()
     '''
 def hasObjectType():
-    '''    public boolean hasObjectType()
+    '''public boolean hasObjectType()
     '''
 def setObjectType():
-    '''    public void setObjectType(final String type)
+    '''public void setObjectType(final String type)
     '''
 def getCDMSource():
-    '''    public String getCDMSource()
+    '''public String getCDMSource()
     '''
 def hasCDMSource():
-    '''    public boolean hasCDMSource()
+    '''public boolean hasCDMSource()
     '''
 def setCDMSource():
-    '''    public void setCDMSource(final String source)
+    '''public void setCDMSource(final String source)
     '''
 def getSourceToken():
-    '''    public String getSourceToken()
+    '''public String getSourceToken()
     '''
 def hasSourceToken():
-    '''    public boolean hasSourceToken()
+    '''public boolean hasSourceToken()
     '''
 def setSourceToken():
-    '''    public void setSourceToken(final String sourceToken)
+    '''public void setSourceToken(final String sourceToken)
     '''
 def getCmdbSource():
-    '''    public Guid getCmdbSource()
+    '''public Guid getCmdbSource()
     '''
 def hasCmdbSource():
-    '''    public boolean hasCmdbSource()
+    '''public boolean hasCmdbSource()
     '''
 def setCmdbSource():
-    '''    public void setCmdbSource(final Guid cmdbsource)
+    '''public void setCmdbSource(final Guid cmdbsource)
     '''
 def getLabel():
-    '''    public String getLabel()
+    '''public String getLabel()
     '''
 def hasLabel():
-    '''    public boolean hasLabel()
+    '''public boolean hasLabel()
     '''
 def setLabel():
-    '''    public void setLabel(final String label)
+    '''public void setLabel(final String label)
     '''
 def getDescription():
-    '''    public String getDescription()
+    '''public String getDescription()
     '''
 def hasDescription():
-    '''    public boolean hasDescription()
+    '''public boolean hasDescription()
     '''
 def setDescription():
-    '''    public void setDescription(final String description)
+    '''public void setDescription(final String description)
     '''
 def getAdminState():
-    '''    public int getAdminState()
+    '''public int getAdminState()
     '''
 def hasAdminState():
-    '''    public boolean hasAdminState()
+    '''public boolean hasAdminState()
     '''
 def setAdminState():
-    '''    public void setAdminState(final int state)
+    '''public void setAdminState(final int state)
     '''
 def getBidiFlag():
-    '''    public int getBidiFlag()
+    '''public int getBidiFlag()
     '''
 def hasBidiFlag():
-    '''    public boolean hasBidiFlag()
+    '''public boolean hasBidiFlag()
     '''
 def setBidiFlag():
-    '''    public void setBidiFlag(final int bidiflag)
+    '''public void setBidiFlag(final int bidiflag)
     '''
 def getBidiFormat():
-    '''    public String getBidiFormat()
+    '''public String getBidiFormat()
     '''
 def hasBidiFormat():
-    '''    public boolean hasBidiFormat()
+    '''public boolean hasBidiFormat()
     '''
 def setBidiFormat():
-    '''    public void setBidiFormat(final String bidiformat)
+    '''public void setBidiFormat(final String bidiformat)
     '''
 def getAllAttributes():
-    '''    public Map getAllAttributes()
+    '''public Map getAllAttributes()
     '''
 def getCreatedBy():
-    '''    public String getCreatedBy()
+    '''public String getCreatedBy()
     '''
 def hasCreatedBy():
-    '''    public boolean hasCreatedBy()
+    '''public boolean hasCreatedBy()
     '''
 def getLastModifiedTime():
-    '''    public long getLastModifiedTime()
+    '''public long getLastModifiedTime()
     '''
 def hasLastModifiedTime():
-    '''    public boolean hasLastModifiedTime()
+    '''public boolean hasLastModifiedTime()
     '''
 def getLastModifiedBy():
-    '''    public String getLastModifiedBy()
+    '''public String getLastModifiedBy()
     '''
 def hasLastModifiedBy():
-    '''    public boolean hasLastModifiedBy()
+    '''public boolean hasLastModifiedBy()
     '''
 def getExtendedAttributes():
-    '''    public byte[] getExtendedAttributes()
+    '''public byte[] getExtendedAttributes()
     '''
 def hasExtendedAttributes():
-    '''    public boolean hasExtendedAttributes()
+    '''public boolean hasExtendedAttributes()
     '''
 def setExtendedAttributes():
-    '''    public void setExtendedAttributes(final byte[] eAttribMap)
+    '''public void setExtendedAttributes(final byte[] eAttribMap)
     '''
 def getSeedClassName():
-    '''    public String getSeedClassName()
+    '''public String getSeedClassName()
     '''
 def hasSeedClassName():
-    '''    public boolean hasSeedClassName()
+    '''public boolean hasSeedClassName()
     '''
 def setSeedClassName():
-    '''    public void setSeedClassName(final String className)
+    '''public void setSeedClassName(final String className)
     '''
 def getAgentClassName():
-    '''    public String getAgentClassName()
+    '''public String getAgentClassName()
     '''
 def hasAgentClassName():
-    '''    public boolean hasAgentClassName()
+    '''public boolean hasAgentClassName()
     '''
 def setAgentClassName():
-    '''    public void setAgentClassName(final String className)
+    '''public void setAgentClassName(final String className)
     '''
 def getTemplateClassName():
-    '''    public String getTemplateClassName()
+    '''public String getTemplateClassName()
     '''
 def hasTemplateClassName():
-    '''    public boolean hasTemplateClassName()
+    '''public boolean hasTemplateClassName()
     '''
 def setTemplateClassName():
-    '''    public void setTemplateClassName(final String className)
+    '''public void setTemplateClassName(final String className)
     '''
 def getClassPath():
-    '''    public ClassPathEntry[] getClassPath()
+    '''public ClassPathEntry[] getClassPath()
     '''
 def hasClassPath():
-    '''    public boolean hasClassPath()
+    '''public boolean hasClassPath()
     '''
 def setClassPath():
-    '''    public void setClassPath(final ClassPathEntry[] classpath)
+    '''public void setClassPath(final ClassPathEntry[] classpath)
     '''
 def getScopeSetName():
-    '''    public String getScopeSetName()
+    '''public String getScopeSetName()
     '''
 def hasScopeSetName():
-    '''    public boolean hasScopeSetName()
+    '''public boolean hasScopeSetName()
     '''
 def setScopeSetName():
-    '''    public void setScopeSetName(final String scopeName)
+    '''public void setScopeSetName(final String scopeName)
     '''
 def getBidiConfigFlag():
-    '''    public int getBidiConfigFlag()
+    '''public int getBidiConfigFlag()
     '''
 def hasBidiConfigFlag():
-    '''    public boolean hasBidiConfigFlag()
+    '''public boolean hasBidiConfigFlag()
     '''
 def setBidiConfigFlag():
-    '''    public void setBidiConfigFlag(final int flag)
+    '''public void setBidiConfigFlag(final int flag)
     '''
 def getBidiConfigFormat():
-    '''    public String getBidiConfigFormat()
+    '''public String getBidiConfigFormat()
     '''
 def hasBidiConfigFormat():
-    '''    public boolean hasBidiConfigFormat()
+    '''public boolean hasBidiConfigFormat()
     '''
 def setBidiConfigFormat():
-    '''    public void setBidiConfigFormat(final String format)
+    '''public void setBidiConfigFormat(final String format)
     '''
 def getBidiProfile():
-    '''    public String getBidiProfile()
+    '''public String getBidiProfile()
     '''
 def hasBidiProfile():
-    '''    public boolean hasBidiProfile()
+    '''public boolean hasBidiProfile()
     '''
 def setBidiProfile():
-    '''    public void setBidiProfile(final String profileName)
+    '''public void setBidiProfile(final String profileName)
     '''
 def getObjectVersion():
-    '''    public int getObjectVersion()
+    '''public int getObjectVersion()
     '''
 def hasObjectVersion():
-    '''    public boolean hasObjectVersion()
+    '''public boolean hasObjectVersion()
     '''
 def setObjectVersion():
-    '''    public void setObjectVersion(final int version)
+    '''public void setObjectVersion(final int version)
     '''
 def getOriginalName():
-    '''    public String getOriginalName()
+    '''public String getOriginalName()
     '''
 def hasOriginalName():
-    '''    public boolean hasOriginalName()
+    '''public boolean hasOriginalName()
     '''
 def setOriginalName():
-    '''    public void setOriginalName(final String originalName)
+    '''public void setOriginalName(final String originalName)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def hasName():
-    '''    public boolean hasName()
+    '''public boolean hasName()
     '''
 def setName():
-    '''    public void setName(final String name)
+    '''public void setName(final String name)
     '''
 def getFamilyName():
-    '''    public String getFamilyName()
+    '''public String getFamilyName()
     '''
 def hasFamilyName():
-    '''    public boolean hasFamilyName()
+    '''public boolean hasFamilyName()
     '''
 def setFamilyName():
-    '''    public void setFamilyName(final String name)
+    '''public void setFamilyName(final String name)
     '''
 def getEnabled():
-    '''    public boolean getEnabled()
+    '''public boolean getEnabled()
     '''
 def hasEnabled():
-    '''    public boolean hasEnabled()
+    '''public boolean hasEnabled()
     '''
 def setEnabled():
-    '''    public void setEnabled(final boolean enabled)
+    '''public void setEnabled(final boolean enabled)
     '''
 def getOperationalStatus():
-    '''    public int getOperationalStatus()
+    '''public int getOperationalStatus()
     '''
 def hasOperationalStatus():
-    '''    public boolean hasOperationalStatus()
+    '''public boolean hasOperationalStatus()
     '''
 def setOperationalStatus():
-    '''    public void setOperationalStatus(final int status)
+    '''public void setOperationalStatus(final int status)
     '''
 def getRejectionReason():
-    '''    public String getRejectionReason()
+    '''public String getRejectionReason()
     '''
 def hasRejectionReason():
-    '''    public boolean hasRejectionReason()
+    '''public boolean hasRejectionReason()
     '''
 def setRejectionReason():
-    '''    public void setRejectionReason(final String reason)
+    '''public void setRejectionReason(final String reason)
     '''
 def getMssGuid():
-    '''    public String getMssGuid()
+    '''public String getMssGuid()
     '''
 def hasMssGuid():
-    '''    public boolean hasMssGuid()
+    '''public boolean hasMssGuid()
     '''
 def setMssGuid():
-    '''    public void setMssGuid(final String mssGuid)
+    '''public void setMssGuid(final String mssGuid)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

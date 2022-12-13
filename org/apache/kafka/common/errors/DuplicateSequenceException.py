@@ -1,3 +1,3 @@
 def DuplicateSequenceException():
-    '''    public DuplicateSequenceException(final String message)
+    '''public DuplicateSequenceException(final String message)
     '''

@@ -1,3 +1,3 @@
 def logWarningToStatusLogger():
-    '''    public static void logWarningToStatusLogger()
+    '''public static void logWarningToStatusLogger()
     '''

@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_integer\")"
 def newInstance():
-    '''    public static XmlInteger newInstance()
+    '''public static XmlInteger newInstance()
     public static XmlInteger newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlInteger newValue(final Object obj)
+    '''public static XmlInteger newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlInteger parse(final String s)
+    '''public static XmlInteger parse(final String s)
     public static XmlInteger parse(final String s, final XmlOptions options)
     public static XmlInteger parse(final File f)
     public static XmlInteger parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlInteger parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

@@ -1,6 +1,6 @@
 def FldTKCount():
-    '''    public FldTKCount(final MboValue mbv)
+    '''public FldTKCount(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

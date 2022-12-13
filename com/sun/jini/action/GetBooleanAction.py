@@ -1,6 +1,6 @@
 def GetBooleanAction():
-    '''    public GetBooleanAction(final String theProp)
+    '''public GetBooleanAction(final String theProp)
     '''
 def run():
-    '''    public Object run()
+    '''public Object run()
     '''

@@ -1,9 +1,9 @@
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''
 def MeterInfo():
-    '''    public MeterInfo(final String name, final String type)
+    '''public MeterInfo(final String name, final String type)
     '''

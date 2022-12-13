@@ -1,3 +1,3 @@
 def IpcBom():
-    '''    public IpcBom(final MboSet ms)
+    '''public IpcBom(final MboSet ms)
     '''

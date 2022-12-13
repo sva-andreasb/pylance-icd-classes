@@ -1,6 +1,6 @@
 def DMPkgDistTracking():
-    '''    public DMPkgDistTracking(final MboSet ms)
+    '''public DMPkgDistTracking(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

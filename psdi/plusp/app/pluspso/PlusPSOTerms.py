@@ -1,6 +1,6 @@
 def PlusPSOTerms():
-    '''    public PlusPSOTerms(final MboSet set)
+    '''public PlusPSOTerms(final MboSet set)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

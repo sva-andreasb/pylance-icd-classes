@@ -1,6 +1,6 @@
 def FldPRCostLineCost():
-    '''    public FldPRCostLineCost(final MboValue mbv)
+    '''public FldPRCostLineCost(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

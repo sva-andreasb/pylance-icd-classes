@@ -1,3 +1,3 @@
 def FSNObjPropertySet():
-    '''    public FSNObjPropertySet(final MboServerInterface ms)
+    '''public FSNObjPropertySet(final MboServerInterface ms)
     '''

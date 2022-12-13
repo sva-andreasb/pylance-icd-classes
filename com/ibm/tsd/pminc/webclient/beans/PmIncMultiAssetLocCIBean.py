@@ -1,27 +1,27 @@
 def PmIncMultiAssetLocCIBean():
-    '''    public PmIncMultiAssetLocCIBean()
+    '''public PmIncMultiAssetLocCIBean()
     '''
 def ticketrepdown():
-    '''    public int ticketrepdown()
+    '''public int ticketrepdown()
     '''
 def ticketmeterread():
-    '''    public int ticketmeterread()
+    '''public int ticketmeterread()
     '''
 def setupBean():
-    '''    public void setupBean(final WebClientSession wcs)
+    '''public void setupBean(final WebClientSession wcs)
     '''
 def jsplaunch():
-    '''    public int jsplaunch()
+    '''public int jsplaunch()
     '''
 def refreshTable():
-    '''    public void refreshTable()
+    '''public void refreshTable()
     '''
 def undelete():
-    '''    public void undelete(final int nRow)
+    '''public void undelete(final int nRow)
     '''
 def delete():
-    '''    public void delete(final int nRow)
+    '''public void delete(final int nRow)
     '''
 def toRefreshTKServiceNoticesList():
-    '''    public void toRefreshTKServiceNoticesList(final int nRow, final boolean toDesplayWarning)
+    '''public void toRefreshTKServiceNoticesList(final int nRow, final boolean toDesplayWarning)
     '''

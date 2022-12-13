@@ -1,6 +1,6 @@
 def PlusPFldStAddrDirSfx():
-    '''    public PlusPFldStAddrDirSfx(final MboValue mv)
+    '''public PlusPFldStAddrDirSfx(final MboValue mv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

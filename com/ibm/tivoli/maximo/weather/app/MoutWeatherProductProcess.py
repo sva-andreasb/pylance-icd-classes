@@ -1,6 +1,6 @@
 def MoutWeatherProductProcess():
-    '''    public MoutWeatherProductProcess()
+    '''public MoutWeatherProductProcess()
     '''
 def unusedProducts():
-    '''    public void unusedProducts(final MboSet set, final String groupName)
+    '''public void unusedProducts(final MboSet set, final String groupName)
     '''

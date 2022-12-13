@@ -1,6 +1,6 @@
 def PmOwnerBean():
-    '''    public PmOwnerBean()
+    '''public PmOwnerBean()
     '''
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''

@@ -1,3 +1,3 @@
 def getLogger():
-    '''    public static synchronized Logger getLogger(final String name)
+    '''public static synchronized Logger getLogger(final String name)
     '''

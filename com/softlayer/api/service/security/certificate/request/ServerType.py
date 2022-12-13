@@ -1,67 +1,67 @@
 def getDescription():
-    '''    public String getDescription()
+    '''public String getDescription()
     '''
 def setDescription():
-    '''    public void setDescription(final String description)
+    '''public void setDescription(final String description)
     '''
 def isDescriptionSpecified():
-    '''    public boolean isDescriptionSpecified()
+    '''public boolean isDescriptionSpecified()
     '''
 def unsetDescription():
-    '''    public void unsetDescription()
+    '''public void unsetDescription()
     '''
 def getId():
-    '''    public Long getId()
+    '''public Long getId()
     '''
 def setId():
-    '''    public void setId(final Long id)
+    '''public void setId(final Long id)
     '''
 def isIdSpecified():
-    '''    public boolean isIdSpecified()
+    '''public boolean isIdSpecified()
     '''
 def unsetId():
-    '''    public void unsetId()
+    '''public void unsetId()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def setName():
-    '''    public void setName(final String name)
+    '''public void setName(final String name)
     '''
 def isNameSpecified():
-    '''    public boolean isNameSpecified()
+    '''public boolean isNameSpecified()
     '''
 def unsetName():
-    '''    public void unsetName()
+    '''public void unsetName()
     '''
 def getValue():
-    '''    public Long getValue()
+    '''public Long getValue()
     '''
 def setValue():
-    '''    public void setValue(final Long value)
+    '''public void setValue(final Long value)
     '''
 def isValueSpecified():
-    '''    public boolean isValueSpecified()
+    '''public boolean isValueSpecified()
     '''
 def unsetValue():
-    '''    public void unsetValue()
+    '''public void unsetValue()
     '''
 def asService():
-    '''    public Service asService(final ApiClient client)
+    '''public Service asService(final ApiClient client)
     '''
 def service():
-    '''    public static Service service(final ApiClient client)
+    '''public static Service service(final ApiClient client)
     public static Service service(final ApiClient client, final Long id)
     '''
 def description():
-    '''    public Mask description()
+    '''public Mask description()
     '''
 def id():
-    '''    public Mask id()
+    '''public Mask id()
     '''
 def name():
-    '''    public Mask name()
+    '''public Mask name()
     '''
 def value():
-    '''    public Mask value()
+    '''public Mask value()
     '''

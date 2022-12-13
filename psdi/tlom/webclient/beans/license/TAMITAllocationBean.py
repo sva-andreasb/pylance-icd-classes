@@ -1,9 +1,9 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def fetchTableData():
-    '''    public int fetchTableData()
+    '''public int fetchTableData()
     '''
 def allocok():
-    '''    public synchronized int allocok()
+    '''public synchronized int allocok()
     '''

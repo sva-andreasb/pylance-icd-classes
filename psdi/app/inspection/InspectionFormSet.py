@@ -1,3 +1,3 @@
 def InspectionFormSet():
-    '''    public InspectionFormSet(final MboServerInterface ms)
+    '''public InspectionFormSet(final MboServerInterface ms)
     '''

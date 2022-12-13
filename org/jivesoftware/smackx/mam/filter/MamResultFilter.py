@@ -1,3 +1,3 @@
 def MamResultFilter():
-    '''    public MamResultFilter(final MamQueryIQ mamQueryIQ)
+    '''public MamResultFilter(final MamQueryIQ mamQueryIQ)
     '''

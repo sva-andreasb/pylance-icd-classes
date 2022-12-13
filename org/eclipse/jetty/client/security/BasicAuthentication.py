@@ -1,6 +1,6 @@
 def BasicAuthentication():
-    '''    public BasicAuthentication(final Realm realm)
+    '''public BasicAuthentication(final Realm realm)
     '''
 def setCredentials():
-    '''    public void setCredentials(final HttpExchange exchange)
+    '''public void setCredentials(final HttpExchange exchange)
     '''

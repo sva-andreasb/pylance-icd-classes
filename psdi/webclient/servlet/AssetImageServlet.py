@@ -1,3 +1,3 @@
 def doGet():
-    '''    public void doGet(final HttpServletRequest request, final HttpServletResponse response)
+    '''public void doGet(final HttpServletRequest request, final HttpServletResponse response)
     '''

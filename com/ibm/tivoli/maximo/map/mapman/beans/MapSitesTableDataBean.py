@@ -1,6 +1,6 @@
 def setupBean():
-    '''    public void setupBean(final WebClientSession wcs)
+    '''public void setupBean(final WebClientSession wcs)
     '''
 def openmapSelectLocation():
-    '''    public int openmapSelectLocation()
+    '''public int openmapSelectLocation()
     '''

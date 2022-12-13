@@ -1,9 +1,9 @@
 def PmScCustomMBOs():
-    '''    public PmScCustomMBOs(final MboSet ms)
+    '''public PmScCustomMBOs(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

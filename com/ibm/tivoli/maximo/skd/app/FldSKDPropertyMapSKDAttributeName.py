@@ -1,9 +1,9 @@
 def FldSKDPropertyMapSKDAttributeName():
-    '''    public FldSKDPropertyMapSKDAttributeName(final MboValue mbv)
+    '''public FldSKDPropertyMapSKDAttributeName(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

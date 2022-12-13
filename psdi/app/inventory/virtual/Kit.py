@@ -1,15 +1,15 @@
 def Kit():
-    '''    public Kit(final MboSet ms)
+    '''public Kit(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def getKitCurrentBalance():
-    '''    public double getKitCurrentBalance()
+    '''public double getKitCurrentBalance()
     '''
 def getPossibleQuantity():
-    '''    public int getPossibleQuantity()
+    '''public int getPossibleQuantity()
     '''

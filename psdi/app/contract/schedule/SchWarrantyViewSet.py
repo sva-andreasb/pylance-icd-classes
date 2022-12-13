@@ -1,3 +1,3 @@
 def SchWarrantyViewSet():
-    '''    public SchWarrantyViewSet(final MboServerInterface ms)
+    '''public SchWarrantyViewSet(final MboServerInterface ms)
     '''

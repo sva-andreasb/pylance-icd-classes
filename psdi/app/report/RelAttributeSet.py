@@ -1,3 +1,3 @@
 def RelAttributeSet():
-    '''    public RelAttributeSet(final MboServerInterface ms)
+    '''public RelAttributeSet(final MboServerInterface ms)
     '''

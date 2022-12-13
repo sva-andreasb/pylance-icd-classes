@@ -1,6 +1,6 @@
 def FldRemoveDeleteDepreciation():
-    '''    public FldRemoveDeleteDepreciation(final MboValue mbv)
+    '''public FldRemoveDeleteDepreciation(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

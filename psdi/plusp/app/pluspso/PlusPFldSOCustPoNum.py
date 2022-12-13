@@ -1,9 +1,9 @@
 def PlusPFldSOCustPoNum():
-    '''    public PlusPFldSOCustPoNum(final MboValue mbv)
+    '''public PlusPFldSOCustPoNum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

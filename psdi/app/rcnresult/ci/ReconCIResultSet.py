@@ -1,3 +1,3 @@
 def ReconCIResultSet():
-    '''    public ReconCIResultSet(final MboServerInterface ms)
+    '''public ReconCIResultSet(final MboServerInterface ms)
     '''

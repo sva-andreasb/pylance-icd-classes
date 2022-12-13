@@ -1,3 +1,3 @@
 def testGenerate():
-    '''    public void testGenerate()
+    '''public void testGenerate()
     '''

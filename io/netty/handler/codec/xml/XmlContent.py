@@ -1,12 +1,12 @@
 def data():
-    '''    public String data()
+    '''public String data()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

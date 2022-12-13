@@ -1,3 +1,3 @@
 def PlusPFeaturePrice():
-    '''    public PlusPFeaturePrice(final MboSet ms)
+    '''public PlusPFeaturePrice(final MboSet ms)
     '''

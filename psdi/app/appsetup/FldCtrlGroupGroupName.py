@@ -1,3 +1,3 @@
 def FldCtrlGroupGroupName():
-    '''    public FldCtrlGroupGroupName(final MboValue mbv)
+    '''public FldCtrlGroupGroupName(final MboValue mbv)
     '''

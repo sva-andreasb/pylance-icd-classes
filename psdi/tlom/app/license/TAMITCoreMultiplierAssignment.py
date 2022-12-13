@@ -1,18 +1,18 @@
 def TAMITCoreMultiplierAssignment():
-    '''    public TAMITCoreMultiplierAssignment(final MboSet ms)
+    '''public TAMITCoreMultiplierAssignment(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def copyProcessors():
-    '''    public void copyProcessors(final MboSetRemote processorSet)
+    '''public void copyProcessors(final MboSetRemote processorSet)
     '''
 def getMboSet():
-    '''    public MboSetRemote getMboSet(final String name)
+    '''public MboSetRemote getMboSet(final String name)
     '''
 def calcListCriteria():
-    '''    public String calcListCriteria()
+    '''public String calcListCriteria()
     '''

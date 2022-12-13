@@ -1,120 +1,120 @@
 def loadapp():
-    '''    public int loadapp()
+    '''public int loadapp()
     '''
 def leavesession():
-    '''    public int leavesession()
+    '''public int leavesession()
     '''
 def rerender():
-    '''    public int rerender()
+    '''public int rerender()
     '''
 def gotoapp():
-    '''    public int gotoapp()
+    '''public int gotoapp()
     '''
 def resetui():
-    '''    public int resetui()
+    '''public int resetui()
     '''
 def clearqueue():
-    '''    public int clearqueue()
+    '''public int clearqueue()
     '''
 def changeapp():
-    '''    public int changeapp()
+    '''public int changeapp()
     '''
 def execevent():
-    '''    public int execevent()
+    '''public int execevent()
     '''
 def startcenter():
-    '''    public int startcenter()
+    '''public int startcenter()
     '''
 def setWebClientSession():
-    '''    public void setWebClientSession(final WebClientSession wcs)
+    '''public void setWebClientSession(final WebClientSession wcs)
     '''
 def showwarnings():
-    '''    public int showwarnings()
+    '''public int showwarnings()
     '''
 def downloadtable():
-    '''    public int downloadtable()
+    '''public int downloadtable()
     '''
 def signout():
-    '''    public int signout()
+    '''public int signout()
     '''
 def DEFAULT():
-    '''    public int DEFAULT()
+    '''public int DEFAULT()
     '''
 def PASSWORD():
-    '''    public int PASSWORD()
+    '''public int PASSWORD()
     '''
 def PERSONAL():
-    '''    public int PERSONAL()
+    '''public int PERSONAL()
     '''
 def helpabout():
-    '''    public int helpabout()
+    '''public int helpabout()
     '''
 def importapp():
-    '''    public int importapp()
+    '''public int importapp()
     '''
 def exportsqlall():
-    '''    public int exportsqlall()
+    '''public int exportsqlall()
     '''
 def exportsql():
-    '''    public int exportsql()
+    '''public int exportsql()
     '''
 def exportxml():
-    '''    public int exportxml()
+    '''public int exportxml()
     '''
 def exportall():
-    '''    public int exportall()
+    '''public int exportall()
     '''
 def maximohelp():
-    '''    public int maximohelp()
+    '''public int maximohelp()
     '''
 def apphelp():
-    '''    public int apphelp()
+    '''public int apphelp()
     '''
 def morefieldhelp():
-    '''    public int morefieldhelp()
+    '''public int morefieldhelp()
     '''
 def starttracking():
-    '''    public int starttracking()
+    '''public int starttracking()
     '''
 def stoptracking():
-    '''    public int stoptracking()
+    '''public int stoptracking()
     '''
 def clearstats():
-    '''    public int clearstats()
+    '''public int clearstats()
     '''
 def viewstats():
-    '''    public int viewstats()
+    '''public int viewstats()
     '''
 def LISTWARNING():
-    '''    public int LISTWARNING()
+    '''public int LISTWARNING()
     '''
 def WFACTION():
-    '''    public int WFACTION()
+    '''public int WFACTION()
     '''
 def uploadfile():
-    '''    public int uploadfile()
+    '''public int uploadfile()
     '''
 def uploadimage():
-    '''    public int uploadimage()
+    '''public int uploadimage()
     '''
 def LAUNCHENTRYDIRECT():
-    '''    public int LAUNCHENTRYDIRECT()
+    '''public int LAUNCHENTRYDIRECT()
     '''
 def stoplongopquery():
-    '''    public int stoplongopquery()
+    '''public int stoplongopquery()
     '''
 def COGNOSHOME():
-    '''    public int COGNOSHOME()
+    '''public int COGNOSHOME()
     '''
 def movetorecordbyid():
-    '''    public int movetorecordbyid()
+    '''public int movetorecordbyid()
     '''
 def oslcpreviewinteraction():
-    '''    public int oslcpreviewinteraction()
+    '''public int oslcpreviewinteraction()
     '''
 def oslcinteraction():
-    '''    public int oslcinteraction()
+    '''public int oslcinteraction()
     '''
 def setleftnavwidth():
-    '''    public int setleftnavwidth()
+    '''public int setleftnavwidth()
     '''

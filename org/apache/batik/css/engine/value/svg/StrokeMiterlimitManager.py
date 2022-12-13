@@ -1,24 +1,24 @@
 def isInheritedProperty():
-    '''    public boolean isInheritedProperty()
+    '''public boolean isInheritedProperty()
     '''
 def isAnimatableProperty():
-    '''    public boolean isAnimatableProperty()
+    '''public boolean isAnimatableProperty()
     '''
 def isAdditiveProperty():
-    '''    public boolean isAdditiveProperty()
+    '''public boolean isAdditiveProperty()
     '''
 def getPropertyType():
-    '''    public int getPropertyType()
+    '''public int getPropertyType()
     '''
 def getPropertyName():
-    '''    public String getPropertyName()
+    '''public String getPropertyName()
     '''
 def getDefaultValue():
-    '''    public Value getDefaultValue()
+    '''public Value getDefaultValue()
     '''
 def createValue():
-    '''    public Value createValue(final LexicalUnit lu, final CSSEngine engine)
+    '''public Value createValue(final LexicalUnit lu, final CSSEngine engine)
     '''
 def createFloatValue():
-    '''    public Value createFloatValue(final short unitType, final float floatValue)
+    '''public Value createFloatValue(final short unitType, final float floatValue)
     '''

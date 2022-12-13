@@ -1,3 +1,3 @@
 def LburpEndRequest():
-    '''    public LburpEndRequest(final int n)
+    '''public LburpEndRequest(final int n)
     '''

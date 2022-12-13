@@ -1,9 +1,9 @@
 def FldIfaceName():
-    '''    public FldIfaceName(final MboValue mbv)
+    '''public FldIfaceName(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

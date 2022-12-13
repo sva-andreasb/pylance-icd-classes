@@ -1,6 +1,6 @@
 def FldAMCrewQualRequirementStatus():
-    '''    public FldAMCrewQualRequirementStatus(final MboValue mbv)
+    '''public FldAMCrewQualRequirementStatus(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

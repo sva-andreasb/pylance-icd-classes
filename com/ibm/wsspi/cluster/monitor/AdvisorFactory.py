@@ -1,3 +1,3 @@
 def getAdvisorMediator():
-    '''    public static AdvisorMediator getAdvisorMediator()
+    '''public static AdvisorMediator getAdvisorMediator()
     '''

@@ -13,29 +13,29 @@ MAXTYPE_ALN = "String  \"ALN\""
 MAXTYPE_INTEGER = "String  \"INTEGER\""
 MAXTYPE_DECIMAL = "String  \"DECIMAL\""
 def getMaxType():
-    '''    public static String getMaxType(final WSIOAttribute wsioAttr)
+    '''public static String getMaxType(final WSIOAttribute wsioAttr)
     '''
 def getFileName():
-    '''    public static String getFileName(final String inter, final String name)
+    '''public static String getFileName(final String inter, final String name)
     '''
 def reloadCache():
-    '''    public static void reloadCache(final WSIO optimizedRequest, final WSIO optimizedResponse)
+    '''public static void reloadCache(final WSIO optimizedRequest, final WSIO optimizedResponse)
     '''
 def getMaxAttrDomainIds():
-    '''    public static Set<String> getMaxAttrDomainIds(final StringBuffer whereclause, final UserInfo userInfo)
+    '''public static Set<String> getMaxAttrDomainIds(final StringBuffer whereclause, final UserInfo userInfo)
     '''
 def getWsioRelationsWhere():
-    '''    public static StringBuffer getWsioRelationsWhere(final WSIO wsio, final StringBuffer where)
+    '''public static StringBuffer getWsioRelationsWhere(final WSIO wsio, final StringBuffer where)
     '''
 def getObjectsWhere():
-    '''    public static StringBuffer getObjectsWhere(final WSIO wsio, final StringBuffer where)
+    '''public static StringBuffer getObjectsWhere(final WSIO wsio, final StringBuffer where)
     '''
 def getIntrRelationsWhere():
-    '''    public static StringBuffer getIntrRelationsWhere(final WSIO wsio, final InteractionInfo interactionInfo, final boolean isReq)
+    '''public static StringBuffer getIntrRelationsWhere(final WSIO wsio, final InteractionInfo interactionInfo, final boolean isReq)
     '''
 def getDomainsWhere():
-    '''    public static StringBuffer getDomainsWhere(final Set<String> domHashSet)
+    '''public static StringBuffer getDomainsWhere(final Set<String> domHashSet)
     '''
 def getDomainListWhere():
-    '''    public static StringBuffer getDomainListWhere(final Set<String> domHashSet, final StringBuffer buf)
+    '''public static StringBuffer getDomainListWhere(final Set<String> domHashSet, final StringBuffer buf)
     '''

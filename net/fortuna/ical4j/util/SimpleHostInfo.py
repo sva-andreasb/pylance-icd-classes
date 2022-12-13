@@ -1,6 +1,6 @@
 def SimpleHostInfo():
-    '''    public SimpleHostInfo(final String hostName)
+    '''public SimpleHostInfo(final String hostName)
     '''
 def getHostName():
-    '''    public String getHostName()
+    '''public String getHostName()
     '''

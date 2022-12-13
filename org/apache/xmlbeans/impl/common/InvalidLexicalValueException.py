@@ -1,5 +1,5 @@
 def InvalidLexicalValueException():
-    '''    public InvalidLexicalValueException()
+    '''public InvalidLexicalValueException()
     public InvalidLexicalValueException(final String msg)
     public InvalidLexicalValueException(final String msg, final Throwable cause)
     public InvalidLexicalValueException(final Throwable cause)
@@ -8,8 +8,8 @@ def InvalidLexicalValueException():
     public InvalidLexicalValueException(final Throwable cause, final Location location)
     '''
 def getLocation():
-    '''    public Location getLocation()
+    '''public Location getLocation()
     '''
 def setLocation():
-    '''    public void setLocation(final Location location)
+    '''public void setLocation(final Location location)
     '''

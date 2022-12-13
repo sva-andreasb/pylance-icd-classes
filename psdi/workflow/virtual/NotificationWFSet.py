@@ -1,9 +1,9 @@
 def NotificationWFSet():
-    '''    public NotificationWFSet(final MboServerInterface ms)
+    '''public NotificationWFSet(final MboServerInterface ms)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''
 def sendNotifications():
-    '''    public void sendNotifications(final WFAssignmentRemote reassignment)
+    '''public void sendNotifications(final WFAssignmentRemote reassignment)
     '''

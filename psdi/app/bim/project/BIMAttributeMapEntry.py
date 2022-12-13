@@ -6,8 +6,8 @@ FIELD_COBIEATTRIBUTE = "String  \"COBIEATTRIBUTE\""
 FIELD_MAXTYPE = "String  \"MAXTYPE\""
 FIELD_ISLDOWNER = "String  \"ISLDOWNER\""
 def BIMAttributeMapEntry():
-    '''    public BIMAttributeMapEntry(final MboSet ms)
+    '''public BIMAttributeMapEntry(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

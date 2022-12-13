@@ -1,12 +1,12 @@
 def getPart():
-    '''    public File getPart()
+    '''public File getPart()
     '''
 def getPartNumber():
-    '''    public int getPartNumber()
+    '''public int getPartNumber()
     '''
 def isLastPart():
-    '''    public boolean isLastPart()
+    '''public boolean isLastPart()
     '''
 def getFileDeleteObserver():
-    '''    public OnFileDelete getFileDeleteObserver()
+    '''public OnFileDelete getFileDeleteObserver()
     '''

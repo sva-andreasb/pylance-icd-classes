@@ -1,3 +1,3 @@
 def PlusPToBeBilledSet():
-    '''    public PlusPToBeBilledSet(final MboServerInterface ms)
+    '''public PlusPToBeBilledSet(final MboServerInterface ms)
     '''

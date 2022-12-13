@@ -1,3 +1,3 @@
 def ReportParamSet():
-    '''    public ReportParamSet(final MboServerInterface ms)
+    '''public ReportParamSet(final MboServerInterface ms)
     '''

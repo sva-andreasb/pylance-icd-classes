@@ -1,3 +1,3 @@
 def AnalyticAuth():
-    '''    public AnalyticAuth(final MboSet ms)
+    '''public AnalyticAuth(final MboSet ms)
     '''

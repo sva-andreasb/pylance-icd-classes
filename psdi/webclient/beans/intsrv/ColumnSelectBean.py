@@ -1,6 +1,6 @@
 def ColumnSelectBean():
-    '''    public ColumnSelectBean()
+    '''public ColumnSelectBean()
     '''
 def callMethod():
-    '''    public int callMethod(final WebClientEvent event)
+    '''public int callMethod(final WebClientEvent event)
     '''

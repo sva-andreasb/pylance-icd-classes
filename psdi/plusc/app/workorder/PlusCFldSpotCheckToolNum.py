@@ -1,3 +1,3 @@
 def PlusCFldSpotCheckToolNum():
-    '''    public PlusCFldSpotCheckToolNum(final MboValue mbv)
+    '''public PlusCFldSpotCheckToolNum(final MboValue mbv)
     '''

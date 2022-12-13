@@ -1,6 +1,6 @@
 def OrPredicate():
-    '''    public OrPredicate(final HierarchyChartPredicate<T>... preds)
+    '''public OrPredicate(final HierarchyChartPredicate<T>... preds)
     '''
 def evaluate():
-    '''    public boolean evaluate(final IlvHierarchyChart chart, final T in)
+    '''public boolean evaluate(final IlvHierarchyChart chart, final T in)
     '''

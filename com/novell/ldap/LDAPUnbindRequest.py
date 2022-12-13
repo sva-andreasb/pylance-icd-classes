@@ -1,3 +1,3 @@
 def LDAPUnbindRequest():
-    '''    public LDAPUnbindRequest(final LDAPControl[] array)
+    '''public LDAPUnbindRequest(final LDAPControl[] array)
     '''

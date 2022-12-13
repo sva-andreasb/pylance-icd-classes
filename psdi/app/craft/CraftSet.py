@@ -1,3 +1,3 @@
 def CraftSet():
-    '''    public CraftSet(final MboServerInterface ms)
+    '''public CraftSet(final MboServerInterface ms)
     '''

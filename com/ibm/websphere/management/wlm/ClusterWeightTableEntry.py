@@ -1,3 +1,3 @@
 def ClusterWeightTableEntry():
-    '''    public ClusterWeightTableEntry()
+    '''public ClusterWeightTableEntry()
     '''

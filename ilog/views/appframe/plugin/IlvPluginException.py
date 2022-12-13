@@ -6,14 +6,14 @@ SETTINGS_OBJECTS_ERROR = "String  \"SettingsObjectsError\""
 PLUGIN_INSTALLER_ERROR = "String  \"PluginInstallerError\""
 UNKNOWN_ERROR = "String  \"UnknownError\""
 def getPlugin():
-    '''    public IlvPlugin getPlugin()
+    '''public IlvPlugin getPlugin()
     '''
 def getException():
-    '''    public Exception getException()
+    '''public Exception getException()
     '''
 def isFatal():
-    '''    public boolean isFatal()
+    '''public boolean isFatal()
     '''
 def getErrorID():
-    '''    public String getErrorID()
+    '''public String getErrorID()
     '''

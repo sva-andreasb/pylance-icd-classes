@@ -1,18 +1,18 @@
 def ConfigurationFileWatcher():
-    '''    public ConfigurationFileWatcher(final Configuration configuration, final Reconfigurable reconfigurable, final List<ConfigurationListener> configurationListeners, final long lastModifiedMillis)
+    '''public ConfigurationFileWatcher(final Configuration configuration, final Reconfigurable reconfigurable, final List<ConfigurationListener> configurationListeners, final long lastModifiedMillis)
     '''
 def getLastModified():
-    '''    public long getLastModified()
+    '''public long getLastModified()
     '''
 def fileModified():
-    '''    public void fileModified(final File file)
+    '''public void fileModified(final File file)
     '''
 def watching():
-    '''    public void watching(final Source source)
+    '''public void watching(final Source source)
     '''
 def isModified():
-    '''    public boolean isModified()
+    '''public boolean isModified()
     '''
 def newWatcher():
-    '''    public Watcher newWatcher(final Reconfigurable reconfigurable, final List<ConfigurationListener> listeners, final long lastModifiedMillis)
+    '''public Watcher newWatcher(final Reconfigurable reconfigurable, final List<ConfigurationListener> listeners, final long lastModifiedMillis)
     '''

@@ -7,8 +7,8 @@ FIELD_ORGID = "String  \"ORGID\""
 FIELD_SITEID = "String  \"SITEID\""
 FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
 def BIMAttributeMap():
-    '''    public BIMAttributeMap(final MboSet ms)
+    '''public BIMAttributeMap(final MboSet ms)
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''

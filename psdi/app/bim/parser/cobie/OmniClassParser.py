@@ -8,20 +8,20 @@ TITLE_LEVEL_7 = "String  \"Level 7 Title\""
 TITLE_DEFINITIONS = "String  \"DEFINITION\""
 SHEET_OMNICLASS = "String  \"OmniClass\""
 def OmniClassParser():
-    '''    public OmniClassParser(final MessageLogger logger, final String fileName)
+    '''public OmniClassParser(final MessageLogger logger, final String fileName)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''
 def getRootClass():
-    '''    public OmniClass getRootClass()
+    '''public OmniClass getRootClass()
     '''
 def parseOmniClass():
-    '''    public String[] parseOmniClass(final OmniClass parentClass, String[] values)
+    '''public String[] parseOmniClass(final OmniClass parentClass, String[] values)
     '''
 def parseHeaderRow():
-    '''    public void parseHeaderRow(final String[] values)
+    '''public void parseHeaderRow(final String[] values)
     '''
 def main():
-    '''    public static void main(final String[] args)
+    '''public static void main(final String[] args)
     '''

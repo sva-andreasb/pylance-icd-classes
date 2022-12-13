@@ -1,9 +1,9 @@
 def FldMOAttributeName():
-    '''    public FldMOAttributeName(final MboValue mbv)
+    '''public FldMOAttributeName(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

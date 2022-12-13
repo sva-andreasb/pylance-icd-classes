@@ -1,6 +1,6 @@
 def FldServRecTransPercentage():
-    '''    public FldServRecTransPercentage(final MboValue mbv)
+    '''public FldServRecTransPercentage(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

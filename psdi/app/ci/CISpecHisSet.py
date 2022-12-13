@@ -1,3 +1,3 @@
 def CISpecHisSet():
-    '''    public CISpecHisSet(final MboServerInterface ms)
+    '''public CISpecHisSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def MessageTypeFilter():
-    '''    public MessageTypeFilter(final Message.Type type)
+    '''public MessageTypeFilter(final Message.Type type)
     '''
 def accept():
-    '''    public boolean accept(final Packet packet)
+    '''public boolean accept(final Packet packet)
     '''

@@ -1,6 +1,6 @@
 def PlusPFldNPCustomerGeneric():
-    '''    public PlusPFldNPCustomerGeneric(final MboValue mbv)
+    '''public PlusPFldNPCustomerGeneric(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

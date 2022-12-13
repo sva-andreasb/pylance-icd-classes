@@ -1,24 +1,24 @@
 def ECommHelper():
-    '''    public ECommHelper()
+    '''public ECommHelper()
     '''
 def createMRLineFromProdDescCollection():
-    '''    public void createMRLineFromProdDescCollection()
+    '''public void createMRLineFromProdDescCollection()
     '''
 def createWPMaterialFromProdDescCollection():
-    '''    public void createWPMaterialFromProdDescCollection()
+    '''public void createWPMaterialFromProdDescCollection()
     '''
 def getCatalogURL():
-    '''    public ECatalogURL getCatalogURL(final String catalogName, final UserInfo ui, final String returnURL)
+    '''public ECatalogURL getCatalogURL(final String catalogName, final UserInfo ui, final String returnURL)
     '''
 def setMRReference():
-    '''    public void setMRReference(final MboRemote mrRemote)
+    '''public void setMRReference(final MboRemote mrRemote)
     '''
 def setWOReference():
-    '''    public void setWOReference(final MboRemote woRemote)
+    '''public void setWOReference(final MboRemote woRemote)
     '''
 def processAribaCart():
-    '''    public void processAribaCart(final String cxmlCart)
+    '''public void processAribaCart(final String cxmlCart)
     '''
 def returncart():
-    '''    public boolean returncart()
+    '''public boolean returncart()
     '''

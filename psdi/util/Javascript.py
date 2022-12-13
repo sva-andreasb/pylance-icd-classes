@@ -1,3 +1,3 @@
 def escape():
-    '''    public static String escape(final String javascriptString)
+    '''public static String escape(final String javascriptString)
     '''

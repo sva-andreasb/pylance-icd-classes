@@ -1,9 +1,9 @@
 def PlusPCustomerPriceEstimateStatus():
-    '''    public PlusPCustomerPriceEstimateStatus(final MboSet ms)
+    '''public PlusPCustomerPriceEstimateStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def changeStatus():
-    '''    public void changeStatus()
+    '''public void changeStatus()
     '''

@@ -1,3 +1,3 @@
 def DMCollRelRuleSet():
-    '''    public DMCollRelRuleSet(final MboServerInterface ms)
+    '''public DMCollRelRuleSet(final MboServerInterface ms)
     '''

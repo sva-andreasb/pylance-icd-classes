@@ -1,6 +1,6 @@
 def FldIsPreview():
-    '''    public FldIsPreview(final MboValue mbv)
+    '''public FldIsPreview(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

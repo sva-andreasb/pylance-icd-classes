@@ -1,3 +1,3 @@
 def FldMethodName():
-    '''    public FldMethodName(final MboValue mbv)
+    '''public FldMethodName(final MboValue mbv)
     '''

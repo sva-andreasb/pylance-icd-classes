@@ -1,9 +1,9 @@
 def DCMPL():
-    '''    public DCMPL()
+    '''public DCMPL()
     '''
 def getType():
-    '''    public Type getType(final ConstantPoolGen cp)
+    '''public Type getType(final ConstantPoolGen cp)
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

@@ -1,6 +1,6 @@
 def FldAssignWorkzone():
-    '''    public FldAssignWorkzone(final MboValue mbv)
+    '''public FldAssignWorkzone(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

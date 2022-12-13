@@ -1,3 +1,3 @@
 def MasterViewSet():
-    '''    public MasterViewSet(final MboServerInterface ms)
+    '''public MasterViewSet(final MboServerInterface ms)
     '''

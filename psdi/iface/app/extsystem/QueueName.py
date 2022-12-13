@@ -1,3 +1,3 @@
 def QueueName():
-    '''    public QueueName(final MboSet ms)
+    '''public QueueName(final MboSet ms)
     '''

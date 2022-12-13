@@ -1,6 +1,6 @@
 def FldInvVendorLastDeliveryTime():
-    '''    public FldInvVendorLastDeliveryTime(final MboValue mbv)
+    '''public FldInvVendorLastDeliveryTime(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

@@ -1,6 +1,6 @@
 def filterByError():
-    '''    public void filterByError(final String valMsg)
+    '''public void filterByError(final String valMsg)
     '''
 def OVERRIDEAVAILIDALOG():
-    '''    public int OVERRIDEAVAILIDALOG()
+    '''public int OVERRIDEAVAILIDALOG()
     '''

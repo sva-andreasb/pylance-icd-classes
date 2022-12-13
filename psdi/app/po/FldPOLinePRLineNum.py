@@ -1,6 +1,6 @@
 def FldPOLinePRLineNum():
-    '''    public FldPOLinePRLineNum(final MboValue mbv)
+    '''public FldPOLinePRLineNum(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

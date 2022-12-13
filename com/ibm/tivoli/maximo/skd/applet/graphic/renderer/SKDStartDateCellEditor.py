@@ -1,15 +1,15 @@
 def SKDStartDateCellEditor():
-    '''    public SKDStartDateCellEditor()
+    '''public SKDStartDateCellEditor()
     '''
 def getTableCellEditorComponent():
-    '''    public Component getTableCellEditorComponent(final JTable table, final Object value, final boolean isSelected, final int rowIndex, final int vColIndex)
+    '''public Component getTableCellEditorComponent(final JTable table, final Object value, final boolean isSelected, final int rowIndex, final int vColIndex)
     '''
 def getCellEditorValue():
-    '''    public Object getCellEditorValue()
+    '''public Object getCellEditorValue()
     '''
 def editingStopped():
-    '''    public void editingStopped(final ChangeEvent e)
+    '''public void editingStopped(final ChangeEvent e)
     '''
 def editingCanceled():
-    '''    public void editingCanceled(final ChangeEvent e)
+    '''public void editingCanceled(final ChangeEvent e)
     '''

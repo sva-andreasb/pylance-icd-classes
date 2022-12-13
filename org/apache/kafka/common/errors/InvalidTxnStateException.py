@@ -1,3 +1,3 @@
 def InvalidTxnStateException():
-    '''    public InvalidTxnStateException(final String message)
+    '''public InvalidTxnStateException(final String message)
     '''

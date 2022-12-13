@@ -1,6 +1,6 @@
 def PmScFldCustomMBOsMBOName():
-    '''    public PmScFldCustomMBOsMBOName(final MboValue mbv)
+    '''public PmScFldCustomMBOsMBOName(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

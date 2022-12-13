@@ -1,3 +1,3 @@
 def PersonChangeStatusSet():
-    '''    public PersonChangeStatusSet(final MboServerInterface ms)
+    '''public PersonChangeStatusSet(final MboServerInterface ms)
     '''

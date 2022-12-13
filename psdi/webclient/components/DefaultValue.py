@@ -1,42 +1,42 @@
 def DefaultValue():
-    '''    public DefaultValue()
+    '''public DefaultValue()
     '''
 def hasChanged():
-    '''    public boolean hasChanged()
+    '''public boolean hasChanged()
     '''
 def hasDataChanged():
-    '''    public boolean hasDataChanged()
+    '''public boolean hasDataChanged()
     '''
 def hasLongDescChanged():
-    '''    public boolean hasLongDescChanged()
+    '''public boolean hasLongDescChanged()
     '''
 def hasReadonlyChanged():
-    '''    public boolean hasReadonlyChanged()
+    '''public boolean hasReadonlyChanged()
     '''
 def hasRequiredChanged():
-    '''    public boolean hasRequiredChanged()
+    '''public boolean hasRequiredChanged()
     '''
 def setDataValid():
-    '''    public void setDataValid(final boolean isDataValid)
+    '''public void setDataValid(final boolean isDataValid)
     '''
 def isDataValid():
-    '''    public boolean isDataValid()
+    '''public boolean isDataValid()
     '''
 def instantiatedatasrc():
-    '''    public void instantiatedatasrc()
+    '''public void instantiatedatasrc()
     '''
 def getString():
-    '''    public String getString()
+    '''public String getString()
     '''
 def isReadOnly():
-    '''    public boolean isReadOnly()
+    '''public boolean isReadOnly()
     '''
 def isRequired():
-    '''    public boolean isRequired()
+    '''public boolean isRequired()
     '''
 def getLongDescription():
-    '''    public String getLongDescription()
+    '''public String getLongDescription()
     '''
 def hasLongDescription():
-    '''    public boolean hasLongDescription()
+    '''public boolean hasLongDescription()
     '''

@@ -1,6 +1,6 @@
 def SlackAuthorizeRequestExecutor():
-    '''    public SlackAuthorizeRequestExecutor(final SlackRequest request)
+    '''public SlackAuthorizeRequestExecutor(final SlackRequest request)
     '''
 def exec():
-    '''    public JSONObject exec()
+    '''public JSONObject exec()
     '''

@@ -1,3 +1,3 @@
 def WOTaskLookup():
-    '''    public WOTaskLookup(final MboSet ms)
+    '''public WOTaskLookup(final MboSet ms)
     '''

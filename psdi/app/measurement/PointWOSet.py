@@ -1,3 +1,3 @@
 def PointWOSet():
-    '''    public PointWOSet(final MboServerInterface ms)
+    '''public PointWOSet(final MboServerInterface ms)
     '''

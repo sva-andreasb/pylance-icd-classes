@@ -1,3 +1,3 @@
 def shouldEnableAddDependency():
-    '''    public static synchronized boolean shouldEnableAddDependency(final String clazz)
+    '''public static synchronized boolean shouldEnableAddDependency(final String clazz)
     '''

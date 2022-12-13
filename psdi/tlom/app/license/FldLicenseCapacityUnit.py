@@ -1,6 +1,6 @@
 def FldLicenseCapacityUnit():
-    '''    public FldLicenseCapacityUnit(final MboValue mbv)
+    '''public FldLicenseCapacityUnit(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

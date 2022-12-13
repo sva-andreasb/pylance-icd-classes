@@ -1,76 +1,76 @@
 def ObjectAttribute():
-    '''    public ObjectAttribute()
+    '''public ObjectAttribute()
     public ObjectAttribute(final String attributeName, final String className, final String valueType)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getClassName():
-    '''    public String getClassName()
+    '''public String getClassName()
     '''
 def getNamespace():
-    '''    public String getNamespace()
+    '''public String getNamespace()
     '''
 def setNamespace():
-    '''    public void setNamespace(final String namespace)
+    '''public void setNamespace(final String namespace)
     '''
 def getValueType():
-    '''    public String getValueType()
+    '''public String getValueType()
     '''
 def getMaximumLength():
-    '''    public int getMaximumLength()
+    '''public int getMaximumLength()
     '''
 def getDisplayString():
-    '''    public String getDisplayString()
+    '''public String getDisplayString()
     '''
 def getIsNamingAttribute():
-    '''    public boolean getIsNamingAttribute()
+    '''public boolean getIsNamingAttribute()
     '''
 def getHasRelationship():
-    '''    public boolean getHasRelationship()
+    '''public boolean getHasRelationship()
     '''
 def getRelationshipType():
-    '''    public String getRelationshipType()
+    '''public String getRelationshipType()
     '''
 def getIsReverseRelationship():
-    '''    public boolean getIsReverseRelationship()
+    '''public boolean getIsReverseRelationship()
     '''
 def setName():
-    '''    public void setName(final String name)
+    '''public void setName(final String name)
     '''
 def setClassName():
-    '''    public void setClassName(final String className)
+    '''public void setClassName(final String className)
     '''
 def setValueType():
-    '''    public void setValueType(final String valueType)
+    '''public void setValueType(final String valueType)
     '''
 def setMaximumLength():
-    '''    public void setMaximumLength(final int maximumLength)
+    '''public void setMaximumLength(final int maximumLength)
     '''
 def setDisplayString():
-    '''    public void setDisplayString(final String displayString)
+    '''public void setDisplayString(final String displayString)
     '''
 def setIsNamingAttribute():
-    '''    public void setIsNamingAttribute(final boolean isNamingAttribute)
+    '''public void setIsNamingAttribute(final boolean isNamingAttribute)
     '''
 def setHasRelationship():
-    '''    public void setHasRelationship(final boolean hasRelationship)
+    '''public void setHasRelationship(final boolean hasRelationship)
     '''
 def setRelationshipType():
-    '''    public void setRelationshipType(final String relationshipType)
+    '''public void setRelationshipType(final String relationshipType)
     '''
 def setIsReverseRelationship():
-    '''    public void setIsReverseRelationship(final boolean isReverseRelationship)
+    '''public void setIsReverseRelationship(final boolean isReverseRelationship)
     '''
 def getGuid():
-    '''    public Guid getGuid()
+    '''public Guid getGuid()
     '''
 def setGuid():
-    '''    public void setGuid(final Guid guid)
+    '''public void setGuid(final Guid guid)
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''

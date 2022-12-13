@@ -1,3 +1,3 @@
 def FldCollectionAuthCollectionNum():
-    '''    public FldCollectionAuthCollectionNum(final MboValue mbv)
+    '''public FldCollectionAuthCollectionNum(final MboValue mbv)
     '''

@@ -1,3 +1,3 @@
 def cancelAMAssignLabDialog():
-    '''    public int cancelAMAssignLabDialog()
+    '''public int cancelAMAssignLabDialog()
     '''

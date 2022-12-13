@@ -19,14 +19,14 @@ FIELD_IMPORTRESOURCE = "String  \"IMPORTRESOURCE\""
 FIELD_IMPORTSPARES = "String  \"IMPORTSPARES\""
 FIELD_IMPORTASSEMBLY = "String  \"IMPORTASSEMBLY\""
 def BIMUpload():
-    '''    public BIMUpload(final MboSet ms)
+    '''public BIMUpload(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def getFileName():
-    '''    public String getFileName()
+    '''public String getFileName()
     '''
 def getSheetName():
-    '''    public String getSheetName()
+    '''public String getSheetName()
     '''

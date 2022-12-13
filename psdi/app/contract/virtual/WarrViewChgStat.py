@@ -1,6 +1,6 @@
 def WarrViewChgStat():
-    '''    public WarrViewChgStat(final MboSet ms)
+    '''public WarrViewChgStat(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

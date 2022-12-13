@@ -1,12 +1,12 @@
 def FldLoadFileName():
-    '''    public FldLoadFileName(final MboValue mbv)
+    '''public FldLoadFileName(final MboValue mbv)
     '''
 def hasList():
-    '''    public boolean hasList()
+    '''public boolean hasList()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

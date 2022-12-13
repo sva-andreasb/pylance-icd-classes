@@ -1,23 +1,23 @@
 def SdkJsonGenerator():
-    '''    public SdkJsonGenerator(final JsonFactory factory, final String contentType)
+    '''public SdkJsonGenerator(final JsonFactory factory, final String contentType)
     '''
 def writeStartArray():
-    '''    public StructuredJsonGenerator writeStartArray()
+    '''public StructuredJsonGenerator writeStartArray()
     '''
 def writeEndArray():
-    '''    public StructuredJsonGenerator writeEndArray()
+    '''public StructuredJsonGenerator writeEndArray()
     '''
 def writeStartObject():
-    '''    public StructuredJsonGenerator writeStartObject()
+    '''public StructuredJsonGenerator writeStartObject()
     '''
 def writeEndObject():
-    '''    public StructuredJsonGenerator writeEndObject()
+    '''public StructuredJsonGenerator writeEndObject()
     '''
 def writeFieldName():
-    '''    public StructuredJsonGenerator writeFieldName(final String fieldName)
+    '''public StructuredJsonGenerator writeFieldName(final String fieldName)
     '''
 def writeValue():
-    '''    public StructuredJsonGenerator writeValue(final String val)
+    '''public StructuredJsonGenerator writeValue(final String val)
     public StructuredJsonGenerator writeValue(final boolean bool)
     public StructuredJsonGenerator writeValue(final long val)
     public StructuredJsonGenerator writeValue(final double val)
@@ -30,11 +30,11 @@ def writeValue():
     public StructuredJsonGenerator writeValue(final BigInteger value)
     '''
 def getBytes():
-    '''    public byte[] getBytes()
+    '''public byte[] getBytes()
     '''
 def getContentType():
-    '''    public String getContentType()
+    '''public String getContentType()
     '''
 def JsonGenerationException():
-    '''    public JsonGenerationException(final Throwable t)
+    '''public JsonGenerationException(final Throwable t)
     '''

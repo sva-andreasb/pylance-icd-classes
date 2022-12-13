@@ -12,8 +12,8 @@ STD_INET_ADDRESS = "int  11"
 STD_INET_SOCKET_ADDRESS = "int  12"
 STD_STRING_BUILDER = "int  13"
 def findDeserializer():
-    '''    public static Std findDeserializer(final Class<?> rawType)
+    '''public static Std findDeserializer(final Class<?> rawType)
     '''
 def deserialize():
-    '''    public T deserialize(final JsonParser p, final DeserializationContext ctxt)
+    '''public T deserialize(final JsonParser p, final DeserializationContext ctxt)
     '''

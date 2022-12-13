@@ -1,10 +1,10 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def isNull():
-    '''    public boolean isNull(final String m)
+    '''public boolean isNull(final String m)
     '''
 def CIRelationRulesOutboundProc():
-    '''    public CIRelationRulesOutboundProc()
+    '''public CIRelationRulesOutboundProc()
     '''
 def checkBusinessRules():
-    '''    public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
     '''

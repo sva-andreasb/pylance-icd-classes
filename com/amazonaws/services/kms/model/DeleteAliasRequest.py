@@ -1,21 +1,21 @@
 def setAliasName():
-    '''    public void setAliasName(final String aliasName)
+    '''public void setAliasName(final String aliasName)
     '''
 def getAliasName():
-    '''    public String getAliasName()
+    '''public String getAliasName()
     '''
 def withAliasName():
-    '''    public DeleteAliasRequest withAliasName(final String aliasName)
+    '''public DeleteAliasRequest withAliasName(final String aliasName)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def clone():
-    '''    public DeleteAliasRequest clone()
+    '''public DeleteAliasRequest clone()
     '''

@@ -1,20 +1,20 @@
 def negate():
-    '''    public static Boolean negate(final Boolean bool)
+    '''public static Boolean negate(final Boolean bool)
     '''
 def isTrue():
-    '''    public static boolean isTrue(final Boolean bool)
+    '''public static boolean isTrue(final Boolean bool)
     '''
 def isNotTrue():
-    '''    public static boolean isNotTrue(final Boolean bool)
+    '''public static boolean isNotTrue(final Boolean bool)
     '''
 def isFalse():
-    '''    public static boolean isFalse(final Boolean bool)
+    '''public static boolean isFalse(final Boolean bool)
     '''
 def isNotFalse():
-    '''    public static boolean isNotFalse(final Boolean bool)
+    '''public static boolean isNotFalse(final Boolean bool)
     '''
 def toBoolean():
-    '''    public static boolean toBoolean(final Boolean bool)
+    '''public static boolean toBoolean(final Boolean bool)
     public static boolean toBoolean(final int value)
     public static boolean toBoolean(final int value, final int trueValue, final int falseValue)
     public static boolean toBoolean(final Integer value, final Integer trueValue, final Integer falseValue)
@@ -22,10 +22,10 @@ def toBoolean():
     public static boolean toBoolean(final String str, final String trueString, final String falseString)
     '''
 def toBooleanDefaultIfNull():
-    '''    public static boolean toBooleanDefaultIfNull(final Boolean bool, final boolean valueIfNull)
+    '''public static boolean toBooleanDefaultIfNull(final Boolean bool, final boolean valueIfNull)
     '''
 def toBooleanObject():
-    '''    public static Boolean toBooleanObject(final int value)
+    '''public static Boolean toBooleanObject(final int value)
     public static Boolean toBooleanObject(final Integer value)
     public static Boolean toBooleanObject(final int value, final int trueValue, final int falseValue, final int nullValue)
     public static Boolean toBooleanObject(final Integer value, final Integer trueValue, final Integer falseValue, final Integer nullValue)
@@ -33,44 +33,44 @@ def toBooleanObject():
     public static Boolean toBooleanObject(final String str, final String trueString, final String falseString, final String nullString)
     '''
 def toInteger():
-    '''    public static int toInteger(final boolean bool)
+    '''public static int toInteger(final boolean bool)
     public static int toInteger(final boolean bool, final int trueValue, final int falseValue)
     public static int toInteger(final Boolean bool, final int trueValue, final int falseValue, final int nullValue)
     '''
 def toIntegerObject():
-    '''    public static Integer toIntegerObject(final boolean bool)
+    '''public static Integer toIntegerObject(final boolean bool)
     public static Integer toIntegerObject(final Boolean bool)
     public static Integer toIntegerObject(final boolean bool, final Integer trueValue, final Integer falseValue)
     public static Integer toIntegerObject(final Boolean bool, final Integer trueValue, final Integer falseValue, final Integer nullValue)
     '''
 def toStringTrueFalse():
-    '''    public static String toStringTrueFalse(final Boolean bool)
+    '''public static String toStringTrueFalse(final Boolean bool)
     public static String toStringTrueFalse(final boolean bool)
     '''
 def toStringOnOff():
-    '''    public static String toStringOnOff(final Boolean bool)
+    '''public static String toStringOnOff(final Boolean bool)
     public static String toStringOnOff(final boolean bool)
     '''
 def toStringYesNo():
-    '''    public static String toStringYesNo(final Boolean bool)
+    '''public static String toStringYesNo(final Boolean bool)
     public static String toStringYesNo(final boolean bool)
     '''
 def toString():
-    '''    public static String toString(final Boolean bool, final String trueString, final String falseString, final String nullString)
+    '''public static String toString(final Boolean bool, final String trueString, final String falseString, final String nullString)
     public static String toString(final boolean bool, final String trueString, final String falseString)
     '''
 def and():
-    '''    public static boolean and(final boolean... array)
+    '''public static boolean and(final boolean... array)
     public static Boolean and(final Boolean... array)
     '''
 def or():
-    '''    public static boolean or(final boolean... array)
+    '''public static boolean or(final boolean... array)
     public static Boolean or(final Boolean... array)
     '''
 def xor():
-    '''    public static boolean xor(final boolean... array)
+    '''public static boolean xor(final boolean... array)
     public static Boolean xor(final Boolean... array)
     '''
 def compare():
-    '''    public static int compare(final boolean x, final boolean y)
+    '''public static int compare(final boolean x, final boolean y)
     '''

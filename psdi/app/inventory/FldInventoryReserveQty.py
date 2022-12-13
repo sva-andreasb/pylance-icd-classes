@@ -1,6 +1,6 @@
 def FldInventoryReserveQty():
-    '''    public FldInventoryReserveQty(final MboValue mbv)
+    '''public FldInventoryReserveQty(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

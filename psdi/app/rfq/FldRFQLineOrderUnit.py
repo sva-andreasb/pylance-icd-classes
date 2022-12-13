@@ -1,6 +1,6 @@
 def FldRFQLineOrderUnit():
-    '''    public FldRFQLineOrderUnit(final MboValue mbv)
+    '''public FldRFQLineOrderUnit(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

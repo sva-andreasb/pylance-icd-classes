@@ -1,6 +1,6 @@
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''
 def resetwhere():
-    '''    public int resetwhere()
+    '''public int resetwhere()
     '''

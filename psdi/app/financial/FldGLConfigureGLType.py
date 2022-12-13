@@ -1,6 +1,6 @@
 def FldGLConfigureGLType():
-    '''    public FldGLConfigureGLType(final MboValue mbv)
+    '''public FldGLConfigureGLType(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

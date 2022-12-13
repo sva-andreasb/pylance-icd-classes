@@ -1,3 +1,3 @@
 def CCILinkCISet():
-    '''    public CCILinkCISet(final MboServerInterface ms)
+    '''public CCILinkCISet(final MboServerInterface ms)
     '''

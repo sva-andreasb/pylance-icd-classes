@@ -1,3 +1,3 @@
 def StoreSimplePGSQL():
-    '''    public StoreSimplePGSQL(final SDBConnection connection, final StoreDesc desc)
+    '''public StoreSimplePGSQL(final SDBConnection connection, final StoreDesc desc)
     '''

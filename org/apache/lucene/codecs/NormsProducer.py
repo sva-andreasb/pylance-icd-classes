@@ -1,3 +1,3 @@
 def getMergeInstance():
-    '''    public NormsProducer getMergeInstance()
+    '''public NormsProducer getMergeInstance()
     '''

@@ -1,6 +1,6 @@
 def FldContLineAssetDuration():
-    '''    public FldContLineAssetDuration(final MboValue mbv)
+    '''public FldContLineAssetDuration(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

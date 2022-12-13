@@ -1,18 +1,18 @@
 def OslcProvider():
-    '''    public OslcProvider(final MboSet ms)
+    '''public OslcProvider(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def migrateProvider():
-    '''    public void migrateProvider()
+    '''public void migrateProvider()
     '''

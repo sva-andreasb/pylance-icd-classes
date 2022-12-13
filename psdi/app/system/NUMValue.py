@@ -1,24 +1,24 @@
 def NUMValue():
-    '''    public NUMValue(final MboSet ms)
+    '''public NUMValue(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def genValueId():
-    '''    public static String genValueId(final MboRemote mbo)
+    '''public static String genValueId(final MboRemote mbo)
     '''

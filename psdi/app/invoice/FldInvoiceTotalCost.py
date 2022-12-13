@@ -1,6 +1,6 @@
 def FldInvoiceTotalCost():
-    '''    public FldInvoiceTotalCost(final MboValue mbv)
+    '''public FldInvoiceTotalCost(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

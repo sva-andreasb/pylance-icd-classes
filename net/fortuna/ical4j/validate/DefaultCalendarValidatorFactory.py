@@ -1,3 +1,3 @@
 def newInstance():
-    '''    public Validator<Calendar> newInstance()
+    '''public Validator<Calendar> newInstance()
     '''

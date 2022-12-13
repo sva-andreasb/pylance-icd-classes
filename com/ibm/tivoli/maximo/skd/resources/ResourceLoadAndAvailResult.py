@@ -1,3 +1,3 @@
 def ResourceLoadAndAvailResult():
-    '''    public ResourceLoadAndAvailResult()
+    '''public ResourceLoadAndAvailResult()
     '''

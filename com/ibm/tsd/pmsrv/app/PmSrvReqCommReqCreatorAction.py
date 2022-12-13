@@ -1,6 +1,6 @@
 def PmSrvReqCommReqCreatorAction():
-    '''    public PmSrvReqCommReqCreatorAction()
+    '''public PmSrvReqCommReqCreatorAction()
     '''
 def applyCustomAction():
-    '''    public void applyCustomAction(final MboRemote mbo, final Object[] params)
+    '''public void applyCustomAction(final MboRemote mbo, final Object[] params)
     '''

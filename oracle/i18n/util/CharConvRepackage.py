@@ -1,9 +1,9 @@
 def getCommand():
-    '''    public static final String getCommand()
+    '''public static final String getCommand()
     '''
 def printUsage():
-    '''    public static void printUsage()
+    '''public static void printUsage()
     '''
 def main():
-    '''    public static final void main(final List list)
+    '''public static final void main(final List list)
     '''

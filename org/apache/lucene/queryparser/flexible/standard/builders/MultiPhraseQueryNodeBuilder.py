@@ -1,3 +1,3 @@
 def build():
-    '''    public MultiPhraseQuery build(final QueryNode queryNode)
+    '''public MultiPhraseQuery build(final QueryNode queryNode)
     '''

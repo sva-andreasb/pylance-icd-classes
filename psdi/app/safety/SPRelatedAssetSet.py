@@ -1,3 +1,3 @@
 def SPRelatedAssetSet():
-    '''    public SPRelatedAssetSet(final MboServerInterface ms)
+    '''public SPRelatedAssetSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def InspFieldSet():
-    '''    public InspFieldSet(final MboServerInterface ms)
+    '''public InspFieldSet(final MboServerInterface ms)
     '''

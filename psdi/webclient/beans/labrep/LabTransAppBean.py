@@ -1,21 +1,21 @@
 def LabTransAppBean():
-    '''    public LabTransAppBean()
+    '''public LabTransAppBean()
     '''
 def CREATEINVC():
-    '''    public int CREATEINVC()
+    '''public int CREATEINVC()
     '''
 def APPRLABOR():
-    '''    public int APPRLABOR()
+    '''public int APPRLABOR()
     '''
 def BYLABOR():
-    '''    public int BYLABOR()
+    '''public int BYLABOR()
     '''
 def BYTICKET():
-    '''    public int BYTICKET()
+    '''public int BYTICKET()
     '''
 def BYWORKORD():
-    '''    public int BYWORKORD()
+    '''public int BYWORKORD()
     '''
 def BYAMCREW():
-    '''    public int BYAMCREW()
+    '''public int BYAMCREW()
     '''

@@ -1,3 +1,3 @@
 def InspFieldOptionSet():
-    '''    public InspFieldOptionSet(final MboServerInterface ms)
+    '''public InspFieldOptionSet(final MboServerInterface ms)
     '''

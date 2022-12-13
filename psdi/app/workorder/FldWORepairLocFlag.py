@@ -1,6 +1,6 @@
 def FldWORepairLocFlag():
-    '''    public FldWORepairLocFlag(final MboValue mbv)
+    '''public FldWORepairLocFlag(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

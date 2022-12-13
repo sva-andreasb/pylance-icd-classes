@@ -1,6 +1,6 @@
 def FldCheckInvokeChannel():
-    '''    public FldCheckInvokeChannel(final MboValue mbv)
+    '''public FldCheckInvokeChannel(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

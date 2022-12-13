@@ -1,15 +1,15 @@
 def FldSKDQueryObjectName():
-    '''    public FldSKDQueryObjectName(final MboValue mbv)
+    '''public FldSKDQueryObjectName(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def getMboSet():
-    '''    public MboSetRemote getMboSet()
+    '''public MboSetRemote getMboSet()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

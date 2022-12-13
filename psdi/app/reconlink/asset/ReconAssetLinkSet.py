@@ -1,3 +1,3 @@
 def ReconAssetLinkSet():
-    '''    public ReconAssetLinkSet(final MboServerInterface ms)
+    '''public ReconAssetLinkSet(final MboServerInterface ms)
     '''

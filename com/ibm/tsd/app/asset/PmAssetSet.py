@@ -1,3 +1,3 @@
 def PmAssetSet():
-    '''    public PmAssetSet(final MboServerInterface ms)
+    '''public PmAssetSet(final MboServerInterface ms)
     '''

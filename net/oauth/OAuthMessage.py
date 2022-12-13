@@ -4,64 +4,64 @@ POST = "String  \"POST\""
 PUT = "String  \"PUT\""
 DELETE = "String  \"DELETE\""
 def OAuthMessage():
-    '''    public OAuthMessage(final String method, final String URL, final Collection<? extends Map.Entry> parameters)
+    '''public OAuthMessage(final String method, final String URL, final Collection<? extends Map.Entry> parameters)
     public OAuthMessage(final String method, final String URL, final Collection<? extends Map.Entry> parameters, final InputStream bodyAsStream)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def addParameter():
-    '''    public void addParameter(final String key, final String value)
+    '''public void addParameter(final String key, final String value)
     public void addParameter(final Map.Entry<String, String> parameter)
     '''
 def addParameters():
-    '''    public void addParameters(final Collection<? extends Map.Entry<String, String>> parameters)
+    '''public void addParameters(final Collection<? extends Map.Entry<String, String>> parameters)
     '''
 def getParameter():
-    '''    public String getParameter(final String name)
+    '''public String getParameter(final String name)
     '''
 def getConsumerKey():
-    '''    public String getConsumerKey()
+    '''public String getConsumerKey()
     '''
 def getToken():
-    '''    public String getToken()
+    '''public String getToken()
     '''
 def getSignatureMethod():
-    '''    public String getSignatureMethod()
+    '''public String getSignatureMethod()
     '''
 def getSignature():
-    '''    public String getSignature()
+    '''public String getSignature()
     '''
 def getBodyType():
-    '''    public String getBodyType()
+    '''public String getBodyType()
     '''
 def getBodyEncoding():
-    '''    public String getBodyEncoding()
+    '''public String getBodyEncoding()
     '''
 def getHeader():
-    '''    public final String getHeader(final String name)
+    '''public final String getHeader(final String name)
     '''
 def readBodyAsString():
-    '''    public final String readBodyAsString()
+    '''public final String readBodyAsString()
     '''
 def getBodyAsStream():
-    '''    public InputStream getBodyAsStream()
+    '''public InputStream getBodyAsStream()
     '''
 def getDump():
-    '''    public Map<String, Object> getDump()
+    '''public Map<String, Object> getDump()
     '''
 def requireParameters():
-    '''    public void requireParameters(final String... names)
+    '''public void requireParameters(final String... names)
     '''
 def addRequiredParameters():
-    '''    public void addRequiredParameters(final OAuthAccessor accessor)
+    '''public void addRequiredParameters(final OAuthAccessor accessor)
     '''
 def sign():
-    '''    public void sign(final OAuthAccessor accessor)
+    '''public void sign(final OAuthAccessor accessor)
     '''
 def getAuthorizationHeader():
-    '''    public String getAuthorizationHeader(final String realm)
+    '''public String getAuthorizationHeader(final String realm)
     '''
 def readAll():
-    '''    public static String readAll(final InputStream from, final String encoding)
+    '''public static String readAll(final InputStream from, final String encoding)
     '''

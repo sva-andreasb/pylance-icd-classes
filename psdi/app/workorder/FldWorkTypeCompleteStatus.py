@@ -1,3 +1,3 @@
 def FldWorkTypeCompleteStatus():
-    '''    public FldWorkTypeCompleteStatus(final MboValue mbv)
+    '''public FldWorkTypeCompleteStatus(final MboValue mbv)
     '''

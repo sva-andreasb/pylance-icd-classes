@@ -1,6 +1,6 @@
 def NewWorkActionListener():
-    '''    public NewWorkActionListener(final IlvReservation reservation)
+    '''public NewWorkActionListener(final IlvReservation reservation)
     '''
 def actionPerformed():
-    '''    public void actionPerformed(final ActionEvent e)
+    '''public void actionPerformed(final ActionEvent e)
     '''

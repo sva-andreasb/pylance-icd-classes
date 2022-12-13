@@ -1,6 +1,6 @@
 def DataLoadMonitorThread():
-    '''    public DataLoadMonitorThread(final DataLoadMonitorLock aDataLoadLock)
+    '''public DataLoadMonitorThread(final DataLoadMonitorLock aDataLoadLock)
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''

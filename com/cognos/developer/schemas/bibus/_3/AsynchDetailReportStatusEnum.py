@@ -1,32 +1,32 @@
 _prompting = "String  \"prompting\""
 _responseReady = "String  \"responseReady\""
 def getValue():
-    '''    public String getValue()
+    '''public String getValue()
     '''
 def fromValue():
-    '''    public static AsynchDetailReportStatusEnum fromValue(final String value)
+    '''public static AsynchDetailReportStatusEnum fromValue(final String value)
     '''
 def fromString():
-    '''    public static AsynchDetailReportStatusEnum fromString(final String value)
+    '''public static AsynchDetailReportStatusEnum fromString(final String value)
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def readResolve():
-    '''    public Object readResolve()
+    '''public Object readResolve()
     '''
 def getSerializer():
-    '''    public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
     '''
 def getDeserializer():
-    '''    public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
     '''
 def getTypeDesc():
-    '''    public static TypeDesc getTypeDesc()
+    '''public static TypeDesc getTypeDesc()
     '''

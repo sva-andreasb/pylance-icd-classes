@@ -1,6 +1,6 @@
 def FldAssignName():
-    '''    public FldAssignName(final MboValue mbv)
+    '''public FldAssignName(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

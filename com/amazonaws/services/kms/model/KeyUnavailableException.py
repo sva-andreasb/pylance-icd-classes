@@ -1,3 +1,3 @@
 def KeyUnavailableException():
-    '''    public KeyUnavailableException(final String message)
+    '''public KeyUnavailableException(final String message)
     '''

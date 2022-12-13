@@ -1,6 +1,6 @@
 def FailureRemarkSet():
-    '''    public FailureRemarkSet(final MboServerInterface ms)
+    '''public FailureRemarkSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

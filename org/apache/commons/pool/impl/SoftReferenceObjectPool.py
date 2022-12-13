@@ -1,32 +1,32 @@
 def SoftReferenceObjectPool():
-    '''    public SoftReferenceObjectPool()
+    '''public SoftReferenceObjectPool()
     public SoftReferenceObjectPool(final PoolableObjectFactory factory)
     public SoftReferenceObjectPool(final PoolableObjectFactory factory, final int initSize)
     '''
 def borrowObject():
-    '''    public synchronized Object borrowObject()
+    '''public synchronized Object borrowObject()
     '''
 def returnObject():
-    '''    public synchronized void returnObject(final Object obj)
+    '''public synchronized void returnObject(final Object obj)
     '''
 def invalidateObject():
-    '''    public synchronized void invalidateObject(final Object obj)
+    '''public synchronized void invalidateObject(final Object obj)
     '''
 def addObject():
-    '''    public synchronized void addObject()
+    '''public synchronized void addObject()
     '''
 def getNumIdle():
-    '''    public synchronized int getNumIdle()
+    '''public synchronized int getNumIdle()
     '''
 def getNumActive():
-    '''    public synchronized int getNumActive()
+    '''public synchronized int getNumActive()
     '''
 def clear():
-    '''    public synchronized void clear()
+    '''public synchronized void clear()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def setFactory():
-    '''    public synchronized void setFactory(final PoolableObjectFactory factory)
+    '''public synchronized void setFactory(final PoolableObjectFactory factory)
     '''

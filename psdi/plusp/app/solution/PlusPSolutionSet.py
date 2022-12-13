@@ -1,9 +1,9 @@
 def PlusPSolutionSet():
-    '''    public PlusPSolutionSet(final MboServerInterface arg0)
+    '''public PlusPSolutionSet(final MboServerInterface arg0)
     '''
 def setQbe():
-    '''    public void setQbe(final String attribute, final String expression)
+    '''public void setQbe(final String attribute, final String expression)
     '''
 def resetQbe():
-    '''    public void resetQbe()
+    '''public void resetQbe()
     '''

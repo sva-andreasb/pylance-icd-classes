@@ -1,6 +1,6 @@
 def PmFldAssetStatusChangeDate():
-    '''    public PmFldAssetStatusChangeDate(final MboValue mbv)
+    '''public PmFldAssetStatusChangeDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

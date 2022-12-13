@@ -1,9 +1,9 @@
 def FldCurrencyCode():
-    '''    public FldCurrencyCode(final MboValue mbv)
+    '''public FldCurrencyCode(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

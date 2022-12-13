@@ -1,6 +1,6 @@
 def FldSKDProjectDuration():
-    '''    public FldSKDProjectDuration(final MboValue mbv)
+    '''public FldSKDProjectDuration(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

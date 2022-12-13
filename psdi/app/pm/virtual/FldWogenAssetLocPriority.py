@@ -1,6 +1,6 @@
 def FldWogenAssetLocPriority():
-    '''    public FldWogenAssetLocPriority(final MboValue mbv)
+    '''public FldWogenAssetLocPriority(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

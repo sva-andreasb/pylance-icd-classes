@@ -1,6 +1,6 @@
 def getWhereClause():
-    '''    public String getWhereClause()
+    '''public String getWhereClause()
     '''
 def hasExtendedFields():
-    '''    public boolean hasExtendedFields()
+    '''public boolean hasExtendedFields()
     '''

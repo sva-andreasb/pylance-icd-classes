@@ -1,74 +1,74 @@
 def getServantToken():
-    '''    public String getServantToken()
+    '''public String getServantToken()
     '''
 def getUniqueId():
-    '''    public String getUniqueId()
+    '''public String getUniqueId()
     public String getUniqueId(final String uuid)
     '''
 def getSystemName():
-    '''    public String getSystemName()
+    '''public String getSystemName()
     '''
 def getGlobalORB():
-    '''    public ORB getGlobalORB()
+    '''public ORB getGlobalORB()
     '''
 def register_initial_reference():
-    '''    public void register_initial_reference(final String serviceName, final Object corbaObj)
+    '''public void register_initial_reference(final String serviceName, final Object corbaObj)
     '''
 def isZOS():
-    '''    public boolean isZOS()
+    '''public boolean isZOS()
     '''
 def isServantJvm():
-    '''    public boolean isServantJvm()
+    '''public boolean isServantJvm()
     '''
 def isClientJvm():
-    '''    public boolean isClientJvm()
+    '''public boolean isClientJvm()
     '''
 def isControlJvm():
-    '''    public boolean isControlJvm()
+    '''public boolean isControlJvm()
     '''
 def isCRAJvm():
-    '''    public boolean isCRAJvm()
+    '''public boolean isCRAJvm()
     '''
 def isBaseServantJvm():
-    '''    public boolean isBaseServantJvm()
+    '''public boolean isBaseServantJvm()
     '''
 def isOS400():
-    '''    public boolean isOS400()
+    '''public boolean isOS400()
     '''
 def runningWhereConfigured():
-    '''    public boolean runningWhereConfigured()
+    '''public boolean runningWhereConfigured()
     '''
 def getStoken():
-    '''    public byte[] getStoken()
+    '''public byte[] getStoken()
     '''
 def getSysplexName():
-    '''    public String getSysplexName()
+    '''public String getSysplexName()
     '''
 def doECAService():
-    '''    public int doECAService(final byte[] bytes)
+    '''public int doECAService(final byte[] bytes)
     '''
 def registerListener():
-    '''    public void registerListener(final JVMListenerInterface listener)
+    '''public void registerListener(final JVMListenerInterface listener)
     public void registerListener(final ServantInitializationListener listener)
     '''
 def getCRAId():
-    '''    public String getCRAId()
+    '''public String getCRAId()
     '''
 def setCRAId():
-    '''    public void setCRAId(final String s)
+    '''public void setCRAId(final String s)
     '''
 def setRestartFlag():
-    '''    public void setRestartFlag()
+    '''public void setRestartFlag()
     '''
 def isServerShuttingDown():
-    '''    public boolean isServerShuttingDown()
+    '''public boolean isServerShuttingDown()
     '''
 def isServantActive():
-    '''    public boolean isServantActive(final byte[] sToken)
+    '''public boolean isServantActive(final byte[] sToken)
     '''
 def isServerPaused():
-    '''    public boolean isServerPaused()
+    '''public boolean isServerPaused()
     '''
 def getCPUTimes():
-    '''    public long[] getCPUTimes()
+    '''public long[] getCPUTimes()
     '''

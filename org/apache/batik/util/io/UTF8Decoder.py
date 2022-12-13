@@ -1,6 +1,6 @@
 def UTF8Decoder():
-    '''    public UTF8Decoder(final InputStream is)
+    '''public UTF8Decoder(final InputStream is)
     '''
 def readChar():
-    '''    public int readChar()
+    '''public int readChar()
     '''

@@ -1,3 +1,3 @@
 def PmtcoFldBBCINum():
-    '''    public PmtcoFldBBCINum(final MboValue mbv)
+    '''public PmtcoFldBBCINum(final MboValue mbv)
     '''

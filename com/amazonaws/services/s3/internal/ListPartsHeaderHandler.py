@@ -1,3 +1,3 @@
 def handle():
-    '''    public void handle(final PartListing result, final HttpResponse response)
+    '''public void handle(final PartListing result, final HttpResponse response)
     '''

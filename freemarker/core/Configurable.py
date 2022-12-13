@@ -20,157 +20,157 @@ SHOW_ERROR_TIPS_KEY = "String  \"show_error_tips\""
 API_BUILTIN_ENABLED_KEY = "String  \"api_builtin_enabled\""
 LOG_TEMPLATE_EXCEPTIONS_KEY = "String  \"log_template_exceptions\""
 def Configurable():
-    '''    public Configurable()
+    '''public Configurable()
     public Configurable(final Configurable parent)
     '''
 def getParent():
-    '''    public final Configurable getParent()
+    '''public final Configurable getParent()
     '''
 def setClassicCompatible():
-    '''    public void setClassicCompatible(final boolean classicCompatibility)
+    '''public void setClassicCompatible(final boolean classicCompatibility)
     '''
 def setClassicCompatibleAsInt():
-    '''    public void setClassicCompatibleAsInt(final int classicCompatibility)
+    '''public void setClassicCompatibleAsInt(final int classicCompatibility)
     '''
 def isClassicCompatible():
-    '''    public boolean isClassicCompatible()
+    '''public boolean isClassicCompatible()
     '''
 def getClassicCompatibleAsInt():
-    '''    public int getClassicCompatibleAsInt()
+    '''public int getClassicCompatibleAsInt()
     '''
 def setLocale():
-    '''    public void setLocale(final Locale locale)
+    '''public void setLocale(final Locale locale)
     '''
 def getTimeZone():
-    '''    public TimeZone getTimeZone()
+    '''public TimeZone getTimeZone()
     '''
 def setTimeZone():
-    '''    public void setTimeZone(final TimeZone timeZone)
+    '''public void setTimeZone(final TimeZone timeZone)
     '''
 def setSQLDateAndTimeTimeZone():
-    '''    public void setSQLDateAndTimeTimeZone(final TimeZone tz)
+    '''public void setSQLDateAndTimeTimeZone(final TimeZone tz)
     '''
 def getSQLDateAndTimeTimeZone():
-    '''    public TimeZone getSQLDateAndTimeTimeZone()
+    '''public TimeZone getSQLDateAndTimeTimeZone()
     '''
 def getLocale():
-    '''    public Locale getLocale()
+    '''public Locale getLocale()
     '''
 def setNumberFormat():
-    '''    public void setNumberFormat(final String numberFormat)
+    '''public void setNumberFormat(final String numberFormat)
     '''
 def getNumberFormat():
-    '''    public String getNumberFormat()
+    '''public String getNumberFormat()
     '''
 def setBooleanFormat():
-    '''    public void setBooleanFormat(final String booleanFormat)
+    '''public void setBooleanFormat(final String booleanFormat)
     '''
 def getBooleanFormat():
-    '''    public String getBooleanFormat()
+    '''public String getBooleanFormat()
     '''
 def setTimeFormat():
-    '''    public void setTimeFormat(final String timeFormat)
+    '''public void setTimeFormat(final String timeFormat)
     '''
 def getTimeFormat():
-    '''    public String getTimeFormat()
+    '''public String getTimeFormat()
     '''
 def setDateFormat():
-    '''    public void setDateFormat(final String dateFormat)
+    '''public void setDateFormat(final String dateFormat)
     '''
 def getDateFormat():
-    '''    public String getDateFormat()
+    '''public String getDateFormat()
     '''
 def setDateTimeFormat():
-    '''    public void setDateTimeFormat(final String dateTimeFormat)
+    '''public void setDateTimeFormat(final String dateTimeFormat)
     '''
 def getDateTimeFormat():
-    '''    public String getDateTimeFormat()
+    '''public String getDateTimeFormat()
     '''
 def setTemplateExceptionHandler():
-    '''    public void setTemplateExceptionHandler(final TemplateExceptionHandler templateExceptionHandler)
+    '''public void setTemplateExceptionHandler(final TemplateExceptionHandler templateExceptionHandler)
     '''
 def getTemplateExceptionHandler():
-    '''    public TemplateExceptionHandler getTemplateExceptionHandler()
+    '''public TemplateExceptionHandler getTemplateExceptionHandler()
     '''
 def setArithmeticEngine():
-    '''    public void setArithmeticEngine(final ArithmeticEngine arithmeticEngine)
+    '''public void setArithmeticEngine(final ArithmeticEngine arithmeticEngine)
     '''
 def getArithmeticEngine():
-    '''    public ArithmeticEngine getArithmeticEngine()
+    '''public ArithmeticEngine getArithmeticEngine()
     '''
 def setObjectWrapper():
-    '''    public void setObjectWrapper(final ObjectWrapper objectWrapper)
+    '''public void setObjectWrapper(final ObjectWrapper objectWrapper)
     '''
 def getObjectWrapper():
-    '''    public ObjectWrapper getObjectWrapper()
+    '''public ObjectWrapper getObjectWrapper()
     '''
 def setOutputEncoding():
-    '''    public void setOutputEncoding(final String outputEncoding)
+    '''public void setOutputEncoding(final String outputEncoding)
     '''
 def getOutputEncoding():
-    '''    public String getOutputEncoding()
+    '''public String getOutputEncoding()
     '''
 def setURLEscapingCharset():
-    '''    public void setURLEscapingCharset(final String urlEscapingCharset)
+    '''public void setURLEscapingCharset(final String urlEscapingCharset)
     '''
 def getURLEscapingCharset():
-    '''    public String getURLEscapingCharset()
+    '''public String getURLEscapingCharset()
     '''
 def setNewBuiltinClassResolver():
-    '''    public void setNewBuiltinClassResolver(final TemplateClassResolver newBuiltinClassResolver)
+    '''public void setNewBuiltinClassResolver(final TemplateClassResolver newBuiltinClassResolver)
     '''
 def getNewBuiltinClassResolver():
-    '''    public TemplateClassResolver getNewBuiltinClassResolver()
+    '''public TemplateClassResolver getNewBuiltinClassResolver()
     '''
 def setAutoFlush():
-    '''    public void setAutoFlush(final boolean autoFlush)
+    '''public void setAutoFlush(final boolean autoFlush)
     '''
 def getAutoFlush():
-    '''    public boolean getAutoFlush()
+    '''public boolean getAutoFlush()
     '''
 def setShowErrorTips():
-    '''    public void setShowErrorTips(final boolean showTips)
+    '''public void setShowErrorTips(final boolean showTips)
     '''
 def getShowErrorTips():
-    '''    public boolean getShowErrorTips()
+    '''public boolean getShowErrorTips()
     '''
 def setAPIBuiltinEnabled():
-    '''    public void setAPIBuiltinEnabled(final boolean value)
+    '''public void setAPIBuiltinEnabled(final boolean value)
     '''
 def isAPIBuiltinEnabled():
-    '''    public boolean isAPIBuiltinEnabled()
+    '''public boolean isAPIBuiltinEnabled()
     '''
 def setLogTemplateExceptions():
-    '''    public void setLogTemplateExceptions(final boolean value)
+    '''public void setLogTemplateExceptions(final boolean value)
     '''
 def getLogTemplateExceptions():
-    '''    public boolean getLogTemplateExceptions()
+    '''public boolean getLogTemplateExceptions()
     '''
 def setSetting():
-    '''    public void setSetting(final String name, final String value)
+    '''public void setSetting(final String name, final String value)
     '''
 def setStrictBeanModels():
-    '''    public void setStrictBeanModels(final boolean strict)
+    '''public void setStrictBeanModels(final boolean strict)
     '''
 def getSetting():
-    '''    public String getSetting(final String key)
+    '''public String getSetting(final String key)
     '''
 def getSettings():
-    '''    public Map getSettings()
+    '''public Map getSettings()
     '''
 def setSettings():
-    '''    public void setSettings(final Properties props)
+    '''public void setSettings(final Properties props)
     public void setSettings(final InputStream propsIn)
     '''
 def setCustomAttribute():
-    '''    public void setCustomAttribute(final String name, final Object value)
+    '''public void setCustomAttribute(final String name, final Object value)
     '''
 def getCustomAttributeNames():
-    '''    public String[] getCustomAttributeNames()
+    '''public String[] getCustomAttributeNames()
     '''
 def removeCustomAttribute():
-    '''    public void removeCustomAttribute(final String name)
+    '''public void removeCustomAttribute(final String name)
     '''
 def getCustomAttribute():
-    '''    public Object getCustomAttribute(final String name)
+    '''public Object getCustomAttribute(final String name)
     '''

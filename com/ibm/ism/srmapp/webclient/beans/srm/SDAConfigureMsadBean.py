@@ -1,6 +1,6 @@
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''
 def executeScriptAction():
-    '''    public void executeScriptAction()
+    '''public void executeScriptAction()
     '''

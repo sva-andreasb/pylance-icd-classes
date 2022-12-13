@@ -1,6 +1,6 @@
 def FldToolbarLocation():
-    '''    public FldToolbarLocation(final MboValue mbv)
+    '''public FldToolbarLocation(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

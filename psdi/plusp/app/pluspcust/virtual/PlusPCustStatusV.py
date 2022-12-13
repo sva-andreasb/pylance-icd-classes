@@ -1,6 +1,6 @@
 def PlusPCustStatusV():
-    '''    public PlusPCustStatusV(final MboSet ms)
+    '''public PlusPCustStatusV(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

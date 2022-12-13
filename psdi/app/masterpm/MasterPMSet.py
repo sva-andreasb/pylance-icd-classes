@@ -1,3 +1,3 @@
 def MasterPMSet():
-    '''    public MasterPMSet(final MboServerInterface ms)
+    '''public MasterPMSet(final MboServerInterface ms)
     '''

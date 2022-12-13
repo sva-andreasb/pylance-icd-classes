@@ -1,3 +1,3 @@
 def ResponseMbo():
-    '''    public ResponseMbo(final MboSet ms)
+    '''public ResponseMbo(final MboSet ms)
     '''

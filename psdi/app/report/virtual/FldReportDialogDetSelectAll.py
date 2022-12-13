@@ -1,6 +1,6 @@
 def FldReportDialogDetSelectAll():
-    '''    public FldReportDialogDetSelectAll(final MboValue mbv)
+    '''public FldReportDialogDetSelectAll(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

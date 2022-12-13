@@ -1,3 +1,3 @@
 def SKDResLevelParamSet():
-    '''    public SKDResLevelParamSet(final MboServerInterface ms)
+    '''public SKDResLevelParamSet(final MboServerInterface ms)
     '''

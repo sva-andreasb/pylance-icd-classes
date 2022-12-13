@@ -1,36 +1,36 @@
 def IlvEditionContext():
-    '''    public IlvEditionContext(final IlvServicesProvider b)
+    '''public IlvEditionContext(final IlvServicesProvider b)
     '''
 def getServicesProvider():
-    '''    public IlvServicesProvider getServicesProvider()
+    '''public IlvServicesProvider getServicesProvider()
     '''
 def setServicesProvider():
-    '''    public IlvServicesProvider setServicesProvider(final IlvServicesProvider b)
+    '''public IlvServicesProvider setServicesProvider(final IlvServicesProvider b)
     '''
 def getForm():
-    '''    public IlvForm getForm()
+    '''public IlvForm getForm()
     '''
 def setForm():
-    '''    public void setForm(final IlvForm c)
+    '''public void setForm(final IlvForm c)
     '''
 def getFormModel():
-    '''    public IlvFormModel getFormModel()
+    '''public IlvFormModel getFormModel()
     '''
 def setFormModel():
-    '''    public void setFormModel(final IlvFormModel d)
+    '''public void setFormModel(final IlvFormModel d)
     '''
 def getString():
-    '''    public String getString(final String s)
+    '''public String getString(final String s)
     '''
 def setProperty():
-    '''    public Object setProperty(final String s, final Object o)
+    '''public Object setProperty(final String s, final Object o)
     '''
 def getProperty():
-    '''    public Object getProperty(final String s)
+    '''public Object getProperty(final String s)
     '''
 def addPropertyChangeListener():
-    '''    public void addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''public void addPropertyChangeListener(final PropertyChangeListener propertyChangeListener)
     '''
 def removePropertyChangeListener():
-    '''    public void removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)
+    '''public void removePropertyChangeListener(final PropertyChangeListener propertyChangeListener)
     '''

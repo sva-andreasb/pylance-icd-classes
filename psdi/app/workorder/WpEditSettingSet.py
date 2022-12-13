@@ -1,9 +1,9 @@
 def WpEditSettingSet():
-    '''    public WpEditSettingSet(final MboServerInterface ms)
+    '''public WpEditSettingSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''
 def restartWOService():
-    '''    public void restartWOService()
+    '''public void restartWOService()
     '''

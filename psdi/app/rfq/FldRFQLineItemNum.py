@@ -1,9 +1,9 @@
 def FldRFQLineItemNum():
-    '''    public FldRFQLineItemNum(final MboValue mbv)
+    '''public FldRFQLineItemNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getAppLink():
-    '''    public String[] getAppLink()
+    '''public String[] getAppLink()
     '''

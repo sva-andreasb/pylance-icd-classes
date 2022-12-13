@@ -1,6 +1,6 @@
 def FldCompanyCatalogName():
-    '''    public FldCompanyCatalogName(final MboValue mbv)
+    '''public FldCompanyCatalogName(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

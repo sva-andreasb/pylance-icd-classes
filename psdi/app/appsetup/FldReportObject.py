@@ -1,3 +1,3 @@
 def FldReportObject():
-    '''    public FldReportObject(final MboValue mbv)
+    '''public FldReportObject(final MboValue mbv)
     '''

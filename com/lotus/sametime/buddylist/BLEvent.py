@@ -7,13 +7,13 @@ BL_SET_FAILED = "int  106"
 BL_UPDATED = "int  107"
 BL_OVERFLOWED = "int  108"
 def BLEvent():
-    '''    public BLEvent(final Object o, final int n)
+    '''public BLEvent(final Object o, final int n)
     public BLEvent(final Object o, final int n, final int reasonCode)
     public BLEvent(final Object o, final int n, final BL bl)
     '''
 def getBL():
-    '''    public BL getBL()
+    '''public BL getBL()
     '''
 def getReason():
-    '''    public int getReason()
+    '''public int getReason()
     '''

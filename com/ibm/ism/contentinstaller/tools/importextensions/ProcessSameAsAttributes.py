@@ -1,7 +1,7 @@
 def processObject():
-    '''    public boolean processObject(final Connection con, final PrintStream log, final Element e, final int mode)
+    '''public boolean processObject(final Connection con, final PrintStream log, final Element e, final int mode)
     public boolean processObject(final Connection con, final PrintStream log, final Processable object, final int mode)
     '''
 def executeSQL():
-    '''    public void executeSQL(final Connection con, final PrintStream log)
+    '''public void executeSQL(final Connection con, final PrintStream log)
     '''

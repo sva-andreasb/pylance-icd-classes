@@ -1,6 +1,6 @@
 def LaborStatusCompare():
-    '''    public LaborStatusCompare(final MboRemote currentLabor)
+    '''public LaborStatusCompare(final MboRemote currentLabor)
     '''
 def compareTo():
-    '''    public int compareTo(final LaborStatusCompare compareLabor)
+    '''public int compareTo(final LaborStatusCompare compareLabor)
     '''

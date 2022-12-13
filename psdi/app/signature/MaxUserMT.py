@@ -1,6 +1,6 @@
 def MaxUserMT():
-    '''    public MaxUserMT(final MboSet ms)
+    '''public MaxUserMT(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

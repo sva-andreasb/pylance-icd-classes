@@ -1,6 +1,6 @@
 def PlusPFldBillLineFilterChkBoxes():
-    '''    public PlusPFldBillLineFilterChkBoxes(final MboValue mbv)
+    '''public PlusPFldBillLineFilterChkBoxes(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,15 +1,15 @@
 def Stage():
-    '''    public Stage()
+    '''public Stage()
     '''
 def initial():
-    '''    public static Stage initial(final int count)
+    '''public static Stage initial(final int count)
     '''
 def connectFrom():
-    '''    public Stage connectFrom(final Stage s)
+    '''public Stage connectFrom(final Stage s)
     '''
 def isClosed():
-    '''    public boolean isClosed()
+    '''public boolean isClosed()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''

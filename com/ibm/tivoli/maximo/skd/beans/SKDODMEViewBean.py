@@ -1,12 +1,12 @@
 def SKDODMEViewBean():
-    '''    public SKDODMEViewBean()
+    '''public SKDODMEViewBean()
     '''
 def refresh():
-    '''    public int refresh()
+    '''public int refresh()
     '''
 def abort():
-    '''    public int abort()
+    '''public int abort()
     '''
 def clearcompleted():
-    '''    public int clearcompleted()
+    '''public int clearcompleted()
     '''

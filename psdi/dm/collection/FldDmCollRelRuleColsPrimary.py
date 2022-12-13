@@ -1,6 +1,6 @@
 def FldDmCollRelRuleColsPrimary():
-    '''    public FldDmCollRelRuleColsPrimary(final MboValue mbv)
+    '''public FldDmCollRelRuleColsPrimary(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

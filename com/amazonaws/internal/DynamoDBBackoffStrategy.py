@@ -1,3 +1,3 @@
 def getBackoffPeriod():
-    '''    public int getBackoffPeriod(final int retries)
+    '''public int getBackoffPeriod(final int retries)
     '''

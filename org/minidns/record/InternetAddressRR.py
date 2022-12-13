@@ -1,9 +1,9 @@
 def serialize():
-    '''    public final void serialize(final DataOutputStream dos)
+    '''public final void serialize(final DataOutputStream dos)
     '''
 def getIp():
-    '''    public final byte[] getIp()
+    '''public final byte[] getIp()
     '''
 def getInetAddress():
-    '''    public final InetAddress getInetAddress()
+    '''public final InetAddress getInetAddress()
     '''

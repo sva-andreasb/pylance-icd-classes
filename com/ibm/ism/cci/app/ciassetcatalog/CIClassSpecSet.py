@@ -1,3 +1,3 @@
 def CIClassSpecSet():
-    '''    public CIClassSpecSet(final MboServerInterface ms)
+    '''public CIClassSpecSet(final MboServerInterface ms)
     '''

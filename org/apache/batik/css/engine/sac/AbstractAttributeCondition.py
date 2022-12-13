@@ -1,12 +1,12 @@
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def getSpecificity():
-    '''    public int getSpecificity()
+    '''public int getSpecificity()
     '''
 def getValue():
-    '''    public String getValue()
+    '''public String getValue()
     '''

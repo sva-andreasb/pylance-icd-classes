@@ -1,3 +1,3 @@
 def RFQChangeStatusSet():
-    '''    public RFQChangeStatusSet(final MboServerInterface ms)
+    '''public RFQChangeStatusSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def InvoiceStatusSet():
-    '''    public InvoiceStatusSet(final MboServerInterface ms)
+    '''public InvoiceStatusSet(final MboServerInterface ms)
     '''

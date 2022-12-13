@@ -1,6 +1,6 @@
 def collateFinalState():
-    '''    public void collateFinalState()
+    '''public void collateFinalState()
     '''
 def setState():
-    '''    public void setState(final Transfer.TransferState state)
+    '''public void setState(final Transfer.TransferState state)
     '''

@@ -1,3 +1,3 @@
 def FldRelationRulesExtAttribute():
-    '''    public FldRelationRulesExtAttribute(final MboValue mbv)
+    '''public FldRelationRulesExtAttribute(final MboValue mbv)
     '''

@@ -1,3 +1,3 @@
 def OslcCoreMissingAnnotationException():
-    '''    public OslcCoreMissingAnnotationException(final Class<?> resourceClass, final Class<?> annotationClass)
+    '''public OslcCoreMissingAnnotationException(final Class<?> resourceClass, final Class<?> annotationClass)
     '''

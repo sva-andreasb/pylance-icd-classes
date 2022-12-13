@@ -1,3 +1,3 @@
 def getFormatName():
-    '''    public String getFormatName()
+    '''public String getFormatName()
     '''

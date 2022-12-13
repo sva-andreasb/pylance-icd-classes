@@ -1,6 +1,6 @@
 def clearall():
-    '''    public int clearall()
+    '''public int clearall()
     '''
 def setInspFormNum():
-    '''    public void setInspFormNum(final String inspformnum)
+    '''public void setInspFormNum(final String inspformnum)
     '''

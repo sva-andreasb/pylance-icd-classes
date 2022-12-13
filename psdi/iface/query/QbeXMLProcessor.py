@@ -9,5 +9,5 @@ OPERATOR_LESSEQUALS = "String  \"<=\""
 OPERATOR_ENDSWITH = "String  \"EW\""
 OPERATOR_STARTSWITH = "String  \"SW\""
 def QbeXMLProcessor():
-    '''    public QbeXMLProcessor(final String objName, final UserInfo userInfo)
+    '''public QbeXMLProcessor(final String objName, final UserInfo userInfo)
     '''

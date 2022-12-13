@@ -1,3 +1,3 @@
 def PublicURISet():
-    '''    public PublicURISet(final MboServerInterface ms)
+    '''public PublicURISet(final MboServerInterface ms)
     '''

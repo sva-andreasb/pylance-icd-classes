@@ -1,6 +1,6 @@
 def IALOAD():
-    '''    public IALOAD()
+    '''public IALOAD()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

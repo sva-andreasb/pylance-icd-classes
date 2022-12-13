@@ -1,6 +1,6 @@
 def FldConfirmLabTransHours():
-    '''    public FldConfirmLabTransHours(final MboValue mbv)
+    '''public FldConfirmLabTransHours(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

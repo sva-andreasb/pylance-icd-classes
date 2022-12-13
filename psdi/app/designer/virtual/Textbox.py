@@ -1,3 +1,3 @@
 def Textbox():
-    '''    public Textbox(final MboSet ms)
+    '''public Textbox(final MboSet ms)
     '''

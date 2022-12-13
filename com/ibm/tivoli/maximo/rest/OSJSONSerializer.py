@@ -1,3 +1,3 @@
 def OSJSONSerializer():
-    '''    public OSJSONSerializer()
+    '''public OSJSONSerializer()
     '''

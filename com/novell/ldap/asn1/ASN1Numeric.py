@@ -1,6 +1,6 @@
 def intValue():
-    '''    public final int intValue()
+    '''public final int intValue()
     '''
 def longValue():
-    '''    public final long longValue()
+    '''public final long longValue()
     '''

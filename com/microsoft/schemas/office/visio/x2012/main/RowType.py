@@ -1,10 +1,10 @@
 type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(RowType.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"rowtype03d1type\")"
 def newInstance():
-    '''    public static RowType newInstance()
+    '''public static RowType newInstance()
     public static RowType newInstance(final XmlOptions xmlOptions)
     '''
 def parse():
-    '''    public static RowType parse(final String s)
+    '''public static RowType parse(final String s)
     public static RowType parse(final String s, final XmlOptions xmlOptions)
     public static RowType parse(final File file)
     public static RowType parse(final File file, final XmlOptions xmlOptions)
@@ -22,6 +22,6 @@ def parse():
     public static RowType parse(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''

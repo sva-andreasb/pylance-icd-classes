@@ -1,3 +1,3 @@
 def CommonMboSet():
-    '''    public CommonMboSet(final MboServerInterface ms)
+    '''public CommonMboSet(final MboServerInterface ms)
     '''

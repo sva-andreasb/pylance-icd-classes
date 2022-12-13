@@ -1,9 +1,9 @@
 def YamlConfigurationFactory():
-    '''    public YamlConfigurationFactory()
+    '''public YamlConfigurationFactory()
     '''
 def getConfiguration():
-    '''    public Configuration getConfiguration(final LoggerContext loggerContext, final ConfigurationSource source)
+    '''public Configuration getConfiguration(final LoggerContext loggerContext, final ConfigurationSource source)
     '''
 def getSupportedTypes():
-    '''    public String[] getSupportedTypes()
+    '''public String[] getSupportedTypes()
     '''

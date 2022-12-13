@@ -1,12 +1,12 @@
 def GraphPrefixesProjection():
-    '''    public GraphPrefixesProjection(final String graphName, final DatasetPrefixStorage prefixes)
+    '''public GraphPrefixesProjection(final String graphName, final DatasetPrefixStorage prefixes)
     '''
 def getNsURIPrefix():
-    '''    public String getNsURIPrefix(final String uri)
+    '''public String getNsURIPrefix(final String uri)
     '''
 def getNsPrefixMap():
-    '''    public Map<String, String> getNsPrefixMap()
+    '''public Map<String, String> getNsPrefixMap()
     '''
 def removeNsPrefix():
-    '''    public PrefixMapping removeNsPrefix(final String prefix)
+    '''public PrefixMapping removeNsPrefix(final String prefix)
     '''

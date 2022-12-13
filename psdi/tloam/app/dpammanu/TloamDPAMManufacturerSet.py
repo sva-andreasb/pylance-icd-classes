@@ -1,3 +1,3 @@
 def TloamDPAMManufacturerSet():
-    '''    public TloamDPAMManufacturerSet(final MboServerInterface ms)
+    '''public TloamDPAMManufacturerSet(final MboServerInterface ms)
     '''

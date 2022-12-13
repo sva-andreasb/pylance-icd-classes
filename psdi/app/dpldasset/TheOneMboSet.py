@@ -1,3 +1,3 @@
 def TheOneMboSet():
-    '''    public TheOneMboSet(final MboServerInterface ms)
+    '''public TheOneMboSet(final MboServerInterface ms)
     '''

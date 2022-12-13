@@ -1,6 +1,6 @@
 def CloseShieldInputStream():
-    '''    public CloseShieldInputStream(final InputStream in)
+    '''public CloseShieldInputStream(final InputStream in)
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''

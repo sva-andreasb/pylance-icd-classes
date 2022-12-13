@@ -1,3 +1,3 @@
 def InspQuestionSet():
-    '''    public InspQuestionSet(final MboServerInterface ms)
+    '''public InspQuestionSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def PlusPLineStatusHistory():
-    '''    public PlusPLineStatusHistory(final MboSet ms)
+    '''public PlusPLineStatusHistory(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -1,18 +1,18 @@
 def minusSign():
-    '''    public MinusSignMatcher minusSign()
+    '''public MinusSignMatcher minusSign()
     '''
 def plusSign():
-    '''    public PlusSignMatcher plusSign()
+    '''public PlusSignMatcher plusSign()
     '''
 def percent():
-    '''    public PercentMatcher percent()
+    '''public PercentMatcher percent()
     '''
 def permille():
-    '''    public PermilleMatcher permille()
+    '''public PermilleMatcher permille()
     '''
 def currency():
-    '''    public CombinedCurrencyMatcher currency()
+    '''public CombinedCurrencyMatcher currency()
     '''
 def ignorables():
-    '''    public IgnorablesMatcher ignorables()
+    '''public IgnorablesMatcher ignorables()
     '''

@@ -1,6 +1,6 @@
 def FldPMSeqInterval():
-    '''    public FldPMSeqInterval(final MboValue mbv)
+    '''public FldPMSeqInterval(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

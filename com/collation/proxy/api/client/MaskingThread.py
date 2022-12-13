@@ -1,9 +1,9 @@
 def MaskingThread():
-    '''    public MaskingThread(final String prompt)
+    '''public MaskingThread(final String prompt)
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''
 def stopMasking():
-    '''    public void stopMasking()
+    '''public void stopMasking()
     '''

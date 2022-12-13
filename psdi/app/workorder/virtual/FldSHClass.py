@@ -1,15 +1,15 @@
 def FldSHClass():
-    '''    public FldSHClass(final MboValue mbv)
+    '''public FldSHClass(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def hasList():
-    '''    public boolean hasList()
+    '''public boolean hasList()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

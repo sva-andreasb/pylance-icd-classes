@@ -1,3 +1,3 @@
 def TruncatedChunkException():
-    '''    public TruncatedChunkException(final String message)
+    '''public TruncatedChunkException(final String message)
     '''

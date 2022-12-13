@@ -1,9 +1,9 @@
 def SingletonList():
-    '''    public SingletonList(final Object element)
+    '''public SingletonList(final Object element)
     '''
 def size():
-    '''    public int size()
+    '''public int size()
     '''
 def get():
-    '''    public Object get(final int index)
+    '''public Object get(final int index)
     '''

@@ -1,3 +1,3 @@
 def CapacityCalculatorIEMSWD():
-    '''    public CapacityCalculatorIEMSWD(final MboRemote license)
+    '''public CapacityCalculatorIEMSWD(final MboRemote license)
     '''

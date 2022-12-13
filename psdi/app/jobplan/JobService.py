@@ -1,6 +1,6 @@
 def JobService():
-    '''    public JobService(final MboSet ms)
+    '''public JobService(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

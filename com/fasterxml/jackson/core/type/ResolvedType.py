@@ -1,3 +1,3 @@
 def isReferenceType():
-    '''    public boolean isReferenceType()
+    '''public boolean isReferenceType()
     '''

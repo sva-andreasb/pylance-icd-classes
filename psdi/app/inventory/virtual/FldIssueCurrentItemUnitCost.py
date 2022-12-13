@@ -1,6 +1,6 @@
 def FldIssueCurrentItemUnitCost():
-    '''    public FldIssueCurrentItemUnitCost(final MboValue mbv)
+    '''public FldIssueCurrentItemUnitCost(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

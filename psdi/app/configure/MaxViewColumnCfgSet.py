@@ -1,12 +1,12 @@
 def MaxViewColumnCfgSet():
-    '''    public MaxViewColumnCfgSet(final MboServerInterface ms)
+    '''public MaxViewColumnCfgSet(final MboServerInterface ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def setOwner():
-    '''    public void setOwner(final MboRemote mbo)
+    '''public void setOwner(final MboRemote mbo)
     '''
 def getValueCHANGE():
-    '''    public String getValueCHANGE()
+    '''public String getValueCHANGE()
     '''

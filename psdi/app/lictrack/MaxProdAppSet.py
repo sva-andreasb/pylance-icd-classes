@@ -1,3 +1,3 @@
 def MaxProdAppSet():
-    '''    public MaxProdAppSet(final MboServerInterface ms)
+    '''public MaxProdAppSet(final MboServerInterface ms)
     '''

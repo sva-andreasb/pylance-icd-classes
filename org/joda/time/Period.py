@@ -1,36 +1,36 @@
 def parse():
-    '''    public static Period parse(final String s)
+    '''public static Period parse(final String s)
     public static Period parse(final String s, final PeriodFormatter periodFormatter)
     '''
 def years():
-    '''    public static Period years(final int n)
+    '''public static Period years(final int n)
     '''
 def months():
-    '''    public static Period months(final int n)
+    '''public static Period months(final int n)
     '''
 def weeks():
-    '''    public static Period weeks(final int n)
+    '''public static Period weeks(final int n)
     '''
 def days():
-    '''    public static Period days(final int n)
+    '''public static Period days(final int n)
     '''
 def hours():
-    '''    public static Period hours(final int n)
+    '''public static Period hours(final int n)
     '''
 def minutes():
-    '''    public static Period minutes(final int n)
+    '''public static Period minutes(final int n)
     '''
 def seconds():
-    '''    public static Period seconds(final int n)
+    '''public static Period seconds(final int n)
     '''
 def millis():
-    '''    public static Period millis(final int n)
+    '''public static Period millis(final int n)
     '''
 def fieldDifference():
-    '''    public static Period fieldDifference(final ReadablePartial readablePartial, final ReadablePartial readablePartial2)
+    '''public static Period fieldDifference(final ReadablePartial readablePartial, final ReadablePartial readablePartial2)
     '''
 def Period():
-    '''    public Period()
+    '''public Period()
     public Period(final int n, final int n2, final int n3, final int n4)
     public Period(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7, final int n8)
     public Period(final int n, final int n2, final int n3, final int n4, final int n5, final int n6, final int n7, final int n8, final PeriodType periodType)
@@ -56,147 +56,147 @@ def Period():
     public Period(final Object o, final PeriodType periodType, final Chronology chronology)
     '''
 def toPeriod():
-    '''    public Period toPeriod()
+    '''public Period toPeriod()
     '''
 def getYears():
-    '''    public int getYears()
+    '''public int getYears()
     '''
 def getMonths():
-    '''    public int getMonths()
+    '''public int getMonths()
     '''
 def getWeeks():
-    '''    public int getWeeks()
+    '''public int getWeeks()
     '''
 def getDays():
-    '''    public int getDays()
+    '''public int getDays()
     '''
 def getHours():
-    '''    public int getHours()
+    '''public int getHours()
     '''
 def getMinutes():
-    '''    public int getMinutes()
+    '''public int getMinutes()
     '''
 def getSeconds():
-    '''    public int getSeconds()
+    '''public int getSeconds()
     '''
 def getMillis():
-    '''    public int getMillis()
+    '''public int getMillis()
     '''
 def withPeriodType():
-    '''    public Period withPeriodType(PeriodType periodType)
+    '''public Period withPeriodType(PeriodType periodType)
     '''
 def withFields():
-    '''    public Period withFields(final ReadablePeriod readablePeriod)
+    '''public Period withFields(final ReadablePeriod readablePeriod)
     '''
 def withField():
-    '''    public Period withField(final DurationFieldType durationFieldType, final int n)
+    '''public Period withField(final DurationFieldType durationFieldType, final int n)
     '''
 def withFieldAdded():
-    '''    public Period withFieldAdded(final DurationFieldType durationFieldType, final int n)
+    '''public Period withFieldAdded(final DurationFieldType durationFieldType, final int n)
     '''
 def withYears():
-    '''    public Period withYears(final int n)
+    '''public Period withYears(final int n)
     '''
 def withMonths():
-    '''    public Period withMonths(final int n)
+    '''public Period withMonths(final int n)
     '''
 def withWeeks():
-    '''    public Period withWeeks(final int n)
+    '''public Period withWeeks(final int n)
     '''
 def withDays():
-    '''    public Period withDays(final int n)
+    '''public Period withDays(final int n)
     '''
 def withHours():
-    '''    public Period withHours(final int n)
+    '''public Period withHours(final int n)
     '''
 def withMinutes():
-    '''    public Period withMinutes(final int n)
+    '''public Period withMinutes(final int n)
     '''
 def withSeconds():
-    '''    public Period withSeconds(final int n)
+    '''public Period withSeconds(final int n)
     '''
 def withMillis():
-    '''    public Period withMillis(final int n)
+    '''public Period withMillis(final int n)
     '''
 def plus():
-    '''    public Period plus(final ReadablePeriod readablePeriod)
+    '''public Period plus(final ReadablePeriod readablePeriod)
     '''
 def plusYears():
-    '''    public Period plusYears(final int n)
+    '''public Period plusYears(final int n)
     '''
 def plusMonths():
-    '''    public Period plusMonths(final int n)
+    '''public Period plusMonths(final int n)
     '''
 def plusWeeks():
-    '''    public Period plusWeeks(final int n)
+    '''public Period plusWeeks(final int n)
     '''
 def plusDays():
-    '''    public Period plusDays(final int n)
+    '''public Period plusDays(final int n)
     '''
 def plusHours():
-    '''    public Period plusHours(final int n)
+    '''public Period plusHours(final int n)
     '''
 def plusMinutes():
-    '''    public Period plusMinutes(final int n)
+    '''public Period plusMinutes(final int n)
     '''
 def plusSeconds():
-    '''    public Period plusSeconds(final int n)
+    '''public Period plusSeconds(final int n)
     '''
 def plusMillis():
-    '''    public Period plusMillis(final int n)
+    '''public Period plusMillis(final int n)
     '''
 def minus():
-    '''    public Period minus(final ReadablePeriod readablePeriod)
+    '''public Period minus(final ReadablePeriod readablePeriod)
     '''
 def minusYears():
-    '''    public Period minusYears(final int n)
+    '''public Period minusYears(final int n)
     '''
 def minusMonths():
-    '''    public Period minusMonths(final int n)
+    '''public Period minusMonths(final int n)
     '''
 def minusWeeks():
-    '''    public Period minusWeeks(final int n)
+    '''public Period minusWeeks(final int n)
     '''
 def minusDays():
-    '''    public Period minusDays(final int n)
+    '''public Period minusDays(final int n)
     '''
 def minusHours():
-    '''    public Period minusHours(final int n)
+    '''public Period minusHours(final int n)
     '''
 def minusMinutes():
-    '''    public Period minusMinutes(final int n)
+    '''public Period minusMinutes(final int n)
     '''
 def minusSeconds():
-    '''    public Period minusSeconds(final int n)
+    '''public Period minusSeconds(final int n)
     '''
 def minusMillis():
-    '''    public Period minusMillis(final int n)
+    '''public Period minusMillis(final int n)
     '''
 def multipliedBy():
-    '''    public Period multipliedBy(final int n)
+    '''public Period multipliedBy(final int n)
     '''
 def negated():
-    '''    public Period negated()
+    '''public Period negated()
     '''
 def toStandardWeeks():
-    '''    public Weeks toStandardWeeks()
+    '''public Weeks toStandardWeeks()
     '''
 def toStandardDays():
-    '''    public Days toStandardDays()
+    '''public Days toStandardDays()
     '''
 def toStandardHours():
-    '''    public Hours toStandardHours()
+    '''public Hours toStandardHours()
     '''
 def toStandardMinutes():
-    '''    public Minutes toStandardMinutes()
+    '''public Minutes toStandardMinutes()
     '''
 def toStandardSeconds():
-    '''    public Seconds toStandardSeconds()
+    '''public Seconds toStandardSeconds()
     '''
 def toStandardDuration():
-    '''    public Duration toStandardDuration()
+    '''public Duration toStandardDuration()
     '''
 def normalizedStandard():
-    '''    public Period normalizedStandard()
+    '''public Period normalizedStandard()
     public Period normalizedStandard(PeriodType periodType)
     '''

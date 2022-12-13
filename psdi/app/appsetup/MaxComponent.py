@@ -1,6 +1,6 @@
 def MaxComponent():
-    '''    public MaxComponent(final MboSet ms)
+    '''public MaxComponent(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

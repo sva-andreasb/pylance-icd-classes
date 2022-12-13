@@ -1,6 +1,6 @@
 def FldInvReservePoLineNum():
-    '''    public FldInvReservePoLineNum(final MboValue mbv)
+    '''public FldInvReservePoLineNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

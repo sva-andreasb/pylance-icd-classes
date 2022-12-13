@@ -1,6 +1,6 @@
 def FldCommonPersonAvailWorkHours():
-    '''    public FldCommonPersonAvailWorkHours(final MboValue mbv)
+    '''public FldCommonPersonAvailWorkHours(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

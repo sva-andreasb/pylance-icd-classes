@@ -1,3 +1,3 @@
 def MapManagerService():
-    '''    public MapManagerService(final MXServer mxServer)
+    '''public MapManagerService(final MXServer mxServer)
     '''

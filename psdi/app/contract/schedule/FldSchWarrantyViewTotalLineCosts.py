@@ -1,6 +1,6 @@
 def FldSchWarrantyViewTotalLineCosts():
-    '''    public FldSchWarrantyViewTotalLineCosts(final MboValue mbv)
+    '''public FldSchWarrantyViewTotalLineCosts(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

@@ -1,6 +1,6 @@
 def ReconCompFilterExpression():
-    '''    public ReconCompFilterExpression(final DataSet dataSet, final ReconInfo reconInfo)
+    '''public ReconCompFilterExpression(final DataSet dataSet, final ReconInfo reconInfo)
     '''
 def evaluateExpression():
-    '''    public ReconCompFilterReturn evaluateExpression(final ComparisonQueryHelper queries)
+    '''public ReconCompFilterReturn evaluateExpression(final ComparisonQueryHelper queries)
     '''

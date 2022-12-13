@@ -1,3 +1,3 @@
 def viewxml():
-    '''    public int viewxml()
+    '''public int viewxml()
     '''

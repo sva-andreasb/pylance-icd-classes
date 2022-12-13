@@ -1,3 +1,3 @@
 def FldCIClassId():
-    '''    public FldCIClassId(final MboValue mbv)
+    '''public FldCIClassId(final MboValue mbv)
     '''

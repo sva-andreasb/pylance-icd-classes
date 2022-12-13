@@ -1,3 +1,3 @@
 def create():
-    '''    public static <K, V> HashMultimap<K, V> create()
+    '''public static <K, V> HashMultimap<K, V> create()
     '''

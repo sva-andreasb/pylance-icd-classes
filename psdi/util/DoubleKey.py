@@ -1,15 +1,15 @@
 def DoubleKey():
-    '''    public DoubleKey(final E key1, final F key2)
+    '''public DoubleKey(final E key1, final F key2)
     '''
 def getFirstKey():
-    '''    public E getFirstKey()
+    '''public E getFirstKey()
     '''
 def getSecondKey():
-    '''    public F getSecondKey()
+    '''public F getSecondKey()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''

@@ -1,6 +1,6 @@
 def ClassProbComparator():
-    '''    public ClassProbComparator()
+    '''public ClassProbComparator()
     '''
 def compare():
-    '''    public int compare(final Object A, final Object B)
+    '''public int compare(final Object A, final Object B)
     '''

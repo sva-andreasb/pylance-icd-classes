@@ -1,6 +1,6 @@
 def FldDisplayWonum():
-    '''    public FldDisplayWonum(final MboValue mbv)
+    '''public FldDisplayWonum(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

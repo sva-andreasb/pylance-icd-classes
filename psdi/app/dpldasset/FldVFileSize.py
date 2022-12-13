@@ -1,6 +1,6 @@
 def FldVFileSize():
-    '''    public FldVFileSize(final MboValue mbv)
+    '''public FldVFileSize(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

@@ -1,6 +1,6 @@
 def FldDeployedMeterRollover():
-    '''    public FldDeployedMeterRollover(final MboValue mbv)
+    '''public FldDeployedMeterRollover(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

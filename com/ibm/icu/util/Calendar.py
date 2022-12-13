@@ -52,7 +52,7 @@ WALLTIME_LAST = "int  0"
 WALLTIME_FIRST = "int  1"
 WALLTIME_NEXT_VALID = "int  2"
 def getInstance():
-    '''    public static Calendar getInstance()
+    '''public static Calendar getInstance()
     public static Calendar getInstance(final TimeZone zone)
     public static Calendar getInstance(final Locale aLocale)
     public static Calendar getInstance(final ULocale locale)
@@ -60,197 +60,197 @@ def getInstance():
     public static Calendar getInstance(final TimeZone zone, final ULocale locale)
     '''
 def getAvailableLocales():
-    '''    public static Locale[] getAvailableLocales()
+    '''public static Locale[] getAvailableLocales()
     '''
 def getAvailableULocales():
-    '''    public static ULocale[] getAvailableULocales()
+    '''public static ULocale[] getAvailableULocales()
     '''
 def getKeywordValuesForLocale():
-    '''    public static final String[] getKeywordValuesForLocale(final String key, final ULocale locale, final boolean commonlyUsed)
+    '''public static final String[] getKeywordValuesForLocale(final String key, final ULocale locale, final boolean commonlyUsed)
     '''
 def getTime():
-    '''    public final Date getTime()
+    '''public final Date getTime()
     '''
 def setTime():
-    '''    public final void setTime(final Date date)
+    '''public final void setTime(final Date date)
     '''
 def getTimeInMillis():
-    '''    public long getTimeInMillis()
+    '''public long getTimeInMillis()
     '''
 def setTimeInMillis():
-    '''    public void setTimeInMillis(long millis)
+    '''public void setTimeInMillis(long millis)
     '''
 def get():
-    '''    public final int get(final int field)
+    '''public final int get(final int field)
     '''
 def set():
-    '''    public final void set(final int field, final int value)
+    '''public final void set(final int field, final int value)
     public final void set(final int year, final int month, final int date)
     public final void set(final int year, final int month, final int date, final int hour, final int minute)
     public final void set(final int year, final int month, final int date, final int hour, final int minute, final int second)
     '''
 def getRelatedYear():
-    '''    public final int getRelatedYear()
+    '''public final int getRelatedYear()
     '''
 def setRelatedYear():
-    '''    public final void setRelatedYear(int year)
+    '''public final void setRelatedYear(int year)
     '''
 def clear():
-    '''    public final void clear()
+    '''public final void clear()
     public final void clear(final int field)
     '''
 def isSet():
-    '''    public final boolean isSet(final int field)
+    '''public final boolean isSet(final int field)
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     public boolean equals(final Object other)
     '''
 def isEquivalentTo():
-    '''    public boolean isEquivalentTo(final Calendar other)
+    '''public boolean isEquivalentTo(final Calendar other)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     public int hashCode()
     '''
 def before():
-    '''    public boolean before(final Object when)
+    '''public boolean before(final Object when)
     '''
 def after():
-    '''    public boolean after(final Object when)
+    '''public boolean after(final Object when)
     '''
 def getActualMaximum():
-    '''    public int getActualMaximum(final int field)
+    '''public int getActualMaximum(final int field)
     '''
 def getActualMinimum():
-    '''    public int getActualMinimum(final int field)
+    '''public int getActualMinimum(final int field)
     '''
 def roll():
-    '''    public final void roll(final int field, final boolean up)
+    '''public final void roll(final int field, final boolean up)
     public void roll(final int field, int amount)
     '''
 def add():
-    '''    public void add(final int field, int amount)
+    '''public void add(final int field, int amount)
     '''
 def getDisplayName():
-    '''    public String getDisplayName(final Locale loc)
+    '''public String getDisplayName(final Locale loc)
     public String getDisplayName(final ULocale loc)
     '''
 def compareTo():
-    '''    public int compareTo(final Calendar that)
+    '''public int compareTo(final Calendar that)
     '''
 def getDateTimeFormat():
-    '''    public DateFormat getDateTimeFormat(final int dateStyle, final int timeStyle, final Locale loc)
+    '''public DateFormat getDateTimeFormat(final int dateStyle, final int timeStyle, final Locale loc)
     public DateFormat getDateTimeFormat(final int dateStyle, final int timeStyle, final ULocale loc)
     '''
 def getDateTimePattern():
-    '''    public static String getDateTimePattern(final Calendar cal, final ULocale uLocale, final int dateStyle)
+    '''public static String getDateTimePattern(final Calendar cal, final ULocale uLocale, final int dateStyle)
     '''
 def fieldDifference():
-    '''    public int fieldDifference(final Date when, final int field)
+    '''public int fieldDifference(final Date when, final int field)
     '''
 def setTimeZone():
-    '''    public void setTimeZone(final TimeZone value)
+    '''public void setTimeZone(final TimeZone value)
     '''
 def getTimeZone():
-    '''    public TimeZone getTimeZone()
+    '''public TimeZone getTimeZone()
     '''
 def setLenient():
-    '''    public void setLenient(final boolean lenient)
+    '''public void setLenient(final boolean lenient)
     '''
 def isLenient():
-    '''    public boolean isLenient()
+    '''public boolean isLenient()
     '''
 def setRepeatedWallTimeOption():
-    '''    public void setRepeatedWallTimeOption(final int option)
+    '''public void setRepeatedWallTimeOption(final int option)
     '''
 def getRepeatedWallTimeOption():
-    '''    public int getRepeatedWallTimeOption()
+    '''public int getRepeatedWallTimeOption()
     '''
 def setSkippedWallTimeOption():
-    '''    public void setSkippedWallTimeOption(final int option)
+    '''public void setSkippedWallTimeOption(final int option)
     '''
 def getSkippedWallTimeOption():
-    '''    public int getSkippedWallTimeOption()
+    '''public int getSkippedWallTimeOption()
     '''
 def setFirstDayOfWeek():
-    '''    public void setFirstDayOfWeek(final int value)
+    '''public void setFirstDayOfWeek(final int value)
     '''
 def getFirstDayOfWeek():
-    '''    public int getFirstDayOfWeek()
+    '''public int getFirstDayOfWeek()
     '''
 def setMinimalDaysInFirstWeek():
-    '''    public void setMinimalDaysInFirstWeek(int value)
+    '''public void setMinimalDaysInFirstWeek(int value)
     '''
 def getMinimalDaysInFirstWeek():
-    '''    public int getMinimalDaysInFirstWeek()
+    '''public int getMinimalDaysInFirstWeek()
     '''
 def getMinimum():
-    '''    public final int getMinimum(final int field)
+    '''public final int getMinimum(final int field)
     '''
 def getMaximum():
-    '''    public final int getMaximum(final int field)
+    '''public final int getMaximum(final int field)
     '''
 def getGreatestMinimum():
-    '''    public final int getGreatestMinimum(final int field)
+    '''public final int getGreatestMinimum(final int field)
     '''
 def getLeastMaximum():
-    '''    public final int getLeastMaximum(final int field)
+    '''public final int getLeastMaximum(final int field)
     '''
 def getDayOfWeekType():
-    '''    public int getDayOfWeekType(final int dayOfWeek)
+    '''public int getDayOfWeekType(final int dayOfWeek)
     '''
 def getWeekendTransition():
-    '''    public int getWeekendTransition(final int dayOfWeek)
+    '''public int getWeekendTransition(final int dayOfWeek)
     '''
 def isWeekend():
-    '''    public boolean isWeekend(final Date date)
+    '''public boolean isWeekend(final Date date)
     public boolean isWeekend()
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     public String toString()
     '''
 def getWeekDataForRegion():
-    '''    public static WeekData getWeekDataForRegion(final String region)
+    '''public static WeekData getWeekDataForRegion(final String region)
     '''
 def getWeekData():
-    '''    public WeekData getWeekData()
+    '''public WeekData getWeekData()
     '''
 def setWeekData():
-    '''    public Calendar setWeekData(final WeekData wdata)
+    '''public Calendar setWeekData(final WeekData wdata)
     '''
 def getFieldCount():
-    '''    public final int getFieldCount()
+    '''public final int getFieldCount()
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''
 def haveDefaultCentury():
-    '''    public boolean haveDefaultCentury()
+    '''public boolean haveDefaultCentury()
     '''
 def getLocale():
-    '''    public final ULocale getLocale(final ULocale.Type type)
+    '''public final ULocale getLocale(final ULocale.Type type)
     public ULocale getLocale()
     '''
 def PatternData():
-    '''    public PatternData(final String[] patterns, final String[] overrides)
+    '''public PatternData(final String[] patterns, final String[] overrides)
     '''
 def getPatternString():
-    '''    public String getPatternString()
+    '''public String getPatternString()
     '''
 def getOverrideString():
-    '''    public String getOverrideString()
+    '''public String getOverrideString()
     '''
 def getCalendar():
-    '''    public Calendar getCalendar()
+    '''public Calendar getCalendar()
     '''
 def getDateFormatSymbols():
-    '''    public DateFormatSymbols getDateFormatSymbols()
+    '''public DateFormatSymbols getDateFormatSymbols()
     '''
 def WeekData():
-    '''    public WeekData(final int fdow, final int mdifw, final int weekendOnset, final int weekendOnsetMillis, final int weekendCease, final int weekendCeaseMillis)
+    '''public WeekData(final int fdow, final int mdifw, final int weekendOnset, final int weekendOnsetMillis, final int weekendCease, final int weekendCeaseMillis)
     '''

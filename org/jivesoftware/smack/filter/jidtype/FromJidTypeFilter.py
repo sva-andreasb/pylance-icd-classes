@@ -1,3 +1,3 @@
 def FromJidTypeFilter():
-    '''    public FromJidTypeFilter(final JidType jidType)
+    '''public FromJidTypeFilter(final JidType jidType)
     '''

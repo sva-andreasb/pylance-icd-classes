@@ -1,3 +1,3 @@
 def AssetAncestor():
-    '''    public AssetAncestor(final MboSet ms)
+    '''public AssetAncestor(final MboSet ms)
     '''

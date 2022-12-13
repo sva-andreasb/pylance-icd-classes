@@ -1,9 +1,9 @@
 def RtfFontList():
-    '''    public RtfFontList(final RtfDocument doc)
+    '''public RtfFontList(final RtfDocument doc)
     '''
 def getFontNumber():
-    '''    public int getFontNumber(final RtfFont font)
+    '''public int getFontNumber(final RtfFont font)
     '''
 def writeDefinition():
-    '''    public byte[] writeDefinition()
+    '''public byte[] writeDefinition()
     '''

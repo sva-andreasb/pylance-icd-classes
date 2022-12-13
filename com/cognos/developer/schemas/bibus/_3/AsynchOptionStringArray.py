@@ -1,25 +1,25 @@
 def AsynchOptionStringArray():
-    '''    public AsynchOptionStringArray()
+    '''public AsynchOptionStringArray()
     public AsynchOptionStringArray(final AsynchOptionEnum name, final String[] value)
     '''
 def getValue():
-    '''    public String[] getValue()
+    '''public String[] getValue()
     '''
 def setValue():
-    '''    public void setValue(final String[] value)
+    '''public void setValue(final String[] value)
     '''
 def equals():
-    '''    public synchronized boolean equals(final Object obj)
+    '''public synchronized boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public synchronized int hashCode()
+    '''public synchronized int hashCode()
     '''
 def getTypeDesc():
-    '''    public static TypeDesc getTypeDesc()
+    '''public static TypeDesc getTypeDesc()
     '''
 def getSerializer():
-    '''    public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''public static Serializer getSerializer(final String mechType, final Class _javaType, final QName _xmlType)
     '''
 def getDeserializer():
-    '''    public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
+    '''public static Deserializer getDeserializer(final String mechType, final Class _javaType, final QName _xmlType)
     '''

@@ -1,9 +1,9 @@
 def CostInput():
-    '''    public CostInput(final MboSet ms)
+    '''public CostInput(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

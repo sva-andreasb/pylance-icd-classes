@@ -1,6 +1,6 @@
 def FldBatchSize():
-    '''    public FldBatchSize(final MboValue mbv)
+    '''public FldBatchSize(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,15 +1,15 @@
 def PlusPFldServListCI():
-    '''    public PlusPFldServListCI(final MboValue mbv)
+    '''public PlusPFldServListCI(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote valueFromLookup)
+    '''public void setValueFromLookup(final MboRemote valueFromLookup)
     '''

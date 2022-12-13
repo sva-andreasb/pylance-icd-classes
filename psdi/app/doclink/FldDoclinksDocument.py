@@ -1,6 +1,6 @@
 def FldDoclinksDocument():
-    '''    public FldDoclinksDocument(final MboValue mbv)
+    '''public FldDoclinksDocument(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

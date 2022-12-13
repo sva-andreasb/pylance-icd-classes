@@ -1,15 +1,15 @@
 def SoftCache():
-    '''    public SoftCache()
+    '''public SoftCache()
     '''
 def put():
-    '''    public Object put(final Object o, final Object o2)
+    '''public Object put(final Object o, final Object o2)
     '''
 def get():
-    '''    public Object get(final Object o)
+    '''public Object get(final Object o)
     '''
 def remove():
-    '''    public Object remove(final Object o)
+    '''public Object remove(final Object o)
     '''
 def clear():
-    '''    public void clear()
+    '''public void clear()
     '''

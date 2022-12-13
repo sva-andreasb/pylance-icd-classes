@@ -1,3 +1,3 @@
 def valueChanged():
-    '''    public void valueChanged(final ListSelectionEvent e)
+    '''public void valueChanged(final ListSelectionEvent e)
     '''

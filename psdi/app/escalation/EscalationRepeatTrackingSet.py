@@ -1,3 +1,3 @@
 def EscalationRepeatTrackingSet():
-    '''    public EscalationRepeatTrackingSet(final MboServerInterface ms)
+    '''public EscalationRepeatTrackingSet(final MboServerInterface ms)
     '''

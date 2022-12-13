@@ -1,18 +1,18 @@
 def PlusPWPLabor():
-    '''    public PlusPWPLabor(final MboSet arg0)
+    '''public PlusPWPLabor(final MboSet arg0)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def updatePrice():
-    '''    public boolean updatePrice()
+    '''public boolean updatePrice()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def refreshRate():
-    '''    public void refreshRate()
+    '''public void refreshRate()
     '''

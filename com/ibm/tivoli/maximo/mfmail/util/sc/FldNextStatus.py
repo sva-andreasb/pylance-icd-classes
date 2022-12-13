@@ -1,12 +1,12 @@
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def FldNextStatus():
-    '''    public FldNextStatus(final MboValue mbv)
+    '''public FldNextStatus(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

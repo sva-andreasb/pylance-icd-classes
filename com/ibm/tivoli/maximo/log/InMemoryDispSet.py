@@ -1,3 +1,3 @@
 def InMemoryDispSet():
-    '''    public InMemoryDispSet(final MboServerInterface ms)
+    '''public InMemoryDispSet(final MboServerInterface ms)
     '''

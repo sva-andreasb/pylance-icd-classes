@@ -1,3 +1,3 @@
 def PlusPWPServiceSet():
-    '''    public PlusPWPServiceSet(final MboServerInterface arg0)
+    '''public PlusPWPServiceSet(final MboServerInterface arg0)
     '''

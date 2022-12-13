@@ -1,9 +1,9 @@
 def Pg():
-    '''    public Pg(final InputStream inputStream)
+    '''public Pg(final InputStream inputStream)
     '''
 def isCauseOf():
-    '''    public boolean isCauseOf(final Throwable exception)
+    '''public boolean isCauseOf(final Throwable exception)
     '''
 def throwIfCauseOf():
-    '''    public void throwIfCauseOf(final Throwable throwable)
+    '''public void throwIfCauseOf(final Throwable throwable)
     '''

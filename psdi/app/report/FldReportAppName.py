@@ -1,6 +1,6 @@
 def FldReportAppName():
-    '''    public FldReportAppName(final MboValue mbv)
+    '''public FldReportAppName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

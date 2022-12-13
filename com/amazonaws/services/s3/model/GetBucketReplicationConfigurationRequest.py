@@ -1,3 +1,3 @@
 def GetBucketReplicationConfigurationRequest():
-    '''    public GetBucketReplicationConfigurationRequest(final String bucketName)
+    '''public GetBucketReplicationConfigurationRequest(final String bucketName)
     '''

@@ -1,6 +1,6 @@
 def AMCTCraftSet():
-    '''    public AMCTCraftSet(final MboServerInterface ms)
+    '''public AMCTCraftSet(final MboServerInterface ms)
     '''
 def findByPosition():
-    '''    public MboRemote findByPosition(final String keyValue)
+    '''public MboRemote findByPosition(final String keyValue)
     '''

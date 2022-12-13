@@ -1,6 +1,6 @@
 def PlusPReconLinkRule():
-    '''    public PlusPReconLinkRule(final MboSet arg0)
+    '''public PlusPReconLinkRule(final MboSet arg0)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

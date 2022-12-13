@@ -1,3 +1,3 @@
 def getApi():
-    '''    public static INrsApi getApi()
+    '''public static INrsApi getApi()
     '''

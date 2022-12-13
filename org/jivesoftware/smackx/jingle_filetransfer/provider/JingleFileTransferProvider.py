@@ -1,3 +1,3 @@
 def parse():
-    '''    public JingleFileTransfer parse(final XmlPullParser parser, final int initialDepth)
+    '''public JingleFileTransfer parse(final XmlPullParser parser, final int initialDepth)
     '''

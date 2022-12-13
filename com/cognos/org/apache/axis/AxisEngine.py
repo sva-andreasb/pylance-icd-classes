@@ -29,68 +29,68 @@ ENV_SERVLET_REALPATH = "String  \"servlet.realpath\""
 ENV_SERVLET_CONTEXT = "String  \"servletContext\""
 PROP_SEND_NIL = "String  \"com.ibm.cognos.axis.suppress.nil\""
 def getCurrentMessageContext():
-    '''    public static MessageContext getCurrentMessageContext()
+    '''public static MessageContext getCurrentMessageContext()
     '''
 def AxisEngine():
-    '''    public AxisEngine(final EngineConfiguration config)
+    '''public AxisEngine(final EngineConfiguration config)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def cleanup():
-    '''    public void cleanup()
+    '''public void cleanup()
     '''
 def saveConfiguration():
-    '''    public void saveConfiguration()
+    '''public void saveConfiguration()
     '''
 def getConfig():
-    '''    public EngineConfiguration getConfig()
+    '''public EngineConfiguration getConfig()
     '''
 def hasSafePassword():
-    '''    public boolean hasSafePassword()
+    '''public boolean hasSafePassword()
     '''
 def setAdminPassword():
-    '''    public void setAdminPassword(final String pw)
+    '''public void setAdminPassword(final String pw)
     '''
 def setShouldSaveConfig():
-    '''    public void setShouldSaveConfig(final boolean shouldSaveConfig)
+    '''public void setShouldSaveConfig(final boolean shouldSaveConfig)
     '''
 def getHandler():
-    '''    public Handler getHandler(final String name)
+    '''public Handler getHandler(final String name)
     '''
 def getService():
-    '''    public SOAPService getService(final String name)
+    '''public SOAPService getService(final String name)
     '''
 def getTransport():
-    '''    public Handler getTransport(final String name)
+    '''public Handler getTransport(final String name)
     '''
 def getTypeMappingRegistry():
-    '''    public TypeMappingRegistry getTypeMappingRegistry()
+    '''public TypeMappingRegistry getTypeMappingRegistry()
     '''
 def getGlobalRequest():
-    '''    public Handler getGlobalRequest()
+    '''public Handler getGlobalRequest()
     '''
 def getGlobalResponse():
-    '''    public Handler getGlobalResponse()
+    '''public Handler getGlobalResponse()
     '''
 def getActorURIs():
-    '''    public ArrayList getActorURIs()
+    '''public ArrayList getActorURIs()
     '''
 def addActorURI():
-    '''    public void addActorURI(final String uri)
+    '''public void addActorURI(final String uri)
     '''
 def removeActorURI():
-    '''    public void removeActorURI(final String uri)
+    '''public void removeActorURI(final String uri)
     '''
 def normaliseOptions():
-    '''    public static void normaliseOptions(final Handler handler)
+    '''public static void normaliseOptions(final Handler handler)
     '''
 def refreshGlobalOptions():
-    '''    public void refreshGlobalOptions()
+    '''public void refreshGlobalOptions()
     '''
 def getApplicationSession():
-    '''    public Session getApplicationSession()
+    '''public Session getApplicationSession()
     '''
 def getClassCache():
-    '''    public ClassCache getClassCache()
+    '''public ClassCache getClassCache()
     '''

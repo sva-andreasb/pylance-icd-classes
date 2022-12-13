@@ -1,21 +1,21 @@
 def JSONMergeAttribute():
-    '''    public JSONMergeAttribute(final MboSet ms)
+    '''public JSONMergeAttribute(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def validateTypeAndLength():
-    '''    public void validateTypeAndLength(final MboValue mv)
+    '''public void validateTypeAndLength(final MboValue mv)
     '''
 def validateType():
-    '''    public void validateType(final MboValue mv, final MboValueInfo sourceType, final MboValueInfo targetType)
+    '''public void validateType(final MboValue mv, final MboValueInfo sourceType, final MboValueInfo targetType)
     '''
 def validateLength():
-    '''    public void validateLength(final MboValue mv, final MboValueInfo sourceType, final MboValueInfo targetType)
+    '''public void validateLength(final MboValue mv, final MboValueInfo sourceType, final MboValueInfo targetType)
     '''

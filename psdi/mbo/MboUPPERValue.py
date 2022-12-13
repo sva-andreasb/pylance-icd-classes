@@ -1,3 +1,3 @@
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''

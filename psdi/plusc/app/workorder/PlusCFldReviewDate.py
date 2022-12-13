@@ -1,6 +1,6 @@
 def PlusCFldReviewDate():
-    '''    public PlusCFldReviewDate(final MboValue mbovalue)
+    '''public PlusCFldReviewDate(final MboValue mbovalue)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

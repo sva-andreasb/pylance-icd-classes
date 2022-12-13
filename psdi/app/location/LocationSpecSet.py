@@ -1,9 +1,9 @@
 def LocationSpecSet():
-    '''    public LocationSpecSet(final MboServerInterface ms)
+    '''public LocationSpecSet(final MboServerInterface ms)
     '''
 def whereClauseOnAttrAndValues():
-    '''    public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classStructureid)
+    '''public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classStructureid)
     '''
 def parseALNValue():
-    '''    public String parseALNValue(final String value)
+    '''public String parseALNValue(final String value)
     '''

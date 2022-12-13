@@ -1,9 +1,9 @@
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def CharacterEncodingSideEffect():
-    '''    public CharacterEncodingSideEffect(final String charEnc)
+    '''public CharacterEncodingSideEffect(final String charEnc)
     '''
 def performSideEffect():
-    '''    public void performSideEffect(final HttpServletResponse response)
+    '''public void performSideEffect(final HttpServletResponse response)
     '''

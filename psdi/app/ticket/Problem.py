@@ -1,12 +1,12 @@
 def Problem():
-    '''    public Problem(final MboSet ms)
+    '''public Problem(final MboSet ms)
     '''
 def getStatusListName():
-    '''    public String getStatusListName()
+    '''public String getStatusListName()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def generateAutoKey():
-    '''    public void generateAutoKey()
+    '''public void generateAutoKey()
     '''

@@ -1,6 +1,6 @@
 def PropertyDefault():
-    '''    public PropertyDefault(final MboSet ms)
+    '''public PropertyDefault(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

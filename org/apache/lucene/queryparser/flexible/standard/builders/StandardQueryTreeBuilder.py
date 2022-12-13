@@ -1,6 +1,6 @@
 def StandardQueryTreeBuilder():
-    '''    public StandardQueryTreeBuilder()
+    '''public StandardQueryTreeBuilder()
     '''
 def build():
-    '''    public Query build(final QueryNode queryNode)
+    '''public Query build(final QueryNode queryNode)
     '''

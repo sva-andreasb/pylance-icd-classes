@@ -1,3 +1,3 @@
 def testSingle():
-    '''    public void testSingle()
+    '''public void testSingle()
     '''

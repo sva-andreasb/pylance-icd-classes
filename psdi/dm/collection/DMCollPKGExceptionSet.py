@@ -1,3 +1,3 @@
 def DMCollPKGExceptionSet():
-    '''    public DMCollPKGExceptionSet(final MboServerInterface ms)
+    '''public DMCollPKGExceptionSet(final MboServerInterface ms)
     '''

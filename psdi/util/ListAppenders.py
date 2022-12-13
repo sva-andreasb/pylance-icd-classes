@@ -1,3 +1,3 @@
 def listAppenders():
-    '''    public static void listAppenders(final String where)
+    '''public static void listAppenders(final String where)
     '''

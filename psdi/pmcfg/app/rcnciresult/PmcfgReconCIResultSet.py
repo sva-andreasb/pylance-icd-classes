@@ -1,3 +1,3 @@
 def PmcfgReconCIResultSet():
-    '''    public PmcfgReconCIResultSet(final MboServerInterface ms)
+    '''public PmcfgReconCIResultSet(final MboServerInterface ms)
     '''

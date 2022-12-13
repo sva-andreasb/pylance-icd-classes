@@ -1,3 +1,3 @@
 def FldClassSpecLinkedToAttribute():
-    '''    public FldClassSpecLinkedToAttribute(final MboValue mbv)
+    '''public FldClassSpecLinkedToAttribute(final MboValue mbv)
     '''

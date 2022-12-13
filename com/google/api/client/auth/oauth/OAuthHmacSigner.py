@@ -1,6 +1,6 @@
 def getSignatureMethod():
-    '''    public String getSignatureMethod()
+    '''public String getSignatureMethod()
     '''
 def computeSignature():
-    '''    public String computeSignature(final String signatureBaseString)
+    '''public String computeSignature(final String signatureBaseString)
     '''

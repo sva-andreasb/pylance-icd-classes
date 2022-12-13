@@ -1,30 +1,30 @@
 def FldSpecificationNumValue():
-    '''    public FldSpecificationNumValue(final MboValue mbv)
+    '''public FldSpecificationNumValue(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def overrideScale():
-    '''    public void overrideScale()
+    '''public void overrideScale()
     '''
 def overrideScaleFromDomain():
-    '''    public void overrideScaleFromDomain(final String domainid)
+    '''public void overrideScaleFromDomain(final String domainid)
     '''
 def numberOfDecialPlaces():
-    '''    public int numberOfDecialPlaces()
+    '''public int numberOfDecialPlaces()
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def parseStringAsNumber():
-    '''    public Number parseStringAsNumber(String val)
+    '''public Number parseStringAsNumber(String val)
     '''
 def getLookupName():
-    '''    public String getLookupName()
+    '''public String getLookupName()
     '''

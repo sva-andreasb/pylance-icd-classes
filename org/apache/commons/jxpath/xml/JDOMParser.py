@@ -1,3 +1,3 @@
 def parseXML():
-    '''    public Object parseXML(final InputStream stream)
+    '''public Object parseXML(final InputStream stream)
     '''

@@ -1,12 +1,12 @@
 def FormatterSimplePGSQL():
-    '''    public FormatterSimplePGSQL(final SDBConnection connection)
+    '''public FormatterSimplePGSQL(final SDBConnection connection)
     '''
 def truncate():
-    '''    public void truncate()
+    '''public void truncate()
     '''
 def format():
-    '''    public void format()
+    '''public void format()
     '''
 def dropIndexes():
-    '''    public void dropIndexes()
+    '''public void dropIndexes()
     '''

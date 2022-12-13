@@ -1,6 +1,6 @@
 def FldPurItemNum():
-    '''    public FldPurItemNum(final MboValue mbv)
+    '''public FldPurItemNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

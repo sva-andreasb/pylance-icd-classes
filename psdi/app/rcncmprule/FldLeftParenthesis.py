@@ -1,6 +1,6 @@
 def FldLeftParenthesis():
-    '''    public FldLeftParenthesis(final MboValue mbv)
+    '''public FldLeftParenthesis(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

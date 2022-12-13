@@ -1,6 +1,6 @@
 def GuestTrustEmailSet():
-    '''    public GuestTrustEmailSet(final MboServerInterface ms)
+    '''public GuestTrustEmailSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

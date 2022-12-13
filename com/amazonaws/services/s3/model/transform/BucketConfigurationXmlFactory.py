@@ -1,5 +1,5 @@
 def convertToXmlByteArray():
-    '''    public byte[] convertToXmlByteArray(final BucketVersioningConfiguration versioningConfiguration)
+    '''public byte[] convertToXmlByteArray(final BucketVersioningConfiguration versioningConfiguration)
     public byte[] convertToXmlByteArray(final BucketAccelerateConfiguration accelerateConfiguration)
     public byte[] convertToXmlByteArray(final BucketLoggingConfiguration loggingConfiguration)
     public byte[] convertToXmlByteArray(final BucketNotificationConfiguration notificationConfiguration)

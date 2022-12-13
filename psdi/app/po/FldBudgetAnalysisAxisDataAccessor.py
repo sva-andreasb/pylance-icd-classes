@@ -1,6 +1,6 @@
 def FldBudgetAnalysisAxisDataAccessor():
-    '''    public FldBudgetAnalysisAxisDataAccessor(final MboValue mbv)
+    '''public FldBudgetAnalysisAxisDataAccessor(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,6 +1,6 @@
 def srvorgstatus():
-    '''    public int srvorgstatus()
+    '''public int srvorgstatus()
     '''
 def iorghistory():
-    '''    public int iorghistory()
+    '''public int iorghistory()
     '''

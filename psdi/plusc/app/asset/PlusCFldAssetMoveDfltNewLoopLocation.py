@@ -1,6 +1,6 @@
 def PlusCFldAssetMoveDfltNewLoopLocation():
-    '''    public PlusCFldAssetMoveDfltNewLoopLocation(final MboValue mbv)
+    '''public PlusCFldAssetMoveDfltNewLoopLocation(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

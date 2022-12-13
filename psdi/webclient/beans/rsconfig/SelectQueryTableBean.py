@@ -1,4 +1,4 @@
 LOGGER = "String  \"maximo.application.rsconfig\""
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''

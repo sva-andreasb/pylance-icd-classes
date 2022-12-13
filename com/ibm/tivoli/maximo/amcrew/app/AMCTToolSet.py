@@ -1,6 +1,6 @@
 def AMCTToolSet():
-    '''    public AMCTToolSet(final MboServerInterface ms)
+    '''public AMCTToolSet(final MboServerInterface ms)
     '''
 def findByQualId():
-    '''    public MboRemote findByQualId(final String qualId)
+    '''public MboRemote findByQualId(final String qualId)
     '''

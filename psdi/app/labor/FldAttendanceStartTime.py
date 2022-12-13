@@ -1,6 +1,6 @@
 def FldAttendanceStartTime():
-    '''    public FldAttendanceStartTime(final MboValue mbv)
+    '''public FldAttendanceStartTime(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

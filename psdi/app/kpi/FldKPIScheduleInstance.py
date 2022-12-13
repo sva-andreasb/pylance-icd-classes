@@ -1,6 +1,6 @@
 def FldKPIScheduleInstance():
-    '''    public FldKPIScheduleInstance(final MboValue mbv)
+    '''public FldKPIScheduleInstance(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

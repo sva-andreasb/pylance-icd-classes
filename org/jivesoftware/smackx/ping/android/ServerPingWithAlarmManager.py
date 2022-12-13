@@ -1,24 +1,24 @@
 def getInstanceFor():
-    '''    public static synchronized ServerPingWithAlarmManager getInstanceFor(final XMPPConnection connection)
+    '''public static synchronized ServerPingWithAlarmManager getInstanceFor(final XMPPConnection connection)
     '''
 def setEnabled():
-    '''    public void setEnabled(final boolean enabled)
+    '''public void setEnabled(final boolean enabled)
     '''
 def isEnabled():
-    '''    public boolean isEnabled()
+    '''public boolean isEnabled()
     '''
 def onCreate():
-    '''    public static void onCreate(final Context context)
+    '''public static void onCreate(final Context context)
     '''
 def onDestroy():
-    '''    public static void onDestroy()
+    '''public static void onDestroy()
     '''
 def connectionCreated():
-    '''    public void connectionCreated(final XMPPConnection connection)
+    '''public void connectionCreated(final XMPPConnection connection)
     '''
 def onReceive():
-    '''    public void onReceive(final Context context, final Intent intent)
+    '''public void onReceive(final Context context, final Intent intent)
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''

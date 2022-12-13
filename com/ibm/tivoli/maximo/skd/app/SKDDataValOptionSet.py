@@ -1,3 +1,3 @@
 def SKDDataValOptionSet():
-    '''    public SKDDataValOptionSet(final MboServerInterface ms)
+    '''public SKDDataValOptionSet(final MboServerInterface ms)
     '''

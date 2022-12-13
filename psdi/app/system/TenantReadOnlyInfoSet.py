@@ -1,3 +1,3 @@
 def TenantReadOnlyInfoSet():
-    '''    public TenantReadOnlyInfoSet(final MboServerInterface ms)
+    '''public TenantReadOnlyInfoSet(final MboServerInterface ms)
     '''

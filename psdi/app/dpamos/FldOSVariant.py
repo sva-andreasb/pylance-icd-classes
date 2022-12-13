@@ -1,6 +1,6 @@
 def FldOSVariant():
-    '''    public FldOSVariant(final MboValue mbv)
+    '''public FldOSVariant(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

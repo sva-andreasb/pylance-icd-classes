@@ -1,6 +1,6 @@
 def UserProfileCategorySet():
-    '''    public UserProfileCategorySet(final MboServerInterface ms)
+    '''public UserProfileCategorySet(final MboServerInterface ms)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

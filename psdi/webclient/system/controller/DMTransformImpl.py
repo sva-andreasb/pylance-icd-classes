@@ -1,3 +1,3 @@
 def transform():
-    '''    public Object transform(final WebClientSession session, final Object target)
+    '''public Object transform(final WebClientSession session, final Object target)
     '''

@@ -1,9 +1,9 @@
 def FldProcMessage():
-    '''    public FldProcMessage(final MboValue mbv)
+    '''public FldProcMessage(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

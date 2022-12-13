@@ -1,6 +1,6 @@
 def FldWpItemReserveReq():
-    '''    public FldWpItemReserveReq(final MboValue mbv)
+    '''public FldWpItemReserveReq(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

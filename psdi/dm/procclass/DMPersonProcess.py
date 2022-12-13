@@ -1,12 +1,12 @@
 def DMPersonProcess():
-    '''    public DMPersonProcess()
+    '''public DMPersonProcess()
     '''
 def checkValidateErrors():
-    '''    public void checkValidateErrors()
+    '''public void checkValidateErrors()
     '''
 def checkBusinessRules():
-    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
     '''
 def compareMboKeyValues():
-    '''    public boolean compareMboKeyValues(final MboSetRemote mboSet, final MosDetailInfo mdi, final String[] keys)
+    '''public boolean compareMboKeyValues(final MboSetRemote mboSet, final MosDetailInfo mdi, final String[] keys)
     '''

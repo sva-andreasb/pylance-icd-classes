@@ -1,21 +1,21 @@
 def EntityReferenceImpl():
-    '''    public EntityReferenceImpl(final CoreDocumentImpl coreDocumentImpl, final String name)
+    '''public EntityReferenceImpl(final CoreDocumentImpl coreDocumentImpl, final String name)
     '''
 def getNodeType():
-    '''    public short getNodeType()
+    '''public short getNodeType()
     '''
 def getNodeName():
-    '''    public String getNodeName()
+    '''public String getNodeName()
     '''
 def cloneNode():
-    '''    public Node cloneNode(final boolean b)
+    '''public Node cloneNode(final boolean b)
     '''
 def getBaseURI():
-    '''    public String getBaseURI()
+    '''public String getBaseURI()
     '''
 def setBaseURI():
-    '''    public void setBaseURI(final String baseURI)
+    '''public void setBaseURI(final String baseURI)
     '''
 def setReadOnly():
-    '''    public void setReadOnly(final boolean b, final boolean b2)
+    '''public void setReadOnly(final boolean b, final boolean b2)
     '''

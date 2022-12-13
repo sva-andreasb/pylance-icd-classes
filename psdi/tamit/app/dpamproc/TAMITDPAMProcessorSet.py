@@ -1,3 +1,3 @@
 def TAMITDPAMProcessorSet():
-    '''    public TAMITDPAMProcessorSet(final MboServerInterface ms)
+    '''public TAMITDPAMProcessorSet(final MboServerInterface ms)
     '''

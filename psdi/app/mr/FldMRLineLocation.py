@@ -1,6 +1,6 @@
 def FldMRLineLocation():
-    '''    public FldMRLineLocation(final MboValue mbv)
+    '''public FldMRLineLocation(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

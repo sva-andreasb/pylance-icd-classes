@@ -1,3 +1,3 @@
 def CDUITemplateRequestSet():
-    '''    public CDUITemplateRequestSet(final MboServerInterface ms)
+    '''public CDUITemplateRequestSet(final MboServerInterface ms)
     '''

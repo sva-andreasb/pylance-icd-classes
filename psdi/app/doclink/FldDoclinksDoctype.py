@@ -1,6 +1,6 @@
 def FldDoclinksDoctype():
-    '''    public FldDoclinksDoctype(final MboValue mbv)
+    '''public FldDoclinksDoctype(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

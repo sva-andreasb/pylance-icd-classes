@@ -1,18 +1,18 @@
 def ConstantFloat():
-    '''    public ConstantFloat(final float floatValue)
+    '''public ConstantFloat(final float floatValue)
     '''
 def accept():
-    '''    public void accept(final ClassVisitor v)
+    '''public void accept(final ClassVisitor v)
     '''
 def dump():
-    '''    public final void dump(final DataOutputStream file)
+    '''public final void dump(final DataOutputStream file)
     '''
 def getValue():
-    '''    public final Float getValue()
+    '''public final Float getValue()
     '''
 def getStringValue():
-    '''    public final String getStringValue()
+    '''public final String getStringValue()
     '''
 def toString():
-    '''    public final String toString()
+    '''public final String toString()
     '''

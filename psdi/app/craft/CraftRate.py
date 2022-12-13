@@ -1,36 +1,36 @@
 def CraftRate():
-    '''    public CraftRate(final MboSet ms)
+    '''public CraftRate(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def checkContract():
-    '''    public void checkContract()
+    '''public void checkContract()
     '''
 def getValidContract():
-    '''    public MboRemote getValidContract(final Date startDate)
+    '''public MboRemote getValidContract(final Date startDate)
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def isUnique():
-    '''    public boolean isUnique()
+    '''public boolean isUnique()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''

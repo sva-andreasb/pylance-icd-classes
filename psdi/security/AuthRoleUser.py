@@ -1,3 +1,3 @@
 def AuthRoleUser():
-    '''    public AuthRoleUser(final MboSet ms)
+    '''public AuthRoleUser(final MboSet ms)
     '''

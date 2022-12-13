@@ -1,6 +1,6 @@
 def GWALaborAssignmentBean():
-    '''    public GWALaborAssignmentBean()
+    '''public GWALaborAssignmentBean()
     '''
 def getUserInfo():
-    '''    public UserInfo getUserInfo()
+    '''public UserInfo getUserInfo()
     '''

@@ -1,3 +1,3 @@
 def LimitExceededException():
-    '''    public LimitExceededException(final String message)
+    '''public LimitExceededException(final String message)
     '''

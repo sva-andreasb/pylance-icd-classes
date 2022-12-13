@@ -1,6 +1,6 @@
 def FldCommonWorkdayofweek():
-    '''    public FldCommonWorkdayofweek(final MboValue mbv)
+    '''public FldCommonWorkdayofweek(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

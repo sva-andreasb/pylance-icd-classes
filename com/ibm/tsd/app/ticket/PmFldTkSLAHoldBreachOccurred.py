@@ -1,6 +1,6 @@
 def PmFldTkSLAHoldBreachOccurred():
-    '''    public PmFldTkSLAHoldBreachOccurred(final MboValue mbv)
+    '''public PmFldTkSLAHoldBreachOccurred(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

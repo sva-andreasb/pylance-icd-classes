@@ -1,51 +1,51 @@
 def setPageStartIndex():
-    '''    public boolean setPageStartIndex(final int nRow)
+    '''public boolean setPageStartIndex(final int nRow)
     '''
 def getAMLaborTableBean():
-    '''    public DataBean getAMLaborTableBean()
+    '''public DataBean getAMLaborTableBean()
     '''
 def resetWorkList():
-    '''    public int resetWorkList()
+    '''public int resetWorkList()
     '''
 def resetLaborList():
-    '''    public int resetLaborList()
+    '''public int resetLaborList()
     '''
 def resetWorkAndLaborLists():
-    '''    public int resetWorkAndLaborLists()
+    '''public int resetWorkAndLaborLists()
     '''
 def amworkrefresh():
-    '''    public int amworkrefresh()
+    '''public int amworkrefresh()
     '''
 def SAVE():
-    '''    public int SAVE()
+    '''public int SAVE()
     '''
 def SHOWALLLAB():
-    '''    public int SHOWALLLAB()
+    '''public int SHOWALLLAB()
     '''
 def ASSIGNLAB():
-    '''    public int ASSIGNLAB()
+    '''public int ASSIGNLAB()
     '''
 def STARTASSN():
-    '''    public int STARTASSN()
+    '''public int STARTASSN()
     '''
 def INTRPTASSN():
-    '''    public int INTRPTASSN()
+    '''public int INTRPTASSN()
     '''
 def FNSHASSN():
-    '''    public int FNSHASSN()
+    '''public int FNSHASSN()
     '''
 def CRWSHOWALL():
-    '''    public int CRWSHOWALL()
+    '''public int CRWSHOWALL()
     '''
 def CRWASSIGN():
-    '''    public int CRWASSIGN()
+    '''public int CRWASSIGN()
     '''
 def getAMCrewTableBean():
-    '''    public DataBean getAMCrewTableBean()
+    '''public DataBean getAMCrewTableBean()
     '''
 def resetCrewList():
-    '''    public int resetCrewList()
+    '''public int resetCrewList()
     '''
 def checkWMAssigments():
-    '''    public void checkWMAssigments(final Vector assigments, final boolean forcrew)
+    '''public void checkWMAssigments(final Vector assigments, final boolean forcrew)
     '''

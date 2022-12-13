@@ -1,3 +1,3 @@
 def ControlPropertySet():
-    '''    public ControlPropertySet(final MboServerInterface ms)
+    '''public ControlPropertySet(final MboServerInterface ms)
     '''

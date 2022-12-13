@@ -1,3 +1,3 @@
 def SoftwareCatalogService():
-    '''    public SoftwareCatalogService(final MXServer mxServer)
+    '''public SoftwareCatalogService(final MXServer mxServer)
     '''

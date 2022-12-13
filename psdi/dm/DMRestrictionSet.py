@@ -1,3 +1,3 @@
 def DMRestrictionSet():
-    '''    public DMRestrictionSet(final MboServerInterface ms)
+    '''public DMRestrictionSet(final MboServerInterface ms)
     '''

@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_nonNegativeInteger\")"
 def newInstance():
-    '''    public static XmlNonNegativeInteger newInstance()
+    '''public static XmlNonNegativeInteger newInstance()
     public static XmlNonNegativeInteger newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlNonNegativeInteger newValue(final Object obj)
+    '''public static XmlNonNegativeInteger newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlNonNegativeInteger parse(final String s)
+    '''public static XmlNonNegativeInteger parse(final String s)
     public static XmlNonNegativeInteger parse(final String s, final XmlOptions options)
     public static XmlNonNegativeInteger parse(final File f)
     public static XmlNonNegativeInteger parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlNonNegativeInteger parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

@@ -1,3 +1,3 @@
 def MaxVarTypeSet():
-    '''    public MaxVarTypeSet(final MboServerInterface ms)
+    '''public MaxVarTypeSet(final MboServerInterface ms)
     '''

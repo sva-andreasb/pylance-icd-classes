@@ -1,6 +1,6 @@
 def FormulaResourceHandler():
-    '''    public FormulaResourceHandler(final BusResourceInfo resInfo, final String contextURI)
+    '''public FormulaResourceHandler(final BusResourceInfo resInfo, final String contextURI)
     '''
 def handleRequest():
-    '''    public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
+    '''public BusResource handleRequest(final ResourceContext resCtx, final BusRequest request)
     '''

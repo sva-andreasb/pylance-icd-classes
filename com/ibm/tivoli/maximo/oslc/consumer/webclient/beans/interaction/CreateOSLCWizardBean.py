@@ -1,27 +1,27 @@
 def CreateOSLCWizardBean():
-    '''    public CreateOSLCWizardBean()
+    '''public CreateOSLCWizardBean()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def nexttab():
-    '''    public int nexttab()
+    '''public int nexttab()
     '''
 def prevtab():
-    '''    public int prevtab()
+    '''public int prevtab()
     '''
 def discover():
-    '''    public int discover()
+    '''public int discover()
     '''
 def click():
-    '''    public int click()
+    '''public int click()
     '''
 def insert():
-    '''    public synchronized void insert()
+    '''public synchronized void insert()
     '''
 def complete():
-    '''    public int complete()
+    '''public int complete()
     '''
 def cancelchanges():
-    '''    public int cancelchanges()
+    '''public int cancelchanges()
     '''

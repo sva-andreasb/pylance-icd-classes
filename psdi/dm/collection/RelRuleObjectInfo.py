@@ -1,3 +1,3 @@
 def RelRuleObjectInfo():
-    '''    public RelRuleObjectInfo()
+    '''public RelRuleObjectInfo()
     '''

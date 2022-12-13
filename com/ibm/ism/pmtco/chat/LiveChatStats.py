@@ -1,3 +1,3 @@
 def LiveChatStats():
-    '''    public LiveChatStats(final MboSet ms)
+    '''public LiveChatStats(final MboSet ms)
     '''

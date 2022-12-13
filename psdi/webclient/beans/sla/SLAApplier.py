@@ -1,3 +1,3 @@
 def applysla():
-    '''    public int applysla()
+    '''public int applysla()
     '''

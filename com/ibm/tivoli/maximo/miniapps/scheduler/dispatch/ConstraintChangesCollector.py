@@ -1,12 +1,12 @@
 def ConstraintChangesCollector():
-    '''    public ConstraintChangesCollector()
+    '''public ConstraintChangesCollector()
     '''
 def constraintChanged():
-    '''    public void constraintChanged(final ConstraintEvent evt)
+    '''public void constraintChanged(final ConstraintEvent evt)
     '''
 def getAdded():
-    '''    public List<IlvConstraint> getAdded()
+    '''public List<IlvConstraint> getAdded()
     '''
 def getDeleted():
-    '''    public List<IlvConstraint> getDeleted()
+    '''public List<IlvConstraint> getDeleted()
     '''

@@ -1,3 +1,3 @@
 def getTargets():
-    '''    public InstructionHandle[] getTargets()
+    '''public InstructionHandle[] getTargets()
     '''

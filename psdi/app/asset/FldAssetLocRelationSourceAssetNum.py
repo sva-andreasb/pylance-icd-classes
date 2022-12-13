@@ -1,9 +1,9 @@
 def FldAssetLocRelationSourceAssetNum():
-    '''    public FldAssetLocRelationSourceAssetNum(final MboValue mbv)
+    '''public FldAssetLocRelationSourceAssetNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

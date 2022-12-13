@@ -1,12 +1,12 @@
 def PlusPFldPriceBook():
-    '''    public PlusPFldPriceBook(final MboValue mbv)
+    '''public PlusPFldPriceBook(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote mboRemote)
+    '''public void setValueFromLookup(final MboRemote mboRemote)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

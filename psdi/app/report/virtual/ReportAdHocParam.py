@@ -1,3 +1,3 @@
 def ReportAdHocParam():
-    '''    public ReportAdHocParam(final MboSet ms)
+    '''public ReportAdHocParam(final MboSet ms)
     '''

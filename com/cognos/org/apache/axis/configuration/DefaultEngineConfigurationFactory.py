@@ -1,9 +1,9 @@
 def DefaultEngineConfigurationFactory():
-    '''    public DefaultEngineConfigurationFactory()
+    '''public DefaultEngineConfigurationFactory()
     '''
 def getClientEngineConfig():
-    '''    public EngineConfiguration getClientEngineConfig()
+    '''public EngineConfiguration getClientEngineConfig()
     '''
 def getServerEngineConfig():
-    '''    public EngineConfiguration getServerEngineConfig()
+    '''public EngineConfiguration getServerEngineConfig()
     '''

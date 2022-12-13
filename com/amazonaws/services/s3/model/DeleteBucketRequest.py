@@ -1,9 +1,9 @@
 def DeleteBucketRequest():
-    '''    public DeleteBucketRequest(final String bucketName)
+    '''public DeleteBucketRequest(final String bucketName)
     '''
 def setBucketName():
-    '''    public void setBucketName(final String bucketName)
+    '''public void setBucketName(final String bucketName)
     '''
 def getBucketName():
-    '''    public String getBucketName()
+    '''public String getBucketName()
     '''

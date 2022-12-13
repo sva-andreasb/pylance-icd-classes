@@ -1,9 +1,9 @@
 def isDataVersionAcceptable():
-    '''    public boolean isDataVersionAcceptable(final byte[] version)
+    '''public boolean isDataVersionAcceptable(final byte[] version)
     '''
 def ByteSequence():
-    '''    public ByteSequence(final byte[] bytes, final int offset)
+    '''public ByteSequence(final byte[] bytes, final int offset)
     '''
 def charAt():
-    '''    public byte charAt(final int index)
+    '''public byte charAt(final int index)
     '''

@@ -1,6 +1,6 @@
 def FldClassSpecSequence():
-    '''    public FldClassSpecSequence(final MboValue mbv)
+    '''public FldClassSpecSequence(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

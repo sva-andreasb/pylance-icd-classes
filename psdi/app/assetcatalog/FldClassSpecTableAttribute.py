@@ -1,6 +1,6 @@
 def FldClassSpecTableAttribute():
-    '''    public FldClassSpecTableAttribute(final MboValue mbv)
+    '''public FldClassSpecTableAttribute(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

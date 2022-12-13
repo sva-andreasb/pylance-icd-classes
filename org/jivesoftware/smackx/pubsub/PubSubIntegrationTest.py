@@ -1,6 +1,6 @@
 def PubSubIntegrationTest():
-    '''    public PubSubIntegrationTest(final SmackIntegrationTestEnvironment environment)
+    '''public PubSubIntegrationTest(final SmackIntegrationTestEnvironment environment)
     '''
 def simplePubSubNodeTest():
-    '''    public void simplePubSubNodeTest()
+    '''public void simplePubSubNodeTest()
     '''

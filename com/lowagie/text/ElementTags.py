@@ -101,5 +101,5 @@ HORIZONTALRULE = "String  \"horizontalrule\""
 PAGE_SIZE = "String  \"pagesize\""
 ORIENTATION = "String  \"orientation\""
 def getAlignment():
-    '''    public static String getAlignment(final int alignment)
+    '''public static String getAlignment(final int alignment)
     '''

@@ -1,3 +1,3 @@
 def RefChildASet():
-    '''    public RefChildASet(final MboServerInterface mboServerInterface0)
+    '''public RefChildASet(final MboServerInterface mboServerInterface0)
     '''

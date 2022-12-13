@@ -1,15 +1,15 @@
 def ServiceItem():
-    '''    public ServiceItem(final MboSet ms)
+    '''public ServiceItem(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def delete():
-    '''    public void delete()
+    '''public void delete()
     '''
 def updateRelatedObjects():
-    '''    public void updateRelatedObjects(final String newStatus, final Date date, final String memo)
+    '''public void updateRelatedObjects(final String newStatus, final Date date, final String memo)
     '''

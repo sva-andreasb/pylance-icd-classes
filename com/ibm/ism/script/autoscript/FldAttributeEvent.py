@@ -1,6 +1,6 @@
 def FldAttributeEvent():
-    '''    public FldAttributeEvent(final MboValue mbv)
+    '''public FldAttributeEvent(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

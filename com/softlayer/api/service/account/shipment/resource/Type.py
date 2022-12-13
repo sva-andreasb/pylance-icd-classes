@@ -1,3 +1,3 @@
 def service():
-    '''    public static Service service(final ApiClient client)
+    '''public static Service service(final ApiClient client)
     '''

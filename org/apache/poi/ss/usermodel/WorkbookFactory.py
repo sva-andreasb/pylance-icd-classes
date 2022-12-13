@@ -1,5 +1,5 @@
 def create():
-    '''    public static Workbook create(final POIFSFileSystem fs)
+    '''public static Workbook create(final POIFSFileSystem fs)
     public static Workbook create(final NPOIFSFileSystem fs)
     public static Workbook create(final OPCPackage pkg)
     public static Workbook create(final InputStream inp)

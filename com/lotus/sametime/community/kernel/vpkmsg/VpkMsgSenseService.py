@@ -1,3 +1,3 @@
 def VpkMsgSenseService():
-    '''    public VpkMsgSenseService(final int n, final int v)
+    '''public VpkMsgSenseService(final int n, final int v)
     '''

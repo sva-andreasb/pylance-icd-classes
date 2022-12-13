@@ -1,3 +1,3 @@
 def FldContractNum():
-    '''    public FldContractNum(final MboValue mbv)
+    '''public FldContractNum(final MboValue mbv)
     '''

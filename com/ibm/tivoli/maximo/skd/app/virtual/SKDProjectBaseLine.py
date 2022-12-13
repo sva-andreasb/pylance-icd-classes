@@ -1,6 +1,6 @@
 def SKDProjectBaseLine():
-    '''    public SKDProjectBaseLine(final MboSet ms)
+    '''public SKDProjectBaseLine(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

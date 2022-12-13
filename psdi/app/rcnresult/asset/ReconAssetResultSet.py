@@ -1,3 +1,3 @@
 def ReconAssetResultSet():
-    '''    public ReconAssetResultSet(final MboServerInterface ms)
+    '''public ReconAssetResultSet(final MboServerInterface ms)
     '''

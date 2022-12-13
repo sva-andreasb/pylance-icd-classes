@@ -1,15 +1,15 @@
 def ModGraph():
-    '''    public ModGraph()
+    '''public ModGraph()
     '''
 def registerWith():
-    '''    public void registerWith(final CmdGeneral cmdLine)
+    '''public void registerWith(final CmdGeneral cmdLine)
     '''
 def processArgs():
-    '''    public void processArgs(final CmdArgModule cmdLine)
+    '''public void processArgs(final CmdArgModule cmdLine)
     '''
 def getGraph():
-    '''    public Graph getGraph(final Store store)
+    '''public Graph getGraph(final Store store)
     '''
 def getModel():
-    '''    public Model getModel(final Store store)
+    '''public Model getModel(final Store store)
     '''

@@ -1,9 +1,9 @@
 def FldMasterPMExtdate():
-    '''    public FldMasterPMExtdate(final MboValue mbv)
+    '''public FldMasterPMExtdate(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

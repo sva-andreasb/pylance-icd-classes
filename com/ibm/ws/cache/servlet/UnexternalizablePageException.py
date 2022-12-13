@@ -1,3 +1,3 @@
 def UnexternalizablePageException():
-    '''    public UnexternalizablePageException(final String message)
+    '''public UnexternalizablePageException(final String message)
     '''

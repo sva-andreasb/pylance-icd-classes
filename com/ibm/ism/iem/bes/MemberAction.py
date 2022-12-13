@@ -1,6 +1,6 @@
 def isIncludeInGroupRelevance():
-    '''    public Boolean isIncludeInGroupRelevance()
+    '''public Boolean isIncludeInGroupRelevance()
     '''
 def setIncludeInGroupRelevance():
-    '''    public void setIncludeInGroupRelevance(final Boolean value)
+    '''public void setIncludeInGroupRelevance(final Boolean value)
     '''

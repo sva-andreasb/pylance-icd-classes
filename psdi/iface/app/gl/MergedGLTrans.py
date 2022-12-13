@@ -1,3 +1,3 @@
 def MergedGLTrans():
-    '''    public MergedGLTrans(final MboSet ms)
+    '''public MergedGLTrans(final MboSet ms)
     '''

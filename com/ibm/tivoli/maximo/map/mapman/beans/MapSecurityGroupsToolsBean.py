@@ -1,6 +1,6 @@
 def setvalue():
-    '''    public int setvalue()
+    '''public int setvalue()
     '''
 def toggledeleterow():
-    '''    public int toggledeleterow()
+    '''public int toggledeleterow()
     '''

@@ -1,21 +1,21 @@
 def ChatSetting():
-    '''    public ChatSetting(final String key, final String value, final int type)
+    '''public ChatSetting(final String key, final String value, final int type)
     '''
 def getKey():
-    '''    public String getKey()
+    '''public String getKey()
     '''
 def setKey():
-    '''    public void setKey(final String key)
+    '''public void setKey(final String key)
     '''
 def getValue():
-    '''    public String getValue()
+    '''public String getValue()
     '''
 def setValue():
-    '''    public void setValue(final String value)
+    '''public void setValue(final String value)
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''
 def setType():
-    '''    public void setType(final int type)
+    '''public void setType(final int type)
     '''

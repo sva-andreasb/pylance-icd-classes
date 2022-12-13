@@ -1,6 +1,6 @@
 def IsAvailable():
-    '''    public static boolean IsAvailable()
+    '''public static boolean IsAvailable()
     '''
 def CreateDocumentManager():
-    '''    public static IlvDocumentManager CreateDocumentManager()
+    '''public static IlvDocumentManager CreateDocumentManager()
     '''

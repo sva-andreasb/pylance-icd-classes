@@ -1,3 +1,3 @@
 def MaxIntFileLookupSet():
-    '''    public MaxIntFileLookupSet(final MboServerInterface ms)
+    '''public MaxIntFileLookupSet(final MboServerInterface ms)
     '''

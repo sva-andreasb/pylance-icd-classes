@@ -1,6 +1,6 @@
 def InvalidRDFPathException():
-    '''    public InvalidRDFPathException(final String path)
+    '''public InvalidRDFPathException(final String path)
     '''
 def getRDFPath():
-    '''    public String getRDFPath()
+    '''public String getRDFPath()
     '''

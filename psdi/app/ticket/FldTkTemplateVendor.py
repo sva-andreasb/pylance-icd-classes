@@ -1,9 +1,9 @@
 def FldTkTemplateVendor():
-    '''    public FldTkTemplateVendor(final MboValue mbv)
+    '''public FldTkTemplateVendor(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

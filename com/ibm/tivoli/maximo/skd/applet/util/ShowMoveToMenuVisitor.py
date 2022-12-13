@@ -1,6 +1,6 @@
 def ShowMoveToMenuVisitor():
-    '''    public ShowMoveToMenuVisitor()
+    '''public ShowMoveToMenuVisitor()
     '''
 def canAccept():
-    '''    public boolean canAccept(final IlvActivity act)
+    '''public boolean canAccept(final IlvActivity act)
     '''

@@ -1,3 +1,3 @@
 def write():
-    '''    public byte[] write()
+    '''public byte[] write()
     '''

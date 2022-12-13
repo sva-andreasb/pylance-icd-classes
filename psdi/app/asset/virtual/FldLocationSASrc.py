@@ -1,6 +1,6 @@
 def FldLocationSASrc():
-    '''    public FldLocationSASrc(final MboValue mbv)
+    '''public FldLocationSASrc(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

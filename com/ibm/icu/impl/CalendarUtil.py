@@ -1,3 +1,3 @@
 def getCalendarType():
-    '''    public static String getCalendarType(final ULocale loc)
+    '''public static String getCalendarType(final ULocale loc)
     '''

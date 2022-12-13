@@ -1,6 +1,6 @@
 def TemplateStatus():
-    '''    public TemplateStatus(final MboSet ms)
+    '''public TemplateStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

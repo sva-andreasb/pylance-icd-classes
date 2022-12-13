@@ -1,6 +1,6 @@
 def FldSourceName():
-    '''    public FldSourceName(final MboValue mbv)
+    '''public FldSourceName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

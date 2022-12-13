@@ -1,3 +1,3 @@
 def ExcludeMapApp():
-    '''    public ExcludeMapApp(final MboSet ms)
+    '''public ExcludeMapApp(final MboSet ms)
     '''

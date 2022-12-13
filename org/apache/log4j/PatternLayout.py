@@ -1,9 +1,9 @@
 def PatternLayout():
-    '''    public PatternLayout(final String pattern)
+    '''public PatternLayout(final String pattern)
     '''
 def format():
-    '''    public String format(final LoggingEvent event)
+    '''public String format(final LoggingEvent event)
     '''
 def ignoresThrowable():
-    '''    public boolean ignoresThrowable()
+    '''public boolean ignoresThrowable()
     '''

@@ -1,15 +1,15 @@
 def ScheduledReportDataRestrictionProvider():
-    '''    public ScheduledReportDataRestrictionProvider()
+    '''public ScheduledReportDataRestrictionProvider()
     '''
 def setUserInfo():
-    '''    public void setUserInfo(final UserInfo userInfo)
+    '''public void setUserInfo(final UserInfo userInfo)
     '''
 def setObjectName():
-    '''    public void setObjectName(final String objectName)
+    '''public void setObjectName(final String objectName)
     '''
 def setAppName():
-    '''    public void setAppName(final String appName)
+    '''public void setAppName(final String appName)
     '''
 def getDataRestrictionWhere():
-    '''    public String getDataRestrictionWhere()
+    '''public String getDataRestrictionWhere()
     '''

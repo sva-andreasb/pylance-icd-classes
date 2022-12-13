@@ -1,6 +1,6 @@
 def ChangeVendorBean():
-    '''    public ChangeVendorBean()
+    '''public ChangeVendorBean()
     '''
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''

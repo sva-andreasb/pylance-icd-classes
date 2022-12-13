@@ -1,31 +1,31 @@
 serialVersionUID = "long  1L"
 def SOAP12BindingImpl():
-    '''    public SOAP12BindingImpl()
+    '''public SOAP12BindingImpl()
     '''
 def setElementType():
-    '''    public void setElementType(final QName elementType)
+    '''public void setElementType(final QName elementType)
     '''
 def getElementType():
-    '''    public QName getElementType()
+    '''public QName getElementType()
     '''
 def setRequired():
-    '''    public void setRequired(final Boolean required)
+    '''public void setRequired(final Boolean required)
     '''
 def getRequired():
-    '''    public Boolean getRequired()
+    '''public Boolean getRequired()
     '''
 def setStyle():
-    '''    public void setStyle(final String style)
+    '''public void setStyle(final String style)
     '''
 def getStyle():
-    '''    public String getStyle()
+    '''public String getStyle()
     '''
 def setTransportURI():
-    '''    public void setTransportURI(final String transportURI)
+    '''public void setTransportURI(final String transportURI)
     '''
 def getTransportURI():
-    '''    public String getTransportURI()
+    '''public String getTransportURI()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

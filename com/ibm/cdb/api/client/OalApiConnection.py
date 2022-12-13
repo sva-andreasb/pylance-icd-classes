@@ -1,33 +1,33 @@
 def init():
-    '''    public void init(final String host, final int port, final boolean ssl, final String trustStore)
+    '''public void init(final String host, final int port, final boolean ssl, final String trustStore)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def release():
-    '''    public void release()
+    '''public void release()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def getPort():
-    '''    public int getPort()
+    '''public int getPort()
     '''
 def getHost():
-    '''    public String getHost()
+    '''public String getHost()
     '''
 def isSSL():
-    '''    public boolean isSSL()
+    '''public boolean isSSL()
     '''
 def getTrustStore():
-    '''    public String getTrustStore()
+    '''public String getTrustStore()
     '''
 def getFingerPrint():
-    '''    public long getFingerPrint()
+    '''public long getFingerPrint()
     '''

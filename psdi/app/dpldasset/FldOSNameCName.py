@@ -1,3 +1,3 @@
 def FldOSNameCName():
-    '''    public FldOSNameCName(final MboValue mbv)
+    '''public FldOSNameCName(final MboValue mbv)
     '''

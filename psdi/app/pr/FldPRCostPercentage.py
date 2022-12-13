@@ -1,6 +1,6 @@
 def FldPRCostPercentage():
-    '''    public FldPRCostPercentage(final MboValue mbv)
+    '''public FldPRCostPercentage(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

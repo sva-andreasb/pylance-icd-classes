@@ -1,3 +1,3 @@
 def PlusPNUMValueSet():
-    '''    public PlusPNUMValueSet(final MboServerInterface arg0)
+    '''public PlusPNUMValueSet(final MboServerInterface arg0)
     '''

@@ -1,6 +1,6 @@
 def FldAMCrewLbrPosSkillLevel():
-    '''    public FldAMCrewLbrPosSkillLevel(final MboValue mbv)
+    '''public FldAMCrewLbrPosSkillLevel(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

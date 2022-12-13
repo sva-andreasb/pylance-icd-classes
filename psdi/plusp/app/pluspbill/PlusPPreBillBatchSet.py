@@ -1,6 +1,6 @@
 def PlusPPreBillBatchSet():
-    '''    public PlusPPreBillBatchSet(final MboServerInterface mboServerInterface)
+    '''public PlusPPreBillBatchSet(final MboServerInterface mboServerInterface)
     '''
 def appendToWhere():
-    '''    public String appendToWhere()
+    '''public String appendToWhere()
     '''

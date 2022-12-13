@@ -1,3 +1,3 @@
 def convertToExtendedResponse():
-    '''    public static LDAPExtendedResponse convertToExtendedResponse(final RfcLDAPMessage rfcLDAPMessage)
+    '''public static LDAPExtendedResponse convertToExtendedResponse(final RfcLDAPMessage rfcLDAPMessage)
     '''

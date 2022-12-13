@@ -1,91 +1,91 @@
 def AntXMLContext():
-    '''    public AntXMLContext(final Project project)
+    '''public AntXMLContext(final Project project)
     '''
 def setBuildFile():
-    '''    public void setBuildFile(final File buildFile)
+    '''public void setBuildFile(final File buildFile)
     public void setBuildFile(final URL buildFile)
     '''
 def getBuildFile():
-    '''    public File getBuildFile()
+    '''public File getBuildFile()
     '''
 def getBuildFileParent():
-    '''    public File getBuildFileParent()
+    '''public File getBuildFileParent()
     '''
 def getBuildFileURL():
-    '''    public URL getBuildFileURL()
+    '''public URL getBuildFileURL()
     '''
 def getBuildFileParentURL():
-    '''    public URL getBuildFileParentURL()
+    '''public URL getBuildFileParentURL()
     '''
 def getProject():
-    '''    public Project getProject()
+    '''public Project getProject()
     '''
 def getCurrentProjectName():
-    '''    public String getCurrentProjectName()
+    '''public String getCurrentProjectName()
     '''
 def setCurrentProjectName():
-    '''    public void setCurrentProjectName(final String name)
+    '''public void setCurrentProjectName(final String name)
     '''
 def currentWrapper():
-    '''    public RuntimeConfigurable currentWrapper()
+    '''public RuntimeConfigurable currentWrapper()
     '''
 def parentWrapper():
-    '''    public RuntimeConfigurable parentWrapper()
+    '''public RuntimeConfigurable parentWrapper()
     '''
 def pushWrapper():
-    '''    public void pushWrapper(final RuntimeConfigurable wrapper)
+    '''public void pushWrapper(final RuntimeConfigurable wrapper)
     '''
 def popWrapper():
-    '''    public void popWrapper()
+    '''public void popWrapper()
     '''
 def getWrapperStack():
-    '''    public Vector getWrapperStack()
+    '''public Vector getWrapperStack()
     '''
 def addTarget():
-    '''    public void addTarget(final Target target)
+    '''public void addTarget(final Target target)
     '''
 def getCurrentTarget():
-    '''    public Target getCurrentTarget()
+    '''public Target getCurrentTarget()
     '''
 def getImplicitTarget():
-    '''    public Target getImplicitTarget()
+    '''public Target getImplicitTarget()
     '''
 def setCurrentTarget():
-    '''    public void setCurrentTarget(final Target target)
+    '''public void setCurrentTarget(final Target target)
     '''
 def setImplicitTarget():
-    '''    public void setImplicitTarget(final Target target)
+    '''public void setImplicitTarget(final Target target)
     '''
 def getTargets():
-    '''    public Vector getTargets()
+    '''public Vector getTargets()
     '''
 def configureId():
-    '''    public void configureId(final Object element, final Attributes attr)
+    '''public void configureId(final Object element, final Attributes attr)
     '''
 def getLocator():
-    '''    public Locator getLocator()
+    '''public Locator getLocator()
     '''
 def setLocator():
-    '''    public void setLocator(final Locator locator)
+    '''public void setLocator(final Locator locator)
     '''
 def isIgnoringProjectTag():
-    '''    public boolean isIgnoringProjectTag()
+    '''public boolean isIgnoringProjectTag()
     '''
 def setIgnoreProjectTag():
-    '''    public void setIgnoreProjectTag(final boolean flag)
+    '''public void setIgnoreProjectTag(final boolean flag)
     '''
 def startPrefixMapping():
-    '''    public void startPrefixMapping(final String prefix, final String uri)
+    '''public void startPrefixMapping(final String prefix, final String uri)
     '''
 def endPrefixMapping():
-    '''    public void endPrefixMapping(final String prefix)
+    '''public void endPrefixMapping(final String prefix)
     '''
 def getPrefixMapping():
-    '''    public String getPrefixMapping(final String prefix)
+    '''public String getPrefixMapping(final String prefix)
     '''
 def getCurrentTargets():
-    '''    public Map getCurrentTargets()
+    '''public Map getCurrentTargets()
     '''
 def setCurrentTargets():
-    '''    public void setCurrentTargets(final Map currentTargets)
+    '''public void setCurrentTargets(final Map currentTargets)
     '''

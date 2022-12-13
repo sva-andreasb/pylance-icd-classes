@@ -1,3 +1,3 @@
 def sanitizeTokenString():
-    '''    public static String sanitizeTokenString(final String tokenString)
+    '''public static String sanitizeTokenString(final String tokenString)
     '''

@@ -1,3 +1,3 @@
 def JMSQConsumerCronParam():
-    '''    public JMSQConsumerCronParam(final MboServerInterface ms)
+    '''public JMSQConsumerCronParam(final MboServerInterface ms)
     '''

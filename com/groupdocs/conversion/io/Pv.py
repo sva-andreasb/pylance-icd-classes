@@ -1,3 +1,3 @@
 def write():
-    '''    public void write(final int b)
+    '''public void write(final int b)
     '''

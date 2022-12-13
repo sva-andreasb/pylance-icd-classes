@@ -1,12 +1,12 @@
 def TrioGuidSupOrderMap():
-    '''    public TrioGuidSupOrderMap()
+    '''public TrioGuidSupOrderMap()
     '''
 def contains():
-    '''    public boolean contains(final TrioGuid trio)
+    '''public boolean contains(final TrioGuid trio)
     '''
 def process():
-    '''    public boolean process(final TrioGuid trio, final int supOrder)
+    '''public boolean process(final TrioGuid trio, final int supOrder)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

@@ -1,6 +1,6 @@
 def FldAssetWorkZoneAssetNum():
-    '''    public FldAssetWorkZoneAssetNum(final MboValue mbv)
+    '''public FldAssetWorkZoneAssetNum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

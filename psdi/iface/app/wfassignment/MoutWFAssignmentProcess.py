@@ -1,3 +1,3 @@
 def MoutWFAssignmentProcess():
-    '''    public MoutWFAssignmentProcess()
+    '''public MoutWFAssignmentProcess()
     '''

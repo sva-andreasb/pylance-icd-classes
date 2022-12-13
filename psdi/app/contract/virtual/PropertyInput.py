@@ -1,6 +1,6 @@
 def PropertyInput():
-    '''    public PropertyInput(final MboSet ms)
+    '''public PropertyInput(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

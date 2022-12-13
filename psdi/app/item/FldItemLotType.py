@@ -1,12 +1,12 @@
 def FldItemLotType():
-    '''    public FldItemLotType(final MboValue mbv)
+    '''public FldItemLotType(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

@@ -1,3 +1,3 @@
 def PlusPRPChangeStatusSet():
-    '''    public PlusPRPChangeStatusSet(final MboServerInterface ms)
+    '''public PlusPRPChangeStatusSet(final MboServerInterface ms)
     '''

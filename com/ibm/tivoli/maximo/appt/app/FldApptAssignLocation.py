@@ -1,6 +1,6 @@
 def FldApptAssignLocation():
-    '''    public FldApptAssignLocation(final MboValue mbv)
+    '''public FldApptAssignLocation(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

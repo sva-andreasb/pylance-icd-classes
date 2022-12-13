@@ -1,6 +1,6 @@
 def ReschedAssign():
-    '''    public ReschedAssign(final MboSet ms)
+    '''public ReschedAssign(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

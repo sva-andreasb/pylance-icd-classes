@@ -1,3 +1,3 @@
 def updatecounter():
-    '''    public int updatecounter()
+    '''public int updatecounter()
     '''

@@ -107,131 +107,131 @@ PROPERTY_RELOADED = "String  \"_RELOADED\""
 PROPERTY_SUPERVISOR = "String  \"SUPERVISOR\""
 PROPERTY_ISPARENTASSIGNMENT = "String  \"_ISPARENTASSIGNMENT\""
 def MXActivity():
-    '''    public MXActivity(final String id, final String name, final Date start, final Date end)
+    '''public MXActivity(final String id, final String name, final Date start, final Date end)
     public MXActivity(final String id, final String name, final Date start, final IlvDuration duration)
     public MXActivity(final String id, final String name, final IlvTimeInterval interval)
     '''
 def setDuration():
-    '''    public void setDuration(final IlvDuration arg0)
+    '''public void setDuration(final IlvDuration arg0)
     '''
 def setEndTime():
-    '''    public void setEndTime(final Date endTime)
+    '''public void setEndTime(final Date endTime)
     '''
 def markEndTimeModified():
-    '''    public void markEndTimeModified()
+    '''public void markEndTimeModified()
     '''
 def setStartTime():
-    '''    public void setStartTime(final Date startTime)
+    '''public void setStartTime(final Date startTime)
     '''
 def markStartTimeModified():
-    '''    public void markStartTimeModified()
+    '''public void markStartTimeModified()
     '''
 def setTimeInterval():
-    '''    public void setTimeInterval(final Date arg0, final Date arg1)
+    '''public void setTimeInterval(final Date arg0, final Date arg1)
     public void setTimeInterval(final IlvTimeInterval arg0)
     '''
 def setProperty():
-    '''    public Object setProperty(final String property, final Object value)
+    '''public Object setProperty(final String property, final Object value)
     public Object setProperty(final String property, final Object value, final boolean ignoreChangeTracking)
     '''
 def getModifiedProperties():
-    '''    public Iterator getModifiedProperties()
+    '''public Iterator getModifiedProperties()
     '''
 def isPropertyModified():
-    '''    public boolean isPropertyModified(final String propertyName)
+    '''public boolean isPropertyModified(final String propertyName)
     '''
 def isModified():
-    '''    public boolean isModified()
+    '''public boolean isModified()
     '''
 def setModified():
-    '''    public void setModified(final boolean value)
+    '''public void setModified(final boolean value)
     '''
 def getObjectName():
-    '''    public String getObjectName()
+    '''public String getObjectName()
     '''
 def getObjectId():
-    '''    public long getObjectId()
+    '''public long getObjectId()
     '''
 def getApplinkObject():
-    '''    public String getApplinkObject(final String propertyName)
+    '''public String getApplinkObject(final String propertyName)
     '''
 def getApplinkAppList():
-    '''    public HashMap<String, String> getApplinkAppList(final String propertyName)
+    '''public HashMap<String, String> getApplinkAppList(final String propertyName)
     '''
 def setSegmentInfoMap():
-    '''    public void setSegmentInfoMap(final Map<Integer, MXActivity> segmentInfoMap)
+    '''public void setSegmentInfoMap(final Map<Integer, MXActivity> segmentInfoMap)
     '''
 def getSKDSegmentInfo():
-    '''    public <T extends MXSegmentActivity> T getSKDSegmentInfo(final int forecastSeqNo)
+    '''public <T extends MXSegmentActivity> T getSKDSegmentInfo(final int forecastSeqNo)
     '''
 def setShiftTime():
-    '''    public void setShiftTime(final Date[] shiftTime)
+    '''public void setShiftTime(final Date[] shiftTime)
     '''
 def getShiftTime():
-    '''    public Date[] getShiftTime()
+    '''public Date[] getShiftTime()
     '''
 def getSegmentInfoMap():
-    '''    public Map<Integer, MXActivity> getSegmentInfoMap()
+    '''public Map<Integer, MXActivity> getSegmentInfoMap()
     '''
 def getGanttModel():
-    '''    public IlvGanttModel getGanttModel()
+    '''public IlvGanttModel getGanttModel()
     '''
 def getInt():
-    '''    public int getInt(final String prop)
+    '''public int getInt(final String prop)
     '''
 def getLong():
-    '''    public long getLong(final String prop)
+    '''public long getLong(final String prop)
     '''
 def getFloat():
-    '''    public float getFloat(final String prop)
+    '''public float getFloat(final String prop)
     public Double getFloat()
     '''
 def getDouble():
-    '''    public double getDouble(final String prop)
+    '''public double getDouble(final String prop)
     '''
 def getBoolean():
-    '''    public boolean getBoolean(final String prop)
+    '''public boolean getBoolean(final String prop)
     '''
 def getString():
-    '''    public String getString(final String prop)
+    '''public String getString(final String prop)
     public String getString(final String prop, final String defValue)
     '''
 def getDate():
-    '''    public Date getDate(final String prop)
+    '''public Date getDate(final String prop)
     '''
 def getEarlyStart():
-    '''    public Date getEarlyStart()
+    '''public Date getEarlyStart()
     '''
 def getEarlyFinish():
-    '''    public Date getEarlyFinish()
+    '''public Date getEarlyFinish()
     '''
 def getLateStart():
-    '''    public Date getLateStart()
+    '''public Date getLateStart()
     '''
 def getLateFinish():
-    '''    public Date getLateFinish()
+    '''public Date getLateFinish()
     '''
 def isCritical():
-    '''    public Boolean isCritical()
+    '''public Boolean isCritical()
     '''
 def setEarlyStart():
-    '''    public void setEarlyStart(final Date earlyStart)
+    '''public void setEarlyStart(final Date earlyStart)
     '''
 def setEarlyFinish():
-    '''    public void setEarlyFinish(final Date earlyFinish)
+    '''public void setEarlyFinish(final Date earlyFinish)
     '''
 def setLateStart():
-    '''    public void setLateStart(final Date lateStart)
+    '''public void setLateStart(final Date lateStart)
     '''
 def setLateFinish():
-    '''    public void setLateFinish(final Date lateFinish)
+    '''public void setLateFinish(final Date lateFinish)
     '''
 def setFloat():
-    '''    public void setFloat(final Double floatValue)
+    '''public void setFloat(final Double floatValue)
     '''
 def setCritical():
-    '''    public void setCritical(final Boolean critical)
+    '''public void setCritical(final Boolean critical)
     '''
 def createActivity():
-    '''    public MXActivity createActivity(final IlvTimeInterval interval)
+    '''public MXActivity createActivity(final IlvTimeInterval interval)
     '''

@@ -1,3 +1,3 @@
 def genMask():
-    '''    public void genMask(final byte[] mask)
+    '''public void genMask(final byte[] mask)
     '''

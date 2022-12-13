@@ -1,6 +1,6 @@
 def FldContractStartDate():
-    '''    public FldContractStartDate(final MboValue mbv)
+    '''public FldContractStartDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,6 +1,6 @@
 def FldMatRecTransShelfLife():
-    '''    public FldMatRecTransShelfLife(final MboValue mbv)
+    '''public FldMatRecTransShelfLife(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

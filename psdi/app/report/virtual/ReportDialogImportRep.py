@@ -1,12 +1,12 @@
 def ReportDialogImportRep():
-    '''    public ReportDialogImportRep(final MboSet ms)
+    '''public ReportDialogImportRep(final MboSet ms)
     '''
 def doesLibraryExist():
-    '''    public boolean doesLibraryExist(final ReportImportInfo reportInfo, final UserInfo uInfo)
+    '''public boolean doesLibraryExist(final ReportImportInfo reportInfo, final UserInfo uInfo)
     '''
 def doResourcesExist():
-    '''    public byte[] doResourcesExist(final ReportImportInfo reportInfo, final UserInfo uInfo)
+    '''public byte[] doResourcesExist(final ReportImportInfo reportInfo, final UserInfo uInfo)
     '''
 def importReport():
-    '''    public void importReport(final ReportImportInfo reportInfo, final UserInfo uInfo)
+    '''public void importReport(final ReportImportInfo reportInfo, final UserInfo uInfo)
     '''

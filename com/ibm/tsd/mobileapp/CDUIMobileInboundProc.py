@@ -1,6 +1,6 @@
 def CDUIMobileInboundProc():
-    '''    public CDUIMobileInboundProc()
+    '''public CDUIMobileInboundProc()
     '''
 def setAdditionalData():
-    '''    public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
+    '''public void setAdditionalData(final MboSetRemote mboSet, final String tableName)
     '''

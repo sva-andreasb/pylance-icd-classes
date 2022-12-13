@@ -1,27 +1,27 @@
 def PlusPWorkLog():
-    '''    public PlusPWorkLog(final MboSet arg0)
+    '''public PlusPWorkLog(final MboSet arg0)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def setWorkLogEstimateDetailsForkWorkOrder():
-    '''    public void setWorkLogEstimateDetailsForkWorkOrder(final MboRemote price)
+    '''public void setWorkLogEstimateDetailsForkWorkOrder(final MboRemote price)
     '''
 def setPrice():
-    '''    public void setPrice(final MboRemote mboRemote)
+    '''public void setPrice(final MboRemote mboRemote)
     '''
 def getInternalEstimateStatus():
-    '''    public String getInternalEstimateStatus()
+    '''public String getInternalEstimateStatus()
     '''
 def changeEstimateStatus():
-    '''    public void changeEstimateStatus(final String value)
+    '''public void changeEstimateStatus(final String value)
     '''
 def reworkEstimate():
-    '''    public void reworkEstimate(final boolean b)
+    '''public void reworkEstimate(final boolean b)
     '''

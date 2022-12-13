@@ -1,3 +1,3 @@
 def reloadTable():
-    '''    public void reloadTable()
+    '''public void reloadTable()
     '''

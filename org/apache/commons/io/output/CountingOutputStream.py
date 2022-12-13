@@ -1,15 +1,15 @@
 def CountingOutputStream():
-    '''    public CountingOutputStream(final OutputStream out)
+    '''public CountingOutputStream(final OutputStream out)
     '''
 def getCount():
-    '''    public int getCount()
+    '''public int getCount()
     '''
 def resetCount():
-    '''    public int resetCount()
+    '''public int resetCount()
     '''
 def getByteCount():
-    '''    public synchronized long getByteCount()
+    '''public synchronized long getByteCount()
     '''
 def resetByteCount():
-    '''    public synchronized long resetByteCount()
+    '''public synchronized long resetByteCount()
     '''

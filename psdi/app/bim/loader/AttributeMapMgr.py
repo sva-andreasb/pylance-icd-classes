@@ -20,44 +20,44 @@ TYPE_TIME = "String  \"TIME\""
 TYPE_UPPER = "String  \"UPPER\""
 TYPE_YORN = "String  \"YORN\""
 def AttributeMapMgr():
-    '''    public AttributeMapMgr(final ModelProcessIntf loader, final String fieldMapName, final String specMapName)
+    '''public AttributeMapMgr(final ModelProcessIntf loader, final String fieldMapName, final String specMapName)
     '''
 def isSkipAttributeType():
-    '''    public boolean isSkipAttributeType(final ItemAttributeType attribType)
+    '''public boolean isSkipAttributeType(final ItemAttributeType attribType)
     '''
 def isSkipAttribute():
-    '''    public boolean isSkipAttribute(String attribName, final String sheetName)
+    '''public boolean isSkipAttribute(String attribName, final String sheetName)
     '''
 def isSkipAttributeForMbo():
-    '''    public boolean isSkipAttributeForMbo(String attribName, final String mboName)
+    '''public boolean isSkipAttributeForMbo(String attribName, final String mboName)
     '''
 def setMappedFields():
-    '''    public void setMappedFields(final Enumeration<ItemATTRIBUTE> attributes, final MboRemote mbo)
+    '''public void setMappedFields(final Enumeration<ItemATTRIBUTE> attributes, final MboRemote mbo)
     '''
 def setMappedField():
-    '''    public boolean setMappedField(final ItemATTRIBUTE attrib, final String tableName, final MboRemote mbo)
+    '''public boolean setMappedField(final ItemATTRIBUTE attrib, final String tableName, final MboRemote mbo)
     '''
 def getMappedSpec():
-    '''    public SpecEntry getMappedSpec(final String attributeName)
+    '''public SpecEntry getMappedSpec(final String attributeName)
     '''
 def getAttributeForSpec():
-    '''    public String getAttributeForSpec(final String attrId)
+    '''public String getAttributeForSpec(final String attrId)
     '''
 def getMappedField():
-    '''    public Set<ItemATTRIBUTE> getMappedField(final ItemBase item, final MboRemote mbo)
+    '''public Set<ItemATTRIBUTE> getMappedField(final ItemBase item, final MboRemote mbo)
     '''
 def getAssetAttridId():
-    '''    public String getAssetAttridId()
+    '''public String getAssetAttridId()
     '''
 def getDataType():
-    '''    public String getDataType()
+    '''public String getDataType()
     '''
 def getDescription():
-    '''    public String getDescription()
+    '''public String getDescription()
     '''
 def getOrgId():
-    '''    public String getOrgId()
+    '''public String getOrgId()
     '''
 def getSiteId():
-    '''    public String getSiteId()
+    '''public String getSiteId()
     '''

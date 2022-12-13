@@ -1,6 +1,6 @@
 def PlusPFldCustomer():
-    '''    public PlusPFldCustomer(final MboValue mbv)
+    '''public PlusPFldCustomer(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

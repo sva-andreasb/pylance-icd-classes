@@ -1,6 +1,6 @@
 def LADD():
-    '''    public LADD()
+    '''public LADD()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

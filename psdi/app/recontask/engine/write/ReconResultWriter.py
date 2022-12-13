@@ -1,18 +1,18 @@
 def ReconResultWriter():
-    '''    public ReconResultWriter()
+    '''public ReconResultWriter()
     '''
 def getTableName():
-    '''    public String getTableName()
+    '''public String getTableName()
     '''
 def getUIDColumnname():
-    '''    public String getUIDColumnname()
+    '''public String getUIDColumnname()
     '''
 def getDataType():
-    '''    public int getDataType(final String tableName, final String columnName)
+    '''public int getDataType(final String tableName, final String columnName)
     '''
 def setValue():
-    '''    public void setValue(final String attributeName, final Object attributeValue)
+    '''public void setValue(final String attributeName, final Object attributeValue)
     '''
 def write():
-    '''    public void write(final DBShortcut dbShortcut)
+    '''public void write(final DBShortcut dbShortcut)
     '''

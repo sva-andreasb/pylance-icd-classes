@@ -1,3 +1,3 @@
 def DMPkgStagingSet():
-    '''    public DMPkgStagingSet(final MboServerInterface ms)
+    '''public DMPkgStagingSet(final MboServerInterface ms)
     '''

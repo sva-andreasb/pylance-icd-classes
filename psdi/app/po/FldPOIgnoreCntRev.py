@@ -1,6 +1,6 @@
 def FldPOIgnoreCntRev():
-    '''    public FldPOIgnoreCntRev(final MboValue mbv)
+    '''public FldPOIgnoreCntRev(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

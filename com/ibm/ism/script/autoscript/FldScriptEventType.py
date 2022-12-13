@@ -1,9 +1,9 @@
 def FldScriptEventType():
-    '''    public FldScriptEventType(final MboValue mbv)
+    '''public FldScriptEventType(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

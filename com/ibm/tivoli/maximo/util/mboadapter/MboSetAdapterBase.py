@@ -1,3 +1,3 @@
 def getMbosByAttribValues():
-    '''    public MboAdapter[] getMbosByAttribValues(final String[][] attributeValues)
+    '''public MboAdapter[] getMbosByAttribValues(final String[][] attributeValues)
     '''

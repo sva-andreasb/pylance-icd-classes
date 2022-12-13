@@ -1,27 +1,27 @@
 def NodeIteratorImpl():
-    '''    public NodeIteratorImpl(final DocumentImpl fDocument, final Node fRoot, final int fWhatToShow, final NodeFilter fNodeFilter, final boolean fEntityReferenceExpansion)
+    '''public NodeIteratorImpl(final DocumentImpl fDocument, final Node fRoot, final int fWhatToShow, final NodeFilter fNodeFilter, final boolean fEntityReferenceExpansion)
     '''
 def getRoot():
-    '''    public Node getRoot()
+    '''public Node getRoot()
     '''
 def getWhatToShow():
-    '''    public int getWhatToShow()
+    '''public int getWhatToShow()
     '''
 def getFilter():
-    '''    public NodeFilter getFilter()
+    '''public NodeFilter getFilter()
     '''
 def getExpandEntityReferences():
-    '''    public boolean getExpandEntityReferences()
+    '''public boolean getExpandEntityReferences()
     '''
 def nextNode():
-    '''    public Node nextNode()
+    '''public Node nextNode()
     '''
 def previousNode():
-    '''    public Node previousNode()
+    '''public Node previousNode()
     '''
 def removeNode():
-    '''    public void removeNode(final Node node)
+    '''public void removeNode(final Node node)
     '''
 def detach():
-    '''    public void detach()
+    '''public void detach()
     '''

@@ -1,3 +1,3 @@
 def createAnchor():
-    '''    public static EscherRecord createAnchor(final HSSFAnchor userAnchor)
+    '''public static EscherRecord createAnchor(final HSSFAnchor userAnchor)
     '''

@@ -1,6 +1,6 @@
 def DeleteWorkActionListener():
-    '''    public DeleteWorkActionListener(final IlvReservation reservation)
+    '''public DeleteWorkActionListener(final IlvReservation reservation)
     '''
 def actionPerformed():
-    '''    public void actionPerformed(final ActionEvent e)
+    '''public void actionPerformed(final ActionEvent e)
     '''

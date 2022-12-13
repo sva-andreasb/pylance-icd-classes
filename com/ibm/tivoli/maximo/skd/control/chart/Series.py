@@ -14,40 +14,40 @@ X_REAL = "String  \"x_real\""
 LABEL_VALUE = "Object  \"value\""
 LABEL_TEXT = "Object  \"text\""
 def Series():
-    '''    public Series()
+    '''public Series()
     public Series(final String name)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def setName():
-    '''    public void setName(final String name)
+    '''public void setName(final String name)
     '''
 def getData():
-    '''    public JSONArray getData()
+    '''public JSONArray getData()
     '''
 def setData():
-    '''    public void setData(final JSONArray data)
+    '''public void setData(final JSONArray data)
     '''
 def setOptions():
-    '''    public void setOptions(final JSONObject options)
+    '''public void setOptions(final JSONObject options)
     '''
 def getOptions():
-    '''    public JSONObject getOptions()
+    '''public JSONObject getOptions()
     '''
 def addPoint():
-    '''    public JSONObject addPoint(final Number x, final Number y)
+    '''public JSONObject addPoint(final Number x, final Number y)
     public JSONObject addPoint(final Number x, final String xlabel, final Number y, final String ylabel)
     '''
 def addPiePoint():
-    '''    public JSONObject addPiePoint(final Number y, final String label, final String legend)
+    '''public JSONObject addPiePoint(final Number y, final String label, final String legend)
     '''
 def normalizeSequence():
-    '''    public void normalizeSequence()
+    '''public void normalizeSequence()
     '''
 def getXLabels():
-    '''    public JSONArray getXLabels()
+    '''public JSONArray getXLabels()
     '''
 def getYLabels():
-    '''    public JSONArray getYLabels()
+    '''public JSONArray getYLabels()
     '''

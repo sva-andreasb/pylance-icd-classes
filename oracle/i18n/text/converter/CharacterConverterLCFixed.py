@@ -1,18 +1,18 @@
 def CharacterConverterLCFixed():
-    '''    public CharacterConverterLCFixed()
+    '''public CharacterConverterLCFixed()
     '''
 def toUnicodeString():
-    '''    public String toUnicodeString(final byte[] array, int n, int n2)
+    '''public String toUnicodeString(final byte[] array, int n, int n2)
     '''
 def toUnicodeStringWithReplacement():
-    '''    public String toUnicodeStringWithReplacement(final byte[] array, int n, int i)
+    '''public String toUnicodeStringWithReplacement(final byte[] array, int n, int i)
     '''
 def ByteToCharConvert():
-    '''    public int ByteToCharConvert(final byte[] array, final int n, final int n2, final char[] array2, final int n3, final int n4)
+    '''public int ByteToCharConvert(final byte[] array, final int n, final int n2, final char[] array2, final int n3, final int n4)
     '''
 def CharToByteConvert():
-    '''    public int CharToByteConvert(final char[] array, final int n, final int n2, final byte[] array2, final int n3, final int n4)
+    '''public int CharToByteConvert(final char[] array, final int n, final int n2, final byte[] array2, final int n3, final int n4)
     '''
 def toUnicodeCharsWithReplacement():
-    '''    public int toUnicodeCharsWithReplacement(final byte[] array, final int n, final char[] array2, final int n2, final int n3)
+    '''public int toUnicodeCharsWithReplacement(final byte[] array, final int n, final char[] array2, final int n2, final int n3)
     '''

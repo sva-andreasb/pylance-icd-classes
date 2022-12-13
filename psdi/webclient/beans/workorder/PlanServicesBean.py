@@ -1,6 +1,6 @@
 def selectstdservicesonplans():
-    '''    public int selectstdservicesonplans()
+    '''public int selectstdservicesonplans()
     '''
 def addListener():
-    '''    public void addListener(final DataBeanListener listener)
+    '''public void addListener(final DataBeanListener listener)
     '''

@@ -1,3 +1,3 @@
 def OslcInteractionQuerySet():
-    '''    public OslcInteractionQuerySet(final MboServerInterface ms)
+    '''public OslcInteractionQuerySet(final MboServerInterface ms)
     '''

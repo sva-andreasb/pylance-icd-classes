@@ -1,3 +1,3 @@
 def JPDummyStatusSet():
-    '''    public JPDummyStatusSet(final MboServerInterface ms)
+    '''public JPDummyStatusSet(final MboServerInterface ms)
     '''

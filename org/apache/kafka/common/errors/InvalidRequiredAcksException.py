@@ -1,3 +1,3 @@
 def InvalidRequiredAcksException():
-    '''    public InvalidRequiredAcksException(final String message)
+    '''public InvalidRequiredAcksException(final String message)
     '''

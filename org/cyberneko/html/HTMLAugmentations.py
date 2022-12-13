@@ -1,21 +1,21 @@
 def HTMLAugmentations():
-    '''    public HTMLAugmentations()
+    '''public HTMLAugmentations()
     '''
 def removeAllItems():
-    '''    public void removeAllItems()
+    '''public void removeAllItems()
     '''
 def clear():
-    '''    public void clear()
+    '''public void clear()
     '''
 def putItem():
-    '''    public Object putItem(final String key, final Object item)
+    '''public Object putItem(final String key, final Object item)
     '''
 def getItem():
-    '''    public Object getItem(final String key)
+    '''public Object getItem(final String key)
     '''
 def removeItem():
-    '''    public Object removeItem(final String key)
+    '''public Object removeItem(final String key)
     '''
 def keys():
-    '''    public Enumeration keys()
+    '''public Enumeration keys()
     '''

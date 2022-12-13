@@ -1,6 +1,6 @@
 def FldInteractionName():
-    '''    public FldInteractionName(final MboValue mbv)
+    '''public FldInteractionName(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,12 +1,12 @@
 def WOServiceAddress():
-    '''    public WOServiceAddress(final MboSet ms)
+    '''public WOServiceAddress(final MboSet ms)
     '''
 def copyDataFromServiceAddress():
-    '''    public void copyDataFromServiceAddress(final MboRemote sa)
+    '''public void copyDataFromServiceAddress(final MboRemote sa)
     '''
 def isAllFieldsBlank():
-    '''    public boolean isAllFieldsBlank()
+    '''public boolean isAllFieldsBlank()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''

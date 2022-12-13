@@ -1,21 +1,21 @@
 def MetaFont():
-    '''    public MetaFont()
+    '''public MetaFont()
     '''
 def init():
-    '''    public void init(final InputMeta in)
+    '''public void init(final InputMeta in)
     '''
 def getFont():
-    '''    public BaseFont getFont()
+    '''public BaseFont getFont()
     '''
 def getAngle():
-    '''    public float getAngle()
+    '''public float getAngle()
     '''
 def isUnderline():
-    '''    public boolean isUnderline()
+    '''public boolean isUnderline()
     '''
 def isStrikeout():
-    '''    public boolean isStrikeout()
+    '''public boolean isStrikeout()
     '''
 def getFontSize():
-    '''    public float getFontSize(final MetaState state)
+    '''public float getFontSize(final MetaState state)
     '''

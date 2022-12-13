@@ -1,27 +1,27 @@
 def AMCTCraft():
-    '''    public AMCTCraft(final MboSet ms)
+    '''public AMCTCraft(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def deleteAssociatedQuals():
-    '''    public void deleteAssociatedQuals(final String position)
+    '''public void deleteAssociatedQuals(final String position)
     '''
 def undeleteAssociatedQuals():
-    '''    public void undeleteAssociatedQuals()
+    '''public void undeleteAssociatedQuals()
     '''
 def getStandardRate():
-    '''    public double getStandardRate()
+    '''public double getStandardRate()
     '''

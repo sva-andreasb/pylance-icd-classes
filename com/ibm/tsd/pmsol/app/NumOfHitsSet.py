@@ -1,3 +1,3 @@
 def NumOfHitsSet():
-    '''    public NumOfHitsSet(final MboServerInterface ms)
+    '''public NumOfHitsSet(final MboServerInterface ms)
     '''

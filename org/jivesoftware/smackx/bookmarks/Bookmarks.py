@@ -1,41 +1,41 @@
 NAMESPACE = "String  \"storage:bookmarks\""
 ELEMENT = "String  \"storage\""
 def Bookmarks():
-    '''    public Bookmarks()
+    '''public Bookmarks()
     '''
 def addBookmarkedURL():
-    '''    public void addBookmarkedURL(final BookmarkedURL bookmarkedURL)
+    '''public void addBookmarkedURL(final BookmarkedURL bookmarkedURL)
     '''
 def removeBookmarkedURL():
-    '''    public void removeBookmarkedURL(final BookmarkedURL bookmarkedURL)
+    '''public void removeBookmarkedURL(final BookmarkedURL bookmarkedURL)
     '''
 def clearBookmarkedURLS():
-    '''    public void clearBookmarkedURLS()
+    '''public void clearBookmarkedURLS()
     '''
 def addBookmarkedConference():
-    '''    public void addBookmarkedConference(final BookmarkedConference bookmarkedConference)
+    '''public void addBookmarkedConference(final BookmarkedConference bookmarkedConference)
     '''
 def removeBookmarkedConference():
-    '''    public void removeBookmarkedConference(final BookmarkedConference bookmarkedConference)
+    '''public void removeBookmarkedConference(final BookmarkedConference bookmarkedConference)
     '''
 def clearBookmarkedConferences():
-    '''    public void clearBookmarkedConferences()
+    '''public void clearBookmarkedConferences()
     '''
 def getBookmarkedURLS():
-    '''    public List<BookmarkedURL> getBookmarkedURLS()
+    '''public List<BookmarkedURL> getBookmarkedURLS()
     '''
 def getBookmarkedConferences():
-    '''    public List<BookmarkedConference> getBookmarkedConferences()
+    '''public List<BookmarkedConference> getBookmarkedConferences()
     '''
 def getElementName():
-    '''    public String getElementName()
+    '''public String getElementName()
     '''
 def getNamespace():
-    '''    public String getNamespace()
+    '''public String getNamespace()
     '''
 def toXML():
-    '''    public XmlStringBuilder toXML()
+    '''public XmlStringBuilder toXML()
     '''
 def parsePrivateData():
-    '''    public PrivateData parsePrivateData(final XmlPullParser parser)
+    '''public PrivateData parsePrivateData(final XmlPullParser parser)
     '''

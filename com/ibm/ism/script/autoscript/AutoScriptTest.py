@@ -1,9 +1,9 @@
 def AutoScriptTest():
-    '''    public AutoScriptTest(final MboSet ms)
+    '''public AutoScriptTest(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def setfaceName():
-    '''    public void setfaceName(final String ifaceType, String ifaceName)
+    '''public void setfaceName(final String ifaceType, String ifaceName)
     '''

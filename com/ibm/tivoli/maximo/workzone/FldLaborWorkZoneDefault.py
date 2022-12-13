@@ -1,9 +1,9 @@
 def FldLaborWorkZoneDefault():
-    '''    public FldLaborWorkZoneDefault(final MboValue mbv)
+    '''public FldLaborWorkZoneDefault(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

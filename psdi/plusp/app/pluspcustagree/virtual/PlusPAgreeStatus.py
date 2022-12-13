@@ -1,6 +1,6 @@
 def PlusPAgreeStatus():
-    '''    public PlusPAgreeStatus(final MboSet ms)
+    '''public PlusPAgreeStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

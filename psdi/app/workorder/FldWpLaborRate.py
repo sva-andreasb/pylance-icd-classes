@@ -1,3 +1,3 @@
 def FldWpLaborRate():
-    '''    public FldWpLaborRate(final MboValue mbv)
+    '''public FldWpLaborRate(final MboValue mbv)
     '''

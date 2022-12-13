@@ -1,3 +1,3 @@
 def remove():
-    '''    public static void remove(final String resourceName, final UserInfo userInfo, final MXTransaction mxTrans)
+    '''public static void remove(final String resourceName, final UserInfo userInfo, final MXTransaction mxTrans)
     '''

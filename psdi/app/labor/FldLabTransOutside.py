@@ -1,9 +1,9 @@
 def FldLabTransOutside():
-    '''    public FldLabTransOutside(final MboValue mbv)
+    '''public FldLabTransOutside(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

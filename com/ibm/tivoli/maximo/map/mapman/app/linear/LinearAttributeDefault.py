@@ -1,3 +1,3 @@
 def LinearAttributeDefault():
-    '''    public LinearAttributeDefault(final MboSet ms)
+    '''public LinearAttributeDefault(final MboSet ms)
     '''

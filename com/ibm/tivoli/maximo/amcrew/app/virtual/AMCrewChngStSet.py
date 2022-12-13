@@ -1,3 +1,3 @@
 def AMCrewChngStSet():
-    '''    public AMCrewChngStSet(final MboServerInterface ms)
+    '''public AMCrewChngStSet(final MboServerInterface ms)
     '''

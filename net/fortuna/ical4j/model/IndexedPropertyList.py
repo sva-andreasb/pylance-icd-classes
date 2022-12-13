@@ -1,9 +1,9 @@
 def IndexedPropertyList():
-    '''    public IndexedPropertyList(final PropertyList<Property> list, final String parameterName)
+    '''public IndexedPropertyList(final PropertyList<Property> list, final String parameterName)
     '''
 def getProperties():
-    '''    public PropertyList<Property> getProperties(final String paramValue)
+    '''public PropertyList<Property> getProperties(final String paramValue)
     '''
 def getProperty():
-    '''    public Property getProperty(final String paramValue)
+    '''public Property getProperty(final String paramValue)
     '''

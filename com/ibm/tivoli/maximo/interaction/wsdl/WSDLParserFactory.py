@@ -1,3 +1,3 @@
 def getWSDLParser():
-    '''    public static WSDLParser getWSDLParser()
+    '''public static WSDLParser getWSDLParser()
     '''

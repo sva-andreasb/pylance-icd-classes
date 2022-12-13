@@ -1,3 +1,3 @@
 def IlvStringEvaluatorReader():
-    '''    public IlvStringEvaluatorReader(final boolean a)
+    '''public IlvStringEvaluatorReader(final boolean a)
     '''

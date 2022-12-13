@@ -1,6 +1,6 @@
 def FldLicenseCoreMulti():
-    '''    public FldLicenseCoreMulti(final MboValue mbv)
+    '''public FldLicenseCoreMulti(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

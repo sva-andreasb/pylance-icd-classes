@@ -1,3 +1,3 @@
 def NonworktimeSet():
-    '''    public NonworktimeSet(final MboServerInterface ms)
+    '''public NonworktimeSet(final MboServerInterface ms)
     '''

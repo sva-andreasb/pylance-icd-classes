@@ -1,3 +1,3 @@
 def parse():
-    '''    public OriginIdElement parse(final XmlPullParser parser, final int initialDepth)
+    '''public OriginIdElement parse(final XmlPullParser parser, final int initialDepth)
     '''

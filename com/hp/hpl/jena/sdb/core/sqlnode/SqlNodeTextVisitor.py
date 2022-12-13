@@ -1,9 +1,9 @@
 def SqlNodeTextVisitor():
-    '''    public SqlNodeTextVisitor(final IndentedWriter out)
+    '''public SqlNodeTextVisitor(final IndentedWriter out)
     public SqlNodeTextVisitor(final IndentedWriter out, final boolean withAnnotations)
     '''
 def visit():
-    '''    public void visit(final SqlProject sqlNode)
+    '''public void visit(final SqlProject sqlNode)
     public void visit(final SqlDistinct sqlNode)
     public void visit(final SqlRestrict sqlNode)
     public void visit(final SqlRename sqlRename)

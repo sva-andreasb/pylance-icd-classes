@@ -1,6 +1,6 @@
 def FldQuotationLineBaseUnitCost():
-    '''    public FldQuotationLineBaseUnitCost(final MboValue mbv)
+    '''public FldQuotationLineBaseUnitCost(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

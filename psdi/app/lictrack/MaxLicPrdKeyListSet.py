@@ -1,3 +1,3 @@
 def MaxLicPrdKeyListSet():
-    '''    public MaxLicPrdKeyListSet(final MboServerInterface ms)
+    '''public MaxLicPrdKeyListSet(final MboServerInterface ms)
     '''

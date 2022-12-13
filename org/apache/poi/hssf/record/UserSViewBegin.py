@@ -1,20 +1,20 @@
 sid = "short  426"
 def UserSViewBegin():
-    '''    public UserSViewBegin(final byte[] data)
+    '''public UserSViewBegin(final byte[] data)
     public UserSViewBegin(final RecordInputStream in)
     '''
 def serialize():
-    '''    public void serialize(final LittleEndianOutput out)
+    '''public void serialize(final LittleEndianOutput out)
     '''
 def getSid():
-    '''    public short getSid()
+    '''public short getSid()
     '''
 def getGuid():
-    '''    public byte[] getGuid()
+    '''public byte[] getGuid()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''

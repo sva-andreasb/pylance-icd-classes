@@ -1,3 +1,3 @@
 def WOAreasAffectedSet():
-    '''    public WOAreasAffectedSet(final MboServerInterface ms)
+    '''public WOAreasAffectedSet(final MboServerInterface ms)
     '''

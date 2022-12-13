@@ -1,18 +1,18 @@
 def hasMatch():
-    '''    public boolean hasMatch()
+    '''public boolean hasMatch()
     '''
 def getMatchStrength():
-    '''    public MatchStrength getMatchStrength()
+    '''public MatchStrength getMatchStrength()
     '''
 def getMatch():
-    '''    public JsonFactory getMatch()
+    '''public JsonFactory getMatch()
     '''
 def getMatchedFormatName():
-    '''    public String getMatchedFormatName()
+    '''public String getMatchedFormatName()
     '''
 def createParserWithMatch():
-    '''    public JsonParser createParserWithMatch()
+    '''public JsonParser createParserWithMatch()
     '''
 def getDataStream():
-    '''    public InputStream getDataStream()
+    '''public InputStream getDataStream()
     '''

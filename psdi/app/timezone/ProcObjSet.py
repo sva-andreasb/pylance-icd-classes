@@ -1,3 +1,3 @@
 def ProcObjSet():
-    '''    public ProcObjSet(final MboServerInterface ms)
+    '''public ProcObjSet(final MboServerInterface ms)
     '''

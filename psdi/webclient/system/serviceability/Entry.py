@@ -1,3 +1,3 @@
 def getTimestamp():
-    '''    public String getTimestamp()
+    '''public String getTimestamp()
     '''

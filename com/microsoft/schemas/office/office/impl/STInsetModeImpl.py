@@ -1,3 +1,3 @@
 def STInsetModeImpl():
-    '''    public STInsetModeImpl(final SchemaType schemaType)
+    '''public STInsetModeImpl(final SchemaType schemaType)
     '''

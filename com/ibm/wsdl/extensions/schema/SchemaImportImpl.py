@@ -1,10 +1,10 @@
 serialVersionUID = "long  1L"
 def SchemaImportImpl():
-    '''    public SchemaImportImpl()
+    '''public SchemaImportImpl()
     '''
 def getNamespaceURI():
-    '''    public String getNamespaceURI()
+    '''public String getNamespaceURI()
     '''
 def setNamespaceURI():
-    '''    public void setNamespaceURI(final String namespace)
+    '''public void setNamespaceURI(final String namespace)
     '''

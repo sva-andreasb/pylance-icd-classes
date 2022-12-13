@@ -1,3 +1,3 @@
 def FldMatRecTransManufacturer():
-    '''    public FldMatRecTransManufacturer(final MboValue mbv)
+    '''public FldMatRecTransManufacturer(final MboValue mbv)
     '''

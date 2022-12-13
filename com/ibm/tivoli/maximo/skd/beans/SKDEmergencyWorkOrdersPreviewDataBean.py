@@ -1,3 +1,3 @@
 def preview():
-    '''    public int preview()
+    '''public int preview()
     '''

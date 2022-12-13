@@ -1,6 +1,6 @@
 def Nonworktime():
-    '''    public Nonworktime(final MboSet ms)
+    '''public Nonworktime(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

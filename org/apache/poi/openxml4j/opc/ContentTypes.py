@@ -19,5 +19,5 @@ EXTENSION_PICT = "String  \"tiff\""
 XML = "String  \"text/xml\""
 EXTENSION_XML = "String  \"xml\""
 def getContentTypeFromFileExtension():
-    '''    public static String getContentTypeFromFileExtension(final String filename)
+    '''public static String getContentTypeFromFileExtension(final String filename)
     '''

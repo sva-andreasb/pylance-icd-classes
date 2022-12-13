@@ -1,3 +1,3 @@
 def JPTotalSet():
-    '''    public JPTotalSet(final MboServerInterface ms)
+    '''public JPTotalSet(final MboServerInterface ms)
     '''

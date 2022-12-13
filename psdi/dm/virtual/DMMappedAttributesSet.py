@@ -1,3 +1,3 @@
 def DMMappedAttributesSet():
-    '''    public DMMappedAttributesSet(final MboServerInterface ms)
+    '''public DMMappedAttributesSet(final MboServerInterface ms)
     '''

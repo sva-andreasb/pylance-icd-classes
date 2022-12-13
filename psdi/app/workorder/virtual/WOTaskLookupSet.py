@@ -1,3 +1,3 @@
 def WOTaskLookupSet():
-    '''    public WOTaskLookupSet(final MboServerInterface ms)
+    '''public WOTaskLookupSet(final MboServerInterface ms)
     '''

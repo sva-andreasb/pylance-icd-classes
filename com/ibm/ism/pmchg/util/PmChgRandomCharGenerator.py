@@ -1,3 +1,3 @@
 def randomstring():
-    '''    public static String randomstring(final int length)
+    '''public static String randomstring(final int length)
     '''

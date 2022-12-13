@@ -1,3 +1,3 @@
 def getPropertyDescriptors():
-    '''    public PropertyDescriptor[] getPropertyDescriptors()
+    '''public PropertyDescriptor[] getPropertyDescriptors()
     '''

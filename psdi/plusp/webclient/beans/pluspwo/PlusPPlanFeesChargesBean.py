@@ -1,3 +1,3 @@
 def updateCalculatedFees():
-    '''    public int updateCalculatedFees()
+    '''public int updateCalculatedFees()
     '''

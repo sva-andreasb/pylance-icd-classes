@@ -1,3 +1,3 @@
 def STCtrl():
-    '''    public STCtrl(final MboSet ms)
+    '''public STCtrl(final MboSet ms)
     '''

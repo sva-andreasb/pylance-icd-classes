@@ -1,6 +1,6 @@
 def FldToolTransLineCost():
-    '''    public FldToolTransLineCost(final MboValue mbv)
+    '''public FldToolTransLineCost(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,18 +1,18 @@
 def getString():
-    '''    public String getString(final MboRemote mbo)
+    '''public String getString(final MboRemote mbo)
     '''
 def getDouble():
-    '''    public double getDouble(final MboRemote mbo)
+    '''public double getDouble(final MboRemote mbo)
     '''
 def getInt():
-    '''    public int getInt(final MboRemote mbo)
+    '''public int getInt(final MboRemote mbo)
     '''
 def getDate():
-    '''    public Date getDate(final MboRemote mbo)
+    '''public Date getDate(final MboRemote mbo)
     '''
 def getNodeDataType():
-    '''    public int getNodeDataType()
+    '''public int getNodeDataType()
     '''
 def setOperands():
-    '''    public void setOperands(final MboRemote mbo, final Vector operands)
+    '''public void setOperands(final MboRemote mbo, final Vector operands)
     '''

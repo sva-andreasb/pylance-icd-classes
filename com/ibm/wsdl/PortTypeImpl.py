@@ -1,34 +1,34 @@
 serialVersionUID = "long  1L"
 def PortTypeImpl():
-    '''    public PortTypeImpl()
+    '''public PortTypeImpl()
     '''
 def setQName():
-    '''    public void setQName(final QName name)
+    '''public void setQName(final QName name)
     '''
 def getQName():
-    '''    public QName getQName()
+    '''public QName getQName()
     '''
 def addOperation():
-    '''    public void addOperation(final Operation operation)
+    '''public void addOperation(final Operation operation)
     '''
 def getOperation():
-    '''    public Operation getOperation(final String str, final String s, final String s2)
+    '''public Operation getOperation(final String str, final String s, final String s2)
     '''
 def getOperations():
-    '''    public List getOperations()
+    '''public List getOperations()
     '''
 def setDocumentationElement():
-    '''    public void setDocumentationElement(final Element docEl)
+    '''public void setDocumentationElement(final Element docEl)
     '''
 def getDocumentationElement():
-    '''    public Element getDocumentationElement()
+    '''public Element getDocumentationElement()
     '''
 def setUndefined():
-    '''    public void setUndefined(final boolean isUndefined)
+    '''public void setUndefined(final boolean isUndefined)
     '''
 def isUndefined():
-    '''    public boolean isUndefined()
+    '''public boolean isUndefined()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

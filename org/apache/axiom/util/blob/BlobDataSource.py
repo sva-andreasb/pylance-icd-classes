@@ -1,18 +1,18 @@
 def BlobDataSource():
-    '''    public BlobDataSource(final Blob blob, final String contentType)
+    '''public BlobDataSource(final Blob blob, final String contentType)
     '''
 def getInputStream():
-    '''    public InputStream getInputStream()
+    '''public InputStream getInputStream()
     '''
 def getContentType():
-    '''    public String getContentType()
+    '''public String getContentType()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getOutputStream():
-    '''    public OutputStream getOutputStream()
+    '''public OutputStream getOutputStream()
     '''
 def getSize():
-    '''    public long getSize()
+    '''public long getSize()
     '''

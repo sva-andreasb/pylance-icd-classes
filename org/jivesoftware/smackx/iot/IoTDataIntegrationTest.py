@@ -1,9 +1,9 @@
 def IoTDataIntegrationTest():
-    '''    public IoTDataIntegrationTest(final SmackIntegrationTestEnvironment environment)
+    '''public IoTDataIntegrationTest(final SmackIntegrationTestEnvironment environment)
     '''
 def dataTest():
-    '''    public void dataTest()
+    '''public void dataTest()
     '''
 def momentaryReadOutRequest():
-    '''    public void momentaryReadOutRequest(final ThingMomentaryReadOutResult callback)
+    '''public void momentaryReadOutRequest(final ThingMomentaryReadOutResult callback)
     '''

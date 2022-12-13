@@ -1,6 +1,6 @@
 def FldRelatedAppName():
-    '''    public FldRelatedAppName(final MboValue mbv)
+    '''public FldRelatedAppName(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

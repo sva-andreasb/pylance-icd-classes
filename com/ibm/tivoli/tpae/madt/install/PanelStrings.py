@@ -1,3 +1,3 @@
 def getPnlString():
-    '''    public static String getPnlString(final String s)
+    '''public static String getPnlString(final String s)
     '''

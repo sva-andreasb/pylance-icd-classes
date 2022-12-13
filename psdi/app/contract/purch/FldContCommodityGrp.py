@@ -1,3 +1,3 @@
 def FldContCommodityGrp():
-    '''    public FldContCommodityGrp(final MboValue mbv)
+    '''public FldContCommodityGrp(final MboValue mbv)
     '''

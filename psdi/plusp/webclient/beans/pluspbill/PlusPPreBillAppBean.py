@@ -1,12 +1,12 @@
 def initializeApp():
-    '''    public void initializeApp()
+    '''public void initializeApp()
     '''
 def approveLines():
-    '''    public int approveLines()
+    '''public int approveLines()
     '''
 def VIEWCOSTS():
-    '''    public int VIEWCOSTS()
+    '''public int VIEWCOSTS()
     '''
 def STATUS():
-    '''    public int STATUS()
+    '''public int STATUS()
     '''

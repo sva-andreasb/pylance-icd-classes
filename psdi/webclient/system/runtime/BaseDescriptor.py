@@ -45,32 +45,32 @@ DESCRIPTORTYPE_RECORDHOVER = "String  \"recordhover\""
 INSTANCECLASS_CONTROLINSTANCE = "String  \"psdi.webclient.system.controller.ControlInstance\""
 INSTANCECLASS_COMPONENTINSTANCE = "String  \"psdi.webclient.system.controller.ComponentInstance\""
 def getElement():
-    '''    public Element getElement()
+    '''public Element getElement()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getShortName():
-    '''    public String getShortName()
+    '''public String getShortName()
     '''
 def getProperties():
-    '''    public HashMap<String, Property> getProperties()
+    '''public HashMap<String, Property> getProperties()
     '''
 def getInstance():
-    '''    public BaseInstance getInstance(final WebClientSession wcs)
+    '''public BaseInstance getInstance(final WebClientSession wcs)
     '''
 def getProperty():
-    '''    public String getProperty(final Object key)
+    '''public String getProperty(final Object key)
     '''
 def initialize():
-    '''    public void initialize(final Element controlElement)
+    '''public void initialize(final Element controlElement)
     '''
 def hasProperty():
-    '''    public boolean hasProperty(final String key)
+    '''public boolean hasProperty(final String key)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def cleanup():
-    '''    public void cleanup()
+    '''public void cleanup()
     '''

@@ -1,6 +1,6 @@
 def ESigLoginSet():
-    '''    public ESigLoginSet(final MboServerInterface ms)
+    '''public ESigLoginSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

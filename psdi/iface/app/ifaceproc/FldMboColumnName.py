@@ -1,6 +1,6 @@
 def FldMboColumnName():
-    '''    public FldMboColumnName(final MboValue mbv)
+    '''public FldMboColumnName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,6 +1,6 @@
 def FldTemplateName():
-    '''    public FldTemplateName(final MboValue mbv)
+    '''public FldTemplateName(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

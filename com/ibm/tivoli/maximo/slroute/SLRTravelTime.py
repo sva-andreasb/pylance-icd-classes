@@ -1,3 +1,3 @@
 def SLRTravelTime():
-    '''    public SLRTravelTime(final MboSet ms)
+    '''public SLRTravelTime(final MboSet ms)
     '''

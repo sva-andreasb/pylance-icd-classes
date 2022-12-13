@@ -1,6 +1,6 @@
 def PlusPFldRevisionNum():
-    '''    public PlusPFldRevisionNum(final MboValue mbv)
+    '''public PlusPFldRevisionNum(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

@@ -1,3 +1,3 @@
 def CONFIGOBJS():
-    '''    public int CONFIGOBJS()
+    '''public int CONFIGOBJS()
     '''

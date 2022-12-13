@@ -1,6 +1,6 @@
 def FldDJPJobServiceCalcApplyTo():
-    '''    public FldDJPJobServiceCalcApplyTo(final MboValue mv)
+    '''public FldDJPJobServiceCalcApplyTo(final MboValue mv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

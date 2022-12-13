@@ -1,6 +1,6 @@
 def FldMaxUserRepairFacility():
-    '''    public FldMaxUserRepairFacility(final MboValue mbv)
+    '''public FldMaxUserRepairFacility(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

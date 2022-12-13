@@ -1,61 +1,61 @@
 def GWAProjectAppBean():
-    '''    public GWAProjectAppBean()
+    '''public GWAProjectAppBean()
     '''
 def getAssignLaborSet():
-    '''    public AssignmentSetRemote getAssignLaborSet()
+    '''public AssignmentSetRemote getAssignLaborSet()
     '''
 def setAssignLaborSet():
-    '''    public void setAssignLaborSet(final AssignmentSetRemote anAssignLaborSet)
+    '''public void setAssignLaborSet(final AssignmentSetRemote anAssignLaborSet)
     '''
 def getAssignedCrewSet():
-    '''    public AssignmentSetRemote getAssignedCrewSet()
+    '''public AssignmentSetRemote getAssignedCrewSet()
     '''
 def setAssignCrewSet():
-    '''    public void setAssignCrewSet(final AssignmentSetRemote assignCrewSet)
+    '''public void setAssignCrewSet(final AssignmentSetRemote assignCrewSet)
     '''
 def REFRESH():
-    '''    public int REFRESH()
+    '''public int REFRESH()
     '''
 def SAVE():
-    '''    public int SAVE()
+    '''public int SAVE()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def STATUS():
-    '''    public int STATUS()
+    '''public int STATUS()
     '''
 def loadSchedule():
-    '''    public GWASchedule loadSchedule()
+    '''public GWASchedule loadSchedule()
     '''
 def getUserInfo():
-    '''    public UserInfo getUserInfo()
+    '''public UserInfo getUserInfo()
     public UserInfo getUserInfo()
     '''
 def toJsonObject():
-    '''    public static JSONObject toJsonObject(final MboRemote mbo)
+    '''public static JSONObject toJsonObject(final MboRemote mbo)
     '''
 def ASSIGNLAB():
-    '''    public int ASSIGNLAB()
+    '''public int ASSIGNLAB()
     '''
 def CRWASSIGNA():
-    '''    public int CRWASSIGNA()
+    '''public int CRWASSIGNA()
     '''
 def applink():
-    '''    public int applink()
+    '''public int applink()
     '''
 def solutionsTabChanged():
-    '''    public int solutionsTabChanged()
+    '''public int solutionsTabChanged()
     '''
 def isRefresh():
-    '''    public boolean isRefresh()
+    '''public boolean isRefresh()
     '''
 def clearCurrentWeekDate():
-    '''    public void clearCurrentWeekDate()
+    '''public void clearCurrentWeekDate()
     '''
 def getCurrentWeekDate():
-    '''    public Date getCurrentWeekDate()
+    '''public Date getCurrentWeekDate()
     '''
 def getAssignmentLabors():
-    '''    public Set<String> getAssignmentLabors()
+    '''public Set<String> getAssignmentLabors()
     '''

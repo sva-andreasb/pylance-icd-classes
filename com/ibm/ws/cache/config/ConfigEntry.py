@@ -5,17 +5,17 @@ WEB_SERVICE_CLIENT = "int  4"
 STATIC = "int  5"
 PORTLET = "int  6"
 def ConfigEntry():
-    '''    public ConfigEntry()
+    '''public ConfigEntry()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def fancyFormat():
-    '''    public String fancyFormat()
+    '''public String fancyFormat()
     '''
 def getESIDependencies():
-    '''    public static String getESIDependencies(final Enumeration e1, final Enumeration e2)
+    '''public static String getESIDependencies(final Enumeration e1, final Enumeration e2)
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''

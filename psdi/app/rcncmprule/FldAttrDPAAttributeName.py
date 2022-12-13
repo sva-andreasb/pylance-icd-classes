@@ -1,9 +1,9 @@
 def FldAttrDPAAttributeName():
-    '''    public FldAttrDPAAttributeName(final MboValue mbv)
+    '''public FldAttrDPAAttributeName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def isUnitOfMeasure():
-    '''    public boolean isUnitOfMeasure()
+    '''public boolean isUnitOfMeasure()
     '''

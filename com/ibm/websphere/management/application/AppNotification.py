@@ -30,12 +30,12 @@ DISTRIBUTION_NOT_DONE = "String  \"false\""
 DISTRIBUTION_UNKNOWN = "String  \"unknown\""
 DISTRIBUTION = "String  \"AppDistribution\""
 def AppNotification():
-    '''    public AppNotification(final String tName, final String sName, final String st, final String sst, final String msg, final Properties p)
+    '''public AppNotification(final String tName, final String sName, final String st, final String sst, final String msg, final Properties p)
     public AppNotification(final String tName, final String sName, final String st, final String sst, final String msg)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def setProperties():
-    '''    public void setProperties(final Properties p)
+    '''public void setProperties(final Properties p)
     '''

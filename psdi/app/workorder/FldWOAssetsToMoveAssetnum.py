@@ -1,6 +1,6 @@
 def FldWOAssetsToMoveAssetnum():
-    '''    public FldWOAssetsToMoveAssetnum(final MboValue mbv)
+    '''public FldWOAssetsToMoveAssetnum(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

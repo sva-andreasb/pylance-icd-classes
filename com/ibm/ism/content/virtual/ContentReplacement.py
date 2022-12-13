@@ -1,6 +1,6 @@
 def ContentReplacement():
-    '''    public ContentReplacement(final MboSet ms)
+    '''public ContentReplacement(final MboSet ms)
     '''
 def getList():
-    '''    public MboSetRemote getList(final String attribute)
+    '''public MboSetRemote getList(final String attribute)
     '''

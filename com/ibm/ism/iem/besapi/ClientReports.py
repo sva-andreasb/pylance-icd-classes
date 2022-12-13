@@ -1,24 +1,24 @@
 def getEncryptionStatus():
-    '''    public String getEncryptionStatus()
+    '''public String getEncryptionStatus()
     '''
 def setEncryptionStatus():
-    '''    public void setEncryptionStatus(final String value)
+    '''public void setEncryptionStatus(final String value)
     '''
 def getDetails():
-    '''    public String getDetails()
+    '''public String getDetails()
     '''
 def setDetails():
-    '''    public void setDetails(final String value)
+    '''public void setDetails(final String value)
     '''
 def getKeySize():
-    '''    public String getKeySize()
+    '''public String getKeySize()
     '''
 def setKeySize():
-    '''    public void setKeySize(final String value)
+    '''public void setKeySize(final String value)
     '''
 def getResource():
-    '''    public String getResource()
+    '''public String getResource()
     '''
 def setResource():
-    '''    public void setResource(final String value)
+    '''public void setResource(final String value)
     '''

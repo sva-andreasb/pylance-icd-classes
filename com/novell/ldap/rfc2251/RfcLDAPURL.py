@@ -1,3 +1,3 @@
 def RfcLDAPURL():
-    '''    public RfcLDAPURL(final String s)
+    '''public RfcLDAPURL(final String s)
     '''

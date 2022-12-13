@@ -1,6 +1,6 @@
 def FldSCIsDefault():
-    '''    public FldSCIsDefault(final MboValue mbv)
+    '''public FldSCIsDefault(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

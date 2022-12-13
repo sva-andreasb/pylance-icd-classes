@@ -1,24 +1,24 @@
 def PlusPPriceBookLineAsset():
-    '''    public PlusPPriceBookLineAsset(final MboSet ms)
+    '''public PlusPPriceBookLineAsset(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def copy():
-    '''    public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def getClassSpecMap():
-    '''    public HashMap<String, ArrayList<PlusPPriceBookLineAssetSpecRemote>> getClassSpecMap()
+    '''public HashMap<String, ArrayList<PlusPPriceBookLineAssetSpecRemote>> getClassSpecMap()
     '''
 def clearClassification():
-    '''    public void clearClassification()
+    '''public void clearClassification()
     '''

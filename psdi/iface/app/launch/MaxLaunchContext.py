@@ -1,15 +1,15 @@
 def MaxLaunchContext():
-    '''    public MaxLaunchContext(final MboSet ms)
+    '''public MaxLaunchContext(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''

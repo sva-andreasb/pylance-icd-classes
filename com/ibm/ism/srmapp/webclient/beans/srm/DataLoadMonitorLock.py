@@ -1,3 +1,3 @@
 def DataLoadMonitorLock():
-    '''    public DataLoadMonitorLock()
+    '''public DataLoadMonitorLock()
     '''

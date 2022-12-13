@@ -1,3 +1,3 @@
 def getImpactRules():
-    '''    public static ArrayList<MboRemote> getImpactRules()
+    '''public static ArrayList<MboRemote> getImpactRules()
     '''

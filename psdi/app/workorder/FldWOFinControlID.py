@@ -1,6 +1,6 @@
 def FldWOFinControlID():
-    '''    public FldWOFinControlID(final MboValue mbv)
+    '''public FldWOFinControlID(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

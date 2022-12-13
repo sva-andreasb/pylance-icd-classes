@@ -1,6 +1,6 @@
 def MaxControlValueSet():
-    '''    public MaxControlValueSet(final MboServerInterface ms)
+    '''public MaxControlValueSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

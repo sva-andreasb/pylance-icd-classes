@@ -1,6 +1,6 @@
 def BySetPosRule():
-    '''    public BySetPosRule(final NumberList setPosList)
+    '''public BySetPosRule(final NumberList setPosList)
     '''
 def transform():
-    '''    public DateList transform(final DateList dates)
+    '''public DateList transform(final DateList dates)
     '''

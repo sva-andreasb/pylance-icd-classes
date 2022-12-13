@@ -1,3 +1,3 @@
 def PPACronParamSet():
-    '''    public PPACronParamSet(final MboServerInterface ms)
+    '''public PPACronParamSet(final MboServerInterface ms)
     '''

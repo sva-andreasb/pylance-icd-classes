@@ -1,6 +1,6 @@
 def SurveyPreview():
-    '''    public SurveyPreview(final MboSet ms)
+    '''public SurveyPreview(final MboSet ms)
     '''
 def getList():
-    '''    public MboSetRemote getList(final String attribute)
+    '''public MboSetRemote getList(final String attribute)
     '''

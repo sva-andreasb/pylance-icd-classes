@@ -1,6 +1,6 @@
 def FldPurchViewPORequired():
-    '''    public FldPurchViewPORequired(final MboValue mbv)
+    '''public FldPurchViewPORequired(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

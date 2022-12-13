@@ -1,12 +1,12 @@
 def createFlattened():
-    '''    public static JsonParserSequence createFlattened(final JsonParser first, final JsonParser second)
+    '''public static JsonParserSequence createFlattened(final JsonParser first, final JsonParser second)
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def nextToken():
-    '''    public JsonToken nextToken()
+    '''public JsonToken nextToken()
     '''
 def containedParsersCount():
-    '''    public int containedParsersCount()
+    '''public int containedParsersCount()
     '''

@@ -1,3 +1,3 @@
 def AMCrewWorkZoneSet():
-    '''    public AMCrewWorkZoneSet(final MboServerInterface ms)
+    '''public AMCrewWorkZoneSet(final MboServerInterface ms)
     '''

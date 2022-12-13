@@ -1,3 +1,3 @@
 def testGetKeyColumns():
-    '''    public void testGetKeyColumns()
+    '''public void testGetKeyColumns()
     '''

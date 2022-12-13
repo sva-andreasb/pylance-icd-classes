@@ -1,8 +1,8 @@
 def XmlParser():
-    '''    public XmlParser()
+    '''public XmlParser()
     '''
 def go():
-    '''    public void go(final DocListener document, final InputSource is)
+    '''public void go(final DocListener document, final InputSource is)
     public void go(final DocListener document, final InputSource is, final String tagmap)
     public void go(final DocListener document, final InputSource is, final HashMap tagmap)
     public void go(final DocListener document, final String file)
@@ -10,7 +10,7 @@ def go():
     public void go(final DocListener document, final String file, final HashMap tagmap)
     '''
 def parse():
-    '''    public static void parse(final DocListener document, final InputSource is)
+    '''public static void parse(final DocListener document, final InputSource is)
     public static void parse(final DocListener document, final InputSource is, final String tagmap)
     public static void parse(final DocListener document, final InputSource is, final HashMap tagmap)
     public static void parse(final DocListener document, final String file)

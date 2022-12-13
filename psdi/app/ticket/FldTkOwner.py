@@ -1,6 +1,6 @@
 def FldTkOwner():
-    '''    public FldTkOwner(final MboValue mbv)
+    '''public FldTkOwner(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

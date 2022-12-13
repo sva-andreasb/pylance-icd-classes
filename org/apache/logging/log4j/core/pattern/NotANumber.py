@@ -1,4 +1,4 @@
 VALUE = "String  \"\u0000\""
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

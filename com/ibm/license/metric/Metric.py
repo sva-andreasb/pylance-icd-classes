@@ -93,40 +93,40 @@ USER_VALUE_UNIT = "String  \"USER_VALUE_UNIT\""
 VIRTUAL_SERVER = "String  \"VIRTUAL_SERVER\""
 VU_VALUE_UNIT = "String  \"VU_VALUE_UNIT\""
 def Metric():
-    '''    public Metric()
+    '''public Metric()
     public Metric(final String type, final String subType, final Number value, final Date startTime, final Date endTime)
     public Metric(final String type, final Number value, final Date timestamp)
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''
 def setType():
-    '''    public void setType(final String type)
+    '''public void setType(final String type)
     '''
 def getSubType():
-    '''    public String getSubType()
+    '''public String getSubType()
     '''
 def setSubType():
-    '''    public void setSubType(final String subType)
+    '''public void setSubType(final String subType)
     '''
 def getValue():
-    '''    public Number getValue()
+    '''public Number getValue()
     '''
 def setValue():
-    '''    public void setValue(final Number value)
+    '''public void setValue(final Number value)
     '''
 def getStartTime():
-    '''    public Date getStartTime()
+    '''public Date getStartTime()
     '''
 def setStartTime():
-    '''    public void setStartTime(final Date startTime)
+    '''public void setStartTime(final Date startTime)
     '''
 def getEndTime():
-    '''    public Date getEndTime()
+    '''public Date getEndTime()
     '''
 def setEndTime():
-    '''    public void setEndTime(final Date endTime)
+    '''public void setEndTime(final Date endTime)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

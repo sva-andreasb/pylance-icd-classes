@@ -1,3 +1,3 @@
 def PlusPPriceSchedDummy():
-    '''    public PlusPPriceSchedDummy(final MboSet ms)
+    '''public PlusPPriceSchedDummy(final MboSet ms)
     '''

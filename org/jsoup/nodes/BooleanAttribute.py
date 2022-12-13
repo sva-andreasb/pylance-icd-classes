@@ -1,3 +1,3 @@
 def BooleanAttribute():
-    '''    public BooleanAttribute(final String key)
+    '''public BooleanAttribute(final String key)
     '''

@@ -5,152 +5,152 @@ fetchStopExclusion = "String  \"mxe.db.fetchStopExclusion\""
 lookupMaxRowProperty = "String  \"mxe.db.lookupMaxRow\""
 MT_OFFSET = "long  11111L"
 def MaximoDD():
-    '''    public MaximoDD()
+    '''public MaximoDD()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def reload():
-    '''    public void reload()
+    '''public void reload()
     public void reload(final String key)
     '''
 def getDBPlatform():
-    '''    public int getDBPlatform()
+    '''public int getDBPlatform()
     '''
 def getOraVersion():
-    '''    public double getOraVersion()
+    '''public double getOraVersion()
     '''
 def getDB2Version():
-    '''    public double getDB2Version()
+    '''public double getDB2Version()
     '''
 def getAppFieldDefaults():
-    '''    public HashMap<String, String> getAppFieldDefaults(final String appName, final String objectName, final String siteid, final String userName, final HashSet groupNames)
+    '''public HashMap<String, String> getAppFieldDefaults(final String appName, final String objectName, final String siteid, final String userName, final HashSet groupNames)
     '''
 def getSequenceName():
-    '''    public String getSequenceName(final String tbName, final String colName)
+    '''public String getSequenceName(final String tbName, final String colName)
     '''
 def getRelationships():
-    '''    public HashMap<String, RelationInfo> getRelationships(final String objectName)
+    '''public HashMap<String, RelationInfo> getRelationships(final String objectName)
     '''
 def updateMboValueInfoWithDomainInfo():
-    '''    public void updateMboValueInfoWithDomainInfo()
+    '''public void updateMboValueInfoWithDomainInfo()
     public void updateMboValueInfoWithDomainInfo(final String domainId)
     '''
 def isLongDescriptionSearchable():
-    '''    public boolean isLongDescriptionSearchable()
+    '''public boolean isLongDescriptionSearchable()
     '''
 def getDomainFactoryName():
-    '''    public String getDomainFactoryName(final String domainType)
+    '''public String getDomainFactoryName(final String domainType)
     '''
 def getOrgId():
-    '''    public String getOrgId(String siteId)
+    '''public String getOrgId(String siteId)
     '''
 def isValidSite():
-    '''    public boolean isValidSite(final String siteId)
+    '''public boolean isValidSite(final String siteId)
     '''
 def isValidOrganization():
-    '''    public boolean isValidOrganization(final String orgId)
+    '''public boolean isValidOrganization(final String orgId)
     '''
 def isSiteInOrganization():
-    '''    public boolean isSiteInOrganization(final String siteId, final String orgId)
+    '''public boolean isSiteInOrganization(final String siteId, final String orgId)
     '''
 def getGLConfigure():
-    '''    public TreeMap<Integer, HashMap<String, Object>> getGLConfigure()
+    '''public TreeMap<Integer, HashMap<String, Object>> getGLConfigure()
     public TreeMap<Integer, HashMap<String, Object>> getGLConfigure(final String orgid)
     '''
 def isESigEnabled():
-    '''    public boolean isESigEnabled(final String applicationName, final String optionName)
+    '''public boolean isESigEnabled(final String applicationName, final String optionName)
     '''
 def getBaseCurrency():
-    '''    public String getBaseCurrency(String orgId)
+    '''public String getBaseCurrency(String orgId)
     '''
 def getTranslator():
-    '''    public Translate getTranslator()
+    '''public Translate getTranslator()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getServiceInfo():
-    '''    public ServiceInfo getServiceInfo(final String service)
+    '''public ServiceInfo getServiceInfo(final String service)
     '''
 def getServicesInfo():
-    '''    public Iterator getServicesInfo()
+    '''public Iterator getServicesInfo()
     '''
 def getIndexInfo():
-    '''    public String[] getIndexInfo(String ixname)
+    '''public String[] getIndexInfo(String ixname)
     '''
 def getMboSetInfo():
-    '''    public MboSetInfo getMboSetInfo(final String ms)
+    '''public MboSetInfo getMboSetInfo(final String ms)
     '''
 def getMboSetsInfo():
-    '''    public Iterator getMboSetsInfo()
+    '''public Iterator getMboSetsInfo()
     '''
 def getRelationInfo():
-    '''    public RelationInfo getRelationInfo(final String n)
+    '''public RelationInfo getRelationInfo(final String n)
     '''
 def getRelationsInfo():
-    '''    public Iterator getRelationsInfo()
+    '''public Iterator getRelationsInfo()
     '''
 def getDomainsInfo():
-    '''    public Iterator getDomainsInfo()
+    '''public Iterator getDomainsInfo()
     '''
 def getDomainInfo():
-    '''    public DomainInfo getDomainInfo(final String name)
+    '''public DomainInfo getDomainInfo(final String name)
     '''
 def storeClobAsClob():
-    '''    public boolean storeClobAsClob()
+    '''public boolean storeClobAsClob()
     '''
 def storeLongalnAsClob():
-    '''    public boolean storeLongalnAsClob()
+    '''public boolean storeLongalnAsClob()
     '''
 def storeBlobAsBlob():
-    '''    public boolean storeBlobAsBlob()
+    '''public boolean storeBlobAsBlob()
     '''
 def getLangTableName():
-    '''    public String getLangTableName(final String table)
+    '''public String getLangTableName(final String table)
     '''
 def getUniqueIdColumn():
-    '''    public String getUniqueIdColumn(final String table)
+    '''public String getUniqueIdColumn(final String table)
     '''
 def getContentAttrName():
-    '''    public String getContentAttrName(final String table)
+    '''public String getContentAttrName(final String table)
     '''
 def getLangCodeColumn():
-    '''    public String getLangCodeColumn(final String table)
+    '''public String getLangCodeColumn(final String table)
     '''
 def isMLInUse():
-    '''    public boolean isMLInUse(final String table)
+    '''public boolean isMLInUse(final String table)
     '''
 def getAltIxName():
-    '''    public String getAltIxName(final String table)
+    '''public String getAltIxName(final String table)
     '''
 def getStorageType():
-    '''    public int getStorageType(String table)
+    '''public int getStorageType(String table)
     '''
 def isDeltaStorageObject():
-    '''    public boolean isDeltaStorageObject(final String objectName)
+    '''public boolean isDeltaStorageObject(final String objectName)
     '''
 def getExtTableName():
-    '''    public String getExtTableName(final String table)
+    '''public String getExtTableName(final String table)
     '''
 def isExtTable():
-    '''    public boolean isExtTable(final String tableName)
+    '''public boolean isExtTable(final String tableName)
     '''
 def getBaseObjectName():
-    '''    public String getBaseObjectName(final String tableName)
+    '''public String getBaseObjectName(final String tableName)
     '''
 def eventValidate():
-    '''    public boolean eventValidate(final EventMessage em)
+    '''public boolean eventValidate(final EventMessage em)
     '''
 def preSaveEventAction():
-    '''    public void preSaveEventAction(final EventMessage em)
+    '''public void preSaveEventAction(final EventMessage em)
     '''
 def eventAction():
-    '''    public void eventAction(final EventMessage em)
+    '''public void eventAction(final EventMessage em)
     '''
 def postCommitEventAction():
-    '''    public void postCommitEventAction(final EventMessage em)
+    '''public void postCommitEventAction(final EventMessage em)
     '''

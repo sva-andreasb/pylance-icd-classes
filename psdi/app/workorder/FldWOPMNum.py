@@ -1,6 +1,6 @@
 def FldWOPMNum():
-    '''    public FldWOPMNum(final MboValue mbv)
+    '''public FldWOPMNum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

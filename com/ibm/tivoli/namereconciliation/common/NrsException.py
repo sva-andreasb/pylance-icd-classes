@@ -1,9 +1,9 @@
 def NrsException():
-    '''    public NrsException(final int errorCode)
+    '''public NrsException(final int errorCode)
     '''
 def getErrorCode():
-    '''    public int getErrorCode()
+    '''public int getErrorCode()
     '''
 def getMessage():
-    '''    public String getMessage()
+    '''public String getMessage()
     '''

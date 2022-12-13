@@ -1,3 +1,3 @@
 def MailEvent():
-    '''    public MailEvent(final Object source)
+    '''public MailEvent(final Object source)
     '''

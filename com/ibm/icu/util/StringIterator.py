@@ -1,18 +1,18 @@
 def reset():
-    '''    public void reset(final CharSequence s, final int sIndex)
+    '''public void reset(final CharSequence s, final int sIndex)
     '''
 def next():
-    '''    public boolean next()
+    '''public boolean next()
     '''
 def previous():
-    '''    public boolean previous()
+    '''public boolean previous()
     '''
 def getIndex():
-    '''    public final int getIndex()
+    '''public final int getIndex()
     '''
 def getCodePoint():
-    '''    public final int getCodePoint()
+    '''public final int getCodePoint()
     '''
 def getValue():
-    '''    public final int getValue()
+    '''public final int getValue()
     '''

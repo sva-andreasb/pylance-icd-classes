@@ -16,41 +16,41 @@ SRC_NFKC_CF = "int  10"
 SRC_NFC_CANON_ITER = "int  11"
 SRC_COUNT = "int  12"
 def setIndexData():
-    '''    public void setIndexData(final CharTrie.FriendAgent friendagent)
+    '''public void setIndexData(final CharTrie.FriendAgent friendagent)
     '''
 def getProperty():
-    '''    public final int getProperty(final int ch)
+    '''public final int getProperty(final int ch)
     '''
 def getAdditional():
-    '''    public int getAdditional(final int codepoint, final int column)
+    '''public int getAdditional(final int codepoint, final int column)
     '''
 def getAge():
-    '''    public VersionInfo getAge(final int codepoint)
+    '''public VersionInfo getAge(final int codepoint)
     '''
 def hasBinaryProperty():
-    '''    public boolean hasBinaryProperty(int c, final int which)
+    '''public boolean hasBinaryProperty(int c, final int which)
     '''
 def getSource():
-    '''    public final int getSource(final int which)
+    '''public final int getSource(final int which)
     '''
 def getRawSupplementary():
-    '''    public static int getRawSupplementary(final char lead, final char trail)
+    '''public static int getRawSupplementary(final char lead, final char trail)
     '''
 def isRuleWhiteSpace():
-    '''    public static boolean isRuleWhiteSpace(final int c)
+    '''public static boolean isRuleWhiteSpace(final int c)
     '''
 def getMaxValues():
-    '''    public int getMaxValues(final int column)
+    '''public int getMaxValues(final int column)
     '''
 def getMask():
-    '''    public static final int getMask(final int type)
+    '''public static final int getMask(final int type)
     '''
 def addPropertyStarts():
-    '''    public UnicodeSet addPropertyStarts(final UnicodeSet set)
+    '''public UnicodeSet addPropertyStarts(final UnicodeSet set)
     '''
 def upropsvec_addPropertyStarts():
-    '''    public void upropsvec_addPropertyStarts(final UnicodeSet set)
+    '''public void upropsvec_addPropertyStarts(final UnicodeSet set)
     '''
 def BinaryProperties():
-    '''    public BinaryProperties(final int column, final int mask)
+    '''public BinaryProperties(final int column, final int mask)
     '''

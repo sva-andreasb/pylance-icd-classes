@@ -1,3 +1,3 @@
 def FldMaxLookupMapSource():
-    '''    public FldMaxLookupMapSource(final MboValue mbv)
+    '''public FldMaxLookupMapSource(final MboValue mbv)
     '''

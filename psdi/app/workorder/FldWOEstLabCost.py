@@ -1,9 +1,9 @@
 def FldWOEstLabCost():
-    '''    public FldWOEstLabCost(final MboValue mbv)
+    '''public FldWOEstLabCost(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

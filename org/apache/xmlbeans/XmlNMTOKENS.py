@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_NMTOKENS\")"
 def newInstance():
-    '''    public static XmlNMTOKENS newInstance()
+    '''public static XmlNMTOKENS newInstance()
     public static XmlNMTOKENS newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlNMTOKENS newValue(final Object obj)
+    '''public static XmlNMTOKENS newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlNMTOKENS parse(final String s)
+    '''public static XmlNMTOKENS parse(final String s)
     public static XmlNMTOKENS parse(final String s, final XmlOptions options)
     public static XmlNMTOKENS parse(final File f)
     public static XmlNMTOKENS parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlNMTOKENS parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

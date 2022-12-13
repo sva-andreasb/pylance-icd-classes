@@ -1,6 +1,6 @@
 def FldToolTransLocation():
-    '''    public FldToolTransLocation(final MboValue mbv)
+    '''public FldToolTransLocation(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,60 +1,60 @@
 def IoTRestEndPointsInfo():
-    '''    public IoTRestEndPointsInfo(final Map<String, String> data)
+    '''public IoTRestEndPointsInfo(final Map<String, String> data)
     '''
 def getIoTServiceName():
-    '''    public String getIoTServiceName()
+    '''public String getIoTServiceName()
     '''
 def getLabel():
-    '''    public String getLabel()
+    '''public String getLabel()
     '''
 def getSequence():
-    '''    public String getSequence()
+    '''public String getSequence()
     '''
 def getEndPointName():
-    '''    public String getEndPointName()
+    '''public String getEndPointName()
     '''
 def getUsedWith():
-    '''    public String getUsedWith()
+    '''public String getUsedWith()
     '''
 def getEndPointValue():
-    '''    public String getEndPointValue()
+    '''public String getEndPointValue()
     '''
 def getHttpMethod():
-    '''    public String getHttpMethod()
+    '''public String getHttpMethod()
     '''
 def getSort():
-    '''    public String getSort()
+    '''public String getSort()
     '''
 def getBody():
-    '''    public String getBody()
+    '''public String getBody()
     '''
 def getLastMessageTag():
-    '''    public String getLastMessageTag()
+    '''public String getLastMessageTag()
     '''
 def getRange():
-    '''    public String getRange()
+    '''public String getRange()
     '''
 def getRangeMap():
-    '''    public Map<String, String> getRangeMap()
+    '''public Map<String, String> getRangeMap()
     '''
 def getNameTag():
-    '''    public String getNameTag()
+    '''public String getNameTag()
     '''
 def getValueTag():
-    '''    public String getValueTag()
+    '''public String getValueTag()
     '''
 def getReadingDateTagName():
-    '''    public String getReadingDateTagName()
+    '''public String getReadingDateTagName()
     '''
 def getReadingDateFormat():
-    '''    public String getReadingDateFormat()
+    '''public String getReadingDateFormat()
     '''
 def getReadingDateTagMap():
-    '''    public Map<String, String> getReadingDateTagMap()
+    '''public Map<String, String> getReadingDateTagMap()
     '''
 def getResultTag():
-    '''    public String getResultTag()
+    '''public String getResultTag()
     '''
 def getReadingDateTagMapString():
-    '''    public String getReadingDateTagMapString()
+    '''public String getReadingDateTagMapString()
     '''

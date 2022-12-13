@@ -1,6 +1,6 @@
 def FeatureSpec():
-    '''    public FeatureSpec(final MboSet ms)
+    '''public FeatureSpec(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -1,6 +1,6 @@
 def FldWOLocUserCustUser():
-    '''    public FldWOLocUserCustUser(final MboValue mbv)
+    '''public FldWOLocUserCustUser(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

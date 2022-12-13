@@ -1,3 +1,3 @@
 def getProperties():
-    '''    public List<RouterPropsInfo> getProperties()
+    '''public List<RouterPropsInfo> getProperties()
     '''

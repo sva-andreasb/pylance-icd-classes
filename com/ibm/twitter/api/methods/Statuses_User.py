@@ -1,6 +1,6 @@
 def Statuses_User():
-    '''    public Statuses_User(final String str)
+    '''public Statuses_User(final String str)
     '''
 def getResult():
-    '''    public List<Status> getResult()
+    '''public List<Status> getResult()
     '''

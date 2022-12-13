@@ -5,26 +5,26 @@ STATUS_OK_AFTER_SPACE = "int  3"
 STATUS_EXPECT_VALUE = "int  4"
 STATUS_EXPECT_NAME = "int  5"
 def createRootContext():
-    '''    public static JsonWriteContext createRootContext()
+    '''public static JsonWriteContext createRootContext()
     '''
 def createChildArrayContext():
-    '''    public final JsonWriteContext createChildArrayContext()
+    '''public final JsonWriteContext createChildArrayContext()
     '''
 def createChildObjectContext():
-    '''    public final JsonWriteContext createChildObjectContext()
+    '''public final JsonWriteContext createChildObjectContext()
     '''
 def getParent():
-    '''    public final JsonWriteContext getParent()
+    '''public final JsonWriteContext getParent()
     '''
 def getCurrentName():
-    '''    public final String getCurrentName()
+    '''public final String getCurrentName()
     '''
 def writeFieldName():
-    '''    public final int writeFieldName(final String name)
+    '''public final int writeFieldName(final String name)
     '''
 def writeValue():
-    '''    public final int writeValue()
+    '''public final int writeValue()
     '''
 def toString():
-    '''    public final String toString()
+    '''public final String toString()
     '''

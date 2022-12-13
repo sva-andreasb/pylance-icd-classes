@@ -1,12 +1,12 @@
 def getComponentType():
-    '''    public String getComponentType()
+    '''public String getComponentType()
     '''
 def getRendererType():
-    '''    public String getRendererType()
+    '''public String getRendererType()
     '''
 def setActionName():
-    '''    public void setActionName(final String a)
+    '''public void setActionName(final String a)
     '''
 def getActionName():
-    '''    public String getActionName()
+    '''public String getActionName()
     '''

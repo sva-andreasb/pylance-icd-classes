@@ -1,3 +1,3 @@
 def TimeProvider():
-    '''    public TimeProvider()
+    '''public TimeProvider()
     '''

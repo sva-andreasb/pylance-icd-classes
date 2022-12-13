@@ -1,3 +1,3 @@
 def FldSCTemplateID():
-    '''    public FldSCTemplateID(final MboValue mbv)
+    '''public FldSCTemplateID(final MboValue mbv)
     '''

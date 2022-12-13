@@ -1,3 +1,3 @@
 def PmCfgLifecycleAssignmentBean():
-    '''    public PmCfgLifecycleAssignmentBean()
+    '''public PmCfgLifecycleAssignmentBean()
     '''

@@ -1,9 +1,9 @@
 def CachedFile():
-    '''    public CachedFile(final File file, final MessageHeader headers, final URL url)
+    '''public CachedFile(final File file, final MessageHeader headers, final URL url)
     '''
 def getHeaderFields():
-    '''    public MessageHeader getHeaderFields()
+    '''public MessageHeader getHeaderFields()
     '''
 def getURL():
-    '''    public URL getURL()
+    '''public URL getURL()
     '''

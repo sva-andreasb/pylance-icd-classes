@@ -1,3 +1,3 @@
 def CorruptedOmemoKeyException():
-    '''    public CorruptedOmemoKeyException(final String message)
+    '''public CorruptedOmemoKeyException(final String message)
     '''

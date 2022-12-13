@@ -1,36 +1,36 @@
 def ToolbarActions():
-    '''    public ToolbarActions()
+    '''public ToolbarActions()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def hasButtons():
-    '''    public boolean hasButtons()
+    '''public boolean hasButtons()
     '''
 def setLastSep():
-    '''    public void setLastSep(final boolean sep)
+    '''public void setLastSep(final boolean sep)
     '''
 def wasLastSep():
-    '''    public boolean wasLastSep()
+    '''public boolean wasLastSep()
     '''
 def preRender():
-    '''    public boolean preRender()
+    '''public boolean preRender()
     '''
 def setSaveButtonId():
-    '''    public void setSaveButtonId(final String id)
+    '''public void setSaveButtonId(final String id)
     '''
 def getSaveButtonId():
-    '''    public String getSaveButtonId()
+    '''public String getSaveButtonId()
     '''
 def createShowEventList():
-    '''    public void createShowEventList()
+    '''public void createShowEventList()
     '''
 def showOnToolbar():
-    '''    public boolean showOnToolbar(final String eventName)
+    '''public boolean showOnToolbar(final String eventName)
     '''
 def addrenderScript():
-    '''    public void addrenderScript(final String script)
+    '''public void addrenderScript(final String script)
     '''
 def getRenderScripts():
-    '''    public JSONArray getRenderScripts()
+    '''public JSONArray getRenderScripts()
     '''

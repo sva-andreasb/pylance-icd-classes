@@ -1,6 +1,6 @@
 def createDefault():
-    '''    public static SchemeRegistry createDefault()
+    '''public static SchemeRegistry createDefault()
     '''
 def createSystemDefault():
-    '''    public static SchemeRegistry createSystemDefault()
+    '''public static SchemeRegistry createSystemDefault()
     '''

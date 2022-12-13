@@ -1,9 +1,9 @@
 def SKDWeekTimeScaleRow():
-    '''    public SKDWeekTimeScaleRow()
+    '''public SKDWeekTimeScaleRow()
     '''
 def getDateFormat():
-    '''    public Format getDateFormat()
+    '''public Format getDateFormat()
     '''
 def setPrefix():
-    '''    public void setPrefix(final String prefix)
+    '''public void setPrefix(final String prefix)
     '''

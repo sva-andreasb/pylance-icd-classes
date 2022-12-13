@@ -1,12 +1,12 @@
 def CiphertextTuple():
-    '''    public CiphertextTuple(final byte[] ciphertext, final int type)
+    '''public CiphertextTuple(final byte[] ciphertext, final int type)
     '''
 def getCiphertext():
-    '''    public byte[] getCiphertext()
+    '''public byte[] getCiphertext()
     '''
 def getMessageType():
-    '''    public int getMessageType()
+    '''public int getMessageType()
     '''
 def isPreKeyMessage():
-    '''    public boolean isPreKeyMessage()
+    '''public boolean isPreKeyMessage()
     '''

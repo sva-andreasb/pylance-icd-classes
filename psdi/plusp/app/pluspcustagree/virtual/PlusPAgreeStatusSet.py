@@ -1,3 +1,3 @@
 def PlusPAgreeStatusSet():
-    '''    public PlusPAgreeStatusSet(final MboServerInterface ms)
+    '''public PlusPAgreeStatusSet(final MboServerInterface ms)
     '''

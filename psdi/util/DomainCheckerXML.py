@@ -1,9 +1,9 @@
 def DomainCheckerXML():
-    '''    public DomainCheckerXML()
+    '''public DomainCheckerXML()
     '''
 def loadByPassXML():
-    '''    public HashSet<String> loadByPassXML()
+    '''public HashSet<String> loadByPassXML()
     '''
 def startElement():
-    '''    public void startElement(final String uri, final String localName, final String qname, final Attributes attributes)
+    '''public void startElement(final String uri, final String localName, final String qname, final Attributes attributes)
     '''

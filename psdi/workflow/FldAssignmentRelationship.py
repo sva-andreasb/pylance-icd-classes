@@ -1,6 +1,6 @@
 def FldAssignmentRelationship():
-    '''    public FldAssignmentRelationship(final MboValue mbv)
+    '''public FldAssignmentRelationship(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

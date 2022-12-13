@@ -7,20 +7,20 @@ UNPARSEABLE = "int  6"
 PARSE_FAILED = "int  7"
 UNENDED_COMMENT = "int  8"
 def CatalogException():
-    '''    public CatalogException(final int type, final String message)
+    '''public CatalogException(final int type, final String message)
     public CatalogException(final int type)
     public CatalogException(final Exception e)
     public CatalogException(final String message, final Exception e)
     '''
 def getMessage():
-    '''    public String getMessage()
+    '''public String getMessage()
     '''
 def getException():
-    '''    public Exception getException()
+    '''public Exception getException()
     '''
 def getExceptionType():
-    '''    public int getExceptionType()
+    '''public int getExceptionType()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

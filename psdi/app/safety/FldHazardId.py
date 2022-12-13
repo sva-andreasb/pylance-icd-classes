@@ -1,3 +1,3 @@
 def FldHazardId():
-    '''    public FldHazardId(final MboValue mbv)
+    '''public FldHazardId(final MboValue mbv)
     '''

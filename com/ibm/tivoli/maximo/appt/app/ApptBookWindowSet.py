@@ -1,3 +1,3 @@
 def ApptBookWindowSet():
-    '''    public ApptBookWindowSet(final MboServerInterface ms)
+    '''public ApptBookWindowSet(final MboServerInterface ms)
     '''

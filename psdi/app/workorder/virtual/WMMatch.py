@@ -1,3 +1,3 @@
 def WMMatch():
-    '''    public WMMatch(final MboSet ms)
+    '''public WMMatch(final MboSet ms)
     '''

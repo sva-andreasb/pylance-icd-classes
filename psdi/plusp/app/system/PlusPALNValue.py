@@ -1,6 +1,6 @@
 def PlusPALNValue():
-    '''    public PlusPALNValue(final MboSet arg0)
+    '''public PlusPALNValue(final MboSet arg0)
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

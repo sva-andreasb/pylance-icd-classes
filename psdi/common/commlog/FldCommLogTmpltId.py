@@ -1,6 +1,6 @@
 def FldCommLogTmpltId():
-    '''    public FldCommLogTmpltId(final MboValue mbv)
+    '''public FldCommLogTmpltId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

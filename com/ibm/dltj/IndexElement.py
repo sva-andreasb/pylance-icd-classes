@@ -1,12 +1,12 @@
 def getLemma():
-    '''    public StringBuffer getLemma()
+    '''public StringBuffer getLemma()
     '''
 def getNext():
-    '''    public IndexElement getNext()
+    '''public IndexElement getNext()
     '''
 def getBegin():
-    '''    public int getBegin()
+    '''public int getBegin()
     '''
 def getEnd():
-    '''    public int getEnd()
+    '''public int getEnd()
     '''

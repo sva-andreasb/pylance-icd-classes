@@ -1,6 +1,6 @@
 def ADESC():
-    '''    public int ADESC()
+    '''public int ADESC()
     '''
 def VALIDATE():
-    '''    public int VALIDATE()
+    '''public int VALIDATE()
     '''

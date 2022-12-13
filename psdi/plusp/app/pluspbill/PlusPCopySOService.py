@@ -1,31 +1,31 @@
 def PlusPCopySOService():
-    '''    public PlusPCopySOService()
+    '''public PlusPCopySOService()
     public PlusPCopySOService(final MXServer mxServer)
     '''
 def getUniqueWhereClause():
-    '''    public String getUniqueWhereClause()
+    '''public String getUniqueWhereClause()
     '''
 def getBillLineWhereClause():
-    '''    public String getBillLineWhereClause()
+    '''public String getBillLineWhereClause()
     '''
 def getMessageKey():
-    '''    public String getMessageKey()
+    '''public String getMessageKey()
     '''
 def populateObjectSpecificFields():
-    '''    public void populateObjectSpecificFields(final MboRemote mboRemote, final MboRemote mboRemote2)
+    '''public void populateObjectSpecificFields(final MboRemote mboRemote, final MboRemote mboRemote2)
     '''
 def populateAgreementFields():
-    '''    public void populateAgreementFields(final MboRemote mboRemote, final MboRemote mboRemote2)
+    '''public void populateAgreementFields(final MboRemote mboRemote, final MboRemote mboRemote2)
     '''
 def populateBillBatchFields():
-    '''    public void populateBillBatchFields(final PlusPBillLineRemote plusPBillLineRemote, final MboRemote mboRemote)
+    '''public void populateBillBatchFields(final PlusPBillLineRemote plusPBillLineRemote, final MboRemote mboRemote)
     '''
 def getObjectBillLineRelationship():
-    '''    public String getObjectBillLineRelationship()
+    '''public String getObjectBillLineRelationship()
     '''
 def getObjectName():
-    '''    public String getObjectName()
+    '''public String getObjectName()
     '''
 def getObjectSet():
-    '''    public MboSetRemote getObjectSet(final PlusPCopyUtil plusPCopyUtil)
+    '''public MboSetRemote getObjectSet(final PlusPCopyUtil plusPCopyUtil)
     '''

@@ -1,6 +1,6 @@
 def JacobianFunction():
-    '''    public JacobianFunction(final MultivariateDifferentiableVectorFunction f)
+    '''public JacobianFunction(final MultivariateDifferentiableVectorFunction f)
     '''
 def value():
-    '''    public double[][] value(final double[] point)
+    '''public double[][] value(final double[] point)
     '''

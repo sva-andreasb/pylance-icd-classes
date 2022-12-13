@@ -1,3 +1,3 @@
 def toUnicode():
-    '''    public static String toUnicode(final String punycode)
+    '''public static String toUnicode(final String punycode)
     '''

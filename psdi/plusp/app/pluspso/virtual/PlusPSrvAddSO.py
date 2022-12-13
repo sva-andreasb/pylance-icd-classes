@@ -1,6 +1,6 @@
 def PlusPSrvAddSO():
-    '''    public PlusPSrvAddSO(final MboSet ms)
+    '''public PlusPSrvAddSO(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

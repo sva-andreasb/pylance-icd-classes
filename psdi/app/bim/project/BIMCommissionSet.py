@@ -1,6 +1,6 @@
 def BIMCommissionSet():
-    '''    public BIMCommissionSet(final MboServerInterface ms)
+    '''public BIMCommissionSet(final MboServerInterface ms)
     '''
 def getTranslator():
-    '''    public Translate getTranslator()
+    '''public Translate getTranslator()
     '''

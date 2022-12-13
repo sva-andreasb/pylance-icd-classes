@@ -1,6 +1,6 @@
 def groupContentQueried():
-    '''    public void groupContentQueried(final GroupContentEvent groupContentEvent)
+    '''public void groupContentQueried(final GroupContentEvent groupContentEvent)
     '''
 def queryGroupContentFailed():
-    '''    public void queryGroupContentFailed(final GroupContentEvent groupContentEvent)
+    '''public void queryGroupContentFailed(final GroupContentEvent groupContentEvent)
     '''

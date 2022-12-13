@@ -1,6 +1,6 @@
 def TenantChangeStatus():
-    '''    public TenantChangeStatus(final MboSet ms)
+    '''public TenantChangeStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

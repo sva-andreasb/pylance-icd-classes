@@ -8,14 +8,14 @@ INT_RECT = "int  2"
 INT_SEGMENTS = "int  3"
 INT_CUSTOM = "int  4"
 def newValue():
-    '''    public static STConnectType newValue(final Object o)
+    '''public static STConnectType newValue(final Object o)
     '''
 def newInstance():
-    '''    public static STConnectType newInstance()
+    '''public static STConnectType newInstance()
     public static STConnectType newInstance(final XmlOptions xmlOptions)
     '''
 def parse():
-    '''    public static STConnectType parse(final String s)
+    '''public static STConnectType parse(final String s)
     public static STConnectType parse(final String s, final XmlOptions xmlOptions)
     public static STConnectType parse(final File file)
     public static STConnectType parse(final File file, final XmlOptions xmlOptions)
@@ -33,12 +33,12 @@ def parse():
     public static STConnectType parse(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''
 def forString():
-    '''    public static Enum forString(final String s)
+    '''public static Enum forString(final String s)
     '''
 def forInt():
-    '''    public static Enum forInt(final int n)
+    '''public static Enum forInt(final int n)
     '''

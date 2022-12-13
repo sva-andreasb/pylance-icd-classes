@@ -1,3 +1,3 @@
 def JPDummyStatus():
-    '''    public JPDummyStatus(final MboSet ms)
+    '''public JPDummyStatus(final MboSet ms)
     '''

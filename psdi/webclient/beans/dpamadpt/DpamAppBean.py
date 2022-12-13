@@ -1,3 +1,3 @@
 def getKeyAttribute():
-    '''    public String getKeyAttribute()
+    '''public String getKeyAttribute()
     '''

@@ -1,18 +1,18 @@
 def RootTag():
-    '''    public RootTag()
+    '''public RootTag()
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''
 def getPathUri():
-    '''    public URI getPathUri()
+    '''public URI getPathUri()
     '''
 def setPathUri():
-    '''    public void setPathUri(final URI pathUri)
+    '''public void setPathUri(final URI pathUri)
     '''
 def getKeyColumnConcatenationsMap():
-    '''    public KeyColumnConcatenationsMap getKeyColumnConcatenationsMap()
+    '''public KeyColumnConcatenationsMap getKeyColumnConcatenationsMap()
     '''
 def getUserDefinedKeyColumns():
-    '''    public List<KeyColumn> getUserDefinedKeyColumns()
+    '''public List<KeyColumn> getUserDefinedKeyColumns()
     '''

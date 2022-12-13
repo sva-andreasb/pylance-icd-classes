@@ -1,3 +1,3 @@
 def Y():
-    '''    public Y(final InputStream inputStream)
+    '''public Y(final InputStream inputStream)
     '''

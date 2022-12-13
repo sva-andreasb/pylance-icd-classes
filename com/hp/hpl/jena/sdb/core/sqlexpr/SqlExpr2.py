@@ -1,15 +1,15 @@
 def SqlExpr2():
-    '''    public SqlExpr2(final SqlExpr left, final SqlExpr right, final String symbol)
+    '''public SqlExpr2(final SqlExpr left, final SqlExpr right, final String symbol)
     '''
 def getLeft():
-    '''    public SqlExpr getLeft()
+    '''public SqlExpr getLeft()
     '''
 def getRight():
-    '''    public SqlExpr getRight()
+    '''public SqlExpr getRight()
     '''
 def getOpSymbol():
-    '''    public String getOpSymbol()
+    '''public String getOpSymbol()
     '''
 def visit():
-    '''    public void visit(final SqlExprVisitor visitor)
+    '''public void visit(final SqlExprVisitor visitor)
     '''

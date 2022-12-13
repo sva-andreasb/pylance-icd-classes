@@ -1,3 +1,3 @@
 def DepAllocSchedDef():
-    '''    public DepAllocSchedDef(final MboSet ms)
+    '''public DepAllocSchedDef(final MboSet ms)
     '''

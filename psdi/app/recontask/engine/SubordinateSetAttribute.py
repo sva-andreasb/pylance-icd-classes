@@ -1,9 +1,9 @@
 def SubordinateSetAttribute():
-    '''    public SubordinateSetAttribute(final ReconInfo reconInfo)
+    '''public SubordinateSetAttribute(final ReconInfo reconInfo)
     '''
 def addValue():
-    '''    public void addValue(Object value, final ReconValue objectInstance)
+    '''public void addValue(Object value, final ReconValue objectInstance)
     '''
 def evaluateOperatorEquals():
-    '''    public List evaluateOperatorEquals(Object value)
+    '''public List evaluateOperatorEquals(Object value)
     '''

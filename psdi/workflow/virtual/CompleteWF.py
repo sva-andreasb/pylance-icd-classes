@@ -1,9 +1,9 @@
 def CompleteWF():
-    '''    public CompleteWF(final MboSet ms)
+    '''public CompleteWF(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def getMboSet():
-    '''    public MboSetRemote getMboSet(final String name)
+    '''public MboSetRemote getMboSet(final String name)
     '''

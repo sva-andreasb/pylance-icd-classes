@@ -27,125 +27,125 @@ JOB_DURATION_MINUTE = "int  2"
 JOB_DURATION_HOUR = "int  3"
 JOB_DURATION_DAY = "int  4"
 def ItemJOB():
-    '''    public ItemJOB()
+    '''public ItemJOB()
     '''
 def isDuplicat():
-    '''    public boolean isDuplicat(final Parser parser, final Item item)
+    '''public boolean isDuplicat(final Parser parser, final Item item)
     '''
 def resolveRerefences():
-    '''    public void resolveRerefences(final Parser project, final long flags)
+    '''public void resolveRerefences(final Parser project, final long flags)
     '''
 def addTask():
-    '''    public void addTask(final JobTask task)
+    '''public void addTask(final JobTask task)
     '''
 def getPageId():
-    '''    public String getPageId()
+    '''public String getPageId()
     '''
 def findTaskByName():
-    '''    public JobTask findTaskByName(final String name)
+    '''public JobTask findTaskByName(final String name)
     '''
 def getJobType():
-    '''    public int getJobType()
+    '''public int getJobType()
     '''
 def addResource():
-    '''    public void addResource(final ItemRESOURCE resource)
+    '''public void addResource(final ItemRESOURCE resource)
     '''
 def resources():
-    '''    public Enumeration<ItemRESOURCE> resources()
+    '''public Enumeration<ItemRESOURCE> resources()
     '''
 def getStatus():
-    '''    public String getStatus()
+    '''public String getStatus()
     '''
 def setStatus():
-    '''    public void setStatus(final String status)
+    '''public void setStatus(final String status)
     '''
 def getTypeName():
-    '''    public String getTypeName()
+    '''public String getTypeName()
     '''
 def setTypeName():
-    '''    public void setTypeName(String typeName)
+    '''public void setTypeName(String typeName)
     '''
 def getTypeReference():
-    '''    public ItemTYPE[] getTypeReference()
+    '''public ItemTYPE[] getTypeReference()
     '''
 def setTypeReference():
-    '''    public void setTypeReference(final ItemTYPE[] typeReferences)
+    '''public void setTypeReference(final ItemTYPE[] typeReferences)
     '''
 def getDuration():
-    '''    public String getDuration()
+    '''public String getDuration()
     '''
 def setDuration():
-    '''    public void setDuration(final String duration)
+    '''public void setDuration(final String duration)
     '''
 def getDurationUnit():
-    '''    public String getDurationUnit()
+    '''public String getDurationUnit()
     '''
 def getDurationUnitType():
-    '''    public int getDurationUnitType()
+    '''public int getDurationUnitType()
     '''
 def setDurationUnit():
-    '''    public void setDurationUnit(final String durationUnit)
+    '''public void setDurationUnit(final String durationUnit)
     '''
 def getStart():
-    '''    public String getStart()
+    '''public String getStart()
     '''
 def setStart():
-    '''    public void setStart(final String start)
+    '''public void setStart(final String start)
     '''
 def getTaskStartUnit():
-    '''    public String getTaskStartUnit()
+    '''public String getTaskStartUnit()
     '''
 def setTaskStartUnit():
-    '''    public void setTaskStartUnit(final String taskStartUnit)
+    '''public void setTaskStartUnit(final String taskStartUnit)
     '''
 def getFrequency():
-    '''    public String getFrequency()
+    '''public String getFrequency()
     '''
 def setFrequency():
-    '''    public void setFrequency(final String frequency)
+    '''public void setFrequency(final String frequency)
     '''
 def getFrequencyUnit():
-    '''    public String getFrequencyUnit()
+    '''public String getFrequencyUnit()
     '''
 def setFrequencyUnit():
-    '''    public void setFrequencyUnit(final String frequencyUnit)
+    '''public void setFrequencyUnit(final String frequencyUnit)
     '''
 def getTaskNumber():
-    '''    public String getTaskNumber()
+    '''public String getTaskNumber()
     '''
 def setTaskNumber():
-    '''    public void setTaskNumber(final String taskNumber)
+    '''public void setTaskNumber(final String taskNumber)
     '''
 def getPriors():
-    '''    public String getPriors()
+    '''public String getPriors()
     '''
 def setPriors():
-    '''    public void setPriors(String priors)
+    '''public void setPriors(String priors)
     '''
 def getResource():
-    '''    public Enumeration<ItemRESOURCE> getResource()
+    '''public Enumeration<ItemRESOURCE> getResource()
     '''
 def getResourceNames():
-    '''    public String getResourceNames()
+    '''public String getResourceNames()
     '''
 def setResourceNames():
-    '''    public void setResourceNames(final String resourceNames)
+    '''public void setResourceNames(final String resourceNames)
     '''
 def addResourceNames():
-    '''    public void addResourceNames(String resourceNames)
+    '''public void addResourceNames(String resourceNames)
     '''
 def skip():
-    '''    public boolean skip(final Parser parser, final long flags)
+    '''public boolean skip(final Parser parser, final long flags)
     '''
 def tasks():
-    '''    public Iterator<JobTask> tasks()
+    '''public Iterator<JobTask> tasks()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def durationStringToUnits():
-    '''    public static int durationStringToUnits(final String duration)
+    '''public static int durationStringToUnits(final String duration)
     '''
 def export():
-    '''    public void export(final Exporter exporter)
+    '''public void export(final Exporter exporter)
     '''

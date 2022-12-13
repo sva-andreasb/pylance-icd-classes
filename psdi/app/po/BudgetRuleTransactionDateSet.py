@@ -1,9 +1,9 @@
 def BudgetRuleTransactionDateSet():
-    '''    public BudgetRuleTransactionDateSet(final MboServerInterface ms)
+    '''public BudgetRuleTransactionDateSet(final MboServerInterface ms)
     '''
 def getSequenceMax():
-    '''    public int getSequenceMax()
+    '''public int getSequenceMax()
     '''
 def createWhereClauseForPeriod():
-    '''    public String createWhereClauseForPeriod(final Period period, final String transactionObject)
+    '''public String createWhereClauseForPeriod(final Period period, final String transactionObject)
     '''

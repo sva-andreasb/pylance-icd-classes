@@ -1,3 +1,3 @@
 def FavItemSet():
-    '''    public FavItemSet(final MboServerInterface ms)
+    '''public FavItemSet(final MboServerInterface ms)
     '''

@@ -1,9 +1,9 @@
 def instanceOfPredicate():
-    '''    public static Predicate<Object> instanceOfPredicate(final Class<?> type)
+    '''public static Predicate<Object> instanceOfPredicate(final Class<?> type)
     '''
 def InstanceofPredicate():
-    '''    public InstanceofPredicate(final Class<?> type)
+    '''public InstanceofPredicate(final Class<?> type)
     '''
 def evaluate():
-    '''    public boolean evaluate(final Object object)
+    '''public boolean evaluate(final Object object)
     '''

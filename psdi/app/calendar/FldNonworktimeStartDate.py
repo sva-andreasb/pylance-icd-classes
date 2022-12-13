@@ -1,6 +1,6 @@
 def FldNonworktimeStartDate():
-    '''    public FldNonworktimeStartDate(final MboValue mbv)
+    '''public FldNonworktimeStartDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

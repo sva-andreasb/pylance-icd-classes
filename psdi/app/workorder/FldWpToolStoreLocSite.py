@@ -1,3 +1,3 @@
 def FldWpToolStoreLocSite():
-    '''    public FldWpToolStoreLocSite(final MboValue mbv)
+    '''public FldWpToolStoreLocSite(final MboValue mbv)
     '''

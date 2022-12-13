@@ -32,69 +32,69 @@ SECONDCHAR = "char  's'"
 SEPERATORS = "String  \" /-.:\""
 MINSPERHOUR = "double  60.0"
 def SKDFormat():
-    '''    public SKDFormat(final SKDUserLocaleData skdLocale)
+    '''public SKDFormat(final SKDUserLocaleData skdLocale)
     '''
 def stringToDate():
-    '''    public Date stringToDate(final String s, final Locale l, final TimeZone tz)
+    '''public Date stringToDate(final String s, final Locale l, final TimeZone tz)
     '''
 def parseDateTime():
-    '''    public int[] parseDateTime(final String s, final Locale l, final String pattern)
+    '''public int[] parseDateTime(final String s, final Locale l, final String pattern)
     '''
 def stringToInt():
-    '''    public int stringToInt(final String s, final Locale l)
+    '''public int stringToInt(final String s, final Locale l)
     '''
 def stringToDateTime():
-    '''    public Date stringToDateTime(final String s, final Locale l, final TimeZone tz)
+    '''public Date stringToDateTime(final String s, final Locale l, final TimeZone tz)
     '''
 def getDateOnly():
-    '''    public static Date getDateOnly(final Date date)
+    '''public static Date getDateOnly(final Date date)
     '''
 def stringToTime():
-    '''    public Date stringToTime(final String s, final Locale l, final TimeZone tz)
+    '''public Date stringToTime(final String s, final Locale l, final TimeZone tz)
     '''
 def dateTimeToDisplayString():
-    '''    public String dateTimeToDisplayString(final Date d, final Locale l, final TimeZone tz)
+    '''public String dateTimeToDisplayString(final Date d, final Locale l, final TimeZone tz)
     public String dateTimeToDisplayString(final Date d, final Locale l)
     '''
 def dateTimeToParseString():
-    '''    public String dateTimeToParseString(final Date d, final Locale l, final TimeZone tz)
+    '''public String dateTimeToParseString(final Date d, final Locale l, final TimeZone tz)
     '''
 def dateToString():
-    '''    public String dateToString(final Date d, final Locale l, final TimeZone tz)
+    '''public String dateToString(final Date d, final Locale l, final TimeZone tz)
     '''
 def timeToDisplayString():
-    '''    public String timeToDisplayString(final Date d, final Locale l, final TimeZone tz)
+    '''public String timeToDisplayString(final Date d, final Locale l, final TimeZone tz)
     '''
 def timeToParseString():
-    '''    public String timeToParseString(final Date d, final Locale l, final TimeZone tz)
+    '''public String timeToParseString(final Date d, final Locale l, final TimeZone tz)
     '''
 def stringToBoolean():
-    '''    public boolean stringToBoolean(final String s, final Locale l)
+    '''public boolean stringToBoolean(final String s, final Locale l)
     '''
 def convertToStoreYNValue():
-    '''    public String convertToStoreYNValue(final String val, final Locale l)
+    '''public String convertToStoreYNValue(final String val, final Locale l)
     '''
 def booleanToString():
-    '''    public String booleanToString(final boolean b, final Locale l)
+    '''public String booleanToString(final boolean b, final Locale l)
     '''
 def doubleToDuration():
-    '''    public String doubleToDuration(double d)
+    '''public String doubleToDuration(double d)
     '''
 def durationToDouble():
-    '''    public double durationToDouble(String s, final Locale l)
+    '''public double durationToDouble(String s, final Locale l)
     '''
 def stringToDouble():
-    '''    public double stringToDouble(final String s, final Locale l)
+    '''public double stringToDouble(final String s, final Locale l)
     '''
 def getDatePattern():
-    '''    public String getDatePattern()
+    '''public String getDatePattern()
     '''
 def getTimePattern():
-    '''    public String getTimePattern()
+    '''public String getTimePattern()
     '''
 def dateTimeToString():
-    '''    public String dateTimeToString(final Date d, final Locale l, final TimeZone tz)
+    '''public String dateTimeToString(final Date d, final Locale l, final TimeZone tz)
     '''
 def doubleToString():
-    '''    public String doubleToString(final double d, final int places, final Locale l, final boolean groupingInFormat)
+    '''public String doubleToString(final double d, final int places, final Locale l, final boolean groupingInFormat)
     '''

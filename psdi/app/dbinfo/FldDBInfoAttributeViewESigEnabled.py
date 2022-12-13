@@ -1,6 +1,6 @@
 def FldDBInfoAttributeViewESigEnabled():
-    '''    public FldDBInfoAttributeViewESigEnabled(final MboValue mbv)
+    '''public FldDBInfoAttributeViewESigEnabled(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

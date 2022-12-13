@@ -1,3 +1,3 @@
 def IMProfileSet():
-    '''    public IMProfileSet(final MboServerInterface ms)
+    '''public IMProfileSet(final MboServerInterface ms)
     '''

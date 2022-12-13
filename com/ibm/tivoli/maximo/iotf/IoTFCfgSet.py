@@ -1,6 +1,6 @@
 def IoTFCfgSet():
-    '''    public IoTFCfgSet(final MboServerInterface ms)
+    '''public IoTFCfgSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

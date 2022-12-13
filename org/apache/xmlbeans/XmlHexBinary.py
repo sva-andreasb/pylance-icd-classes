@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_hexBinary\")"
 def newInstance():
-    '''    public static XmlHexBinary newInstance()
+    '''public static XmlHexBinary newInstance()
     public static XmlHexBinary newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlHexBinary newValue(final Object obj)
+    '''public static XmlHexBinary newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlHexBinary parse(final String s)
+    '''public static XmlHexBinary parse(final String s)
     public static XmlHexBinary parse(final String s, final XmlOptions options)
     public static XmlHexBinary parse(final File f)
     public static XmlHexBinary parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlHexBinary parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

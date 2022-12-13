@@ -1,6 +1,6 @@
 def FldYZOffsetMeasure():
-    '''    public FldYZOffsetMeasure(final MboValue mbv)
+    '''public FldYZOffsetMeasure(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

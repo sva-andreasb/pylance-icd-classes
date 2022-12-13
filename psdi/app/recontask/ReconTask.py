@@ -1,42 +1,42 @@
 def ReconTask():
-    '''    public ReconTask(final MboSet ms)
+    '''public ReconTask(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def getLinkRules():
-    '''    public ArrayList getLinkRules()
+    '''public ArrayList getLinkRules()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def delete():
-    '''    public void delete(final long modifier)
+    '''public void delete(final long modifier)
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def activateDeactivateReconTask():
-    '''    public void activateDeactivateReconTask()
+    '''public void activateDeactivateReconTask()
     '''
 def deleteCronTaskInstance():
-    '''    public void deleteCronTaskInstance()
+    '''public void deleteCronTaskInstance()
     '''
 def isCronTaskCreated():
-    '''    public boolean isCronTaskCreated()
+    '''public boolean isCronTaskCreated()
     '''
 def isReconTaskActive():
-    '''    public boolean isReconTaskActive()
+    '''public boolean isReconTaskActive()
     '''
 def isEmpty():
-    '''    public static boolean isEmpty(final MboSetRemote ms)
+    '''public static boolean isEmpty(final MboSetRemote ms)
     '''

@@ -1,6 +1,6 @@
 def FldInvPickListStatus():
-    '''    public FldInvPickListStatus(final MboValue mbv)
+    '''public FldInvPickListStatus(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

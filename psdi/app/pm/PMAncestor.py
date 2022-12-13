@@ -1,6 +1,6 @@
 def PMAncestor():
-    '''    public PMAncestor(final MboSet ms)
+    '''public PMAncestor(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

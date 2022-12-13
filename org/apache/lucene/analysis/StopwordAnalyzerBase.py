@@ -1,3 +1,3 @@
 def getStopwordSet():
-    '''    public CharArraySet getStopwordSet()
+    '''public CharArraySet getStopwordSet()
     '''

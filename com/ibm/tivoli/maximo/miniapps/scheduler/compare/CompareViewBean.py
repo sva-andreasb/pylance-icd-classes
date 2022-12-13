@@ -1,29 +1,29 @@
 COL_MODEL_INDEX = "String  \"__midx\""
 COL_SCENARIO_NAME = "String  \"__scenarioname\""
 def CompareViewBean():
-    '''    public CompareViewBean()
+    '''public CompareViewBean()
     '''
 def COMPARE():
-    '''    public int COMPARE()
+    '''public int COMPARE()
     '''
 def processChange():
-    '''    public void processChange(final Future<MXGanttModel> model, final JSONObject change, final WebClientSession sess, final ReplyBuilder reply)
+    '''public void processChange(final Future<MXGanttModel> model, final JSONObject change, final WebClientSession sess, final ReplyBuilder reply)
     '''
 def updateCompareData():
-    '''    public void updateCompareData(final WebClientSession sess, @MXEventParam("compare") final JSONObject compareJsonData)
+    '''public void updateCompareData(final WebClientSession sess, @MXEventParam("compare") final JSONObject compareJsonData)
     '''
 def loadCompareData():
-    '''    public void loadCompareData(final WebClientSession sess, @MXEventParam("compare") JSONObject compareJsonData)
+    '''public void loadCompareData(final WebClientSession sess, @MXEventParam("compare") JSONObject compareJsonData)
     '''
 def loadCompareUI():
-    '''    public void loadCompareUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("compare") final JSONObject compareJsonData)
+    '''public void loadCompareUI(final WebClientSession sess, @MXEventParam("appname") final String appName, @MXEventParam("compare") final JSONObject compareJsonData)
     '''
 def onReset():
-    '''    public void onReset()
+    '''public void onReset()
     '''
 def getTooltip():
-    '''    public DynamicTooltip getTooltip(final WebClientSession sess, @MXEventParam("projectid") String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id)
+    '''public DynamicTooltip getTooltip(final WebClientSession sess, @MXEventParam("projectid") String projectid, @MXEventParam("col") final String col, @MXEventParam("id") final String id)
     '''
 def CompareID():
-    '''    public CompareID(final String id)
+    '''public CompareID(final String id)
     '''

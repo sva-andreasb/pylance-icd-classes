@@ -1,3 +1,3 @@
 def XmlComment():
-    '''    public XmlComment(final String data)
+    '''public XmlComment(final String data)
     '''

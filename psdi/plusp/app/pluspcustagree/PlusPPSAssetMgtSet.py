@@ -1,6 +1,6 @@
 def PlusPPSAssetMgtSet():
-    '''    public PlusPPSAssetMgtSet(final MboServerInterface ms)
+    '''public PlusPPSAssetMgtSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

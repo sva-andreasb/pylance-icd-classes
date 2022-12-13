@@ -1,3 +1,3 @@
 def MWDecoratorDebug():
-    '''    public MWDecoratorDebug(final Dictionary[] array, final ParsingStream parsingStream)
+    '''public MWDecoratorDebug(final Dictionary[] array, final ParsingStream parsingStream)
     '''

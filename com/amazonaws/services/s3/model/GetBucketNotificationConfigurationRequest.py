@@ -1,3 +1,3 @@
 def GetBucketNotificationConfigurationRequest():
-    '''    public GetBucketNotificationConfigurationRequest(final String bucketName)
+    '''public GetBucketNotificationConfigurationRequest(final String bucketName)
     '''

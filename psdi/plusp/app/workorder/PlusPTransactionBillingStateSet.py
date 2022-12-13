@@ -1,9 +1,9 @@
 def PlusPTransactionBillingStateSet():
-    '''    public PlusPTransactionBillingStateSet(final MboServerInterface ms)
+    '''public PlusPTransactionBillingStateSet(final MboServerInterface ms)
     '''
 def addIfTransactionHasWorkorder():
-    '''    public void addIfTransactionHasWorkorder()
+    '''public void addIfTransactionHasWorkorder()
     '''
 def isTransactionExcludedFromBilling():
-    '''    public boolean isTransactionExcludedFromBilling(final boolean b)
+    '''public boolean isTransactionExcludedFromBilling(final boolean b)
     '''

@@ -1,3 +1,3 @@
 def PlusPAppliesToLocSet():
-    '''    public PlusPAppliesToLocSet(final MboServerInterface mboServerInterface)
+    '''public PlusPAppliesToLocSet(final MboServerInterface mboServerInterface)
     '''

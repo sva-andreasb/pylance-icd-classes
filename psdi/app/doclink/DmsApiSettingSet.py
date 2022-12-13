@@ -1,3 +1,3 @@
 def DmsApiSettingSet():
-    '''    public DmsApiSettingSet(final MboServerInterface ms)
+    '''public DmsApiSettingSet(final MboServerInterface ms)
     '''

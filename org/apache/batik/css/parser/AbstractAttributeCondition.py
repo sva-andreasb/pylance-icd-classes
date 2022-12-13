@@ -1,3 +1,3 @@
 def getValue():
-    '''    public String getValue()
+    '''public String getValue()
     '''

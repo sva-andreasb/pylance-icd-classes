@@ -1,3 +1,3 @@
 def SolnSurvey():
-    '''    public SolnSurvey(final MboSet ms)
+    '''public SolnSurvey(final MboSet ms)
     '''

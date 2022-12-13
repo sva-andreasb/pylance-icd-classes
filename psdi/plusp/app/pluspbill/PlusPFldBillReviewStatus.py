@@ -1,6 +1,6 @@
 def PlusPFldBillReviewStatus():
-    '''    public PlusPFldBillReviewStatus(final MboValue mv)
+    '''public PlusPFldBillReviewStatus(final MboValue mv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

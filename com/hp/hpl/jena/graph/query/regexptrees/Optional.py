@@ -1,12 +1,12 @@
 def Optional():
-    '''    public Optional(final RegexpTree operand)
+    '''public Optional(final RegexpTree operand)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object x)
+    '''public boolean equals(final Object x)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

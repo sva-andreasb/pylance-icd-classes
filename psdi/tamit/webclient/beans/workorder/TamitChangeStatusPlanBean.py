@@ -1,9 +1,9 @@
 def TamitChangeStatusPlanBean():
-    '''    public TamitChangeStatusPlanBean()
+    '''public TamitChangeStatusPlanBean()
     '''
 def save():
-    '''    public synchronized void save()
+    '''public synchronized void save()
     '''
 def APPLYTOALL():
-    '''    public int APPLYTOALL()
+    '''public int APPLYTOALL()
     '''

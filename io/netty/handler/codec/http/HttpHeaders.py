@@ -105,159 +105,159 @@ S_MAXAGE = "String  \"s-maxage\""
 TRAILERS = "String  \"trailers\""
 WEBSOCKET = "String  \"WebSocket\""
 def isKeepAlive():
-    '''    public static boolean isKeepAlive(final HttpMessage message)
+    '''public static boolean isKeepAlive(final HttpMessage message)
     '''
 def setKeepAlive():
-    '''    public static void setKeepAlive(final HttpMessage message, final boolean keepAlive)
+    '''public static void setKeepAlive(final HttpMessage message, final boolean keepAlive)
     '''
 def getHeader():
-    '''    public static String getHeader(final HttpMessage message, final String name)
+    '''public static String getHeader(final HttpMessage message, final String name)
     public static String getHeader(final HttpMessage message, final CharSequence name)
     public static String getHeader(final HttpMessage message, final String name, final String defaultValue)
     public static String getHeader(final HttpMessage message, final CharSequence name, final String defaultValue)
     '''
 def setHeader():
-    '''    public static void setHeader(final HttpMessage message, final String name, final Object value)
+    '''public static void setHeader(final HttpMessage message, final String name, final Object value)
     public static void setHeader(final HttpMessage message, final CharSequence name, final Object value)
     public static void setHeader(final HttpMessage message, final String name, final Iterable<?> values)
     public static void setHeader(final HttpMessage message, final CharSequence name, final Iterable<?> values)
     '''
 def addHeader():
-    '''    public static void addHeader(final HttpMessage message, final String name, final Object value)
+    '''public static void addHeader(final HttpMessage message, final String name, final Object value)
     public static void addHeader(final HttpMessage message, final CharSequence name, final Object value)
     '''
 def removeHeader():
-    '''    public static void removeHeader(final HttpMessage message, final String name)
+    '''public static void removeHeader(final HttpMessage message, final String name)
     public static void removeHeader(final HttpMessage message, final CharSequence name)
     '''
 def clearHeaders():
-    '''    public static void clearHeaders(final HttpMessage message)
+    '''public static void clearHeaders(final HttpMessage message)
     '''
 def getIntHeader():
-    '''    public static int getIntHeader(final HttpMessage message, final String name)
+    '''public static int getIntHeader(final HttpMessage message, final String name)
     public static int getIntHeader(final HttpMessage message, final CharSequence name)
     public static int getIntHeader(final HttpMessage message, final String name, final int defaultValue)
     public static int getIntHeader(final HttpMessage message, final CharSequence name, final int defaultValue)
     '''
 def setIntHeader():
-    '''    public static void setIntHeader(final HttpMessage message, final String name, final int value)
+    '''public static void setIntHeader(final HttpMessage message, final String name, final int value)
     public static void setIntHeader(final HttpMessage message, final CharSequence name, final int value)
     public static void setIntHeader(final HttpMessage message, final String name, final Iterable<Integer> values)
     public static void setIntHeader(final HttpMessage message, final CharSequence name, final Iterable<Integer> values)
     '''
 def addIntHeader():
-    '''    public static void addIntHeader(final HttpMessage message, final String name, final int value)
+    '''public static void addIntHeader(final HttpMessage message, final String name, final int value)
     public static void addIntHeader(final HttpMessage message, final CharSequence name, final int value)
     '''
 def getDateHeader():
-    '''    public static Date getDateHeader(final HttpMessage message, final String name)
+    '''public static Date getDateHeader(final HttpMessage message, final String name)
     public static Date getDateHeader(final HttpMessage message, final CharSequence name)
     public static Date getDateHeader(final HttpMessage message, final String name, final Date defaultValue)
     public static Date getDateHeader(final HttpMessage message, final CharSequence name, final Date defaultValue)
     '''
 def setDateHeader():
-    '''    public static void setDateHeader(final HttpMessage message, final String name, final Date value)
+    '''public static void setDateHeader(final HttpMessage message, final String name, final Date value)
     public static void setDateHeader(final HttpMessage message, final CharSequence name, final Date value)
     public static void setDateHeader(final HttpMessage message, final String name, final Iterable<Date> values)
     public static void setDateHeader(final HttpMessage message, final CharSequence name, final Iterable<Date> values)
     '''
 def addDateHeader():
-    '''    public static void addDateHeader(final HttpMessage message, final String name, final Date value)
+    '''public static void addDateHeader(final HttpMessage message, final String name, final Date value)
     public static void addDateHeader(final HttpMessage message, final CharSequence name, final Date value)
     '''
 def getContentLength():
-    '''    public static long getContentLength(final HttpMessage message)
+    '''public static long getContentLength(final HttpMessage message)
     public static long getContentLength(final HttpMessage message, final long defaultValue)
     '''
 def setContentLength():
-    '''    public static void setContentLength(final HttpMessage message, final long length)
+    '''public static void setContentLength(final HttpMessage message, final long length)
     '''
 def getHost():
-    '''    public static String getHost(final HttpMessage message)
+    '''public static String getHost(final HttpMessage message)
     public static String getHost(final HttpMessage message, final String defaultValue)
     '''
 def setHost():
-    '''    public static void setHost(final HttpMessage message, final String value)
+    '''public static void setHost(final HttpMessage message, final String value)
     public static void setHost(final HttpMessage message, final CharSequence value)
     '''
 def getDate():
-    '''    public static Date getDate(final HttpMessage message)
+    '''public static Date getDate(final HttpMessage message)
     public static Date getDate(final HttpMessage message, final Date defaultValue)
     '''
 def setDate():
-    '''    public static void setDate(final HttpMessage message, final Date value)
+    '''public static void setDate(final HttpMessage message, final Date value)
     '''
 def is100ContinueExpected():
-    '''    public static boolean is100ContinueExpected(final HttpMessage message)
+    '''public static boolean is100ContinueExpected(final HttpMessage message)
     '''
 def set100ContinueExpected():
-    '''    public static void set100ContinueExpected(final HttpMessage message)
+    '''public static void set100ContinueExpected(final HttpMessage message)
     public static void set100ContinueExpected(final HttpMessage message, final boolean set)
     '''
 def isTransferEncodingChunked():
-    '''    public static boolean isTransferEncodingChunked(final HttpMessage message)
+    '''public static boolean isTransferEncodingChunked(final HttpMessage message)
     '''
 def removeTransferEncodingChunked():
-    '''    public static void removeTransferEncodingChunked(final HttpMessage m)
+    '''public static void removeTransferEncodingChunked(final HttpMessage m)
     '''
 def setTransferEncodingChunked():
-    '''    public static void setTransferEncodingChunked(final HttpMessage m)
+    '''public static void setTransferEncodingChunked(final HttpMessage m)
     '''
 def isContentLengthSet():
-    '''    public static boolean isContentLengthSet(final HttpMessage m)
+    '''public static boolean isContentLengthSet(final HttpMessage m)
     '''
 def equalsIgnoreCase():
-    '''    public static boolean equalsIgnoreCase(final CharSequence name1, final CharSequence name2)
+    '''public static boolean equalsIgnoreCase(final CharSequence name1, final CharSequence name2)
     '''
 def encodeAscii():
-    '''    public static void encodeAscii(final CharSequence seq, final ByteBuf buf)
+    '''public static void encodeAscii(final CharSequence seq, final ByteBuf buf)
     '''
 def newEntity():
-    '''    public static CharSequence newEntity(final String name)
+    '''public static CharSequence newEntity(final String name)
     '''
 def get():
-    '''    public String get(final CharSequence name)
+    '''public String get(final CharSequence name)
     public String get(final CharSequence name, final String defaultValue)
     '''
 def getAll():
-    '''    public List<String> getAll(final CharSequence name)
+    '''public List<String> getAll(final CharSequence name)
     '''
 def valueStringIterator():
-    '''    public Iterator<String> valueStringIterator(final CharSequence name)
+    '''public Iterator<String> valueStringIterator(final CharSequence name)
     '''
 def contains():
-    '''    public boolean contains(final CharSequence name)
+    '''public boolean contains(final CharSequence name)
     public boolean contains(final String name, final String value, final boolean ignoreCase)
     public boolean contains(final CharSequence name, final CharSequence value, final boolean ignoreCase)
     '''
 def add():
-    '''    public HttpHeaders add(final CharSequence name, final Object value)
+    '''public HttpHeaders add(final CharSequence name, final Object value)
     public HttpHeaders add(final CharSequence name, final Iterable<?> values)
     public HttpHeaders add(final HttpHeaders headers)
     '''
 def set():
-    '''    public HttpHeaders set(final CharSequence name, final Object value)
+    '''public HttpHeaders set(final CharSequence name, final Object value)
     public HttpHeaders set(final CharSequence name, final Iterable<?> values)
     public HttpHeaders set(final HttpHeaders headers)
     '''
 def setAll():
-    '''    public HttpHeaders setAll(final HttpHeaders headers)
+    '''public HttpHeaders setAll(final HttpHeaders headers)
     '''
 def remove():
-    '''    public HttpHeaders remove(final CharSequence name)
+    '''public HttpHeaders remove(final CharSequence name)
     '''
 def containsValue():
-    '''    public boolean containsValue(final CharSequence name, final CharSequence value, final boolean ignoreCase)
+    '''public boolean containsValue(final CharSequence name, final CharSequence value, final boolean ignoreCase)
     '''
 def getAsString():
-    '''    public final String getAsString(final CharSequence name)
+    '''public final String getAsString(final CharSequence name)
     '''
 def getAllAsString():
-    '''    public final List<String> getAllAsString(final CharSequence name)
+    '''public final List<String> getAllAsString(final CharSequence name)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def copy():
-    '''    public HttpHeaders copy()
+    '''public HttpHeaders copy()
     '''

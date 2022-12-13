@@ -1,6 +1,6 @@
 def ConditionBean():
-    '''    public ConditionBean()
+    '''public ConditionBean()
     '''
 def setupBean():
-    '''    public void setupBean(final WebClientSession wcs)
+    '''public void setupBean(final WebClientSession wcs)
     '''

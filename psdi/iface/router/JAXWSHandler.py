@@ -12,12 +12,12 @@ HTTPVERSION = "String  \"HTTPVERSION\""
 SOAPVERSION = "String  \"SOAPVERSION\""
 ENABLEAPPCONTEXT = "String  \"ENABLEAPPCONTEXT\""
 def JAXWSHandler():
-    '''    public JAXWSHandler()
+    '''public JAXWSHandler()
     public JAXWSHandler(final MaxEndPointInfo endPointInfo)
     '''
 def getProperties():
-    '''    public List<RouterPropsInfo> getProperties()
+    '''public List<RouterPropsInfo> getProperties()
     '''
 def invoke():
-    '''    public byte[] invoke(final Map<String, ?> metaData, byte[] data)
+    '''public byte[] invoke(final Map<String, ?> metaData, byte[] data)
     '''

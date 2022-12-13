@@ -1,6 +1,6 @@
 def FldLaborTotalAttendance():
-    '''    public FldLaborTotalAttendance(final MboValue mbv)
+    '''public FldLaborTotalAttendance(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

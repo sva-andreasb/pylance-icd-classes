@@ -1,6 +1,6 @@
 def OAuthGetTemporaryToken():
-    '''    public OAuthGetTemporaryToken(final String authorizationServerUrl)
+    '''public OAuthGetTemporaryToken(final String authorizationServerUrl)
     '''
 def createParameters():
-    '''    public OAuthParameters createParameters()
+    '''public OAuthParameters createParameters()
     '''

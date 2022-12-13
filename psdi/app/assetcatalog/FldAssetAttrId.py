@@ -1,3 +1,3 @@
 def FldAssetAttrId():
-    '''    public FldAssetAttrId(final MboValue mbv)
+    '''public FldAssetAttrId(final MboValue mbv)
     '''

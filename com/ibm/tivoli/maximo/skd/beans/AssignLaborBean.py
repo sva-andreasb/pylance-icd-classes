@@ -1,6 +1,6 @@
 def refreshlabor():
-    '''    public int refreshlabor()
+    '''public int refreshlabor()
     '''
 def selectrecord():
-    '''    public int selectrecord(final MboRemote laborassign)
+    '''public int selectrecord(final MboRemote laborassign)
     '''

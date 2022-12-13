@@ -22,23 +22,23 @@ MIN_ROUND_VALUE = "int  9"
 MAX_ROUND_VALUE = "int  10"
 MAX_SCALE_VALUE = "int  11"
 def from():
-    '''    public static long from(final long otherTime, final int timeScale)
+    '''public static long from(final long otherTime, final int timeScale)
     '''
 def bigDecimalFrom():
-    '''    public static BigDecimal bigDecimalFrom(final double otherTime, final int timeScale)
+    '''public static BigDecimal bigDecimalFrom(final double otherTime, final int timeScale)
     public static BigDecimal bigDecimalFrom(final long otherTime, final int timeScale)
     public static BigDecimal bigDecimalFrom(final BigDecimal otherTime, final int timeScale)
     '''
 def toLong():
-    '''    public static long toLong(final long universalTime, final int timeScale)
+    '''public static long toLong(final long universalTime, final int timeScale)
     '''
 def toBigDecimal():
-    '''    public static BigDecimal toBigDecimal(final long universalTime, final int timeScale)
+    '''public static BigDecimal toBigDecimal(final long universalTime, final int timeScale)
     public static BigDecimal toBigDecimal(final BigDecimal universalTime, final int timeScale)
     '''
 def getTimeScaleValue():
-    '''    public static long getTimeScaleValue(final int scale, final int value)
+    '''public static long getTimeScaleValue(final int scale, final int value)
     '''
 def toBigDecimalTrunc():
-    '''    public static BigDecimal toBigDecimalTrunc(final BigDecimal universalTime, final int timeScale)
+    '''public static BigDecimal toBigDecimalTrunc(final BigDecimal universalTime, final int timeScale)
     '''

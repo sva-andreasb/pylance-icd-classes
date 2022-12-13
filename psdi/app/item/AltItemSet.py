@@ -1,3 +1,3 @@
 def AltItemSet():
-    '''    public AltItemSet(final MboServerInterface ms)
+    '''public AltItemSet(final MboServerInterface ms)
     '''

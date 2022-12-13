@@ -1,3 +1,3 @@
 def IdentityExtension():
-    '''    public IdentityExtension()
+    '''public IdentityExtension()
     '''

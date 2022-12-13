@@ -1,9 +1,9 @@
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''
 def setvalue():
-    '''    public int setvalue()
+    '''public int setvalue()
     '''
 def licrecptcreate():
-    '''    public int licrecptcreate()
+    '''public int licrecptcreate()
     '''

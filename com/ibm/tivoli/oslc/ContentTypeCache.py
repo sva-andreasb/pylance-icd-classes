@@ -1,3 +1,3 @@
 def getURI():
-    '''    public static String getURI(final String contentType)
+    '''public static String getURI(final String contentType)
     '''

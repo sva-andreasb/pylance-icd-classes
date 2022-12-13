@@ -1,3 +1,3 @@
 def PmScComplexItemSet():
-    '''    public PmScComplexItemSet(final MboServerInterface ms)
+    '''public PmScComplexItemSet(final MboServerInterface ms)
     '''

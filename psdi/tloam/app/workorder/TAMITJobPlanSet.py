@@ -1,3 +1,3 @@
 def TAMITJobPlanSet():
-    '''    public TAMITJobPlanSet(final MboServerInterface ms)
+    '''public TAMITJobPlanSet(final MboServerInterface ms)
     '''

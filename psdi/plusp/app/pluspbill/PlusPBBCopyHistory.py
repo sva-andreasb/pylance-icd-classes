@@ -1,3 +1,3 @@
 def PlusPBBCopyHistory():
-    '''    public PlusPBBCopyHistory(final MboSet ms)
+    '''public PlusPBBCopyHistory(final MboSet ms)
     '''

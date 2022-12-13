@@ -1,15 +1,15 @@
 def JobTaskSpecSet():
-    '''    public JobTaskSpecSet(final MboServerInterface ms)
+    '''public JobTaskSpecSet(final MboServerInterface ms)
     '''
 def whereClauseOnAttrAndValues():
-    '''    public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)
+    '''public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''
 def toCreateNewSpecRecordsInMainObject():
-    '''    public boolean toCreateNewSpecRecordsInMainObject()
+    '''public boolean toCreateNewSpecRecordsInMainObject()
     '''
 def checkCommonSpecDuplicates():
-    '''    public void checkCommonSpecDuplicates(final MboRemote currentClassSpec)
+    '''public void checkCommonSpecDuplicates(final MboRemote currentClassSpec)
     '''

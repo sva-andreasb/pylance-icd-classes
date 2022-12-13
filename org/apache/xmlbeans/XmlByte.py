@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_byte\")"
 def newInstance():
-    '''    public static XmlByte newInstance()
+    '''public static XmlByte newInstance()
     public static XmlByte newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlByte newValue(final Object obj)
+    '''public static XmlByte newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlByte parse(final String s)
+    '''public static XmlByte parse(final String s)
     public static XmlByte parse(final String s, final XmlOptions options)
     public static XmlByte parse(final File f)
     public static XmlByte parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlByte parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

@@ -1,6 +1,6 @@
 def FldInvoiceUnInvoicedTotal():
-    '''    public FldInvoiceUnInvoicedTotal(final MboValue mbv)
+    '''public FldInvoiceUnInvoicedTotal(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

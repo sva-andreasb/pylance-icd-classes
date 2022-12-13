@@ -1,12 +1,12 @@
 def OslcInteractionGroupMember():
-    '''    public OslcInteractionGroupMember(final MboSet ms)
+    '''public OslcInteractionGroupMember(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''

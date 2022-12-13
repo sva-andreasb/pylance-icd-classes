@@ -1,6 +1,6 @@
 def PmFldDowntimeReportIsDownTimeReport():
-    '''    public PmFldDowntimeReportIsDownTimeReport(final MboValue mbv)
+    '''public PmFldDowntimeReportIsDownTimeReport(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

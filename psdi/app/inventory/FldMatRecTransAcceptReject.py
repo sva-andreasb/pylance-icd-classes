@@ -1,6 +1,6 @@
 def FldMatRecTransAcceptReject():
-    '''    public FldMatRecTransAcceptReject(final MboValue mbv)
+    '''public FldMatRecTransAcceptReject(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

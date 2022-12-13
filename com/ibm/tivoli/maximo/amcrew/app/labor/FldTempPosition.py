@@ -1,6 +1,6 @@
 def FldTempPosition():
-    '''    public FldTempPosition(final MboValue mbv)
+    '''public FldTempPosition(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

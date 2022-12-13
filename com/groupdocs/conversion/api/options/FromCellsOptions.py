@@ -1,5 +1,5 @@
 def FromCellsOptions():
-    '''    public FromCellsOptions()
+    '''public FromCellsOptions()
     public FromCellsOptions(final int page)
     public FromCellsOptions(final FileType sourceFileType)
     public FromCellsOptions(final FileType sourceFileType, final int worksheetIndex)
@@ -8,26 +8,26 @@ def FromCellsOptions():
     public FromCellsOptions(final FileType sourceFileType, final boolean isSplitIntoPages, final int worksheetIndex, final int page)
     '''
 def getSourceFileType():
-    '''    public FileType getSourceFileType()
+    '''public FileType getSourceFileType()
     '''
 def setSourceFileType():
-    '''    public void setSourceFileType(final FileType sourceFileType)
+    '''public void setSourceFileType(final FileType sourceFileType)
     '''
 def isSplitIntoPages():
-    '''    public boolean isSplitIntoPages()
+    '''public boolean isSplitIntoPages()
     '''
 def setIsSplitIntoPages():
-    '''    public void setIsSplitIntoPages(final boolean isSplitIntoPages)
+    '''public void setIsSplitIntoPages(final boolean isSplitIntoPages)
     '''
 def getWorksheetIndex():
-    '''    public int getWorksheetIndex()
+    '''public int getWorksheetIndex()
     '''
 def setWorksheetIndex():
-    '''    public void setWorksheetIndex(final int worksheetIndex)
+    '''public void setWorksheetIndex(final int worksheetIndex)
     '''
 def getPage():
-    '''    public int getPage()
+    '''public int getPage()
     '''
 def setPage():
-    '''    public void setPage(final int page)
+    '''public void setPage(final int page)
     '''

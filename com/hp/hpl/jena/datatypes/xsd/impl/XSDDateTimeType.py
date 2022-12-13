@@ -1,6 +1,6 @@
 def XSDDateTimeType():
-    '''    public XSDDateTimeType(final String typename)
+    '''public XSDDateTimeType(final String typename)
     '''
 def parseValidated():
-    '''    public Object parseValidated(final String str)
+    '''public Object parseValidated(final String str)
     '''

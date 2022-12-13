@@ -1,18 +1,18 @@
 def DefaultMethodRetryHandler():
-    '''    public DefaultMethodRetryHandler()
+    '''public DefaultMethodRetryHandler()
     '''
 def retryMethod():
-    '''    public boolean retryMethod(final HttpMethod method, final HttpConnection connection, final HttpRecoverableException recoverableException, final int executionCount, final boolean requestSent)
+    '''public boolean retryMethod(final HttpMethod method, final HttpConnection connection, final HttpRecoverableException recoverableException, final int executionCount, final boolean requestSent)
     '''
 def isRequestSentRetryEnabled():
-    '''    public boolean isRequestSentRetryEnabled()
+    '''public boolean isRequestSentRetryEnabled()
     '''
 def getRetryCount():
-    '''    public int getRetryCount()
+    '''public int getRetryCount()
     '''
 def setRequestSentRetryEnabled():
-    '''    public void setRequestSentRetryEnabled(final boolean requestSentRetryEnabled)
+    '''public void setRequestSentRetryEnabled(final boolean requestSentRetryEnabled)
     '''
 def setRetryCount():
-    '''    public void setRetryCount(final int retryCount)
+    '''public void setRetryCount(final int retryCount)
     '''

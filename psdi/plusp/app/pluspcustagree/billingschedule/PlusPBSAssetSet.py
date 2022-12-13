@@ -1,7 +1,7 @@
 CLASSSPEC = "String  \"CLASSSPEC\""
 def PlusPBSAssetSet():
-    '''    public PlusPBSAssetSet(final MboServerInterface mboServerInterface)
+    '''public PlusPBSAssetSet(final MboServerInterface mboServerInterface)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

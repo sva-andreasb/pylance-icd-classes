@@ -1,6 +1,6 @@
 def PlusPCustPayer():
-    '''    public PlusPCustPayer(final MboSet ms)
+    '''public PlusPCustPayer(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

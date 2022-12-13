@@ -1,3 +1,3 @@
 def copyAttributes():
-    '''    public int copyAttributes()
+    '''public int copyAttributes()
     '''

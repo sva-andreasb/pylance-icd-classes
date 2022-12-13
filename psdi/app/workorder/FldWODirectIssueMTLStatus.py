@@ -1,6 +1,6 @@
 def FldWODirectIssueMTLStatus():
-    '''    public FldWODirectIssueMTLStatus(final MboValue mbv)
+    '''public FldWODirectIssueMTLStatus(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

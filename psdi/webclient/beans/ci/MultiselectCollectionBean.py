@@ -1,6 +1,6 @@
 def MultiselectCollectionBean():
-    '''    public MultiselectCollectionBean()
+    '''public MultiselectCollectionBean()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''

@@ -1,3 +1,3 @@
 def readIntArray():
-    '''    public static void readIntArray(final DataInput dataInput, final int[] array)
+    '''public static void readIntArray(final DataInput dataInput, final int[] array)
     '''

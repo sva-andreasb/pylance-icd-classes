@@ -1,6 +1,6 @@
 def GroupIdNotFoundException():
-    '''    public GroupIdNotFoundException(final String groupId)
+    '''public GroupIdNotFoundException(final String groupId)
     '''
 def groupId():
-    '''    public String groupId()
+    '''public String groupId()
     '''

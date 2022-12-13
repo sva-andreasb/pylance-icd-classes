@@ -1,3 +1,3 @@
 def SigOptFlag():
-    '''    public SigOptFlag(final MboSet ms)
+    '''public SigOptFlag(final MboSet ms)
     '''

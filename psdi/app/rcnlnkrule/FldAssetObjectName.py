@@ -1,3 +1,3 @@
 def FldAssetObjectName():
-    '''    public FldAssetObjectName(final MboValue mbv)
+    '''public FldAssetObjectName(final MboValue mbv)
     '''

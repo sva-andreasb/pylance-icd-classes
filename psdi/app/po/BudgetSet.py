@@ -1,3 +1,3 @@
 def BudgetSet():
-    '''    public BudgetSet(final MboServerInterface ms)
+    '''public BudgetSet(final MboServerInterface ms)
     '''

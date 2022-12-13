@@ -1,12 +1,12 @@
 def PlusPFldJpAssetSpLinkCustomer():
-    '''    public PlusPFldJpAssetSpLinkCustomer(final MboValue mbv)
+    '''public PlusPFldJpAssetSpLinkCustomer(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def setCustomerValue():
-    '''    public void setCustomerValue()
+    '''public void setCustomerValue()
     '''

@@ -1,12 +1,12 @@
 def RowBlocksReader():
-    '''    public RowBlocksReader(final RecordStream rs)
+    '''public RowBlocksReader(final RecordStream rs)
     '''
 def getLooseMergedCells():
-    '''    public MergeCellsRecord[] getLooseMergedCells()
+    '''public MergeCellsRecord[] getLooseMergedCells()
     '''
 def getSharedFormulaManager():
-    '''    public SharedValueManager getSharedFormulaManager()
+    '''public SharedValueManager getSharedFormulaManager()
     '''
 def getPlainRecordStream():
-    '''    public RecordStream getPlainRecordStream()
+    '''public RecordStream getPlainRecordStream()
     '''

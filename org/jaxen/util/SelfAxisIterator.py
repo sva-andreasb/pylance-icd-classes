@@ -1,3 +1,3 @@
 def SelfAxisIterator():
-    '''    public SelfAxisIterator(final Object node)
+    '''public SelfAxisIterator(final Object node)
     '''

@@ -1,6 +1,6 @@
 def BadObjectException():
-    '''    public BadObjectException(final Statement s)
+    '''public BadObjectException(final Statement s)
     '''
 def getObject():
-    '''    public RDFNode getObject()
+    '''public RDFNode getObject()
     '''

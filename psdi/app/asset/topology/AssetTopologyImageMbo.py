@@ -1,6 +1,6 @@
 def AssetTopologyImageMbo():
-    '''    public AssetTopologyImageMbo(final MboSet ms)
+    '''public AssetTopologyImageMbo(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

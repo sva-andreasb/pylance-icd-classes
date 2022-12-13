@@ -1,3 +1,3 @@
 def SKDExtraCapCrewViewSet():
-    '''    public SKDExtraCapCrewViewSet(final MboServerInterface ms)
+    '''public SKDExtraCapCrewViewSet(final MboServerInterface ms)
     '''

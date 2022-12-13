@@ -1,3 +1,3 @@
 def ContractStatusSet():
-    '''    public ContractStatusSet(final MboServerInterface ms)
+    '''public ContractStatusSet(final MboServerInterface ms)
     '''

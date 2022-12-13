@@ -1,3 +1,3 @@
 def DMMapDefSet():
-    '''    public DMMapDefSet(final MboServerInterface ms)
+    '''public DMMapDefSet(final MboServerInterface ms)
     '''

@@ -1,9 +1,9 @@
 def AssetReserveBean():
-    '''    public AssetReserveBean()
+    '''public AssetReserveBean()
     '''
 def getReservedKey():
-    '''    public String getReservedKey()
+    '''public String getReservedKey()
     '''
 def getReservedValue():
-    '''    public Object getReservedValue()
+    '''public Object getReservedValue()
     '''

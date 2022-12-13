@@ -1,6 +1,6 @@
 def FldCategory():
-    '''    public FldCategory(final MboValue mbv)
+    '''public FldCategory(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

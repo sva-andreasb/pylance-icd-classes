@@ -1,3 +1,3 @@
 def OMQualifiedNameFilterIterator():
-    '''    public OMQualifiedNameFilterIterator(final Iterator parent, final String qualifiedName)
+    '''public OMQualifiedNameFilterIterator(final Iterator parent, final String qualifiedName)
     '''

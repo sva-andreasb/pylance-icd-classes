@@ -1,6 +1,6 @@
 def createObject():
-    '''    public boolean createObject(final JXPathContext context, final Pointer pointer, final Object parent, final String name, final int index)
+    '''public boolean createObject(final JXPathContext context, final Pointer pointer, final Object parent, final String name, final int index)
     '''
 def declareVariable():
-    '''    public boolean declareVariable(final JXPathContext context, final String name)
+    '''public boolean declareVariable(final JXPathContext context, final String name)
     '''

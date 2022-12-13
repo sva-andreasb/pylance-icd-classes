@@ -1,9 +1,9 @@
 def ParallelWorldClassLoader():
-    '''    public ParallelWorldClassLoader(final ClassLoader parent, final String prefix)
+    '''public ParallelWorldClassLoader(final ClassLoader parent, final String prefix)
     '''
 def close():
-    '''    public synchronized void close()
+    '''public synchronized void close()
     '''
 def toJarUrl():
-    '''    public static URL toJarUrl(final URL res)
+    '''public static URL toJarUrl(final URL res)
     '''

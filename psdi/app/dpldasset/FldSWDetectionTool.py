@@ -1,6 +1,6 @@
 def FldSWDetectionTool():
-    '''    public FldSWDetectionTool(final MboValue mbv)
+    '''public FldSWDetectionTool(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,9 +1,9 @@
 def JBinaryFile():
-    '''    public JBinaryFile(final String name)
+    '''public JBinaryFile(final String name)
     '''
 def getDataStore():
-    '''    public OutputStream getDataStore()
+    '''public OutputStream getDataStore()
     '''
 def build():
-    '''    public void build(final OutputStream os)
+    '''public void build(final OutputStream os)
     '''

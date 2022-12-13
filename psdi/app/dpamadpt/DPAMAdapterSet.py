@@ -1,3 +1,3 @@
 def DPAMAdapterSet():
-    '''    public DPAMAdapterSet(final MboServerInterface ms)
+    '''public DPAMAdapterSet(final MboServerInterface ms)
     '''

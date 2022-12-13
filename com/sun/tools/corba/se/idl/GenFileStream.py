@@ -1,9 +1,9 @@
 def GenFileStream():
-    '''    public GenFileStream(final String name)
+    '''public GenFileStream(final String name)
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def name():
-    '''    public String name()
+    '''public String name()
     '''

@@ -1,3 +1,3 @@
 def MarshallingEncoder():
-    '''    public MarshallingEncoder(final MarshallerProvider provider)
+    '''public MarshallingEncoder(final MarshallerProvider provider)
     '''

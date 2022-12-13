@@ -1,6 +1,6 @@
 def FldWoLockOutLockOutId():
-    '''    public FldWoLockOutLockOutId(final MboValue mbv)
+    '''public FldWoLockOutLockOutId(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

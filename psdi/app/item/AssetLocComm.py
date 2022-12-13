@@ -1,15 +1,15 @@
 def AssetLocComm():
-    '''    public AssetLocComm(final MboSet ms)
+    '''public AssetLocComm(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def isLocAuthorized():
-    '''    public void isLocAuthorized(final MboRemote ofloc)
+    '''public void isLocAuthorized(final MboRemote ofloc)
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''

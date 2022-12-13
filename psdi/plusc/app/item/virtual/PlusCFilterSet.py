@@ -1,3 +1,3 @@
 def PlusCFilterSet():
-    '''    public PlusCFilterSet(final MboServerInterface ms)
+    '''public PlusCFilterSet(final MboServerInterface ms)
     '''

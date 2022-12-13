@@ -1,3 +1,3 @@
 def GanttViewerUpdater():
-    '''    public GanttViewerUpdater(final String sourceName)
+    '''public GanttViewerUpdater(final String sourceName)
     '''

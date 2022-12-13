@@ -1,3 +1,3 @@
 def FldPMForecastLTDPMCounter():
-    '''    public FldPMForecastLTDPMCounter(final MboValue mbv)
+    '''public FldPMForecastLTDPMCounter(final MboValue mbv)
     '''

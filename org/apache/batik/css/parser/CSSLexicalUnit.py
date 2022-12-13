@@ -20,89 +20,89 @@ TEXT_RECT_FUNCTION = "String  \"rect\""
 TEXT_COUNTER_FUNCTION = "String  \"counter\""
 TEXT_COUNTERS_FUNCTION = "String  \"counters\""
 def getLexicalUnitType():
-    '''    public short getLexicalUnitType()
+    '''public short getLexicalUnitType()
     '''
 def getNextLexicalUnit():
-    '''    public LexicalUnit getNextLexicalUnit()
+    '''public LexicalUnit getNextLexicalUnit()
     '''
 def setNextLexicalUnit():
-    '''    public void setNextLexicalUnit(final LexicalUnit lu)
+    '''public void setNextLexicalUnit(final LexicalUnit lu)
     '''
 def getPreviousLexicalUnit():
-    '''    public LexicalUnit getPreviousLexicalUnit()
+    '''public LexicalUnit getPreviousLexicalUnit()
     '''
 def setPreviousLexicalUnit():
-    '''    public void setPreviousLexicalUnit(final LexicalUnit lu)
+    '''public void setPreviousLexicalUnit(final LexicalUnit lu)
     '''
 def getIntegerValue():
-    '''    public int getIntegerValue()
+    '''public int getIntegerValue()
     public int getIntegerValue()
     '''
 def getFloatValue():
-    '''    public float getFloatValue()
+    '''public float getFloatValue()
     public float getFloatValue()
     public float getFloatValue()
     '''
 def getDimensionUnitText():
-    '''    public String getDimensionUnitText()
+    '''public String getDimensionUnitText()
     public String getDimensionUnitText()
     '''
 def getFunctionName():
-    '''    public String getFunctionName()
+    '''public String getFunctionName()
     public String getFunctionName()
     public String getFunctionName()
     '''
 def getParameters():
-    '''    public LexicalUnit getParameters()
+    '''public LexicalUnit getParameters()
     public LexicalUnit getParameters()
     public LexicalUnit getParameters()
     '''
 def getStringValue():
-    '''    public String getStringValue()
+    '''public String getStringValue()
     public String getStringValue()
     '''
 def getSubValues():
-    '''    public LexicalUnit getSubValues()
+    '''public LexicalUnit getSubValues()
     '''
 def createSimple():
-    '''    public static CSSLexicalUnit createSimple(final short t, final LexicalUnit prev)
+    '''public static CSSLexicalUnit createSimple(final short t, final LexicalUnit prev)
     '''
 def createInteger():
-    '''    public static CSSLexicalUnit createInteger(final int val, final LexicalUnit prev)
+    '''public static CSSLexicalUnit createInteger(final int val, final LexicalUnit prev)
     '''
 def createFloat():
-    '''    public static CSSLexicalUnit createFloat(final short t, final float val, final LexicalUnit prev)
+    '''public static CSSLexicalUnit createFloat(final short t, final float val, final LexicalUnit prev)
     '''
 def createDimension():
-    '''    public static CSSLexicalUnit createDimension(final float val, final String dim, final LexicalUnit prev)
+    '''public static CSSLexicalUnit createDimension(final float val, final String dim, final LexicalUnit prev)
     '''
 def createFunction():
-    '''    public static CSSLexicalUnit createFunction(final String f, final LexicalUnit params, final LexicalUnit prev)
+    '''public static CSSLexicalUnit createFunction(final String f, final LexicalUnit params, final LexicalUnit prev)
     '''
 def createPredefinedFunction():
-    '''    public static CSSLexicalUnit createPredefinedFunction(final short t, final LexicalUnit params, final LexicalUnit prev)
+    '''public static CSSLexicalUnit createPredefinedFunction(final short t, final LexicalUnit params, final LexicalUnit prev)
     '''
 def createString():
-    '''    public static CSSLexicalUnit createString(final short t, final String val, final LexicalUnit prev)
+    '''public static CSSLexicalUnit createString(final short t, final String val, final LexicalUnit prev)
     '''
 def SimpleLexicalUnit():
-    '''    public SimpleLexicalUnit(final short t, final LexicalUnit prev)
+    '''public SimpleLexicalUnit(final short t, final LexicalUnit prev)
     '''
 def IntegerLexicalUnit():
-    '''    public IntegerLexicalUnit(final int val, final LexicalUnit prev)
+    '''public IntegerLexicalUnit(final int val, final LexicalUnit prev)
     '''
 def FloatLexicalUnit():
-    '''    public FloatLexicalUnit(final short t, final float val, final LexicalUnit prev)
+    '''public FloatLexicalUnit(final short t, final float val, final LexicalUnit prev)
     '''
 def DimensionLexicalUnit():
-    '''    public DimensionLexicalUnit(final float val, final String dim, final LexicalUnit prev)
+    '''public DimensionLexicalUnit(final float val, final String dim, final LexicalUnit prev)
     '''
 def FunctionLexicalUnit():
-    '''    public FunctionLexicalUnit(final String f, final LexicalUnit params, final LexicalUnit prev)
+    '''public FunctionLexicalUnit(final String f, final LexicalUnit params, final LexicalUnit prev)
     '''
 def PredefinedFunctionLexicalUnit():
-    '''    public PredefinedFunctionLexicalUnit(final short t, final LexicalUnit params, final LexicalUnit prev)
+    '''public PredefinedFunctionLexicalUnit(final short t, final LexicalUnit params, final LexicalUnit prev)
     '''
 def StringLexicalUnit():
-    '''    public StringLexicalUnit(final short t, final String val, final LexicalUnit prev)
+    '''public StringLexicalUnit(final short t, final String val, final LexicalUnit prev)
     '''

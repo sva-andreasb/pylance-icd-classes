@@ -1,3 +1,3 @@
 def generate():
-    '''    public void generate(final JFormatter f)
+    '''public void generate(final JFormatter f)
     '''

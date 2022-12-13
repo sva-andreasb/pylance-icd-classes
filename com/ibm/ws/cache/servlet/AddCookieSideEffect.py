@@ -1,9 +1,9 @@
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def AddCookieSideEffect():
-    '''    public AddCookieSideEffect(final Cookie cookie)
+    '''public AddCookieSideEffect(final Cookie cookie)
     '''
 def performSideEffect():
-    '''    public void performSideEffect(final HttpServletResponse response)
+    '''public void performSideEffect(final HttpServletResponse response)
     '''

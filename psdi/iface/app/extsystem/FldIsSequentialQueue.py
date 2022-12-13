@@ -1,6 +1,6 @@
 def FldIsSequentialQueue():
-    '''    public FldIsSequentialQueue(final MboValue mbv)
+    '''public FldIsSequentialQueue(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

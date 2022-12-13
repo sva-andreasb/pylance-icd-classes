@@ -1,12 +1,12 @@
 def IlvTimeIndicatorContext():
-    '''    public IlvTimeIndicatorContext(final IlvGanttSheet a)
+    '''public IlvTimeIndicatorContext(final IlvGanttSheet a)
     '''
 def getVisibleBounds():
-    '''    public Rectangle getVisibleBounds()
+    '''public Rectangle getVisibleBounds()
     '''
 def getTransformer():
-    '''    public IlvTransformer getTransformer()
+    '''public IlvTransformer getTransformer()
     '''
 def getTimeConverter():
-    '''    public IlvTimeConverter getTimeConverter()
+    '''public IlvTimeConverter getTimeConverter()
     '''

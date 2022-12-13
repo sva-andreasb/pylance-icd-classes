@@ -1,3 +1,3 @@
 def Printer():
-    '''    public Printer(final MboSet ms)
+    '''public Printer(final MboSet ms)
     '''

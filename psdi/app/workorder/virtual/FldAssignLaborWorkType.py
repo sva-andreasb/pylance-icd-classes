@@ -1,6 +1,6 @@
 def FldAssignLaborWorkType():
-    '''    public FldAssignLaborWorkType(final MboValue mbv)
+    '''public FldAssignLaborWorkType(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

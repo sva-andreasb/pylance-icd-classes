@@ -1,6 +1,6 @@
 def GenericSignatureParser():
-    '''    public GenericSignatureParser()
+    '''public GenericSignatureParser()
     '''
 def tokenize():
-    '''    public String[] tokenize(final String signatureString)
+    '''public String[] tokenize(final String signatureString)
     '''

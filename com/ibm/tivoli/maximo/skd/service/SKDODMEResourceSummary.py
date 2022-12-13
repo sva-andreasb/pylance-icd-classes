@@ -6,5 +6,5 @@ LOAD_HOURS = "String  \"LOADHOURS\""
 ADDITIONAL_HOURS = "String  \"ADDITIONALHOURS\""
 SKD_ODME_RUN_ID = "String  \"SKDODMERUNID\""
 def SKDODMEResourceSummary():
-    '''    public SKDODMEResourceSummary(final MboSet ms)
+    '''public SKDODMEResourceSummary(final MboSet ms)
     '''

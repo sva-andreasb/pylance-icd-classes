@@ -1,6 +1,6 @@
 def FldMaxObjectCfgTextSearchEnabled():
-    '''    public FldMaxObjectCfgTextSearchEnabled(final MboValue mbv)
+    '''public FldMaxObjectCfgTextSearchEnabled(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

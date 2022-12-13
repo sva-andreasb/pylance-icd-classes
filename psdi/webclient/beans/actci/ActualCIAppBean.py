@@ -1,9 +1,9 @@
 def ActualCIAppBean():
-    '''    public ActualCIAppBean()
+    '''public ActualCIAppBean()
     '''
 def CREATECI():
-    '''    public int CREATECI()
+    '''public int CREATECI()
     '''
 def CREATECIS():
-    '''    public int CREATECIS()
+    '''public int CREATECIS()
     '''

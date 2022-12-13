@@ -1,6 +1,6 @@
 def isMasterSecretValid():
-    '''    public boolean isMasterSecretValid(final Socket socket)
+    '''public boolean isMasterSecretValid(final Socket socket)
     '''
 def run():
-    '''    public Boolean run()
+    '''public Boolean run()
     '''

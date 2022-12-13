@@ -1,3 +1,3 @@
 def PlusPBBCopyStatusSet():
-    '''    public PlusPBBCopyStatusSet(final MboServerInterface ms)
+    '''public PlusPBBCopyStatusSet(final MboServerInterface ms)
     '''

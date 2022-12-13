@@ -1,12 +1,12 @@
 def serialize():
-    '''    public final byte[] serialize()
+    '''public final byte[] serialize()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''
 def cloneViaReserialise():
-    '''    public Record cloneViaReserialise()
+    '''public Record cloneViaReserialise()
     '''

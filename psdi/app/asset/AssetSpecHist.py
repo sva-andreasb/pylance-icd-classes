@@ -1,6 +1,6 @@
 def AssetSpecHist():
-    '''    public AssetSpecHist(final MboSet ms)
+    '''public AssetSpecHist(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

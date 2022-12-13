@@ -1,6 +1,6 @@
 def FldWOGeneratedForPO():
-    '''    public FldWOGeneratedForPO(final MboValue mbv)
+    '''public FldWOGeneratedForPO(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

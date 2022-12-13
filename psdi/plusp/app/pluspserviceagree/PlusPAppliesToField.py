@@ -1,3 +1,3 @@
 def PlusPAppliesToField():
-    '''    public PlusPAppliesToField(final MboSet ms)
+    '''public PlusPAppliesToField(final MboSet ms)
     '''

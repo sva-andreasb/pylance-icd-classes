@@ -1,21 +1,21 @@
 def REFRESH():
-    '''    public int REFRESH()
+    '''public int REFRESH()
     '''
 def SAVE():
-    '''    public int SAVE()
+    '''public int SAVE()
     '''
 def COMPARE():
-    '''    public int COMPARE()
+    '''public int COMPARE()
     '''
 def skdcomparescenario():
-    '''    public int skdcomparescenario()
+    '''public int skdcomparescenario()
     '''
 def toJsonObject():
-    '''    public static JSONObject toJsonObject(final MboRemote mbo)
+    '''public static JSONObject toJsonObject(final MboRemote mbo)
     '''
 def ASSIGNLAB():
-    '''    public int ASSIGNLAB()
+    '''public int ASSIGNLAB()
     '''
 def CRWASSIGNA():
-    '''    public int CRWASSIGNA()
+    '''public int CRWASSIGNA()
     '''

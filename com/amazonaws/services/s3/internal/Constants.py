@@ -18,8 +18,8 @@ BUCKET_ACCESS_FORBIDDEN_STATUS_CODE = "int  403"
 BUCKET_REDIRECT_STATUS_CODE = "int  301"
 REQUESTER_PAYS = "String  \"requester\""
 def getStreamBufferSize():
-    '''    public static int getStreamBufferSize()
+    '''public static int getStreamBufferSize()
     '''
 def getS3StreamBufferSize():
-    '''    public static Integer getS3StreamBufferSize()
+    '''public static Integer getS3StreamBufferSize()
     '''

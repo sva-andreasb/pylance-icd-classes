@@ -1,6 +1,6 @@
 def YornLookupListSet():
-    '''    public YornLookupListSet(final MboServerInterface ms)
+    '''public YornLookupListSet(final MboServerInterface ms)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

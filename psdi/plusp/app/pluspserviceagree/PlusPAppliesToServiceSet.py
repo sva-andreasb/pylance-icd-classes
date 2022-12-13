@@ -1,3 +1,3 @@
 def PlusPAppliesToServiceSet():
-    '''    public PlusPAppliesToServiceSet(final MboServerInterface mboServerInterface)
+    '''public PlusPAppliesToServiceSet(final MboServerInterface mboServerInterface)
     '''

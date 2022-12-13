@@ -1,6 +1,6 @@
 def DELETE():
-    '''    public int DELETE()
+    '''public int DELETE()
     '''
 def SAVE():
-    '''    public int SAVE()
+    '''public int SAVE()
     '''

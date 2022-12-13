@@ -1,6 +1,6 @@
 def PlusPFldFinancialPeriod():
-    '''    public PlusPFldFinancialPeriod(final MboValue mbv)
+    '''public PlusPFldFinancialPeriod(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

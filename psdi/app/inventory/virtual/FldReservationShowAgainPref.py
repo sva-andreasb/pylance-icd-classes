@@ -1,6 +1,6 @@
 def FldReservationShowAgainPref():
-    '''    public FldReservationShowAgainPref(final MboValue mbv)
+    '''public FldReservationShowAgainPref(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

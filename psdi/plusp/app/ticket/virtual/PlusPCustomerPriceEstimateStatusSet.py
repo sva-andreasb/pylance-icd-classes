@@ -1,3 +1,3 @@
 def PlusPCustomerPriceEstimateStatusSet():
-    '''    public PlusPCustomerPriceEstimateStatusSet(final MboServerInterface ms)
+    '''public PlusPCustomerPriceEstimateStatusSet(final MboServerInterface ms)
     '''

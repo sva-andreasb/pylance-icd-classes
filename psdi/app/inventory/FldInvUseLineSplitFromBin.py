@@ -1,9 +1,9 @@
 def FldInvUseLineSplitFromBin():
-    '''    public FldInvUseLineSplitFromBin(final MboValue mbv)
+    '''public FldInvUseLineSplitFromBin(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

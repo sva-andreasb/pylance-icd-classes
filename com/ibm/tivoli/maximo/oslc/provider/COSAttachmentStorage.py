@@ -1,34 +1,34 @@
 def COSAttachmentStorage():
-    '''    public COSAttachmentStorage()
+    '''public COSAttachmentStorage()
     '''
 def getAttachmentSize():
-    '''    public long getAttachmentSize(final MboRemote doclink)
+    '''public long getAttachmentSize(final MboRemote doclink)
     '''
 def createAttachment():
-    '''    public void createAttachment(final String name, final byte[] data, final String mimeType)
+    '''public void createAttachment(final String name, final byte[] data, final String mimeType)
     '''
 def deleteAttachment():
-    '''    public void deleteAttachment(final MboRemote doclink)
+    '''public void deleteAttachment(final MboRemote doclink)
     '''
 def getAttachment():
-    '''    public byte[] getAttachment(final MboRemote doclink)
+    '''public byte[] getAttachment(final MboRemote doclink)
     public byte[] getAttachment(final String urlName)
     '''
 def getAttachmentQualifiedName():
-    '''    public String getAttachmentQualifiedName(final MboRemote doclink, final String name)
+    '''public String getAttachmentQualifiedName(final MboRemote doclink, final String name)
     '''
 def setupStorage():
-    '''    public void setupStorage()
+    '''public void setupStorage()
     '''
 def cleanupStorage():
-    '''    public void cleanupStorage()
+    '''public void cleanupStorage()
     '''
 def streamAttachment():
-    '''    public InputStream streamAttachment(final MboRemote doclink)
+    '''public InputStream streamAttachment(final MboRemote doclink)
     '''
 def isAttachmentNeedsCustomDatasource():
-    '''    public boolean isAttachmentNeedsCustomDatasource(final String urlName)
+    '''public boolean isAttachmentNeedsCustomDatasource(final String urlName)
     '''
 def getAttachmentDatasource():
-    '''    public DataSource getAttachmentDatasource(final String urlName)
+    '''public DataSource getAttachmentDatasource(final String urlName)
     '''

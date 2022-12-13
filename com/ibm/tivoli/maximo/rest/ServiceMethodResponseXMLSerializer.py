@@ -1,9 +1,9 @@
 def ServiceMethodResponseXMLSerializer():
-    '''    public ServiceMethodResponseXMLSerializer()
+    '''public ServiceMethodResponseXMLSerializer()
     '''
 def getOperations():
-    '''    public byte[] getOperations(final Resource resource)
+    '''public byte[] getOperations(final Resource resource)
     '''
 def getServices():
-    '''    public byte[] getServices()
+    '''public byte[] getServices()
     '''

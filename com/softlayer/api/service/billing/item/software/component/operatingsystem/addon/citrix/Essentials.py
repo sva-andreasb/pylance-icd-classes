@@ -1,6 +1,6 @@
 def getResource():
-    '''    public Component getResource()
+    '''public Component getResource()
     '''
 def setResource():
-    '''    public void setResource(final Component resource)
+    '''public void setResource(final Component resource)
     '''

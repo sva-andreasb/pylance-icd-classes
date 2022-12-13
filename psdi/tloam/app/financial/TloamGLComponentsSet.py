@@ -1,3 +1,3 @@
 def TloamGLComponentsSet():
-    '''    public TloamGLComponentsSet(final MboServerInterface ms)
+    '''public TloamGLComponentsSet(final MboServerInterface ms)
     '''

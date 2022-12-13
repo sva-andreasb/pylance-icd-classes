@@ -1,6 +1,6 @@
 def FldTloamLicTransferToLicenseNum():
-    '''    public FldTloamLicTransferToLicenseNum(final MboValue mbv)
+    '''public FldTloamLicTransferToLicenseNum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

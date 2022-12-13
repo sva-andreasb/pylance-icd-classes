@@ -1,12 +1,12 @@
 def getValue():
-    '''    public Object getValue()
+    '''public Object getValue()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def Attribute():
-    '''    public Attribute(final String name, final Object value)
+    '''public Attribute(final String name, final Object value)
     '''

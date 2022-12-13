@@ -1,3 +1,3 @@
 def AssetZeroCostsSet():
-    '''    public AssetZeroCostsSet(final MboServerInterface ms)
+    '''public AssetZeroCostsSet(final MboServerInterface ms)
     '''

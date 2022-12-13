@@ -1,3 +1,3 @@
 def MaxIntMappingSet():
-    '''    public MaxIntMappingSet(final MboServerInterface ms)
+    '''public MaxIntMappingSet(final MboServerInterface ms)
     '''

@@ -1,12 +1,12 @@
 def setMessageDrivenContext():
-    '''    public void setMessageDrivenContext(final MessageDrivenContext ctx)
+    '''public void setMessageDrivenContext(final MessageDrivenContext ctx)
     '''
 def ejbCreate():
-    '''    public void ejbCreate()
+    '''public void ejbCreate()
     '''
 def ejbRemove():
-    '''    public void ejbRemove()
+    '''public void ejbRemove()
     '''
 def onMessage():
-    '''    public void onMessage(final Message msg)
+    '''public void onMessage(final Message msg)
     '''

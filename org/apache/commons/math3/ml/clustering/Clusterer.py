@@ -1,3 +1,3 @@
 def getDistanceMeasure():
-    '''    public DistanceMeasure getDistanceMeasure()
+    '''public DistanceMeasure getDistanceMeasure()
     '''

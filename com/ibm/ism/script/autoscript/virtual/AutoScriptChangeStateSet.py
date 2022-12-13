@@ -1,3 +1,3 @@
 def AutoScriptChangeStateSet():
-    '''    public AutoScriptChangeStateSet(final MboServerInterface ms)
+    '''public AutoScriptChangeStateSet(final MboServerInterface ms)
     '''

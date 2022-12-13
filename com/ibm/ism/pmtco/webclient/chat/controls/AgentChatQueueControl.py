@@ -1,15 +1,15 @@
 def setupAgent():
-    '''    public void setupAgent()
+    '''public void setupAgent()
     '''
 def isChatAgent():
-    '''    public boolean isChatAgent()
+    '''public boolean isChatAgent()
     '''
 def getQueueListJson():
-    '''    public String getQueueListJson()
+    '''public String getQueueListJson()
     '''
 def launchChat():
-    '''    public int launchChat()
+    '''public int launchChat()
     '''
 def resetChat():
-    '''    public int resetChat()
+    '''public int resetChat()
     '''

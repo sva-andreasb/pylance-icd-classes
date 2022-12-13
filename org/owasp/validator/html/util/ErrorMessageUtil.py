@@ -32,5 +32,5 @@ ERROR_CSS_TAG_SELECTOR_DISALLOWED = "String  \"error.css.tag.selector.disallowed
 ERROR_STYLESHEET_PROPERTY_INVALID = "String  \"error.css.stylesheet.property.invalid\""
 ERROR_CSS_TAG_PROPERTY_INVALID = "String  \"error.css.tag.property.invalid\""
 def getMessage():
-    '''    public static String getMessage(final ResourceBundle messages, final String msgKey, final Object[] arguments)
+    '''public static String getMessage(final ResourceBundle messages, final String msgKey, final Object[] arguments)
     '''

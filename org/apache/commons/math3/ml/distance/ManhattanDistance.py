@@ -1,3 +1,3 @@
 def compute():
-    '''    public double compute(final double[] a, final double[] b)
+    '''public double compute(final double[] a, final double[] b)
     '''

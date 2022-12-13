@@ -1,6 +1,6 @@
 def FldAMCrewLbrPosPosition():
-    '''    public FldAMCrewLbrPosPosition(final MboValue mbv)
+    '''public FldAMCrewLbrPosPosition(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

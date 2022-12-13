@@ -1,6 +1,6 @@
 def FldAssetAssetType():
-    '''    public FldAssetAssetType(final MboValue mbv)
+    '''public FldAssetAssetType(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

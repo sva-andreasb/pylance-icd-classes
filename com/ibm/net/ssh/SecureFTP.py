@@ -35,144 +35,144 @@ PATH_STAT_IF = "byte  2"
 PATH_STAT_ALWAYS = "byte  3"
 SEPARATOR = "String  \"/\""
 def getOutputStream():
-    '''    public OutputStream getOutputStream()
+    '''public OutputStream getOutputStream()
     '''
 def getInputStream():
-    '''    public InputStream getInputStream()
+    '''public InputStream getInputStream()
     '''
 def getErrorStream():
-    '''    public InputStream getErrorStream()
+    '''public InputStream getErrorStream()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     public void close()
     public void close()
     '''
 def getVersion():
-    '''    public int getVersion()
+    '''public int getVersion()
     '''
 def openFile():
-    '''    public Handle openFile(final String filename, final int accessFlags)
+    '''public Handle openFile(final String filename, final int accessFlags)
     public Handle openFile(final FileAttributes initialAttributes, final int accessFlags)
     '''
 def closeHandle():
-    '''    public Status closeHandle(Handle handle)
+    '''public Status closeHandle(Handle handle)
     '''
 def getFileInputStream():
-    '''    public InputStream getFileInputStream(final String filename)
+    '''public InputStream getFileInputStream(final String filename)
     '''
 def getFile():
-    '''    public Status getFile(final String remoteFile, final File localFile, final boolean overwrite)
+    '''public Status getFile(final String remoteFile, final File localFile, final boolean overwrite)
     '''
 def run():
-    '''    public Object run()
+    '''public Object run()
     public Object run()
     public Object run()
     public Object run()
     public void run()
     '''
 def readFile():
-    '''    public int readFile(final Handle fileHandle, final long offset, final int length, final byte[] output, final int outputOffset)
+    '''public int readFile(final Handle fileHandle, final long offset, final int length, final byte[] output, final int outputOffset)
     '''
 def getFileOutputStream():
-    '''    public OutputStream getFileOutputStream(final String filename, final boolean append)
+    '''public OutputStream getFileOutputStream(final String filename, final boolean append)
     '''
 def putFile():
-    '''    public Status putFile(final File localFile, String remotePath, final boolean overwrite)
+    '''public Status putFile(final File localFile, String remotePath, final boolean overwrite)
     '''
 def writeFile():
-    '''    public Status writeFile(final Handle fileHandle, final long fileOffset, final byte[] data, final int offset, final int length)
+    '''public Status writeFile(final Handle fileHandle, final long fileOffset, final byte[] data, final int offset, final int length)
     '''
 def exists():
-    '''    public boolean exists(final String path)
+    '''public boolean exists(final String path)
     '''
 def getFileSize():
-    '''    public long getFileSize(final String path)
+    '''public long getFileSize(final String path)
     '''
 def getAttributes():
-    '''    public FileAttributes getAttributes(final String path, final int flags)
+    '''public FileAttributes getAttributes(final String path, final int flags)
     public FileAttributes getAttributes(final Handle fileHandle, final int flags)
     '''
 def setAttributes():
-    '''    public Status setAttributes(final FileAttributes attributes)
+    '''public Status setAttributes(final FileAttributes attributes)
     public Status setAttributes(final Handle fileHandle, final FileAttributes attributes)
     '''
 def openDirectory():
-    '''    public Handle openDirectory(String path)
+    '''public Handle openDirectory(String path)
     '''
 def readDirectory():
-    '''    public FileAttributes[] readDirectory(final Handle handle, final FileAttributesFilter filter)
+    '''public FileAttributes[] readDirectory(final Handle handle, final FileAttributesFilter filter)
     public FileAttributes[] readDirectory(final Handle handle)
     '''
 def removeFile():
-    '''    public Status removeFile(final String filename)
+    '''public Status removeFile(final String filename)
     '''
 def makeDirectory():
-    '''    public Status makeDirectory(final String path)
+    '''public Status makeDirectory(final String path)
     public Status makeDirectory(final FileAttributes initialAttributes)
     '''
 def makeDirectories():
-    '''    public Status makeDirectories(final String path)
+    '''public Status makeDirectories(final String path)
     '''
 def removeDirectory():
-    '''    public Status removeDirectory(final String path)
+    '''public Status removeDirectory(final String path)
     '''
 def getAbsolutePath():
-    '''    public FileAttributes getAbsolutePath(final String path)
+    '''public FileAttributes getAbsolutePath(final String path)
     public FileAttributes getAbsolutePath(final String originalPath, final String composePath, final byte controlByte)
     '''
 def getLinkAttributes():
-    '''    public FileAttributes getLinkAttributes(final String path, final int flags)
+    '''public FileAttributes getLinkAttributes(final String path, final int flags)
     '''
 def renameFile():
-    '''    public Status renameFile(final String oldPath, final String newPath, final boolean overwrite)
+    '''public Status renameFile(final String oldPath, final String newPath, final boolean overwrite)
     '''
 def readLink():
-    '''    public FileAttributes readLink(final String path)
+    '''public FileAttributes readLink(final String path)
     '''
 def makeLink():
-    '''    public Status makeLink(final String newLinkPath, final String existingPath, final boolean isSymbolic)
+    '''public Status makeLink(final String newLinkPath, final String existingPath, final boolean isSymbolic)
     '''
 def checkFile():
-    '''    public Status checkFile(final String filename, final long startOffset, final long length, final String hash)
+    '''public Status checkFile(final String filename, final long startOffset, final long length, final String hash)
     public Status checkFile(final Handle fileHandle, final long startOffset, final long length, final String hash)
     '''
 def getAvailableSpace():
-    '''    public Status getAvailableSpace(final String path)
+    '''public Status getAvailableSpace(final String path)
     '''
 def getHomeDirectory():
-    '''    public FileAttributes getHomeDirectory()
+    '''public FileAttributes getHomeDirectory()
     public FileAttributes getHomeDirectory(String username)
     '''
 def lockFile():
-    '''    public Status lockFile(final Handle handle, final long offset, final long length, final int lockMask)
+    '''public Status lockFile(final Handle handle, final long offset, final long length, final int lockMask)
     '''
 def unlockFile():
-    '''    public Status unlockFile(final Handle handle, final long offset, final long length)
+    '''public Status unlockFile(final Handle handle, final long offset, final long length)
     '''
 def read():
-    '''    public int read()
+    '''public int read()
     public int read(final byte[] data, final int offset, final int length)
     '''
 def skip():
-    '''    public long skip(final long n)
+    '''public long skip(final long n)
     '''
 def available():
-    '''    public int available()
+    '''public int available()
     '''
 def mark():
-    '''    public void mark(final int readLimit)
+    '''public void mark(final int readLimit)
     '''
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''
 def markSupported():
-    '''    public boolean markSupported()
+    '''public boolean markSupported()
     '''
 def write():
-    '''    public void write(final int data)
+    '''public void write(final int data)
     public void write(final byte[] data, final int offset, final int length)
     '''
 def flush():
-    '''    public void flush()
+    '''public void flush()
     '''

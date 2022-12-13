@@ -1,36 +1,36 @@
 def MaxVarInput():
-    '''    public MaxVarInput(final MboSet ms)
+    '''public MaxVarInput(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def getMboValueData():
-    '''    public MboValueData[] getMboValueData(final String[] attributes)
+    '''public MboValueData[] getMboValueData(final String[] attributes)
     '''
 def getMboData():
-    '''    public MboData getMboData(final String[] attributes)
+    '''public MboData getMboData(final String[] attributes)
     '''
 def refetchVarValues():
-    '''    public void refetchVarValues()
+    '''public void refetchVarValues()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def callInit():
-    '''    public void callInit()
+    '''public void callInit()
     '''
 def clearClassificationITAsset():
-    '''    public void clearClassificationITAsset()
+    '''public void clearClassificationITAsset()
     '''
 def clearClassificationITSFW():
-    '''    public void clearClassificationITSFW()
+    '''public void clearClassificationITSFW()
     '''
 def clearClassificationActCIClass():
-    '''    public void clearClassificationActCIClass()
+    '''public void clearClassificationActCIClass()
     '''
 def clearClassificationAuthCIClass():
-    '''    public void clearClassificationAuthCIClass()
+    '''public void clearClassificationAuthCIClass()
     '''
 def initFieldFlagsOnMbo():
-    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''public void initFieldFlagsOnMbo(final String attrName)
     '''

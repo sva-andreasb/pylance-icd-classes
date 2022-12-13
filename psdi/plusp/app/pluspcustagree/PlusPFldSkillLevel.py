@@ -1,6 +1,6 @@
 def PlusPFldSkillLevel():
-    '''    public PlusPFldSkillLevel(final MboValue mbv)
+    '''public PlusPFldSkillLevel(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

@@ -8,47 +8,47 @@ LIST_INVALID = "int  2000"
 UNION_INVALID = "int  3000"
 UNDEFINED = "int  10000"
 def forCursorWithDetails():
-    '''    public static XmlValidationError forCursorWithDetails(final String message, final String code, final Object[] args, final int severity, final XmlCursor cursor, final QName fieldQName, final QName offendingQname, final SchemaType expectedSchemaType, final List expectedQNames, final int errorType, final SchemaType badSchemaType)
+    '''public static XmlValidationError forCursorWithDetails(final String message, final String code, final Object[] args, final int severity, final XmlCursor cursor, final QName fieldQName, final QName offendingQname, final SchemaType expectedSchemaType, final List expectedQNames, final int errorType, final SchemaType badSchemaType)
     '''
 def forLocationWithDetails():
-    '''    public static XmlValidationError forLocationWithDetails(final String message, final String code, final Object[] args, final int severity, final Location location, final QName fieldQName, final QName offendingQname, final SchemaType expectedSchemaType, final List expectedQNames, final int errorType, final SchemaType badSchemaType)
+    '''public static XmlValidationError forLocationWithDetails(final String message, final String code, final Object[] args, final int severity, final Location location, final QName fieldQName, final QName offendingQname, final SchemaType expectedSchemaType, final List expectedQNames, final int errorType, final SchemaType badSchemaType)
     '''
 def getMessage():
-    '''    public String getMessage()
+    '''public String getMessage()
     '''
 def getBadSchemaType():
-    '''    public SchemaType getBadSchemaType()
+    '''public SchemaType getBadSchemaType()
     '''
 def setBadSchemaType():
-    '''    public void setBadSchemaType(final SchemaType _badSchemaType)
+    '''public void setBadSchemaType(final SchemaType _badSchemaType)
     '''
 def getErrorType():
-    '''    public int getErrorType()
+    '''public int getErrorType()
     '''
 def setErrorType():
-    '''    public void setErrorType(final int _errorType)
+    '''public void setErrorType(final int _errorType)
     '''
 def getExpectedQNames():
-    '''    public List getExpectedQNames()
+    '''public List getExpectedQNames()
     '''
 def setExpectedQNames():
-    '''    public void setExpectedQNames(final List _expectedQNames)
+    '''public void setExpectedQNames(final List _expectedQNames)
     '''
 def getFieldQName():
-    '''    public QName getFieldQName()
+    '''public QName getFieldQName()
     '''
 def setFieldQName():
-    '''    public void setFieldQName(final QName _fieldQName)
+    '''public void setFieldQName(final QName _fieldQName)
     '''
 def getOffendingQName():
-    '''    public QName getOffendingQName()
+    '''public QName getOffendingQName()
     '''
 def setOffendingQName():
-    '''    public void setOffendingQName(final QName _offendingQName)
+    '''public void setOffendingQName(final QName _offendingQName)
     '''
 def getExpectedSchemaType():
-    '''    public SchemaType getExpectedSchemaType()
+    '''public SchemaType getExpectedSchemaType()
     '''
 def setExpectedSchemaType():
-    '''    public void setExpectedSchemaType(final SchemaType _expectedSchemaType)
+    '''public void setExpectedSchemaType(final SchemaType _expectedSchemaType)
     '''

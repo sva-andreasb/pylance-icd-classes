@@ -1,3 +1,3 @@
 def setRelationshipTreeObject():
-    '''    public synchronized void setRelationshipTreeObject()
+    '''public synchronized void setRelationshipTreeObject()
     '''

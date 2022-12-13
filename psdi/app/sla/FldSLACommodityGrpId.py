@@ -1,6 +1,6 @@
 def FldSLACommodityGrpId():
-    '''    public FldSLACommodityGrpId(final MboValue mbv)
+    '''public FldSLACommodityGrpId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,3 +1,3 @@
 def RefSecondarySet():
-    '''    public RefSecondarySet(final MboServerInterface ms)
+    '''public RefSecondarySet(final MboServerInterface ms)
     '''

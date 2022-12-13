@@ -1,45 +1,45 @@
 def getCommandGroups():
-    '''    public EList getCommandGroups()
+    '''public EList getCommandGroups()
     '''
 def getCommands():
-    '''    public EList getCommands()
+    '''public EList getCommands()
     '''
 def getTaskCommands():
-    '''    public EList getTaskCommands()
+    '''public EList getTaskCommands()
     '''
 def getCommandGroupExts():
-    '''    public EList getCommandGroupExts()
+    '''public EList getCommandGroupExts()
     '''
 def getTaskCommandExts():
-    '''    public EList getTaskCommandExts()
+    '''public EList getTaskCommandExts()
     '''
 def getImplClass():
-    '''    public String getImplClass()
+    '''public String getImplClass()
     '''
 def setImplClass():
-    '''    public void setImplClass(final String newImplClass)
+    '''public void setImplClass(final String newImplClass)
     '''
 def getResourceBundle():
-    '''    public String getResourceBundle()
+    '''public String getResourceBundle()
     '''
 def setResourceBundle():
-    '''    public void setResourceBundle(final String newResourceBundle)
+    '''public void setResourceBundle(final String newResourceBundle)
     '''
 def eInverseRemove():
-    '''    public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
+    '''public NotificationChain eInverseRemove(final InternalEObject otherEnd, final int featureID, final Class baseClass, final NotificationChain msgs)
     '''
 def eGet():
-    '''    public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
+    '''public Object eGet(final EStructuralFeature eFeature, final boolean resolve)
     '''
 def eSet():
-    '''    public void eSet(final EStructuralFeature eFeature, final Object newValue)
+    '''public void eSet(final EStructuralFeature eFeature, final Object newValue)
     '''
 def eUnset():
-    '''    public void eUnset(final EStructuralFeature eFeature)
+    '''public void eUnset(final EStructuralFeature eFeature)
     '''
 def eIsSet():
-    '''    public boolean eIsSet(final EStructuralFeature eFeature)
+    '''public boolean eIsSet(final EStructuralFeature eFeature)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

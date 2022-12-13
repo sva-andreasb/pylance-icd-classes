@@ -1,9 +1,9 @@
 def FilterAdapter():
-    '''    public FilterAdapter(final Filter filter)
+    '''public FilterAdapter(final Filter filter)
     '''
 def getFilter():
-    '''    public Filter getFilter()
+    '''public Filter getFilter()
     '''
 def start():
-    '''    public void start()
+    '''public void start()
     '''

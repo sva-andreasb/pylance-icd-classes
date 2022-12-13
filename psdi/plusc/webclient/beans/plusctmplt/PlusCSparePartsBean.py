@@ -1,3 +1,3 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''

@@ -4,36 +4,36 @@ PROPERTY_DISABLEQUEUEMANAGER = "String  \"mxe.report.birt.disablequeuemanager\""
 DEFAULT_MAX_CONCURRENT_THREADCOUNT = "int  3"
 PROPERTY_MAXCONCURRENTRUN = "String  \"mxe.report.birt.maxconcurrentrun\""
 def ReportQueueManager():
-    '''    public ReportQueueManager()
+    '''public ReportQueueManager()
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     public void run()
     '''
 def acquireLock():
-    '''    public boolean acquireLock(final long runQueueId)
+    '''public boolean acquireLock(final long runQueueId)
     '''
 def removeRunReport():
-    '''    public void removeRunReport(final long runQueueId)
+    '''public void removeRunReport(final long runQueueId)
     '''
 def getMaxAllowedActiveReportThreads():
-    '''    public int getMaxAllowedActiveReportThreads()
+    '''public int getMaxAllowedActiveReportThreads()
     '''
 def getQueueIdleTime():
-    '''    public int getQueueIdleTime()
+    '''public int getQueueIdleTime()
     '''
 def createFileFromStream():
-    '''    public void createFileFromStream(final File file, final InputStream inputStream)
+    '''public void createFileFromStream(final File file, final InputStream inputStream)
     '''
 def ReportRunThread():
-    '''    public ReportRunThread()
+    '''public ReportRunThread()
     '''
 def startDoingWork():
-    '''    public void startDoingWork()
+    '''public void startDoingWork()
     '''
 def markShutdown():
-    '''    public void markShutdown()
+    '''public void markShutdown()
     '''
 def isWaitingForWork():
-    '''    public boolean isWaitingForWork()
+    '''public boolean isWaitingForWork()
     '''

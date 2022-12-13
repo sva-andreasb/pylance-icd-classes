@@ -1,7 +1,7 @@
 PERSON = "String  \"PERSON\""
 def SlackCommandRequestExecutor():
-    '''    public SlackCommandRequestExecutor(final SlackRequest request)
+    '''public SlackCommandRequestExecutor(final SlackRequest request)
     '''
 def exec():
-    '''    public JSONObject exec()
+    '''public JSONObject exec()
     '''

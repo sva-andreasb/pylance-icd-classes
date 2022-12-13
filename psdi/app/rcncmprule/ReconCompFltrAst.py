@@ -1,12 +1,12 @@
 def ReconCompFltrAst():
-    '''    public ReconCompFltrAst(final MboSet ms)
+    '''public ReconCompFltrAst(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete(final long modifier)
+    '''public void delete(final long modifier)
     '''

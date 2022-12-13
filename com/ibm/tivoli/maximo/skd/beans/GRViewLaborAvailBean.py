@@ -1,9 +1,9 @@
 def GRViewLaborAvailBean():
-    '''    public GRViewLaborAvailBean()
+    '''public GRViewLaborAvailBean()
     '''
 def filtermodavail():
-    '''    public int filtermodavail()
+    '''public int filtermodavail()
     '''
 def getUserInfo():
-    '''    public UserInfo getUserInfo()
+    '''public UserInfo getUserInfo()
     '''

@@ -1,9 +1,9 @@
 def BasedOnAutoClassDisabled():
-    '''    public BasedOnAutoClassDisabled()
+    '''public BasedOnAutoClassDisabled()
     '''
 def evaluateCondition():
-    '''    public boolean evaluateCondition(final MboRemote mbo, final Object param)
+    '''public boolean evaluateCondition(final MboRemote mbo, final Object param)
     '''
 def toWhereClause():
-    '''    public String toWhereClause(final Object param, final MboSetRemote msr)
+    '''public String toWhereClause(final Object param, final MboSetRemote msr)
     '''

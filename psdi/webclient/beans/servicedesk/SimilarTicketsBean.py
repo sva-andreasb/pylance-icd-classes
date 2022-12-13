@@ -1,9 +1,9 @@
 def SimilarTicketsBean():
-    '''    public SimilarTicketsBean()
+    '''public SimilarTicketsBean()
     '''
 def relate():
-    '''    public int relate()
+    '''public int relate()
     '''
 def relateglobal():
-    '''    public int relateglobal()
+    '''public int relateglobal()
     '''

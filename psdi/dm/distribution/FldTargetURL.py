@@ -1,6 +1,6 @@
 def FldTargetURL():
-    '''    public FldTargetURL(final MboValue mbv)
+    '''public FldTargetURL(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

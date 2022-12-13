@@ -1,5 +1,5 @@
 def ChineseCalendar():
-    '''    public ChineseCalendar()
+    '''public ChineseCalendar()
     public ChineseCalendar(final Date date)
     public ChineseCalendar(final int year, final int month, final int isLeapMonth, final int date)
     public ChineseCalendar(final int year, final int month, final int isLeapMonth, final int date, final int hour, final int minute, final int second)
@@ -12,14 +12,14 @@ def ChineseCalendar():
     public ChineseCalendar(final TimeZone zone, final ULocale locale)
     '''
 def add():
-    '''    public void add(final int field, final int amount)
+    '''public void add(final int field, final int amount)
     '''
 def roll():
-    '''    public void roll(final int field, final int amount)
+    '''public void roll(final int field, final int amount)
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''
 def haveDefaultCentury():
-    '''    public boolean haveDefaultCentury()
+    '''public boolean haveDefaultCentury()
     '''

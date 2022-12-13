@@ -1,3 +1,3 @@
 def FldNodeId():
-    '''    public FldNodeId(final MboValue mbv)
+    '''public FldNodeId(final MboValue mbv)
     '''

@@ -1,6 +1,6 @@
 def FldDefaultValue():
-    '''    public FldDefaultValue(final MboValue mbv)
+    '''public FldDefaultValue(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

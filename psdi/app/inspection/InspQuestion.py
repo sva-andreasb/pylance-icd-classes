@@ -1,15 +1,15 @@
 def InspQuestion():
-    '''    public InspQuestion(final MboSet ms)
+    '''public InspQuestion(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def generateAutoKey():
-    '''    public void generateAutoKey()
+    '''public void generateAutoKey()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''

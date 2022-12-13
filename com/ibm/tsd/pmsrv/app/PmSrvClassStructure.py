@@ -1,3 +1,3 @@
 def PmSrvClassStructure():
-    '''    public PmSrvClassStructure(final MboSet ms)
+    '''public PmSrvClassStructure(final MboSet ms)
     '''

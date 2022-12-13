@@ -1,3 +1,3 @@
 def clearClassification():
-    '''    public void clearClassification()
+    '''public void clearClassification()
     '''

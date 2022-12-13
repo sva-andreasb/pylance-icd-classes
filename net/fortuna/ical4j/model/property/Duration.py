@@ -1,5 +1,5 @@
 def Duration():
-    '''    public Duration()
+    '''public Duration()
     public Duration(final ParameterList aList, final String aValue)
     public Duration(final Dur duration)
     public Duration(final TemporalAmount duration)
@@ -8,24 +8,24 @@ def Duration():
     public Duration(final Date start, final Date end)
     '''
 def getDuration():
-    '''    public final TemporalAmount getDuration()
+    '''public final TemporalAmount getDuration()
     '''
 def setValue():
-    '''    public final void setValue(final String aValue)
+    '''public final void setValue(final String aValue)
     '''
 def getValue():
-    '''    public final String getValue()
+    '''public final String getValue()
     '''
 def setDuration():
-    '''    public final void setDuration(final TemporalAmount duration)
+    '''public final void setDuration(final TemporalAmount duration)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def Factory():
-    '''    public Factory()
+    '''public Factory()
     '''
 def createProperty():
-    '''    public Property createProperty(final ParameterList parameters, final String value)
+    '''public Property createProperty(final ParameterList parameters, final String value)
     public Property createProperty()
     '''

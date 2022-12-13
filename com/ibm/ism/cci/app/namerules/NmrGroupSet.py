@@ -1,3 +1,3 @@
 def NmrGroupSet():
-    '''    public NmrGroupSet(final MboServerInterface ms)
+    '''public NmrGroupSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def LanguageSet():
-    '''    public LanguageSet(final MboServerInterface ms)
+    '''public LanguageSet(final MboServerInterface ms)
     '''

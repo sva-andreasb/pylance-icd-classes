@@ -1,6 +1,6 @@
 def nopClosure():
-    '''    public static <E> Closure<E> nopClosure()
+    '''public static <E> Closure<E> nopClosure()
     '''
 def execute():
-    '''    public void execute(final E input)
+    '''public void execute(final E input)
     '''

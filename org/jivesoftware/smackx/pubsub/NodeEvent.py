@@ -1,3 +1,3 @@
 def getNodeId():
-    '''    public String getNodeId()
+    '''public String getNodeId()
     '''

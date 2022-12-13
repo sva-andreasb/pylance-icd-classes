@@ -1,27 +1,27 @@
 def MboResourceRequestHandler():
-    '''    public MboResourceRequestHandler()
+    '''public MboResourceRequestHandler()
     '''
 def isCalculateETagBeforeSerialization():
-    '''    public boolean isCalculateETagBeforeSerialization(final Resource res, final ResourceRequest req)
+    '''public boolean isCalculateETagBeforeSerialization(final Resource res, final ResourceRequest req)
     '''
 def initiateWorkflow():
-    '''    public Resource initiateWorkflow(final Resource resource, final ResourceRequest req)
+    '''public Resource initiateWorkflow(final Resource resource, final ResourceRequest req)
     '''
 def MboConfigInfo():
-    '''    public MboConfigInfo()
+    '''public MboConfigInfo()
     '''
 def getActionDescriptor():
-    '''    public MboActionDescriptor getActionDescriptor(final String mboName, final String actionName, final String propValue)
+    '''public MboActionDescriptor getActionDescriptor(final String mboName, final String actionName, final String propValue)
     '''
 def getServiceName():
-    '''    public String getServiceName()
+    '''public String getServiceName()
     '''
 def getOperation():
-    '''    public String getOperation()
+    '''public String getOperation()
     '''
 def getParamMap():
-    '''    public Map<String, String> getParamMap()
+    '''public Map<String, String> getParamMap()
     '''
 def getCfgPropValue():
-    '''    public String getCfgPropValue()
+    '''public String getCfgPropValue()
     '''

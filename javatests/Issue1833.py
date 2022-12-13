@@ -1,3 +1,3 @@
 def setValue():
-    '''    public void setValue(final PyObject value)
+    '''public void setValue(final PyObject value)
     '''

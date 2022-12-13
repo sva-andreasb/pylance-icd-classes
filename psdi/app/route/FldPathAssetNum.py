@@ -1,3 +1,3 @@
 def FldPathAssetNum():
-    '''    public FldPathAssetNum(final MboValue mbv)
+    '''public FldPathAssetNum(final MboValue mbv)
     '''

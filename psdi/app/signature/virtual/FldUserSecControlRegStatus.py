@@ -1,3 +1,3 @@
 def FldUserSecControlRegStatus():
-    '''    public FldUserSecControlRegStatus(final MboValue mbv)
+    '''public FldUserSecControlRegStatus(final MboValue mbv)
     '''

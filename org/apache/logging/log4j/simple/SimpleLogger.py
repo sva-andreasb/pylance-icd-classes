@@ -1,11 +1,11 @@
 def SimpleLogger():
-    '''    public SimpleLogger(final String name, final Level defaultLevel, final boolean showLogName, final boolean showShortLogName, final boolean showDateTime, final boolean showContextMap, final String dateTimeFormat, final MessageFactory messageFactory, final PropertiesUtil props, final PrintStream stream)
+    '''public SimpleLogger(final String name, final Level defaultLevel, final boolean showLogName, final boolean showShortLogName, final boolean showDateTime, final boolean showContextMap, final String dateTimeFormat, final MessageFactory messageFactory, final PropertiesUtil props, final PrintStream stream)
     '''
 def getLevel():
-    '''    public Level getLevel()
+    '''public Level getLevel()
     '''
 def isEnabled():
-    '''    public boolean isEnabled(final Level testLevel, final Marker marker, final Message msg, final Throwable t)
+    '''public boolean isEnabled(final Level testLevel, final Marker marker, final Message msg, final Throwable t)
     public boolean isEnabled(final Level testLevel, final Marker marker, final CharSequence msg, final Throwable t)
     public boolean isEnabled(final Level testLevel, final Marker marker, final Object msg, final Throwable t)
     public boolean isEnabled(final Level testLevel, final Marker marker, final String msg)
@@ -23,11 +23,11 @@ def isEnabled():
     public boolean isEnabled(final Level testLevel, final Marker marker, final String msg, final Throwable t)
     '''
 def logMessage():
-    '''    public void logMessage(final String fqcn, final Level mgsLevel, final Marker marker, final Message msg, final Throwable throwable)
+    '''public void logMessage(final String fqcn, final Level mgsLevel, final Marker marker, final Message msg, final Throwable throwable)
     '''
 def setLevel():
-    '''    public void setLevel(final Level level)
+    '''public void setLevel(final Level level)
     '''
 def setStream():
-    '''    public void setStream(final PrintStream stream)
+    '''public void setStream(final PrintStream stream)
     '''

@@ -1,42 +1,42 @@
 def Classification():
-    '''    public Classification(final MboSet ms)
+    '''public Classification(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def isTop():
-    '''    public boolean isTop()
+    '''public boolean isTop()
     '''
 def hasChildren():
-    '''    public boolean hasChildren()
+    '''public boolean hasChildren()
     '''
 def hasParents():
-    '''    public boolean hasParents()
+    '''public boolean hasParents()
     '''
 def getChildren():
-    '''    public MboSetRemote getChildren()
+    '''public MboSetRemote getChildren()
     '''
 def getParents():
-    '''    public MboSetRemote getParents()
+    '''public MboSetRemote getParents()
     '''
 def getTop():
-    '''    public MboSetRemote getTop()
+    '''public MboSetRemote getTop()
     '''
 def getHierarchies():
-    '''    public String[] getHierarchies()
+    '''public String[] getHierarchies()
     '''
 def getItemSet():
-    '''    public MboSetRemote getItemSet()
+    '''public MboSetRemote getItemSet()
     '''
 def getClassStructureIDs():
-    '''    public String getClassStructureIDs()
+    '''public String getClassStructureIDs()
     '''
 def concatAll():
-    '''    public String concatAll(final String[] sa)
+    '''public String concatAll(final String[] sa)
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

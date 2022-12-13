@@ -1,48 +1,48 @@
 def WarrantyView():
-    '''    public WarrantyView(final MboSet ms)
+    '''public WarrantyView(final MboSet ms)
     '''
 def getStatusListName():
-    '''    public String getStatusListName()
+    '''public String getStatusListName()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def nullVendor():
-    '''    public void nullVendor()
+    '''public void nullVendor()
     '''
 def initRelationship():
-    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
     '''
 def canCreateSchedule():
-    '''    public void canCreateSchedule()
+    '''public void canCreateSchedule()
     '''
 def createSchedule():
-    '''    public void createSchedule()
+    '''public void createSchedule()
     '''
 def cancelInvoicesForSchedule():
-    '''    public void cancelInvoicesForSchedule()
+    '''public void cancelInvoicesForSchedule()
     '''
 def createInvoicesForSchedule():
-    '''    public void createInvoicesForSchedule()
+    '''public void createInvoicesForSchedule()
     '''
 def copyContractTermsToInvoice():
-    '''    public void copyContractTermsToInvoice(final MboSetRemote contractTermsSetRemote, final MboSetRemote invoiceTermSetRemote)
+    '''public void copyContractTermsToInvoice(final MboSetRemote contractTermsSetRemote, final MboSetRemote invoiceTermSetRemote)
     '''
 def copyAssetsToContractAsset():
-    '''    public void copyAssetsToContractAsset(final AssetSetRemote assetSetRemote)
+    '''public void copyAssetsToContractAsset(final AssetSetRemote assetSetRemote)
     '''
 def copyLocationsToContractAsset():
-    '''    public void copyLocationsToContractAsset(final LocationSetRemote locationSetRemote)
+    '''public void copyLocationsToContractAsset(final LocationSetRemote locationSetRemote)
     '''
 def reCalcLeaseViewCost():
-    '''    public double reCalcLeaseViewCost()
+    '''public double reCalcLeaseViewCost()
     '''
 def canAddAssetToContractAsset():
-    '''    public void canAddAssetToContractAsset()
+    '''public void canAddAssetToContractAsset()
     '''
 def reviseContract():
-    '''    public MboRemote reviseContract(final String revDescription)
+    '''public MboRemote reviseContract(final String revDescription)
     '''

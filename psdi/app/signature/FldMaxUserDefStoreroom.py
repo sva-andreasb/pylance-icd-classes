@@ -1,3 +1,3 @@
 def FldMaxUserDefStoreroom():
-    '''    public FldMaxUserDefStoreroom(final MboValue mbv)
+    '''public FldMaxUserDefStoreroom(final MboValue mbv)
     '''

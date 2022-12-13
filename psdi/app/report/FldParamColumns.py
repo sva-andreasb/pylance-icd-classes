@@ -1,6 +1,6 @@
 def FldParamColumns():
-    '''    public FldParamColumns(final MboValue mbv)
+    '''public FldParamColumns(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

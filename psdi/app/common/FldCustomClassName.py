@@ -1,6 +1,6 @@
 def FldCustomClassName():
-    '''    public FldCustomClassName(final MboValue mbv)
+    '''public FldCustomClassName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

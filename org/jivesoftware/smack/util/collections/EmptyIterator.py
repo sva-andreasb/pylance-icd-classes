@@ -1,3 +1,3 @@
 def getInstance():
-    '''    public static <T> Iterator<T> getInstance()
+    '''public static <T> Iterator<T> getInstance()
     '''

@@ -1,6 +1,6 @@
 def FldLocationExpectedLife():
-    '''    public FldLocationExpectedLife(final MboValue mbv)
+    '''public FldLocationExpectedLife(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

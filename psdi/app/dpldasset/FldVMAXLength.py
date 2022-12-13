@@ -1,6 +1,6 @@
 def FldVMAXLength():
-    '''    public FldVMAXLength(final MboValue mbv)
+    '''public FldVMAXLength(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

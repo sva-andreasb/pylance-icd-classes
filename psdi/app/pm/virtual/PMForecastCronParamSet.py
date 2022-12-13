@@ -1,3 +1,3 @@
 def PMForecastCronParamSet():
-    '''    public PMForecastCronParamSet(final MboServerInterface ms)
+    '''public PMForecastCronParamSet(final MboServerInterface ms)
     '''

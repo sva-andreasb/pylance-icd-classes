@@ -1,3 +1,3 @@
 def FldPurchByMaxLicPurchDet():
-    '''    public FldPurchByMaxLicPurchDet(final MboValue mbv)
+    '''public FldPurchByMaxLicPurchDet(final MboValue mbv)
     '''

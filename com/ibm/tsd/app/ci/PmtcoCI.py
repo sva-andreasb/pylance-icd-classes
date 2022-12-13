@@ -1,6 +1,6 @@
 def PmtcoCI():
-    '''    public PmtcoCI(final MboSet ms)
+    '''public PmtcoCI(final MboSet ms)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''

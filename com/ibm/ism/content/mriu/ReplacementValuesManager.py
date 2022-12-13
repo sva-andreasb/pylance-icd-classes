@@ -1,12 +1,12 @@
 def ReplacementValuesManager():
-    '''    public ReplacementValuesManager()
+    '''public ReplacementValuesManager()
     '''
 def addReplacementQueryTag():
-    '''    public void addReplacementQueryTag(final Element element)
+    '''public void addReplacementQueryTag(final Element element)
     '''
 def preloadReplacementQueries():
-    '''    public boolean preloadReplacementQueries(final MaximoResolver maximoResolver, final IProgressMonitor monitor)
+    '''public boolean preloadReplacementQueries(final MaximoResolver maximoResolver, final IProgressMonitor monitor)
     '''
 def Query():
-    '''    public Query(final String id, final String name, final String description, final String query, final String value, final boolean pkgDefault, final String pattern, final String defaultValue)
+    '''public Query(final String id, final String name, final String description, final String query, final String value, final boolean pkgDefault, final String pattern, final String defaultValue)
     '''

@@ -1,12 +1,12 @@
 def MessageRouterServlet():
-    '''    public MessageRouterServlet()
+    '''public MessageRouterServlet()
     '''
 def doGet():
-    '''    public void doGet(final HttpServletRequest httpServletRequest, final HttpServletResponse httpServletResponse)
+    '''public void doGet(final HttpServletRequest httpServletRequest, final HttpServletResponse httpServletResponse)
     '''
 def doPost():
-    '''    public void doPost(final HttpServletRequest httpServletRequest, final HttpServletResponse httpServletResponse)
+    '''public void doPost(final HttpServletRequest httpServletRequest, final HttpServletResponse httpServletResponse)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

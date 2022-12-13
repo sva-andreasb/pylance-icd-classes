@@ -1,21 +1,21 @@
 def ArcTo():
-    '''    public ArcTo(final RowType row)
+    '''public ArcTo(final RowType row)
     '''
 def getDel():
-    '''    public boolean getDel()
+    '''public boolean getDel()
     '''
 def getX():
-    '''    public Double getX()
+    '''public Double getX()
     '''
 def getY():
-    '''    public Double getY()
+    '''public Double getY()
     '''
 def getA():
-    '''    public Double getA()
+    '''public Double getA()
     '''
 def setupMaster():
-    '''    public void setupMaster(final GeometryRow row)
+    '''public void setupMaster(final GeometryRow row)
     '''
 def addToPath():
-    '''    public void addToPath(final Path2D.Double path, final XDGFShape parent)
+    '''public void addToPath(final Path2D.Double path, final XDGFShape parent)
     '''

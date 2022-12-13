@@ -1,9 +1,9 @@
 def FldDepSchedAdjustedDepreciatedValue():
-    '''    public FldDepSchedAdjustedDepreciatedValue(final MboValue mbv)
+    '''public FldDepSchedAdjustedDepreciatedValue(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

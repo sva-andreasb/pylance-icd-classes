@@ -1,3 +1,3 @@
 def StoreTriplesNodesHashDB2():
-    '''    public StoreTriplesNodesHashDB2(final SDBConnection connection, final StoreDesc desc)
+    '''public StoreTriplesNodesHashDB2(final SDBConnection connection, final StoreDesc desc)
     '''

@@ -1,3 +1,3 @@
 def generateContentID():
-    '''    public String generateContentID(final String existingContentID)
+    '''public String generateContentID(final String existingContentID)
     '''

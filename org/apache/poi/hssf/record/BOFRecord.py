@@ -14,57 +14,57 @@ TYPE_CHART = "int  32"
 TYPE_EXCEL_4_MACRO = "int  64"
 TYPE_WORKSPACE_FILE = "int  256"
 def BOFRecord():
-    '''    public BOFRecord()
+    '''public BOFRecord()
     public BOFRecord(final RecordInputStream in)
     '''
 def createSheetBOF():
-    '''    public static BOFRecord createSheetBOF()
+    '''public static BOFRecord createSheetBOF()
     '''
 def setVersion():
-    '''    public void setVersion(final int version)
+    '''public void setVersion(final int version)
     '''
 def setType():
-    '''    public void setType(final int type)
+    '''public void setType(final int type)
     '''
 def setBuild():
-    '''    public void setBuild(final int build)
+    '''public void setBuild(final int build)
     '''
 def setBuildYear():
-    '''    public void setBuildYear(final int year)
+    '''public void setBuildYear(final int year)
     '''
 def setHistoryBitMask():
-    '''    public void setHistoryBitMask(final int bitmask)
+    '''public void setHistoryBitMask(final int bitmask)
     '''
 def setRequiredVersion():
-    '''    public void setRequiredVersion(final int version)
+    '''public void setRequiredVersion(final int version)
     '''
 def getVersion():
-    '''    public int getVersion()
+    '''public int getVersion()
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''
 def getBuild():
-    '''    public int getBuild()
+    '''public int getBuild()
     '''
 def getBuildYear():
-    '''    public int getBuildYear()
+    '''public int getBuildYear()
     '''
 def getHistoryBitMask():
-    '''    public int getHistoryBitMask()
+    '''public int getHistoryBitMask()
     '''
 def getRequiredVersion():
-    '''    public int getRequiredVersion()
+    '''public int getRequiredVersion()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def serialize():
-    '''    public void serialize(final LittleEndianOutput out)
+    '''public void serialize(final LittleEndianOutput out)
     '''
 def getSid():
-    '''    public short getSid()
+    '''public short getSid()
     '''
 def clone():
-    '''    public BOFRecord clone()
+    '''public BOFRecord clone()
     '''

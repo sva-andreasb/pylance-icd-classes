@@ -1,9 +1,9 @@
 def lookup():
-    '''    public static Class lookup(final String name)
+    '''public static Class lookup(final String name)
     '''
 def getNames():
-    '''    public static String[] getNames()
+    '''public static String[] getNames()
     '''
 def getMap():
-    '''    public static HashMap getMap()
+    '''public static HashMap getMap()
     '''

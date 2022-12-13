@@ -1,3 +1,3 @@
 def toString():
-    '''    public static String toString(final DataStore<?> dataStore)
+    '''public static String toString(final DataStore<?> dataStore)
     '''

@@ -6,44 +6,44 @@ SO_LINGER = "String  \"http.socket.linger\""
 CONNECTION_TIMEOUT = "String  \"http.connection.timeout\""
 STALE_CONNECTION_CHECK = "String  \"http.connection.stalecheck\""
 def getSoTimeout():
-    '''    public int getSoTimeout()
+    '''public int getSoTimeout()
     '''
 def setSoTimeout():
-    '''    public void setSoTimeout(final int timeout)
+    '''public void setSoTimeout(final int timeout)
     '''
 def setTcpNoDelay():
-    '''    public void setTcpNoDelay(final boolean value)
+    '''public void setTcpNoDelay(final boolean value)
     '''
 def getTcpNoDelay():
-    '''    public boolean getTcpNoDelay()
+    '''public boolean getTcpNoDelay()
     '''
 def getSendBufferSize():
-    '''    public int getSendBufferSize()
+    '''public int getSendBufferSize()
     '''
 def setSendBufferSize():
-    '''    public void setSendBufferSize(final int size)
+    '''public void setSendBufferSize(final int size)
     '''
 def getReceiveBufferSize():
-    '''    public int getReceiveBufferSize()
+    '''public int getReceiveBufferSize()
     '''
 def setReceiveBufferSize():
-    '''    public void setReceiveBufferSize(final int size)
+    '''public void setReceiveBufferSize(final int size)
     '''
 def getLinger():
-    '''    public int getLinger()
+    '''public int getLinger()
     '''
 def setLinger():
-    '''    public void setLinger(final int value)
+    '''public void setLinger(final int value)
     '''
 def getConnectionTimeout():
-    '''    public int getConnectionTimeout()
+    '''public int getConnectionTimeout()
     '''
 def setConnectionTimeout():
-    '''    public void setConnectionTimeout(final int timeout)
+    '''public void setConnectionTimeout(final int timeout)
     '''
 def isStaleCheckingEnabled():
-    '''    public boolean isStaleCheckingEnabled()
+    '''public boolean isStaleCheckingEnabled()
     '''
 def setStaleCheckingEnabled():
-    '''    public void setStaleCheckingEnabled(final boolean value)
+    '''public void setStaleCheckingEnabled(final boolean value)
     '''

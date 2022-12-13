@@ -1,3 +1,3 @@
 def FldAssignWonum():
-    '''    public FldAssignWonum(final MboValue mbv)
+    '''public FldAssignWonum(final MboValue mbv)
     '''

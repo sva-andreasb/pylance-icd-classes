@@ -3,9 +3,9 @@ META_PEN = "int  1"
 META_BRUSH = "int  2"
 META_FONT = "int  3"
 def MetaObject():
-    '''    public MetaObject()
+    '''public MetaObject()
     public MetaObject(final int type)
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''

@@ -1,3 +1,3 @@
 def AssociatedFolderSet():
-    '''    public AssociatedFolderSet(final MboServerInterface ms)
+    '''public AssociatedFolderSet(final MboServerInterface ms)
     '''

@@ -1,12 +1,12 @@
 def CharacterSection():
-    '''    public CharacterSection(final SectionType section, final XDGFSheet containingSheet)
+    '''public CharacterSection(final SectionType section, final XDGFSheet containingSheet)
     '''
 def getFontSize():
-    '''    public Double getFontSize()
+    '''public Double getFontSize()
     '''
 def getFontColor():
-    '''    public Color getFontColor()
+    '''public Color getFontColor()
     '''
 def setupMaster():
-    '''    public void setupMaster(final XDGFSection section)
+    '''public void setupMaster(final XDGFSection section)
     '''

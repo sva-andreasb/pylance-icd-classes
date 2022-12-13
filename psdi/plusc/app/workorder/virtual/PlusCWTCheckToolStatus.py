@@ -1,3 +1,3 @@
 def PlusCWTCheckToolStatus():
-    '''    public PlusCWTCheckToolStatus(final MboSet ms)
+    '''public PlusCWTCheckToolStatus(final MboSet ms)
     '''

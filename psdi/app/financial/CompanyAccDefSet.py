@@ -1,3 +1,3 @@
 def CompanyAccDefSet():
-    '''    public CompanyAccDefSet(final MboServerInterface ms)
+    '''public CompanyAccDefSet(final MboServerInterface ms)
     '''

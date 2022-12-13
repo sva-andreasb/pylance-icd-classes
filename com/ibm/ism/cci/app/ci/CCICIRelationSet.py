@@ -1,3 +1,3 @@
 def CCICIRelationSet():
-    '''    public CCICIRelationSet(final MboServerInterface ms)
+    '''public CCICIRelationSet(final MboServerInterface ms)
     '''

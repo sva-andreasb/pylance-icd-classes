@@ -1,6 +1,6 @@
 def getLog():
-    '''    public static Log getLog(final String name)
+    '''public static Log getLog(final String name)
     '''
 def run():
-    '''    public Object run()
+    '''public Object run()
     '''

@@ -1,3 +1,3 @@
 def loadData():
-    '''    public int loadData()
+    '''public int loadData()
     '''

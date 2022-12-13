@@ -1,12 +1,12 @@
 def CommentTreeBean():
-    '''    public CommentTreeBean()
+    '''public CommentTreeBean()
     '''
 def setupBean():
-    '''    public void setupBean(final WebClientSession wcs)
+    '''public void setupBean(final WebClientSession wcs)
     '''
 def setuniqueidvalue():
-    '''    public void setuniqueidvalue(final String newuniqueidvalue)
+    '''public void setuniqueidvalue(final String newuniqueidvalue)
     '''
 def selectnode():
-    '''    public int selectnode()
+    '''public int selectnode()
     '''

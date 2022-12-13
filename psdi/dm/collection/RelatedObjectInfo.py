@@ -1,3 +1,3 @@
 def RelatedObjectInfo():
-    '''    public RelatedObjectInfo()
+    '''public RelatedObjectInfo()
     '''

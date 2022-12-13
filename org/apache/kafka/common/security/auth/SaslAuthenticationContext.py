@@ -1,12 +1,12 @@
 def SaslAuthenticationContext():
-    '''    public SaslAuthenticationContext(final SaslServer server, final SecurityProtocol securityProtocol, final InetAddress clientAddress)
+    '''public SaslAuthenticationContext(final SaslServer server, final SecurityProtocol securityProtocol, final InetAddress clientAddress)
     '''
 def server():
-    '''    public SaslServer server()
+    '''public SaslServer server()
     '''
 def securityProtocol():
-    '''    public SecurityProtocol securityProtocol()
+    '''public SecurityProtocol securityProtocol()
     '''
 def clientAddress():
-    '''    public InetAddress clientAddress()
+    '''public InetAddress clientAddress()
     '''

@@ -1,102 +1,102 @@
 def standard():
-    '''    public static PeriodType standard()
+    '''public static PeriodType standard()
     '''
 def yearMonthDayTime():
-    '''    public static PeriodType yearMonthDayTime()
+    '''public static PeriodType yearMonthDayTime()
     '''
 def yearMonthDay():
-    '''    public static PeriodType yearMonthDay()
+    '''public static PeriodType yearMonthDay()
     '''
 def yearWeekDayTime():
-    '''    public static PeriodType yearWeekDayTime()
+    '''public static PeriodType yearWeekDayTime()
     '''
 def yearWeekDay():
-    '''    public static PeriodType yearWeekDay()
+    '''public static PeriodType yearWeekDay()
     '''
 def yearDayTime():
-    '''    public static PeriodType yearDayTime()
+    '''public static PeriodType yearDayTime()
     '''
 def yearDay():
-    '''    public static PeriodType yearDay()
+    '''public static PeriodType yearDay()
     '''
 def dayTime():
-    '''    public static PeriodType dayTime()
+    '''public static PeriodType dayTime()
     '''
 def time():
-    '''    public static PeriodType time()
+    '''public static PeriodType time()
     '''
 def years():
-    '''    public static PeriodType years()
+    '''public static PeriodType years()
     '''
 def months():
-    '''    public static PeriodType months()
+    '''public static PeriodType months()
     '''
 def weeks():
-    '''    public static PeriodType weeks()
+    '''public static PeriodType weeks()
     '''
 def days():
-    '''    public static PeriodType days()
+    '''public static PeriodType days()
     '''
 def hours():
-    '''    public static PeriodType hours()
+    '''public static PeriodType hours()
     '''
 def minutes():
-    '''    public static PeriodType minutes()
+    '''public static PeriodType minutes()
     '''
 def seconds():
-    '''    public static PeriodType seconds()
+    '''public static PeriodType seconds()
     '''
 def millis():
-    '''    public static PeriodType millis()
+    '''public static PeriodType millis()
     '''
 def forFields():
-    '''    public static synchronized PeriodType forFields(final DurationFieldType[] a)
+    '''public static synchronized PeriodType forFields(final DurationFieldType[] a)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def size():
-    '''    public int size()
+    '''public int size()
     '''
 def getFieldType():
-    '''    public DurationFieldType getFieldType(final int n)
+    '''public DurationFieldType getFieldType(final int n)
     '''
 def isSupported():
-    '''    public boolean isSupported(final DurationFieldType durationFieldType)
+    '''public boolean isSupported(final DurationFieldType durationFieldType)
     '''
 def indexOf():
-    '''    public int indexOf(final DurationFieldType durationFieldType)
+    '''public int indexOf(final DurationFieldType durationFieldType)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def withYearsRemoved():
-    '''    public PeriodType withYearsRemoved()
+    '''public PeriodType withYearsRemoved()
     '''
 def withMonthsRemoved():
-    '''    public PeriodType withMonthsRemoved()
+    '''public PeriodType withMonthsRemoved()
     '''
 def withWeeksRemoved():
-    '''    public PeriodType withWeeksRemoved()
+    '''public PeriodType withWeeksRemoved()
     '''
 def withDaysRemoved():
-    '''    public PeriodType withDaysRemoved()
+    '''public PeriodType withDaysRemoved()
     '''
 def withHoursRemoved():
-    '''    public PeriodType withHoursRemoved()
+    '''public PeriodType withHoursRemoved()
     '''
 def withMinutesRemoved():
-    '''    public PeriodType withMinutesRemoved()
+    '''public PeriodType withMinutesRemoved()
     '''
 def withSecondsRemoved():
-    '''    public PeriodType withSecondsRemoved()
+    '''public PeriodType withSecondsRemoved()
     '''
 def withMillisRemoved():
-    '''    public PeriodType withMillisRemoved()
+    '''public PeriodType withMillisRemoved()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''

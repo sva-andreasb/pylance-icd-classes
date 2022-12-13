@@ -1,6 +1,6 @@
 def PlusPFldSLAActReviewDate():
-    '''    public PlusPFldSLAActReviewDate(final MboValue mbv)
+    '''public PlusPFldSLAActReviewDate(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

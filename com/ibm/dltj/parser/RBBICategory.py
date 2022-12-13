@@ -38,29 +38,29 @@ TOKEN_TYPE_ZH_DECADE_YEARS = "int  427"
 TOKEN_TYPE_CJKNUMBER1 = "int  490"
 TOKEN_TYPE_VERSION = "int  500"
 def isToken():
-    '''    public static final boolean isToken(final int n)
+    '''public static final boolean isToken(final int n)
     '''
 def isSentenceBreak():
-    '''    public static final boolean isSentenceBreak(final int n)
+    '''public static final boolean isSentenceBreak(final int n)
     '''
 def isPararaphBreak():
-    '''    public static boolean isPararaphBreak(final int n)
+    '''public static boolean isPararaphBreak(final int n)
     '''
 def isWord():
-    '''    public static final boolean isWord(final int n)
+    '''public static final boolean isWord(final int n)
     '''
 def isPunctuation():
-    '''    public static final boolean isPunctuation(final int n)
+    '''public static final boolean isPunctuation(final int n)
     '''
 def isWhitespace():
-    '''    public static final boolean isWhitespace(final int n)
+    '''public static final boolean isWhitespace(final int n)
     '''
 def isWordLike():
-    '''    public static final boolean isWordLike(final int n)
+    '''public static final boolean isWordLike(final int n)
     '''
 def toString():
-    '''    public static final String toString(final int n)
+    '''public static final String toString(final int n)
     '''
 def toDescription():
-    '''    public static final String toDescription(final int n)
+    '''public static final String toDescription(final int n)
     '''

@@ -1,6 +1,6 @@
 def Threader():
-    '''    public Threader()
+    '''public Threader()
     '''
 def thread():
-    '''    public Threadable thread(final Threadable[] messages)
+    '''public Threadable thread(final Threadable[] messages)
     '''

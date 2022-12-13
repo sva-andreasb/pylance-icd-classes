@@ -1,16 +1,16 @@
 COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def ResourceAvailabilityAppletExt():
-    '''    public ResourceAvailabilityAppletExt()
+    '''public ResourceAvailabilityAppletExt()
     '''
 def createToolBarButtons():
-    '''    public void createToolBarButtons(final JToolBar toolBar)
+    '''public void createToolBarButtons(final JToolBar toolBar)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def getRendererForActivityBar():
-    '''    public SKDActivityBar getRendererForActivityBar()
+    '''public SKDActivityBar getRendererForActivityBar()
     '''
 def getRendererForActivityMilestone():
-    '''    public SKDActivityMilestone getRendererForActivityMilestone()
+    '''public SKDActivityMilestone getRendererForActivityMilestone()
     '''

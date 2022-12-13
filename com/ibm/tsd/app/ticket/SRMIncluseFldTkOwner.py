@@ -1,6 +1,6 @@
 def SRMIncluseFldTkOwner():
-    '''    public SRMIncluseFldTkOwner(final MboValue mbv)
+    '''public SRMIncluseFldTkOwner(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

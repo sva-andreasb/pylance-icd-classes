@@ -1,3 +1,3 @@
 def FldLaborStartLocation():
-    '''    public FldLaborStartLocation(final MboValue mbv)
+    '''public FldLaborStartLocation(final MboValue mbv)
     '''

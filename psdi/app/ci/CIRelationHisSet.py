@@ -1,3 +1,3 @@
 def CIRelationHisSet():
-    '''    public CIRelationHisSet(final MboServerInterface ms)
+    '''public CIRelationHisSet(final MboServerInterface ms)
     '''

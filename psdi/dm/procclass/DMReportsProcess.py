@@ -1,6 +1,6 @@
 def DMReportsProcess():
-    '''    public DMReportsProcess()
+    '''public DMReportsProcess()
     '''
 def setAdditionalData():
-    '''    public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
+    '''public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
     '''

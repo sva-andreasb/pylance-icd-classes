@@ -1,6 +1,6 @@
 def FldModDowntimeHistDowntime():
-    '''    public FldModDowntimeHistDowntime(final MboValue mbv)
+    '''public FldModDowntimeHistDowntime(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

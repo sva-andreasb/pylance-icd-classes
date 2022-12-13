@@ -1,3 +1,3 @@
 def PlusCDSInstrSet():
-    '''    public PlusCDSInstrSet(final MboServerInterface ms)
+    '''public PlusCDSInstrSet(final MboServerInterface ms)
     '''

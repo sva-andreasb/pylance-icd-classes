@@ -1,3 +1,3 @@
 def PPAFldTextQualifier():
-    '''    public PPAFldTextQualifier(final MboValue mbv)
+    '''public PPAFldTextQualifier(final MboValue mbv)
     '''

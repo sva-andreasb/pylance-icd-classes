@@ -1,3 +1,3 @@
 def FldDMCollRole():
-    '''    public FldDMCollRole(final MboValue mbv)
+    '''public FldDMCollRole(final MboValue mbv)
     '''

@@ -1,3 +1,3 @@
 def Socks5ServerEncoder():
-    '''    public Socks5ServerEncoder(final Socks5AddressEncoder addressEncoder)
+    '''public Socks5ServerEncoder(final Socks5AddressEncoder addressEncoder)
     '''

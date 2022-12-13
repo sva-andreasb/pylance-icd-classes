@@ -1,9 +1,9 @@
 def AssertDialog():
-    '''    public AssertDialog(final String text)
+    '''public AssertDialog(final String text)
     '''
 def actionPerformed():
-    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''public void actionPerformed(final ActionEvent actionEvent)
     '''
 def waitForDismissal():
-    '''    public void waitForDismissal()
+    '''public void waitForDismissal()
     '''

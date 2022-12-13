@@ -1,6 +1,6 @@
 def FldMasterPMJpnum():
-    '''    public FldMasterPMJpnum(final MboValue mbv)
+    '''public FldMasterPMJpnum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

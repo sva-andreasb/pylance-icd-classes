@@ -1,9 +1,9 @@
 def DMMapTreeSequence():
-    '''    public DMMapTreeSequence()
+    '''public DMMapTreeSequence()
     '''
 def getTreeUniqueID():
-    '''    public long getTreeUniqueID(final MboRemote mbo)
+    '''public long getTreeUniqueID(final MboRemote mbo)
     '''
 def getNextSequence():
-    '''    public long getNextSequence()
+    '''public long getNextSequence()
     '''

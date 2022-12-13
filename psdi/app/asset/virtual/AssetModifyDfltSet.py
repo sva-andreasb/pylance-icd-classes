@@ -1,6 +1,6 @@
 def AssetModifyDfltSet():
-    '''    public AssetModifyDfltSet(final MboServerInterface ms)
+    '''public AssetModifyDfltSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

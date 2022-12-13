@@ -1,58 +1,58 @@
 def MosProcess():
-    '''    public MosProcess()
+    '''public MosProcess()
     '''
 def getJsonRequest():
-    '''    public OslcRequest getJsonRequest()
+    '''public OslcRequest getJsonRequest()
     '''
 def setJsonRequest():
-    '''    public void setJsonRequest(final OslcRequest jsonRequest)
+    '''public void setJsonRequest(final OslcRequest jsonRequest)
     '''
 def setMosName():
-    '''    public void setMosName(final String mosName)
+    '''public void setMosName(final String mosName)
     '''
 def setOSName():
-    '''    public void setOSName(final String osName)
+    '''public void setOSName(final String osName)
     '''
 def hasScript():
-    '''    public final boolean hasScript()
+    '''public final boolean hasScript()
     '''
 def hasInvokedScript():
-    '''    public final boolean hasInvokedScript(final Map<String, Object> context)
+    '''public final boolean hasInvokedScript(final Map<String, Object> context)
     '''
 def setOSPrimaryMbo():
-    '''    public void setOSPrimaryMbo(final MboRemote mbo)
+    '''public void setOSPrimaryMbo(final MboRemote mbo)
     '''
 def getMosName():
-    '''    public String getMosName()
+    '''public String getMosName()
     '''
 def getUserInfo():
-    '''    public UserInfo getUserInfo()
+    '''public UserInfo getUserInfo()
     '''
 def setUserInfo():
-    '''    public void setUserInfo(final UserInfo info)
+    '''public void setUserInfo(final UserInfo info)
     '''
 def isValueEQ():
-    '''    public boolean isValueEQ(final String listName, final String inMaxValue, final String inValue)
+    '''public boolean isValueEQ(final String listName, final String inMaxValue, final String inValue)
     '''
 def isMaxVarEQ():
-    '''    public boolean isMaxVarEQ(final String maxvarName, final String inValue, final String orgId, final String siteId)
+    '''public boolean isMaxVarEQ(final String maxvarName, final String inValue, final String orgId, final String siteId)
     '''
 def getInterDD():
-    '''    public ObjectStructureCache getInterDD()
+    '''public ObjectStructureCache getInterDD()
     '''
 def getDBName():
-    '''    public String getDBName()
+    '''public String getDBName()
     '''
 def getPrimaryMbo():
-    '''    public MboRemote getPrimaryMbo()
+    '''public MboRemote getPrimaryMbo()
     '''
 def getTransaction():
-    '''    public MXTransaction getTransaction()
+    '''public MXTransaction getTransaction()
     '''
 def getTransactionAction():
-    '''    public String getTransactionAction()
+    '''public String getTransactionAction()
     '''
 def getKeyArray():
-    '''    public String[] getKeyArray(final MicSetInfo info)
+    '''public String[] getKeyArray(final MicSetInfo info)
     public String[] getKeyArray(final String name)
     '''

@@ -1,24 +1,24 @@
 def PhraseSlopQueryNode():
-    '''    public PhraseSlopQueryNode(final QueryNode query, final int value)
+    '''public PhraseSlopQueryNode(final QueryNode query, final int value)
     '''
 def getChild():
-    '''    public QueryNode getChild()
+    '''public QueryNode getChild()
     '''
 def getValue():
-    '''    public int getValue()
+    '''public int getValue()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def toQueryString():
-    '''    public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
+    '''public CharSequence toQueryString(final EscapeQuerySyntax escapeSyntaxParser)
     '''
 def cloneTree():
-    '''    public QueryNode cloneTree()
+    '''public QueryNode cloneTree()
     '''
 def getField():
-    '''    public CharSequence getField()
+    '''public CharSequence getField()
     '''
 def setField():
-    '''    public void setField(final CharSequence fieldName)
+    '''public void setField(final CharSequence fieldName)
     '''

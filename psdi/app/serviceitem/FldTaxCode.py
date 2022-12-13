@@ -1,3 +1,3 @@
 def FldTaxCode():
-    '''    public FldTaxCode(final MboValue mbv)
+    '''public FldTaxCode(final MboValue mbv)
     '''

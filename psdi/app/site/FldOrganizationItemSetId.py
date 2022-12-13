@@ -1,9 +1,9 @@
 def FldOrganizationItemSetId():
-    '''    public FldOrganizationItemSetId(final MboValue mbv)
+    '''public FldOrganizationItemSetId(final MboValue mbv)
     '''
 def getCriteria():
-    '''    public String getCriteria()
+    '''public String getCriteria()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

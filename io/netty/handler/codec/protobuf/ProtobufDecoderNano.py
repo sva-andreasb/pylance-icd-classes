@@ -1,3 +1,3 @@
 def ProtobufDecoderNano():
-    '''    public ProtobufDecoderNano(final Class<? extends MessageNano> clazz)
+    '''public ProtobufDecoderNano(final Class<? extends MessageNano> clazz)
     '''

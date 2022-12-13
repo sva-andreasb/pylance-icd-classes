@@ -21,5 +21,5 @@ BYTES_ORDINAL = "int  9"
 NO_CACHE_ORDINAL = "int  10"
 UPGRADE_ORDINAL = "int  11"
 def hasKnownValues():
-    '''    public static boolean hasKnownValues(final int httpHeaderOrdinal)
+    '''public static boolean hasKnownValues(final int httpHeaderOrdinal)
     '''

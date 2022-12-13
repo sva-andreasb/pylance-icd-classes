@@ -7,11 +7,11 @@ NOT_IN_CURRENT_CONFLICT = "Status  new Status(\"NOT_IN_CURRENT_CONFLICT\")"
 UNVERIFIED = "Status  new Status(\"UNVERIFIED\")"
 NOT_REGISTERED = "Status  new Status(\"NOT_REGISTERED\")"
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

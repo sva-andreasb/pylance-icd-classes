@@ -1,6 +1,6 @@
 def FldPurBillTo():
-    '''    public FldPurBillTo(final MboValue mbv)
+    '''public FldPurBillTo(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

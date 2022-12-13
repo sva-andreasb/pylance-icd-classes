@@ -1,6 +1,6 @@
 def FldAMCTCraftVendor():
-    '''    public FldAMCTCraftVendor(final MboValue mbv)
+    '''public FldAMCTCraftVendor(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

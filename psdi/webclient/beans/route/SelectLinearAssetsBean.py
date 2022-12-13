@@ -1,12 +1,12 @@
 def REFRESHLIST():
-    '''    public int REFRESHLIST()
+    '''public int REFRESHLIST()
     '''
 def SELECT():
-    '''    public void SELECT()
+    '''public void SELECT()
     '''
 def SELECTRETURN():
-    '''    public void SELECTRETURN()
+    '''public void SELECTRETURN()
     '''
 def gotolinearassetrel():
-    '''    public void gotolinearassetrel()
+    '''public void gotolinearassetrel()
     '''

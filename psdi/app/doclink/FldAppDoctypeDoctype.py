@@ -1,3 +1,3 @@
 def FldAppDoctypeDoctype():
-    '''    public FldAppDoctypeDoctype(final MboValue mbv)
+    '''public FldAppDoctypeDoctype(final MboValue mbv)
     '''

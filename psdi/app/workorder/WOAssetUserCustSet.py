@@ -1,3 +1,3 @@
 def WOAssetUserCustSet():
-    '''    public WOAssetUserCustSet(final MboServerInterface ms)
+    '''public WOAssetUserCustSet(final MboServerInterface ms)
     '''

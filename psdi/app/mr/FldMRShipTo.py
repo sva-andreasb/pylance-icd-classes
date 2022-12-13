@@ -1,3 +1,3 @@
 def FldMRShipTo():
-    '''    public FldMRShipTo(final MboValue mbv)
+    '''public FldMRShipTo(final MboValue mbv)
     '''

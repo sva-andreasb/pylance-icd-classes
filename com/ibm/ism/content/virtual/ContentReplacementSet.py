@@ -1,3 +1,3 @@
 def ContentReplacementSet():
-    '''    public ContentReplacementSet(final MboServerInterface ms)
+    '''public ContentReplacementSet(final MboServerInterface ms)
     '''

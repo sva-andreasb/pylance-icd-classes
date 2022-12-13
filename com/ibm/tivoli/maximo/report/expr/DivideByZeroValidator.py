@@ -1,6 +1,6 @@
 def DivideByZeroValidator():
-    '''    public DivideByZeroValidator()
+    '''public DivideByZeroValidator()
     '''
 def accept():
-    '''    public boolean accept(final Node n)
+    '''public boolean accept(final Node n)
     '''

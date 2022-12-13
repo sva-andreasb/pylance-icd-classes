@@ -1,9 +1,9 @@
 def FldActionSeq():
-    '''    public FldActionSeq(final MboValue mbv)
+    '''public FldActionSeq(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

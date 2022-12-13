@@ -1,3 +1,3 @@
 def SeparatorAction():
-    '''    public SeparatorAction(final Object o)
+    '''public SeparatorAction(final Object o)
     '''

@@ -1,3 +1,3 @@
 def ReconCILink():
-    '''    public ReconCILink(final MboSet ms)
+    '''public ReconCILink(final MboSet ms)
     '''

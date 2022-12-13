@@ -1,3 +1,3 @@
 def WFWaitListSet():
-    '''    public WFWaitListSet(final MboServerInterface ms)
+    '''public WFWaitListSet(final MboServerInterface ms)
     '''

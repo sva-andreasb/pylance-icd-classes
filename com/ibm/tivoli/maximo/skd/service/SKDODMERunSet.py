@@ -1,3 +1,3 @@
 def SKDODMERunSet():
-    '''    public SKDODMERunSet(final MboServerInterface ms)
+    '''public SKDODMERunSet(final MboServerInterface ms)
     '''

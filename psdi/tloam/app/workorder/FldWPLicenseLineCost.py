@@ -1,6 +1,6 @@
 def FldWPLicenseLineCost():
-    '''    public FldWPLicenseLineCost(final MboValue mbv)
+    '''public FldWPLicenseLineCost(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,105 +1,105 @@
 def getAccount():
-    '''    public Account getAccount()
+    '''public Account getAccount()
     '''
 def setAccount():
-    '''    public void setAccount(final Account account)
+    '''public void setAccount(final Account account)
     '''
 def getCreditCardLastFourDigits():
-    '''    public Long getCreditCardLastFourDigits()
+    '''public Long getCreditCardLastFourDigits()
     '''
 def setCreditCardLastFourDigits():
-    '''    public void setCreditCardLastFourDigits(final Long creditCardLastFourDigits)
+    '''public void setCreditCardLastFourDigits(final Long creditCardLastFourDigits)
     '''
 def getCreditCardRequestId():
-    '''    public String getCreditCardRequestId()
+    '''public String getCreditCardRequestId()
     '''
 def setCreditCardRequestId():
-    '''    public void setCreditCardRequestId(final String creditCardRequestId)
+    '''public void setCreditCardRequestId(final String creditCardRequestId)
     '''
 def getCreditCardTransaction():
-    '''    public Transaction getCreditCardTransaction()
+    '''public Transaction getCreditCardTransaction()
     '''
 def setCreditCardTransaction():
-    '''    public void setCreditCardTransaction(final Transaction creditCardTransaction)
+    '''public void setCreditCardTransaction(final Transaction creditCardTransaction)
     '''
 def getExchangeRate():
-    '''    public ExchangeRate getExchangeRate()
+    '''public ExchangeRate getExchangeRate()
     '''
 def setExchangeRate():
-    '''    public void setExchangeRate(final ExchangeRate exchangeRate)
+    '''public void setExchangeRate(final ExchangeRate exchangeRate)
     '''
 def getInvoice():
-    '''    public Invoice getInvoice()
+    '''public Invoice getInvoice()
     '''
 def setInvoice():
-    '''    public void setInvoice(final Invoice invoice)
+    '''public void setInvoice(final Invoice invoice)
     '''
 def setPaypalTransaction():
-    '''    public void setPaypalTransaction(final com.softlayer.api.service.billing.payment.paypal.Transaction paypalTransaction)
+    '''public void setPaypalTransaction(final com.softlayer.api.service.billing.payment.paypal.Transaction paypalTransaction)
     '''
 def getAmount():
-    '''    public BigDecimal getAmount()
+    '''public BigDecimal getAmount()
     '''
 def setAmount():
-    '''    public void setAmount(final BigDecimal amount)
+    '''public void setAmount(final BigDecimal amount)
     '''
 def isAmountSpecified():
-    '''    public boolean isAmountSpecified()
+    '''public boolean isAmountSpecified()
     '''
 def unsetAmount():
-    '''    public void unsetAmount()
+    '''public void unsetAmount()
     '''
 def getCreateDate():
-    '''    public GregorianCalendar getCreateDate()
+    '''public GregorianCalendar getCreateDate()
     '''
 def setCreateDate():
-    '''    public void setCreateDate(final GregorianCalendar createDate)
+    '''public void setCreateDate(final GregorianCalendar createDate)
     '''
 def isCreateDateSpecified():
-    '''    public boolean isCreateDateSpecified()
+    '''public boolean isCreateDateSpecified()
     '''
 def unsetCreateDate():
-    '''    public void unsetCreateDate()
+    '''public void unsetCreateDate()
     '''
 def getInvoiceId():
-    '''    public Long getInvoiceId()
+    '''public Long getInvoiceId()
     '''
 def setInvoiceId():
-    '''    public void setInvoiceId(final Long invoiceId)
+    '''public void setInvoiceId(final Long invoiceId)
     '''
 def isInvoiceIdSpecified():
-    '''    public boolean isInvoiceIdSpecified()
+    '''public boolean isInvoiceIdSpecified()
     '''
 def unsetInvoiceId():
-    '''    public void unsetInvoiceId()
+    '''public void unsetInvoiceId()
     '''
 def getTypeCode():
-    '''    public String getTypeCode()
+    '''public String getTypeCode()
     '''
 def setTypeCode():
-    '''    public void setTypeCode(final String typeCode)
+    '''public void setTypeCode(final String typeCode)
     '''
 def isTypeCodeSpecified():
-    '''    public boolean isTypeCodeSpecified()
+    '''public boolean isTypeCodeSpecified()
     '''
 def unsetTypeCode():
-    '''    public void unsetTypeCode()
+    '''public void unsetTypeCode()
     '''
 def creditCardLastFourDigits():
-    '''    public Mask creditCardLastFourDigits()
+    '''public Mask creditCardLastFourDigits()
     '''
 def creditCardRequestId():
-    '''    public Mask creditCardRequestId()
+    '''public Mask creditCardRequestId()
     '''
 def amount():
-    '''    public Mask amount()
+    '''public Mask amount()
     '''
 def createDate():
-    '''    public Mask createDate()
+    '''public Mask createDate()
     '''
 def invoiceId():
-    '''    public Mask invoiceId()
+    '''public Mask invoiceId()
     '''
 def typeCode():
-    '''    public Mask typeCode()
+    '''public Mask typeCode()
     '''

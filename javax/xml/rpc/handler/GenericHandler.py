@@ -1,15 +1,15 @@
 def handleRequest():
-    '''    public boolean handleRequest(final MessageContext context)
+    '''public boolean handleRequest(final MessageContext context)
     '''
 def handleResponse():
-    '''    public boolean handleResponse(final MessageContext context)
+    '''public boolean handleResponse(final MessageContext context)
     '''
 def handleFault():
-    '''    public boolean handleFault(final MessageContext context)
+    '''public boolean handleFault(final MessageContext context)
     '''
 def init():
-    '''    public void init(final HandlerInfo config)
+    '''public void init(final HandlerInfo config)
     '''
 def destroy():
-    '''    public void destroy()
+    '''public void destroy()
     '''

@@ -1,3 +1,3 @@
 def newHashSet():
-    '''    public static <E> HashSet<E> newHashSet()
+    '''public static <E> HashSet<E> newHashSet()
     '''

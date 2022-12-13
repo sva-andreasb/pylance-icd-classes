@@ -1,6 +1,6 @@
 def OslcProviderSet():
-    '''    public OslcProviderSet(final MboServerInterface ms)
+    '''public OslcProviderSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

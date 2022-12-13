@@ -1,22 +1,22 @@
 INDEX_NOT_FOUND = "int  -1"
 def toString():
-    '''    public static String toString(final Object array)
+    '''public static String toString(final Object array)
     public static String toString(final Object array, final String stringIfNull)
     '''
 def hashCode():
-    '''    public static int hashCode(final Object array)
+    '''public static int hashCode(final Object array)
     '''
 def isEquals():
-    '''    public static boolean isEquals(final Object array1, final Object array2)
+    '''public static boolean isEquals(final Object array1, final Object array2)
     '''
 def toMap():
-    '''    public static Map<Object, Object> toMap(final Object[] array)
+    '''public static Map<Object, Object> toMap(final Object[] array)
     '''
 def toArray():
-    '''    public static <T> T[] toArray(final T... items)
+    '''public static <T> T[] toArray(final T... items)
     '''
 def clone():
-    '''    public static <T> T[] clone(final T[] array)
+    '''public static <T> T[] clone(final T[] array)
     public static long[] clone(final long[] array)
     public static int[] clone(final int[] array)
     public static short[] clone(final short[] array)
@@ -27,7 +27,7 @@ def clone():
     public static boolean[] clone(final boolean[] array)
     '''
 def nullToEmpty():
-    '''    public static Object[] nullToEmpty(final Object[] array)
+    '''public static Object[] nullToEmpty(final Object[] array)
     public static String[] nullToEmpty(final String[] array)
     public static long[] nullToEmpty(final long[] array)
     public static int[] nullToEmpty(final int[] array)
@@ -47,7 +47,7 @@ def nullToEmpty():
     public static Boolean[] nullToEmpty(final Boolean[] array)
     '''
 def subarray():
-    '''    public static <T> T[] subarray(final T[] array, int startIndexInclusive, int endIndexExclusive)
+    '''public static <T> T[] subarray(final T[] array, int startIndexInclusive, int endIndexExclusive)
     public static long[] subarray(final long[] array, int startIndexInclusive, int endIndexExclusive)
     public static int[] subarray(final int[] array, int startIndexInclusive, int endIndexExclusive)
     public static short[] subarray(final short[] array, int startIndexInclusive, int endIndexExclusive)
@@ -58,7 +58,7 @@ def subarray():
     public static boolean[] subarray(final boolean[] array, int startIndexInclusive, int endIndexExclusive)
     '''
 def isSameLength():
-    '''    public static boolean isSameLength(final Object[] array1, final Object[] array2)
+    '''public static boolean isSameLength(final Object[] array1, final Object[] array2)
     public static boolean isSameLength(final long[] array1, final long[] array2)
     public static boolean isSameLength(final int[] array1, final int[] array2)
     public static boolean isSameLength(final short[] array1, final short[] array2)
@@ -69,13 +69,13 @@ def isSameLength():
     public static boolean isSameLength(final boolean[] array1, final boolean[] array2)
     '''
 def getLength():
-    '''    public static int getLength(final Object array)
+    '''public static int getLength(final Object array)
     '''
 def isSameType():
-    '''    public static boolean isSameType(final Object array1, final Object array2)
+    '''public static boolean isSameType(final Object array1, final Object array2)
     '''
 def reverse():
-    '''    public static void reverse(final Object[] array)
+    '''public static void reverse(final Object[] array)
     public static void reverse(final long[] array)
     public static void reverse(final int[] array)
     public static void reverse(final short[] array)
@@ -95,7 +95,7 @@ def reverse():
     public static void reverse(final short[] array, final int startIndexInclusive, final int endIndexExclusive)
     '''
 def indexOf():
-    '''    public static int indexOf(final Object[] array, final Object objectToFind)
+    '''public static int indexOf(final Object[] array, final Object objectToFind)
     public static int indexOf(final Object[] array, final Object objectToFind, int startIndex)
     public static int indexOf(final long[] array, final long valueToFind)
     public static int indexOf(final long[] array, final long valueToFind, int startIndex)
@@ -117,7 +117,7 @@ def indexOf():
     public static int indexOf(final boolean[] array, final boolean valueToFind, int startIndex)
     '''
 def lastIndexOf():
-    '''    public static int lastIndexOf(final Object[] array, final Object objectToFind)
+    '''public static int lastIndexOf(final Object[] array, final Object objectToFind)
     public static int lastIndexOf(final Object[] array, final Object objectToFind, int startIndex)
     public static int lastIndexOf(final long[] array, final long valueToFind)
     public static int lastIndexOf(final long[] array, final long valueToFind, int startIndex)
@@ -139,7 +139,7 @@ def lastIndexOf():
     public static int lastIndexOf(final boolean[] array, final boolean valueToFind, int startIndex)
     '''
 def contains():
-    '''    public static boolean contains(final Object[] array, final Object objectToFind)
+    '''public static boolean contains(final Object[] array, final Object objectToFind)
     public static boolean contains(final long[] array, final long valueToFind)
     public static boolean contains(final int[] array, final int valueToFind)
     public static boolean contains(final short[] array, final short valueToFind)
@@ -151,7 +151,7 @@ def contains():
     public static boolean contains(final boolean[] array, final boolean valueToFind)
     '''
 def toPrimitive():
-    '''    public static char[] toPrimitive(final Character[] array)
+    '''public static char[] toPrimitive(final Character[] array)
     public static char[] toPrimitive(final Character[] array, final char valueForNull)
     public static long[] toPrimitive(final Long[] array)
     public static long[] toPrimitive(final Long[] array, final long valueForNull)
@@ -169,7 +169,7 @@ def toPrimitive():
     public static boolean[] toPrimitive(final Boolean[] array, final boolean valueForNull)
     '''
 def toObject():
-    '''    public static Character[] toObject(final char[] array)
+    '''public static Character[] toObject(final char[] array)
     public static Long[] toObject(final long[] array)
     public static Integer[] toObject(final int[] array)
     public static Short[] toObject(final short[] array)
@@ -179,7 +179,7 @@ def toObject():
     public static Boolean[] toObject(final boolean[] array)
     '''
 def isEmpty():
-    '''    public static boolean isEmpty(final Object[] array)
+    '''public static boolean isEmpty(final Object[] array)
     public static boolean isEmpty(final long[] array)
     public static boolean isEmpty(final int[] array)
     public static boolean isEmpty(final short[] array)
@@ -190,7 +190,7 @@ def isEmpty():
     public static boolean isEmpty(final boolean[] array)
     '''
 def isNotEmpty():
-    '''    public static <T> boolean isNotEmpty(final T[] array)
+    '''public static <T> boolean isNotEmpty(final T[] array)
     public static boolean isNotEmpty(final long[] array)
     public static boolean isNotEmpty(final int[] array)
     public static boolean isNotEmpty(final short[] array)
@@ -201,7 +201,7 @@ def isNotEmpty():
     public static boolean isNotEmpty(final boolean[] array)
     '''
 def addAll():
-    '''    public static <T> T[] addAll(final T[] array1, final T... array2)
+    '''public static <T> T[] addAll(final T[] array1, final T... array2)
     public static boolean[] addAll(final boolean[] array1, final boolean... array2)
     public static char[] addAll(final char[] array1, final char... array2)
     public static byte[] addAll(final byte[] array1, final byte... array2)
@@ -212,7 +212,7 @@ def addAll():
     public static double[] addAll(final double[] array1, final double... array2)
     '''
 def add():
-    '''    public static <T> T[] add(final T[] array, final T element)
+    '''public static <T> T[] add(final T[] array, final T element)
     public static boolean[] add(final boolean[] array, final boolean element)
     public static byte[] add(final byte[] array, final byte element)
     public static char[] add(final char[] array, final char element)
@@ -232,7 +232,7 @@ def add():
     public static double[] add(final double[] array, final int index, final double element)
     '''
 def remove():
-    '''    public static <T> T[] remove(final T[] array, final int index)
+    '''public static <T> T[] remove(final T[] array, final int index)
     public static boolean[] remove(final boolean[] array, final int index)
     public static byte[] remove(final byte[] array, final int index)
     public static char[] remove(final char[] array, final int index)
@@ -243,7 +243,7 @@ def remove():
     public static short[] remove(final short[] array, final int index)
     '''
 def removeElement():
-    '''    public static <T> T[] removeElement(final T[] array, final Object element)
+    '''public static <T> T[] removeElement(final T[] array, final Object element)
     public static boolean[] removeElement(final boolean[] array, final boolean element)
     public static byte[] removeElement(final byte[] array, final byte element)
     public static char[] removeElement(final char[] array, final char element)
@@ -254,7 +254,7 @@ def removeElement():
     public static short[] removeElement(final short[] array, final short element)
     '''
 def removeAll():
-    '''    public static <T> T[] removeAll(final T[] array, final int... indices)
+    '''public static <T> T[] removeAll(final T[] array, final int... indices)
     public static byte[] removeAll(final byte[] array, final int... indices)
     public static short[] removeAll(final short[] array, final int... indices)
     public static int[] removeAll(final int[] array, final int... indices)
@@ -265,7 +265,7 @@ def removeAll():
     public static boolean[] removeAll(final boolean[] array, final int... indices)
     '''
 def removeElements():
-    '''    public static <T> T[] removeElements(final T[] array, final T... values)
+    '''public static <T> T[] removeElements(final T[] array, final T... values)
     public static byte[] removeElements(final byte[] array, final byte... values)
     public static short[] removeElements(final short[] array, final short... values)
     public static int[] removeElements(final int[] array, final int... values)
@@ -276,10 +276,10 @@ def removeElements():
     public static boolean[] removeElements(final boolean[] array, final boolean... values)
     '''
 def compare():
-    '''    public int compare(final T o1, final T o2)
+    '''public int compare(final T o1, final T o2)
     '''
 def isSorted():
-    '''    public static <T> boolean isSorted(final T[] array, final Comparator<T> comparator)
+    '''public static <T> boolean isSorted(final T[] array, final Comparator<T> comparator)
     public static boolean isSorted(final int[] array)
     public static boolean isSorted(final long[] array)
     public static boolean isSorted(final short[] array)

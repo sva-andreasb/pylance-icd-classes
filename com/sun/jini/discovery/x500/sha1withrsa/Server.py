@@ -1,3 +1,3 @@
 def Server():
-    '''    public Server()
+    '''public Server()
     '''

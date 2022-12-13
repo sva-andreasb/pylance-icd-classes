@@ -123,49 +123,49 @@ EMPTY = "int  4"
 CONTAINER = "int  8"
 SPECIAL = "int  16"
 def getElement():
-    '''    public static final Element getElement(final short code)
+    '''public static final Element getElement(final short code)
     public static final Element getElement(final String ename)
     public static final Element getElement(final String ename, final Element element)
     '''
 def Element():
-    '''    public Element(final short code, final String name, final int flags, final short parent, final short[] closes)
+    '''public Element(final short code, final String name, final int flags, final short parent, final short[] closes)
     public Element(final short code, final String name, final int flags, final short parent, final short bounds, final short[] closes)
     public Element(final short code, final String name, final int flags, final short[] parents, final short[] closes)
     public Element(final short code, final String name, final int flags, final short[] parents, final short bounds, final short[] closes)
     '''
 def isInline():
-    '''    public final boolean isInline()
+    '''public final boolean isInline()
     '''
 def isBlock():
-    '''    public final boolean isBlock()
+    '''public final boolean isBlock()
     '''
 def isEmpty():
-    '''    public final boolean isEmpty()
+    '''public final boolean isEmpty()
     '''
 def isContainer():
-    '''    public final boolean isContainer()
+    '''public final boolean isContainer()
     '''
 def isSpecial():
-    '''    public final boolean isSpecial()
+    '''public final boolean isSpecial()
     '''
 def closes():
-    '''    public boolean closes(final short tag)
+    '''public boolean closes(final short tag)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def isParent():
-    '''    public boolean isParent(final Element element)
+    '''public boolean isParent(final Element element)
     '''
 def ElementList():
-    '''    public ElementList()
+    '''public ElementList()
     '''
 def addElement():
-    '''    public void addElement(final Element element)
+    '''public void addElement(final Element element)
     '''

@@ -1,6 +1,6 @@
 def FldToolTransRefWO():
-    '''    public FldToolTransRefWO(final MboValue mbv)
+    '''public FldToolTransRefWO(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

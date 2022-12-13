@@ -1,15 +1,15 @@
 def getInstance():
-    '''    public static DefaultFirstAccessTenantListener getInstance()
+    '''public static DefaultFirstAccessTenantListener getInstance()
     '''
 def eventValidate():
-    '''    public boolean eventValidate(final EventMessage em)
+    '''public boolean eventValidate(final EventMessage em)
     '''
 def preSaveEventAction():
-    '''    public void preSaveEventAction(final EventMessage em)
+    '''public void preSaveEventAction(final EventMessage em)
     '''
 def eventAction():
-    '''    public void eventAction(final EventMessage em)
+    '''public void eventAction(final EventMessage em)
     '''
 def postCommitEventAction():
-    '''    public void postCommitEventAction(final EventMessage em)
+    '''public void postCommitEventAction(final EventMessage em)
     '''

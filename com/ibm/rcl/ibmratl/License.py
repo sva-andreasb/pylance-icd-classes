@@ -5,37 +5,37 @@ TL_UHDV_DUPLICATE = "int  3"
 TL_UH_DUPLICATE = "int  4"
 TL_U_DUPLICATE = "int  5"
 def License():
-    '''    public License(final int[] featureArray, final String keyString, final int duplicateGrouping, final int numberOfLicenses, final int lingerTime, final int[] expiryDays)
+    '''public License(final int[] featureArray, final String keyString, final int duplicateGrouping, final int numberOfLicenses, final int lingerTime, final int[] expiryDays)
     public License(final String featureName, final String featureVersion, final String keyString, final int duplicateGrouping, final int numberOfLicenses, final int lingerTime, final int[] expiryDays)
     public License(final String featureName, final String keyString, final int duplicateGrouping, final int numberOfLicenses, final int lingerTime, final int[] expiryDays)
     '''
 def getFeature():
-    '''    public int[] getFeature()
+    '''public int[] getFeature()
     '''
 def getKeyString():
-    '''    public String getKeyString()
+    '''public String getKeyString()
     '''
 def getDuplicateGrouping():
-    '''    public int getDuplicateGrouping()
+    '''public int getDuplicateGrouping()
     '''
 def getFeatureName():
-    '''    public String getFeatureName()
+    '''public String getFeatureName()
     '''
 def getFeatureVersion():
-    '''    public String getFeatureVersion()
+    '''public String getFeatureVersion()
     '''
 def getNumberOfLicenses():
-    '''    public int getNumberOfLicenses()
+    '''public int getNumberOfLicenses()
     '''
 def getLingerTime():
-    '''    public int getLingerTime()
+    '''public int getLingerTime()
     '''
 def getExpiryDays():
-    '''    public int[] getExpiryDays()
+    '''public int[] getExpiryDays()
     '''
 def getLicensePath():
-    '''    public String getLicensePath()
+    '''public String getLicensePath()
     '''
 def setLicensePath():
-    '''    public void setLicensePath(final String licensePath)
+    '''public void setLicensePath(final String licensePath)
     '''

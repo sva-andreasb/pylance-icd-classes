@@ -1,3 +1,3 @@
 def TloamFinancialPeriodsSet():
-    '''    public TloamFinancialPeriodsSet(final MboServerInterface ms)
+    '''public TloamFinancialPeriodsSet(final MboServerInterface ms)
     '''

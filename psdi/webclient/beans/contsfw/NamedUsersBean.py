@@ -1,3 +1,3 @@
 def selectpeople():
-    '''    public int selectpeople()
+    '''public int selectpeople()
     '''

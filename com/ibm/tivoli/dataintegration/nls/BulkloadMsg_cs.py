@@ -71,5 +71,5 @@ BULKLISTUNWRITTENOBJECTS = "String  \"BULKLISTUNWRITTENOBJECTS\""
 BULKDIDNOTREGISTEROBJECT = "String  \"BULKDIDNOTREGISTEROBJECT\""
 BULKERRORCONNECTDB = "String  \"BULKERRORCONNECTDB\""
 def getContents():
-    '''    public Object[][] getContents()
+    '''public Object[][] getContents()
     '''

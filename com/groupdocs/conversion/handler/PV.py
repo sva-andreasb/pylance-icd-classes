@@ -1,3 +1,3 @@
 def a():
-    '''    public boolean a(final String license, final PN pn)
+    '''public boolean a(final String license, final PN pn)
     '''

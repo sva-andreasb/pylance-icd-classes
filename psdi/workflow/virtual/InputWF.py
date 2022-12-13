@@ -1,6 +1,6 @@
 def InputWF():
-    '''    public InputWF(final MboSet ms)
+    '''public InputWF(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

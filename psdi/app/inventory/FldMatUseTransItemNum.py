@@ -1,15 +1,15 @@
 def FldMatUseTransItemNum():
-    '''    public FldMatUseTransItemNum(final MboValue mbv)
+    '''public FldMatUseTransItemNum(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getAppLink():
-    '''    public String[] getAppLink()
+    '''public String[] getAppLink()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,3 +1,3 @@
 def SKDOverrideAvailService():
-    '''    public SKDOverrideAvailService(final MXServer mxServer)
+    '''public SKDOverrideAvailService(final MXServer mxServer)
     '''

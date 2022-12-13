@@ -3,11 +3,11 @@ ATTEMPTEDSTATUS = "String  \"ATTEMPTED\""
 SUCCESSSTATUS = "String  \"SUCCESS\""
 CONSIDERSTATUS = "String  \"CONSIDER\""
 def PmtcoTicketSol():
-    '''    public PmtcoTicketSol(final MboSet ms)
+    '''public PmtcoTicketSol(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def initFieldFlagsOnMbo():
-    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''public void initFieldFlagsOnMbo(final String attrName)
     '''

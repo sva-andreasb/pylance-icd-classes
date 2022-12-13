@@ -1,6 +1,6 @@
 def ActionSet():
-    '''    public ActionSet(final MboServerInterface ms)
+    '''public ActionSet(final MboServerInterface ms)
     '''
 def setQbe():
-    '''    public void setQbe(final String attribute, final String expression)
+    '''public void setQbe(final String attribute, final String expression)
     '''

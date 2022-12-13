@@ -1,3 +1,3 @@
 def ContractSFW():
-    '''    public ContractSFW(final MboSet ms)
+    '''public ContractSFW(final MboSet ms)
     '''

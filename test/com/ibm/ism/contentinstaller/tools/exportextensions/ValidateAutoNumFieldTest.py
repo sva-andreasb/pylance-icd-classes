@@ -1,3 +1,3 @@
 def testProcessObject():
-    '''    public void testProcessObject()
+    '''public void testProcessObject()
     '''

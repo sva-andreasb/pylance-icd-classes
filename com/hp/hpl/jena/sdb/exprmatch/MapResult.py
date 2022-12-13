@@ -1,6 +1,6 @@
 def put():
-    '''    public void put(final Var var, final String v)
+    '''public void put(final Var var, final String v)
     '''
 def get():
-    '''    public Expr get(final String varName)
+    '''public Expr get(final String varName)
     '''

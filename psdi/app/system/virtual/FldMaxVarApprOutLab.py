@@ -1,6 +1,6 @@
 def FldMaxVarApprOutLab():
-    '''    public FldMaxVarApprOutLab(final MboValue mbv)
+    '''public FldMaxVarApprOutLab(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

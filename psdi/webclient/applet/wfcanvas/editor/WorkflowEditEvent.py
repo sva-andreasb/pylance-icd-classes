@@ -8,14 +8,14 @@ RELATIONSHIP_REMOVED = "int  6"
 RELATIONSHIP_SELECTED = "int  7"
 UNDOSTATE_CHANGE = "int  8"
 def WorkflowEditEvent():
-    '''    public WorkflowEditEvent(final Object source, final int type, final Workflow workflow, final WorkflowEntity entity)
+    '''public WorkflowEditEvent(final Object source, final int type, final Workflow workflow, final WorkflowEntity entity)
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''
 def getWorkflow():
-    '''    public Workflow getWorkflow()
+    '''public Workflow getWorkflow()
     '''
 def getEntity():
-    '''    public WorkflowEntity getEntity()
+    '''public WorkflowEntity getEntity()
     '''

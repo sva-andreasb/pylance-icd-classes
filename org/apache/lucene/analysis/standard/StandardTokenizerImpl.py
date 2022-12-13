@@ -9,41 +9,41 @@ KATAKANA_TYPE = "int  5"
 HANGUL_TYPE = "int  6"
 EMOJI_TYPE = "int  7"
 def yychar():
-    '''    public final int yychar()
+    '''public final int yychar()
     '''
 def getText():
-    '''    public final void getText(final CharTermAttribute t)
+    '''public final void getText(final CharTermAttribute t)
     '''
 def setBufferSize():
-    '''    public final void setBufferSize(final int numChars)
+    '''public final void setBufferSize(final int numChars)
     '''
 def StandardTokenizerImpl():
-    '''    public StandardTokenizerImpl(final Reader in)
+    '''public StandardTokenizerImpl(final Reader in)
     '''
 def yyclose():
-    '''    public final void yyclose()
+    '''public final void yyclose()
     '''
 def yyreset():
-    '''    public final void yyreset(final Reader reader)
+    '''public final void yyreset(final Reader reader)
     '''
 def yystate():
-    '''    public final int yystate()
+    '''public final int yystate()
     '''
 def yybegin():
-    '''    public final void yybegin(final int newState)
+    '''public final void yybegin(final int newState)
     '''
 def yytext():
-    '''    public final String yytext()
+    '''public final String yytext()
     '''
 def yycharat():
-    '''    public final char yycharat(final int pos)
+    '''public final char yycharat(final int pos)
     '''
 def yylength():
-    '''    public final int yylength()
+    '''public final int yylength()
     '''
 def yypushback():
-    '''    public void yypushback(final int number)
+    '''public void yypushback(final int number)
     '''
 def getNextToken():
-    '''    public int getNextToken()
+    '''public int getNextToken()
     '''

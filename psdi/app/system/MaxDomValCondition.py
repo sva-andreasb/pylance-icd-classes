@@ -1,12 +1,12 @@
 def MaxDomValCondition():
-    '''    public MaxDomValCondition(final MboSet ms)
+    '''public MaxDomValCondition(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def loadValueDesc():
-    '''    public void loadValueDesc()
+    '''public void loadValueDesc()
     '''

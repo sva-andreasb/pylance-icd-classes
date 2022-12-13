@@ -1,3 +1,3 @@
 def getSubscriptions():
-    '''    public List<String> getSubscriptions()
+    '''public List<String> getSubscriptions()
     '''

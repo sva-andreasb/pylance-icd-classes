@@ -1,3 +1,3 @@
 def ViewLibraryFile():
-    '''    public ViewLibraryFile(final MboSet ms)
+    '''public ViewLibraryFile(final MboSet ms)
     '''

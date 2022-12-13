@@ -1,6 +1,6 @@
 def SKDResource():
-    '''    public SKDResource(final MboSet ms)
+    '''public SKDResource(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

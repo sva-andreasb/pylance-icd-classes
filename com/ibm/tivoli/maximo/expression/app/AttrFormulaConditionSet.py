@@ -1,3 +1,3 @@
 def AttrFormulaConditionSet():
-    '''    public AttrFormulaConditionSet(final MboServerInterface ms)
+    '''public AttrFormulaConditionSet(final MboServerInterface ms)
     '''

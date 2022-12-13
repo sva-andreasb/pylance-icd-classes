@@ -1,3 +1,3 @@
 def evaluate():
-    '''    public Object evaluate()
+    '''public Object evaluate()
     '''

@@ -1,6 +1,6 @@
 def EventManagerSDB():
-    '''    public EventManagerSDB(final GraphSDB graph)
+    '''public EventManagerSDB(final GraphSDB graph)
     '''
 def notifyEvent():
-    '''    public void notifyEvent(final Graph arg0, final Object arg1)
+    '''public void notifyEvent(final Graph arg0, final Object arg1)
     '''

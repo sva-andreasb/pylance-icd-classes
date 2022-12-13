@@ -1,6 +1,6 @@
 def BasicIdFactory():
-    '''    public BasicIdFactory()
+    '''public BasicIdFactory()
     '''
 def getUniqueId():
-    '''    public String getUniqueId(final String pageName)
+    '''public String getUniqueId(final String pageName)
     '''

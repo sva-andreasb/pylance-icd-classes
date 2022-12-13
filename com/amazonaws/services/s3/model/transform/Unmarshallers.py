@@ -1,5 +1,5 @@
 def unmarshall():
-    '''    public List<Bucket> unmarshall(final InputStream in)
+    '''public List<Bucket> unmarshall(final InputStream in)
     public Owner unmarshall(final InputStream in)
     public ObjectListing unmarshall(final InputStream in)
     public ListObjectsV2Result unmarshall(final InputStream in)
@@ -22,11 +22,11 @@ def unmarshall():
     public RequestPaymentConfiguration unmarshall(final InputStream in)
     '''
 def ListObjectsUnmarshaller():
-    '''    public ListObjectsUnmarshaller(final boolean shouldSDKDecodeResponse)
+    '''public ListObjectsUnmarshaller(final boolean shouldSDKDecodeResponse)
     '''
 def ListObjectsV2Unmarshaller():
-    '''    public ListObjectsV2Unmarshaller(final boolean shouldSDKDecodeResponse)
+    '''public ListObjectsV2Unmarshaller(final boolean shouldSDKDecodeResponse)
     '''
 def VersionListUnmarshaller():
-    '''    public VersionListUnmarshaller(final boolean shouldSDKDecodeResponse)
+    '''public VersionListUnmarshaller(final boolean shouldSDKDecodeResponse)
     '''

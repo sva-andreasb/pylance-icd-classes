@@ -1,6 +1,6 @@
 def FldTamitSWPartNumber():
-    '''    public FldTamitSWPartNumber(final MboValue mbv)
+    '''public FldTamitSWPartNumber(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

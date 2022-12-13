@@ -1,6 +1,6 @@
 def FldFlowActionAssist():
-    '''    public FldFlowActionAssist(final MboValue mbv)
+    '''public FldFlowActionAssist(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

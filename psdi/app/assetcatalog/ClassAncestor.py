@@ -1,6 +1,6 @@
 def ClassAncestor():
-    '''    public ClassAncestor(final MboSet ms)
+    '''public ClassAncestor(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

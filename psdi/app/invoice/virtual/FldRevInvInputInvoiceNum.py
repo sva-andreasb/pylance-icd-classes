@@ -1,6 +1,6 @@
 def FldRevInvInputInvoiceNum():
-    '''    public FldRevInvInputInvoiceNum(final MboValue mbv)
+    '''public FldRevInvInputInvoiceNum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

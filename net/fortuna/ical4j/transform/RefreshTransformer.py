@@ -1,3 +1,3 @@
 def RefreshTransformer():
-    '''    public RefreshTransformer(final UidGenerator uidGenerator)
+    '''public RefreshTransformer(final UidGenerator uidGenerator)
     '''

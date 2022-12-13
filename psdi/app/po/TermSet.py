@@ -1,3 +1,3 @@
 def TermSet():
-    '''    public TermSet(final MboServerInterface ms)
+    '''public TermSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def JobServiceSet():
-    '''    public JobServiceSet(final MboServerInterface ms)
+    '''public JobServiceSet(final MboServerInterface ms)
     '''

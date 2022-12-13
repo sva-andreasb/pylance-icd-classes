@@ -1,6 +1,6 @@
 def FldAssetLocRelationLRM():
-    '''    public FldAssetLocRelationLRM(final MboValue mbv)
+    '''public FldAssetLocRelationLRM(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

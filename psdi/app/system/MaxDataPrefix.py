@@ -1,3 +1,3 @@
 def MaxDataPrefix():
-    '''    public MaxDataPrefix(final MboSet ms)
+    '''public MaxDataPrefix(final MboSet ms)
     '''

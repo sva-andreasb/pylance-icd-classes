@@ -1,6 +1,6 @@
 def FldCIServiceGroup():
-    '''    public FldCIServiceGroup(final MboValue mbv)
+    '''public FldCIServiceGroup(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,9 +1,9 @@
 def PlusPServiceItemSet():
-    '''    public PlusPServiceItemSet(final MboServerInterface arg0)
+    '''public PlusPServiceItemSet(final MboServerInterface arg0)
     '''
 def setQbe():
-    '''    public void setQbe(final String attribute, final String s)
+    '''public void setQbe(final String attribute, final String s)
     '''
 def resetQbe():
-    '''    public void resetQbe()
+    '''public void resetQbe()
     '''

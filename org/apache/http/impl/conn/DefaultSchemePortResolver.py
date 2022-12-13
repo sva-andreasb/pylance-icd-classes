@@ -1,3 +1,3 @@
 def resolve():
-    '''    public int resolve(final HttpHost host)
+    '''public int resolve(final HttpHost host)
     '''

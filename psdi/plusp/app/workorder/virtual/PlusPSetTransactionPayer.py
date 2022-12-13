@@ -1,12 +1,12 @@
 def PlusPSetTransactionPayer():
-    '''    public PlusPSetTransactionPayer(final MboSet ms)
+    '''public PlusPSetTransactionPayer(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def setPayer():
-    '''    public boolean setPayer()
+    '''public boolean setPayer()
     '''
 def setPayerToTransaction():
-    '''    public void setPayerToTransaction()
+    '''public void setPayerToTransaction()
     '''

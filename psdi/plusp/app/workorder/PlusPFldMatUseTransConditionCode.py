@@ -1,6 +1,6 @@
 def PlusPFldMatUseTransConditionCode():
-    '''    public PlusPFldMatUseTransConditionCode(final MboValue arg0)
+    '''public PlusPFldMatUseTransConditionCode(final MboValue arg0)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

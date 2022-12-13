@@ -1,6 +1,6 @@
 def SCTab():
-    '''    public SCTab(final Tab tab, final Layout layout, final Guid guid, final long version, final SessionContext session)
+    '''public SCTab(final Tab tab, final Layout layout, final Guid guid, final long version, final SessionContext session)
     '''
 def fillIn():
-    '''    public void fillIn()
+    '''public void fillIn()
     '''

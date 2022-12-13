@@ -1,6 +1,6 @@
 def RBAAppSupport():
-    '''    public RBAAppSupport(final MboSet ms)
+    '''public RBAAppSupport(final MboSet ms)
     '''
 def addSupport():
-    '''    public void addSupport()
+    '''public void addSupport()
     '''

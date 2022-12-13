@@ -1,30 +1,30 @@
 def Route():
-    '''    public Route(final MboSet ms)
+    '''public Route(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def getIsDuplicate():
-    '''    public boolean getIsDuplicate()
+    '''public boolean getIsDuplicate()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def generateAutoKey():
-    '''    public void generateAutoKey()
+    '''public void generateAutoKey()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def copyAssets():
-    '''    public void copyAssets(final MboSetRemote assetset)
+    '''public void copyAssets(final MboSetRemote assetset)
     '''
 def copyLinearAssets():
-    '''    public void copyLinearAssets(final MboSetRemote assetset)
+    '''public void copyLinearAssets(final MboSetRemote assetset)
     '''
 def copyLocations():
-    '''    public void copyLocations(final MboSetRemote locationset)
+    '''public void copyLocations(final MboSetRemote locationset)
     '''

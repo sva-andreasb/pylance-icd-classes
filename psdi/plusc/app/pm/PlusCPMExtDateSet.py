@@ -1,6 +1,6 @@
 def PlusCPMExtDateSet():
-    '''    public PlusCPMExtDateSet(final MboServerInterface ms)
+    '''public PlusCPMExtDateSet(final MboServerInterface ms)
     '''
 def SortMboSet():
-    '''    public void SortMboSet()
+    '''public void SortMboSet()
     '''

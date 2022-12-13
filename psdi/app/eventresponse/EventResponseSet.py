@@ -1,18 +1,18 @@
 def EventResponseSet():
-    '''    public EventResponseSet(final MboServerInterface ms)
+    '''public EventResponseSet(final MboServerInterface ms)
     '''
 def finalize():
-    '''    public void finalize()
+    '''public void finalize()
     '''
 def immediate():
-    '''    public void immediate()
+    '''public void immediate()
     '''
 def notImmediate():
-    '''    public void notImmediate()
+    '''public void notImmediate()
     '''
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''
 def rollback():
-    '''    public void rollback()
+    '''public void rollback()
     '''

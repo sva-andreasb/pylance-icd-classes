@@ -1,6 +1,6 @@
 def PRChangeStatus():
-    '''    public PRChangeStatus(final MboSet ms)
+    '''public PRChangeStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

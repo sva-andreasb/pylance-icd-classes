@@ -1,12 +1,12 @@
 def Emulation():
-    '''    public Emulation()
+    '''public Emulation()
     '''
 def addNode():
-    '''    public void addNode(final String node, final String parent)
+    '''public void addNode(final String node, final String parent)
     '''
 def isParent():
-    '''    public boolean isParent(final String parent, final String child)
+    '''public boolean isParent(final String parent, final String child)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

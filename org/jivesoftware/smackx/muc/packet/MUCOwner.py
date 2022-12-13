@@ -1,17 +1,17 @@
 ELEMENT = "String  \"query\""
 NAMESPACE = "String  \"http://jabber.org/protocol/muc#owner\""
 def MUCOwner():
-    '''    public MUCOwner()
+    '''public MUCOwner()
     '''
 def getItems():
-    '''    public List<MUCItem> getItems()
+    '''public List<MUCItem> getItems()
     '''
 def getDestroy():
-    '''    public Destroy getDestroy()
+    '''public Destroy getDestroy()
     '''
 def setDestroy():
-    '''    public void setDestroy(final Destroy destroy)
+    '''public void setDestroy(final Destroy destroy)
     '''
 def addItem():
-    '''    public void addItem(final MUCItem item)
+    '''public void addItem(final MUCItem item)
     '''

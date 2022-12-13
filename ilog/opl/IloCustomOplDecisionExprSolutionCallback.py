@@ -1,46 +1,46 @@
 def IloCustomOplDecisionExprSolutionCallback():
-    '''    public IloCustomOplDecisionExprSolutionCallback(final IloOplFactory oplEnv, final boolean enableScripting)
+    '''public IloCustomOplDecisionExprSolutionCallback(final IloOplFactory oplEnv, final boolean enableScripting)
     '''
 def currentIndexArray():
-    '''    public IloMapIndexArray currentIndexArray()
+    '''public IloMapIndexArray currentIndexArray()
     '''
 def currentIndexNameArray():
-    '''    public IloStringArray currentIndexNameArray()
+    '''public IloStringArray currentIndexNameArray()
     '''
 def currentIndexValueArray():
-    '''    public IloMapIndexArray currentIndexValueArray()
+    '''public IloMapIndexArray currentIndexValueArray()
     '''
 def hasChangedIndexNameArray():
-    '''    public boolean hasChangedIndexNameArray()
+    '''public boolean hasChangedIndexNameArray()
     '''
 def hasChangedIndexValueArray():
-    '''    public boolean hasChangedIndexValueArray()
+    '''public boolean hasChangedIndexValueArray()
     '''
 def evaluate():
-    '''    public IloOplObject evaluate(final IloOplObject index)
+    '''public IloOplObject evaluate(final IloOplObject index)
     public String evaluate(final IloOplScriptExpression expr)
     '''
 def evaluateInt():
-    '''    public int evaluateInt(final IloOplScriptExpression expr)
+    '''public int evaluateInt(final IloOplScriptExpression expr)
     '''
 def evaluateNum():
-    '''    public double evaluateNum(final IloOplScriptExpression expr)
+    '''public double evaluateNum(final IloOplScriptExpression expr)
     '''
 def evaluateObject():
-    '''    public IloOplObject evaluateObject(final IloOplScriptExpression expr)
+    '''public IloOplObject evaluateObject(final IloOplScriptExpression expr)
     '''
 def startDecisionExpr():
-    '''    public boolean startDecisionExpr(final String dexprName, final double value)
+    '''public boolean startDecisionExpr(final String dexprName, final double value)
     '''
 def startSum():
-    '''    public boolean startSum(final double value)
+    '''public boolean startSum(final double value)
     '''
 def addTerm():
-    '''    public void addTerm(final double value)
+    '''public void addTerm(final double value)
     '''
 def endSum():
-    '''    public void endSum()
+    '''public void endSum()
     '''
 def endDecisionExpr():
-    '''    public void endDecisionExpr(final String dexprName)
+    '''public void endDecisionExpr(final String dexprName)
     '''

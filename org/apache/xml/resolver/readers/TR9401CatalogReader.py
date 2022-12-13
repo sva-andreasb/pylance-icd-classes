@@ -1,3 +1,3 @@
 def readCatalog():
-    '''    public void readCatalog(final Catalog catalog, final InputStream is)
+    '''public void readCatalog(final Catalog catalog, final InputStream is)
     '''

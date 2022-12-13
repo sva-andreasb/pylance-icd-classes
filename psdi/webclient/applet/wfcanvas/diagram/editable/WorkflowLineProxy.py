@@ -1,18 +1,18 @@
 def WorkflowLineProxy():
-    '''    public WorkflowLineProxy(final WorkflowNode node)
+    '''public WorkflowLineProxy(final WorkflowNode node)
     '''
 def getNode():
-    '''    public WorkflowNode getNode()
+    '''public WorkflowNode getNode()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getTransferData():
-    '''    public Object getTransferData(final DataFlavor flavor)
+    '''public Object getTransferData(final DataFlavor flavor)
     '''
 def getTransferDataFlavors():
-    '''    public DataFlavor[] getTransferDataFlavors()
+    '''public DataFlavor[] getTransferDataFlavors()
     '''
 def isDataFlavorSupported():
-    '''    public boolean isDataFlavorSupported(final DataFlavor flavor)
+    '''public boolean isDataFlavorSupported(final DataFlavor flavor)
     '''

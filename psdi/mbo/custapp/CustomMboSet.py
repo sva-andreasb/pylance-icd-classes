@@ -1,3 +1,3 @@
 def CustomMboSet():
-    '''    public CustomMboSet(final MboServerInterface ms)
+    '''public CustomMboSet(final MboServerInterface ms)
     '''

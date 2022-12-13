@@ -1,3 +1,3 @@
 def SKDExportPDF():
-    '''    public SKDExportPDF(final MboSet ms)
+    '''public SKDExportPDF(final MboSet ms)
     '''

@@ -16,54 +16,54 @@ DOJO_TREENODE_SIGOPTION_DATASRC = "String  \"sigoptiondatasrc\""
 DOJO_TREENODE_EVENTVALUE = "String  \"eventvalue\""
 DOJO_TREENODE_CONTEXTMENU = "String  \"contextmenu\""
 def DojoTreeNode():
-    '''    public DojoTreeNode()
+    '''public DojoTreeNode()
     public DojoTreeNode(final DojoTree owner, final MboRemote representedObject, final DojoTreeNodePrototype prototype)
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def getPrototype():
-    '''    public DojoTreeNodePrototype getPrototype()
+    '''public DojoTreeNodePrototype getPrototype()
     '''
 def contextmenu():
-    '''    public int contextmenu()
+    '''public int contextmenu()
     '''
 def getData():
-    '''    public Map<String, Object> getData()
+    '''public Map<String, Object> getData()
     '''
 def getRepresentedObject():
-    '''    public MboRemote getRepresentedObject()
+    '''public MboRemote getRepresentedObject()
     '''
 def openNode():
-    '''    public int openNode()
+    '''public int openNode()
     '''
 def setOpened():
-    '''    public void setOpened(final boolean value)
+    '''public void setOpened(final boolean value)
     '''
 def compare():
-    '''    public int compare(final DojoTreeNode o1, final DojoTreeNode o2)
+    '''public int compare(final DojoTreeNode o1, final DojoTreeNode o2)
     '''
 def getChildrenNodes():
-    '''    public int getChildrenNodes()
+    '''public int getChildrenNodes()
     '''
 def getTree():
-    '''    public DojoTree getTree()
+    '''public DojoTree getTree()
     '''
 def getChildrenSize():
-    '''    public int getChildrenSize()
+    '''public int getChildrenSize()
     '''
 def toJSON():
-    '''    public JSONObject toJSON()
+    '''public JSONObject toJSON()
     '''
 def isChecked():
-    '''    public boolean isChecked()
+    '''public boolean isChecked()
     '''
 def setChecked():
-    '''    public int setChecked()
+    '''public int setChecked()
     '''
 def rightClick():
-    '''    public int rightClick()
+    '''public int rightClick()
     '''
 def fromString():
-    '''    public static List<SortDescriptor> fromString(final String s)
+    '''public static List<SortDescriptor> fromString(final String s)
     '''

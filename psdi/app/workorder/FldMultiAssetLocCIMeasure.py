@@ -1,6 +1,6 @@
 def FldMultiAssetLocCIMeasure():
-    '''    public FldMultiAssetLocCIMeasure(final MboValue mbv)
+    '''public FldMultiAssetLocCIMeasure(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

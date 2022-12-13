@@ -1,3 +1,3 @@
 def FldMaxLookupMapTargetAttr():
-    '''    public FldMaxLookupMapTargetAttr(final MboValue mbv)
+    '''public FldMaxLookupMapTargetAttr(final MboValue mbv)
     '''

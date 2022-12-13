@@ -1,3 +1,3 @@
 def PlusPAgreeDummySet():
-    '''    public PlusPAgreeDummySet(final MboServerInterface ms)
+    '''public PlusPAgreeDummySet(final MboServerInterface ms)
     '''

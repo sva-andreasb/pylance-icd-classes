@@ -1,6 +1,6 @@
 def DMMapRulesSet():
-    '''    public DMMapRulesSet(final MboServerInterface ms)
+    '''public DMMapRulesSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

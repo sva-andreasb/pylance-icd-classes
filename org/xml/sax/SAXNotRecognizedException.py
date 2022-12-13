@@ -1,4 +1,4 @@
 def SAXNotRecognizedException():
-    '''    public SAXNotRecognizedException()
+    '''public SAXNotRecognizedException()
     public SAXNotRecognizedException(final String s)
     '''

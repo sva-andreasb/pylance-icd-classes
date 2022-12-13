@@ -1,21 +1,21 @@
 def MementoMessage():
-    '''    public MementoMessage(final String formattedMessage, final String format, final Object[] parameters)
+    '''public MementoMessage(final String formattedMessage, final String format, final Object[] parameters)
     '''
 def getFormattedMessage():
-    '''    public String getFormattedMessage()
+    '''public String getFormattedMessage()
     '''
 def getFormat():
-    '''    public String getFormat()
+    '''public String getFormat()
     '''
 def getParameters():
-    '''    public Object[] getParameters()
+    '''public Object[] getParameters()
     '''
 def getThrowable():
-    '''    public Throwable getThrowable()
+    '''public Throwable getThrowable()
     '''
 def formatTo():
-    '''    public void formatTo(final StringBuilder buffer)
+    '''public void formatTo(final StringBuilder buffer)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

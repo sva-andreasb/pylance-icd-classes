@@ -1,12 +1,12 @@
 def IlogBanner():
-    '''    public IlogBanner()
+    '''public IlogBanner()
     '''
 def getPreferredSize():
-    '''    public Dimension getPreferredSize()
+    '''public Dimension getPreferredSize()
     '''
 def getAlpha():
-    '''    public String getAlpha()
+    '''public String getAlpha()
     '''
 def setAlpha():
-    '''    public void setAlpha(final String s)
+    '''public void setAlpha(final String s)
     '''

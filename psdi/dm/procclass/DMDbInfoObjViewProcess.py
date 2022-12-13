@@ -1,12 +1,12 @@
 def DMDbInfoObjViewProcess():
-    '''    public DMDbInfoObjViewProcess()
+    '''public DMDbInfoObjViewProcess()
     '''
 def setAdditionalData():
-    '''    public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
+    '''public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
     '''
 def afterReplace():
-    '''    public void afterReplace(final MboRemote child)
+    '''public void afterReplace(final MboRemote child)
     '''
 def checkValidateErrors():
-    '''    public void checkValidateErrors()
+    '''public void checkValidateErrors()
     '''

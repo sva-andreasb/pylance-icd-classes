@@ -1,6 +1,6 @@
 def TloamCompany():
-    '''    public TloamCompany(final MboSet ms)
+    '''public TloamCompany(final MboSet ms)
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''

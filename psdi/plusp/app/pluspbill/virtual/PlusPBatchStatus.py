@@ -1,6 +1,6 @@
 def PlusPBatchStatus():
-    '''    public PlusPBatchStatus(final MboSet ms)
+    '''public PlusPBatchStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

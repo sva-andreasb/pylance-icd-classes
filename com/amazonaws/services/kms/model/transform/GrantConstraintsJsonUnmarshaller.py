@@ -1,6 +1,6 @@
 def unmarshall():
-    '''    public GrantConstraints unmarshall(final JsonUnmarshallerContext context)
+    '''public GrantConstraints unmarshall(final JsonUnmarshallerContext context)
     '''
 def getInstance():
-    '''    public static GrantConstraintsJsonUnmarshaller getInstance()
+    '''public static GrantConstraintsJsonUnmarshaller getInstance()
     '''

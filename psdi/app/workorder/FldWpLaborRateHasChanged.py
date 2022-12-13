@@ -1,6 +1,6 @@
 def FldWpLaborRateHasChanged():
-    '''    public FldWpLaborRateHasChanged(final MboValue mbv)
+    '''public FldWpLaborRateHasChanged(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

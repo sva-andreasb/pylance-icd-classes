@@ -1,6 +1,6 @@
 def FldSLAResolutionTime():
-    '''    public FldSLAResolutionTime(final MboValue mbv)
+    '''public FldSLAResolutionTime(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

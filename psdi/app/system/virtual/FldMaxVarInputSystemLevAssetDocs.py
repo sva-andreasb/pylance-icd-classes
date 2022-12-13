@@ -1,6 +1,6 @@
 def FldMaxVarInputSystemLevAssetDocs():
-    '''    public FldMaxVarInputSystemLevAssetDocs(final MboValue mbv)
+    '''public FldMaxVarInputSystemLevAssetDocs(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

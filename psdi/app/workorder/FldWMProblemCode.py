@@ -1,9 +1,9 @@
 def FldWMProblemCode():
-    '''    public FldWMProblemCode(final MboValue mbv)
+    '''public FldWMProblemCode(final MboValue mbv)
     '''
 def hasList():
-    '''    public boolean hasList()
+    '''public boolean hasList()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

@@ -1,70 +1,70 @@
 def mapValueToField():
-    '''    public void mapValueToField(final MboRemote mbo, final MfMailControlContainer origControl, final MfMailValueContainer origValue)
+    '''public void mapValueToField(final MboRemote mbo, final MfMailControlContainer origControl, final MfMailValueContainer origValue)
     '''
 def crateValueEntry():
-    '''    public MfMailValueContainer crateValueEntry(final MboRemote valueCfg)
+    '''public MfMailValueContainer crateValueEntry(final MboRemote valueCfg)
     '''
 def createControlEntry():
-    '''    public MfMailControlContainer createControlEntry(final MboRemote ctrlCfg)
+    '''public MfMailControlContainer createControlEntry(final MboRemote ctrlCfg)
     '''
 def getCtrlCfgBaseName():
-    '''    public String getCtrlCfgBaseName()
+    '''public String getCtrlCfgBaseName()
     '''
 def getDeactiveWhereClause():
-    '''    public String getDeactiveWhereClause(final MfMailCfgRemote config)
+    '''public String getDeactiveWhereClause(final MfMailCfgRemote config)
     '''
 def getTargetTableBaseName():
-    '''    public String getTargetTableBaseName()
+    '''public String getTargetTableBaseName()
     '''
 def getValueAttributeName():
-    '''    public String getValueAttributeName()
+    '''public String getValueAttributeName()
     '''
 def getValueCfgBaseName():
-    '''    public String getValueCfgBaseName()
+    '''public String getValueCfgBaseName()
     '''
 def prepareObject():
-    '''    public void prepareObject(final MfMailCfgRemote config)
+    '''public void prepareObject(final MfMailCfgRemote config)
     '''
 def getDeactivationCheckWhereClause():
-    '''    public String getDeactivationCheckWhereClause(final MfMailCfgRemote config)
+    '''public String getDeactivationCheckWhereClause(final MfMailCfgRemote config)
     '''
 def getHasOtherActivatedCfgWhereClause():
-    '''    public String getHasOtherActivatedCfgWhereClause(final MfMailCfgRemote config)
+    '''public String getHasOtherActivatedCfgWhereClause(final MfMailCfgRemote config)
     '''
 def Control():
-    '''    public Control(final int nodeId, final String selAttr, final String notifyTemplate, final String attributes)
+    '''public Control(final int nodeId, final String selAttr, final String notifyTemplate, final String attributes)
     '''
 def getNodeId():
-    '''    public int getNodeId()
+    '''public int getNodeId()
     '''
 def getSelAttr():
-    '''    public String getSelAttr()
+    '''public String getSelAttr()
     '''
 def getNotifyTemplate():
-    '''    public String getNotifyTemplate()
+    '''public String getNotifyTemplate()
     '''
 def getAttributes():
-    '''    public String getAttributes()
+    '''public String getAttributes()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     public String toString()
     '''
 def Value():
-    '''    public Value(final boolean isAccept, final boolean setValue, final String replyTemplate, final int value, final Map<String, String> descMap)
+    '''public Value(final boolean isAccept, final boolean setValue, final String replyTemplate, final int value, final Map<String, String> descMap)
     '''
 def getAction():
-    '''    public int getAction()
+    '''public int getAction()
     '''
 def getReplyTemplate():
-    '''    public String getReplyTemplate()
+    '''public String getReplyTemplate()
     '''
 def getValue():
-    '''    public int getValue()
+    '''public int getValue()
     '''
 def getDescription():
-    '''    public String getDescription(final String launguage)
+    '''public String getDescription(final String launguage)
     '''
 def getLaungages():
-    '''    public Set<String> getLaungages()
+    '''public Set<String> getLaungages()
     '''

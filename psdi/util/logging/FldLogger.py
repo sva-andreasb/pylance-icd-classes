@@ -1,18 +1,18 @@
 def FldLogger():
-    '''    public FldLogger(final MboValue mbv)
+    '''public FldLogger(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getLookupName():
-    '''    public String getLookupName()
+    '''public String getLookupName()
     '''
 def hasList():
-    '''    public boolean hasList()
+    '''public boolean hasList()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

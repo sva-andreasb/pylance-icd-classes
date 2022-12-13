@@ -1,3 +1,3 @@
 def CIChangeStatusSet():
-    '''    public CIChangeStatusSet(final MboServerInterface ms)
+    '''public CIChangeStatusSet(final MboServerInterface ms)
     '''

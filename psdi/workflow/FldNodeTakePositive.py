@@ -1,6 +1,6 @@
 def FldNodeTakePositive():
-    '''    public FldNodeTakePositive(final MboValue mbv)
+    '''public FldNodeTakePositive(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

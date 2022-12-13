@@ -1,6 +1,6 @@
 def FldLookupName():
-    '''    public FldLookupName(final MboValue mbv)
+    '''public FldLookupName(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,39 +1,39 @@
 def setCiphertextBlob():
-    '''    public void setCiphertextBlob(final ByteBuffer ciphertextBlob)
+    '''public void setCiphertextBlob(final ByteBuffer ciphertextBlob)
     '''
 def getCiphertextBlob():
-    '''    public ByteBuffer getCiphertextBlob()
+    '''public ByteBuffer getCiphertextBlob()
     '''
 def withCiphertextBlob():
-    '''    public ReEncryptResult withCiphertextBlob(final ByteBuffer ciphertextBlob)
+    '''public ReEncryptResult withCiphertextBlob(final ByteBuffer ciphertextBlob)
     '''
 def setSourceKeyId():
-    '''    public void setSourceKeyId(final String sourceKeyId)
+    '''public void setSourceKeyId(final String sourceKeyId)
     '''
 def getSourceKeyId():
-    '''    public String getSourceKeyId()
+    '''public String getSourceKeyId()
     '''
 def withSourceKeyId():
-    '''    public ReEncryptResult withSourceKeyId(final String sourceKeyId)
+    '''public ReEncryptResult withSourceKeyId(final String sourceKeyId)
     '''
 def setKeyId():
-    '''    public void setKeyId(final String keyId)
+    '''public void setKeyId(final String keyId)
     '''
 def getKeyId():
-    '''    public String getKeyId()
+    '''public String getKeyId()
     '''
 def withKeyId():
-    '''    public ReEncryptResult withKeyId(final String keyId)
+    '''public ReEncryptResult withKeyId(final String keyId)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def clone():
-    '''    public ReEncryptResult clone()
+    '''public ReEncryptResult clone()
     '''

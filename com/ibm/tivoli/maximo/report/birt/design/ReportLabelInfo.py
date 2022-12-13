@@ -1,15 +1,15 @@
 def ReportLabelInfo():
-    '''    public ReportLabelInfo()
+    '''public ReportLabelInfo()
     '''
 def getKey():
-    '''    public String getKey()
+    '''public String getKey()
     '''
 def setKey():
-    '''    public void setKey(final String key)
+    '''public void setKey(final String key)
     '''
 def getValue():
-    '''    public String getValue()
+    '''public String getValue()
     '''
 def setValue():
-    '''    public void setValue(final String value)
+    '''public void setValue(final String value)
     '''

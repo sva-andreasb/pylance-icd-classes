@@ -1,6 +1,6 @@
 def VMMPrivilagedGetAction():
-    '''    public VMMPrivilagedGetAction(final Service srv, final DataObject root)
+    '''public VMMPrivilagedGetAction(final Service srv, final DataObject root)
     '''
 def run():
-    '''    public Object run()
+    '''public Object run()
     '''

@@ -1,6 +1,6 @@
 def associatelicenses():
-    '''    public int associatelicenses()
+    '''public int associatelicenses()
     '''
 def addrow():
-    '''    public int addrow()
+    '''public int addrow()
     '''

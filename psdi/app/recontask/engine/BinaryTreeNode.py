@@ -1,6 +1,6 @@
 def BinaryTreeNode():
-    '''    public BinaryTreeNode(final ReconExpressionToken token)
+    '''public BinaryTreeNode(final ReconExpressionToken token)
     '''
 def LinkChildren():
-    '''    public void LinkChildren(final BinaryTreeNode left, final BinaryTreeNode right)
+    '''public void LinkChildren(final BinaryTreeNode left, final BinaryTreeNode right)
     '''

@@ -1,3 +1,3 @@
 def SKDProjectAsstsSet():
-    '''    public SKDProjectAsstsSet(final MboServerInterface ms)
+    '''public SKDProjectAsstsSet(final MboServerInterface ms)
     '''

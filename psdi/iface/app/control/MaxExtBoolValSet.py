@@ -1,3 +1,3 @@
 def MaxExtBoolValSet():
-    '''    public MaxExtBoolValSet(final MboServerInterface ms)
+    '''public MaxExtBoolValSet(final MboServerInterface ms)
     '''

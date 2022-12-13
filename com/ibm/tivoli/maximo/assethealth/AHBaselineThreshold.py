@@ -1,3 +1,3 @@
 def AHBaselineThreshold():
-    '''    public AHBaselineThreshold(final MboSet ms)
+    '''public AHBaselineThreshold(final MboSet ms)
     '''

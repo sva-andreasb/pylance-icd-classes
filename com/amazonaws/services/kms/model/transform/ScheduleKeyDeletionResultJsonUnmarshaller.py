@@ -1,6 +1,6 @@
 def unmarshall():
-    '''    public ScheduleKeyDeletionResult unmarshall(final JsonUnmarshallerContext context)
+    '''public ScheduleKeyDeletionResult unmarshall(final JsonUnmarshallerContext context)
     '''
 def getInstance():
-    '''    public static ScheduleKeyDeletionResultJsonUnmarshaller getInstance()
+    '''public static ScheduleKeyDeletionResultJsonUnmarshaller getInstance()
     '''

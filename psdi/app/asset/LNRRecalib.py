@@ -1,3 +1,3 @@
 def LNRRecalib():
-    '''    public LNRRecalib(final MboSet ms)
+    '''public LNRRecalib(final MboSet ms)
     '''

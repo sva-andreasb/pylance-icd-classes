@@ -1,3 +1,3 @@
 def DPAComputerSet():
-    '''    public DPAComputerSet(final MboServerInterface ms)
+    '''public DPAComputerSet(final MboServerInterface ms)
     '''

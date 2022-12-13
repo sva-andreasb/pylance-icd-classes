@@ -1,3 +1,3 @@
 def PmComPersonGroups():
-    '''    public PmComPersonGroups(final MboSet ms)
+    '''public PmComPersonGroups(final MboSet ms)
     '''

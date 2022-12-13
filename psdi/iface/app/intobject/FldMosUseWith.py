@@ -1,6 +1,6 @@
 def FldMosUseWith():
-    '''    public FldMosUseWith(final MboValue mbv)
+    '''public FldMosUseWith(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

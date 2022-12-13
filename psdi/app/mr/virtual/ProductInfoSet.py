@@ -1,3 +1,3 @@
 def ProductInfoSet():
-    '''    public ProductInfoSet(final MboServerInterface ms)
+    '''public ProductInfoSet(final MboServerInterface ms)
     '''

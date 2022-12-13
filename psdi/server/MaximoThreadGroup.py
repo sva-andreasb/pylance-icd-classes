@@ -1,6 +1,6 @@
 def MaximoThreadGroup():
-    '''    public MaximoThreadGroup()
+    '''public MaximoThreadGroup()
     '''
 def getMXThreadGroup():
-    '''    public static MaximoThreadGroup getMXThreadGroup()
+    '''public static MaximoThreadGroup getMXThreadGroup()
     '''

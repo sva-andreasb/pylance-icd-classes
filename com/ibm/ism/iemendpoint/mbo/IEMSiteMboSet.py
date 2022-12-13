@@ -1,3 +1,3 @@
 def IEMSiteMboSet():
-    '''    public IEMSiteMboSet(final MboServerInterface ms)
+    '''public IEMSiteMboSet(final MboServerInterface ms)
     '''

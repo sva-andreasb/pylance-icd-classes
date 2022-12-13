@@ -1,3 +1,3 @@
 def PRCostSet():
-    '''    public PRCostSet(final MboServerInterface ms)
+    '''public PRCostSet(final MboServerInterface ms)
     '''

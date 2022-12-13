@@ -1,12 +1,12 @@
 def Display():
-    '''    public Display(final String value)
+    '''public Display(final String value)
     '''
 def getValue():
-    '''    public String getValue()
+    '''public String getValue()
     '''
 def Factory():
-    '''    public Factory()
+    '''public Factory()
     '''
 def createParameter():
-    '''    public Parameter createParameter(final String value)
+    '''public Parameter createParameter(final String value)
     '''

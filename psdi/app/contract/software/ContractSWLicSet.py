@@ -1,3 +1,3 @@
 def ContractSWLicSet():
-    '''    public ContractSWLicSet(final MboServerInterface ms)
+    '''public ContractSWLicSet(final MboServerInterface ms)
     '''

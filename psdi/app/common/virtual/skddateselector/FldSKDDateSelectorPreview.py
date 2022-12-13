@@ -1,6 +1,6 @@
 def FldSKDDateSelectorPreview():
-    '''    public FldSKDDateSelectorPreview(final MboValue mbv)
+    '''public FldSKDDateSelectorPreview(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

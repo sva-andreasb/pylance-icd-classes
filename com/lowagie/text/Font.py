@@ -12,7 +12,7 @@ BOLDITALIC = "int  3"
 UNDEFINED = "int  -1"
 DEFAULTSIZE = "int  12"
 def Font():
-    '''    public Font(final Font other)
+    '''public Font(final Font other)
     public Font(final int family, final float size, final int style, final Color color)
     public Font(final BaseFont bf, final float size, final int style, final Color color)
     public Font(final BaseFont bf, final float size, final int style)
@@ -24,73 +24,73 @@ def Font():
     public Font()
     '''
 def compareTo():
-    '''    public int compareTo(final Object object)
+    '''public int compareTo(final Object object)
     '''
 def setFamily():
-    '''    public void setFamily(final String family)
+    '''public void setFamily(final String family)
     '''
 def getFamilyIndex():
-    '''    public static int getFamilyIndex(final String family)
+    '''public static int getFamilyIndex(final String family)
     '''
 def getFamilyname():
-    '''    public String getFamilyname()
+    '''public String getFamilyname()
     '''
 def setSize():
-    '''    public void setSize(final float size)
+    '''public void setSize(final float size)
     '''
 def setStyle():
-    '''    public void setStyle(final String style)
+    '''public void setStyle(final String style)
     public void setStyle(final int style)
     '''
 def getStyleValue():
-    '''    public static int getStyleValue(final String style)
+    '''public static int getStyleValue(final String style)
     '''
 def setColor():
-    '''    public void setColor(final Color color)
+    '''public void setColor(final Color color)
     public void setColor(final int red, final int green, final int blue)
     '''
 def leading():
-    '''    public float leading(final float linespacing)
+    '''public float leading(final float linespacing)
     '''
 def isStandardFont():
-    '''    public boolean isStandardFont()
+    '''public boolean isStandardFont()
     '''
 def difference():
-    '''    public Font difference(final Font font)
+    '''public Font difference(final Font font)
     '''
 def family():
-    '''    public int family()
+    '''public int family()
     '''
 def size():
-    '''    public float size()
+    '''public float size()
     '''
 def style():
-    '''    public int style()
+    '''public int style()
     '''
 def isBold():
-    '''    public boolean isBold()
+    '''public boolean isBold()
     '''
 def isItalic():
-    '''    public boolean isItalic()
+    '''public boolean isItalic()
     '''
 def isUnderlined():
-    '''    public boolean isUnderlined()
+    '''public boolean isUnderlined()
     '''
 def isStrikethru():
-    '''    public boolean isStrikethru()
+    '''public boolean isStrikethru()
     '''
 def color():
-    '''    public Color color()
+    '''public Color color()
     '''
 def getBaseFont():
-    '''    public BaseFont getBaseFont()
+    '''public BaseFont getBaseFont()
     '''
 def getCalculatedBaseFont():
-    '''    public BaseFont getCalculatedBaseFont(final boolean specialEncoding)
+    '''public BaseFont getCalculatedBaseFont(final boolean specialEncoding)
     '''
 def getCalculatedStyle():
-    '''    public int getCalculatedStyle()
+    '''public int getCalculatedStyle()
     '''
 def getCalculatedSize():
-    '''    public float getCalculatedSize()
+    '''public float getCalculatedSize()
     '''

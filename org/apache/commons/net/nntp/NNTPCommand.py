@@ -17,5 +17,5 @@ AUTHINFO = "int  15"
 XOVER = "int  16"
 XHDR = "int  17"
 def getCommand():
-    '''    public static final String getCommand(final int command)
+    '''public static final String getCommand(final int command)
     '''

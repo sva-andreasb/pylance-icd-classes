@@ -1,9 +1,9 @@
 def RelationshipListenerHandler():
-    '''    public RelationshipListenerHandler(final IntListenerInfo info)
+    '''public RelationshipListenerHandler(final IntListenerInfo info)
     '''
 def delete():
-    '''    public void delete(final MboRemote mbo)
+    '''public void delete(final MboRemote mbo)
     '''
 def getParamValue():
-    '''    public String getParamValue(final MboSetRemote set, final MboRemote mbo, final String col)
+    '''public String getParamValue(final MboSetRemote set, final MboRemote mbo, final String col)
     '''

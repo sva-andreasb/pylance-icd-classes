@@ -1,3 +1,3 @@
 def DMPkgDefStatusSet():
-    '''    public DMPkgDefStatusSet(final MboServerInterface ms)
+    '''public DMPkgDefStatusSet(final MboServerInterface ms)
     '''

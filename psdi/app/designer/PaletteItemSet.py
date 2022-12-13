@@ -1,3 +1,3 @@
 def PaletteItemSet():
-    '''    public PaletteItemSet(final MboServerInterface ms)
+    '''public PaletteItemSet(final MboServerInterface ms)
     '''

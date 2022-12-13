@@ -1,9 +1,9 @@
 def FldWpLaborVendor():
-    '''    public FldWpLaborVendor(final MboValue mbv)
+    '''public FldWpLaborVendor(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

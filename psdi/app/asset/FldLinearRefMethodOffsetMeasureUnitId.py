@@ -1,9 +1,9 @@
 def FldLinearRefMethodOffsetMeasureUnitId():
-    '''    public FldLinearRefMethodOffsetMeasureUnitId(final MboValue mbv)
+    '''public FldLinearRefMethodOffsetMeasureUnitId(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

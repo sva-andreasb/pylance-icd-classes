@@ -1,3 +1,3 @@
 def SDAMsadProp():
-    '''    public SDAMsadProp(final MboSet ms)
+    '''public SDAMsadProp(final MboSet ms)
     '''

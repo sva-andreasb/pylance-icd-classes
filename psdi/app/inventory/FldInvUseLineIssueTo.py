@@ -1,3 +1,3 @@
 def FldInvUseLineIssueTo():
-    '''    public FldInvUseLineIssueTo(final MboValue mbv)
+    '''public FldInvUseLineIssueTo(final MboValue mbv)
     '''

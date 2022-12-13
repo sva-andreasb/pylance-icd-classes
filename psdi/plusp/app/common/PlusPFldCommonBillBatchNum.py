@@ -1,6 +1,6 @@
 def PlusPFldCommonBillBatchNum():
-    '''    public PlusPFldCommonBillBatchNum(final MboValue mbv)
+    '''public PlusPFldCommonBillBatchNum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

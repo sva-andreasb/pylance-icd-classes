@@ -1,6 +1,6 @@
 def CDUIClassStructureOutboundProc():
-    '''    public CDUIClassStructureOutboundProc()
+    '''public CDUIClassStructureOutboundProc()
     '''
 def filterByTicketuid():
-    '''    public void filterByTicketuid(final MboSetRemote mboSet, final String ticketuid)
+    '''public void filterByTicketuid(final MboSetRemote mboSet, final String ticketuid)
     '''

@@ -1,3 +1,3 @@
 def MeterDataSet():
-    '''    public MeterDataSet(final MboServerInterface ms)
+    '''public MeterDataSet(final MboServerInterface ms)
     '''

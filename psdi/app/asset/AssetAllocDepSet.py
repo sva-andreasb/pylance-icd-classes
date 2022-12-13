@@ -1,9 +1,9 @@
 def AssetAllocDepSet():
-    '''    public AssetAllocDepSet(final MboServerInterface ms)
+    '''public AssetAllocDepSet(final MboServerInterface ms)
     '''
 def save():
-    '''    public void save(final long flags)
+    '''public void save(final long flags)
     '''
 def deleteAndRemove():
-    '''    public void deleteAndRemove(final MboRemote mbo, final long accessModifier)
+    '''public void deleteAndRemove(final MboRemote mbo, final long accessModifier)
     '''

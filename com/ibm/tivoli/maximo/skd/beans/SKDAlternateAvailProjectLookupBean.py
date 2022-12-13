@@ -1,9 +1,9 @@
 def SKDAlternateAvailProjectLookupBean():
-    '''    public SKDAlternateAvailProjectLookupBean()
+    '''public SKDAlternateAvailProjectLookupBean()
     '''
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''
 def getMboSetRemote():
-    '''    public MboSetRemote getMboSetRemote()
+    '''public MboSetRemote getMboSetRemote()
     '''

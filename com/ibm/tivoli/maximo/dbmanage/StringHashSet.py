@@ -1,3 +1,3 @@
 def StringHashSet():
-    '''    public StringHashSet(final String... startString)
+    '''public StringHashSet(final String... startString)
     '''

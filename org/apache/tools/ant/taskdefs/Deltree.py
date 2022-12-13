@@ -1,6 +1,6 @@
 def setDir():
-    '''    public void setDir(final File dir)
+    '''public void setDir(final File dir)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

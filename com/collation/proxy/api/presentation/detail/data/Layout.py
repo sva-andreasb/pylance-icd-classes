@@ -1,102 +1,102 @@
 def Layout():
-    '''    public Layout()
+    '''public Layout()
     '''
 def isHasVirtualSystems():
-    '''    public boolean isHasVirtualSystems()
+    '''public boolean isHasVirtualSystems()
     '''
 def setHasVirtualSystems():
-    '''    public void setHasVirtualSystems(final boolean hasVirtualSystems)
+    '''public void setHasVirtualSystems(final boolean hasVirtualSystems)
     '''
 def isHasLPARs():
-    '''    public boolean isHasLPARs()
+    '''public boolean isHasLPARs()
     '''
 def setHasLPARs():
-    '''    public void setHasLPARs(final boolean hasLPARs)
+    '''public void setHasLPARs(final boolean hasLPARs)
     '''
 def isHasDSDs():
-    '''    public boolean isHasDSDs()
+    '''public boolean isHasDSDs()
     '''
 def setHasDSDs():
-    '''    public void setHasDSDs(final boolean hasDSDs)
+    '''public void setHasDSDs(final boolean hasDSDs)
     '''
 def isHasHMCs():
-    '''    public boolean isHasHMCs()
+    '''public boolean isHasHMCs()
     '''
 def setHasHMCs():
-    '''    public void setHasHMCs(final boolean hasHMCs)
+    '''public void setHasHMCs(final boolean hasHMCs)
     '''
 def isHasSCs():
-    '''    public boolean isHasSCs()
+    '''public boolean isHasSCs()
     '''
 def setHasSCs():
-    '''    public void setHasSCs(final boolean hasSCs)
+    '''public void setHasSCs(final boolean hasSCs)
     '''
 def isHasBoards():
-    '''    public boolean isHasBoards()
+    '''public boolean isHasBoards()
     '''
 def setHasBoards():
-    '''    public void setHasBoards(final boolean hasBoards)
+    '''public void setHasBoards(final boolean hasBoards)
     '''
 def isHasBoardsGeneral():
-    '''    public boolean isHasBoardsGeneral()
+    '''public boolean isHasBoardsGeneral()
     '''
 def setHasBoardsGeneral():
-    '''    public void setHasBoardsGeneral(final boolean hasBoardsGeneral)
+    '''public void setHasBoardsGeneral(final boolean hasBoardsGeneral)
     '''
 def isHasExtAttrs():
-    '''    public boolean isHasExtAttrs()
+    '''public boolean isHasExtAttrs()
     '''
 def setHasExtAttrs():
-    '''    public void setHasExtAttrs(final boolean hasExtAttrs)
+    '''public void setHasExtAttrs(final boolean hasExtAttrs)
     '''
 def isHasMssInfo():
-    '''    public boolean isHasMssInfo()
+    '''public boolean isHasMssInfo()
     '''
 def setHasMssInfo():
-    '''    public void setHasMssInfo(final boolean hasMssInfo)
+    '''public void setHasMssInfo(final boolean hasMssInfo)
     '''
 def isHasArtifactInfo():
-    '''    public boolean isHasArtifactInfo()
+    '''public boolean isHasArtifactInfo()
     '''
 def setHasArtifactInfo():
-    '''    public void setHasArtifactInfo(final boolean hasArtifactInfo)
+    '''public void setHasArtifactInfo(final boolean hasArtifactInfo)
     '''
 def getDisplayName():
-    '''    public String getDisplayName()
+    '''public String getDisplayName()
     '''
 def setDisplayName():
-    '''    public void setDisplayName(final String displayName)
+    '''public void setDisplayName(final String displayName)
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''
 def setType():
-    '''    public void setType(final String type)
+    '''public void setType(final String type)
     '''
 def getTab():
-    '''    public Tab getTab(final String tabName)
+    '''public Tab getTab(final String tabName)
     '''
 def isHasAdminInfo():
-    '''    public boolean isHasAdminInfo()
+    '''public boolean isHasAdminInfo()
     '''
 def setHasAdminInfo():
-    '''    public void setHasAdminInfo(final boolean v)
+    '''public void setHasAdminInfo(final boolean v)
     '''
 def addTab():
-    '''    public void addTab(final Tab tab)
+    '''public void addTab(final Tab tab)
     '''
 def getTabList():
-    '''    public List getTabList()
+    '''public List getTabList()
     '''
 def setName():
-    '''    public void setName(final String name)
+    '''public void setName(final String name)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def setSubName():
-    '''    public void setSubName(final String subname)
+    '''public void setSubName(final String subname)
     '''
 def getSubName():
-    '''    public String getSubName()
+    '''public String getSubName()
     '''

@@ -1,9 +1,9 @@
 def PluginProperties():
-    '''    public PluginProperties()
+    '''public PluginProperties()
     '''
 def create():
-    '''    public static synchronized PluginProperties create(final String lineSeparator)
+    '''public static synchronized PluginProperties create(final String lineSeparator)
     '''
 def generate():
-    '''    public String generate(final Object argument)
+    '''public String generate(final Object argument)
     '''

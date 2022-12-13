@@ -1,3 +1,3 @@
 def ActivateGLAccountSet():
-    '''    public ActivateGLAccountSet(final MboServerInterface ms)
+    '''public ActivateGLAccountSet(final MboServerInterface ms)
     '''

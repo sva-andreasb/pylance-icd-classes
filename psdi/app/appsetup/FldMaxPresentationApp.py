@@ -1,6 +1,6 @@
 def FldMaxPresentationApp():
-    '''    public FldMaxPresentationApp(final MboValue mbv)
+    '''public FldMaxPresentationApp(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

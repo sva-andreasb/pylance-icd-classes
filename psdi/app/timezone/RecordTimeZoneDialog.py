@@ -1,3 +1,3 @@
 def RecordTimeZoneDialog():
-    '''    public RecordTimeZoneDialog(final MboSet ms)
+    '''public RecordTimeZoneDialog(final MboSet ms)
     '''

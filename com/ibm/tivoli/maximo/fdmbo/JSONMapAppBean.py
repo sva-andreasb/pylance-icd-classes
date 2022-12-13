@@ -1,9 +1,9 @@
 def DELETE():
-    '''    public int DELETE()
+    '''public int DELETE()
     '''
 def testjson():
-    '''    public int testjson()
+    '''public int testjson()
     '''
 def cancelDialog():
-    '''    public int cancelDialog()
+    '''public int cancelDialog()
     '''

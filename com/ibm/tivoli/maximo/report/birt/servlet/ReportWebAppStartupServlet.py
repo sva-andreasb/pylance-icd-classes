@@ -1,6 +1,6 @@
 def ReportWebAppStartupServlet():
-    '''    public ReportWebAppStartupServlet()
+    '''public ReportWebAppStartupServlet()
     '''
 def init():
-    '''    public void init(final ServletConfig config)
+    '''public void init(final ServletConfig config)
     '''

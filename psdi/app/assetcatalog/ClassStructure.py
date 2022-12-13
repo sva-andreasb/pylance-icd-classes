@@ -1,134 +1,134 @@
 def ClassStructure():
-    '''    public ClassStructure(final MboSet ms)
+    '''public ClassStructure(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def delete():
-    '''    public void delete(final long access)
+    '''public void delete(final long access)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def getClassificationMbo():
-    '''    public MboRemote getClassificationMbo()
+    '''public MboRemote getClassificationMbo()
     '''
 def isGenAssetDesc():
-    '''    public boolean isGenAssetDesc()
+    '''public boolean isGenAssetDesc()
     '''
 def genClassstructureDesc():
-    '''    public String genClassstructureDesc()
+    '''public String genClassstructureDesc()
     '''
 def isTop():
-    '''    public boolean isTop()
+    '''public boolean isTop()
     '''
 def hasChildren():
-    '''    public boolean hasChildren()
+    '''public boolean hasChildren()
     '''
 def hasParents():
-    '''    public boolean hasParents()
+    '''public boolean hasParents()
     '''
 def getChildren():
-    '''    public MboSetRemote getChildren()
+    '''public MboSetRemote getChildren()
     '''
 def getParents():
-    '''    public MboSetRemote getParents()
+    '''public MboSetRemote getParents()
     '''
 def getTop():
-    '''    public MboSetRemote getTop()
+    '''public MboSetRemote getTop()
     '''
 def storeParentClassStructures():
-    '''    public void storeParentClassStructures()
+    '''public void storeParentClassStructures()
     '''
 def getParentClassStructures():
-    '''    public Vector getParentClassStructures()
+    '''public Vector getParentClassStructures()
     '''
 def storeChildClassStructures():
-    '''    public void storeChildClassStructures()
+    '''public void storeChildClassStructures()
     '''
 def getChildClassStructures():
-    '''    public Vector getChildClassStructures()
+    '''public Vector getChildClassStructures()
     '''
 def getHierarchyPath():
-    '''    public String getHierarchyPath()
+    '''public String getHierarchyPath()
     '''
 def getHierarchies():
-    '''    public String[] getHierarchies()
+    '''public String[] getHierarchies()
     '''
 def uncheckUseWith():
-    '''    public void uncheckUseWith(final String attributename)
+    '''public void uncheckUseWith(final String attributename)
     '''
 def clearParentClassification():
-    '''    public void clearParentClassification()
+    '''public void clearParentClassification()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def smartFindByObjectName():
-    '''    public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
+    '''public MboSetRemote smartFindByObjectName(final String sourceObj, final String targetAttrName, final String value, final boolean exact)
     '''
 def hasSiteOrgSecurity():
-    '''    public boolean hasSiteOrgSecurity()
+    '''public boolean hasSiteOrgSecurity()
     '''
 def populateUseWith():
-    '''    public void populateUseWith(final MboRemote parent)
+    '''public void populateUseWith(final MboRemote parent)
     public void populateUseWith(final MboRemote parent, final MboSetRemote thisUseWithSet)
     '''
 def getUseWith():
-    '''    public MboRemote getUseWith(String objectName)
+    '''public MboRemote getUseWith(String objectName)
     '''
 def deleteUseWith():
-    '''    public MboSetRemote deleteUseWith(final MboRemote parent)
+    '''public MboSetRemote deleteUseWith(final MboRemote parent)
     '''
 def applyUpHierarchy():
-    '''    public void applyUpHierarchy(MboRemote parent)
+    '''public void applyUpHierarchy(MboRemote parent)
     '''
 def applyDownHierarchy():
-    '''    public void applyDownHierarchy(final MboRemote classSpec)
+    '''public void applyDownHierarchy(final MboRemote classSpec)
     '''
 def isTopLevel():
-    '''    public boolean isTopLevel(final String objectName)
+    '''public boolean isTopLevel(final String objectName)
     '''
 def inClassificationApp():
-    '''    public boolean inClassificationApp()
+    '''public boolean inClassificationApp()
     '''
 def getMboSet():
-    '''    public MboSetRemote getMboSet(final String name)
+    '''public MboSetRemote getMboSet(final String name)
     '''
 def getUseWithInClassificationApp():
-    '''    public MboRemote getUseWithInClassificationApp(final String objectName)
+    '''public MboRemote getUseWithInClassificationApp(final String objectName)
     '''
 def getMboValueData():
-    '''    public MboValueData getMboValueData(final String attribute)
+    '''public MboValueData getMboValueData(final String attribute)
     '''
 def getRealChildrenForUseWith():
-    '''    public MboSetRemote getRealChildrenForUseWith(final String objectForUseWith, final String objectOrgId, final String orjectSiteId)
+    '''public MboSetRemote getRealChildrenForUseWith(final String objectForUseWith, final String objectOrgId, final String orjectSiteId)
     '''
 def getObjectsNotInUseWithDomain():
-    '''    public MboSetRemote getObjectsNotInUseWithDomain(final String objectName, final boolean persistentObjectsOnly)
+    '''public MboSetRemote getObjectsNotInUseWithDomain(final String objectName, final boolean persistentObjectsOnly)
     '''
 def userSaidToCheckOrgSite():
-    '''    public boolean userSaidToCheckOrgSite()
+    '''public boolean userSaidToCheckOrgSite()
     '''
 def initFieldFlagsOnMbo():
-    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''public void initFieldFlagsOnMbo(final String attrName)
     '''
 def canChangeOrgSite():
-    '''    public void canChangeOrgSite(final String relationship, final MboValue orgSiteMbv)
+    '''public void canChangeOrgSite(final String relationship, final MboValue orgSiteMbv)
     public void canChangeOrgSite(final MboValue orgSiteMbv)
     '''
 def setApplicationRequired():
-    '''    public void setApplicationRequired(final String attribute, final boolean required)
+    '''public void setApplicationRequired(final String attribute, final boolean required)
     '''
 def setByPassSortOrderValidation():
-    '''    public void setByPassSortOrderValidation(final Boolean byPassSortOrderValidation)
+    '''public void setByPassSortOrderValidation(final Boolean byPassSortOrderValidation)
     '''

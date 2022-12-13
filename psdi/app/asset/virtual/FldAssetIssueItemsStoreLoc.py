@@ -1,6 +1,6 @@
 def FldAssetIssueItemsStoreLoc():
-    '''    public FldAssetIssueItemsStoreLoc(final MboValue mbv)
+    '''public FldAssetIssueItemsStoreLoc(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

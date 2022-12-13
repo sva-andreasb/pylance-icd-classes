@@ -1,3 +1,3 @@
 def isReservedLdhLabel():
-    '''    public static boolean isReservedLdhLabel(final String label)
+    '''public static boolean isReservedLdhLabel(final String label)
     '''

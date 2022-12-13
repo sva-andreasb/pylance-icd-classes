@@ -1,15 +1,15 @@
 def start():
-    '''    public boolean start()
+    '''public boolean start()
     '''
 def stop():
-    '''    public boolean stop()
+    '''public boolean stop()
     '''
 def isEnabled():
-    '''    public boolean isEnabled()
+    '''public boolean isEnabled()
     '''
 def getRequestMetricCollector():
-    '''    public RequestMetricCollector getRequestMetricCollector()
+    '''public RequestMetricCollector getRequestMetricCollector()
     '''
 def getServiceMetricCollector():
-    '''    public ServiceMetricCollector getServiceMetricCollector()
+    '''public ServiceMetricCollector getServiceMetricCollector()
     '''

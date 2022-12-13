@@ -1,6 +1,6 @@
 def PlusPFldTicketCostCenter():
-    '''    public PlusPFldTicketCostCenter(final MboValue mbv)
+    '''public PlusPFldTicketCostCenter(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

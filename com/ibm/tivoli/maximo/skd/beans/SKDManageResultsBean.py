@@ -1,6 +1,6 @@
 def submit():
-    '''    public int submit()
+    '''public int submit()
     '''
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''

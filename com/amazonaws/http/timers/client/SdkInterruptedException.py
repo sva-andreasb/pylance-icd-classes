@@ -1,3 +1,3 @@
 def SdkInterruptedException():
-    '''    public SdkInterruptedException(final Response<?> response)
+    '''public SdkInterruptedException(final Response<?> response)
     '''

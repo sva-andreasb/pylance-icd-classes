@@ -1,3 +1,3 @@
 def autonumber():
-    '''    public int autonumber()
+    '''public int autonumber()
     '''

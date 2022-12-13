@@ -1,9 +1,9 @@
 def FldTKRemarkField():
-    '''    public FldTKRemarkField(final MboValue mbv)
+    '''public FldTKRemarkField(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,3 +1,3 @@
 def EnumDeserializerFactory():
-    '''    public EnumDeserializerFactory(final Class javaType, final QName xmlType)
+    '''public EnumDeserializerFactory(final Class javaType, final QName xmlType)
     '''

@@ -1,6 +1,6 @@
 def exceptionFactory():
-    '''    public static <T> Factory<T> exceptionFactory()
+    '''public static <T> Factory<T> exceptionFactory()
     '''
 def create():
-    '''    public T create()
+    '''public T create()
     '''

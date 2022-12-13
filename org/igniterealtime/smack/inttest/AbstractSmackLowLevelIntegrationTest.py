@@ -1,3 +1,3 @@
 def AbstractSmackLowLevelIntegrationTest():
-    '''    public AbstractSmackLowLevelIntegrationTest(final SmackIntegrationTestEnvironment environment)
+    '''public AbstractSmackLowLevelIntegrationTest(final SmackIntegrationTestEnvironment environment)
     '''

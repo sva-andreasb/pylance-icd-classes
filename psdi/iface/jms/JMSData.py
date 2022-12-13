@@ -15,22 +15,22 @@ ACTIONTYPE = "String  \"actiontype\""
 MAPPINGID = "String  \"mappingid\""
 ALTKEY = "String  \"altkey\""
 def JMSData():
-    '''    public JMSData(final byte[] msgBody, final Map<String, String> msgHeaders, final boolean compress)
+    '''public JMSData(final byte[] msgBody, final Map<String, String> msgHeaders, final boolean compress)
     public JMSData(final byte[] msgBody, final Map<String, String> msgHeaders)
     public JMSData(final String textMsgBody, final Map<String, String> msgHeaders)
     '''
 def getMessageProperties():
-    '''    public Map<String, String> getMessageProperties()
+    '''public Map<String, String> getMessageProperties()
     '''
 def getMessageBody():
-    '''    public byte[] getMessageBody()
+    '''public byte[] getMessageBody()
     '''
 def getTextMessageBody():
-    '''    public String getTextMessageBody()
+    '''public String getTextMessageBody()
     '''
 def isCompress():
-    '''    public boolean isCompress()
+    '''public boolean isCompress()
     '''
 def isTextMessage():
-    '''    public boolean isTextMessage()
+    '''public boolean isTextMessage()
     '''

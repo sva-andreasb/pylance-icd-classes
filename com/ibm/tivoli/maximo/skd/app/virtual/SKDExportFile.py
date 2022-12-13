@@ -1,3 +1,3 @@
 def SKDExportFile():
-    '''    public SKDExportFile(final MboSet ms)
+    '''public SKDExportFile(final MboSet ms)
     '''

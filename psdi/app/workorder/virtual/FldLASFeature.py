@@ -1,3 +1,3 @@
 def FldLASFeature():
-    '''    public FldLASFeature(final MboValue mbv)
+    '''public FldLASFeature(final MboValue mbv)
     '''

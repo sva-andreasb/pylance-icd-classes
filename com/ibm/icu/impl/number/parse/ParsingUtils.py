@@ -14,11 +14,11 @@ PARSE_FLAG_ALLOW_INFINITE_RECURSION = "int  16384"
 PARSE_FLAG_STRICT_IGNORABLES = "int  32768"
 PARSE_FLAG_JAVA_COMPATIBILITY_IGNORABLES = "int  65536"
 def putLeadCodePoints():
-    '''    public static void putLeadCodePoints(final UnicodeSet input, final UnicodeSet output)
+    '''public static void putLeadCodePoints(final UnicodeSet input, final UnicodeSet output)
     '''
 def putLeadCodePoint():
-    '''    public static void putLeadCodePoint(final String input, final UnicodeSet output)
+    '''public static void putLeadCodePoint(final String input, final UnicodeSet output)
     '''
 def safeContains():
-    '''    public static boolean safeContains(final UnicodeSet uniset, final CharSequence str)
+    '''public static boolean safeContains(final UnicodeSet uniset, final CharSequence str)
     '''

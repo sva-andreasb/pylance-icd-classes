@@ -1,6 +1,6 @@
 def ChatopsUserInfoDialogBean():
-    '''    public ChatopsUserInfoDialogBean()
+    '''public ChatopsUserInfoDialogBean()
     '''
 def chatopsDialogOk():
-    '''    public int chatopsDialogOk()
+    '''public int chatopsDialogOk()
     '''

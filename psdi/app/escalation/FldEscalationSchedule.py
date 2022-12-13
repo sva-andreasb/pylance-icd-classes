@@ -1,6 +1,6 @@
 def FldEscalationSchedule():
-    '''    public FldEscalationSchedule(final MboValue mbv)
+    '''public FldEscalationSchedule(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,9 +1,9 @@
 def OslcCoreInvalidValueTypeException():
-    '''    public OslcCoreInvalidValueTypeException(final Class<?> resourceClass, final Method method, final ValueType valueType)
+    '''public OslcCoreInvalidValueTypeException(final Class<?> resourceClass, final Method method, final ValueType valueType)
     '''
 def getMethod():
-    '''    public Method getMethod()
+    '''public Method getMethod()
     '''
 def getValueType():
-    '''    public ValueType getValueType()
+    '''public ValueType getValueType()
     '''

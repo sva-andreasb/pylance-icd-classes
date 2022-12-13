@@ -1,9 +1,9 @@
 def FieldGen():
-    '''    public FieldGen(final int access_flags, final Type type, final String name, final ConstantPoolGen cp)
+    '''public FieldGen(final int access_flags, final Type type, final String name, final ConstantPoolGen cp)
     public FieldGen(final Field field, final ConstantPoolGen cp)
     '''
 def setInitValue():
-    '''    public void setInitValue(final String str)
+    '''public void setInitValue(final String str)
     public void setInitValue(final long l)
     public void setInitValue(final int i)
     public void setInitValue(final short s)
@@ -14,43 +14,43 @@ def setInitValue():
     public void setInitValue(final double d)
     '''
 def cancelInitValue():
-    '''    public void cancelInitValue()
+    '''public void cancelInitValue()
     '''
 def getField():
-    '''    public Field getField()
+    '''public Field getField()
     '''
 def getSignature():
-    '''    public String getSignature()
+    '''public String getSignature()
     '''
 def addObserver():
-    '''    public void addObserver(final FieldObserver o)
+    '''public void addObserver(final FieldObserver o)
     '''
 def removeObserver():
-    '''    public void removeObserver(final FieldObserver o)
+    '''public void removeObserver(final FieldObserver o)
     '''
 def update():
-    '''    public void update()
+    '''public void update()
     '''
 def getInitValue():
-    '''    public String getInitValue()
+    '''public String getInitValue()
     '''
 def toString():
-    '''    public final String toString()
+    '''public final String toString()
     '''
 def copy():
-    '''    public FieldGen copy(final ConstantPoolGen cp)
+    '''public FieldGen copy(final ConstantPoolGen cp)
     '''
 def getComparator():
-    '''    public static BCELComparator getComparator()
+    '''public static BCELComparator getComparator()
     '''
 def setComparator():
-    '''    public static void setComparator(final BCELComparator comparator)
+    '''public static void setComparator(final BCELComparator comparator)
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     public boolean equals(final Object o1, final Object o2)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     public int hashCode(final Object o)
     '''

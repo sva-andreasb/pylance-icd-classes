@@ -1,3 +1,3 @@
 def FldWorkManagementEndFeatureLabel():
-    '''    public FldWorkManagementEndFeatureLabel(final MboValue mbv)
+    '''public FldWorkManagementEndFeatureLabel(final MboValue mbv)
     '''

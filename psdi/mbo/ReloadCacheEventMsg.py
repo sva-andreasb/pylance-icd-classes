@@ -1,9 +1,9 @@
 def ReloadCacheEventMsg():
-    '''    public ReloadCacheEventMsg(final String name, final String keyStr, final String cacheName)
+    '''public ReloadCacheEventMsg(final String name, final String keyStr, final String cacheName)
     '''
 def getChangedKey():
-    '''    public String getChangedKey()
+    '''public String getChangedKey()
     '''
 def getCacheName():
-    '''    public String getCacheName()
+    '''public String getCacheName()
     '''

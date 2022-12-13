@@ -1,6 +1,6 @@
 def FldInventoryNextInvoiceDate():
-    '''    public FldInventoryNextInvoiceDate(final MboValue mbv)
+    '''public FldInventoryNextInvoiceDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

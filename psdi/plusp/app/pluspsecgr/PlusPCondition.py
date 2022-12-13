@@ -1,36 +1,36 @@
 def PlusPCondition():
-    '''    public PlusPCondition(final MboSet arg0)
+    '''public PlusPCondition(final MboSet arg0)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String s, final String s2)
+    '''public void propagateKeyValue(final String s, final String s2)
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def mustRecreateSecurityRestrictions():
-    '''    public boolean mustRecreateSecurityRestrictions()
+    '''public boolean mustRecreateSecurityRestrictions()
     '''
 def recreateSecurityRestrictions():
-    '''    public void recreateSecurityRestrictions()
+    '''public void recreateSecurityRestrictions()
     '''
 def isBypassSaveCondition():
-    '''    public boolean isBypassSaveCondition()
+    '''public boolean isBypassSaveCondition()
     '''
 def setBypassSaveCondition():
-    '''    public void setBypassSaveCondition(final boolean bypassSaveCondition)
+    '''public void setBypassSaveCondition(final boolean bypassSaveCondition)
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''

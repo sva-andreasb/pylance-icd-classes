@@ -1,6 +1,6 @@
 def PlusPFldBillLineFilterTKID():
-    '''    public PlusPFldBillLineFilterTKID(final MboValue mbv)
+    '''public PlusPFldBillLineFilterTKID(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

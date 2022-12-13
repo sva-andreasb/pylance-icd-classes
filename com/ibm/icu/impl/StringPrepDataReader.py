@@ -1,18 +1,18 @@
 def StringPrepDataReader():
-    '''    public StringPrepDataReader(final InputStream inputStream)
+    '''public StringPrepDataReader(final InputStream inputStream)
     '''
 def read():
-    '''    public void read(final byte[] idnaBytes, final char[] mappingTable)
+    '''public void read(final byte[] idnaBytes, final char[] mappingTable)
     '''
 def getDataFormatVersion():
-    '''    public byte[] getDataFormatVersion()
+    '''public byte[] getDataFormatVersion()
     '''
 def isDataVersionAcceptable():
-    '''    public boolean isDataVersionAcceptable(final byte[] version)
+    '''public boolean isDataVersionAcceptable(final byte[] version)
     '''
 def readIndexes():
-    '''    public int[] readIndexes(final int length)
+    '''public int[] readIndexes(final int length)
     '''
 def getUnicodeVersion():
-    '''    public byte[] getUnicodeVersion()
+    '''public byte[] getUnicodeVersion()
     '''

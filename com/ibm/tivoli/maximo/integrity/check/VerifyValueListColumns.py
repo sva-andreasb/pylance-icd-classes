@@ -1,15 +1,15 @@
 def VerifyValueListColumns():
-    '''    public VerifyValueListColumns(final DatabaseInformation mdi, final ReportCollector ic, final ValidateLogger vl)
+    '''public VerifyValueListColumns(final DatabaseInformation mdi, final ReportCollector ic, final ValidateLogger vl)
     '''
 def checkPerConnection():
-    '''    public void checkPerConnection(final Connection dc, final ValidateLogger vl)
+    '''public void checkPerConnection(final Connection dc, final ValidateLogger vl)
     '''
 def getTitle():
-    '''    public MXException getTitle()
+    '''public MXException getTitle()
     '''
 def conditionsCheck():
-    '''    public boolean conditionsCheck()
+    '''public boolean conditionsCheck()
     '''
 def prerequisitesCheck():
-    '''    public boolean prerequisitesCheck()
+    '''public boolean prerequisitesCheck()
     '''

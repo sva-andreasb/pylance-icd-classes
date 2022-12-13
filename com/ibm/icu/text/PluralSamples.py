@@ -1,3 +1,3 @@
 def PluralSamples():
-    '''    public PluralSamples(final PluralRules pluralRules)
+    '''public PluralSamples(final PluralRules pluralRules)
     '''

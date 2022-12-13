@@ -1,3 +1,3 @@
 def SKDActivityQBESet():
-    '''    public SKDActivityQBESet(final MboServerInterface ms)
+    '''public SKDActivityQBESet(final MboServerInterface ms)
     '''

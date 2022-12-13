@@ -1,6 +1,6 @@
 def popHistoryFrom():
-    '''    public NavigationHistory popHistoryFrom(final long navId)
+    '''public NavigationHistory popHistoryFrom(final long navId)
     '''
 def push():
-    '''    public NavigationHistory push(final NavigationHistory object)
+    '''public NavigationHistory push(final NavigationHistory object)
     '''

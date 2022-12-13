@@ -1,3 +1,3 @@
 def selectobject():
-    '''    public int selectobject()
+    '''public int selectobject()
     '''

@@ -1,57 +1,57 @@
 def release():
-    '''    public synchronized void release()
+    '''public synchronized void release()
     '''
 def exists():
-    '''    public boolean exists()
+    '''public boolean exists()
     '''
 def isDirectory():
-    '''    public boolean isDirectory()
+    '''public boolean isDirectory()
     '''
 def lastModified():
-    '''    public long lastModified()
+    '''public long lastModified()
     '''
 def length():
-    '''    public long length()
+    '''public long length()
     '''
 def getURL():
-    '''    public URL getURL()
+    '''public URL getURL()
     '''
 def getFile():
-    '''    public File getFile()
+    '''public File getFile()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getInputStream():
-    '''    public synchronized InputStream getInputStream()
+    '''public synchronized InputStream getInputStream()
     '''
 def getOutputStream():
-    '''    public OutputStream getOutputStream()
+    '''public OutputStream getOutputStream()
     '''
 def delete():
-    '''    public boolean delete()
+    '''public boolean delete()
     '''
 def renameTo():
-    '''    public boolean renameTo(final Resource dest)
+    '''public boolean renameTo(final Resource dest)
     '''
 def list():
-    '''    public String[] list()
+    '''public String[] list()
     '''
 def addPath():
-    '''    public Resource addPath(String path)
+    '''public Resource addPath(String path)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def getUseCaches():
-    '''    public boolean getUseCaches()
+    '''public boolean getUseCaches()
     '''
 def isContainedIn():
-    '''    public boolean isContainedIn(final Resource containingResource)
+    '''public boolean isContainedIn(final Resource containingResource)
     '''

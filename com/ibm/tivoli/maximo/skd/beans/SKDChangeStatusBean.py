@@ -1,6 +1,6 @@
 def SKDChangeStatusBean():
-    '''    public SKDChangeStatusBean()
+    '''public SKDChangeStatusBean()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''

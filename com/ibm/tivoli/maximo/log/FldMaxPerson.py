@@ -1,6 +1,6 @@
 def FldMaxPerson():
-    '''    public FldMaxPerson(final MboValue mbv)
+    '''public FldMaxPerson(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

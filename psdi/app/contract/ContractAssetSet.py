@@ -1,12 +1,12 @@
 def ContractAssetSet():
-    '''    public ContractAssetSet(final MboServerInterface ms)
+    '''public ContractAssetSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''
 def populateAssetLineNum():
-    '''    public void populateAssetLineNum(final MboRemote contAsset)
+    '''public void populateAssetLineNum(final MboRemote contAsset)
     '''
 def getMaxContractAssetLineNum():
-    '''    public int getMaxContractAssetLineNum()
+    '''public int getMaxContractAssetLineNum()
     '''

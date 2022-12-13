@@ -1,3 +1,3 @@
 def LeaseViewLineSet():
-    '''    public LeaseViewLineSet(final MboServerInterface ms)
+    '''public LeaseViewLineSet(final MboServerInterface ms)
     '''

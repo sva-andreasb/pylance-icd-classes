@@ -1,9 +1,9 @@
 def ECAListener():
-    '''    public ECAListener(final int s)
+    '''public ECAListener(final int s)
     '''
 def accept():
-    '''    public ECAConnection accept()
+    '''public ECAConnection accept()
     '''
 def isAccepting():
-    '''    public static boolean isAccepting()
+    '''public static boolean isAccepting()
     '''

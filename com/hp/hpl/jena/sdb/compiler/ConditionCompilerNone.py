@@ -1,6 +1,6 @@
 def get():
-    '''    public static ConditionCompilerNone get()
+    '''public static ConditionCompilerNone get()
     '''
 def recognize():
-    '''    public SDBConstraint recognize(final Expr expr)
+    '''public SDBConstraint recognize(final Expr expr)
     '''

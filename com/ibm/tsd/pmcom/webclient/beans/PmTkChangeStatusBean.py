@@ -1,6 +1,6 @@
 def PmTkChangeStatusBean():
-    '''    public PmTkChangeStatusBean()
+    '''public PmTkChangeStatusBean()
     '''
 def getList():
-    '''    public synchronized MboSetRemote getList(final int nRow, final String attribute)
+    '''public synchronized MboSetRemote getList(final int nRow, final String attribute)
     '''

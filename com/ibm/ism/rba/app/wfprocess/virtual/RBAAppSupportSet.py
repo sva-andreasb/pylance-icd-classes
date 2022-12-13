@@ -1,9 +1,9 @@
 def RBAAppSupportSet():
-    '''    public RBAAppSupportSet(final MboServerInterface ms)
+    '''public RBAAppSupportSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

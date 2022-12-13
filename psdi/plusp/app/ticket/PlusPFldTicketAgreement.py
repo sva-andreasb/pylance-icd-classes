@@ -1,6 +1,6 @@
 def PlusPFldTicketAgreement():
-    '''    public PlusPFldTicketAgreement(final MboValue mbv)
+    '''public PlusPFldTicketAgreement(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

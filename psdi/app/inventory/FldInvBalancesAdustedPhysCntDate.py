@@ -1,3 +1,3 @@
 def FldInvBalancesAdustedPhysCntDate():
-    '''    public FldInvBalancesAdustedPhysCntDate(final MboValue mbv)
+    '''public FldInvBalancesAdustedPhysCntDate(final MboValue mbv)
     '''

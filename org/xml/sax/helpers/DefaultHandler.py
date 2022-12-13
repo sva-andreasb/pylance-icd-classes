@@ -1,51 +1,51 @@
 def resolveEntity():
-    '''    public InputSource resolveEntity(final String s, final String s2)
+    '''public InputSource resolveEntity(final String s, final String s2)
     '''
 def notationDecl():
-    '''    public void notationDecl(final String s, final String s2, final String s3)
+    '''public void notationDecl(final String s, final String s2, final String s3)
     '''
 def unparsedEntityDecl():
-    '''    public void unparsedEntityDecl(final String s, final String s2, final String s3, final String s4)
+    '''public void unparsedEntityDecl(final String s, final String s2, final String s3, final String s4)
     '''
 def setDocumentLocator():
-    '''    public void setDocumentLocator(final Locator locator)
+    '''public void setDocumentLocator(final Locator locator)
     '''
 def startDocument():
-    '''    public void startDocument()
+    '''public void startDocument()
     '''
 def endDocument():
-    '''    public void endDocument()
+    '''public void endDocument()
     '''
 def startPrefixMapping():
-    '''    public void startPrefixMapping(final String s, final String s2)
+    '''public void startPrefixMapping(final String s, final String s2)
     '''
 def endPrefixMapping():
-    '''    public void endPrefixMapping(final String s)
+    '''public void endPrefixMapping(final String s)
     '''
 def startElement():
-    '''    public void startElement(final String s, final String s2, final String s3, final Attributes attributes)
+    '''public void startElement(final String s, final String s2, final String s3, final Attributes attributes)
     '''
 def endElement():
-    '''    public void endElement(final String s, final String s2, final String s3)
+    '''public void endElement(final String s, final String s2, final String s3)
     '''
 def characters():
-    '''    public void characters(final char[] array, final int n, final int n2)
+    '''public void characters(final char[] array, final int n, final int n2)
     '''
 def ignorableWhitespace():
-    '''    public void ignorableWhitespace(final char[] array, final int n, final int n2)
+    '''public void ignorableWhitespace(final char[] array, final int n, final int n2)
     '''
 def processingInstruction():
-    '''    public void processingInstruction(final String s, final String s2)
+    '''public void processingInstruction(final String s, final String s2)
     '''
 def skippedEntity():
-    '''    public void skippedEntity(final String s)
+    '''public void skippedEntity(final String s)
     '''
 def warning():
-    '''    public void warning(final SAXParseException ex)
+    '''public void warning(final SAXParseException ex)
     '''
 def error():
-    '''    public void error(final SAXParseException ex)
+    '''public void error(final SAXParseException ex)
     '''
 def fatalError():
-    '''    public void fatalError(final SAXParseException ex)
+    '''public void fatalError(final SAXParseException ex)
     '''

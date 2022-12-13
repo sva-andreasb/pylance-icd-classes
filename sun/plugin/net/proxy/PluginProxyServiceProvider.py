@@ -1,3 +1,3 @@
 def getProxyInfo():
-    '''    public ProxyInfo[] getProxyInfo(final URL url)
+    '''public ProxyInfo[] getProxyInfo(final URL url)
     '''

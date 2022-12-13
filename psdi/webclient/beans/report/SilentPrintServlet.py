@@ -9,17 +9,17 @@ VALIDATE_URL = "int  44"
 PREPARE_DOC = "int  55"
 securedDocPrefix = "String  \"securedAttachmentNonApplet=\""
 def SilentPrintServlet():
-    '''    public SilentPrintServlet()
+    '''public SilentPrintServlet()
     '''
 def doGet():
-    '''    public void doGet(final HttpServletRequest requ, final HttpServletResponse resp)
+    '''public void doGet(final HttpServletRequest requ, final HttpServletResponse resp)
     '''
 def doPost():
-    '''    public void doPost(final HttpServletRequest requ, final HttpServletResponse resp)
+    '''public void doPost(final HttpServletRequest requ, final HttpServletResponse resp)
     '''
 def doWork():
-    '''    public void doWork(final HttpServletRequest requ, final HttpServletResponse resp)
+    '''public void doWork(final HttpServletRequest requ, final HttpServletResponse resp)
     '''
 def concatPDFFiles():
-    '''    public boolean concatPDFFiles(final String outPutDirPath, final String outPutFilePath, final Vector<PathAndReportFlag> listOfFiles)
+    '''public boolean concatPDFFiles(final String outPutDirPath, final String outPutFilePath, final Vector<PathAndReportFlag> listOfFiles)
     '''

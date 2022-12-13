@@ -1,9 +1,9 @@
 def OslcQueryTemplateAttr():
-    '''    public OslcQueryTemplateAttr(final MboSet ms)
+    '''public OslcQueryTemplateAttr(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

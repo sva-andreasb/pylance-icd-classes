@@ -1,3 +1,3 @@
 def MeterGroupSet():
-    '''    public MeterGroupSet(final MboServerInterface ms)
+    '''public MeterGroupSet(final MboServerInterface ms)
     '''

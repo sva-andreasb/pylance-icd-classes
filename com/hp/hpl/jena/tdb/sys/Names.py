@@ -35,11 +35,11 @@ pBlockWriteCacheSize = "String  \"tdb.cache.blockwrite.size\""
 pBlockReadCacheSize = "String  \"tdb.cache.blockread.size\""
 pSyncTick = "String  \"tdb.synctick\""
 def isMem():
-    '''    public static boolean isMem(final String name)
+    '''public static boolean isMem(final String name)
     '''
 def makeKey():
-    '''    public static String makeKey(final String root, final String... elements)
+    '''public static String makeKey(final String root, final String... elements)
     '''
 def makeName():
-    '''    public static String makeName(final String root, final String... elements)
+    '''public static String makeName(final String root, final String... elements)
     '''

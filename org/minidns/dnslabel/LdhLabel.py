@@ -1,3 +1,3 @@
 def isLdhLabel():
-    '''    public static boolean isLdhLabel(final String label)
+    '''public static boolean isLdhLabel(final String label)
     '''

@@ -4,14 +4,14 @@ EQUAL = "int  0"
 GREATER_THAN = "int  1"
 NOT_EQUAL = "int  2"
 def newInstance():
-    '''    public static XmlObject newInstance()
+    '''public static XmlObject newInstance()
     public static XmlObject newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlObject newValue(final Object obj)
+    '''public static XmlObject newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlObject parse(final String xmlAsString)
+    '''public static XmlObject parse(final String xmlAsString)
     public static XmlObject parse(final String xmlAsString, final XmlOptions options)
     public static XmlObject parse(final File file)
     public static XmlObject parse(final File file, final XmlOptions options)
@@ -29,14 +29,14 @@ def parse():
     public static XmlObject parse(final XMLInputStream xis, final XmlOptions options)
     '''
 def newXmlSaxHandler():
-    '''    public static XmlSaxHandler newXmlSaxHandler()
+    '''public static XmlSaxHandler newXmlSaxHandler()
     public static XmlSaxHandler newXmlSaxHandler(final XmlOptions options)
     '''
 def newDomImplementation():
-    '''    public static DOMImplementation newDomImplementation()
+    '''public static DOMImplementation newDomImplementation()
     public static DOMImplementation newDomImplementation(final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

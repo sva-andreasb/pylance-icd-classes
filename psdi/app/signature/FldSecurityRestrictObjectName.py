@@ -1,6 +1,6 @@
 def FldSecurityRestrictObjectName():
-    '''    public FldSecurityRestrictObjectName(final MboValue mbv)
+    '''public FldSecurityRestrictObjectName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

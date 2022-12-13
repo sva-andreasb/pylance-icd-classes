@@ -1,3 +1,3 @@
 def FldMasterPMItemnum():
-    '''    public FldMasterPMItemnum(final MboValue mbv)
+    '''public FldMasterPMItemnum(final MboValue mbv)
     '''

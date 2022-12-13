@@ -1,6 +1,6 @@
 def FldMaxPropGlobalOnly():
-    '''    public FldMaxPropGlobalOnly(final MboValue mbv)
+    '''public FldMaxPropGlobalOnly(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

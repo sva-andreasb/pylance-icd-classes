@@ -1,6 +1,6 @@
 def FldPMMeterAlertLead():
-    '''    public FldPMMeterAlertLead(final MboValue mbv)
+    '''public FldPMMeterAlertLead(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

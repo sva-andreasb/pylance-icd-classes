@@ -1,6 +1,6 @@
 def FldNameSeq():
-    '''    public FldNameSeq(final MboValue mbv)
+    '''public FldNameSeq(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

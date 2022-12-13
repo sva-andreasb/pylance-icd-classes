@@ -1,3 +1,3 @@
 def MaxIfaceControlInSet():
-    '''    public MaxIfaceControlInSet(final MboServerInterface ms)
+    '''public MaxIfaceControlInSet(final MboServerInterface ms)
     '''

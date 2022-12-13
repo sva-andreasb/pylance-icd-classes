@@ -1,3 +1,3 @@
 def FldMRLineManufacturer():
-    '''    public FldMRLineManufacturer(final MboValue mbv)
+    '''public FldMRLineManufacturer(final MboValue mbv)
     '''

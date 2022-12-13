@@ -1,18 +1,18 @@
 def JAXRPCHandler():
-    '''    public JAXRPCHandler()
+    '''public JAXRPCHandler()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def addNewHandler():
-    '''    public void addNewHandler(final String className, final Map options)
+    '''public void addNewHandler(final String className, final Map options)
     '''
 def invoke():
-    '''    public void invoke(final MessageContext msgContext)
+    '''public void invoke(final MessageContext msgContext)
     '''
 def onFault():
-    '''    public void onFault(final MessageContext msgContext)
+    '''public void onFault(final MessageContext msgContext)
     '''
 def cleanup():
-    '''    public void cleanup()
+    '''public void cleanup()
     '''

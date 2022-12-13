@@ -45,50 +45,50 @@ PID_MAX = "int  31"
 PID_LOCALE = "int  Integer.MIN_VALUE"
 PID_BEHAVIOUR = "int  -2147483645"
 def getSummaryInformationProperties():
-    '''    public static synchronized PropertyIDMap getSummaryInformationProperties()
+    '''public static synchronized PropertyIDMap getSummaryInformationProperties()
     '''
 def getDocumentSummaryInformationProperties():
-    '''    public static synchronized PropertyIDMap getDocumentSummaryInformationProperties()
+    '''public static synchronized PropertyIDMap getDocumentSummaryInformationProperties()
     '''
 def getFallbackProperties():
-    '''    public static synchronized PropertyIDMap getFallbackProperties()
+    '''public static synchronized PropertyIDMap getFallbackProperties()
     '''
 def size():
-    '''    public int size()
+    '''public int size()
     '''
 def isEmpty():
-    '''    public boolean isEmpty()
+    '''public boolean isEmpty()
     '''
 def containsKey():
-    '''    public boolean containsKey(final Object key)
+    '''public boolean containsKey(final Object key)
     '''
 def containsValue():
-    '''    public boolean containsValue(final Object value)
+    '''public boolean containsValue(final Object value)
     '''
 def get():
-    '''    public String get(final Object key)
+    '''public String get(final Object key)
     '''
 def put():
-    '''    public String put(final Long key, final String value)
+    '''public String put(final Long key, final String value)
     '''
 def remove():
-    '''    public String remove(final Object key)
+    '''public String remove(final Object key)
     '''
 def putAll():
-    '''    public void putAll(final Map<? extends Long, ? extends String> m)
+    '''public void putAll(final Map<? extends Long, ? extends String> m)
     '''
 def clear():
-    '''    public void clear()
+    '''public void clear()
     '''
 def keySet():
-    '''    public Set<Long> keySet()
+    '''public Set<Long> keySet()
     '''
 def values():
-    '''    public Collection<String> values()
+    '''public Collection<String> values()
     '''
 def entrySet():
-    '''    public Set<Entry<Long, String>> entrySet()
+    '''public Set<Entry<Long, String>> entrySet()
     '''
 def main():
-    '''    public static void main(final String[] args)
+    '''public static void main(final String[] args)
     '''

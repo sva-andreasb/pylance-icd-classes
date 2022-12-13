@@ -1,9 +1,9 @@
 def FldIsChatTopic():
-    '''    public FldIsChatTopic(final MboValue mbv)
+    '''public FldIsChatTopic(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

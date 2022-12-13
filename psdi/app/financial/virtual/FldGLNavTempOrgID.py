@@ -1,6 +1,6 @@
 def FldGLNavTempOrgID():
-    '''    public FldGLNavTempOrgID(final MboValue mbv)
+    '''public FldGLNavTempOrgID(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

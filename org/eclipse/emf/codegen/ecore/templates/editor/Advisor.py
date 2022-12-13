@@ -1,11 +1,11 @@
 copyright = "String  \\"\""
 ID_PERSPECTIVE = "String  \\"\""
 def Advisor():
-    '''    public Advisor()
+    '''public Advisor()
     '''
 def create():
-    '''    public static synchronized Advisor create(final String lineSeparator)
+    '''public static synchronized Advisor create(final String lineSeparator)
     '''
 def generate():
-    '''    public String generate(final Object argument)
+    '''public String generate(final Object argument)
     '''

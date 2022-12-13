@@ -1,3 +1,3 @@
 def ReportProcSched():
-    '''    public ReportProcSched(final MboSet ms)
+    '''public ReportProcSched(final MboSet ms)
     '''

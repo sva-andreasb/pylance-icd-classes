@@ -1,6 +1,6 @@
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''
 def applyPrice():
-    '''    public int applyPrice()
+    '''public int applyPrice()
     '''

@@ -1,3 +1,3 @@
 def LBSCrewViewSet():
-    '''    public LBSCrewViewSet(final MboServerInterface ms)
+    '''public LBSCrewViewSet(final MboServerInterface ms)
     '''

@@ -29,62 +29,62 @@ CORRECTLYSPELT = "int  206"
 SUGGESTION = "int  207"
 COMPOSITIONAL = "int  208"
 def getPOSName():
-    '''    public static String getPOSName(final int n)
+    '''public static String getPOSName(final int n)
     '''
 def FeatureSetGloss():
-    '''    public FeatureSetGloss()
+    '''public FeatureSetGloss()
     public FeatureSetGloss(final int n, final int n2, final int n3, final int n4, final int n5)
     public FeatureSetGloss(final int n, final int n2, final boolean b, final boolean b2, final boolean b3, final boolean b4)
     public FeatureSetGloss(final int n, final int n2, final boolean b, final boolean b2, final boolean b3, final boolean b4, final boolean b5)
     '''
 def read():
-    '''    public void read(final DataInputStream dataInputStream, final int n)
+    '''public void read(final DataInputStream dataInputStream, final int n)
     '''
 def write():
-    '''    public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
+    '''public void write(final DataOutputStream dataOutputStream, final GlossMapper glossMapper)
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def getPOS():
-    '''    public final int getPOS()
+    '''public final int getPOS()
     '''
 def getBOFA():
-    '''    public final int getBOFA()
+    '''public final int getBOFA()
     '''
 def getConstraintsMask():
-    '''    public final int getConstraintsMask()
+    '''public final int getConstraintsMask()
     '''
 def getDet():
-    '''    public final int getDet()
+    '''public final int getDet()
     '''
 def getStop():
-    '''    public final int getStop()
+    '''public final int getStop()
     '''
 def getUser():
-    '''    public final int getUser()
+    '''public final int getUser()
     '''
 def isCorrectSpelling():
-    '''    public final boolean isCorrectSpelling()
+    '''public final boolean isCorrectSpelling()
     '''
 def isSuggestion():
-    '''    public final boolean isSuggestion()
+    '''public final boolean isSuggestion()
     '''
 def isCompositional():
-    '''    public final boolean isCompositional()
+    '''public final boolean isCompositional()
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def is():
-    '''    public final boolean is(final int n)
+    '''public final boolean is(final int n)
     '''
 def set():
-    '''    public final void set(final int n)
+    '''public final void set(final int n)
     '''

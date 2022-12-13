@@ -1,6 +1,6 @@
 def PmSlaSLASet():
-    '''    public PmSlaSLASet(final MboServerInterface ms)
+    '''public PmSlaSLASet(final MboServerInterface ms)
     '''
 def apply():
-    '''    public String[] apply(final MboRemote subject)
+    '''public String[] apply(final MboRemote subject)
     '''

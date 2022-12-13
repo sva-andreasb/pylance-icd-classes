@@ -1,3 +1,3 @@
 def MaxRowStampSet():
-    '''    public MaxRowStampSet(final MboServerInterface ms)
+    '''public MaxRowStampSet(final MboServerInterface ms)
     '''

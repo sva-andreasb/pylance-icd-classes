@@ -1,6 +1,6 @@
 def FldPMForecastExists():
-    '''    public FldPMForecastExists(final MboValue mbv)
+    '''public FldPMForecastExists(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

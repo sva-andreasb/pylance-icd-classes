@@ -1,6 +1,6 @@
 def FldMeterInGroupSequence():
-    '''    public FldMeterInGroupSequence(final MboValue mbv)
+    '''public FldMeterInGroupSequence(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

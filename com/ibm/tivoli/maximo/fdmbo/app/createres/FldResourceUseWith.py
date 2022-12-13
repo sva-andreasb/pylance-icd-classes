@@ -1,6 +1,6 @@
 def FldResourceUseWith():
-    '''    public FldResourceUseWith(final MboValue mbv)
+    '''public FldResourceUseWith(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

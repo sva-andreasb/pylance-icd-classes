@@ -1,3 +1,3 @@
 def TenantStatusSet():
-    '''    public TenantStatusSet(final MboServerInterface ms)
+    '''public TenantStatusSet(final MboServerInterface ms)
     '''

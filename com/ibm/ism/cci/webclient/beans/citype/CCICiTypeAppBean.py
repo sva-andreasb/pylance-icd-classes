@@ -1,9 +1,9 @@
 def STATUS():
-    '''    public int STATUS()
+    '''public int STATUS()
     '''
 def isCustomerSpecificUseWithActCISet():
-    '''    public boolean isCustomerSpecificUseWithActCISet()
+    '''public boolean isCustomerSpecificUseWithActCISet()
     '''
 def isUseWithActCISet():
-    '''    public boolean isUseWithActCISet()
+    '''public boolean isUseWithActCISet()
     '''

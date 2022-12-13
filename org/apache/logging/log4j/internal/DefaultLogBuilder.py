@@ -1,25 +1,25 @@
 def DefaultLogBuilder():
-    '''    public DefaultLogBuilder(final Logger logger, final Level level)
+    '''public DefaultLogBuilder(final Logger logger, final Level level)
     public DefaultLogBuilder(final Logger logger)
     '''
 def reset():
-    '''    public LogBuilder reset(final Level level)
+    '''public LogBuilder reset(final Level level)
     '''
 def withMarker():
-    '''    public LogBuilder withMarker(final Marker marker)
+    '''public LogBuilder withMarker(final Marker marker)
     '''
 def withThrowable():
-    '''    public LogBuilder withThrowable(final Throwable throwable)
+    '''public LogBuilder withThrowable(final Throwable throwable)
     '''
 def withLocation():
-    '''    public LogBuilder withLocation()
+    '''public LogBuilder withLocation()
     public LogBuilder withLocation(final StackTraceElement location)
     '''
 def isInUse():
-    '''    public boolean isInUse()
+    '''public boolean isInUse()
     '''
 def log():
-    '''    public void log(final Message message)
+    '''public void log(final Message message)
     public void log(final CharSequence message)
     public void log(final String message)
     public void log(final String message, final Object... params)

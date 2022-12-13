@@ -1,51 +1,51 @@
 def PlusPProblem():
-    '''    public PlusPProblem(final MboSet arg0)
+    '''public PlusPProblem(final MboSet arg0)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def warnAssociatedWithBillBatch():
-    '''    public boolean warnAssociatedWithBillBatch()
+    '''public boolean warnAssociatedWithBillBatch()
     '''
 def resetAddressUserInput():
-    '''    public void resetAddressUserInput()
+    '''public void resetAddressUserInput()
     '''
 def setStreetAddress():
-    '''    public void setStreetAddress()
+    '''public void setStreetAddress()
     '''
 def isClosed():
-    '''    public boolean isClosed()
+    '''public boolean isClosed()
     '''
 def calculateTotals():
-    '''    public void calculateTotals()
+    '''public void calculateTotals()
     '''
 def removePS():
-    '''    public boolean removePS()
+    '''public boolean removePS()
     '''
 def recalculatePrices():
-    '''    public void recalculatePrices(final MboRemote mboRemote)
+    '''public void recalculatePrices(final MboRemote mboRemote)
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def hasBeenBilled():
-    '''    public boolean hasBeenBilled()
+    '''public boolean hasBeenBilled()
     '''
 def createSolution():
-    '''    public MboRemote createSolution()
+    '''public MboRemote createSolution()
     '''
 def setValue():
-    '''    public void setValue(final String s, final String s2, final long accessModifier)
+    '''public void setValue(final String s, final String s2, final long accessModifier)
     '''

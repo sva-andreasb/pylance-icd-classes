@@ -1,3 +1,3 @@
 def MultiSelect():
-    '''    public MultiSelect(final MboSet ms)
+    '''public MultiSelect(final MboSet ms)
     '''

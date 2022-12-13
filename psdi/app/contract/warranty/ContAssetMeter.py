@@ -1,15 +1,15 @@
 def ContAssetMeter():
-    '''    public ContAssetMeter(final MboSet ms)
+    '''public ContAssetMeter(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''
 def calculateEndReading():
-    '''    public double calculateEndReading()
+    '''public double calculateEndReading()
     '''

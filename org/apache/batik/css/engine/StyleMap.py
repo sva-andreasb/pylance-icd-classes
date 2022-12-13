@@ -17,92 +17,92 @@ AUTHOR_ORIGIN = "short  24576"
 INLINE_AUTHOR_ORIGIN = "short  Short.MIN_VALUE"
 OVERRIDE_ORIGIN = "short  -24576"
 def StyleMap():
-    '''    public StyleMap(final int size)
+    '''public StyleMap(final int size)
     '''
 def hasFixedCascadedValues():
-    '''    public boolean hasFixedCascadedValues()
+    '''public boolean hasFixedCascadedValues()
     '''
 def setFixedCascadedStyle():
-    '''    public void setFixedCascadedStyle(final boolean b)
+    '''public void setFixedCascadedStyle(final boolean b)
     '''
 def getValue():
-    '''    public Value getValue(final int i)
+    '''public Value getValue(final int i)
     '''
 def getMask():
-    '''    public short getMask(final int i)
+    '''public short getMask(final int i)
     '''
 def isImportant():
-    '''    public boolean isImportant(final int i)
+    '''public boolean isImportant(final int i)
     '''
 def isComputed():
-    '''    public boolean isComputed(final int i)
+    '''public boolean isComputed(final int i)
     '''
 def isNullCascaded():
-    '''    public boolean isNullCascaded(final int i)
+    '''public boolean isNullCascaded(final int i)
     '''
 def isInherited():
-    '''    public boolean isInherited(final int i)
+    '''public boolean isInherited(final int i)
     '''
 def getOrigin():
-    '''    public short getOrigin(final int i)
+    '''public short getOrigin(final int i)
     '''
 def isColorRelative():
-    '''    public boolean isColorRelative(final int i)
+    '''public boolean isColorRelative(final int i)
     '''
 def isParentRelative():
-    '''    public boolean isParentRelative(final int i)
+    '''public boolean isParentRelative(final int i)
     '''
 def isLineHeightRelative():
-    '''    public boolean isLineHeightRelative(final int i)
+    '''public boolean isLineHeightRelative(final int i)
     '''
 def isFontSizeRelative():
-    '''    public boolean isFontSizeRelative(final int i)
+    '''public boolean isFontSizeRelative(final int i)
     '''
 def isBlockWidthRelative():
-    '''    public boolean isBlockWidthRelative(final int i)
+    '''public boolean isBlockWidthRelative(final int i)
     '''
 def isBlockHeightRelative():
-    '''    public boolean isBlockHeightRelative(final int i)
+    '''public boolean isBlockHeightRelative(final int i)
     '''
 def putValue():
-    '''    public void putValue(final int i, final Value v)
+    '''public void putValue(final int i, final Value v)
     '''
 def putMask():
-    '''    public void putMask(final int i, final short m)
+    '''public void putMask(final int i, final short m)
     '''
 def putImportant():
-    '''    public void putImportant(final int i, final boolean b)
+    '''public void putImportant(final int i, final boolean b)
     '''
 def putOrigin():
-    '''    public void putOrigin(final int i, final short val)
+    '''public void putOrigin(final int i, final short val)
     '''
 def putComputed():
-    '''    public void putComputed(final int i, final boolean b)
+    '''public void putComputed(final int i, final boolean b)
     '''
 def putNullCascaded():
-    '''    public void putNullCascaded(final int i, final boolean b)
+    '''public void putNullCascaded(final int i, final boolean b)
     '''
 def putInherited():
-    '''    public void putInherited(final int i, final boolean b)
+    '''public void putInherited(final int i, final boolean b)
     '''
 def putColorRelative():
-    '''    public void putColorRelative(final int i, final boolean b)
+    '''public void putColorRelative(final int i, final boolean b)
     '''
 def putParentRelative():
-    '''    public void putParentRelative(final int i, final boolean b)
+    '''public void putParentRelative(final int i, final boolean b)
     '''
 def putLineHeightRelative():
-    '''    public void putLineHeightRelative(final int i, final boolean b)
+    '''public void putLineHeightRelative(final int i, final boolean b)
     '''
 def putFontSizeRelative():
-    '''    public void putFontSizeRelative(final int i, final boolean b)
+    '''public void putFontSizeRelative(final int i, final boolean b)
     '''
 def putBlockWidthRelative():
-    '''    public void putBlockWidthRelative(final int i, final boolean b)
+    '''public void putBlockWidthRelative(final int i, final boolean b)
     '''
 def putBlockHeightRelative():
-    '''    public void putBlockHeightRelative(final int i, final boolean b)
+    '''public void putBlockHeightRelative(final int i, final boolean b)
     '''
 def toString():
-    '''    public String toString(final CSSEngine eng)
+    '''public String toString(final CSSEngine eng)
     '''

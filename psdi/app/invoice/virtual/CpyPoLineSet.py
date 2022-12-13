@@ -1,3 +1,3 @@
 def CpyPoLineSet():
-    '''    public CpyPoLineSet(final MboServerInterface ms)
+    '''public CpyPoLineSet(final MboServerInterface ms)
     '''

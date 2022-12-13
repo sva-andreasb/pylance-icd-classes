@@ -1,72 +1,72 @@
 def ExternalCacheFragment():
-    '''    public ExternalCacheFragment()
+    '''public ExternalCacheFragment()
     '''
 def getExternalCacheGroupId():
-    '''    public String getExternalCacheGroupId()
+    '''public String getExternalCacheGroupId()
     '''
 def setExternalCacheGroupId():
-    '''    public void setExternalCacheGroupId(final String externalCacheGroupId)
+    '''public void setExternalCacheGroupId(final String externalCacheGroupId)
     '''
 def getUri():
-    '''    public String getUri()
+    '''public String getUri()
     '''
 def setUri():
-    '''    public void setUri(final String uri)
+    '''public void setUri(final String uri)
     '''
 def getHost():
-    '''    public String getHost()
+    '''public String getHost()
     '''
 def setHost():
-    '''    public void setHost(final String host)
+    '''public void setHost(final String host)
     '''
 def addHostToList():
-    '''    public void addHostToList(final String host)
+    '''public void addHostToList(final String host)
     '''
 def getHostList():
-    '''    public ArrayList getHostList()
+    '''public ArrayList getHostList()
     '''
 def getContent():
-    '''    public byte[] getContent()
+    '''public byte[] getContent()
     '''
 def setContent():
-    '''    public void setContent(final byte[] content)
+    '''public void setContent(final byte[] content)
     '''
 def getInvalidationIds():
-    '''    public Enumeration getInvalidationIds()
+    '''public Enumeration getInvalidationIds()
     '''
 def setInvalidationIds():
-    '''    public void setInvalidationIds(final ValueSet invalidationIds)
+    '''public void setInvalidationIds(final ValueSet invalidationIds)
     '''
 def getTemplates():
-    '''    public Enumeration getTemplates()
+    '''public Enumeration getTemplates()
     '''
 def setTemplates():
-    '''    public void setTemplates(final ValueSet uris)
+    '''public void setTemplates(final ValueSet uris)
     '''
 def getHeaderTable():
-    '''    public Vector[] getHeaderTable()
+    '''public Vector[] getHeaderTable()
     '''
 def setHeaderTable():
-    '''    public void setHeaderTable(final Vector[] headerTable)
+    '''public void setHeaderTable(final Vector[] headerTable)
     '''
 def getExpirationTime():
-    '''    public long getExpirationTime()
+    '''public long getExpirationTime()
     '''
 def setExpirationTime():
-    '''    public void setExpirationTime(final long expirationTime)
+    '''public void setExpirationTime(final long expirationTime)
     '''
 def getTimeStamp():
-    '''    public long getTimeStamp()
+    '''public long getTimeStamp()
     '''
 def setTimeStamp():
-    '''    public void setTimeStamp(final long timeStamp)
+    '''public void setTimeStamp(final long timeStamp)
     '''
 def getEntry():
-    '''    public ExternalCacheEntry getEntry()
+    '''public ExternalCacheEntry getEntry()
     '''
 def equals():
-    '''    public boolean equals(final Object object)
+    '''public boolean equals(final Object object)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''

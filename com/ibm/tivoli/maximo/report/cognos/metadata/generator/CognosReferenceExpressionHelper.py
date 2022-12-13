@@ -1,3 +1,3 @@
 def CognosReferenceExpressionHelper():
-    '''    public CognosReferenceExpressionHelper()
+    '''public CognosReferenceExpressionHelper()
     '''

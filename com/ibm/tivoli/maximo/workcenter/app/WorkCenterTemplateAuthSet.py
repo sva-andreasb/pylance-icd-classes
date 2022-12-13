@@ -1,3 +1,3 @@
 def WorkCenterTemplateAuthSet():
-    '''    public WorkCenterTemplateAuthSet(final MboServerInterface ms)
+    '''public WorkCenterTemplateAuthSet(final MboServerInterface ms)
     '''

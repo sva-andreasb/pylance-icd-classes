@@ -1,9 +1,9 @@
 def BrowserPanel():
-    '''    public BrowserPanel(final ConfigurationInfo configurationInfo)
+    '''public BrowserPanel(final ConfigurationInfo configurationInfo)
     '''
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''
 def actionPerformed():
-    '''    public void actionPerformed(final ActionEvent actionEvent)
+    '''public void actionPerformed(final ActionEvent actionEvent)
     '''

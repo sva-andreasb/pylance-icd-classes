@@ -1,3 +1,3 @@
 def FldReconTaskCompRuleName():
-    '''    public FldReconTaskCompRuleName(final MboValue mbv)
+    '''public FldReconTaskCompRuleName(final MboValue mbv)
     '''

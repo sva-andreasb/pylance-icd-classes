@@ -1,3 +1,3 @@
 def FldDMCompResultIntName():
-    '''    public FldDMCompResultIntName(final MboValue mbv)
+    '''public FldDMCompResultIntName(final MboValue mbv)
     '''

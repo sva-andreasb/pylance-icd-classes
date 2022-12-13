@@ -1,3 +1,3 @@
 def ServiceContractSet():
-    '''    public ServiceContractSet(final MboServerInterface ms)
+    '''public ServiceContractSet(final MboServerInterface ms)
     '''

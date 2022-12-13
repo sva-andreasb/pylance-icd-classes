@@ -1,3 +1,3 @@
 def parse():
-    '''    public static NodeInfo parse(final XmlPullParser parser)
+    '''public static NodeInfo parse(final XmlPullParser parser)
     '''

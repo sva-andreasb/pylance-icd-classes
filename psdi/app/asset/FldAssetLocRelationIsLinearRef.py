@@ -1,6 +1,6 @@
 def FldAssetLocRelationIsLinearRef():
-    '''    public FldAssetLocRelationIsLinearRef(final MboValue mbv)
+    '''public FldAssetLocRelationIsLinearRef(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

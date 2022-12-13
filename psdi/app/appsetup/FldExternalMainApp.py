@@ -1,3 +1,3 @@
 def FldExternalMainApp():
-    '''    public FldExternalMainApp(final MboValue mbv)
+    '''public FldExternalMainApp(final MboValue mbv)
     '''

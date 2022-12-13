@@ -1,9 +1,9 @@
 def FldLocationIsRepairFacility():
-    '''    public FldLocationIsRepairFacility(final MboValue mbv)
+    '''public FldLocationIsRepairFacility(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

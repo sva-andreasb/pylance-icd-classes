@@ -1,3 +1,3 @@
 def PlusPAppliesToAssetSet():
-    '''    public PlusPAppliesToAssetSet(final MboServerInterface mboServerInterface)
+    '''public PlusPAppliesToAssetSet(final MboServerInterface mboServerInterface)
     '''

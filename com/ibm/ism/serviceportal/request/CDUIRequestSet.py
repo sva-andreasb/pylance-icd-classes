@@ -1,3 +1,3 @@
 def CDUIRequestSet():
-    '''    public CDUIRequestSet(final MboServerInterface ms)
+    '''public CDUIRequestSet(final MboServerInterface ms)
     '''

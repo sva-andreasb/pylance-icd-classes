@@ -1,30 +1,30 @@
 def CurrencyPluralInfoAffixProvider():
-    '''    public CurrencyPluralInfoAffixProvider(final CurrencyPluralInfo cpi, final DecimalFormatProperties properties)
+    '''public CurrencyPluralInfoAffixProvider(final CurrencyPluralInfo cpi, final DecimalFormatProperties properties)
     '''
 def charAt():
-    '''    public char charAt(final int flags, final int i)
+    '''public char charAt(final int flags, final int i)
     '''
 def length():
-    '''    public int length(final int flags)
+    '''public int length(final int flags)
     '''
 def getString():
-    '''    public String getString(final int flags)
+    '''public String getString(final int flags)
     '''
 def positiveHasPlusSign():
-    '''    public boolean positiveHasPlusSign()
+    '''public boolean positiveHasPlusSign()
     '''
 def hasNegativeSubpattern():
-    '''    public boolean hasNegativeSubpattern()
+    '''public boolean hasNegativeSubpattern()
     '''
 def negativeHasMinusSign():
-    '''    public boolean negativeHasMinusSign()
+    '''public boolean negativeHasMinusSign()
     '''
 def hasCurrencySign():
-    '''    public boolean hasCurrencySign()
+    '''public boolean hasCurrencySign()
     '''
 def containsSymbolType():
-    '''    public boolean containsSymbolType(final int type)
+    '''public boolean containsSymbolType(final int type)
     '''
 def hasBody():
-    '''    public boolean hasBody()
+    '''public boolean hasBody()
     '''

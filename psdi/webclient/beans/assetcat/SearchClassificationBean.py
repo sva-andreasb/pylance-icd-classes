@@ -1,45 +1,45 @@
 def SearchClassificationBean():
-    '''    public SearchClassificationBean()
+    '''public SearchClassificationBean()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def selectnode():
-    '''    public int selectnode()
+    '''public int selectnode()
     '''
 def getOriginatingAttribute():
-    '''    public String getOriginatingAttribute()
+    '''public String getOriginatingAttribute()
     '''
 def getOriginatingDataBean():
-    '''    public DataBean getOriginatingDataBean()
+    '''public DataBean getOriginatingDataBean()
     '''
 def getSelectedClassStructure():
-    '''    public MboRemote getSelectedClassStructure()
+    '''public MboRemote getSelectedClassStructure()
     '''
 def classAndAttributesSearch():
-    '''    public int classAndAttributesSearch()
+    '''public int classAndAttributesSearch()
     '''
 def clearSearch():
-    '''    public int clearSearch()
+    '''public int clearSearch()
     '''
 def getResultSetForReturn():
-    '''    public MboSetRemote getResultSetForReturn()
+    '''public MboSetRemote getResultSetForReturn()
     '''
 def getAttributeForReturn():
-    '''    public String getAttributeForReturn()
+    '''public String getAttributeForReturn()
     '''
 def getResultObjectName():
-    '''    public String getResultObjectName()
+    '''public String getResultObjectName()
     '''
 def setResultSetToReturn():
-    '''    public void setResultSetToReturn(final MboSetRemote mboSet)
+    '''public void setResultSetToReturn(final MboSetRemote mboSet)
     '''
 def setSelectValueBean():
-    '''    public void setSelectValueBean(final DataBean selectBean)
+    '''public void setSelectValueBean(final DataBean selectBean)
     '''
 def getTop():
-    '''    public Object[][] getTop(final String[] dataattributes, final int maxchildren)
+    '''public Object[][] getTop(final String[] dataattributes, final int maxchildren)
     '''
 def getClassSpecDataBean():
-    '''    public DataBean getClassSpecDataBean()
+    '''public DataBean getClassSpecDataBean()
     '''

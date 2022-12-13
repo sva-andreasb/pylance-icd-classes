@@ -1,3 +1,3 @@
 def getSingleton():
-    '''    public static synchronized TypeMappingImpl getSingleton()
+    '''public static synchronized TypeMappingImpl getSingleton()
     '''

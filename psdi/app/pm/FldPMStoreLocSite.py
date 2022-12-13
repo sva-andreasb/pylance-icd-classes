@@ -1,6 +1,6 @@
 def FldPMStoreLocSite():
-    '''    public FldPMStoreLocSite(final MboValue mbv)
+    '''public FldPMStoreLocSite(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

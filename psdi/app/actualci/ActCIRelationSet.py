@@ -1,3 +1,3 @@
 def ActCIRelationSet():
-    '''    public ActCIRelationSet(final MboServerInterface ms)
+    '''public ActCIRelationSet(final MboServerInterface ms)
     '''

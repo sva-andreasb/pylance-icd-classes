@@ -1,3 +1,3 @@
 def FldProductItemnum():
-    '''    public FldProductItemnum(final MboValue mbv)
+    '''public FldProductItemnum(final MboValue mbv)
     '''

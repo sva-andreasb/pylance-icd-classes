@@ -1,6 +1,6 @@
 def FldInvBalancesPhysCntDate():
-    '''    public FldInvBalancesPhysCntDate(final MboValue mbv)
+    '''public FldInvBalancesPhysCntDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

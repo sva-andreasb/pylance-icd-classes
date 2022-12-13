@@ -1,18 +1,18 @@
 def AbstractResultWriter():
-    '''    public AbstractResultWriter()
+    '''public AbstractResultWriter()
     '''
 def init():
-    '''    public void init(final ReconInfo reconInfo)
+    '''public void init(final ReconInfo reconInfo)
     '''
 def setReconInfo():
-    '''    public void setReconInfo(final ReconInfo reconInfo)
+    '''public void setReconInfo(final ReconInfo reconInfo)
     '''
 def getValue():
-    '''    public String getValue(final String attribute)
+    '''public String getValue(final String attribute)
     '''
 def setValue():
-    '''    public void setValue(final String attributeName, final Object attributeValue)
+    '''public void setValue(final String attributeName, final Object attributeValue)
     '''
 def write():
-    '''    public void write(final DBShortcut dbShortcut)
+    '''public void write(final DBShortcut dbShortcut)
     '''

@@ -1,45 +1,45 @@
 def AdminClientTask():
-    '''    public AdminClientTask()
+    '''public AdminClientTask()
     '''
 def setDebug():
-    '''    public void setDebug(final boolean debug)
+    '''public void setDebug(final boolean debug)
     '''
 def setNewPassword():
-    '''    public void setNewPassword(final String newPassword)
+    '''public void setNewPassword(final String newPassword)
     '''
 def setUrl():
-    '''    public void setUrl(final String url)
+    '''public void setUrl(final String url)
     '''
 def setFileProtocol():
-    '''    public void setFileProtocol(final String fileProtocol)
+    '''public void setFileProtocol(final String fileProtocol)
     '''
 def setHostname():
-    '''    public void setHostname(final String hostname)
+    '''public void setHostname(final String hostname)
     '''
 def setPassword():
-    '''    public void setPassword(final String password)
+    '''public void setPassword(final String password)
     '''
 def setPort():
-    '''    public void setPort(final int port)
+    '''public void setPort(final int port)
     '''
 def setServletPath():
-    '''    public void setServletPath(final String servletPath)
+    '''public void setServletPath(final String servletPath)
     '''
 def setXmlFile():
-    '''    public void setXmlFile(final File xmlFile)
+    '''public void setXmlFile(final File xmlFile)
     '''
 def setTransportChain():
-    '''    public void setTransportChain(final String transportChain)
+    '''public void setTransportChain(final String transportChain)
     '''
 def setUsername():
-    '''    public void setUsername(final String username)
+    '''public void setUsername(final String username)
     '''
 def setFailOnError():
-    '''    public void setFailOnError(final boolean fail)
+    '''public void setFailOnError(final boolean fail)
     '''
 def traceParams():
-    '''    public void traceParams(final int logLevel)
+    '''public void traceParams(final int logLevel)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

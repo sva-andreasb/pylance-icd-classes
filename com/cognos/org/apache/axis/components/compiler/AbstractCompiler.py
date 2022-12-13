@@ -1,21 +1,21 @@
 def AbstractCompiler():
-    '''    public AbstractCompiler()
+    '''public AbstractCompiler()
     '''
 def addFile():
-    '''    public void addFile(final String file)
+    '''public void addFile(final String file)
     '''
 def setSource():
-    '''    public void setSource(final String srcDir)
+    '''public void setSource(final String srcDir)
     '''
 def setDestination():
-    '''    public void setDestination(final String destDir)
+    '''public void setDestination(final String destDir)
     '''
 def setClasspath():
-    '''    public void setClasspath(final String classpath)
+    '''public void setClasspath(final String classpath)
     '''
 def setEncoding():
-    '''    public void setEncoding(final String encoding)
+    '''public void setEncoding(final String encoding)
     '''
 def getErrors():
-    '''    public List getErrors()
+    '''public List getErrors()
     '''

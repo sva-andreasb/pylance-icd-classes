@@ -1,6 +1,6 @@
 def FldContractFromPOContractType():
-    '''    public FldContractFromPOContractType(final MboValue mbv)
+    '''public FldContractFromPOContractType(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

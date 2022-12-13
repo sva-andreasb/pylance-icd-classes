@@ -1,3 +1,3 @@
 def ActivateGLAccount():
-    '''    public ActivateGLAccount(final MboSet ms)
+    '''public ActivateGLAccount(final MboSet ms)
     '''

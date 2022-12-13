@@ -2,101 +2,101 @@ COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Co
 TARGET_DIRECTION = "String  \"TARGET_KEY\""
 SOURCE_DIRECTION = "String  \"SOURCE_KEY\""
 def PmChgRuleRslt():
-    '''    public PmChgRuleRslt(final MboSet ms)
+    '''public PmChgRuleRslt(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def getRelationNum():
-    '''    public String getRelationNum()
+    '''public String getRelationNum()
     '''
 def setRelationNum():
-    '''    public void setRelationNum(final String relationNum)
+    '''public void setRelationNum(final String relationNum)
     '''
 def getBaseCinum():
-    '''    public String getBaseCinum()
+    '''public String getBaseCinum()
     '''
 def setBaseCinum():
-    '''    public void setBaseCinum(final String baseCinum)
+    '''public void setBaseCinum(final String baseCinum)
     '''
 def getSourceCinum():
-    '''    public String getSourceCinum()
+    '''public String getSourceCinum()
     '''
 def setSourceCinum():
-    '''    public void setSourceCinum(final String sourceCinum)
+    '''public void setSourceCinum(final String sourceCinum)
     '''
 def getTargetCinum():
-    '''    public String getTargetCinum()
+    '''public String getTargetCinum()
     '''
 def setTargetCinum():
-    '''    public void setTargetCinum(final String targetCinum)
+    '''public void setTargetCinum(final String targetCinum)
     '''
 def getPmchgRuleId():
-    '''    public long getPmchgRuleId()
+    '''public long getPmchgRuleId()
     '''
 def setPmchgRuleId():
-    '''    public void setPmchgRuleId(final long pmchgRuleId)
+    '''public void setPmchgRuleId(final long pmchgRuleId)
     '''
 def getImpactDirection():
-    '''    public String getImpactDirection()
+    '''public String getImpactDirection()
     '''
 def setImpactDirection():
-    '''    public void setImpactDirection(final String impactDirection)
+    '''public void setImpactDirection(final String impactDirection)
     '''
 def isRelationNumMatch():
-    '''    public boolean isRelationNumMatch()
+    '''public boolean isRelationNumMatch()
     '''
 def setRelationNumMatch():
-    '''    public void setRelationNumMatch(final boolean relationNumMatch)
+    '''public void setRelationNumMatch(final boolean relationNumMatch)
     '''
 def isSourceConditionMatch():
-    '''    public boolean isSourceConditionMatch()
+    '''public boolean isSourceConditionMatch()
     '''
 def setSourceConditionMatch():
-    '''    public void setSourceConditionMatch(final boolean sourceConditionMatch)
+    '''public void setSourceConditionMatch(final boolean sourceConditionMatch)
     '''
 def isTargetConditionMatch():
-    '''    public boolean isTargetConditionMatch()
+    '''public boolean isTargetConditionMatch()
     '''
 def setTargetConditionMatch():
-    '''    public void setTargetConditionMatch(final boolean targetConditionMatch)
+    '''public void setTargetConditionMatch(final boolean targetConditionMatch)
     '''
 def isDirectionMatch():
-    '''    public boolean isDirectionMatch()
+    '''public boolean isDirectionMatch()
     '''
 def setDirectionMatch():
-    '''    public void setDirectionMatch(final boolean directionMatch)
+    '''public void setDirectionMatch(final boolean directionMatch)
     '''
 def isImpacted():
-    '''    public boolean isImpacted()
+    '''public boolean isImpacted()
     '''
 def setImpacted():
-    '''    public void setImpacted(final boolean impacted)
+    '''public void setImpacted(final boolean impacted)
     '''
 def getImpactingCinum():
-    '''    public String getImpactingCinum()
+    '''public String getImpactingCinum()
     '''
 def setImpactingCinum():
-    '''    public void setImpactingCinum(final String cinum)
+    '''public void setImpactingCinum(final String cinum)
     '''
 def getImpactedCinum():
-    '''    public String getImpactedCinum()
+    '''public String getImpactedCinum()
     '''
 def setImpactedCinum():
-    '''    public void setImpactedCinum(final String cinum)
+    '''public void setImpactedCinum(final String cinum)
     '''
 def getPersonId():
-    '''    public String getPersonId()
+    '''public String getPersonId()
     '''
 def setPersonId():
-    '''    public void setPersonId(final String personId)
+    '''public void setPersonId(final String personId)
     '''
 def getImpactedCinumValue():
-    '''    public String getImpactedCinumValue()
+    '''public String getImpactedCinumValue()
     '''
 def setImpactedCinumValue():
-    '''    public void setImpactedCinumValue(final String impactedCiValue)
+    '''public void setImpactedCinumValue(final String impactedCiValue)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

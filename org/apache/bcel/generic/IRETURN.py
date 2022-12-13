@@ -1,6 +1,6 @@
 def IRETURN():
-    '''    public IRETURN()
+    '''public IRETURN()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

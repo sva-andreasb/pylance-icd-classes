@@ -1,9 +1,9 @@
 def FldReportAttributeName():
-    '''    public FldReportAttributeName(final MboValue mbv)
+    '''public FldReportAttributeName(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

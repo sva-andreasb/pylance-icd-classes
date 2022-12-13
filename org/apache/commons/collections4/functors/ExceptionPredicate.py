@@ -1,6 +1,6 @@
 def exceptionPredicate():
-    '''    public static <T> Predicate<T> exceptionPredicate()
+    '''public static <T> Predicate<T> exceptionPredicate()
     '''
 def evaluate():
-    '''    public boolean evaluate(final T object)
+    '''public boolean evaluate(final T object)
     '''

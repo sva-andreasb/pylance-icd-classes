@@ -1,3 +1,3 @@
 def RfcAssertionValue():
-    '''    public RfcAssertionValue(final byte[] array)
+    '''public RfcAssertionValue(final byte[] array)
     '''

@@ -1,42 +1,42 @@
 def PmSolution():
-    '''    public PmSolution(final MboSet ms)
+    '''public PmSolution(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def updateSolutionKeywords():
-    '''    public void updateSolutionKeywords()
+    '''public void updateSolutionKeywords()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def saveCommentsRanking():
-    '''    public void saveCommentsRanking()
+    '''public void saveCommentsRanking()
     '''
 def copyKeywords():
-    '''    public void copyKeywords(final MboSetRemote keywordSet)
+    '''public void copyKeywords(final MboSetRemote keywordSet)
     '''
 def copySolutions():
-    '''    public void copySolutions(final MboSetRemote solnSet)
+    '''public void copySolutions(final MboSetRemote solnSet)
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def applyOwner():
-    '''    public void applyOwner(final String ownerID)
+    '''public void applyOwner(final String ownerID)
     '''
 def ownership():
-    '''    public void ownership()
+    '''public void ownership()
     '''
 def applyOwnerGroup():
-    '''    public void applyOwnerGroup(final String ownergroupID)
+    '''public void applyOwnerGroup(final String ownergroupID)
     '''
 def newSRYes():
-    '''    public MboRemote newSRYes()
+    '''public MboRemote newSRYes()
     '''
 def newSRNo():
-    '''    public MboRemote newSRNo()
+    '''public MboRemote newSRNo()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''

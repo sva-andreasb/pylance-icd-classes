@@ -1,3 +1,3 @@
 def skdscenariotoview():
-    '''    public int skdscenariotoview()
+    '''public int skdscenariotoview()
     '''

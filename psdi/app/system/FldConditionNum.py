@@ -1,3 +1,3 @@
 def FldConditionNum():
-    '''    public FldConditionNum(final MboValue mbv)
+    '''public FldConditionNum(final MboValue mbv)
     '''

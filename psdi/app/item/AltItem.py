@@ -1,6 +1,6 @@
 def AltItem():
-    '''    public AltItem(final MboSet ms)
+    '''public AltItem(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

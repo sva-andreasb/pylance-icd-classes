@@ -1,6 +1,6 @@
 def FldInvLifoFifoCostConditionCode():
-    '''    public FldInvLifoFifoCostConditionCode(final MboValue mbv)
+    '''public FldInvLifoFifoCostConditionCode(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

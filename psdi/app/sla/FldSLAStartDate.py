@@ -1,6 +1,6 @@
 def FldSLAStartDate():
-    '''    public FldSLAStartDate(final MboValue mbv)
+    '''public FldSLAStartDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

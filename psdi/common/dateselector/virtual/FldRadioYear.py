@@ -1,6 +1,6 @@
 def FldRadioYear():
-    '''    public FldRadioYear(final MboValue mbv)
+    '''public FldRadioYear(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,3 +1,3 @@
 def DMPkgDistTrackingSet():
-    '''    public DMPkgDistTrackingSet(final MboServerInterface ms)
+    '''public DMPkgDistTrackingSet(final MboServerInterface ms)
     '''

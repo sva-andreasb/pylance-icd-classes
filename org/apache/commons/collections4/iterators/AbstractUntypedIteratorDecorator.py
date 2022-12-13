@@ -1,6 +1,6 @@
 def hasNext():
-    '''    public boolean hasNext()
+    '''public boolean hasNext()
     '''
 def remove():
-    '''    public void remove()
+    '''public void remove()
     '''

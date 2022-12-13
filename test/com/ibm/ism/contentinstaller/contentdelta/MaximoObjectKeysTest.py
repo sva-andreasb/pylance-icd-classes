@@ -1,3 +1,3 @@
 def testLoadFromDatabase():
-    '''    public void testLoadFromDatabase()
+    '''public void testLoadFromDatabase()
     '''

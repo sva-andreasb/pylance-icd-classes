@@ -1,9 +1,9 @@
 def SurveySet():
-    '''    public SurveySet(final MboServerInterface ms)
+    '''public SurveySet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

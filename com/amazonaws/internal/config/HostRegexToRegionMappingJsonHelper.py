@@ -1,15 +1,15 @@
 def getHostNameRegex():
-    '''    public String getHostNameRegex()
+    '''public String getHostNameRegex()
     '''
 def setHostNameRegex():
-    '''    public void setHostNameRegex(final String hostNameRegex)
+    '''public void setHostNameRegex(final String hostNameRegex)
     '''
 def getRegionName():
-    '''    public String getRegionName()
+    '''public String getRegionName()
     '''
 def setRegionName():
-    '''    public void setRegionName(final String regionName)
+    '''public void setRegionName(final String regionName)
     '''
 def build():
-    '''    public HostRegexToRegionMapping build()
+    '''public HostRegexToRegionMapping build()
     '''

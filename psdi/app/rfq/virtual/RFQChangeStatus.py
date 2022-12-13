@@ -1,6 +1,6 @@
 def RFQChangeStatus():
-    '''    public RFQChangeStatus(final MboSet ms)
+    '''public RFQChangeStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

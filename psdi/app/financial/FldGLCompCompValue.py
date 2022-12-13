@@ -1,6 +1,6 @@
 def FldGLCompCompValue():
-    '''    public FldGLCompCompValue(final MboValue mbv)
+    '''public FldGLCompCompValue(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

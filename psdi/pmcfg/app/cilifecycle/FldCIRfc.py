@@ -1,6 +1,6 @@
 def FldCIRfc():
-    '''    public FldCIRfc(final MboValue mbv)
+    '''public FldCIRfc(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

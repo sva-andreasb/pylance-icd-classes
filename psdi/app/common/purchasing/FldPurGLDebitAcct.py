@@ -1,6 +1,6 @@
 def FldPurGLDebitAcct():
-    '''    public FldPurGLDebitAcct(final MboValue mbv)
+    '''public FldPurGLDebitAcct(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

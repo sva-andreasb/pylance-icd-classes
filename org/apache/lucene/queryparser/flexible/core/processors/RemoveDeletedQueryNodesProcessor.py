@@ -1,3 +1,3 @@
 def process():
-    '''    public QueryNode process(QueryNode queryTree)
+    '''public QueryNode process(QueryNode queryTree)
     '''

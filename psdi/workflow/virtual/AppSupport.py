@@ -1,12 +1,12 @@
 def AppSupport():
-    '''    public AppSupport(final MboSet ms)
+    '''public AppSupport(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def addSupport():
-    '''    public void addSupport()
+    '''public void addSupport()
     '''

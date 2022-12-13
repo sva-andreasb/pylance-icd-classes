@@ -1,3 +1,3 @@
 def WOWeatherAlertSet():
-    '''    public WOWeatherAlertSet(final MboServerInterface ms)
+    '''public WOWeatherAlertSet(final MboServerInterface ms)
     '''

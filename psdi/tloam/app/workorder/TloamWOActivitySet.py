@@ -1,3 +1,3 @@
 def TloamWOActivitySet():
-    '''    public TloamWOActivitySet(final MboServerInterface ms)
+    '''public TloamWOActivitySet(final MboServerInterface ms)
     '''

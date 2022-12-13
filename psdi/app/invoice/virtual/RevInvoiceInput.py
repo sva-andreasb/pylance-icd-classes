@@ -1,9 +1,9 @@
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def RevInvoiceInput():
-    '''    public RevInvoiceInput(final MboSet ms)
+    '''public RevInvoiceInput(final MboSet ms)
     '''
 def setInvoiceAutoKey():
-    '''    public void setInvoiceAutoKey()
+    '''public void setInvoiceAutoKey()
     '''

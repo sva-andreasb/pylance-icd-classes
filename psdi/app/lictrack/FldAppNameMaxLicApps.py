@@ -1,3 +1,3 @@
 def FldAppNameMaxLicApps():
-    '''    public FldAppNameMaxLicApps(final MboValue mbv)
+    '''public FldAppNameMaxLicApps(final MboValue mbv)
     '''

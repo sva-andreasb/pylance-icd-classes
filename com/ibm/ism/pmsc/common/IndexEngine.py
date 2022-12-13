@@ -2,24 +2,24 @@ COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRI
 MAX_COUNT = "String  \"GlobalSearch.maxCount\""
 DEFAULT_COUNT = "String  \"500\""
 def getInstance():
-    '''    public static IndexEngine getInstance(final MboRemote mbo)
+    '''public static IndexEngine getInstance(final MboRemote mbo)
     '''
 def clean():
-    '''    public synchronized void clean()
+    '''public synchronized void clean()
     '''
 def create():
-    '''    public synchronized void create(final Map<String, String> toStores, final Map<String, String> toIndexes)
+    '''public synchronized void create(final Map<String, String> toStores, final Map<String, String> toIndexes)
     '''
 def search():
-    '''    public List<Map> search(final String[] attributes, final String searchValue)
+    '''public List<Map> search(final String[] attributes, final String searchValue)
     '''
 def createForMbo():
-    '''    public long createForMbo(final MXSession session, final String mboName, final String[] fieldsToIndex, final String[] fieldsToStore)
+    '''public long createForMbo(final MXSession session, final String mboName, final String[] fieldsToIndex, final String[] fieldsToStore)
     public void createForMbo(final MboRemote mbo, final String[] fieldsToIndex, final String[] fieldsToStore, final Map<String, String> otherIndex, final Map<String, String> otherStore)
     '''
 def createForMboSet():
-    '''    public long createForMboSet(final MboSetRemote mboSet, final String[] fieldsToIndex, final String[] fieldsToStore, final Map<String, String> otherIndex, final Map<String, String> otherStore)
+    '''public long createForMboSet(final MboSetRemote mboSet, final String[] fieldsToIndex, final String[] fieldsToStore, final Map<String, String> otherIndex, final Map<String, String> otherStore)
     '''
 def createFile():
-    '''    public synchronized void createFile(final File file, final Map<String, String> attributes)
+    '''public synchronized void createFile(final File file, final Map<String, String> attributes)
     '''

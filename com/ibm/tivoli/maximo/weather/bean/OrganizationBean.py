@@ -1,3 +1,3 @@
 def register():
-    '''    public int register()
+    '''public int register()
     '''

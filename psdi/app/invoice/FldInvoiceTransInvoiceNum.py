@@ -1,6 +1,6 @@
 def FldInvoiceTransInvoiceNum():
-    '''    public FldInvoiceTransInvoiceNum(final MboValue mbv)
+    '''public FldInvoiceTransInvoiceNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

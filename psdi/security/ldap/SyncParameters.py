@@ -1,15 +1,15 @@
 def SyncParameters():
-    '''    public SyncParameters()
+    '''public SyncParameters()
     '''
 def get():
-    '''    public String get(final String parameterName)
+    '''public String get(final String parameterName)
     '''
 def put():
-    '''    public void put(final String parameterName, final String value)
+    '''public void put(final String parameterName, final String value)
     '''
 def getParameters():
-    '''    public Iterator getParameters()
+    '''public Iterator getParameters()
     '''
 def size():
-    '''    public int size()
+    '''public int size()
     '''

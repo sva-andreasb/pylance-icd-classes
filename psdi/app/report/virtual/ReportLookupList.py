@@ -1,3 +1,3 @@
 def ReportLookupList():
-    '''    public ReportLookupList(final MboSet ms)
+    '''public ReportLookupList(final MboSet ms)
     '''

@@ -1,18 +1,18 @@
 def AbstractImage():
-    '''    public AbstractImage(final ImageInfo info)
+    '''public AbstractImage(final ImageInfo info)
     '''
 def getInfo():
-    '''    public ImageInfo getInfo()
+    '''public ImageInfo getInfo()
     '''
 def getSize():
-    '''    public ImageSize getSize()
+    '''public ImageSize getSize()
     '''
 def getColorSpace():
-    '''    public ColorSpace getColorSpace()
+    '''public ColorSpace getColorSpace()
     '''
 def getICCProfile():
-    '''    public ICC_Profile getICCProfile()
+    '''public ICC_Profile getICCProfile()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

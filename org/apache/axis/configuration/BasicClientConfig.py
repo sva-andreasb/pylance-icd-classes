@@ -1,3 +1,3 @@
 def BasicClientConfig():
-    '''    public BasicClientConfig()
+    '''public BasicClientConfig()
     '''

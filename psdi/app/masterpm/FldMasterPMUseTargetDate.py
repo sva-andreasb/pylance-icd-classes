@@ -1,6 +1,6 @@
 def FldMasterPMUseTargetDate():
-    '''    public FldMasterPMUseTargetDate(final MboValue mbv)
+    '''public FldMasterPMUseTargetDate(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

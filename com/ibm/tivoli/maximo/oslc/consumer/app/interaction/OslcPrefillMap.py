@@ -1,9 +1,9 @@
 def OslcPrefillMap():
-    '''    public OslcPrefillMap(final MboSet ms)
+    '''public OslcPrefillMap(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''

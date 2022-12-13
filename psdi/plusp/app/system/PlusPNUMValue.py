@@ -1,6 +1,6 @@
 def PlusPNUMValue():
-    '''    public PlusPNUMValue(final MboSet arg0)
+    '''public PlusPNUMValue(final MboSet arg0)
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

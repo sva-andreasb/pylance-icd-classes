@@ -1,6 +1,6 @@
 def FldBBPostDate():
-    '''    public FldBBPostDate(final MboValue mbv)
+    '''public FldBBPostDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

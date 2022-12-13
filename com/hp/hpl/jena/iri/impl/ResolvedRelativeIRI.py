@@ -1,6 +1,6 @@
 def ResolvedRelativeIRI():
-    '''    public ResolvedRelativeIRI(final AbsIRIImpl base, final AbsIRIImpl rel)
+    '''public ResolvedRelativeIRI(final AbsIRIImpl base, final AbsIRIImpl rel)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

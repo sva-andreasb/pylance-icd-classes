@@ -1,3 +1,3 @@
 def OMDescendantsIterator():
-    '''    public OMDescendantsIterator(final OMNode firstNode)
+    '''public OMDescendantsIterator(final OMNode firstNode)
     '''

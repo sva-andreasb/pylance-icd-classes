@@ -1,6 +1,6 @@
 def FldSKDScenarioInputObjId():
-    '''    public FldSKDScenarioInputObjId(final MboValue mbv)
+    '''public FldSKDScenarioInputObjId(final MboValue mbv)
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote sourceMbo, final long accessModifier)
+    '''public void setValueFromLookup(final MboRemote sourceMbo, final long accessModifier)
     '''

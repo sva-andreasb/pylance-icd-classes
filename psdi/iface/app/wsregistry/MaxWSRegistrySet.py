@@ -1,30 +1,30 @@
 def MaxWSRegistrySet():
-    '''    public MaxWSRegistrySet(final MboServerInterface ms)
+    '''public MaxWSRegistrySet(final MboServerInterface ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def fillNewRegistry():
-    '''    public void fillNewRegistry(final String source)
+    '''public void fillNewRegistry(final String source)
     '''
 def deployWebService():
-    '''    public void deployWebService(final boolean jaxwsDeploy)
+    '''public void deployWebService(final boolean jaxwsDeploy)
     '''
 def undeployWebService():
-    '''    public void undeployWebService(final boolean jaxwsDeploy)
+    '''public void undeployWebService(final boolean jaxwsDeploy)
     '''
 def convertToJAXWS():
-    '''    public void convertToJAXWS()
+    '''public void convertToJAXWS()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''
 def getNewRowID():
-    '''    public long getNewRowID()
+    '''public long getNewRowID()
     '''
 def isJaxws():
-    '''    public boolean isJaxws()
+    '''public boolean isJaxws()
     '''

@@ -4,11 +4,11 @@ MANIFEST_RULES = "String  \"Rules\""
 MANIFEST_TAGS = "String  \"Tags\""
 EXT_RULES_JAR = "String  \".jar\""
 def BreakIteratorManager():
-    '''    public BreakIteratorManager()
+    '''public BreakIteratorManager()
     '''
 def setConstrMethod():
-    '''    public void setConstrMethod(final int constrMethod)
+    '''public void setConstrMethod(final int constrMethod)
     '''
 def constructBreakIterator():
-    '''    public RuleBasedBreakIterator constructBreakIterator(String s)
+    '''public RuleBasedBreakIterator constructBreakIterator(String s)
     '''

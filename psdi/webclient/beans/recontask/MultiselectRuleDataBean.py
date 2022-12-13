@@ -1,6 +1,6 @@
 def addlinkrules():
-    '''    public int addlinkrules()
+    '''public int addlinkrules()
     '''
 def addcomprules():
-    '''    public int addcomprules()
+    '''public int addcomprules()
     '''

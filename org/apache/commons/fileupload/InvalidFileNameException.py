@@ -1,6 +1,6 @@
 def InvalidFileNameException():
-    '''    public InvalidFileNameException(final String pName, final String pMessage)
+    '''public InvalidFileNameException(final String pName, final String pMessage)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''

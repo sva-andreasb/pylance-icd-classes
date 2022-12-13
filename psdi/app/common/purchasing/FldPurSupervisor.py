@@ -1,3 +1,3 @@
 def FldPurSupervisor():
-    '''    public FldPurSupervisor(final MboValue mbv)
+    '''public FldPurSupervisor(final MboValue mbv)
     '''

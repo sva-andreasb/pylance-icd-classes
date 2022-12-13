@@ -1,6 +1,6 @@
 def PKCS1EncodedKeySpec():
-    '''    public PKCS1EncodedKeySpec(final byte[] keyBytes)
+    '''public PKCS1EncodedKeySpec(final byte[] keyBytes)
     '''
 def getKeySpec():
-    '''    public RSAPrivateCrtKeySpec getKeySpec()
+    '''public RSAPrivateCrtKeySpec getKeySpec()
     '''

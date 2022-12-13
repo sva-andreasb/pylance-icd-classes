@@ -1,6 +1,6 @@
 def FldAMCrewEndDate():
-    '''    public FldAMCrewEndDate(final MboValue mbv)
+    '''public FldAMCrewEndDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

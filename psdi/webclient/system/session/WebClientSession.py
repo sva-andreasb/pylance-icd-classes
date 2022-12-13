@@ -19,351 +19,351 @@ SAVEMODE_ONLOADUNLOAD = "String  \"ONLOADUNLOAD\""
 REQUESTTYPE = "String  \"requesttype\""
 TEMP_TOKEN_PARAM = "String  \"_tt\""
 def WebClientSession():
-    '''    public WebClientSession(final HttpSession httpSession)
+    '''public WebClientSession(final HttpSession httpSession)
     '''
 def isPostTivoli09Skin():
-    '''    public boolean isPostTivoli09Skin()
+    '''public boolean isPostTivoli09Skin()
     '''
 def getSkin():
-    '''    public String getSkin()
+    '''public String getSkin()
     '''
 def getSkinName():
-    '''    public String getSkinName()
+    '''public String getSkinName()
     '''
 def getAdaptorInstance():
-    '''    public SessionContext getAdaptorInstance()
+    '''public SessionContext getAdaptorInstance()
     '''
 def getMxSessionConnected():
-    '''    public boolean getMxSessionConnected()
+    '''public boolean getMxSessionConnected()
     '''
 def setMxSessionConnected():
-    '''    public void setMxSessionConnected(final boolean flag)
+    '''public void setMxSessionConnected(final boolean flag)
     '''
 def isConnected():
-    '''    public boolean isConnected()
+    '''public boolean isConnected()
     '''
 def applySkin():
-    '''    public void applySkin()
+    '''public void applySkin()
     '''
 def isMobileUserAgent():
-    '''    public boolean isMobileUserAgent()
+    '''public boolean isMobileUserAgent()
     '''
 def getUserAgentName():
-    '''    public String getUserAgentName()
+    '''public String getUserAgentName()
     '''
 def getUserAgentReplacement():
-    '''    public String getUserAgentReplacement()
+    '''public String getUserAgentReplacement()
     '''
 def getUserAgent():
-    '''    public int getUserAgent()
+    '''public int getUserAgent()
     '''
 def handleRequest():
-    '''    public synchronized void handleRequest(final HttpServletRequest request, final HttpServletResponse response)
+    '''public synchronized void handleRequest(final HttpServletRequest request, final HttpServletResponse response)
     '''
 def fixRowForTableDetails():
-    '''    public String fixRowForTableDetails(final String compId)
+    '''public String fixRowForTableDetails(final String compId)
     '''
 def getProxyRequestContextURL():
-    '''    public String getProxyRequestContextURL()
+    '''public String getProxyRequestContextURL()
     '''
 def getProxyBaseURL():
-    '''    public String getProxyBaseURL()
+    '''public String getProxyBaseURL()
     '''
 def getPortalMsg():
-    '''    public String getPortalMsg()
+    '''public String getPortalMsg()
     '''
 def setPortalMsg():
-    '''    public void setPortalMsg(final String aMsg)
+    '''public void setPortalMsg(final String aMsg)
     '''
 def getContextChanged():
-    '''    public boolean getContextChanged()
+    '''public boolean getContextChanged()
     '''
 def setContextChanged():
-    '''    public void setContextChanged(final boolean aBool)
+    '''public void setContextChanged(final boolean aBool)
     '''
 def showwfinfo():
-    '''    public int showwfinfo()
+    '''public int showwfinfo()
     '''
 def setErrorFieldFocus():
-    '''    public void setErrorFieldFocus(final String currentFocusId, final boolean forceRow)
+    '''public void setErrorFieldFocus(final String currentFocusId, final boolean forceRow)
     '''
 def printDebugMessage():
-    '''    public void printDebugMessage(final int level, final String message)
+    '''public void printDebugMessage(final int level, final String message)
     '''
 def handleEvent():
-    '''    public int handleEvent(final WebClientEvent event)
+    '''public int handleEvent(final WebClientEvent event)
     '''
 def hasWorkflowInfo():
-    '''    public boolean hasWorkflowInfo()
+    '''public boolean hasWorkflowInfo()
     '''
 def getEventQueue():
-    '''    public EventQueue getEventQueue()
+    '''public EventQueue getEventQueue()
     '''
 def queueEvent():
-    '''    public void queueEvent(final WebClientEvent event)
+    '''public void queueEvent(final WebClientEvent event)
     '''
 def getCurrentPageId():
-    '''    public String getCurrentPageId()
+    '''public String getCurrentPageId()
     '''
 def getCurrentPage():
-    '''    public PageInstance getCurrentPage()
+    '''public PageInstance getCurrentPage()
     '''
 def getDataBean():
-    '''    public DataBean getDataBean(final String beanId)
+    '''public DataBean getDataBean(final String beanId)
     '''
 def checkForDialogAccess():
-    '''    public boolean checkForDialogAccess(final String dialogId, final Element dialog)
+    '''public boolean checkForDialogAccess(final String dialogId, final Element dialog)
     '''
 def findDialog():
-    '''    public PageInstance findDialog(final String dialogId)
+    '''public PageInstance findDialog(final String dialogId)
     '''
 def getUniqueId():
-    '''    public String getUniqueId()
+    '''public String getUniqueId()
     '''
 def findDialogInDesignerApps():
-    '''    public ControlInstance findDialogInDesignerApps(final String dialogId)
+    '''public ControlInstance findDialogInDesignerApps(final String dialogId)
     '''
 def setLongOpComponent():
-    '''    public void setLongOpComponent(final ComponentInstance longOp)
+    '''public void setLongOpComponent(final ComponentInstance longOp)
     '''
 def getLongOpComponent():
-    '''    public ComponentInstance getLongOpComponent()
+    '''public ComponentInstance getLongOpComponent()
     '''
 def loadDialog():
-    '''    public int loadDialog(String dialogId)
+    '''public int loadDialog(String dialogId)
     public int loadDialog(final String dialogId, final boolean showmessages, final String longOpMessage)
     '''
 def loadDialogInDesignerApps():
-    '''    public int loadDialogInDesignerApps(final String dialogId)
+    '''public int loadDialogInDesignerApps(final String dialogId)
     '''
 def getControlInstance():
-    '''    public ControlInstance getControlInstance(final String id)
+    '''public ControlInstance getControlInstance(final String id)
     public ControlInstance getControlInstance(final String id, final boolean tableDownload)
     '''
 def getCurrentApp():
-    '''    public AppInstance getCurrentApp()
+    '''public AppInstance getCurrentApp()
     '''
 def getCurrentAppId():
-    '''    public String getCurrentAppId()
+    '''public String getCurrentAppId()
     '''
 def getPreviousApp():
-    '''    public AppInstance getPreviousApp()
+    '''public AppInstance getPreviousApp()
     '''
 def getMXSession():
-    '''    public MXSession getMXSession()
+    '''public MXSession getMXSession()
     '''
 def getHttpSession():
-    '''    public HttpSession getHttpSession()
+    '''public HttpSession getHttpSession()
     '''
 def setHttpSession():
-    '''    public void setHttpSession(final HttpSession https)
+    '''public void setHttpSession(final HttpSession https)
     '''
 def pushApp():
-    '''    public void pushApp(final AppInstance ai)
+    '''public void pushApp(final AppInstance ai)
     '''
 def popApp():
-    '''    public AppInstance popApp()
+    '''public AppInstance popApp()
     '''
 def clearStack():
-    '''    public void clearStack()
+    '''public void clearStack()
     '''
 def getAppStack():
-    '''    public Stack<AppInstance> getAppStack()
+    '''public Stack<AppInstance> getAppStack()
     '''
 def setCurrentEvent():
-    '''    public void setCurrentEvent(final WebClientEvent event)
+    '''public void setCurrentEvent(final WebClientEvent event)
     '''
 def getCurrentEvent():
-    '''    public WebClientEvent getCurrentEvent()
+    '''public WebClientEvent getCurrentEvent()
     '''
 def getFirstHandledEvent():
-    '''    public WebClientEvent getFirstHandledEvent()
+    '''public WebClientEvent getFirstHandledEvent()
     '''
 def getOriginalEvent():
-    '''    public WebClientEvent getOriginalEvent()
+    '''public WebClientEvent getOriginalEvent()
     '''
 def setEventState():
-    '''    public void setEventState(final int state)
+    '''public void setEventState(final int state)
     '''
 def getEventState():
-    '''    public int getEventState()
+    '''public int getEventState()
     '''
 def getCurrentEventHandler():
-    '''    public ControlInstance getCurrentEventHandler()
+    '''public ControlInstance getCurrentEventHandler()
     '''
 def setCurrentEventHandler():
-    '''    public void setCurrentEventHandler(final ControlInstance eventHandler)
+    '''public void setCurrentEventHandler(final ControlInstance eventHandler)
     '''
 def setPerfStat():
-    '''    public void setPerfStat(final String flag)
+    '''public void setPerfStat(final String flag)
     '''
 def getPerfStat():
-    '''    public boolean getPerfStat()
+    '''public boolean getPerfStat()
     '''
 def getRequest():
-    '''    public HttpServletRequest getRequest()
+    '''public HttpServletRequest getRequest()
     '''
 def getRequestType():
-    '''    public RequestType getRequestType()
+    '''public RequestType getRequestType()
     public static RequestType getRequestType(final HttpServletRequest request)
     '''
 def setRequest():
-    '''    public void setRequest(final HttpServletRequest request)
+    '''public void setRequest(final HttpServletRequest request)
     '''
 def getResponse():
-    '''    public HttpServletResponse getResponse()
+    '''public HttpServletResponse getResponse()
     '''
 def setResponse():
-    '''    public void setResponse(final HttpServletResponse response)
+    '''public void setResponse(final HttpServletResponse response)
     '''
 def createMXSession():
-    '''    public MXSession createMXSession()
+    '''public MXSession createMXSession()
     '''
 def hasWarnings():
-    '''    public boolean hasWarnings()
+    '''public boolean hasWarnings()
     '''
 def getWarnings():
-    '''    public ArrayList<MXException> getWarnings()
+    '''public ArrayList<MXException> getWarnings()
     '''
 def addWarning():
-    '''    public void addWarning(final MXException e)
+    '''public void addWarning(final MXException e)
     '''
 def removeWarnings():
-    '''    public List<MXException> removeWarnings()
+    '''public List<MXException> removeWarnings()
     '''
 def addWarnings():
-    '''    public void addWarnings(final List<MXException> warningList)
+    '''public void addWarnings(final List<MXException> warningList)
     '''
 def getLoginEvent():
-    '''    public WebClientEvent getLoginEvent()
+    '''public WebClientEvent getLoginEvent()
     '''
 def getLocale():
-    '''    public Locale getLocale()
+    '''public Locale getLocale()
     '''
 def getAlignment():
-    '''    public Alignment getAlignment()
+    '''public Alignment getAlignment()
     '''
 def getHelpLangCode():
-    '''    public String getHelpLangCode()
+    '''public String getHelpLangCode()
     '''
 def getTimeZone():
-    '''    public TimeZone getTimeZone()
+    '''public TimeZone getTimeZone()
     '''
 def setTimeZone():
-    '''    public void setTimeZone(final String strTimeZone)
+    '''public void setTimeZone(final String strTimeZone)
     '''
 def getUserInfo():
-    '''    public UserInfo getUserInfo()
+    '''public UserInfo getUserInfo()
     '''
 def getUserLanguageCode():
-    '''    public String getUserLanguageCode()
+    '''public String getUserLanguageCode()
     '''
 def getMaxMessageMboSetRemote():
-    '''    public MboSetRemote getMaxMessageMboSetRemote()
+    '''public MboSetRemote getMaxMessageMboSetRemote()
     '''
 def setMaxMessageMboSetRemote():
-    '''    public void setMaxMessageMboSetRemote(final MboSetRemote setmboSet)
+    '''public void setMaxMessageMboSetRemote(final MboSetRemote setmboSet)
     '''
 def getUserApps():
-    '''    public Set<String> getUserApps()
+    '''public Set<String> getUserApps()
     '''
 def getOriginalApp():
-    '''    public String getOriginalApp(final String currentApp)
+    '''public String getOriginalApp(final String currentApp)
     '''
 def getAppDesc():
-    '''    public String getAppDesc(String appId)
+    '''public String getAppDesc(String appId)
     '''
 def getClonedApps():
-    '''    public Set<String> getClonedApps(final String originalApp)
+    '''public Set<String> getClonedApps(final String originalApp)
     '''
 def getOriginalApps():
-    '''    public Set<String> getOriginalApps(String currentApp)
+    '''public Set<String> getOriginalApps(String currentApp)
     '''
 def getAppMainTable():
-    '''    public String getAppMainTable(final String currentApp)
+    '''public String getAppMainTable(final String currentApp)
     '''
 def getSpellSessionAdapter():
-    '''    public SpellingSessionAdapter getSpellSessionAdapter()
+    '''public SpellingSessionAdapter getSpellSessionAdapter()
     '''
 def setSpellSessionAdapter():
-    '''    public void setSpellSessionAdapter(final SpellingSessionAdapter spellSessionAdapter)
+    '''public void setSpellSessionAdapter(final SpellingSessionAdapter spellSessionAdapter)
     '''
 def pauseQueue():
-    '''    public void pauseQueue()
+    '''public void pauseQueue()
     '''
 def isQueuePaused():
-    '''    public boolean isQueuePaused()
+    '''public boolean isQueuePaused()
     '''
 def unPauseQueue():
-    '''    public void unPauseQueue()
+    '''public void unPauseQueue()
     '''
 def runLongOp():
-    '''    public boolean runLongOp(final DataBean dataSrc, final WebClientEvent event)
+    '''public boolean runLongOp(final DataBean dataSrc, final WebClientEvent event)
     public boolean runLongOp(final DataBean dataSrc, final WebClientEvent event, boolean showMessages, final String longOpMessage)
     public boolean runLongOp(final DataBean dataSrc, final String method)
     public boolean runLongOp(final DataBean dataSrc, final String method, boolean showMessages, final String longOpMessage)
     '''
 def runLongOpQuery():
-    '''    public boolean runLongOpQuery(final DataBean dataSrc, final String method, boolean showMessages, final String longOpMessage)
+    '''public boolean runLongOpQuery(final DataBean dataSrc, final String method, boolean showMessages, final String longOpMessage)
     '''
 def stopLongOpQuery():
-    '''    public void stopLongOpQuery()
+    '''public void stopLongOpQuery()
     '''
 def getLongOpStatus():
-    '''    public int getLongOpStatus()
+    '''public int getLongOpStatus()
     '''
 def hasLongOpStarted():
-    '''    public boolean hasLongOpStarted()
+    '''public boolean hasLongOpStarted()
     '''
 def setLongOpChecked():
-    '''    public void setLongOpChecked(final boolean longopChecked)
+    '''public void setLongOpChecked(final boolean longopChecked)
     '''
 def hasLongOpCompleted():
-    '''    public boolean hasLongOpCompleted()
+    '''public boolean hasLongOpCompleted()
     '''
 def hasQueryLongOpCompleted():
-    '''    public boolean hasQueryLongOpCompleted()
+    '''public boolean hasQueryLongOpCompleted()
     '''
 def getLongOpEvent():
-    '''    public WebClientEvent getLongOpEvent()
+    '''public WebClientEvent getLongOpEvent()
     '''
 def getLongOpMethod():
-    '''    public String getLongOpMethod()
+    '''public String getLongOpMethod()
     '''
 def finishLongOpEvent():
-    '''    public void finishLongOpEvent()
+    '''public void finishLongOpEvent()
     '''
 def longOpCleanup():
-    '''    public void longOpCleanup()
+    '''public void longOpCleanup()
     '''
 def longOpQueryCleanup():
-    '''    public void longOpQueryCleanup()
+    '''public void longOpQueryCleanup()
     '''
 def getWorkflowDirector():
-    '''    public WorkflowDirector getWorkflowDirector()
+    '''public WorkflowDirector getWorkflowDirector()
     '''
 def getSettingsProperty():
-    '''    public String getSettingsProperty(final String prop)
+    '''public String getSettingsProperty(final String prop)
     public String getSettingsProperty(final String prop, final String[] params)
     '''
 def getMaxMessage():
-    '''    public MaxMessage getMaxMessage(final MXException mxe)
+    '''public MaxMessage getMaxMessage(final MXException mxe)
     public MaxMessage getMaxMessage(final RemoteException e)
     public MaxMessage getMaxMessage(final String group, final String key)
     '''
 def getMessage():
-    '''    public String getMessage(final MXException mxe)
+    '''public String getMessage(final MXException mxe)
     public String getMessage(final String group, final String key)
     public String getMessage(final String group, final String key, final String[] params)
     '''
 def getMessages():
-    '''    public String[] getMessages(final String group, final String[] key)
+    '''public String[] getMessages(final String group, final String[] key)
     '''
 def getClientSideMessage():
-    '''    public String getClientSideMessage(final String group, final String key)
+    '''public String getClientSideMessage(final String group, final String key)
     '''
 def showMessageBox():
-    '''    public void showMessageBox(final WebClientEvent srcEvent, final String title, final String warnings, final int flags)
+    '''public void showMessageBox(final WebClientEvent srcEvent, final String title, final String warnings, final int flags)
     public void showMessageBox(final WebClientEvent srcEvent, final String messageFile, final String key, final String[] params)
     public void showMessageBox(final WebClientEvent srcEvent, final String messageFile, final String key, final Object[] params)
     public void showMessageBox(final String messageFile, final String key, final String[] params)
@@ -372,460 +372,460 @@ def showMessageBox():
     public void showMessageBox(final MXException mxe)
     '''
 def generateMessageBoxForTable():
-    '''    public void generateMessageBoxForTable(final Hashtable<String, String> messageInfo)
+    '''public void generateMessageBoxForTable(final Hashtable<String, String> messageInfo)
     '''
 def getMessageInfoForTable():
-    '''    public Hashtable<String, String> getMessageInfoForTable(final MaxMessage message, final MXException mxe)
+    '''public Hashtable<String, String> getMessageInfoForTable(final MaxMessage message, final MXException mxe)
     public Hashtable<String, String> getMessageInfoForTable(final MaxMessage message, final Object[] params)
     '''
 def showEsigLoginDialog():
-    '''    public void showEsigLoginDialog(final ESigLoginException srcExcept)
+    '''public void showEsigLoginDialog(final ESigLoginException srcExcept)
     '''
 def addMXWarnings():
-    '''    public boolean addMXWarnings(final MXException[] warnings)
+    '''public boolean addMXWarnings(final MXException[] warnings)
     '''
 def handleMXWarnings():
-    '''    public boolean handleMXWarnings()
+    '''public boolean handleMXWarnings()
     public boolean handleMXWarnings(final boolean showMultipleWarningsSeparately)
     '''
 def setUserInput():
-    '''    public void setUserInput(final MXException mxe, final int msgReturn)
+    '''public void setUserInput(final MXException mxe, final int msgReturn)
     '''
 def clearUserInput():
-    '''    public void clearUserInput()
+    '''public void clearUserInput()
     '''
 def showLongopDialog():
-    '''    public void showLongopDialog(final String datasrc)
+    '''public void showLongopDialog(final String datasrc)
     '''
 def gotoApplink():
-    '''    public void gotoApplink(String url)
+    '''public void gotoApplink(String url)
     '''
 def handleDialogOK():
-    '''    public boolean handleDialogOK(final boolean advancedLongOp)
+    '''public boolean handleDialogOK(final boolean advancedLongOp)
     public boolean handleDialogOK(final boolean advancedLongOp, final String longOpMessage)
     '''
 def findControl():
-    '''    public ControlInstance findControl(final String controlId)
+    '''public ControlInstance findControl(final String controlId)
     '''
 def processProfiles():
-    '''    public int processProfiles(final String profileName)
+    '''public int processProfiles(final String profileName)
     '''
 def getSystemOptionMap():
-    '''    public Map<Integer, Map<String, String>> getSystemOptionMap()
+    '''public Map<Integer, Map<String, String>> getSystemOptionMap()
     '''
 def clearModuleMap():
-    '''    public void clearModuleMap()
+    '''public void clearModuleMap()
     '''
 def getModuleMap():
-    '''    public Map<Integer, Hashtable<String, String>> getModuleMap()
+    '''public Map<Integer, Hashtable<String, String>> getModuleMap()
     '''
 def getReportsMap():
-    '''    public Map<Integer, Map<String, String>> getReportsMap()
+    '''public Map<Integer, Map<String, String>> getReportsMap()
     '''
 def getSystemProperty():
-    '''    public String[] getSystemProperty(final String propertyName)
+    '''public String[] getSystemProperty(final String propertyName)
     '''
 def isPermanentLicense():
-    '''    public boolean isPermanentLicense()
+    '''public boolean isPermanentLicense()
     '''
 def getEvalDaysRemaining():
-    '''    public String getEvalDaysRemaining()
+    '''public String getEvalDaysRemaining()
     '''
 def invalidate():
-    '''    public void invalidate()
+    '''public void invalidate()
     '''
 def useLeftContextInterval():
-    '''    public void useLeftContextInterval(final boolean use)
+    '''public void useLeftContextInterval(final boolean use)
     '''
 def usingContextInterval():
-    '''    public boolean usingContextInterval()
+    '''public boolean usingContextInterval()
     '''
 def hasTimedOut():
-    '''    public boolean hasTimedOut()
+    '''public boolean hasTimedOut()
     '''
 def isValid():
-    '''    public boolean isValid()
+    '''public boolean isValid()
     '''
 def getRequestParameter():
-    '''    public String getRequestParameter(final String key)
+    '''public String getRequestParameter(final String key)
     '''
 def setLightningPortalMode():
-    '''    public void setLightningPortalMode(final boolean portalmode)
+    '''public void setLightningPortalMode(final boolean portalmode)
     '''
 def setPortalMode():
-    '''    public void setPortalMode(final boolean portalmode)
+    '''public void setPortalMode(final boolean portalmode)
     '''
 def getLightningPortalMode():
-    '''    public boolean getLightningPortalMode()
+    '''public boolean getLightningPortalMode()
     '''
 def getPortalMode():
-    '''    public boolean getPortalMode()
+    '''public boolean getPortalMode()
     '''
 def setTipPortalMode():
-    '''    public void setTipPortalMode(final boolean tipportalmode)
+    '''public void setTipPortalMode(final boolean tipportalmode)
     '''
 def getTipPortalMode():
-    '''    public boolean getTipPortalMode()
+    '''public boolean getTipPortalMode()
     '''
 def getDesignModeWebClientSession():
-    '''    public WebClientSession getDesignModeWebClientSession()
+    '''public WebClientSession getDesignModeWebClientSession()
     '''
 def hasDesignModeWebClientSession():
-    '''    public boolean hasDesignModeWebClientSession()
+    '''public boolean hasDesignModeWebClientSession()
     '''
 def setDesignModeWebClientSession():
-    '''    public void setDesignModeWebClientSession(final WebClientSession wcs)
+    '''public void setDesignModeWebClientSession(final WebClientSession wcs)
     '''
 def setOriginalSession():
-    '''    public void setOriginalSession(final WebClientSession wcs)
+    '''public void setOriginalSession(final WebClientSession wcs)
     '''
 def getOriginalSession():
-    '''    public WebClientSession getOriginalSession()
+    '''public WebClientSession getOriginalSession()
     '''
 def getContextPath():
-    '''    public String getContextPath()
+    '''public String getContextPath()
     '''
 def setDesignmode():
-    '''    public void setDesignmode(final boolean flag)
+    '''public void setDesignmode(final boolean flag)
     '''
 def getDesignmode():
-    '''    public boolean getDesignmode()
+    '''public boolean getDesignmode()
     '''
 def getMobile():
-    '''    public boolean getMobile()
+    '''public boolean getMobile()
     '''
 def setMobile():
-    '''    public void setMobile(final boolean setValue)
+    '''public void setMobile(final boolean setValue)
     '''
 def setLockMboOnEntry():
-    '''    public void setLockMboOnEntry(final boolean checkrecordlock)
+    '''public void setLockMboOnEntry(final boolean checkrecordlock)
     '''
 def lockMboOnEntry():
-    '''    public boolean lockMboOnEntry()
+    '''public boolean lockMboOnEntry()
     '''
 def setPerformanceDataHASH():
-    '''    public void setPerformanceDataHASH(final String keyName, final String value)
+    '''public void setPerformanceDataHASH(final String keyName, final String value)
     public void setPerformanceDataHASH(final String keyName, long sInputValue)
     '''
 def clearPerformanceDataHASH():
-    '''    public void clearPerformanceDataHASH(final String appname)
+    '''public void clearPerformanceDataHASH(final String appname)
     '''
 def clearAllTracking():
-    '''    public void clearAllTracking()
+    '''public void clearAllTracking()
     '''
 def getUISessionID():
-    '''    public String getUISessionID()
+    '''public String getUISessionID()
     '''
 def getUISessionUrlParameter():
-    '''    public String getUISessionUrlParameter()
+    '''public String getUISessionUrlParameter()
     '''
 def setUISessionID():
-    '''    public void setUISessionID(final String uiSessionID)
+    '''public void setUISessionID(final String uiSessionID)
     '''
 def setSessionFound():
-    '''    public void setSessionFound(final boolean flag)
+    '''public void setSessionFound(final boolean flag)
     '''
 def isSessionFound():
-    '''    public boolean isSessionFound()
+    '''public boolean isSessionFound()
     '''
 def valueBound():
-    '''    public void valueBound(final HttpSessionBindingEvent arg0)
+    '''public void valueBound(final HttpSessionBindingEvent arg0)
     '''
 def valueUnbound():
-    '''    public void valueUnbound(final HttpSessionBindingEvent arg0)
+    '''public void valueUnbound(final HttpSessionBindingEvent arg0)
     '''
 def isWebReplayEnabled():
-    '''    public boolean isWebReplayEnabled()
+    '''public boolean isWebReplayEnabled()
     '''
 def setShowWebReplay():
-    '''    public void setShowWebReplay(final boolean show)
+    '''public void setShowWebReplay(final boolean show)
     '''
 def getShowWebReplay():
-    '''    public boolean getShowWebReplay()
+    '''public boolean getShowWebReplay()
     '''
 def showWebReplay():
-    '''    public boolean showWebReplay(final HttpServletRequest request, final HttpServletResponse response)
+    '''public boolean showWebReplay(final HttpServletRequest request, final HttpServletResponse response)
     '''
 def hideWebReplay():
-    '''    public void hideWebReplay(final HttpServletRequest request, final HttpServletResponse response)
+    '''public void hideWebReplay(final HttpServletRequest request, final HttpServletResponse response)
     '''
 def getDebug():
-    '''    public boolean getDebug()
+    '''public boolean getDebug()
     '''
 def getDebugLevel():
-    '''    public int getDebugLevel()
+    '''public int getDebugLevel()
     '''
 def getEventLog():
-    '''    public String getEventLog()
+    '''public String getEventLog()
     '''
 def setDebugDock():
-    '''    public void setDebugDock(final String left, final String top)
+    '''public void setDebugDock(final String left, final String top)
     '''
 def setAccessibilityMode():
-    '''    public void setAccessibilityMode(final boolean mode)
+    '''public void setAccessibilityMode(final boolean mode)
     '''
 def getAccessibilityMode():
-    '''    public boolean getAccessibilityMode()
+    '''public boolean getAccessibilityMode()
     '''
 def getSystemEventHandler():
-    '''    public EventHandlerInterface getSystemEventHandler()
+    '''public EventHandlerInterface getSystemEventHandler()
     '''
 def cleanup():
-    '''    public void cleanup()
+    '''public void cleanup()
     '''
 def getImagePath():
-    '''    public String getImagePath()
+    '''public String getImagePath()
     '''
 def getCssPath():
-    '''    public String getCssPath()
+    '''public String getCssPath()
     '''
 def getWebClientURL():
-    '''    public String getWebClientURL()
+    '''public String getWebClientURL()
     '''
 def getImageURL():
-    '''    public String getImageURL()
+    '''public String getImageURL()
     '''
 def getCssURL():
-    '''    public String getCssURL()
+    '''public String getCssURL()
     '''
 def setImagePath():
-    '''    public void setImagePath(final String path)
+    '''public void setImagePath(final String path)
     '''
 def setCssPath():
-    '''    public void setCssPath(final String path)
+    '''public void setCssPath(final String path)
     '''
 def isCombinedSetValue():
-    '''    public boolean isCombinedSetValue()
+    '''public boolean isCombinedSetValue()
     '''
 def subFrameAllowed():
-    '''    public boolean subFrameAllowed()
+    '''public boolean subFrameAllowed()
     '''
 def forceMessagesToMainPage():
-    '''    public void forceMessagesToMainPage(final boolean forceMain)
+    '''public void forceMessagesToMainPage(final boolean forceMain)
     '''
 def getForceMessagesToMainPage():
-    '''    public boolean getForceMessagesToMainPage()
+    '''public boolean getForceMessagesToMainPage()
     '''
 def setAdvancedLongOp():
-    '''    public void setAdvancedLongOp(final boolean advanced)
+    '''public void setAdvancedLongOp(final boolean advanced)
     '''
 def isAutomationOn():
-    '''    public boolean isAutomationOn()
+    '''public boolean isAutomationOn()
     '''
 def turnAutomationOn():
-    '''    public void turnAutomationOn()
+    '''public void turnAutomationOn()
     '''
 def checkResults():
-    '''    public static void checkResults(final DataBean results, final WebClientSession clientSession, final AppInstance app)
+    '''public static void checkResults(final DataBean results, final WebClientSession clientSession, final AppInstance app)
     '''
 def replaceQbeclearButton():
-    '''    public Element replaceQbeclearButton(final Element dialogElement)
+    '''public Element replaceQbeclearButton(final Element dialogElement)
     '''
 def addMoreinfoButton():
-    '''    public Element addMoreinfoButton(final Element dialogElement, final String value)
+    '''public Element addMoreinfoButton(final Element dialogElement, final String value)
     '''
 def isMaximoOrTivoliBrand():
-    '''    public boolean isMaximoOrTivoliBrand()
+    '''public boolean isMaximoOrTivoliBrand()
     '''
 def killPopup():
-    '''    public void killPopup(final boolean killIt)
+    '''public void killPopup(final boolean killIt)
     public void killPopup(final WebClientEvent event)
     '''
 def wasPopupKilled():
-    '''    public boolean wasPopupKilled()
+    '''public boolean wasPopupKilled()
     '''
 def getMaximoRequestURI():
-    '''    public String getMaximoRequestURI()
+    '''public String getMaximoRequestURI()
     '''
 def getMaximoRequestURL():
-    '''    public String getMaximoRequestURL()
+    '''public String getMaximoRequestURL()
     '''
 def getMaximoRequestContextURL():
-    '''    public String getMaximoRequestContextURL()
+    '''public String getMaximoRequestContextURL()
     '''
 def getMaximoBaseURL():
-    '''    public String getMaximoBaseURL()
+    '''public String getMaximoBaseURL()
     '''
 def getDefautlFormat():
-    '''    public String getDefautlFormat()
+    '''public String getDefautlFormat()
     '''
 def setDefautlFormat():
-    '''    public void setDefautlFormat(final String defaultFormat)
+    '''public void setDefautlFormat(final String defaultFormat)
     '''
 def wereImagesPreLoaded():
-    '''    public boolean wereImagesPreLoaded()
+    '''public boolean wereImagesPreLoaded()
     '''
 def setImagesPreLoaded():
-    '''    public void setImagesPreLoaded(final boolean pre)
+    '''public void setImagesPreLoaded(final boolean pre)
     '''
 def lastAccessed():
-    '''    public Date lastAccessed()
+    '''public Date lastAccessed()
     '''
 def stamp():
-    '''    public void stamp()
+    '''public void stamp()
     '''
 def getFactoryId():
-    '''    public String getFactoryId()
+    '''public String getFactoryId()
     '''
 def getStartCenterCache():
-    '''    public Object getStartCenterCache(final String key)
+    '''public Object getStartCenterCache(final String key)
     '''
 def setStartCenterCache():
-    '''    public void setStartCenterCache(final String key, final Object obj)
+    '''public void setStartCenterCache(final String key, final Object obj)
     '''
 def resetStartCenterCache():
-    '''    public void resetStartCenterCache()
+    '''public void resetStartCenterCache()
     '''
 def resetPortletCaches():
-    '''    public void resetPortletCaches()
+    '''public void resetPortletCaches()
     '''
 def clearPortletCacheSelectively():
-    '''    public void clearPortletCacheSelectively(final String prefix)
+    '''public void clearPortletCacheSelectively(final String prefix)
     '''
 def clearPortletCacheOnKPIChange():
-    '''    public void clearPortletCacheOnKPIChange(final String kpiName)
+    '''public void clearPortletCacheOnKPIChange(final String kpiName)
     '''
 def clearPortletCacheOnReportChange():
-    '''    public void clearPortletCacheOnReportChange(final String reportId)
+    '''public void clearPortletCacheOnReportChange(final String reportId)
     '''
 def clearStartCenterCache():
-    '''    public void clearStartCenterCache(final String key)
+    '''public void clearStartCenterCache(final String key)
     '''
 def hasStartCenterCache():
-    '''    public boolean hasStartCenterCache(final String key)
+    '''public boolean hasStartCenterCache(final String key)
     '''
 def isAsyncEnabled():
-    '''    public boolean isAsyncEnabled()
+    '''public boolean isAsyncEnabled()
     '''
 def getAsyncRequestManager():
-    '''    public AsyncRequestManager getAsyncRequestManager()
+    '''public AsyncRequestManager getAsyncRequestManager()
     '''
 def performApplink():
-    '''    public void performApplink(final boolean canApplink)
+    '''public void performApplink(final boolean canApplink)
     '''
 def canPerformApplink():
-    '''    public boolean canPerformApplink()
+    '''public boolean canPerformApplink()
     '''
 def processRender():
-    '''    public void processRender()
+    '''public void processRender()
     '''
 def getDebugDockLeft():
-    '''    public int getDebugDockLeft()
+    '''public int getDebugDockLeft()
     '''
 def getDebugDockTop():
-    '''    public int getDebugDockTop()
+    '''public int getDebugDockTop()
     '''
 def getIEVersion():
-    '''    public double getIEVersion()
+    '''public double getIEVersion()
     '''
 def setInFrameset():
-    '''    public void setInFrameset(final boolean isInFrameset)
+    '''public void setInFrameset(final boolean isInFrameset)
     '''
 def isInFrameset():
-    '''    public boolean isInFrameset()
+    '''public boolean isInFrameset()
     '''
 def canUseStaticIds():
-    '''    public boolean canUseStaticIds()
+    '''public boolean canUseStaticIds()
     '''
 def getImageSourcePath():
-    '''    public String getImageSourcePath()
+    '''public String getImageSourcePath()
     '''
 def getDialogIcon():
-    '''    public String getDialogIcon(final String suffix)
+    '''public String getDialogIcon(final String suffix)
     '''
 def getWarningInfo():
-    '''    public ContainerErrorInfo getWarningInfo()
+    '''public ContainerErrorInfo getWarningInfo()
     '''
 def getSmartFillExceptionInfo():
-    '''    public ContainerErrorInfo getSmartFillExceptionInfo()
+    '''public ContainerErrorInfo getSmartFillExceptionInfo()
     '''
 def getExceptionInfo():
-    '''    public ContainerErrorInfo getExceptionInfo()
+    '''public ContainerErrorInfo getExceptionInfo()
     '''
 def getQuestionInfo():
-    '''    public ContainerErrorInfo getQuestionInfo()
+    '''public ContainerErrorInfo getQuestionInfo()
     '''
 def getContainerErrorIconJSON():
-    '''    public JSONObject getContainerErrorIconJSON()
+    '''public JSONObject getContainerErrorIconJSON()
     '''
 def getConditionalUIHelper():
-    '''    public ConditionalUIHelper getConditionalUIHelper()
+    '''public ConditionalUIHelper getConditionalUIHelper()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getDefaultStartApp():
-    '''    public String getDefaultStartApp()
+    '''public String getDefaultStartApp()
     '''
 def getRegexPattern():
-    '''    public String getRegexPattern(final int dataType)
+    '''public String getRegexPattern(final int dataType)
     '''
 def setMenusCached():
-    '''    public void setMenusCached(final boolean cached)
+    '''public void setMenusCached(final boolean cached)
     '''
 def getMenusCached():
-    '''    public boolean getMenusCached()
+    '''public boolean getMenusCached()
     '''
 def hasPausedEvents():
-    '''    public boolean hasPausedEvents()
+    '''public boolean hasPausedEvents()
     '''
 def getDesignerAsyncRequestManager():
-    '''    public AsyncRequestManager getDesignerAsyncRequestManager()
+    '''public AsyncRequestManager getDesignerAsyncRequestManager()
     '''
 def setAttribute():
-    '''    public void setAttribute(final String attributeName, final Object value)
+    '''public void setAttribute(final String attributeName, final Object value)
     '''
 def getAttribute():
-    '''    public Object getAttribute(final String attributeName)
+    '''public Object getAttribute(final String attributeName)
     '''
 def attachUOM():
-    '''    public String attachUOM(String size)
+    '''public String attachUOM(String size)
     '''
 def removeUOM():
-    '''    public String removeUOM(String size)
+    '''public String removeUOM(String size)
     '''
 def useVerticalLabels():
-    '''    public boolean useVerticalLabels()
+    '''public boolean useVerticalLabels()
     '''
 def generateOneTimeCSRFTokenParameter():
-    '''    public String generateOneTimeCSRFTokenParameter()
+    '''public String generateOneTimeCSRFTokenParameter()
     '''
 def generateRetryCSRFTokenParameter():
-    '''    public String generateRetryCSRFTokenParameter()
+    '''public String generateRetryCSRFTokenParameter()
     '''
 def isTempTokenValid():
-    '''    public boolean isTempTokenValid(final String oneTimeToken)
+    '''public boolean isTempTokenValid(final String oneTimeToken)
     '''
 def getCSRFToken():
-    '''    public String getCSRFToken()
+    '''public String getCSRFToken()
     '''
 def getCSRFTokenParameter():
-    '''    public String getCSRFTokenParameter()
+    '''public String getCSRFTokenParameter()
     '''
 def showSystemNavBar():
-    '''    public boolean showSystemNavBar(final PageInstance page)
+    '''public boolean showSystemNavBar(final PageInstance page)
     '''
 def getMessageBoxQueue():
-    '''    public Queue<Map<String, String>> getMessageBoxQueue()
+    '''public Queue<Map<String, String>> getMessageBoxQueue()
     '''
 def getFeaturePack():
-    '''    public String getFeaturePack()
+    '''public String getFeaturePack()
     '''
 def supportsLocalStorage():
-    '''    public boolean supportsLocalStorage()
+    '''public boolean supportsLocalStorage()
     '''
 def setLeftNavWidth():
-    '''    public void setLeftNavWidth(final String width)
+    '''public void setLeftNavWidth(final String width)
     '''
 def getLeftNavWidth():
-    '''    public String getLeftNavWidth(final PageInstance page)
+    '''public String getLeftNavWidth(final PageInstance page)
     '''
 def valueFor():
-    '''    public static RequestType valueFor(final String type)
+    '''public static RequestType valueFor(final String type)
     '''
 def Alignment():
-    '''    public Alignment(final String langcode)
+    '''public Alignment(final String langcode)
     '''
 def reverse():
-    '''    public String reverse(final String align)
+    '''public String reverse(final String align)
     '''

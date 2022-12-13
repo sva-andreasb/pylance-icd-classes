@@ -1,3 +1,3 @@
 def PlusPBSHistorySet():
-    '''    public PlusPBSHistorySet(final MboServerInterface mboServerInterface)
+    '''public PlusPBSHistorySet(final MboServerInterface mboServerInterface)
     '''

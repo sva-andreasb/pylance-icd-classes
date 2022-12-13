@@ -1,36 +1,36 @@
 def CachedObjectPointer():
-    '''    public CachedObjectPointer(final long id)
+    '''public CachedObjectPointer(final long id)
     '''
 def isSameTenantAsReference():
-    '''    public boolean isSameTenantAsReference(final String repositoryName)
+    '''public boolean isSameTenantAsReference(final String repositoryName)
     '''
 def setID():
-    '''    public void setID(final long id)
+    '''public void setID(final long id)
     '''
 def getID():
-    '''    public long getID()
+    '''public long getID()
     '''
 def getCacheName():
-    '''    public String getCacheName()
+    '''public String getCacheName()
     '''
 def getReference():
-    '''    public CachedObject getReference(final String repositoryName)
+    '''public CachedObject getReference(final String repositoryName)
     '''
 def getReferenceForSet():
-    '''    public CachedObject getReferenceForSet(final String repositoryName)
+    '''public CachedObject getReferenceForSet(final String repositoryName)
     '''
 def setReference():
-    '''    public void setReference(final String repositoryName)
+    '''public void setReference(final String repositoryName)
     '''
 def setTenantReference():
-    '''    public void setTenantReference(final String repositoryName)
+    '''public void setTenantReference(final String repositoryName)
     '''
 def getClonedInfo():
-    '''    public CachedObject getClonedInfo()
+    '''public CachedObject getClonedInfo()
     '''
 def getParent():
-    '''    public NewDomainInfo getParent()
+    '''public NewDomainInfo getParent()
     '''
 def setParent():
-    '''    public void setParent(final NewDomainInfo parent)
+    '''public void setParent(final NewDomainInfo parent)
     '''

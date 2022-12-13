@@ -1,6 +1,6 @@
 def FldAppointmentBookCalNum():
-    '''    public FldAppointmentBookCalNum(final MboValue mbv)
+    '''public FldAppointmentBookCalNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

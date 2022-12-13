@@ -1,3 +1,3 @@
 def MalformedPolicyDocumentException():
-    '''    public MalformedPolicyDocumentException(final String message)
+    '''public MalformedPolicyDocumentException(final String message)
     '''

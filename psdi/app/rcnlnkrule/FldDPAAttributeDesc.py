@@ -1,3 +1,3 @@
 def FldDPAAttributeDesc():
-    '''    public FldDPAAttributeDesc(final MboValue mbv)
+    '''public FldDPAAttributeDesc(final MboValue mbv)
     '''

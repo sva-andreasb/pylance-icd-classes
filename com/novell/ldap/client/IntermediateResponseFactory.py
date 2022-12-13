@@ -1,3 +1,3 @@
 def convertToIntermediateResponse():
-    '''    public static LDAPIntermediateResponse convertToIntermediateResponse(final RfcLDAPMessage rfcLDAPMessage)
+    '''public static LDAPIntermediateResponse convertToIntermediateResponse(final RfcLDAPMessage rfcLDAPMessage)
     '''

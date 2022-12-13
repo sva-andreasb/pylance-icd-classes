@@ -1,3 +1,3 @@
 def APPLYALLASSETLOC():
-    '''    public int APPLYALLASSETLOC()
+    '''public int APPLYALLASSETLOC()
     '''

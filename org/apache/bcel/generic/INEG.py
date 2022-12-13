@@ -1,6 +1,6 @@
 def INEG():
-    '''    public INEG()
+    '''public INEG()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

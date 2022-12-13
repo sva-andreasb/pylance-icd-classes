@@ -1,6 +1,6 @@
 def PlusPFldCommonPool():
-    '''    public PlusPFldCommonPool(final MboValue mbv)
+    '''public PlusPFldCommonPool(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

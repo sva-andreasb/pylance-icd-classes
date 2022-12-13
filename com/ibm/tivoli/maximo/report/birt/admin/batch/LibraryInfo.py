@@ -1,3 +1,3 @@
 def LibraryInfo():
-    '''    public LibraryInfo(final String name)
+    '''public LibraryInfo(final String name)
     '''

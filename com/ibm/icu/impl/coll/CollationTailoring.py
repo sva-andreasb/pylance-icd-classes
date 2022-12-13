@@ -1,3 +1,3 @@
 def getRules():
-    '''    public String getRules()
+    '''public String getRules()
     '''

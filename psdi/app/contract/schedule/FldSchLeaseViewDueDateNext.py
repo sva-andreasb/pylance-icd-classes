@@ -1,6 +1,6 @@
 def FldSchLeaseViewDueDateNext():
-    '''    public FldSchLeaseViewDueDateNext(final MboValue mbv)
+    '''public FldSchLeaseViewDueDateNext(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

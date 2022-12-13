@@ -1,3 +1,3 @@
 def connect():
-    '''    public synchronized void connect()
+    '''public synchronized void connect()
     '''

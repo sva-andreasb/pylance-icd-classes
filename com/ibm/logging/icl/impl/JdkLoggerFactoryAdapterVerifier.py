@@ -1,3 +1,3 @@
 def isFactoryInstantiable():
-    '''    public boolean isFactoryInstantiable()
+    '''public boolean isFactoryInstantiable()
     '''

@@ -1,3 +1,3 @@
 def TripleMatchIterator():
-    '''    public TripleMatchIterator(final Triple m, final Iterator<Triple> iter)
+    '''public TripleMatchIterator(final Triple m, final Iterator<Triple> iter)
     '''

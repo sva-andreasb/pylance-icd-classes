@@ -1,7 +1,7 @@
 DEFAULT_PORT = "int  443"
 _default_port = "int  443"
 def HttpsURL():
-    '''    public HttpsURL(final char[] escaped, final String charset)
+    '''public HttpsURL(final char[] escaped, final String charset)
     public HttpsURL(final char[] escaped)
     public HttpsURL(final String original, final String charset)
     public HttpsURL(final String original)
@@ -21,11 +21,11 @@ def HttpsURL():
     public HttpsURL(final HttpsURL base, final HttpsURL relative)
     '''
 def getRawScheme():
-    '''    public char[] getRawScheme()
+    '''public char[] getRawScheme()
     '''
 def getScheme():
-    '''    public String getScheme()
+    '''public String getScheme()
     '''
 def getPort():
-    '''    public int getPort()
+    '''public int getPort()
     '''

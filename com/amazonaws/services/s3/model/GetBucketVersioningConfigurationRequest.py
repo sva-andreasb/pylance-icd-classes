@@ -1,3 +1,3 @@
 def GetBucketVersioningConfigurationRequest():
-    '''    public GetBucketVersioningConfigurationRequest(final String bucketName)
+    '''public GetBucketVersioningConfigurationRequest(final String bucketName)
     '''

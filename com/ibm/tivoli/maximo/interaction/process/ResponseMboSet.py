@@ -1,9 +1,9 @@
 def ResponseMboSet():
-    '''    public ResponseMboSet(final MboServerInterface ms)
+    '''public ResponseMboSet(final MboServerInterface ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

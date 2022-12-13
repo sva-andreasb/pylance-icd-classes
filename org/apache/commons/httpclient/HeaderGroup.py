@@ -1,36 +1,36 @@
 def HeaderGroup():
-    '''    public HeaderGroup()
+    '''public HeaderGroup()
     '''
 def clear():
-    '''    public void clear()
+    '''public void clear()
     '''
 def addHeader():
-    '''    public void addHeader(final Header header)
+    '''public void addHeader(final Header header)
     '''
 def removeHeader():
-    '''    public void removeHeader(final Header header)
+    '''public void removeHeader(final Header header)
     '''
 def setHeaders():
-    '''    public void setHeaders(final Header[] headers)
+    '''public void setHeaders(final Header[] headers)
     '''
 def getCondensedHeader():
-    '''    public Header getCondensedHeader(final String name)
+    '''public Header getCondensedHeader(final String name)
     '''
 def getHeaders():
-    '''    public Header[] getHeaders(final String name)
+    '''public Header[] getHeaders(final String name)
     '''
 def getFirstHeader():
-    '''    public Header getFirstHeader(final String name)
+    '''public Header getFirstHeader(final String name)
     '''
 def getLastHeader():
-    '''    public Header getLastHeader(final String name)
+    '''public Header getLastHeader(final String name)
     '''
 def getAllHeaders():
-    '''    public Header[] getAllHeaders()
+    '''public Header[] getAllHeaders()
     '''
 def containsHeader():
-    '''    public boolean containsHeader(final String name)
+    '''public boolean containsHeader(final String name)
     '''
 def getIterator():
-    '''    public Iterator getIterator()
+    '''public Iterator getIterator()
     '''

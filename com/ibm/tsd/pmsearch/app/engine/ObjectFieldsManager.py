@@ -1,49 +1,49 @@
 def ObjectFieldsManager():
-    '''    public ObjectFieldsManager(final String workingDirectory)
+    '''public ObjectFieldsManager(final String workingDirectory)
     '''
 def getObjectList():
-    '''    public Collection<String> getObjectList()
+    '''public Collection<String> getObjectList()
     '''
 def getAllObjectsFields():
-    '''    public Map<String, ObjectFields> getAllObjectsFields()
+    '''public Map<String, ObjectFields> getAllObjectsFields()
     '''
 def getSolutionField():
-    '''    public ObjectFields getSolutionField()
+    '''public ObjectFields getSolutionField()
     '''
 def getBBField():
-    '''    public ObjectFields getBBField()
+    '''public ObjectFields getBBField()
     '''
 def getOfferingField():
-    '''    public ObjectFields getOfferingField()
+    '''public ObjectFields getOfferingField()
     '''
 def getTicketTemplateField():
-    '''    public ObjectFields getTicketTemplateField()
+    '''public ObjectFields getTicketTemplateField()
     '''
 def getCatalogRequestField():
-    '''    public ObjectFields getCatalogRequestField()
+    '''public ObjectFields getCatalogRequestField()
     '''
 def getSRField():
-    '''    public ObjectFields getSRField()
+    '''public ObjectFields getSRField()
     '''
 def getProblemField():
-    '''    public ObjectFields getProblemField()
+    '''public ObjectFields getProblemField()
     '''
 def getIncidentField():
-    '''    public ObjectFields getIncidentField()
+    '''public ObjectFields getIncidentField()
     '''
 def existFileTemplate():
-    '''    public boolean existFileTemplate()
+    '''public boolean existFileTemplate()
     '''
 def createUpdateFileTemplate():
-    '''    public void createUpdateFileTemplate()
+    '''public void createUpdateFileTemplate()
     public void createUpdateFileTemplate(final Map<String, String[]> objectToFieldsMap)
     '''
 def storeFileTemplate():
-    '''    public void storeFileTemplate(final Properties prop)
+    '''public void storeFileTemplate(final Properties prop)
     '''
 def createCommaString():
-    '''    public static String createCommaString(final Iterable<String> items)
+    '''public static String createCommaString(final Iterable<String> items)
     '''
 def main():
-    '''    public static void main(final String[] args)
+    '''public static void main(final String[] args)
     '''

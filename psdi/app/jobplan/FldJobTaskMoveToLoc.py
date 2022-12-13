@@ -1,3 +1,3 @@
 def FldJobTaskMoveToLoc():
-    '''    public FldJobTaskMoveToLoc(final MboValue mbv)
+    '''public FldJobTaskMoveToLoc(final MboValue mbv)
     '''

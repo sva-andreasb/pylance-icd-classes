@@ -1,5 +1,5 @@
 def Trigger():
-    '''    public Trigger()
+    '''public Trigger()
     public Trigger(final ParameterList aList, final String aValue)
     public Trigger(final Dur duration)
     public Trigger(final TemporalAmount duration)
@@ -9,27 +9,27 @@ def Trigger():
     public Trigger(final ParameterList aList, final DateTime dateTime)
     '''
 def validate():
-    '''    public final void validate()
+    '''public final void validate()
     '''
 def getDuration():
-    '''    public final TemporalAmount getDuration()
+    '''public final TemporalAmount getDuration()
     '''
 def setValue():
-    '''    public final void setValue(final String aValue)
+    '''public final void setValue(final String aValue)
     '''
 def getValue():
-    '''    public final String getValue()
+    '''public final String getValue()
     '''
 def setDateTime():
-    '''    public final void setDateTime(final DateTime dateTime)
+    '''public final void setDateTime(final DateTime dateTime)
     '''
 def setDuration():
-    '''    public final void setDuration(final TemporalAmount duration)
+    '''public final void setDuration(final TemporalAmount duration)
     '''
 def Factory():
-    '''    public Factory()
+    '''public Factory()
     '''
 def createProperty():
-    '''    public Property createProperty(final ParameterList parameters, final String value)
+    '''public Property createProperty(final ParameterList parameters, final String value)
     public Property createProperty()
     '''

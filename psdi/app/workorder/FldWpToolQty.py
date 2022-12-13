@@ -1,6 +1,6 @@
 def FldWpToolQty():
-    '''    public FldWpToolQty(final MboValue mbv)
+    '''public FldWpToolQty(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

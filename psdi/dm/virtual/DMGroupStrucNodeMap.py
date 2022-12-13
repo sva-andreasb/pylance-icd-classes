@@ -1,3 +1,3 @@
 def DMGroupStrucNodeMap():
-    '''    public DMGroupStrucNodeMap()
+    '''public DMGroupStrucNodeMap()
     '''

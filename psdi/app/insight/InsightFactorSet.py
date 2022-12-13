@@ -1,3 +1,3 @@
 def InsightFactorSet():
-    '''    public InsightFactorSet(final MboServerInterface ms)
+    '''public InsightFactorSet(final MboServerInterface ms)
     '''

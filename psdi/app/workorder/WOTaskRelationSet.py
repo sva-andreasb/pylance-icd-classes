@@ -1,27 +1,27 @@
 def WOTaskRelationSet():
-    '''    public WOTaskRelationSet(final MboServerInterface ms)
+    '''public WOTaskRelationSet(final MboServerInterface ms)
     '''
 def add():
-    '''    public boolean add(final String[][] values)
+    '''public boolean add(final String[][] values)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''
 def addAtIndex():
-    '''    public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''public MboRemote addAtIndex(final long accessModifier, final int index)
     '''
 def remove():
-    '''    public void remove(final MboRemote mbo)
+    '''public void remove(final MboRemote mbo)
     '''
 def addListener():
-    '''    public void addListener(final MboSetListener l)
+    '''public void addListener(final MboSetListener l)
     '''
 def removeListener():
-    '''    public void removeListener(final MboSetListener l)
+    '''public void removeListener(final MboSetListener l)
     '''
 def reportModifiedMbo():
-    '''    public void reportModifiedMbo(final MboRemote modifiedMbo)
+    '''public void reportModifiedMbo(final MboRemote modifiedMbo)
     '''
 def isMXLoader():
-    '''    public boolean isMXLoader()
+    '''public boolean isMXLoader()
     '''

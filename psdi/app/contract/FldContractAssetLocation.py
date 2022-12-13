@@ -1,3 +1,3 @@
 def FldContractAssetLocation():
-    '''    public FldContractAssetLocation(final MboValue mbv)
+    '''public FldContractAssetLocation(final MboValue mbv)
     '''

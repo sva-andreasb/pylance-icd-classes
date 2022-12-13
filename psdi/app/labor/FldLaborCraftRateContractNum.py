@@ -1,6 +1,6 @@
 def FldLaborCraftRateContractNum():
-    '''    public FldLaborCraftRateContractNum(final MboValue mbv)
+    '''public FldLaborCraftRateContractNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

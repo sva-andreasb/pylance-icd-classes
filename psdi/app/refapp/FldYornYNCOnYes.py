@@ -1,12 +1,12 @@
 def FldYornYNCOnYes():
-    '''    public FldYornYNCOnYes(final MboValue mbv)
+    '''public FldYornYNCOnYes(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def processYes():
-    '''    public void processYes()
+    '''public void processYes()
     '''
 def processNo():
-    '''    public void processNo()
+    '''public void processNo()
     '''

@@ -1,3 +1,3 @@
 def refreshspo():
-    '''    public int refreshspo()
+    '''public int refreshspo()
     '''

@@ -1,12 +1,12 @@
 def PageContentsDocumentImpl():
-    '''    public PageContentsDocumentImpl(final SchemaType schemaType)
+    '''public PageContentsDocumentImpl(final SchemaType schemaType)
     '''
 def getPageContents():
-    '''    public PageContentsType getPageContents()
+    '''public PageContentsType getPageContents()
     '''
 def setPageContents():
-    '''    public void setPageContents(final PageContentsType pageContentsType)
+    '''public void setPageContents(final PageContentsType pageContentsType)
     '''
 def addNewPageContents():
-    '''    public PageContentsType addNewPageContents()
+    '''public PageContentsType addNewPageContents()
     '''

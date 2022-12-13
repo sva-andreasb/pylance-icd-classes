@@ -1,6 +1,6 @@
 def FldEndpointName():
-    '''    public FldEndpointName(final MboValue mbv)
+    '''public FldEndpointName(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

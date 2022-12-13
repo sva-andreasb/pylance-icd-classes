@@ -1,6 +1,6 @@
 def applyTo():
-    '''    public void applyTo(final Created created)
+    '''public void applyTo(final Created created)
     '''
 def getSupportedType():
-    '''    public Class<Created> getSupportedType()
+    '''public Class<Created> getSupportedType()
     '''

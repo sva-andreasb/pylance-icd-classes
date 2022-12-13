@@ -1,51 +1,51 @@
 def PlusPTicketUtil():
-    '''    public PlusPTicketUtil(final Mbo ticket)
+    '''public PlusPTicketUtil(final Mbo ticket)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def warnAssociatedWithBillBatch():
-    '''    public boolean warnAssociatedWithBillBatch(final String s)
+    '''public boolean warnAssociatedWithBillBatch(final String s)
     '''
 def calculateTotals():
-    '''    public static void calculateTotals(final MboRemote mboRemote, final boolean b, final boolean b2)
+    '''public static void calculateTotals(final MboRemote mboRemote, final boolean b, final boolean b2)
     '''
 def resetAddressUserInput():
-    '''    public void resetAddressUserInput()
+    '''public void resetAddressUserInput()
     '''
 def setStreetAddress():
-    '''    public void setStreetAddress()
+    '''public void setStreetAddress()
     '''
 def isClosed():
-    '''    public boolean isClosed()
+    '''public boolean isClosed()
     '''
 def removePS():
-    '''    public boolean removePS(final String ek)
+    '''public boolean removePS(final String ek)
     '''
 def recalculatePrices():
-    '''    public void recalculatePrices(final MboRemote mboRemote)
+    '''public void recalculatePrices(final MboRemote mboRemote)
     '''
 def allowPropagateKeyValue():
-    '''    public boolean allowPropagateKeyValue()
+    '''public boolean allowPropagateKeyValue()
     '''
 def duplicateExtraMbos():
-    '''    public void duplicateExtraMbos(final MboRemote mboRemote)
+    '''public void duplicateExtraMbos(final MboRemote mboRemote)
     '''
 def skipCopyField():
-    '''    public boolean skipCopyField(final MboValueInfo mboValueInfo)
+    '''public boolean skipCopyField(final MboValueInfo mboValueInfo)
     '''
 def updateTicketChildrenInformation():
-    '''    public static void updateTicketChildrenInformation(final MboRemote mboRemote, final String s, final String s2)
+    '''public static void updateTicketChildrenInformation(final MboRemote mboRemote, final String s, final String s2)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete(final long n)
+    '''public void delete(final long n)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def hasBeenBilled():
-    '''    public boolean hasBeenBilled()
+    '''public boolean hasBeenBilled()
     '''

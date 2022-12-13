@@ -1,15 +1,15 @@
 def MailDateFormat():
-    '''    public MailDateFormat()
+    '''public MailDateFormat()
     '''
 def setNumberFormat():
-    '''    public void setNumberFormat(final NumberFormat newNumberFormat)
+    '''public void setNumberFormat(final NumberFormat newNumberFormat)
     '''
 def setCalendar():
-    '''    public void setCalendar(final Calendar newCalendar)
+    '''public void setCalendar(final Calendar newCalendar)
     '''
 def parse():
-    '''    public Date parse(final String text, final ParsePosition pos)
+    '''public Date parse(final String text, final ParsePosition pos)
     '''
 def format():
-    '''    public StringBuffer format(final Date date, final StringBuffer dateStrBuf, final FieldPosition fieldPosition)
+    '''public StringBuffer format(final Date date, final StringBuffer dateStrBuf, final FieldPosition fieldPosition)
     '''

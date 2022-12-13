@@ -1,3 +1,3 @@
 def FieldPlaceholderParserHelper():
-    '''    public FieldPlaceholderParserHelper()
+    '''public FieldPlaceholderParserHelper()
     '''

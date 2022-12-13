@@ -1,3 +1,3 @@
 def FldMainExternalObjectName():
-    '''    public FldMainExternalObjectName(final MboValue mbv)
+    '''public FldMainExternalObjectName(final MboValue mbv)
     '''

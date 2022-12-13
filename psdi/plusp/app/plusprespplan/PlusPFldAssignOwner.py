@@ -1,6 +1,6 @@
 def PlusPFldAssignOwner():
-    '''    public PlusPFldAssignOwner(final MboValue arg0)
+    '''public PlusPFldAssignOwner(final MboValue arg0)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

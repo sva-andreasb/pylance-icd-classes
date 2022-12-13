@@ -1,3 +1,3 @@
 def SKDProjectChangeStatusSet():
-    '''    public SKDProjectChangeStatusSet(final MboServerInterface ms)
+    '''public SKDProjectChangeStatusSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def IEMObjMbo():
-    '''    public IEMObjMbo(final MboSet ms)
+    '''public IEMObjMbo(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

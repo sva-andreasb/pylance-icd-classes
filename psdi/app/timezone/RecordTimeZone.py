@@ -1,3 +1,3 @@
 def RecordTimeZone():
-    '''    public RecordTimeZone(final MboSet ms)
+    '''public RecordTimeZone(final MboSet ms)
     '''

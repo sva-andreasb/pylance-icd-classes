@@ -1,3 +1,3 @@
 def RequestLogSet():
-    '''    public RequestLogSet(final MboServerInterface ms)
+    '''public RequestLogSet(final MboServerInterface ms)
     '''

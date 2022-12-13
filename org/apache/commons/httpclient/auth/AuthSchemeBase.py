@@ -1,12 +1,12 @@
 def AuthSchemeBase():
-    '''    public AuthSchemeBase(final String challenge)
+    '''public AuthSchemeBase(final String challenge)
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

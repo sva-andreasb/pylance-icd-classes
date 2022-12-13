@@ -1,6 +1,6 @@
 def CaseWhenCollector():
-    '''    public CaseWhenCollector()
+    '''public CaseWhenCollector()
     '''
 def accept():
-    '''    public boolean accept(final Node n)
+    '''public boolean accept(final Node n)
     '''

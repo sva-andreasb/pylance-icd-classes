@@ -1,3 +1,3 @@
 def RequestAndSize():
-    '''    public RequestAndSize(final AbstractRequest request, final int size)
+    '''public RequestAndSize(final AbstractRequest request, final int size)
     '''

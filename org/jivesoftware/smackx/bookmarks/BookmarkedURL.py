@@ -1,18 +1,18 @@
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getURL():
-    '''    public String getURL()
+    '''public String getURL()
     '''
 def isRss():
-    '''    public boolean isRss()
+    '''public boolean isRss()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def isShared():
-    '''    public boolean isShared()
+    '''public boolean isShared()
     '''

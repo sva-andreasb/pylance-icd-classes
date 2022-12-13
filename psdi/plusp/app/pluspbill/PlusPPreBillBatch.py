@@ -1,3 +1,3 @@
 def PlusPPreBillBatch():
-    '''    public PlusPPreBillBatch(final MboSet set)
+    '''public PlusPPreBillBatch(final MboSet set)
     '''

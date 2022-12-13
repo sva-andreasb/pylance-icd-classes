@@ -1,3 +1,3 @@
 def FldDocinfoDoctype():
-    '''    public FldDocinfoDoctype(final MboValue mbv)
+    '''public FldDocinfoDoctype(final MboValue mbv)
     '''

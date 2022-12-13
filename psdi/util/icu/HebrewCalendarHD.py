@@ -1,5 +1,5 @@
 def HebrewCalendarHD():
-    '''    public HebrewCalendarHD()
+    '''public HebrewCalendarHD()
     public HebrewCalendarHD(final TimeZone zone)
     public HebrewCalendarHD(final Locale locale)
     public HebrewCalendarHD(final ULocale locale)

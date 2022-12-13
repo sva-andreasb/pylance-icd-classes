@@ -1,33 +1,33 @@
 def AssetFeatureSpec():
-    '''    public AssetFeatureSpec(final MboSet ms)
+    '''public AssetFeatureSpec(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def addDetailInfor():
-    '''    public void addDetailInfor(final MboRemote mbo, final MboRemote classspec)
+    '''public void addDetailInfor(final MboRemote mbo, final MboRemote classspec)
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''
 def isChangeByUserWhenSetFromLookup():
-    '''    public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
+    '''public boolean isChangeByUserWhenSetFromLookup(final String lookupAttrName, final String attributeName)
     '''
 def isSpecModified():
-    '''    public boolean isSpecModified()
+    '''public boolean isSpecModified()
     '''
 def getSpecHistory():
-    '''    public MboSetRemote getSpecHistory()
+    '''public MboSetRemote getSpecHistory()
     '''
 def updateSpecHistory():
-    '''    public void updateSpecHistory()
+    '''public void updateSpecHistory()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

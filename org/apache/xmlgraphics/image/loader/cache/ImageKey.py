@@ -1,12 +1,12 @@
 def ImageKey():
-    '''    public ImageKey(final String uri, final ImageFlavor flavor)
+    '''public ImageKey(final String uri, final ImageFlavor flavor)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

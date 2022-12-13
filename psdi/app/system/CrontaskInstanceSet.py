@@ -1,6 +1,6 @@
 def CrontaskInstanceSet():
-    '''    public CrontaskInstanceSet(final MboServerInterface ms)
+    '''public CrontaskInstanceSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

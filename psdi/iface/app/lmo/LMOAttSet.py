@@ -1,3 +1,3 @@
 def LMOAttSet():
-    '''    public LMOAttSet(final MboServerInterface ms)
+    '''public LMOAttSet(final MboServerInterface ms)
     '''

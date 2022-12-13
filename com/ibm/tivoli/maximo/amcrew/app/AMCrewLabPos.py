@@ -1,39 +1,39 @@
 def AMCrewLabPos():
-    '''    public AMCrewLabPos(final MboSet ms)
+    '''public AMCrewLabPos(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def deleteAssociatedQuals():
-    '''    public void deleteAssociatedQuals(final String position)
+    '''public void deleteAssociatedQuals(final String position)
     '''
 def deleteAssociatedLabor():
-    '''    public void deleteAssociatedLabor(final String position)
+    '''public void deleteAssociatedLabor(final String position)
     '''
 def setRequirementStatus():
-    '''    public void setRequirementStatus(final String amcrew, final String orgid, final Date crewShiftStart, final Date crewShiftEnd, final Date crewDate)
+    '''public void setRequirementStatus(final String amcrew, final String orgid, final Date crewShiftStart, final Date crewShiftEnd, final Date crewDate)
     '''
 def setStatusFromAssignedLabor():
-    '''    public void setStatusFromAssignedLabor(final MboSet laborSet, final Date crewShiftStart, final Date crewShiftEnd, final Date crewDate)
+    '''public void setStatusFromAssignedLabor(final MboSet laborSet, final Date crewShiftStart, final Date crewShiftEnd, final Date crewDate)
     '''
 def sortLaborWithModAvail():
-    '''    public ArrayList<LaborStatusCompare> sortLaborWithModAvail(final MboSet laborSet, final Date crewDate)
+    '''public ArrayList<LaborStatusCompare> sortLaborWithModAvail(final MboSet laborSet, final Date crewDate)
     '''
 def LaborStatusCompare():
-    '''    public LaborStatusCompare(final MboRemote currentLabor)
+    '''public LaborStatusCompare(final MboRemote currentLabor)
     '''
 def compareTo():
-    '''    public int compareTo(final LaborStatusCompare compareLabor)
+    '''public int compareTo(final LaborStatusCompare compareLabor)
     '''

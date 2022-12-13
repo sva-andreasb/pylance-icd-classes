@@ -1,6 +1,6 @@
 def FldWOSRSrvadFields():
-    '''    public FldWOSRSrvadFields(final MboValue mbv)
+    '''public FldWOSRSrvadFields(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

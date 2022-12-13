@@ -1,6 +1,6 @@
 def WOMeterSet():
-    '''    public WOMeterSet(final MboServerInterface ms)
+    '''public WOMeterSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

@@ -1,6 +1,6 @@
 def CommLogDocSet():
-    '''    public CommLogDocSet(final MboServerInterface ms)
+    '''public CommLogDocSet(final MboServerInterface ms)
     '''
 def copyFromDocLinks():
-    '''    public void copyFromDocLinks()
+    '''public void copyFromDocLinks()
     '''

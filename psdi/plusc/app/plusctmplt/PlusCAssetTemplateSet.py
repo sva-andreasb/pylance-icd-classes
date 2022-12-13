@@ -1,3 +1,3 @@
 def PlusCAssetTemplateSet():
-    '''    public PlusCAssetTemplateSet(final MboServerInterface ms)
+    '''public PlusCAssetTemplateSet(final MboServerInterface ms)
     '''

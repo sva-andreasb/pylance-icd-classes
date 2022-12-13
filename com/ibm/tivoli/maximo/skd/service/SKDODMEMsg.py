@@ -1,3 +1,3 @@
 def SKDODMEMsg():
-    '''    public SKDODMEMsg(final MboSet ms)
+    '''public SKDODMEMsg(final MboSet ms)
     '''

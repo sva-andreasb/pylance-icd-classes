@@ -1,17 +1,17 @@
 def isNull():
-    '''    public static boolean isNull(final String x)
+    '''public static boolean isNull(final String x)
     '''
 def checkMailSetup():
-    '''    public static void checkMailSetup()
+    '''public static void checkMailSetup()
     '''
 def getDefaultSubject():
-    '''    public static String getDefaultSubject()
+    '''public static String getDefaultSubject()
     '''
 def getAdminEmail():
-    '''    public static String getAdminEmail()
+    '''public static String getAdminEmail()
     '''
 def writeEmail():
-    '''    public static void writeEmail(final String toEmailAddr, final MXException[] Warnings)
+    '''public static void writeEmail(final String toEmailAddr, final MXException[] Warnings)
     public static void writeEmail(final String toEmailAddr, final String Message)
     public static void writeEmail(final String toEmailAddr, final String Message, final String contentType, final boolean ignored)
     public static void writeEmail(final String toEmailAddr, String subject, final MXException[] Warnings)

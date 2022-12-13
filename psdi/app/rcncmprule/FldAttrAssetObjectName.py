@@ -1,6 +1,6 @@
 def FldAttrAssetObjectName():
-    '''    public FldAttrAssetObjectName(final MboValue mbv)
+    '''public FldAttrAssetObjectName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

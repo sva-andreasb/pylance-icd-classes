@@ -1,3 +1,3 @@
 def getDefaultParams():
-    '''    public synchronized HttpParams getDefaultParams()
+    '''public synchronized HttpParams getDefaultParams()
     '''

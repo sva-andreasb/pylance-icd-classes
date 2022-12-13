@@ -1,3 +1,3 @@
 def DOMXPath():
-    '''    public DOMXPath(final String xpathExpr)
+    '''public DOMXPath(final String xpathExpr)
     '''

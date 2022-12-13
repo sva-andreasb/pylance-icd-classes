@@ -1,6 +1,6 @@
 def getCode():
-    '''    public String getCode()
+    '''public String getCode()
     '''
 def insertedChars():
-    '''    public int insertedChars()
+    '''public int insertedChars()
     '''

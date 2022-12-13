@@ -1,3 +1,3 @@
 def DomainValueMboSet():
-    '''    public DomainValueMboSet(final MboServerInterface ms)
+    '''public DomainValueMboSet(final MboServerInterface ms)
     '''

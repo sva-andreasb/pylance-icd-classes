@@ -1,9 +1,9 @@
 def toQueryString():
-    '''    public CharSequence toQueryString(final EscapeQuerySyntax escaper)
+    '''public CharSequence toQueryString(final EscapeQuerySyntax escaper)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def cloneTree():
-    '''    public QueryNode cloneTree()
+    '''public QueryNode cloneTree()
     '''

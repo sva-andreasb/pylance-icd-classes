@@ -1,33 +1,33 @@
 def PlusPAsset():
-    '''    public PlusPAsset(final MboSet arg0)
+    '''public PlusPAsset(final MboSet arg0)
     '''
 def delete():
-    '''    public void delete(final long modifier)
+    '''public void delete(final long modifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def createAssetToBeMoved():
-    '''    public Asset createAssetToBeMoved()
+    '''public Asset createAssetToBeMoved()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def isSyncAction():
-    '''    public boolean isSyncAction()
+    '''public boolean isSyncAction()
     '''
 def setSyncAction():
-    '''    public void setSyncAction(final boolean isSyncAction)
+    '''public void setSyncAction(final boolean isSyncAction)
     '''
 def hasCopiedCustomers():
-    '''    public boolean hasCopiedCustomers()
+    '''public boolean hasCopiedCustomers()
     '''
 def setCopiedCustomers():
-    '''    public void setCopiedCustomers(final boolean hasCopiedCustomers)
+    '''public void setCopiedCustomers(final boolean hasCopiedCustomers)
     '''
 def getLogInfo():
-    '''    public String getLogInfo()
+    '''public String getLogInfo()
     '''

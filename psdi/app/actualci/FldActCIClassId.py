@@ -1,6 +1,6 @@
 def FldActCIClassId():
-    '''    public FldActCIClassId(final MboValue mbv)
+    '''public FldActCIClassId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

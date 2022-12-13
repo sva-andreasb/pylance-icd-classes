@@ -1,9 +1,9 @@
 def DiffBuilder():
-    '''    public DiffBuilder(final Object lhs, final Object rhs, final ToStringStyle style, final boolean testTriviallyEqual)
+    '''public DiffBuilder(final Object lhs, final Object rhs, final ToStringStyle style, final boolean testTriviallyEqual)
     public DiffBuilder(final Object lhs, final Object rhs, final ToStringStyle style)
     '''
 def append():
-    '''    public DiffBuilder append(final String fieldName, final boolean lhs, final boolean rhs)
+    '''public DiffBuilder append(final String fieldName, final boolean lhs, final boolean rhs)
     public DiffBuilder append(final String fieldName, final boolean[] lhs, final boolean[] rhs)
     public DiffBuilder append(final String fieldName, final byte lhs, final byte rhs)
     public DiffBuilder append(final String fieldName, final byte[] lhs, final byte[] rhs)
@@ -23,7 +23,7 @@ def append():
     public DiffBuilder append(final String fieldName, final Object[] lhs, final Object[] rhs)
     '''
 def getLeft():
-    '''    public Boolean getLeft()
+    '''public Boolean getLeft()
     public Boolean[] getLeft()
     public Byte getLeft()
     public Byte[] getLeft()
@@ -43,7 +43,7 @@ def getLeft():
     public Object[] getLeft()
     '''
 def getRight():
-    '''    public Boolean getRight()
+    '''public Boolean getRight()
     public Boolean[] getRight()
     public Byte getRight()
     public Byte[] getRight()
@@ -63,5 +63,5 @@ def getRight():
     public Object[] getRight()
     '''
 def build():
-    '''    public DiffResult build()
+    '''public DiffResult build()
     '''

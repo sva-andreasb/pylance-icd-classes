@@ -1,28 +1,28 @@
 def setConnectionRequest():
-    '''    public void setConnectionRequest(final ClientConnectionRequest connRequest)
+    '''public void setConnectionRequest(final ClientConnectionRequest connRequest)
     '''
 def cancel():
-    '''    public boolean cancel()
+    '''public boolean cancel()
     public boolean cancel()
     '''
 def setReleaseTrigger():
-    '''    public void setReleaseTrigger(final ConnectionReleaseTrigger releaseTrigger)
+    '''public void setReleaseTrigger(final ConnectionReleaseTrigger releaseTrigger)
     '''
 def abort():
-    '''    public void abort()
+    '''public void abort()
     '''
 def isAborted():
-    '''    public boolean isAborted()
+    '''public boolean isAborted()
     '''
 def setCancellable():
-    '''    public void setCancellable(final Cancellable cancellable)
+    '''public void setCancellable(final Cancellable cancellable)
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''
 def completed():
-    '''    public void completed()
+    '''public void completed()
     '''
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''

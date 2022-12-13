@@ -1,9 +1,9 @@
 def Equatorial():
-    '''    public Equatorial(final double asc, final double dec)
+    '''public Equatorial(final double asc, final double dec)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def toHmsString():
-    '''    public String toHmsString()
+    '''public String toHmsString()
     '''

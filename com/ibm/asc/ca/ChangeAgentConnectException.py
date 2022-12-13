@@ -1,3 +1,3 @@
 def ChangeAgentConnectException():
-    '''    public ChangeAgentConnectException(final String msg)
+    '''public ChangeAgentConnectException(final String msg)
     '''

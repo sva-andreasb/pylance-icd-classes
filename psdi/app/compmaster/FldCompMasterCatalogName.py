@@ -1,6 +1,6 @@
 def FldCompMasterCatalogName():
-    '''    public FldCompMasterCatalogName(final MboValue mbv)
+    '''public FldCompMasterCatalogName(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

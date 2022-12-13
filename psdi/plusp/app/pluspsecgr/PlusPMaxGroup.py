@@ -1,15 +1,15 @@
 def PlusPMaxGroup():
-    '''    public PlusPMaxGroup(final MboSet arg0)
+    '''public PlusPMaxGroup(final MboSet arg0)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def resetSecGroupCustRestrictions():
-    '''    public void resetSecGroupCustRestrictions(final MboSetRemote msr)
+    '''public void resetSecGroupCustRestrictions(final MboSetRemote msr)
     '''
 def promptRemoveRestrictionsEnteredManually():
-    '''    public boolean promptRemoveRestrictionsEnteredManually(final MboRemote mboRemote)
+    '''public boolean promptRemoveRestrictionsEnteredManually(final MboRemote mboRemote)
     '''

@@ -1,6 +1,6 @@
 def PlusPFldSLARecordsSlanum():
-    '''    public PlusPFldSLARecordsSlanum(final MboValue arg0)
+    '''public PlusPFldSLARecordsSlanum(final MboValue arg0)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

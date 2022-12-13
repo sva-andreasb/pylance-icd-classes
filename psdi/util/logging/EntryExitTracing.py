@@ -1,6 +1,6 @@
 def EntryExitTracing():
-    '''    public EntryExitTracing()
+    '''public EntryExitTracing()
     '''
 def trace():
-    '''    public final Object trace(final ProceedingJoinPoint thisJoinPoint, final JoinPoint.EnclosingStaticPart enclosingPart)
+    '''public final Object trace(final ProceedingJoinPoint thisJoinPoint, final JoinPoint.EnclosingStaticPart enclosingPart)
     '''

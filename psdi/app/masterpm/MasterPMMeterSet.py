@@ -1,6 +1,6 @@
 def MasterPMMeterSet():
-    '''    public MasterPMMeterSet(final MboServerInterface ms)
+    '''public MasterPMMeterSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

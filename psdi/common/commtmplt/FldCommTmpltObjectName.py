@@ -1,6 +1,6 @@
 def FldCommTmpltObjectName():
-    '''    public FldCommTmpltObjectName(final MboValue mbv)
+    '''public FldCommTmpltObjectName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

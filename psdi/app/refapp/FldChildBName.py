@@ -1,3 +1,3 @@
 def FldChildBName():
-    '''    public FldChildBName(final MboValue mbv)
+    '''public FldChildBName(final MboValue mbv)
     '''

@@ -1,3 +1,3 @@
 def init():
-    '''    public void init(final Object init)
+    '''public void init(final Object init)
     '''

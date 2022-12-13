@@ -1,9 +1,9 @@
 def MaxTypeBIGINT():
-    '''    public MaxTypeBIGINT(final Locale locale)
+    '''public MaxTypeBIGINT(final Locale locale)
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''

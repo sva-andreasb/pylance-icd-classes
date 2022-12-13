@@ -1,6 +1,6 @@
 def AssignRepLocSet():
-    '''    public AssignRepLocSet(final MboServerInterface ms)
+    '''public AssignRepLocSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

@@ -1,12 +1,12 @@
 def CISpec():
-    '''    public CISpec(final MboSet ms)
+    '''public CISpec(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

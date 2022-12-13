@@ -1,3 +1,3 @@
 def getRequestLogger():
-    '''    public static AbstractRequestLogger getRequestLogger()
+    '''public static AbstractRequestLogger getRequestLogger()
     '''

@@ -1,6 +1,6 @@
 def MfMailGlobalInfo():
-    '''    public MfMailGlobalInfo(final MXLogger logger)
+    '''public MfMailGlobalInfo(final MXLogger logger)
     '''
 def getGlobalInfo():
-    '''    public static synchronized MfMailGlobalInfo getGlobalInfo(final MXLogger logger, final UserInfo ui)
+    '''public static synchronized MfMailGlobalInfo getGlobalInfo(final MXLogger logger, final UserInfo ui)
     '''

@@ -1,3 +1,3 @@
 def PropertyAssocSet():
-    '''    public PropertyAssocSet(final MboServerInterface ms)
+    '''public PropertyAssocSet(final MboServerInterface ms)
     '''

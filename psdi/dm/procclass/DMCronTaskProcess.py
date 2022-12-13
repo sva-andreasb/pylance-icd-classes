@@ -1,9 +1,9 @@
 def DMCronTaskProcess():
-    '''    public DMCronTaskProcess()
+    '''public DMCronTaskProcess()
     '''
 def checkBusinessRules():
-    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
     '''
 def createMboSet():
-    '''    public MboSetRemote createMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
+    '''public MboSetRemote createMboSet(final boolean isPrimaryMbo, final MboRemote parentMbo, final MosDetailInfo mdi, final String processTable)
     '''

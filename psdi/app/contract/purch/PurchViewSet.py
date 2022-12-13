@@ -1,3 +1,3 @@
 def PurchViewSet():
-    '''    public PurchViewSet(final MboServerInterface ms)
+    '''public PurchViewSet(final MboServerInterface ms)
     '''

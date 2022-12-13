@@ -1,6 +1,6 @@
 def FldBudgetBudgetvarnum():
-    '''    public FldBudgetBudgetvarnum(final MboValue mbv)
+    '''public FldBudgetBudgetvarnum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

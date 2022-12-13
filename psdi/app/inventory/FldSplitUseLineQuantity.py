@@ -1,6 +1,6 @@
 def FldSplitUseLineQuantity():
-    '''    public FldSplitUseLineQuantity(final MboValue mbv)
+    '''public FldSplitUseLineQuantity(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

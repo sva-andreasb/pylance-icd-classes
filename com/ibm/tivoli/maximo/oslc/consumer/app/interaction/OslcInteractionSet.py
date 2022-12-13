@@ -1,15 +1,15 @@
 def OslcInteractionSet():
-    '''    public OslcInteractionSet(final MboServerInterface ms)
+    '''public OslcInteractionSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''
 def setEndPoint():
-    '''    public void setEndPoint(final String endPoint)
+    '''public void setEndPoint(final String endPoint)
     '''
 def getEndPoint():
-    '''    public String getEndPoint()
+    '''public String getEndPoint()
     '''

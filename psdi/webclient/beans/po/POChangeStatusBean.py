@@ -1,9 +1,9 @@
 def POChangeStatusBean():
-    '''    public POChangeStatusBean()
+    '''public POChangeStatusBean()
     '''
 def checkESigAuthenticated():
-    '''    public synchronized void checkESigAuthenticated(final String option)
+    '''public synchronized void checkESigAuthenticated(final String option)
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''

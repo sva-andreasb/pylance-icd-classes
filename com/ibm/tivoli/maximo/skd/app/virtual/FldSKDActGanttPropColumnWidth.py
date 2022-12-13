@@ -1,6 +1,6 @@
 def FldSKDActGanttPropColumnWidth():
-    '''    public FldSKDActGanttPropColumnWidth(final MboValue mbv)
+    '''public FldSKDActGanttPropColumnWidth(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

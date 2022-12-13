@@ -1,9 +1,9 @@
 def FldInvoiceBaseTotalCostForUI():
-    '''    public FldInvoiceBaseTotalCostForUI(final MboValue mbv)
+    '''public FldInvoiceBaseTotalCostForUI(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

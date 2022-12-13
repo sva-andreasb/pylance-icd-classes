@@ -1,3 +1,3 @@
 def getWsdl():
-    '''    public static String getWsdl(final String fileName)
+    '''public static String getWsdl(final String fileName)
     '''

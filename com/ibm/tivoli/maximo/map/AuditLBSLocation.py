@@ -1,6 +1,6 @@
 def AuditLBSLocation():
-    '''    public AuditLBSLocation()
+    '''public AuditLBSLocation()
     '''
 def queryAuditLBSLocation():
-    '''    public JSONObject queryAuditLBSLocation(final MapControlAccessor map, final Date startDate, final Date endDate)
+    '''public JSONObject queryAuditLBSLocation(final MapControlAccessor map, final Date startDate, final Date endDate)
     '''

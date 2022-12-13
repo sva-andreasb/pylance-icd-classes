@@ -1,6 +1,6 @@
 def DefaultHTMLPreview():
-    '''    public DefaultHTMLPreview(final Set<String> props)
+    '''public DefaultHTMLPreview(final Set<String> props)
     '''
 def writePreview():
-    '''    public byte[] writePreview(final Mbo mbo)
+    '''public byte[] writePreview(final Mbo mbo)
     '''

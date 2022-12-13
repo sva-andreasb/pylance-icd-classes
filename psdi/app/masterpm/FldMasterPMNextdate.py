@@ -1,6 +1,6 @@
 def FldMasterPMNextdate():
-    '''    public FldMasterPMNextdate(final MboValue mbv)
+    '''public FldMasterPMNextdate(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,6 +1,6 @@
 def DateSelectorDOM():
-    '''    public DateSelectorDOM(final MboSet ms)
+    '''public DateSelectorDOM(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

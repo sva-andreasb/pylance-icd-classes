@@ -1,14 +1,14 @@
 def transform():
-    '''    public static SqlNode transform(final SqlNode sqlNode, final SqlTransform transform)
+    '''public static SqlNode transform(final SqlNode sqlNode, final SqlTransform transform)
     '''
 def SqlTransformVisitor():
-    '''    public SqlTransformVisitor(final SqlTransform transform)
+    '''public SqlTransformVisitor(final SqlTransform transform)
     '''
 def result():
-    '''    public SqlNode result()
+    '''public SqlNode result()
     '''
 def visit():
-    '''    public void visit(final SqlProject sqlProject)
+    '''public void visit(final SqlProject sqlProject)
     public void visit(final SqlDistinct sqlDistinct)
     public void visit(final SqlRestrict sqlRestrict)
     public void visit(final SqlTable sqlTable)

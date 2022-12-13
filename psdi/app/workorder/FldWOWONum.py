@@ -1,15 +1,15 @@
 def FldWOWONum():
-    '''    public FldWOWONum(final MboValue mbv)
+    '''public FldWOWONum(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def getAppLink():
-    '''    public String[] getAppLink()
+    '''public String[] getAppLink()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

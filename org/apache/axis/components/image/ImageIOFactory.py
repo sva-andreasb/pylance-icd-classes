@@ -1,3 +1,3 @@
 def getImageIO():
-    '''    public static ImageIO getImageIO()
+    '''public static ImageIO getImageIO()
     '''

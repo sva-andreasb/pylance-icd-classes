@@ -1,3 +1,3 @@
 def CompCommoditySet():
-    '''    public CompCommoditySet(final MboServerInterface ms)
+    '''public CompCommoditySet(final MboServerInterface ms)
     '''

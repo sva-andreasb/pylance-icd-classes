@@ -1,6 +1,6 @@
 def FldPurchViewPaymentSched():
-    '''    public FldPurchViewPaymentSched(final MboValue mbv)
+    '''public FldPurchViewPaymentSched(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

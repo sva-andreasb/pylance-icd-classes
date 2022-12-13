@@ -1,3 +1,3 @@
 def getRandomFrom():
-    '''    public static <T> T getRandomFrom(final Set<T> set, final Random random)
+    '''public static <T> T getRandomFrom(final Set<T> set, final Random random)
     '''

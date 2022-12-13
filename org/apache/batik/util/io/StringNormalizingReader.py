@@ -1,15 +1,15 @@
 def StringNormalizingReader():
-    '''    public StringNormalizingReader(final String s)
+    '''public StringNormalizingReader(final String s)
     '''
 def read():
-    '''    public int read()
+    '''public int read()
     '''
 def getLine():
-    '''    public int getLine()
+    '''public int getLine()
     '''
 def getColumn():
-    '''    public int getColumn()
+    '''public int getColumn()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''

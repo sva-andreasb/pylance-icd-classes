@@ -1,6 +1,6 @@
 def FldDBInfoAttributeViewSearchType():
-    '''    public FldDBInfoAttributeViewSearchType(final MboValue mbv)
+    '''public FldDBInfoAttributeViewSearchType(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

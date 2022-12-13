@@ -1,3 +1,3 @@
 def PlusPSOOwnerHistSet():
-    '''    public PlusPSOOwnerHistSet(final MboServerInterface ms)
+    '''public PlusPSOOwnerHistSet(final MboServerInterface ms)
     '''

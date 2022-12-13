@@ -1,9 +1,9 @@
 def ItemProvider():
-    '''    public ItemProvider()
+    '''public ItemProvider()
     '''
 def create():
-    '''    public static synchronized ItemProvider create(final String lineSeparator)
+    '''public static synchronized ItemProvider create(final String lineSeparator)
     '''
 def generate():
-    '''    public String generate(final Object argument)
+    '''public String generate(final Object argument)
     '''

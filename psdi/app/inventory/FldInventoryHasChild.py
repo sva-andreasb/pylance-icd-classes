@@ -1,6 +1,6 @@
 def FldInventoryHasChild():
-    '''    public FldInventoryHasChild(final MboValue mbv)
+    '''public FldInventoryHasChild(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

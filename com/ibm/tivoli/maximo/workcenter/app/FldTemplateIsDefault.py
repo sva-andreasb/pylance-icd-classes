@@ -1,9 +1,9 @@
 def FldTemplateIsDefault():
-    '''    public FldTemplateIsDefault(final MboValue mbv)
+    '''public FldTemplateIsDefault(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getDefaultMbo():
-    '''    public MboRemote getDefaultMbo()
+    '''public MboRemote getDefaultMbo()
     '''

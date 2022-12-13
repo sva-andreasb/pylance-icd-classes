@@ -1,9 +1,9 @@
 def LifoFifoCost():
-    '''    public LifoFifoCost(final MboSet ms)
+    '''public LifoFifoCost(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def getOwningMbo():
-    '''    public MboRemote getOwningMbo()
+    '''public MboRemote getOwningMbo()
     '''

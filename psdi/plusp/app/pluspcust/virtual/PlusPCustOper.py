@@ -1,3 +1,3 @@
 def PlusPCustOper():
-    '''    public PlusPCustOper(final MboSet ms)
+    '''public PlusPCustOper(final MboSet ms)
     '''

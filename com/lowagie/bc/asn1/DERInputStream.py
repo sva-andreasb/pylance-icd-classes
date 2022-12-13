@@ -1,6 +1,6 @@
 def DERInputStream():
-    '''    public DERInputStream(final InputStream is)
+    '''public DERInputStream(final InputStream is)
     '''
 def readObject():
-    '''    public DERObject readObject()
+    '''public DERObject readObject()
     '''

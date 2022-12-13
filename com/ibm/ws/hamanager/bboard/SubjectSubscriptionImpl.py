@@ -1,6 +1,6 @@
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def getSubject():
-    '''    public SubjectInfo getSubject()
+    '''public SubjectInfo getSubject()
     '''

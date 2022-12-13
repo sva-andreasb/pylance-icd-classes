@@ -1,3 +1,3 @@
 def iterator():
-    '''    public Iterator iterator()
+    '''public Iterator iterator()
     '''

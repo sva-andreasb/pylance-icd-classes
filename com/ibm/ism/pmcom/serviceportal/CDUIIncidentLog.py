@@ -1,3 +1,3 @@
 def CDUIIncidentLog():
-    '''    public CDUIIncidentLog(final MboSet ms)
+    '''public CDUIIncidentLog(final MboSet ms)
     '''

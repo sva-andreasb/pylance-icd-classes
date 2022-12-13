@@ -2,44 +2,44 @@ HEADER = "String  \"<?xml version=\\"1.0\\" encoding=\\"UTF-8\\"?>\n<!DOCTYPE fa
 ELEMENT = "String  \"favoriteitem\""
 FOOTER = "String  \"</favorites>\""
 def FavoritesNode():
-    '''    public FavoritesNode(final FavoritesItem favoritesItem)
+    '''public FavoritesNode(final FavoritesItem favoritesItem)
     '''
 def getAllowsChildren():
-    '''    public boolean getAllowsChildren()
+    '''public boolean getAllowsChildren()
     '''
 def add():
-    '''    public void add(final DefaultMutableTreeNode newChild)
+    '''public void add(final DefaultMutableTreeNode newChild)
     '''
 def remove():
-    '''    public void remove(final DefaultMutableTreeNode aChild)
+    '''public void remove(final DefaultMutableTreeNode aChild)
     '''
 def getVisibleChildCount():
-    '''    public int getVisibleChildCount()
+    '''public int getVisibleChildCount()
     '''
 def getOffset():
-    '''    public String getOffset()
+    '''public String getOffset()
     '''
 def export():
-    '''    public void export(final OutputStream out)
+    '''public void export(final OutputStream out)
     '''
 def exportNode():
-    '''    public void exportNode(final OutputStreamWriter outputStreamWriter)
+    '''public void exportNode(final OutputStreamWriter outputStreamWriter)
     '''
 def exportHeader():
-    '''    public OutputStreamWriter exportHeader(final OutputStream out)
+    '''public OutputStreamWriter exportHeader(final OutputStream out)
     '''
 def getXMLHeader():
-    '''    public String getXMLHeader()
+    '''public String getXMLHeader()
     '''
 def getXMLElement():
-    '''    public String getXMLElement()
+    '''public String getXMLElement()
     '''
 def getDeepCopy():
-    '''    public FavoritesNode getDeepCopy()
+    '''public FavoritesNode getDeepCopy()
     '''
 def isVisible():
-    '''    public boolean isVisible()
+    '''public boolean isVisible()
     '''
 def setVisible():
-    '''    public void setVisible(final boolean visible)
+    '''public void setVisible(final boolean visible)
     '''

@@ -6,16 +6,16 @@ MULTI_ROW_RESULT = "int  5"
 ALLOW_STATIC_ROWSET_CURSORS = "int  6"
 DISALLOW_STATIC_ROWSET_CURSORS = "int  7"
 def getGeneratorVersion():
-    '''    public String getGeneratorVersion()
+    '''public String getGeneratorVersion()
     '''
 def checkCompatibleRuntimeVersion():
-    '''    public void checkCompatibleRuntimeVersion(final String s)
+    '''public void checkCompatibleRuntimeVersion(final String s)
     '''
 def BaseData():
-    '''    public BaseData()
+    '''public BaseData()
     '''
 def queryArray():
-    '''    public <ROW> ROW[] queryArray(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ? extends ROW, ?> handlerContainer, final Class<ROW> clazz, final Object... array)
+    '''public <ROW> ROW[] queryArray(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ? extends ROW, ?> handlerContainer, final Class<ROW> clazz, final Object... array)
     public Map<String, Object>[] queryArray(final String s, final Object... array)
     public <ROW> ROW[] queryArray(final String s, final Class<ROW> clazz, final Object... array)
     public <ROW> ROW[] queryArray(final String s, final Class<ROW> clazz, final RowHandler<ROW> rowHandler, final Object... array)
@@ -23,14 +23,14 @@ def queryArray():
     public <ROW> ROW[] queryArray(final String s, final RowHandler<ROW> rowHandler, final Object... array)
     '''
 def queryFirst():
-    '''    public <ROW> ROW queryFirst(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ? extends ROW, ?> handlerContainer, final Object... array)
+    '''public <ROW> ROW queryFirst(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ? extends ROW, ?> handlerContainer, final Object... array)
     public Map<String, Object> queryFirst(final String s, final Object... array)
     public <ROW> ROW queryFirst(final String s, final Class<ROW> clazz, final Object... array)
     public <ROW> ROW queryFirst(final String s, final RowHandler<ROW> rowHandler, final Object... array)
     public <ROW> ROW queryFirst(final StatementDescriptor statementDescriptor, final Object... array)
     '''
 def queryIterator():
-    '''    public <ROW> Iterator<ROW> queryIterator(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ? extends ROW, ?> handlerContainer, final Object... array)
+    '''public <ROW> Iterator<ROW> queryIterator(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ? extends ROW, ?> handlerContainer, final Object... array)
     public Iterator<Map<String, Object>> queryIterator(final String s, final Object... array)
     public <ROW> Iterator<ROW> queryIterator(final String s, final Class<ROW> clazz, final Object... array)
     public <ROW> Iterator<ROW> queryIterator(final String s, final RowHandler<ROW> rowHandler, final Object... array)
@@ -40,20 +40,20 @@ def queryIterator():
     public Iterator<Map<String, Object>> queryIterator(final int n, final int n2, final int n3, final String s, final Object... array)
     '''
 def queryList():
-    '''    public <ROW> List<ROW> queryList(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ? extends ROW, ?> handlerContainer, final Object... array)
+    '''public <ROW> List<ROW> queryList(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ? extends ROW, ?> handlerContainer, final Object... array)
     public List<Map<String, Object>> queryList(final String s, final Object... array)
     public <ROW> List<ROW> queryList(final String s, final Class<ROW> clazz, final Object... array)
     public <ROW> List<ROW> queryList(final String s, final RowHandler<ROW> rowHandler, final Object... array)
     public <ROW> List<ROW> queryList(final StatementDescriptor statementDescriptor, final Object... array)
     '''
 def queryResults():
-    '''    public ResultSet queryResults(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ?, ?> handlerContainer, final Object... array)
+    '''public ResultSet queryResults(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ?, ?> handlerContainer, final Object... array)
     public ResultSet queryResults(final String s, final Object... array)
     public ResultSet queryResults(final int n, final int n2, final int n3, final String s, final Object... array)
     public ResultSet queryResults(final StatementDescriptor statementDescriptor, final Object... array)
     '''
 def update():
-    '''    public int update(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ?, ?> handlerContainer, final Object... array)
+    '''public int update(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ?, ?> handlerContainer, final Object... array)
     public <ROW> int update(final ROW row, final StatementDescriptor statementDescriptor, final HandlerContainer<?, ? extends ROW, ?> handlerContainer, final Object... array)
     public int update(final String s, final Object... array)
     public <T> T update(final String s, final Class<T> clazz, final String[] array, final Object... array2)
@@ -61,7 +61,7 @@ def update():
     public <ROW> int update(final ROW row, final StatementDescriptor statementDescriptor, final Object... array)
     '''
 def updateMany():
-    '''    public <T> int[] updateMany(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ?, ?> handlerContainer, final Iterator<T> iterator)
+    '''public <T> int[] updateMany(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ?, ?> handlerContainer, final Iterator<T> iterator)
     public <T> int[] updateMany(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ?, ?> handlerContainer, final Iterable<T> iterable)
     public <T> int[] updateMany(final StatementDescriptor statementDescriptor, final HandlerContainer<?, ?, ?> handlerContainer, final T[] array)
     public <T> int[] updateMany(final String s, final Iterable<T> iterable)
@@ -73,42 +73,42 @@ def updateMany():
     public <T> int[] updateMany(final StatementDescriptor statementDescriptor, final T[] array)
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''
 def getAutoCommit():
-    '''    public boolean getAutoCommit()
+    '''public boolean getAutoCommit()
     '''
 def getConnection():
-    '''    public Connection getConnection()
+    '''public Connection getConnection()
     '''
 def query():
-    '''    public <RES> RES query(final String s, final ResultHandler<RES> resultHandler, final Object... array)
+    '''public <RES> RES query(final String s, final ResultHandler<RES> resultHandler, final Object... array)
     public <RES> RES query(final StatementDescriptor statementDescriptor, final HandlerContainer<? extends RES, ?, ?> handlerContainer, final Object... array)
     public <RES> RES query(final StatementDescriptor statementDescriptor, final Object... array)
     public <RES> RES query(final int n, final int n2, final int n3, final String s, final ResultHandler<RES> resultHandler, final Object... array)
     public <RES> RES query(final int n, final int n2, final int n3, final String s, final ParameterHandler parameterHandler, final ResultHandler<RES> resultHandler, final Object... array)
     '''
 def rollback():
-    '''    public void rollback()
+    '''public void rollback()
     '''
 def setAutoCommit():
-    '''    public void setAutoCommit(final boolean autoCommit)
+    '''public void setAutoCommit(final boolean autoCommit)
     '''
 def getData():
-    '''    public Data getData()
+    '''public Data getData()
     '''
 def getStatementDescriptor():
-    '''    public StatementDescriptor getStatementDescriptor(final String key)
+    '''public StatementDescriptor getStatementDescriptor(final String key)
     public StatementDescriptor getStatementDescriptor(final String s, final String s2, final SqlStatementType sqlStatementType, final int n, final Object[] array)
     '''
 def setData():
-    '''    public void setData(final Data data)
+    '''public void setData(final Data data)
     '''
 def call():
-    '''    public <CAL> CAL call(final String s, final CallHandler<CAL> callHandler, final Object... array)
+    '''public <CAL> CAL call(final String s, final CallHandler<CAL> callHandler, final Object... array)
     public <CAL> CAL call(final String s, final CallHandlerWithParameters<CAL> callHandlerWithParameters, final Object... array)
     public <CAL> CAL call(final String s, final ParameterHandler parameterHandler, final CallHandlerWithParameters<CAL> callHandlerWithParameters, final Object... array)
     public StoredProcedureResult call(final String s, final Object... array)
@@ -116,10 +116,10 @@ def call():
     public <CAL> CAL call(final StatementDescriptor statementDescriptor, final Object... array)
     '''
 def testNull():
-    '''    public static final <T> T testNull(final T t, final boolean b)
+    '''public static final <T> T testNull(final T t, final boolean b)
     '''
 def createStatementDescriptor():
-    '''    public static StatementDescriptor createStatementDescriptor(final String s, final String s2, final int[] array, final SqlStatementType sqlStatementType, final String[] array2, final ParameterHandler parameterHandler, final int[][] array3, final ResultHandler resultHandler, final RowHandler rowHandler, final int[][] array4, final CallHandlerWithParameters callHandlerWithParameters, final String s3, final long n, final String s4, final boolean b, final String s5, final int i)
+    '''public static StatementDescriptor createStatementDescriptor(final String s, final String s2, final int[] array, final SqlStatementType sqlStatementType, final String[] array2, final ParameterHandler parameterHandler, final int[][] array3, final ResultHandler resultHandler, final RowHandler rowHandler, final int[][] array4, final CallHandlerWithParameters callHandlerWithParameters, final String s3, final long n, final String s4, final boolean b, final String s5, final int i)
     public static StatementDescriptor createStatementDescriptor(final String s, final String s2, final int[] array, final SqlStatementType sqlStatementType, final String[] array2, final ParameterHandler parameterHandler, final int[][] array3, final ResultHandler resultHandler, final RowHandler rowHandler, final int[][] array4, final CallHandlerWithParameters callHandlerWithParameters, final String s3, final long n, final String s4, final int i)
     public static StatementDescriptor createStatementDescriptor(final String s, final String s2, final int[] array, final SqlStatementType sqlStatementType, final String[] array2, final ParameterHandler parameterHandler, final int[][] array3, final RowHandler rowHandler, final int[][] array4, final CallHandlerWithParameters callHandlerWithParameters, final String s3, final long n, final String s4, final int i)
     public static StatementDescriptor createStatementDescriptor(final String s, final String s2, final int[] array, final SqlStatementType sqlStatementType, final String[] array2, final ParameterHandler parameterHandler, final int[][] array3, final RowHandler rowHandler, final int[][] array4, final CallHandlerWithParameters callHandlerWithParameters, final String s3, final String s4, final long n, final int i)
@@ -127,26 +127,26 @@ def createStatementDescriptor():
     public static StatementDescriptor createStatementDescriptor(final String s, final String s2, final SqlStatementType sqlStatementType, final String[] array, final com.ibm.db2.cmx.runtime.generator.ParameterHandler parameterHandler, final int[][] array2, final RowHandler rowHandler, final int[][] array3, final CallHandler callHandler, final String s3, final String s4, final long n, final int i)
     '''
 def getLogger():
-    '''    public Logger getLogger()
+    '''public Logger getLogger()
     '''
 def setLogger():
-    '''    public void setLogger(final Logger logger_)
+    '''public void setLogger(final Logger logger_)
     '''
 def endBatch():
-    '''    public int[][] endBatch()
+    '''public int[][] endBatch()
     '''
 def cancelBatch():
-    '''    public void cancelBatch()
+    '''public void cancelBatch()
     '''
 def getBatchKind():
-    '''    public HeterogeneousBatchKind getBatchKind()
+    '''public HeterogeneousBatchKind getBatchKind()
     '''
 def startBatch():
-    '''    public void startBatch(final HeterogeneousBatchKind heterogeneousBatchKind)
+    '''public void startBatch(final HeterogeneousBatchKind heterogeneousBatchKind)
     '''
 def run():
-    '''    public Field[] run()
+    '''public Field[] run()
     '''
 def checkDriverVersion():
-    '''    public static void checkDriverVersion(final String s)
+    '''public static void checkDriverVersion(final String s)
     '''

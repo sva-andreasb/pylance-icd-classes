@@ -1,6 +1,6 @@
 def PlusPBillingMeter():
-    '''    public PlusPBillingMeter(final MboSet ms)
+    '''public PlusPBillingMeter(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

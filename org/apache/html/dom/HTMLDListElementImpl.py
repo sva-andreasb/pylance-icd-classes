@@ -1,9 +1,9 @@
 def getCompact():
-    '''    public boolean getCompact()
+    '''public boolean getCompact()
     '''
 def setCompact():
-    '''    public void setCompact(final boolean b)
+    '''public void setCompact(final boolean b)
     '''
 def HTMLDListElementImpl():
-    '''    public HTMLDListElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
+    '''public HTMLDListElementImpl(final HTMLDocumentImpl htmlDocumentImpl, final String s)
     '''

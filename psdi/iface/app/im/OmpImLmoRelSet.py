@@ -1,6 +1,6 @@
 def OmpImLmoRelSet():
-    '''    public OmpImLmoRelSet(final MboServerInterface ms)
+    '''public OmpImLmoRelSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

@@ -1,6 +1,6 @@
 def FldMatRecTransReceivedUnit():
-    '''    public FldMatRecTransReceivedUnit(final MboValue mbv)
+    '''public FldMatRecTransReceivedUnit(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

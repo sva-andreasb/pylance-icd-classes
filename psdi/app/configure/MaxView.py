@@ -1,3 +1,3 @@
 def MaxView():
-    '''    public MaxView(final MboSet ms)
+    '''public MaxView(final MboSet ms)
     '''

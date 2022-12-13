@@ -1,3 +1,3 @@
 def DateSerializerFactory():
-    '''    public DateSerializerFactory(final Class javaType, final QName xmlType)
+    '''public DateSerializerFactory(final Class javaType, final QName xmlType)
     '''

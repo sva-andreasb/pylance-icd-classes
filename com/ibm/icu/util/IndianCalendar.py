@@ -12,7 +12,7 @@ MAGHA = "int  10"
 PHALGUNA = "int  11"
 IE = "int  0"
 def IndianCalendar():
-    '''    public IndianCalendar()
+    '''public IndianCalendar()
     public IndianCalendar(final TimeZone zone)
     public IndianCalendar(final Locale aLocale)
     public IndianCalendar(final ULocale locale)
@@ -23,5 +23,5 @@ def IndianCalendar():
     public IndianCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''

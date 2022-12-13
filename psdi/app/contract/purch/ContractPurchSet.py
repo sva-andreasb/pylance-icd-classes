@@ -1,3 +1,3 @@
 def ContractPurchSet():
-    '''    public ContractPurchSet(final MboServerInterface ms)
+    '''public ContractPurchSet(final MboServerInterface ms)
     '''

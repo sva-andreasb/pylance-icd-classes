@@ -1,6 +1,6 @@
 def getIndexCache():
-    '''    public static IndexCache getIndexCache(final Store store)
+    '''public static IndexCache getIndexCache(final Store store)
     '''
 def get():
-    '''    public Integer get(final Long hashCode)
+    '''public Integer get(final Long hashCode)
     '''

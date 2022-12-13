@@ -1,7 +1,7 @@
 def PlusPFldWOState():
-    '''    public PlusPFldWOState()
+    '''public PlusPFldWOState()
     public PlusPFldWOState(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

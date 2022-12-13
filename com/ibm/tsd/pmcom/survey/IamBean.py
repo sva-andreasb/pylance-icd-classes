@@ -1,33 +1,33 @@
 def IamBean():
-    '''    public IamBean()
+    '''public IamBean()
     '''
 def getIsAuth():
-    '''    public boolean getIsAuth()
+    '''public boolean getIsAuth()
     '''
 def setIsAuth():
-    '''    public void setIsAuth(final boolean value)
+    '''public void setIsAuth(final boolean value)
     '''
 def getUid():
-    '''    public String getUid()
+    '''public String getUid()
     '''
 def setUid():
-    '''    public void setUid(final HttpServletRequest request, final String uid)
+    '''public void setUid(final HttpServletRequest request, final String uid)
     '''
 def getLastName():
-    '''    public String getLastName()
+    '''public String getLastName()
     '''
 def setLastName():
-    '''    public void setLastName(final String value)
+    '''public void setLastName(final String value)
     '''
 def getFirstName():
-    '''    public String getFirstName()
+    '''public String getFirstName()
     '''
 def setFirstName():
-    '''    public void setFirstName(final String value)
+    '''public void setFirstName(final String value)
     '''
 def getMessage():
-    '''    public String getMessage()
+    '''public String getMessage()
     '''
 def setMessage():
-    '''    public void setMessage(final String value)
+    '''public void setMessage(final String value)
     '''

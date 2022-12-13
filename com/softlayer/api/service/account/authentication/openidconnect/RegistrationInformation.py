@@ -1,42 +1,42 @@
 def getExistingBlueIdFlag():
-    '''    public Boolean getExistingBlueIdFlag()
+    '''public Boolean getExistingBlueIdFlag()
     '''
 def setExistingBlueIdFlag():
-    '''    public void setExistingBlueIdFlag(final Boolean existingBlueIdFlag)
+    '''public void setExistingBlueIdFlag(final Boolean existingBlueIdFlag)
     '''
 def isExistingBlueIdFlagSpecified():
-    '''    public boolean isExistingBlueIdFlagSpecified()
+    '''public boolean isExistingBlueIdFlagSpecified()
     '''
 def unsetExistingBlueIdFlag():
-    '''    public void unsetExistingBlueIdFlag()
+    '''public void unsetExistingBlueIdFlag()
     '''
 def getFederatedEmailDomainFlag():
-    '''    public Boolean getFederatedEmailDomainFlag()
+    '''public Boolean getFederatedEmailDomainFlag()
     '''
 def setFederatedEmailDomainFlag():
-    '''    public void setFederatedEmailDomainFlag(final Boolean federatedEmailDomainFlag)
+    '''public void setFederatedEmailDomainFlag(final Boolean federatedEmailDomainFlag)
     '''
 def isFederatedEmailDomainFlagSpecified():
-    '''    public boolean isFederatedEmailDomainFlagSpecified()
+    '''public boolean isFederatedEmailDomainFlagSpecified()
     '''
 def unsetFederatedEmailDomainFlag():
-    '''    public void unsetFederatedEmailDomainFlag()
+    '''public void unsetFederatedEmailDomainFlag()
     '''
 def getUser():
-    '''    public Customer getUser()
+    '''public Customer getUser()
     '''
 def setUser():
-    '''    public void setUser(final Customer user)
+    '''public void setUser(final Customer user)
     '''
 def isUserSpecified():
-    '''    public boolean isUserSpecified()
+    '''public boolean isUserSpecified()
     '''
 def unsetUser():
-    '''    public void unsetUser()
+    '''public void unsetUser()
     '''
 def existingBlueIdFlag():
-    '''    public Mask existingBlueIdFlag()
+    '''public Mask existingBlueIdFlag()
     '''
 def federatedEmailDomainFlag():
-    '''    public Mask federatedEmailDomainFlag()
+    '''public Mask federatedEmailDomainFlag()
     '''

@@ -1,6 +1,6 @@
 def MissingRowDummyRecord():
-    '''    public MissingRowDummyRecord(final int rowNumber)
+    '''public MissingRowDummyRecord(final int rowNumber)
     '''
 def getRowNumber():
-    '''    public int getRowNumber()
+    '''public int getRowNumber()
     '''

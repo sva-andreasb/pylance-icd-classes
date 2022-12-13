@@ -1,15 +1,15 @@
 def Checkbox():
-    '''    public Checkbox()
+    '''public Checkbox()
     '''
 def toggle():
-    '''    public int toggle()
+    '''public int toggle()
     '''
 def setvalue():
-    '''    public int setvalue()
+    '''public int setvalue()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def getCustomTooltip():
-    '''    public String getCustomTooltip()
+    '''public String getCustomTooltip()
     '''

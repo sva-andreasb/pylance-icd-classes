@@ -18,38 +18,38 @@ ACC_ANNOTATION = "int  8192"
 ACC_ENUM = "int  16384"
 ACC_MANDATED = "int  32768"
 def AccessFlags():
-    '''    public AccessFlags(final int flags)
+    '''public AccessFlags(final int flags)
     '''
 def ignore():
-    '''    public AccessFlags ignore(final int n)
+    '''public AccessFlags ignore(final int n)
     '''
 def is():
-    '''    public boolean is(final int n)
+    '''public boolean is(final int n)
     '''
 def byteLength():
-    '''    public int byteLength()
+    '''public int byteLength()
     '''
 def getClassModifiers():
-    '''    public Set<String> getClassModifiers()
+    '''public Set<String> getClassModifiers()
     '''
 def getClassFlags():
-    '''    public Set<String> getClassFlags()
+    '''public Set<String> getClassFlags()
     '''
 def getInnerClassModifiers():
-    '''    public Set<String> getInnerClassModifiers()
+    '''public Set<String> getInnerClassModifiers()
     '''
 def getInnerClassFlags():
-    '''    public Set<String> getInnerClassFlags()
+    '''public Set<String> getInnerClassFlags()
     '''
 def getFieldModifiers():
-    '''    public Set<String> getFieldModifiers()
+    '''public Set<String> getFieldModifiers()
     '''
 def getFieldFlags():
-    '''    public Set<String> getFieldFlags()
+    '''public Set<String> getFieldFlags()
     '''
 def getMethodModifiers():
-    '''    public Set<String> getMethodModifiers()
+    '''public Set<String> getMethodModifiers()
     '''
 def getMethodFlags():
-    '''    public Set<String> getMethodFlags()
+    '''public Set<String> getMethodFlags()
     '''

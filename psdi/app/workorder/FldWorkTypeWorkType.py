@@ -1,6 +1,6 @@
 def FldWorkTypeWorkType():
-    '''    public FldWorkTypeWorkType(final MboValue mbv)
+    '''public FldWorkTypeWorkType(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

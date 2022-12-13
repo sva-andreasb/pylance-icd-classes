@@ -1,6 +1,6 @@
 def SpanNotBuilder():
-    '''    public SpanNotBuilder(final SpanQueryBuilder factory)
+    '''public SpanNotBuilder(final SpanQueryBuilder factory)
     '''
 def getSpanQuery():
-    '''    public SpanQuery getSpanQuery(final Element e)
+    '''public SpanQuery getSpanQuery(final Element e)
     '''

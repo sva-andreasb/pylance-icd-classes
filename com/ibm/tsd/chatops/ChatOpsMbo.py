@@ -1,3 +1,3 @@
 def ChatOpsMbo():
-    '''    public ChatOpsMbo(final MboSet ms)
+    '''public ChatOpsMbo(final MboSet ms)
     '''

@@ -1,21 +1,21 @@
 def DMMaxUserProcess():
-    '''    public DMMaxUserProcess()
+    '''public DMMaxUserProcess()
     '''
 def setAdditionalData():
-    '''    public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
+    '''public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
     '''
 def checkBusinessRules():
-    '''    public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
+    '''public int checkBusinessRules(final MboSetRemote mboSet, final String tableName)
     '''
 def checkValidateErrors():
-    '''    public void checkValidateErrors()
+    '''public void checkValidateErrors()
     '''
 def changeStatus():
-    '''    public void changeStatus(final MboRemote setMbo, final String stat, final String memo)
+    '''public void changeStatus(final MboRemote setMbo, final String stat, final String memo)
     '''
 def delete():
-    '''    public void delete(final MboRemote mbo, final MosDetailInfo mdi)
+    '''public void delete(final MboRemote mbo, final MosDetailInfo mdi)
     '''
 def afterReplace():
-    '''    public void afterReplace(final MboRemote child)
+    '''public void afterReplace(final MboRemote child)
     '''

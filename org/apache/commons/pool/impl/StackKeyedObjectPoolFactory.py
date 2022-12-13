@@ -1,5 +1,5 @@
 def StackKeyedObjectPoolFactory():
-    '''    public StackKeyedObjectPoolFactory()
+    '''public StackKeyedObjectPoolFactory()
     public StackKeyedObjectPoolFactory(final int max)
     public StackKeyedObjectPoolFactory(final int max, final int init)
     public StackKeyedObjectPoolFactory(final KeyedPoolableObjectFactory factory)
@@ -7,5 +7,5 @@ def StackKeyedObjectPoolFactory():
     public StackKeyedObjectPoolFactory(final KeyedPoolableObjectFactory factory, final int max, final int init)
     '''
 def createPool():
-    '''    public KeyedObjectPool createPool()
+    '''public KeyedObjectPool createPool()
     '''

@@ -1,6 +1,6 @@
 def POCostSet():
-    '''    public POCostSet(final MboServerInterface ms)
+    '''public POCostSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

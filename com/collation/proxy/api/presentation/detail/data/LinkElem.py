@@ -1,12 +1,12 @@
 def getFieldName():
-    '''    public String getFieldName()
+    '''public String getFieldName()
     '''
 def setFieldName():
-    '''    public void setFieldName(final String v)
+    '''public void setFieldName(final String v)
     '''
 def getHeading():
-    '''    public String getHeading()
+    '''public String getHeading()
     '''
 def setHeading():
-    '''    public void setHeading(final String v)
+    '''public void setHeading(final String v)
     '''

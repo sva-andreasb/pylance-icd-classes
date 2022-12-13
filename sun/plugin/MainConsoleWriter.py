@@ -1,9 +1,9 @@
 def execute():
-    '''    public Object execute()
+    '''public Object execute()
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''
 def enQueue():
-    '''    public void enQueue(final byte[] e)
+    '''public void enQueue(final byte[] e)
     '''

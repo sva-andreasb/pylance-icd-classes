@@ -1,3 +1,3 @@
 def CreateRelInputSet():
-    '''    public CreateRelInputSet(final MboServerInterface ms)
+    '''public CreateRelInputSet(final MboServerInterface ms)
     '''

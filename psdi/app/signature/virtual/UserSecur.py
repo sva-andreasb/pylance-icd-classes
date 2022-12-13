@@ -1,15 +1,15 @@
 def UserSecur():
-    '''    public UserSecur(final MboSet ms)
+    '''public UserSecur(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def toBeSaved():
-    '''    public boolean toBeSaved()
+    '''public boolean toBeSaved()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''

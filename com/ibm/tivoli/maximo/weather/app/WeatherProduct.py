@@ -1,6 +1,6 @@
 def WeatherProduct():
-    '''    public WeatherProduct(final MboSet ms)
+    '''public WeatherProduct(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

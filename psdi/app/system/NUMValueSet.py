@@ -1,6 +1,6 @@
 def NUMValueSet():
-    '''    public NUMValueSet(final MboServerInterface ms)
+    '''public NUMValueSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

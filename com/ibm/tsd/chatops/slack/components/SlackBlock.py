@@ -4,53 +4,53 @@ TYPE_DIVIDER = "String  \"divider\""
 TYPE_CONTEXT = "String  \"context\""
 TYPE_ACTIONS = "String  \"actions\""
 def SlackBlock():
-    '''    public SlackBlock(final String type)
+    '''public SlackBlock(final String type)
     '''
 def setBlockId():
-    '''    public void setBlockId(final String blockId)
+    '''public void setBlockId(final String blockId)
     '''
 def setText():
-    '''    public void setText(final String text)
+    '''public void setText(final String text)
     '''
 def setElement():
-    '''    public void setElement(final SlackElement element)
+    '''public void setElement(final SlackElement element)
     '''
 def setFields():
-    '''    public void setFields(final JSONArray fields)
+    '''public void setFields(final JSONArray fields)
     '''
 def setAccessory():
-    '''    public void setAccessory(final SlackElement accessory)
+    '''public void setAccessory(final SlackElement accessory)
     '''
 def setLabel():
-    '''    public void setLabel(final String label)
+    '''public void setLabel(final String label)
     '''
 def setHint():
-    '''    public void setHint(final String text)
+    '''public void setHint(final String text)
     '''
 def setOptional():
-    '''    public void setOptional(final boolean optional)
+    '''public void setOptional(final boolean optional)
     '''
 def getBlockId():
-    '''    public String getBlockId()
+    '''public String getBlockId()
     '''
 def getText():
-    '''    public String getText()
+    '''public String getText()
     '''
 def getElement():
-    '''    public SlackElement getElement()
+    '''public SlackElement getElement()
     '''
 def getFields():
-    '''    public JSONArray getFields()
+    '''public JSONArray getFields()
     '''
 def getAccessory():
-    '''    public SlackElement getAccessory()
+    '''public SlackElement getAccessory()
     '''
 def getLabel():
-    '''    public String getLabel()
+    '''public String getLabel()
     '''
 def getHint():
-    '''    public String getHint()
+    '''public String getHint()
     '''
 def getOptional():
-    '''    public boolean getOptional()
+    '''public boolean getOptional()
     '''

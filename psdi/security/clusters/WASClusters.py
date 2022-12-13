@@ -4,17 +4,17 @@ Active = "int  1"
 Inactive = "int  2"
 Stopped = "int  3"
 def WASClusters():
-    '''    public WASClusters(final AdminService service)
+    '''public WASClusters(final AdminService service)
     '''
 def getMembersEligibleForStartStop():
-    '''    public HashSet getMembersEligibleForStartStop(final String operation)
+    '''public HashSet getMembersEligibleForStartStop(final String operation)
     '''
 def stop():
-    '''    public int stop()
+    '''public int stop()
     '''
 def start():
-    '''    public int start()
+    '''public int start()
     '''
 def cleanUp():
-    '''    public int cleanUp()
+    '''public int cleanUp()
     '''

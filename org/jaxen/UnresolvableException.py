@@ -1,3 +1,3 @@
 def UnresolvableException():
-    '''    public UnresolvableException(final String message)
+    '''public UnresolvableException(final String message)
     '''

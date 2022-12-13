@@ -1,3 +1,3 @@
 def main():
-    '''    public static void main(final String[] a)
+    '''public static void main(final String[] a)
     '''

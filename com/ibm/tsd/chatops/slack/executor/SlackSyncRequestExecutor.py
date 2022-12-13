@@ -1,6 +1,6 @@
 def SlackSyncRequestExecutor():
-    '''    public SlackSyncRequestExecutor(final SlackRequest request)
+    '''public SlackSyncRequestExecutor(final SlackRequest request)
     '''
 def exec():
-    '''    public JSONObject exec()
+    '''public JSONObject exec()
     '''

@@ -1,9 +1,9 @@
 def FldWOAssetsToMoveMoveToParent():
-    '''    public FldWOAssetsToMoveMoveToParent(final MboValue mbv)
+    '''public FldWOAssetsToMoveMoveToParent(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

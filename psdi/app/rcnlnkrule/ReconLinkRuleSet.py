@@ -1,3 +1,3 @@
 def ReconLinkRuleSet():
-    '''    public ReconLinkRuleSet(final MboServerInterface ms)
+    '''public ReconLinkRuleSet(final MboServerInterface ms)
     '''

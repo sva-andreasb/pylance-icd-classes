@@ -1,6 +1,6 @@
 def FldMRLineCurrencyCode():
-    '''    public FldMRLineCurrencyCode(final MboValue mbv)
+    '''public FldMRLineCurrencyCode(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

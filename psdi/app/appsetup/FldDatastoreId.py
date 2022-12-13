@@ -1,6 +1,6 @@
 def FldDatastoreId():
-    '''    public FldDatastoreId(final MboValue mbv)
+    '''public FldDatastoreId(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

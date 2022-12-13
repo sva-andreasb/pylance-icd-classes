@@ -1,3 +1,3 @@
 def DeleteBucketReplicationConfigurationRequest():
-    '''    public DeleteBucketReplicationConfigurationRequest(final String bucketName)
+    '''public DeleteBucketReplicationConfigurationRequest(final String bucketName)
     '''

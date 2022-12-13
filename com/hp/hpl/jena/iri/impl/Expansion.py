@@ -1,3 +1,3 @@
 def Expansion():
-    '''    public Expansion()
+    '''public Expansion()
     '''

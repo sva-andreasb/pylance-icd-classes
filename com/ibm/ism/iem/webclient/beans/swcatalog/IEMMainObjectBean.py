@@ -1,3 +1,3 @@
 def addToCatalogs():
-    '''    public int addToCatalogs()
+    '''public int addToCatalogs()
     '''

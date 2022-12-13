@@ -1,3 +1,3 @@
 def FldMatUseTransGLAcct():
-    '''    public FldMatUseTransGLAcct(final MboValue mbv)
+    '''public FldMatUseTransGLAcct(final MboValue mbv)
     '''

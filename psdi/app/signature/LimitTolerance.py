@@ -1,15 +1,15 @@
 def LimitTolerance():
-    '''    public LimitTolerance(final MboSet ms)
+    '''public LimitTolerance(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''

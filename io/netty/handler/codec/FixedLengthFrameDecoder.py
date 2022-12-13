@@ -1,3 +1,3 @@
 def FixedLengthFrameDecoder():
-    '''    public FixedLengthFrameDecoder(final int frameLength)
+    '''public FixedLengthFrameDecoder(final int frameLength)
     '''

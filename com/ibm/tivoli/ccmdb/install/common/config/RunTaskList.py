@@ -1,15 +1,15 @@
 def RunTaskList():
-    '''    public RunTaskList(final CfgTaskRunnerRestartEnum startType)
+    '''public RunTaskList(final CfgTaskRunnerRestartEnum startType)
     '''
 def main():
-    '''    public static void main(final String[] args)
+    '''public static void main(final String[] args)
     '''
 def setStopOnError():
-    '''    public void setStopOnError(final boolean stopOnError)
+    '''public void setStopOnError(final boolean stopOnError)
     '''
 def handleInstallEvent():
-    '''    public void handleInstallEvent(final ICmnInstallEvent event)
+    '''public void handleInstallEvent(final ICmnInstallEvent event)
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''

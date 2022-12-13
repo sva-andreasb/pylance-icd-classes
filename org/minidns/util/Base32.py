@@ -1,3 +1,3 @@
 def encodeToString():
-    '''    public static String encodeToString(final byte[] bytes)
+    '''public static String encodeToString(final byte[] bytes)
     '''

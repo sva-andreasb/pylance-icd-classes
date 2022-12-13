@@ -1,8 +1,8 @@
 def GenerateSQLVisitor():
-    '''    public GenerateSQLVisitor(final IndentedWriter out)
+    '''public GenerateSQLVisitor(final IndentedWriter out)
     '''
 def visit():
-    '''    public void visit(final SqlProject sqlNode)
+    '''public void visit(final SqlProject sqlNode)
     public void visit(final SqlDistinct sqlNode)
     public void visit(final SqlRestrict sqlNode)
     public void visit(final SqlSlice sqlNode)
@@ -15,11 +15,11 @@ def visit():
     public void visit(final SqlUnion sqlUnion)
     '''
 def rewrite():
-    '''    public SqlJoinInner rewrite(final SqlJoinInner join)
+    '''public SqlJoinInner rewrite(final SqlJoinInner join)
     '''
 def conditionList():
-    '''    public void conditionList(final SqlExprList conditions)
+    '''public void conditionList(final SqlExprList conditions)
     '''
 def convert():
-    '''    public SqlTable convert(final SqlColumn item)
+    '''public SqlTable convert(final SqlColumn item)
     '''

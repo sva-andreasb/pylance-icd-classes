@@ -1,6 +1,6 @@
 def FldItemHasIAS():
-    '''    public FldItemHasIAS(final MboValue mbv)
+    '''public FldItemHasIAS(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

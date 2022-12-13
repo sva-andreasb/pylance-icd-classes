@@ -1,6 +1,6 @@
 def WFWaitList():
-    '''    public WFWaitList(final MboSet ms)
+    '''public WFWaitList(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

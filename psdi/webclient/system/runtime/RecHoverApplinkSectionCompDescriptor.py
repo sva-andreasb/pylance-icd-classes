@@ -1,3 +1,3 @@
 def addRenderContentToControl():
-    '''    public void addRenderContentToControl(final InRecHoverControl control)
+    '''public void addRenderContentToControl(final InRecHoverControl control)
     '''

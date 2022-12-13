@@ -1,3 +1,3 @@
 def MaxIntFileLookup():
-    '''    public MaxIntFileLookup(final MboSet ms)
+    '''public MaxIntFileLookup(final MboSet ms)
     '''

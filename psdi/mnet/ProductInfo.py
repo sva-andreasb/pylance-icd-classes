@@ -1,84 +1,84 @@
 def ProductInfo():
-    '''    public ProductInfo()
+    '''public ProductInfo()
     '''
 def errorMsg():
-    '''    public String errorMsg()
+    '''public String errorMsg()
     '''
 def getItem():
-    '''    public String getItem()
+    '''public String getItem()
     '''
 def getDescription():
-    '''    public String getDescription()
+    '''public String getDescription()
     '''
 def getVendorPartNum():
-    '''    public String getVendorPartNum()
+    '''public String getVendorPartNum()
     '''
 def getItemStatus():
-    '''    public String getItemStatus()
+    '''public String getItemStatus()
     '''
 def getPrice():
-    '''    public String getPrice(final int index)
+    '''public String getPrice(final int index)
     '''
 def getAvailQuantity():
-    '''    public String getAvailQuantity(final int index)
+    '''public String getAvailQuantity(final int index)
     '''
 def getMinQuantity():
-    '''    public String getMinQuantity()
+    '''public String getMinQuantity()
     '''
 def getMulQuantity():
-    '''    public String getMulQuantity()
+    '''public String getMulQuantity()
     '''
 def getPackCode():
-    '''    public String getPackCode()
+    '''public String getPackCode()
     '''
 def getPackQuantity():
-    '''    public String getPackQuantity()
+    '''public String getPackQuantity()
     '''
 def getUOM():
-    '''    public String getUOM()
+    '''public String getUOM()
     '''
 def getSubstitute():
-    '''    public String getSubstitute()
+    '''public String getSubstitute()
     '''
 def getNotes():
-    '''    public String getNotes()
+    '''public String getNotes()
     '''
 def setErrorMsg():
-    '''    public void setErrorMsg(final String value)
+    '''public void setErrorMsg(final String value)
     '''
 def setItem():
-    '''    public void setItem(final String value)
+    '''public void setItem(final String value)
     '''
 def setDescription():
-    '''    public void setDescription(final String value)
+    '''public void setDescription(final String value)
     '''
 def setVendorPartNum():
-    '''    public void setVendorPartNum(final String value)
+    '''public void setVendorPartNum(final String value)
     '''
 def setItemStatus():
-    '''    public void setItemStatus(final String value)
+    '''public void setItemStatus(final String value)
     '''
 def setMinQuantity():
-    '''    public void setMinQuantity(final double value)
+    '''public void setMinQuantity(final double value)
     '''
 def setMulQuantity():
-    '''    public void setMulQuantity(final double value)
+    '''public void setMulQuantity(final double value)
     '''
 def setPackCode():
-    '''    public void setPackCode(final String value)
+    '''public void setPackCode(final String value)
     '''
 def setPackQuantity():
-    '''    public void setPackQuantity(final String value)
+    '''public void setPackQuantity(final String value)
     '''
 def setUOM():
-    '''    public void setUOM(final String value)
+    '''public void setUOM(final String value)
     '''
 def setSubstitute():
-    '''    public void setSubstitute(final String value)
+    '''public void setSubstitute(final String value)
     '''
 def setNotes():
-    '''    public void setNotes(final String value)
+    '''public void setNotes(final String value)
     '''
 def addPriceAndAvailability():
-    '''    public void addPriceAndAvailability(final double price, final double availability)
+    '''public void addPriceAndAvailability(final double price, final double availability)
     '''

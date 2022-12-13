@@ -1,3 +1,3 @@
 def RfcMatchingRuleId():
-    '''    public RfcMatchingRuleId(final String s)
+    '''public RfcMatchingRuleId(final String s)
     '''

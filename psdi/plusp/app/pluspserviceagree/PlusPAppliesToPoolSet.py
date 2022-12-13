@@ -1,3 +1,3 @@
 def PlusPAppliesToPoolSet():
-    '''    public PlusPAppliesToPoolSet(final MboServerInterface mboServerInterface)
+    '''public PlusPAppliesToPoolSet(final MboServerInterface mboServerInterface)
     '''

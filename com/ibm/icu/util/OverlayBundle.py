@@ -1,6 +1,6 @@
 def OverlayBundle():
-    '''    public OverlayBundle(final String[] baseNames, final Locale locale)
+    '''public OverlayBundle(final String[] baseNames, final Locale locale)
     '''
 def getKeys():
-    '''    public Enumeration getKeys()
+    '''public Enumeration getKeys()
     '''

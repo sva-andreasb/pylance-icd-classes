@@ -1,3 +1,3 @@
 def ReportSecAttKeySet():
-    '''    public ReportSecAttKeySet(final MboServerInterface ms)
+    '''public ReportSecAttKeySet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def MRCostSet():
-    '''    public MRCostSet(final MboServerInterface ms)
+    '''public MRCostSet(final MboServerInterface ms)
     '''
 def setReadOnly():
-    '''    public void setReadOnly(final boolean flag)
+    '''public void setReadOnly(final boolean flag)
     '''

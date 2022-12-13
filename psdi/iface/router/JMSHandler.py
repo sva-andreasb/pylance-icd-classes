@@ -10,45 +10,45 @@ PROVIDERUSER = "String  \"PROVIDERUSER\""
 PROVIDERPASSWORD = "String  \"PROVIDERPASSWORD\""
 JMSPROPS = "String  \"JMSPROPS\""
 def JMSHandler():
-    '''    public JMSHandler(final MaxEndPointInfo endPointInfo)
+    '''public JMSHandler(final MaxEndPointInfo endPointInfo)
     public JMSHandler()
     '''
 def invoke():
-    '''    public byte[] invoke(final Map<String, ?> metaData, byte[] data)
+    '''public byte[] invoke(final Map<String, ?> metaData, byte[] data)
     '''
 def getProperties():
-    '''    public List<RouterPropsInfo> getProperties()
+    '''public List<RouterPropsInfo> getProperties()
     '''
 def getJMSExit():
-    '''    public String getJMSExit()
+    '''public String getJMSExit()
     '''
 def getConFactoryName():
-    '''    public String getConFactoryName()
+    '''public String getConFactoryName()
     '''
 def getDestinationName():
-    '''    public String getDestinationName()
+    '''public String getDestinationName()
     '''
 def getIniConFactory():
-    '''    public String getIniConFactory()
+    '''public String getIniConFactory()
     '''
 def getProviderUrl():
-    '''    public String getProviderUrl()
+    '''public String getProviderUrl()
     '''
 def isCompress():
-    '''    public boolean isCompress()
+    '''public boolean isCompress()
     '''
 def getDestinationType():
-    '''    public String getDestinationType()
+    '''public String getDestinationType()
     '''
 def getUsername():
-    '''    public String getUsername()
+    '''public String getUsername()
     '''
 def getProviderUsername():
-    '''    public String getProviderUsername()
+    '''public String getProviderUsername()
     '''
 def getProviderPassword():
-    '''    public String getProviderPassword()
+    '''public String getProviderPassword()
     '''
 def isText():
-    '''    public boolean isText()
+    '''public boolean isText()
     '''

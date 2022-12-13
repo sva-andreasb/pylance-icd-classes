@@ -1,6 +1,6 @@
 def PlusPFldCustomerSince():
-    '''    public PlusPFldCustomerSince(final MboValue mbv)
+    '''public PlusPFldCustomerSince(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

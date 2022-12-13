@@ -1,9 +1,9 @@
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def FromTerm():
-    '''    public FromTerm(final Address address)
+    '''public FromTerm(final Address address)
     '''
 def match():
-    '''    public boolean match(final Message msg)
+    '''public boolean match(final Message msg)
     '''

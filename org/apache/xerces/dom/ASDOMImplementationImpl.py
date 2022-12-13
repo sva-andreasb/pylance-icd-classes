@@ -1,12 +1,12 @@
 def getDOMImplementation():
-    '''    public static DOMImplementation getDOMImplementation()
+    '''public static DOMImplementation getDOMImplementation()
     '''
 def createAS():
-    '''    public ASModel createAS(final boolean b)
+    '''public ASModel createAS(final boolean b)
     '''
 def createDOMASBuilder():
-    '''    public DOMASBuilder createDOMASBuilder()
+    '''public DOMASBuilder createDOMASBuilder()
     '''
 def createDOMASWriter():
-    '''    public DOMASWriter createDOMASWriter()
+    '''public DOMASWriter createDOMASWriter()
     '''

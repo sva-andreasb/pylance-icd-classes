@@ -1,3 +1,3 @@
 def PrinterSet():
-    '''    public PrinterSet(final MboServerInterface ms)
+    '''public PrinterSet(final MboServerInterface ms)
     '''

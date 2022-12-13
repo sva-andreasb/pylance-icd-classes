@@ -1,15 +1,15 @@
 def getCreateTime():
-    '''    public long getCreateTime()
+    '''public long getCreateTime()
     '''
 def getConRefId():
-    '''    public long getConRefId()
+    '''public long getConRefId()
     '''
 def getStackTrace():
-    '''    public StackTraceElement[] getStackTrace()
+    '''public StackTraceElement[] getStackTrace()
     '''
 def getCloseTime():
-    '''    public long getCloseTime()
+    '''public long getCloseTime()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

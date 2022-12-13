@@ -1,3 +1,3 @@
 def AbstractSmackIntegrationTest():
-    '''    public AbstractSmackIntegrationTest(final SmackIntegrationTestEnvironment environment)
+    '''public AbstractSmackIntegrationTest(final SmackIntegrationTestEnvironment environment)
     '''

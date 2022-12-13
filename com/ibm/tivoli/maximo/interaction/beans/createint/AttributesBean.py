@@ -1,3 +1,3 @@
 def instantdelete():
-    '''    public int instantdelete()
+    '''public int instantdelete()
     '''

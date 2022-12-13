@@ -1,12 +1,12 @@
 def V():
-    '''    public V(final IConfig a)
+    '''public V(final IConfig a)
     '''
 def getLicensePath():
-    '''    public String getLicensePath()
+    '''public String getLicensePath()
     '''
 def getStoragePath():
-    '''    public String getStoragePath()
+    '''public String getStoragePath()
     '''
 def getFileSavePath():
-    '''    public String getFileSavePath()
+    '''public String getFileSavePath()
     '''

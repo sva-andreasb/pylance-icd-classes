@@ -1,12 +1,12 @@
 def WeatherEndPoint():
-    '''    public WeatherEndPoint(final MboSet ms)
+    '''public WeatherEndPoint(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''

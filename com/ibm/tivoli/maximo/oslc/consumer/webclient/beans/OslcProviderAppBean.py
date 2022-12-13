@@ -1,3 +1,3 @@
 def MIGRATE():
-    '''    public int MIGRATE()
+    '''public int MIGRATE()
     '''

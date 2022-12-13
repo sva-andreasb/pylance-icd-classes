@@ -1,3 +1,3 @@
 def CallPlaceCustomDataInitializationException():
-    '''    public CallPlaceCustomDataInitializationException(final String message, final Throwable cause)
+    '''public CallPlaceCustomDataInitializationException(final String message, final Throwable cause)
     '''

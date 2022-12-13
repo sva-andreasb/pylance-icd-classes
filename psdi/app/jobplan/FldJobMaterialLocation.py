@@ -1,6 +1,6 @@
 def FldJobMaterialLocation():
-    '''    public FldJobMaterialLocation(final MboValue mbv)
+    '''public FldJobMaterialLocation(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

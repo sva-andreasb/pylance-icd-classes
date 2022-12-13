@@ -1,6 +1,6 @@
 def GRCrewAvailBean():
-    '''    public GRCrewAvailBean()
+    '''public GRCrewAvailBean()
     '''
 def getUserInfo():
-    '''    public UserInfo getUserInfo()
+    '''public UserInfo getUserInfo()
     '''

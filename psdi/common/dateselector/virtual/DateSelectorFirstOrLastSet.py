@@ -1,6 +1,6 @@
 def DateSelectorFirstOrLastSet():
-    '''    public DateSelectorFirstOrLastSet(final MboServerInterface ms)
+    '''public DateSelectorFirstOrLastSet(final MboServerInterface ms)
     '''
 def getFirstOrLastStr():
-    '''    public MboSetRemote getFirstOrLastStr()
+    '''public MboSetRemote getFirstOrLastStr()
     '''

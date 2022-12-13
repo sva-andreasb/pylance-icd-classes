@@ -19,17 +19,17 @@ AWS_SESSION_TOKEN_ENV_VAR = "String  \"AWS_SESSION_TOKEN\""
 AWS_CBOR_DISABLE_ENV_VAR = "String  \"AWS_CBOR_DISABLE\""
 AWS_CBOR_DISABLE_SYSTEM_PROPERTY = "String  \"com.amazonaws.sdk.disableCbor\""
 def setGlobalTimeOffset():
-    '''    public static void setGlobalTimeOffset(final int timeOffset)
+    '''public static void setGlobalTimeOffset(final int timeOffset)
     '''
 def getGlobalTimeOffset():
-    '''    public static int getGlobalTimeOffset()
+    '''public static int getGlobalTimeOffset()
     '''
 def isInRegionOptimizedModeEnabled():
-    '''    public static boolean isInRegionOptimizedModeEnabled()
+    '''public static boolean isInRegionOptimizedModeEnabled()
     '''
 def isCertCheckingDisabled():
-    '''    public static boolean isCertCheckingDisabled()
+    '''public static boolean isCertCheckingDisabled()
     '''
 def isCborDisabled():
-    '''    public static boolean isCborDisabled()
+    '''public static boolean isCborDisabled()
     '''

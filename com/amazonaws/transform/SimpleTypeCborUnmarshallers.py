@@ -1,5 +1,5 @@
 def unmarshall():
-    '''    public String unmarshall(final JsonUnmarshallerContext unmarshallerContext)
+    '''public String unmarshall(final JsonUnmarshallerContext unmarshallerContext)
     public Double unmarshall(final JsonUnmarshallerContext unmarshallerContext)
     public Integer unmarshall(final JsonUnmarshallerContext unmarshallerContext)
     public BigInteger unmarshall(final JsonUnmarshallerContext unmarshallerContext)
@@ -13,7 +13,7 @@ def unmarshall():
     public Short unmarshall(final JsonUnmarshallerContext unmarshallerContext)
     '''
 def getInstance():
-    '''    public static StringCborUnmarshaller getInstance()
+    '''public static StringCborUnmarshaller getInstance()
     public static DoubleCborUnmarshaller getInstance()
     public static IntegerCborUnmarshaller getInstance()
     public static BigIntegerCborUnmarshaller getInstance()

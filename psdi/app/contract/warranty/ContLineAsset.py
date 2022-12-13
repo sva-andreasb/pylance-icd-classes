@@ -1,24 +1,24 @@
 def ContLineAsset():
-    '''    public ContLineAsset(final MboSet ms)
+    '''public ContLineAsset(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def calculateEndDate():
-    '''    public Date calculateEndDate()
+    '''public Date calculateEndDate()
     '''
 def getMboSet():
-    '''    public MboSetRemote getMboSet(final String name)
+    '''public MboSetRemote getMboSet(final String name)
     '''

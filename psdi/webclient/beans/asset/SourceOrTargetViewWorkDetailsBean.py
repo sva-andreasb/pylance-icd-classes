@@ -1,3 +1,3 @@
 def SourceOrTargetViewWorkDetailsBean():
-    '''    public SourceOrTargetViewWorkDetailsBean()
+    '''public SourceOrTargetViewWorkDetailsBean()
     '''

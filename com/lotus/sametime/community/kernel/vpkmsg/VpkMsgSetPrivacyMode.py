@@ -1,3 +1,3 @@
 def VpkMsgSetPrivacyMode():
-    '''    public VpkMsgSetPrivacyMode(final int n, final short v)
+    '''public VpkMsgSetPrivacyMode(final int n, final short v)
     '''

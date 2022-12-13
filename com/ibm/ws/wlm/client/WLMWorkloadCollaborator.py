@@ -1,3 +1,3 @@
 def voteOnRequest():
-    '''    public boolean voteOnRequest(final ServerRequestInfo sri)
+    '''public boolean voteOnRequest(final ServerRequestInfo sri)
     '''

@@ -1,6 +1,6 @@
 def FldSuiteSoftwareName():
-    '''    public FldSuiteSoftwareName(final MboValue mbv)
+    '''public FldSuiteSoftwareName(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

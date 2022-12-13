@@ -1,6 +1,6 @@
 def FldRuleName():
-    '''    public FldRuleName(final MboValue mbv)
+    '''public FldRuleName(final MboValue mbv)
     '''
 def getAppLink():
-    '''    public String[] getAppLink()
+    '''public String[] getAppLink()
     '''

@@ -1,6 +1,6 @@
 def FldMapProcess():
-    '''    public FldMapProcess(final MboValue mbv)
+    '''public FldMapProcess(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

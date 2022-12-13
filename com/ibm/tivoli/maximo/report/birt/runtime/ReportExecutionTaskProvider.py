@@ -1,6 +1,6 @@
 def getReportExecutionTask():
-    '''    public static ReportExecutionTask getReportExecutionTask()
+    '''public static ReportExecutionTask getReportExecutionTask()
     '''
 def setReportExecutionTask():
-    '''    public static void setReportExecutionTask(final ReportExecutionTask eTask)
+    '''public static void setReportExecutionTask(final ReportExecutionTask eTask)
     '''

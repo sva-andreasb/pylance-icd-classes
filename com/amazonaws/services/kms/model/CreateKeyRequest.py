@@ -1,53 +1,53 @@
 def setPolicy():
-    '''    public void setPolicy(final String policy)
+    '''public void setPolicy(final String policy)
     '''
 def getPolicy():
-    '''    public String getPolicy()
+    '''public String getPolicy()
     '''
 def withPolicy():
-    '''    public CreateKeyRequest withPolicy(final String policy)
+    '''public CreateKeyRequest withPolicy(final String policy)
     '''
 def setDescription():
-    '''    public void setDescription(final String description)
+    '''public void setDescription(final String description)
     '''
 def getDescription():
-    '''    public String getDescription()
+    '''public String getDescription()
     '''
 def withDescription():
-    '''    public CreateKeyRequest withDescription(final String description)
+    '''public CreateKeyRequest withDescription(final String description)
     '''
 def setKeyUsage():
-    '''    public void setKeyUsage(final String keyUsage)
+    '''public void setKeyUsage(final String keyUsage)
     public void setKeyUsage(final KeyUsageType keyUsage)
     '''
 def getKeyUsage():
-    '''    public String getKeyUsage()
+    '''public String getKeyUsage()
     '''
 def withKeyUsage():
-    '''    public CreateKeyRequest withKeyUsage(final String keyUsage)
+    '''public CreateKeyRequest withKeyUsage(final String keyUsage)
     public CreateKeyRequest withKeyUsage(final KeyUsageType keyUsage)
     '''
 def setBypassPolicyLockoutSafetyCheck():
-    '''    public void setBypassPolicyLockoutSafetyCheck(final Boolean bypassPolicyLockoutSafetyCheck)
+    '''public void setBypassPolicyLockoutSafetyCheck(final Boolean bypassPolicyLockoutSafetyCheck)
     '''
 def getBypassPolicyLockoutSafetyCheck():
-    '''    public Boolean getBypassPolicyLockoutSafetyCheck()
+    '''public Boolean getBypassPolicyLockoutSafetyCheck()
     '''
 def withBypassPolicyLockoutSafetyCheck():
-    '''    public CreateKeyRequest withBypassPolicyLockoutSafetyCheck(final Boolean bypassPolicyLockoutSafetyCheck)
+    '''public CreateKeyRequest withBypassPolicyLockoutSafetyCheck(final Boolean bypassPolicyLockoutSafetyCheck)
     '''
 def isBypassPolicyLockoutSafetyCheck():
-    '''    public Boolean isBypassPolicyLockoutSafetyCheck()
+    '''public Boolean isBypassPolicyLockoutSafetyCheck()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def clone():
-    '''    public CreateKeyRequest clone()
+    '''public CreateKeyRequest clone()
     '''

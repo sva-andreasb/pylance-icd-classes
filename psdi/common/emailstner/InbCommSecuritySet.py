@@ -1,3 +1,3 @@
 def InbCommSecuritySet():
-    '''    public InbCommSecuritySet(final MboServerInterface ms)
+    '''public InbCommSecuritySet(final MboServerInterface ms)
     '''

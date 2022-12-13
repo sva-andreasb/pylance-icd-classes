@@ -1,3 +1,3 @@
 def FldMaxRelationshipChild():
-    '''    public FldMaxRelationshipChild(final MboValue mbv)
+    '''public FldMaxRelationshipChild(final MboValue mbv)
     '''

@@ -1,3 +1,3 @@
 def LocationWorkZoneSet():
-    '''    public LocationWorkZoneSet(final MboServerInterface ms)
+    '''public LocationWorkZoneSet(final MboServerInterface ms)
     '''

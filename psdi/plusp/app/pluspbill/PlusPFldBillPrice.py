@@ -1,6 +1,6 @@
 def PlusPFldBillPrice():
-    '''    public PlusPFldBillPrice(final MboValue mbv)
+    '''public PlusPFldBillPrice(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

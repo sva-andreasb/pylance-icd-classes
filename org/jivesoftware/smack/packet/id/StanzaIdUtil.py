@@ -1,3 +1,3 @@
 def newStanzaId():
-    '''    public static String newStanzaId()
+    '''public static String newStanzaId()
     '''

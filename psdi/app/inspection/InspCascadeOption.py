@@ -1,6 +1,6 @@
 def InspCascadeOption():
-    '''    public InspCascadeOption(final MboSet ms)
+    '''public InspCascadeOption(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

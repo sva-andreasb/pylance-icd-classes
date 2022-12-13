@@ -1,9 +1,9 @@
 def FldInvoiceCurrencyCode():
-    '''    public FldInvoiceCurrencyCode(final MboValue mbv)
+    '''public FldInvoiceCurrencyCode(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

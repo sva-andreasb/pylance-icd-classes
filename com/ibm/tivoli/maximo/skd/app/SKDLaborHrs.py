@@ -1,3 +1,3 @@
 def SKDLaborHrs():
-    '''    public SKDLaborHrs(final MboSet ms)
+    '''public SKDLaborHrs(final MboSet ms)
     '''

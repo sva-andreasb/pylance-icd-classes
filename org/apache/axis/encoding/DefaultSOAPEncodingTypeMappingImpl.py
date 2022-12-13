@@ -1,6 +1,6 @@
 def getSingleton():
-    '''    public static synchronized TypeMappingImpl getSingleton()
+    '''public static synchronized TypeMappingImpl getSingleton()
     '''
 def createWithDelegate():
-    '''    public static TypeMappingDelegate createWithDelegate()
+    '''public static TypeMappingDelegate createWithDelegate()
     '''

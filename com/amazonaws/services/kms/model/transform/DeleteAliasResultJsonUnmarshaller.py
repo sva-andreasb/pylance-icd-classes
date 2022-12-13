@@ -1,6 +1,6 @@
 def unmarshall():
-    '''    public DeleteAliasResult unmarshall(final JsonUnmarshallerContext context)
+    '''public DeleteAliasResult unmarshall(final JsonUnmarshallerContext context)
     '''
 def getInstance():
-    '''    public static DeleteAliasResultJsonUnmarshaller getInstance()
+    '''public static DeleteAliasResultJsonUnmarshaller getInstance()
     '''

@@ -1,24 +1,24 @@
 def from():
-    '''    public static Address from(final String hostAndPort)
+    '''public static Address from(final String hostAndPort)
     '''
 def Address():
-    '''    public Address(final String host, final int port)
+    '''public Address(final String host, final int port)
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def getHost():
-    '''    public String getHost()
+    '''public String getHost()
     '''
 def getPort():
-    '''    public int getPort()
+    '''public int getPort()
     '''
 def toSocketAddress():
-    '''    public InetSocketAddress toSocketAddress()
+    '''public InetSocketAddress toSocketAddress()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

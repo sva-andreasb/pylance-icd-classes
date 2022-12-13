@@ -1,3 +1,3 @@
 def CollectDetailsSet():
-    '''    public CollectDetailsSet(final MboServerInterface ms)
+    '''public CollectDetailsSet(final MboServerInterface ms)
     '''

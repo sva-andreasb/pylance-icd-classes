@@ -1,6 +1,6 @@
 def PmCfgWO():
-    '''    public PmCfgWO(final MboSet ms)
+    '''public PmCfgWO(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

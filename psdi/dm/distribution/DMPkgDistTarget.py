@@ -1,18 +1,18 @@
 def DMPkgDistTarget():
-    '''    public DMPkgDistTarget(final MboSet ms)
+    '''public DMPkgDistTarget(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def setFieldFlags():
-    '''    public void setFieldFlags()
+    '''public void setFieldFlags()
     '''
 def getList():
-    '''    public MboSetRemote getList(final String attribute)
+    '''public MboSetRemote getList(final String attribute)
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''

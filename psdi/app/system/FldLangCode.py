@@ -1,6 +1,6 @@
 def FldLangCode():
-    '''    public FldLangCode(final MboValue mbv)
+    '''public FldLangCode(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,9 +1,9 @@
 def CCIClassUseWith():
-    '''    public CCIClassUseWith(final MboSet ms)
+    '''public CCIClassUseWith(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def isCDMCIType():
-    '''    public boolean isCDMCIType()
+    '''public boolean isCDMCIType()
     '''

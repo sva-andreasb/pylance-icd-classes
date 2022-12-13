@@ -5,125 +5,125 @@ PDF = "String  \"\u202c\""
 LRM = "String  \"\u200e\""
 RLM = "String  \"\u200f\""
 def setDefaultscenario():
-    '''    public void setDefaultscenario(final boolean defaultscenario)
+    '''public void setDefaultscenario(final boolean defaultscenario)
     '''
 def getDefaultscenario():
-    '''    public boolean getDefaultscenario()
+    '''public boolean getDefaultscenario()
     '''
 def setSnapshot():
-    '''    public void setSnapshot(final boolean snapshot)
+    '''public void setSnapshot(final boolean snapshot)
     '''
 def getSnapshot():
-    '''    public boolean getSnapshot()
+    '''public boolean getSnapshot()
     '''
 def setDailyView():
-    '''    public void setDailyView(final boolean dailyview)
+    '''public void setDailyView(final boolean dailyview)
     '''
 def getDailyView():
-    '''    public boolean getDailyView()
+    '''public boolean getDailyView()
     '''
 def getSKDFormat():
-    '''    public SKDFormat getSKDFormat()
+    '''public SKDFormat getSKDFormat()
     '''
 def getUserLocale():
-    '''    public Locale getUserLocale()
+    '''public Locale getUserLocale()
     '''
 def getUserTimeZone():
-    '''    public TimeZone getUserTimeZone()
+    '''public TimeZone getUserTimeZone()
     '''
 def getServerTimeZone():
-    '''    public TimeZone getServerTimeZone()
+    '''public TimeZone getServerTimeZone()
     '''
 def getSKDUtility():
-    '''    public static synchronized SKDUtility getSKDUtility()
+    '''public static synchronized SKDUtility getSKDUtility()
     '''
 def reset():
-    '''    public static synchronized void reset()
+    '''public static synchronized void reset()
     '''
 def SKDUtility():
-    '''    public SKDUtility()
+    '''public SKDUtility()
     '''
 def isDebugMode():
-    '''    public boolean isDebugMode()
+    '''public boolean isDebugMode()
     '''
 def setDebugMode():
-    '''    public void setDebugMode(final boolean debugMode)
+    '''public void setDebugMode(final boolean debugMode)
     '''
 def getResourceString():
-    '''    public String getResourceString(final String key)
+    '''public String getResourceString(final String key)
     '''
 def getResourceStrings():
-    '''    public Hashtable getResourceStrings()
+    '''public Hashtable getResourceStrings()
     '''
 def decodeColor():
-    '''    public Color decodeColor(final String hexValue)
+    '''public Color decodeColor(final String hexValue)
     '''
 def enforceOrientation():
-    '''    public void enforceOrientation(final JComponent comp)
+    '''public void enforceOrientation(final JComponent comp)
     '''
 def isGUIMirrored():
-    '''    public boolean isGUIMirrored()
+    '''public boolean isGUIMirrored()
     '''
 def removeMarkersForApplink():
-    '''    public static String removeMarkersForApplink(final String str)
+    '''public static String removeMarkersForApplink(final String str)
     '''
 def setGUIMirrored():
-    '''    public void setGUIMirrored(final String langcode)
+    '''public void setGUIMirrored(final String langcode)
     '''
 def isBIDIEnabled():
-    '''    public boolean isBIDIEnabled()
+    '''public boolean isBIDIEnabled()
     '''
 def setBIDIEnabled():
-    '''    public void setBIDIEnabled(final String value)
+    '''public void setBIDIEnabled(final String value)
     '''
 def replaceString():
-    '''    public static String replaceString(String str, final String pattern, final String replacement)
+    '''public static String replaceString(String str, final String pattern, final String replacement)
     '''
 def removeMarkers():
-    '''    public static String removeMarkers(final String str)
+    '''public static String removeMarkers(final String str)
     '''
 def isBiDiString():
-    '''    public static boolean isBiDiString(final String str)
+    '''public static boolean isBiDiString(final String str)
     '''
 def todaysDate():
-    '''    public Date todaysDate()
+    '''public Date todaysDate()
     '''
 def getServerDate():
-    '''    public Date getServerDate(Date oldDate)
+    '''public Date getServerDate(Date oldDate)
     '''
 def getServerDateForUser():
-    '''    public Date getServerDateForUser(Date serverDate)
+    '''public Date getServerDateForUser(Date serverDate)
     '''
 def getDate():
-    '''    public Date getDate(final Locale l, final TimeZone tz, final Date date)
+    '''public Date getDate(final Locale l, final TimeZone tz, final Date date)
     '''
 def areServerAndUserTZDifferent():
-    '''    public boolean areServerAndUserTZDifferent()
+    '''public boolean areServerAndUserTZDifferent()
     '''
 def isComplianceEnabled():
-    '''    public boolean isComplianceEnabled()
+    '''public boolean isComplianceEnabled()
     '''
 def setComplianceEnabled():
-    '''    public void setComplianceEnabled(final boolean complianceEnabled)
+    '''public void setComplianceEnabled(final boolean complianceEnabled)
     '''
 def needSendModelChange():
-    '''    public boolean needSendModelChange()
+    '''public boolean needSendModelChange()
     '''
 def setSendModelchange():
-    '''    public void setSendModelchange(final boolean sendModelchange)
+    '''public void setSendModelchange(final boolean sendModelchange)
     '''
 def sendToBeSaved():
-    '''    public boolean sendToBeSaved()
+    '''public boolean sendToBeSaved()
     '''
 def setToBeSaved():
-    '''    public void setToBeSaved(final boolean sendtobesaved)
+    '''public void setToBeSaved(final boolean sendtobesaved)
     '''
 def isEmpty():
-    '''    public static boolean isEmpty(final String text)
+    '''public static boolean isEmpty(final String text)
     '''
 def getColorProperty():
-    '''    public Color getColorProperty(final String propName, Color defaultColor)
+    '''public Color getColorProperty(final String propName, Color defaultColor)
     '''
 def getSnapToGridIntervalMins():
-    '''    public int getSnapToGridIntervalMins(final UISerializationHelper helper)
+    '''public int getSnapToGridIntervalMins(final UISerializationHelper helper)
     '''

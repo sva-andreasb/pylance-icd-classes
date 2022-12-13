@@ -1,6 +1,6 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def getDisplay():
-    '''    public String getDisplay()
+    '''public String getDisplay()
     '''

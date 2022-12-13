@@ -1,10 +1,10 @@
 def isEnabled():
-    '''    public boolean isEnabled()
+    '''public boolean isEnabled()
     public boolean isEnabled()
     '''
 def collectByteThroughput():
-    '''    public void collectByteThroughput(final ByteThroughputProvider provider)
+    '''public void collectByteThroughput(final ByteThroughputProvider provider)
     '''
 def collectLatency():
-    '''    public void collectLatency(final ServiceLatencyProvider provider)
+    '''public void collectLatency(final ServiceLatencyProvider provider)
     '''

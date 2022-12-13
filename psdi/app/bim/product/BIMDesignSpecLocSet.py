@@ -1,3 +1,3 @@
 def BIMDesignSpecLocSet():
-    '''    public BIMDesignSpecLocSet(final MboServerInterface ms)
+    '''public BIMDesignSpecLocSet(final MboServerInterface ms)
     '''

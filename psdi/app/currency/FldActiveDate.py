@@ -1,6 +1,6 @@
 def FldActiveDate():
-    '''    public FldActiveDate(final MboValue mbv)
+    '''public FldActiveDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

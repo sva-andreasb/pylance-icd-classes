@@ -1,6 +1,6 @@
 def FldWhereUsedQuantity():
-    '''    public FldWhereUsedQuantity(final MboValue mbv)
+    '''public FldWhereUsedQuantity(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,6 +1,6 @@
 def PlusPFldDomainCustomer():
-    '''    public PlusPFldDomainCustomer(final MboValue mboValue)
+    '''public PlusPFldDomainCustomer(final MboValue mboValue)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,15 +1,15 @@
 def getTitle():
-    '''    public String getTitle()
+    '''public String getTitle()
     '''
 def getHintWidth():
-    '''    public String getHintWidth()
+    '''public String getHintWidth()
     '''
 def getHintHeight():
-    '''    public String getHintHeight()
+    '''public String getHintHeight()
     '''
 def getUri():
-    '''    public String getUri()
+    '''public String getUri()
     '''
 def getLabel():
-    '''    public String getLabel()
+    '''public String getLabel()
     '''

@@ -1,3 +1,3 @@
 def FldQualCraftSkillSkillLevel():
-    '''    public FldQualCraftSkillSkillLevel(final MboValue mbv)
+    '''public FldQualCraftSkillSkillLevel(final MboValue mbv)
     '''

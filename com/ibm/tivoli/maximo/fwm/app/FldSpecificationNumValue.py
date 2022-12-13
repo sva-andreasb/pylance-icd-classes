@@ -1,6 +1,6 @@
 def FldSpecificationNumValue():
-    '''    public FldSpecificationNumValue(final MboValue mbv)
+    '''public FldSpecificationNumValue(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

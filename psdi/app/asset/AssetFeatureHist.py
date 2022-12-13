@@ -1,6 +1,6 @@
 def AssetFeatureHist():
-    '''    public AssetFeatureHist(final MboSet ms)
+    '''public AssetFeatureHist(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

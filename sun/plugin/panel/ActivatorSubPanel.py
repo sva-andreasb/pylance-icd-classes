@@ -1,3 +1,3 @@
 def ActivatorSubPanel():
-    '''    public ActivatorSubPanel(final ConfigurationInfo model)
+    '''public ActivatorSubPanel(final ConfigurationInfo model)
     '''

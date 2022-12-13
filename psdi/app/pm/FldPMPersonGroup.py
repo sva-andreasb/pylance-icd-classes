@@ -1,6 +1,6 @@
 def FldPMPersonGroup():
-    '''    public FldPMPersonGroup(final MboValue mbv)
+    '''public FldPMPersonGroup(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

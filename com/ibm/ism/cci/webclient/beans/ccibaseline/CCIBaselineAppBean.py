@@ -1,22 +1,22 @@
 IBM_COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Copyright IBM Corporation 2007, 2013.\nAll Rights Reserved.\nUS Government Users Restricted Rights - Use, duplication \nor disclosure restricted by GSA ADP Schedule Contract with IBM Corp.\n\n\""
 def CCIBaselineAppBean():
-    '''    public CCIBaselineAppBean()
+    '''public CCIBaselineAppBean()
     '''
 def ACTIVATE():
-    '''    public int ACTIVATE()
+    '''public int ACTIVATE()
     '''
 def VALIDATE():
-    '''    public int VALIDATE()
+    '''public int VALIDATE()
     '''
 def COMPACTUAL():
-    '''    public int COMPACTUAL()
+    '''public int COMPACTUAL()
     '''
 def NEWCOPY():
-    '''    public int NEWCOPY()
+    '''public int NEWCOPY()
     '''
 def DELETE():
-    '''    public int DELETE()
+    '''public int DELETE()
     '''
 def getRequestID():
-    '''    public long getRequestID()
+    '''public long getRequestID()
     '''

@@ -1,9 +1,9 @@
 def IlvAbstractConstraint():
-    '''    public IlvAbstractConstraint()
+    '''public IlvAbstractConstraint()
     '''
 def setGanttModelImpl():
-    '''    public void setGanttModelImpl(final IlvGanttModel a)
+    '''public void setGanttModelImpl(final IlvGanttModel a)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

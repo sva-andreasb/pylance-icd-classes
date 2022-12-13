@@ -1,15 +1,15 @@
 def ExtractErrorsBean():
-    '''    public ExtractErrorsBean()
+    '''public ExtractErrorsBean()
     '''
 def extracterrors():
-    '''    public int extracterrors()
+    '''public int extracterrors()
     '''
 def delete():
-    '''    public void delete()
+    '''public void delete()
     '''
 def resetExtractList():
-    '''    public int resetExtractList()
+    '''public int resetExtractList()
     '''
 def setPageStartIndex():
-    '''    public boolean setPageStartIndex(final int nRow)
+    '''public boolean setPageStartIndex(final int nRow)
     '''

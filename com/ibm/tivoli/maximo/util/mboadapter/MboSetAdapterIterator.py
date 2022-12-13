@@ -1,12 +1,12 @@
 def MboSetAdapterIterator():
-    '''    public MboSetAdapterIterator(final MboSetAdapter mboSet)
+    '''public MboSetAdapterIterator(final MboSetAdapter mboSet)
     '''
 def hasNext():
-    '''    public boolean hasNext()
+    '''public boolean hasNext()
     '''
 def next():
-    '''    public Object next()
+    '''public Object next()
     '''
 def remove():
-    '''    public void remove()
+    '''public void remove()
     '''

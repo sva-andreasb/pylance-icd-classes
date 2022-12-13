@@ -1,3 +1,3 @@
 def FldNetDeviceNodeName():
-    '''    public FldNetDeviceNodeName(final MboValue mbv)
+    '''public FldNetDeviceNodeName(final MboValue mbv)
     '''

@@ -1,6 +1,6 @@
 def CCIFldRelationContainment():
-    '''    public CCIFldRelationContainment(final MboValue mbv)
+    '''public CCIFldRelationContainment(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

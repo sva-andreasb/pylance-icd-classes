@@ -1,39 +1,39 @@
 def Message():
-    '''    public Message()
+    '''public Message()
     '''
 def addBodyPart():
-    '''    public void addBodyPart(final MimeBodyPart mimeBodyPart)
+    '''public void addBodyPart(final MimeBodyPart mimeBodyPart)
     '''
 def findBodyPart():
-    '''    public MimeBodyPart findBodyPart(final String s)
+    '''public MimeBodyPart findBodyPart(final String s)
     '''
 def getBodyPart():
-    '''    public MimeBodyPart getBodyPart(final int n)
+    '''public MimeBodyPart getBodyPart(final int n)
     '''
 def getPartCount():
-    '''    public int getPartCount()
+    '''public int getPartCount()
     '''
 def getRequestSOAPContext():
-    '''    public SOAPContext getRequestSOAPContext()
+    '''public SOAPContext getRequestSOAPContext()
     '''
 def getResponseSOAPContext():
-    '''    public SOAPContext getResponseSOAPContext()
+    '''public SOAPContext getResponseSOAPContext()
     '''
 def getRootPart():
-    '''    public MimeBodyPart getRootPart()
+    '''public MimeBodyPart getRootPart()
     '''
 def getSOAPTransport():
-    '''    public SOAPTransport getSOAPTransport()
+    '''public SOAPTransport getSOAPTransport()
     '''
 def receive():
-    '''    public DataHandler receive()
+    '''public DataHandler receive()
     '''
 def receiveEnvelope():
-    '''    public Envelope receiveEnvelope()
+    '''public Envelope receiveEnvelope()
     '''
 def send():
-    '''    public void send(final URL url, final String s, final Envelope envelope)
+    '''public void send(final URL url, final String s, final Envelope envelope)
     '''
 def setSOAPTransport():
-    '''    public void setSOAPTransport(final SOAPTransport st)
+    '''public void setSOAPTransport(final SOAPTransport st)
     '''

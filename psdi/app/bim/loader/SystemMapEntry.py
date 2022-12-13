@@ -1,12 +1,12 @@
 def getCOBieSystem():
-    '''    public String getCOBieSystem()
+    '''public String getCOBieSystem()
     '''
 def getMaximoSystem():
-    '''    public String getMaximoSystem()
+    '''public String getMaximoSystem()
     '''
 def getConnectionLocation():
-    '''    public String getConnectionLocation()
+    '''public String getConnectionLocation()
     '''
 def isNetwork():
-    '''    public boolean isNetwork()
+    '''public boolean isNetwork()
     '''

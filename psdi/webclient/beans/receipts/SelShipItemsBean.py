@@ -1,9 +1,9 @@
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''
 def search():
-    '''    public int search()
+    '''public int search()
     '''
 def setvalue():
-    '''    public int setvalue()
+    '''public int setvalue()
     '''

@@ -1,3 +1,3 @@
 def AssetAncestorSet():
-    '''    public AssetAncestorSet(final MboServerInterface ms)
+    '''public AssetAncestorSet(final MboServerInterface ms)
     '''

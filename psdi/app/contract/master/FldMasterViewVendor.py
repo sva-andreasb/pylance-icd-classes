@@ -1,6 +1,6 @@
 def FldMasterViewVendor():
-    '''    public FldMasterViewVendor(final MboValue mbv)
+    '''public FldMasterViewVendor(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

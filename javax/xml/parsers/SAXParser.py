@@ -1,8 +1,8 @@
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''
 def parse():
-    '''    public void parse(final InputStream inputStream, final HandlerBase handlerBase)
+    '''public void parse(final InputStream inputStream, final HandlerBase handlerBase)
     public void parse(final InputStream inputStream, final HandlerBase handlerBase, final String systemId)
     public void parse(final InputStream inputStream, final DefaultHandler defaultHandler)
     public void parse(final InputStream inputStream, final DefaultHandler defaultHandler, final String systemId)
@@ -14,8 +14,8 @@ def parse():
     public void parse(final InputSource inputSource, final DefaultHandler defaultHandler)
     '''
 def getSchema():
-    '''    public Schema getSchema()
+    '''public Schema getSchema()
     '''
 def isXIncludeAware():
-    '''    public boolean isXIncludeAware()
+    '''public boolean isXIncludeAware()
     '''

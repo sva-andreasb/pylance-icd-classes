@@ -1,3 +1,3 @@
 def DeleteBucketLifecycleConfigurationRequest():
-    '''    public DeleteBucketLifecycleConfigurationRequest(final String bucketName)
+    '''public DeleteBucketLifecycleConfigurationRequest(final String bucketName)
     '''

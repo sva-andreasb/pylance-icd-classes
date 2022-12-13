@@ -1,7 +1,7 @@
 EMPTY_STRING = "String  \"\""
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def cronAction():
-    '''    public void cronAction()
+    '''public void cronAction()
     '''

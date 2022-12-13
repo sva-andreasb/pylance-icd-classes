@@ -1,5 +1,5 @@
 def unmarshall():
-    '''    public String unmarshall(final StaxUnmarshallerContext unmarshallerContext)
+    '''public String unmarshall(final StaxUnmarshallerContext unmarshallerContext)
     public BigDecimal unmarshall(final StaxUnmarshallerContext unmarshallerContext)
     public BigInteger unmarshall(final StaxUnmarshallerContext unmarshallerContext)
     public Double unmarshall(final StaxUnmarshallerContext unmarshallerContext)
@@ -14,7 +14,7 @@ def unmarshall():
     public Short unmarshall(final StaxUnmarshallerContext unmarshallerContext)
     '''
 def getInstance():
-    '''    public static StringStaxUnmarshaller getInstance()
+    '''public static StringStaxUnmarshaller getInstance()
     public static BigDecimalStaxUnmarshaller getInstance()
     public static BigIntegerStaxUnmarshaller getInstance()
     public static DoubleStaxUnmarshaller getInstance()

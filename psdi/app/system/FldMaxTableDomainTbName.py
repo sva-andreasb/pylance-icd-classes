@@ -1,3 +1,3 @@
 def FldMaxTableDomainTbName():
-    '''    public FldMaxTableDomainTbName(final MboValue mbv)
+    '''public FldMaxTableDomainTbName(final MboValue mbv)
     '''

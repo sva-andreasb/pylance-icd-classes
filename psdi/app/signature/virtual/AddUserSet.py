@@ -1,9 +1,9 @@
 def AddUserSet():
-    '''    public AddUserSet(final MboServerInterface ms)
+    '''public AddUserSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

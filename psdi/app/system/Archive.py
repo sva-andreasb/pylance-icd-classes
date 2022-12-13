@@ -1,3 +1,3 @@
 def Archive():
-    '''    public Archive(final MboSet ms)
+    '''public Archive(final MboSet ms)
     '''

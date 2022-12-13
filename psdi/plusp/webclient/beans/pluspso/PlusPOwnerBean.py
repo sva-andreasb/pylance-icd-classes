@@ -1,6 +1,6 @@
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''
 def REFRESHLIST():
-    '''    public int REFRESHLIST()
+    '''public int REFRESHLIST()
     '''

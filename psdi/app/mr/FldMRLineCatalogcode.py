@@ -1,6 +1,6 @@
 def FldMRLineCatalogcode():
-    '''    public FldMRLineCatalogcode(final MboValue mbv)
+    '''public FldMRLineCatalogcode(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

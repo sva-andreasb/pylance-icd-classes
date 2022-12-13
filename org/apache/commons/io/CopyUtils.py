@@ -1,5 +1,5 @@
 def copy():
-    '''    public static void copy(final byte[] input, final OutputStream output)
+    '''public static void copy(final byte[] input, final OutputStream output)
     public static void copy(final byte[] input, final Writer output)
     public static void copy(final byte[] input, final Writer output, final String encoding)
     public static int copy(final InputStream input, final OutputStream output)

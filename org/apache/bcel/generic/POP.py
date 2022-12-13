@@ -1,6 +1,6 @@
 def POP():
-    '''    public POP()
+    '''public POP()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

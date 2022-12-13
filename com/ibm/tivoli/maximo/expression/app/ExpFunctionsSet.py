@@ -1,6 +1,6 @@
 def ExpFunctionsSet():
-    '''    public ExpFunctionsSet(final MboServerInterface ms)
+    '''public ExpFunctionsSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

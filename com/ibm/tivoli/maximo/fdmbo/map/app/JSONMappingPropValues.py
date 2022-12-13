@@ -1,9 +1,9 @@
 def JSONMappingPropValues():
-    '''    public JSONMappingPropValues(final MboSet ms)
+    '''public JSONMappingPropValues(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

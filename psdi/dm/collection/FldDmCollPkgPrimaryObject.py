@@ -1,6 +1,6 @@
 def FldDmCollPkgPrimaryObject():
-    '''    public FldDmCollPkgPrimaryObject(final MboValue mbv)
+    '''public FldDmCollPkgPrimaryObject(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

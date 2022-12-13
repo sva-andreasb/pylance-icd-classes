@@ -1,6 +1,6 @@
 def PlusPFldSplitCustomerBillCustomer():
-    '''    public PlusPFldSplitCustomerBillCustomer(final MboValue mbv)
+    '''public PlusPFldSplitCustomerBillCustomer(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

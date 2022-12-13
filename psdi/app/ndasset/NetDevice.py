@@ -1,6 +1,6 @@
 def NetDevice():
-    '''    public NetDevice(final MboSet ms)
+    '''public NetDevice(final MboSet ms)
     '''
 def delete():
-    '''    public void delete(final long modifier)
+    '''public void delete(final long modifier)
     '''

@@ -1,6 +1,6 @@
 def ApacheVirtualHostGenerator():
-    '''    public ApacheVirtualHostGenerator()
+    '''public ApacheVirtualHostGenerator()
     '''
 def getModel():
-    '''    public DetailTableModel getModel()
+    '''public DetailTableModel getModel()
     '''

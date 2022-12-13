@@ -1,3 +1,3 @@
 def LaborViewSet():
-    '''    public LaborViewSet(final MboServerInterface ms)
+    '''public LaborViewSet(final MboServerInterface ms)
     '''

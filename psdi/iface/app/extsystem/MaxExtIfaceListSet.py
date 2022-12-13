@@ -1,6 +1,6 @@
 def MaxExtIfaceListSet():
-    '''    public MaxExtIfaceListSet(final MboServerInterface ms)
+    '''public MaxExtIfaceListSet(final MboServerInterface ms)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

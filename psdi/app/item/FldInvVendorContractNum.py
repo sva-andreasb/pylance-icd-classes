@@ -1,6 +1,6 @@
 def FldInvVendorContractNum():
-    '''    public FldInvVendorContractNum(final MboValue mbv)
+    '''public FldInvVendorContractNum(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

@@ -1,3 +1,3 @@
 def CmdSub():
-    '''    public CmdSub(final String... argv)
+    '''public CmdSub(final String... argv)
     '''

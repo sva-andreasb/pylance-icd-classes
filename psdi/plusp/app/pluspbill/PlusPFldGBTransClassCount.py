@@ -1,6 +1,6 @@
 def PlusPFldGBTransClassCount():
-    '''    public PlusPFldGBTransClassCount(final MboValue mbv)
+    '''public PlusPFldGBTransClassCount(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

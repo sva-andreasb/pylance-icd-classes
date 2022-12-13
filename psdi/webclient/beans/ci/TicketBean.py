@@ -1,9 +1,9 @@
 def TicketBean():
-    '''    public TicketBean()
+    '''public TicketBean()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def execute():
-    '''    public synchronized int execute()
+    '''public synchronized int execute()
     '''

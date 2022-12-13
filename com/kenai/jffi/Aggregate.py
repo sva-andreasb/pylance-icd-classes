@@ -1,3 +1,3 @@
 def dispose():
-    '''    public final synchronized void dispose()
+    '''public final synchronized void dispose()
     '''

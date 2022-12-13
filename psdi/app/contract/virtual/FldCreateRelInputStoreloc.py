@@ -1,6 +1,6 @@
 def FldCreateRelInputStoreloc():
-    '''    public FldCreateRelInputStoreloc(final MboValue mbv)
+    '''public FldCreateRelInputStoreloc(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

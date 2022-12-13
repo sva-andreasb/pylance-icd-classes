@@ -1,3 +1,3 @@
 def SendAllUpdatesRequest():
-    '''    public SendAllUpdatesRequest(final String s, final String s2)
+    '''public SendAllUpdatesRequest(final String s, final String s2)
     '''

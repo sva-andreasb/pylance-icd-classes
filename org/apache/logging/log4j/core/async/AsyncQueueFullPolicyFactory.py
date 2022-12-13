@@ -1,3 +1,3 @@
 def create():
-    '''    public static AsyncQueueFullPolicy create()
+    '''public static AsyncQueueFullPolicy create()
     '''

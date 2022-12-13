@@ -1,6 +1,6 @@
 def FldMaxServSecurityServiceName():
-    '''    public FldMaxServSecurityServiceName(final MboValue mbv)
+    '''public FldMaxServSecurityServiceName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

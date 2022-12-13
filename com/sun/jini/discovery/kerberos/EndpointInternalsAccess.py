@@ -1,3 +1,3 @@
 def set():
-    '''    public static void set(final EndpointInternals endpointInternals)
+    '''public static void set(final EndpointInternals endpointInternals)
     '''

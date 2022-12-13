@@ -1,6 +1,6 @@
 def UserSecurSet():
-    '''    public UserSecurSet(final MboServerInterface ms)
+    '''public UserSecurSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

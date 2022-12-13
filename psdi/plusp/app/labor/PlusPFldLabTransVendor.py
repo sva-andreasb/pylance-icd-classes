@@ -1,6 +1,6 @@
 def PlusPFldLabTransVendor():
-    '''    public PlusPFldLabTransVendor(final MboValue arg0)
+    '''public PlusPFldLabTransVendor(final MboValue arg0)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,6 +1,6 @@
 def OslcGbTemplateCondSet():
-    '''    public OslcGbTemplateCondSet(final MboServerInterface ms)
+    '''public OslcGbTemplateCondSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

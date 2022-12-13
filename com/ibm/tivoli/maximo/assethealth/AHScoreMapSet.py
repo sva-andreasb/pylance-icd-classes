@@ -1,3 +1,3 @@
 def AHScoreMapSet():
-    '''    public AHScoreMapSet(final MboServerInterface ms)
+    '''public AHScoreMapSet(final MboServerInterface ms)
     '''

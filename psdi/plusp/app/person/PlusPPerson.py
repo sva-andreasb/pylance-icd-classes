@@ -1,9 +1,9 @@
 def PlusPPerson():
-    '''    public PlusPPerson(final MboSet arg0)
+    '''public PlusPPerson(final MboSet arg0)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''

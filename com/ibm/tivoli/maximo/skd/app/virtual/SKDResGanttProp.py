@@ -1,3 +1,3 @@
 def SKDResGanttProp():
-    '''    public SKDResGanttProp(final MboSet ms)
+    '''public SKDResGanttProp(final MboSet ms)
     '''

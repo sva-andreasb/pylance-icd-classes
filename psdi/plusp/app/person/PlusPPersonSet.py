@@ -1,3 +1,3 @@
 def PlusPPersonSet():
-    '''    public PlusPPersonSet(final MboServerInterface arg0)
+    '''public PlusPPersonSet(final MboServerInterface arg0)
     '''

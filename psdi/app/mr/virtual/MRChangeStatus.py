@@ -1,6 +1,6 @@
 def MRChangeStatus():
-    '''    public MRChangeStatus(final MboSet ms)
+    '''public MRChangeStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

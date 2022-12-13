@@ -2,11 +2,11 @@ GZIP = "String  \"gzip\""
 DEFLATE = "String  \"deflate\""
 ACCEPTED = "String  \"gzip,deflate\""
 def decode():
-    '''    public static HttpResponseMessage decode(final HttpResponseMessage message)
+    '''public static HttpResponseMessage decode(final HttpResponseMessage message)
     '''
 def dump():
-    '''    public void dump(final Map<String, Object> into)
+    '''public void dump(final Map<String, Object> into)
     '''
 def getStatusCode():
-    '''    public int getStatusCode()
+    '''public int getStatusCode()
     '''

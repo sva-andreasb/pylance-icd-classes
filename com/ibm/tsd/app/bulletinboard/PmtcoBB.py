@@ -1,12 +1,12 @@
 def PmtcoBB():
-    '''    public PmtcoBB(final MboSet ms)
+    '''public PmtcoBB(final MboSet ms)
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def delete():
-    '''    public void delete(final long modifier)
+    '''public void delete(final long modifier)
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''

@@ -1,3 +1,3 @@
 def MaxIntPolicySet():
-    '''    public MaxIntPolicySet(final MboServerInterface ms)
+    '''public MaxIntPolicySet(final MboServerInterface ms)
     '''

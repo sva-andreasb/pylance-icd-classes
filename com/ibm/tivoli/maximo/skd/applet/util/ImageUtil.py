@@ -1,3 +1,3 @@
 def loadImage():
-    '''    public static BufferedImage loadImage(final InputStream in)
+    '''public static BufferedImage loadImage(final InputStream in)
     '''

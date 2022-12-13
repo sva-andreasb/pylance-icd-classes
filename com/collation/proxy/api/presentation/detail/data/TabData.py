@@ -1,12 +1,12 @@
 def setDisplayName():
-    '''    public void setDisplayName(final String s)
+    '''public void setDisplayName(final String s)
     '''
 def getDisplayName():
-    '''    public String getDisplayName()
+    '''public String getDisplayName()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def setName():
-    '''    public void setName(final String v)
+    '''public void setName(final String v)
     '''

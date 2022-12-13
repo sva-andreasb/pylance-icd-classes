@@ -1,12 +1,12 @@
 def fromBinary():
-    '''    public static Fast32 fromBinary(final ByteBuffer bytes)
+    '''public static Fast32 fromBinary(final ByteBuffer bytes)
     '''
 def get():
-    '''    public final int get(final int c)
+    '''public final int get(final int c)
     '''
 def bmpGet():
-    '''    public final int bmpGet(final int c)
+    '''public final int bmpGet(final int c)
     '''
 def suppGet():
-    '''    public final int suppGet(final int c)
+    '''public final int suppGet(final int c)
     '''

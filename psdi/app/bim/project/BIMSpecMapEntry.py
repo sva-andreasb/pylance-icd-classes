@@ -7,8 +7,8 @@ FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
 FIELD_ORGID = "String  \"ORGID\""
 FIELD_SITEID = "String  \"SITEID\""
 def BIMSpecMapEntry():
-    '''    public BIMSpecMapEntry(final MboSet ms)
+    '''public BIMSpecMapEntry(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -1,6 +1,6 @@
 def FldIssuedItemForReturnShowAgainPref():
-    '''    public FldIssuedItemForReturnShowAgainPref(final MboValue mbv)
+    '''public FldIssuedItemForReturnShowAgainPref(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

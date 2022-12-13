@@ -1,3 +1,3 @@
 def TargetAuthenticationStrategy():
-    '''    public TargetAuthenticationStrategy()
+    '''public TargetAuthenticationStrategy()
     '''

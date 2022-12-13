@@ -1,3 +1,3 @@
 def OslcKeyMap():
-    '''    public OslcKeyMap(final MboSet ms)
+    '''public OslcKeyMap(final MboSet ms)
     '''

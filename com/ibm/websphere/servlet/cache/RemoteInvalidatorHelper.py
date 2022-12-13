@@ -9,8 +9,8 @@ DEFAULT_JMS_PROCESSING_DELAY = "long  20000L"
 CUSTOM_PROP_CLEAR_ENABLED = "String  \"dynacache.jms.clearEnabled\""
 CUSTOM_PROP_MSG_RESEND_DELAY = "String  \"dynacache.jms.sendDelay\""
 def getMessageType():
-    '''    public static MessageType getMessageType(final byte b)
+    '''public static MessageType getMessageType(final byte b)
     '''
 def getCaseInsensitiveCustomProperty():
-    '''    public static String getCaseInsensitiveCustomProperty(final String propName, final Map properties)
+    '''public static String getCaseInsensitiveCustomProperty(final String propName, final Map properties)
     '''

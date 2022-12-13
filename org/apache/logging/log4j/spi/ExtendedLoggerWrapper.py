@@ -1,11 +1,11 @@
 def ExtendedLoggerWrapper():
-    '''    public ExtendedLoggerWrapper(final ExtendedLogger logger, final String name, final MessageFactory messageFactory)
+    '''public ExtendedLoggerWrapper(final ExtendedLogger logger, final String name, final MessageFactory messageFactory)
     '''
 def getLevel():
-    '''    public Level getLevel()
+    '''public Level getLevel()
     '''
 def isEnabled():
-    '''    public boolean isEnabled(final Level level, final Marker marker, final Message message, final Throwable t)
+    '''public boolean isEnabled(final Level level, final Marker marker, final Message message, final Throwable t)
     public boolean isEnabled(final Level level, final Marker marker, final CharSequence message, final Throwable t)
     public boolean isEnabled(final Level level, final Marker marker, final Object message, final Throwable t)
     public boolean isEnabled(final Level level, final Marker marker, final String message)
@@ -23,5 +23,5 @@ def isEnabled():
     public boolean isEnabled(final Level level, final Marker marker, final String message, final Throwable t)
     '''
 def logMessage():
-    '''    public void logMessage(final String fqcn, final Level level, final Marker marker, final Message message, final Throwable t)
+    '''public void logMessage(final String fqcn, final Level level, final Marker marker, final Message message, final Throwable t)
     '''

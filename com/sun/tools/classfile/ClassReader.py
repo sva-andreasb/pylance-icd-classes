@@ -1,27 +1,27 @@
 def readAttribute():
-    '''    public Attribute readAttribute()
+    '''public Attribute readAttribute()
     '''
 def readFully():
-    '''    public void readFully(final byte[] b)
+    '''public void readFully(final byte[] b)
     '''
 def readUnsignedByte():
-    '''    public int readUnsignedByte()
+    '''public int readUnsignedByte()
     '''
 def readUnsignedShort():
-    '''    public int readUnsignedShort()
+    '''public int readUnsignedShort()
     '''
 def readInt():
-    '''    public int readInt()
+    '''public int readInt()
     '''
 def readLong():
-    '''    public long readLong()
+    '''public long readLong()
     '''
 def readFloat():
-    '''    public float readFloat()
+    '''public float readFloat()
     '''
 def readDouble():
-    '''    public double readDouble()
+    '''public double readDouble()
     '''
 def readUTF():
-    '''    public String readUTF()
+    '''public String readUTF()
     '''

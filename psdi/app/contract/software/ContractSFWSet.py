@@ -1,3 +1,3 @@
 def ContractSFWSet():
-    '''    public ContractSFWSet(final MboServerInterface ms)
+    '''public ContractSFWSet(final MboServerInterface ms)
     '''

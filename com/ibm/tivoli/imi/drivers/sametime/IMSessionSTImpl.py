@@ -1,82 +1,82 @@
 def IMSessionSTImpl():
-    '''    public IMSessionSTImpl()
+    '''public IMSessionSTImpl()
     '''
 def configure():
-    '''    public void configure(final Properties properties)
+    '''public void configure(final Properties properties)
     '''
 def getServerHostName():
-    '''    public String getServerHostName()
+    '''public String getServerHostName()
     '''
 def getServerPort():
-    '''    public int getServerPort()
+    '''public int getServerPort()
     '''
 def getSessionName():
-    '''    public String getSessionName()
+    '''public String getSessionName()
     '''
 def getUserId():
-    '''    public String getUserId()
+    '''public String getUserId()
     '''
 def getUserPassword():
-    '''    public String getUserPassword()
+    '''public String getUserPassword()
     '''
 def getCommunity():
-    '''    public String getCommunity()
+    '''public String getCommunity()
     '''
 def getIMUser():
-    '''    public IMUser getIMUser()
+    '''public IMUser getIMUser()
     '''
 def open():
-    '''    public void open()
+    '''public void open()
     '''
 def changeUserStatus():
-    '''    public void changeUserStatus(final IMUser.IMUserStatus imUserStatus)
+    '''public void changeUserStatus(final IMUser.IMUserStatus imUserStatus)
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def loggedIn():
-    '''    public void loggedIn(final LoginEvent loginEvent)
+    '''public void loggedIn(final LoginEvent loginEvent)
     '''
 def loggedOut():
-    '''    public void loggedOut(final LoginEvent loginEvent)
+    '''public void loggedOut(final LoginEvent loginEvent)
     '''
 def isOpened():
-    '''    public boolean isOpened()
+    '''public boolean isOpened()
     '''
 def createResolveHandler():
-    '''    public IMResolveHandler createResolveHandler(final boolean b, final boolean b2)
+    '''public IMResolveHandler createResolveHandler(final boolean b, final boolean b2)
     '''
 def createUserStatusHandler():
-    '''    public IMUserStatusHandler createUserStatusHandler()
+    '''public IMUserStatusHandler createUserStatusHandler()
     '''
 def createMessageHandler():
-    '''    public IMMessageHandler createMessageHandler(final IMUser imUser)
+    '''public IMMessageHandler createMessageHandler(final IMUser imUser)
     '''
 def resolve():
-    '''    public IMResolveEvent resolve(final String s, final boolean b, final boolean b2)
+    '''public IMResolveEvent resolve(final String s, final boolean b, final boolean b2)
     public IMUser resolve(final String s)
     '''
 def getDefaultConnectionTimeout():
-    '''    public long getDefaultConnectionTimeout()
+    '''public long getDefaultConnectionTimeout()
     '''
 def setConnectionTimeout():
-    '''    public void setConnectionTimeout(final long connectionTimeout)
+    '''public void setConnectionTimeout(final long connectionTimeout)
     '''
 def getConnectionTimeout():
-    '''    public long getConnectionTimeout()
+    '''public long getConnectionTimeout()
     '''
 def getDefaultResolveTimeout():
-    '''    public long getDefaultResolveTimeout()
+    '''public long getDefaultResolveTimeout()
     '''
 def setResolveTimeout():
-    '''    public synchronized void setResolveTimeout(final long resolveTimeout)
+    '''public synchronized void setResolveTimeout(final long resolveTimeout)
     '''
 def getResolveTimeout():
-    '''    public synchronized long getResolveTimeout()
+    '''public synchronized long getResolveTimeout()
     '''
 def registerIMSingleListener():
-    '''    public void registerIMSingleListener(final IMSingleListener imSingleListener)
+    '''public void registerIMSingleListener(final IMSingleListener imSingleListener)
     '''
 def removeIMSingleListener():
-    '''    public void removeIMSingleListener(final IMSingleListener imSingleListener)
+    '''public void removeIMSingleListener(final IMSingleListener imSingleListener)
     '''

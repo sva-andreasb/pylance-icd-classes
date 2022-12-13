@@ -1,3 +1,3 @@
 def XmlBeanDeserializerFactory():
-    '''    public XmlBeanDeserializerFactory(final Class javaType, final QName xmlType)
+    '''public XmlBeanDeserializerFactory(final Class javaType, final QName xmlType)
     '''

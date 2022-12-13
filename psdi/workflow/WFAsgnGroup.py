@@ -1,12 +1,12 @@
 def WFAsgnGroup():
-    '''    public WFAsgnGroup(final MboSet ms)
+    '''public WFAsgnGroup(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

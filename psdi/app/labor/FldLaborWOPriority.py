@@ -1,6 +1,6 @@
 def FldLaborWOPriority():
-    '''    public FldLaborWOPriority(final MboValue mbv)
+    '''public FldLaborWOPriority(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

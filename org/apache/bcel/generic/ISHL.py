@@ -1,6 +1,6 @@
 def ISHL():
-    '''    public ISHL()
+    '''public ISHL()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

@@ -1,3 +1,3 @@
 def SolutionStatusSet():
-    '''    public SolutionStatusSet(final MboServerInterface ms)
+    '''public SolutionStatusSet(final MboServerInterface ms)
     '''

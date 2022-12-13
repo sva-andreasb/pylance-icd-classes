@@ -1,3 +1,3 @@
 def parse():
-    '''    public JingleContentDescription parse(final XmlPullParser parser, final int initialDepth)
+    '''public JingleContentDescription parse(final XmlPullParser parser, final int initialDepth)
     '''

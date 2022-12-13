@@ -4,26 +4,26 @@ DIS_DB_PASSWORD = "String  \"dis.db.password\""
 DIS_DB_URL = "String  \"dis.db.url\""
 DIS_DB_DRIVER = "String  \"dis.db.driver\""
 def validateProperties():
-    '''    public boolean validateProperties()
+    '''public boolean validateProperties()
     '''
 def getDisDbUsername():
-    '''    public String getDisDbUsername()
+    '''public String getDisDbUsername()
     '''
 def getDisDbPassword():
-    '''    public String getDisDbPassword()
+    '''public String getDisDbPassword()
     '''
 def getDisDbUrl():
-    '''    public String getDisDbUrl()
+    '''public String getDisDbUrl()
     '''
 def getDisDbDriver():
-    '''    public String getDisDbDriver()
+    '''public String getDisDbDriver()
     '''
 def getCliProperty():
-    '''    public String getCliProperty(final String prop)
+    '''public String getCliProperty(final String prop)
     '''
 def getCliPropertyFile():
-    '''    public static String getCliPropertyFile()
+    '''public static String getCliPropertyFile()
     '''
 def setCliPropertyFile():
-    '''    public static void setCliPropertyFile(final String newPropFileLocation)
+    '''public static void setCliPropertyFile(final String newPropFileLocation)
     '''

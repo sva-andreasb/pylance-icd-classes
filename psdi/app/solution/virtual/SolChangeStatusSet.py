@@ -1,3 +1,3 @@
 def SolChangeStatusSet():
-    '''    public SolChangeStatusSet(final MboServerInterface ms)
+    '''public SolChangeStatusSet(final MboServerInterface ms)
     '''

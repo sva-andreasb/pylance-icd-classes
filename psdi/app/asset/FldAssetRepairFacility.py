@@ -1,3 +1,3 @@
 def FldAssetRepairFacility():
-    '''    public FldAssetRepairFacility(final MboValue mbv)
+    '''public FldAssetRepairFacility(final MboValue mbv)
     '''

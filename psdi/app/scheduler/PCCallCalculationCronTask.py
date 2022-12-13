@@ -3,32 +3,32 @@ PROCESSED = "String  \"PROCESSED\""
 FAILED = "String  \"FAILED\""
 ABORTED = "String  \"ABORTED\""
 def PCCallCalculationCronTask():
-    '''    public PCCallCalculationCronTask()
+    '''public PCCallCalculationCronTask()
     '''
 def cronAction():
-    '''    public void cronAction()
+    '''public void cronAction()
     '''
 def getParameter():
-    '''    public synchronized MboRemote getParameter(final String parameter)
+    '''public synchronized MboRemote getParameter(final String parameter)
     '''
 def getParameters():
-    '''    public CrontaskParamInfo[] getParameters()
+    '''public CrontaskParamInfo[] getParameters()
     '''
 def setCrontaskInstance():
-    '''    public void setCrontaskInstance(final CrontaskInstanceRemote inst)
+    '''public void setCrontaskInstance(final CrontaskInstanceRemote inst)
     '''
 def getMyLogger():
-    '''    public MXLogger getMyLogger()
+    '''public MXLogger getMyLogger()
     '''
 def setMyLogger():
-    '''    public void setMyLogger(final MXLogger myLogger)
+    '''public void setMyLogger(final MXLogger myLogger)
     '''
 def isInitialized():
-    '''    public boolean isInitialized()
+    '''public boolean isInitialized()
     '''
 def setInitialized():
-    '''    public void setInitialized(final boolean initialized)
+    '''public void setInitialized(final boolean initialized)
     '''
 def updatePercentCompleteLastCall():
-    '''    public void updatePercentCompleteLastCall(final SKDProjectRemote mbo, final IMXGanttModel.PercentCompleteType percentCompleteType)
+    '''public void updatePercentCompleteLastCall(final SKDProjectRemote mbo, final IMXGanttModel.PercentCompleteType percentCompleteType)
     '''

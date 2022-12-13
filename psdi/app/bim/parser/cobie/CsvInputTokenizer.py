@@ -1,12 +1,12 @@
 def CsvInputTokenizer():
-    '''    public CsvInputTokenizer(final InputStream is)
+    '''public CsvInputTokenizer(final InputStream is)
     '''
 def getRow():
-    '''    public String[] getRow()
+    '''public String[] getRow()
     '''
 def setCurrentTab():
-    '''    public boolean setCurrentTab(final String name)
+    '''public boolean setCurrentTab(final String name)
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''

@@ -13,23 +13,23 @@ FIELD_TEXT = "String  \"TEXT\""
 FIELD_HASPARENT = "String  \"HASPARENT\""
 FIELD_HASCHILDREN = "String  \"HASCHILDREN\""
 def BIMComment():
-    '''    public BIMComment(final MboSet ms)
+    '''public BIMComment(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def isTop():
-    '''    public boolean isTop()
+    '''public boolean isTop()
     '''
 def hasChildren():
-    '''    public boolean hasChildren()
+    '''public boolean hasChildren()
     '''
 def hasParents():
-    '''    public boolean hasParents()
+    '''public boolean hasParents()
     '''

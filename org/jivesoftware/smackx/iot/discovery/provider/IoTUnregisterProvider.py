@@ -1,3 +1,3 @@
 def parse():
-    '''    public IoTUnregister parse(final XmlPullParser parser, final int initialDepth)
+    '''public IoTUnregister parse(final XmlPullParser parser, final int initialDepth)
     '''

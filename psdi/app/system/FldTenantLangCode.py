@@ -1,6 +1,6 @@
 def FldTenantLangCode():
-    '''    public FldTenantLangCode(final MboValue mbv)
+    '''public FldTenantLangCode(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

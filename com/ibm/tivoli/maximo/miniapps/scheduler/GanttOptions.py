@@ -1,3 +1,3 @@
 def addPrintHeader():
-    '''    public void addPrintHeader(final String printHeader)
+    '''public void addPrintHeader(final String printHeader)
     '''

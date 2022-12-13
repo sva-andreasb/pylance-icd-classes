@@ -27,7 +27,7 @@ MAIN_WINDOW_INITIALIZED = "int  124"
 APPLICATION_CLOSED = "int  125"
 DOCUMENT_INITIALIZING = "int  126"
 def ApplicationEvent():
-    '''    public ApplicationEvent(final int b, final IlvDocument ilvDocument)
+    '''public ApplicationEvent(final int b, final IlvDocument ilvDocument)
     public ApplicationEvent(final int b, final IlvDocumentView ilvDocumentView)
     public ApplicationEvent(final int b, final IlvDocument a, final IlvDocumentView c, final IlvDocumentTemplate d)
     public ApplicationEvent(final int b, final IlvDocument a, final IlvDocumentView ilvDocumentView, final IlvViewContainer e, final IlvDocumentTemplate d)
@@ -36,29 +36,29 @@ def ApplicationEvent():
     public ApplicationEvent(final int b, final IlvApplication ilvApplication)
     '''
 def getDocument():
-    '''    public IlvDocument getDocument()
+    '''public IlvDocument getDocument()
     '''
 def setDocument():
-    '''    public void setDocument(final IlvDocument a)
+    '''public void setDocument(final IlvDocument a)
     '''
 def getID():
-    '''    public int getID()
+    '''public int getID()
     '''
 def getView():
-    '''    public IlvDocumentView getView()
+    '''public IlvDocumentView getView()
     '''
 def setView():
-    '''    public void setView(final IlvDocumentView c)
+    '''public void setView(final IlvDocumentView c)
     '''
 def getViewContainer():
-    '''    public IlvViewContainer getViewContainer()
+    '''public IlvViewContainer getViewContainer()
     '''
 def getDocumentTemplate():
-    '''    public IlvDocumentTemplate getDocumentTemplate()
+    '''public IlvDocumentTemplate getDocumentTemplate()
     '''
 def getDocumentTemplateName():
-    '''    public String getDocumentTemplateName()
+    '''public String getDocumentTemplateName()
     '''
 def getApplication():
-    '''    public IlvApplication getApplication()
+    '''public IlvApplication getApplication()
     '''

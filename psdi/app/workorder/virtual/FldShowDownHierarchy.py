@@ -1,3 +1,3 @@
 def FldShowDownHierarchy():
-    '''    public FldShowDownHierarchy(final MboValue mbv)
+    '''public FldShowDownHierarchy(final MboValue mbv)
     '''

@@ -1,3 +1,3 @@
 def PmGUIDownloadSet():
-    '''    public PmGUIDownloadSet(final MboServerInterface ms)
+    '''public PmGUIDownloadSet(final MboServerInterface ms)
     '''

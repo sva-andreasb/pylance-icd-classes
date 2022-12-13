@@ -1,21 +1,21 @@
 def RetryPolicy():
-    '''    public RetryPolicy(RetryCondition retryCondition, BackoffStrategy backoffStrategy, final int maxErrorRetry, final boolean honorMaxErrorRetryInClientConfig)
+    '''public RetryPolicy(RetryCondition retryCondition, BackoffStrategy backoffStrategy, final int maxErrorRetry, final boolean honorMaxErrorRetryInClientConfig)
     '''
 def getRetryCondition():
-    '''    public RetryCondition getRetryCondition()
+    '''public RetryCondition getRetryCondition()
     '''
 def getBackoffStrategy():
-    '''    public BackoffStrategy getBackoffStrategy()
+    '''public BackoffStrategy getBackoffStrategy()
     '''
 def getMaxErrorRetry():
-    '''    public int getMaxErrorRetry()
+    '''public int getMaxErrorRetry()
     '''
 def isMaxErrorRetryInClientConfigHonored():
-    '''    public boolean isMaxErrorRetryInClientConfigHonored()
+    '''public boolean isMaxErrorRetryInClientConfigHonored()
     '''
 def shouldRetry():
-    '''    public boolean shouldRetry(final AmazonWebServiceRequest originalRequest, final AmazonClientException exception, final int retriesAttempted)
+    '''public boolean shouldRetry(final AmazonWebServiceRequest originalRequest, final AmazonClientException exception, final int retriesAttempted)
     '''
 def delayBeforeNextRetry():
-    '''    public long delayBeforeNextRetry(final AmazonWebServiceRequest originalRequest, final AmazonClientException exception, final int retriesAttempted)
+    '''public long delayBeforeNextRetry(final AmazonWebServiceRequest originalRequest, final AmazonClientException exception, final int retriesAttempted)
     '''

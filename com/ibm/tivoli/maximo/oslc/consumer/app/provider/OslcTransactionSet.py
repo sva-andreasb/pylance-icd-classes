@@ -1,3 +1,3 @@
 def OslcTransactionSet():
-    '''    public OslcTransactionSet(final MboServerInterface ms)
+    '''public OslcTransactionSet(final MboServerInterface ms)
     '''

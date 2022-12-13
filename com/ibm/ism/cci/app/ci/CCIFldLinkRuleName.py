@@ -1,6 +1,6 @@
 def CCIFldLinkRuleName():
-    '''    public CCIFldLinkRuleName(final MboValue mbv)
+    '''public CCIFldLinkRuleName(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

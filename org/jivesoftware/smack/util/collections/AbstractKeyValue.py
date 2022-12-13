@@ -1,9 +1,9 @@
 def getKey():
-    '''    public K getKey()
+    '''public K getKey()
     '''
 def getValue():
-    '''    public V getValue()
+    '''public V getValue()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

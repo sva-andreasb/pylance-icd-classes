@@ -1,9 +1,9 @@
 def ARRAYLENGTH():
-    '''    public ARRAYLENGTH()
+    '''public ARRAYLENGTH()
     '''
 def getExceptions():
-    '''    public Class[] getExceptions()
+    '''public Class[] getExceptions()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

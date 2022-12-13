@@ -10,30 +10,30 @@ CAMERA_BIT = "int  128"
 DEFAULT_SIZE_BIT = "int  256"
 AUTO_LOAD_BIT = "int  512"
 def FtPioGrbitSubRecord():
-    '''    public FtPioGrbitSubRecord()
+    '''public FtPioGrbitSubRecord()
     public FtPioGrbitSubRecord(final LittleEndianInput in, final int size)
     '''
 def setFlagByBit():
-    '''    public void setFlagByBit(final int bitmask, final boolean enabled)
+    '''public void setFlagByBit(final int bitmask, final boolean enabled)
     '''
 def getFlagByBit():
-    '''    public boolean getFlagByBit(final int bitmask)
+    '''public boolean getFlagByBit(final int bitmask)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def serialize():
-    '''    public void serialize(final LittleEndianOutput out)
+    '''public void serialize(final LittleEndianOutput out)
     '''
 def getSid():
-    '''    public short getSid()
+    '''public short getSid()
     '''
 def clone():
-    '''    public FtPioGrbitSubRecord clone()
+    '''public FtPioGrbitSubRecord clone()
     '''
 def getFlags():
-    '''    public short getFlags()
+    '''public short getFlags()
     '''
 def setFlags():
-    '''    public void setFlags(final short flags)
+    '''public void setFlags(final short flags)
     '''

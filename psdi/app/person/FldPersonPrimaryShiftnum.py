@@ -1,12 +1,12 @@
 def FldPersonPrimaryShiftnum():
-    '''    public FldPersonPrimaryShiftnum(final MboValue mbv)
+    '''public FldPersonPrimaryShiftnum(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

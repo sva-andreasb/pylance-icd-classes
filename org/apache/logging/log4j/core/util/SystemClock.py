@@ -1,3 +1,3 @@
 def currentTimeMillis():
-    '''    public long currentTimeMillis()
+    '''public long currentTimeMillis()
     '''

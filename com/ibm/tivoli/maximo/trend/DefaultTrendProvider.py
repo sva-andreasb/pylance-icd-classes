@@ -1,3 +1,3 @@
 def getKPITrend():
-    '''    public double getKPITrend(final String kpiname, final int batchSize)
+    '''public double getKPITrend(final String kpiname, final int batchSize)
     '''

@@ -10,11 +10,11 @@ FILTER_TYPE_UNKNOWN = "int  0"
 FILTER_TYPE_INCLUDE = "int  1"
 FILTER_TYPE_EXCLUDE = "int  2"
 def BIMFilter():
-    '''    public BIMFilter(final MboSet ms)
+    '''public BIMFilter(final MboSet ms)
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def getFilterType():
-    '''    public int getFilterType()
+    '''public int getFilterType()
     '''

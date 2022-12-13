@@ -1,9 +1,9 @@
 def MoutApiKeyProcess():
-    '''    public MoutApiKeyProcess()
+    '''public MoutApiKeyProcess()
     '''
 def checkBusinessRules():
-    '''    public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
+    '''public int checkBusinessRules(final MboRemote mbo, final MosDetailInfo mosDetInfo, final Map<String, Object> ovrdColValueMap)
     '''
 def resolveApiKey():
-    '''    public String resolveApiKey(final String encApiKey)
+    '''public String resolveApiKey(final String encApiKey)
     '''

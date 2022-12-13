@@ -1,3 +1,3 @@
 def MaxAttributeSet():
-    '''    public MaxAttributeSet(final MboServerInterface ms)
+    '''public MaxAttributeSet(final MboServerInterface ms)
     '''

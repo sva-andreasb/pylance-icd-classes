@@ -1,3 +1,3 @@
 def FldAppLink():
-    '''    public FldAppLink(final MboValue mbv)
+    '''public FldAppLink(final MboValue mbv)
     '''

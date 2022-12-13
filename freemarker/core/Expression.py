@@ -1,3 +1,3 @@
 def getAsTemplateModel():
-    '''    public final TemplateModel getAsTemplateModel(final Environment env)
+    '''public final TemplateModel getAsTemplateModel(final Environment env)
     '''

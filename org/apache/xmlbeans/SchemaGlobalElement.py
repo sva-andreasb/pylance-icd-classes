@@ -1,10 +1,10 @@
 def Ref():
-    '''    public Ref(final SchemaGlobalElement element)
+    '''public Ref(final SchemaGlobalElement element)
     public Ref(final SchemaTypeSystem system, final String handle)
     '''
 def getComponentType():
-    '''    public final int getComponentType()
+    '''public final int getComponentType()
     '''
 def get():
-    '''    public final SchemaGlobalElement get()
+    '''public final SchemaGlobalElement get()
     '''

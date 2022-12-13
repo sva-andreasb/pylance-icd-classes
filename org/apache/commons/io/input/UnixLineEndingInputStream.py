@@ -1,12 +1,12 @@
 def UnixLineEndingInputStream():
-    '''    public UnixLineEndingInputStream(final InputStream in, final boolean ensureLineFeedAtEndOfFile)
+    '''public UnixLineEndingInputStream(final InputStream in, final boolean ensureLineFeedAtEndOfFile)
     '''
 def read():
-    '''    public int read()
+    '''public int read()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def mark():
-    '''    public synchronized void mark(final int readlimit)
+    '''public synchronized void mark(final int readlimit)
     '''

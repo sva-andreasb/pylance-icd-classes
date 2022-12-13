@@ -1,6 +1,6 @@
 def FldAncestorClassID():
-    '''    public FldAncestorClassID(final MboValue mbv)
+    '''public FldAncestorClassID(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

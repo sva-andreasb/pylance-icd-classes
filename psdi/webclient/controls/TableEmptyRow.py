@@ -1,15 +1,15 @@
 def TableEmptyRow():
-    '''    public TableEmptyRow()
+    '''public TableEmptyRow()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def getRowType():
-    '''    public int getRowType()
+    '''public int getRowType()
     '''
 def render():
-    '''    public int render()
+    '''public int render()
     '''
 def rowVisible():
-    '''    public boolean rowVisible()
+    '''public boolean rowVisible()
     '''

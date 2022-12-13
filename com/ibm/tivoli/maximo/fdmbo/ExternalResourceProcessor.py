@@ -1,9 +1,9 @@
 def ExternalResourceProcessor():
-    '''    public ExternalResourceProcessor(final String resourceName, final UserInfo userInfo)
+    '''public ExternalResourceProcessor(final String resourceName, final UserInfo userInfo)
     public ExternalResourceProcessor(final JSONResourceInfo resourceInfo, final MboRemote owner)
     '''
 def processResource():
-    '''    public JSONArtifact processResource()
+    '''public JSONArtifact processResource()
     public JSONArtifact processResource(final int currentPage)
     public JSONArtifact processResource(final int pageSize, final int currentPage)
     '''

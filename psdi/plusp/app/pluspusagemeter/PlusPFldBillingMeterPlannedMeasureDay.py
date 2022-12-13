@@ -1,6 +1,6 @@
 def PlusPFldBillingMeterPlannedMeasureDay():
-    '''    public PlusPFldBillingMeterPlannedMeasureDay(final MboValue mbv)
+    '''public PlusPFldBillingMeterPlannedMeasureDay(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

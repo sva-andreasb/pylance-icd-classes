@@ -1,9 +1,9 @@
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def DefaultStatusSideEffect():
-    '''    public DefaultStatusSideEffect(final int statusCode)
+    '''public DefaultStatusSideEffect(final int statusCode)
     '''
 def performSideEffect():
-    '''    public void performSideEffect(final HttpServletResponse response)
+    '''public void performSideEffect(final HttpServletResponse response)
     '''

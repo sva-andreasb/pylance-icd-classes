@@ -1,3 +1,3 @@
 def getString():
-    '''    public static String getString(final String key)
+    '''public static String getString(final String key)
     '''

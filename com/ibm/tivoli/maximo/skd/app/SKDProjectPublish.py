@@ -1,9 +1,9 @@
 def SKDProjectPublish():
-    '''    public SKDProjectPublish(final MboSet ms)
+    '''public SKDProjectPublish(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

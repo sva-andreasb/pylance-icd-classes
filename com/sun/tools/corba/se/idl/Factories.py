@@ -1,15 +1,15 @@
 def genFactory():
-    '''    public GenFactory genFactory()
+    '''public GenFactory genFactory()
     '''
 def symtabFactory():
-    '''    public SymtabFactory symtabFactory()
+    '''public SymtabFactory symtabFactory()
     '''
 def exprFactory():
-    '''    public ExprFactory exprFactory()
+    '''public ExprFactory exprFactory()
     '''
 def arguments():
-    '''    public Arguments arguments()
+    '''public Arguments arguments()
     '''
 def languageKeywords():
-    '''    public String[] languageKeywords()
+    '''public String[] languageKeywords()
     '''

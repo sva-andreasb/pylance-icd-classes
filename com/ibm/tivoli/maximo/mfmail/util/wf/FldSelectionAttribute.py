@@ -1,12 +1,12 @@
 def FldSelectionAttribute():
-    '''    public FldSelectionAttribute(final MboValue mbv)
+    '''public FldSelectionAttribute(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

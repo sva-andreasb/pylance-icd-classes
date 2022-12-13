@@ -26,14 +26,14 @@ StackMap = "String  \"StackMap\""
 StackMapTable = "String  \"StackMapTable\""
 Synthetic = "String  \"Synthetic\""
 def read():
-    '''    public static Attribute read(final ClassReader classReader)
+    '''public static Attribute read(final ClassReader classReader)
     '''
 def getName():
-    '''    public String getName(final ConstantPool constantPool)
+    '''public String getName(final ConstantPool constantPool)
     '''
 def byteLength():
-    '''    public int byteLength()
+    '''public int byteLength()
     '''
 def createAttribute():
-    '''    public Attribute createAttribute(final ClassReader classReader, final int i, final byte[] array)
+    '''public Attribute createAttribute(final ClassReader classReader, final int i, final byte[] array)
     '''

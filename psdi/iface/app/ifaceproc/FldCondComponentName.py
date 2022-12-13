@@ -1,6 +1,6 @@
 def FldCondComponentName():
-    '''    public FldCondComponentName(final MboValue mbv)
+    '''public FldCondComponentName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

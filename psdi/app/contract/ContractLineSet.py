@@ -1,6 +1,6 @@
 def ContractLineSet():
-    '''    public ContractLineSet(final MboServerInterface ms)
+    '''public ContractLineSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

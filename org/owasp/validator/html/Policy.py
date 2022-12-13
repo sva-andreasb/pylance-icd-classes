@@ -20,54 +20,54 @@ ACTION_VALIDATE = "String  \"validate\""
 ACTION_FILTER = "String  \"filter\""
 ACTION_TRUNCATE = "String  \"truncate\""
 def getTagByLowercaseName():
-    '''    public Tag getTagByLowercaseName(final String tagName)
+    '''public Tag getTagByLowercaseName(final String tagName)
     '''
 def getPropertyByName():
-    '''    public Property getPropertyByName(final String propertyName)
+    '''public Property getPropertyByName(final String propertyName)
     '''
 def getInstance():
-    '''    public static Policy getInstance()
+    '''public static Policy getInstance()
     public static Policy getInstance(final String filename)
     public static Policy getInstance(final InputStream inputStream)
     public static Policy getInstance(final File file)
     public static Policy getInstance(final URL url)
     '''
 def cloneWithDirective():
-    '''    public Policy cloneWithDirective(final String name, final String value)
+    '''public Policy cloneWithDirective(final String name, final String value)
     '''
 def getGlobalAttributeByName():
-    '''    public Attribute getGlobalAttributeByName(final String name)
+    '''public Attribute getGlobalAttributeByName(final String name)
     '''
 def getDynamicAttributeByName():
-    '''    public Attribute getDynamicAttributeByName(final String name)
+    '''public Attribute getDynamicAttributeByName(final String name)
     '''
 def getAllowedEmptyTags():
-    '''    public TagMatcher getAllowedEmptyTags()
+    '''public TagMatcher getAllowedEmptyTags()
     '''
 def getRequiresClosingTags():
-    '''    public TagMatcher getRequiresClosingTags()
+    '''public TagMatcher getRequiresClosingTags()
     '''
 def getDirective():
-    '''    public String getDirective(final String name)
+    '''public String getDirective(final String name)
     '''
 def resolveEntity():
-    '''    public static InputSource resolveEntity(final String systemId, final URL baseUrl)
+    '''public static InputSource resolveEntity(final String systemId, final URL baseUrl)
     '''
 def iterator():
-    '''    public Iterator<Element> iterator()
+    '''public Iterator<Element> iterator()
     '''
 def hasNext():
-    '''    public boolean hasNext()
+    '''public boolean hasNext()
     '''
 def next():
-    '''    public Element next()
+    '''public Element next()
     '''
 def remove():
-    '''    public void remove()
+    '''public void remove()
     '''
 def getCommonRegularExpressions():
-    '''    public AntiSamyPattern getCommonRegularExpressions(final String name)
+    '''public AntiSamyPattern getCommonRegularExpressions(final String name)
     '''
 def resetParamsWhereLastConfigWins():
-    '''    public void resetParamsWhereLastConfigWins()
+    '''public void resetParamsWhereLastConfigWins()
     '''

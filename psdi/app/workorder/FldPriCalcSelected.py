@@ -1,6 +1,6 @@
 def FldPriCalcSelected():
-    '''    public FldPriCalcSelected(final MboValue mbv)
+    '''public FldPriCalcSelected(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

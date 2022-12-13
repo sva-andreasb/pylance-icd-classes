@@ -1,6 +1,6 @@
 def SchemaBookmark():
-    '''    public SchemaBookmark(final Object value)
+    '''public SchemaBookmark(final Object value)
     '''
 def getValue():
-    '''    public Object getValue()
+    '''public Object getValue()
     '''

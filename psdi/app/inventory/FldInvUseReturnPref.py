@@ -1,6 +1,6 @@
 def FldInvUseReturnPref():
-    '''    public FldInvUseReturnPref(final MboValue mbv)
+    '''public FldInvUseReturnPref(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

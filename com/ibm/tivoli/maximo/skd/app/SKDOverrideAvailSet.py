@@ -1,3 +1,3 @@
 def SKDOverrideAvailSet():
-    '''    public SKDOverrideAvailSet(final MboServerInterface ms)
+    '''public SKDOverrideAvailSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def FldBudgetFinancialPeriod():
-    '''    public FldBudgetFinancialPeriod(final MboValue mbv)
+    '''public FldBudgetFinancialPeriod(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

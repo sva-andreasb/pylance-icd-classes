@@ -1,15 +1,15 @@
 def LocationMeter():
-    '''    public LocationMeter(final MboSet ms)
+    '''public LocationMeter(final MboSet ms)
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def isOwningMboNOSAVE():
-    '''    public void isOwningMboNOSAVE()
+    '''public void isOwningMboNOSAVE()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''

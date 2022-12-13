@@ -1,6 +1,6 @@
 def FldCommonCurrencyCode():
-    '''    public FldCommonCurrencyCode(final MboValue mbv)
+    '''public FldCommonCurrencyCode(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

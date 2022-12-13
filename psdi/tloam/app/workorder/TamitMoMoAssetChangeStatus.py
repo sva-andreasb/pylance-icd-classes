@@ -1,6 +1,6 @@
 def TamitMoMoAssetChangeStatus():
-    '''    public TamitMoMoAssetChangeStatus(final MboRemote workorder)
+    '''public TamitMoMoAssetChangeStatus(final MboRemote workorder)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

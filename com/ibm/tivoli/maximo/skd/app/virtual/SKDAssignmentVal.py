@@ -1,3 +1,3 @@
 def SKDAssignmentVal():
-    '''    public SKDAssignmentVal(final MboSet ms)
+    '''public SKDAssignmentVal(final MboSet ms)
     '''

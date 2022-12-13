@@ -1,6 +1,6 @@
 def FldNamedUsersAssetNum():
-    '''    public FldNamedUsersAssetNum(final MboValue mbv)
+    '''public FldNamedUsersAssetNum(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

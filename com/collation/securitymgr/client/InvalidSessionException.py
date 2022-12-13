@@ -1,3 +1,3 @@
 def InvalidSessionException():
-    '''    public InvalidSessionException(final String ex)
+    '''public InvalidSessionException(final String ex)
     '''

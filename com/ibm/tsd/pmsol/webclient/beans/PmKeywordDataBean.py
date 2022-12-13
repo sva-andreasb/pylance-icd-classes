@@ -1,9 +1,9 @@
 def PmKeywordDataBean():
-    '''    public PmKeywordDataBean()
+    '''public PmKeywordDataBean()
     '''
 def setupBean():
-    '''    public void setupBean(final WebClientSession wcs)
+    '''public void setupBean(final WebClientSession wcs)
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''

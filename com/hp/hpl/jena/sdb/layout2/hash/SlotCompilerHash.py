@@ -1,3 +1,3 @@
 def SlotCompilerHash():
-    '''    public SlotCompilerHash(final SDBRequest request)
+    '''public SlotCompilerHash(final SDBRequest request)
     '''

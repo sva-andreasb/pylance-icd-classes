@@ -1,12 +1,12 @@
 def WFAppToolBar():
-    '''    public WFAppToolBar(final MboSet ms)
+    '''public WFAppToolBar(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''

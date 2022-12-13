@@ -1,6 +1,6 @@
 def CommitGroup():
-    '''    public CommitGroup(final MboSet ms)
+    '''public CommitGroup(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

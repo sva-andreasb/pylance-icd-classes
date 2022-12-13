@@ -5,89 +5,89 @@ DEFAULT_DIALOG_SD_NO_ATTRS = "String  \"defaultDialogNoAttributesCRsd\""
 DEFAULT_DIALOG_SD = "String  \"defaultDialogCRSD\""
 DEFAULT_DIALOG_DESCRIPTIVE = "String  \"descriptiveDialogCR\""
 def Offering():
-    '''    public Offering(final MboSet ms)
+    '''public Offering(final MboSet ms)
     '''
 def setNumOfAttrs():
-    '''    public void setNumOfAttrs(final int numAttrs)
+    '''public void setNumOfAttrs(final int numAttrs)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def getFirstAuthorizedCatalog():
-    '''    public MboRemote getFirstAuthorizedCatalog()
+    '''public MboRemote getFirstAuthorizedCatalog()
     '''
 def addOffsToCat():
-    '''    public void addOffsToCat()
+    '''public void addOffsToCat()
     '''
 def addOffsToGroup():
-    '''    public void addOffsToGroup()
+    '''public void addOffsToGroup()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''
 def updateDesc():
-    '''    public void updateDesc()
+    '''public void updateDesc()
     '''
 def processItemSpecSet():
-    '''    public void processItemSpecSet()
+    '''public void processItemSpecSet()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def clearClassification():
-    '''    public void clearClassification()
+    '''public void clearClassification()
     '''
 def isNewDuplicatedItem():
-    '''    public boolean isNewDuplicatedItem()
+    '''public boolean isNewDuplicatedItem()
     '''
 def setDefaultDialogPresentationID():
-    '''    public String setDefaultDialogPresentationID()
+    '''public String setDefaultDialogPresentationID()
     '''
 def changeStatus():
-    '''    public void changeStatus(final String status, boolean rolldown, final Date date, final String memo, final long accessModifier)
+    '''public void changeStatus(final String status, boolean rolldown, final Date date, final String memo, final long accessModifier)
     '''
 def deleteAll():
-    '''    public void deleteAll()
+    '''public void deleteAll()
     '''
 def copyAttributesToDialog():
-    '''    public void copyAttributesToDialog()
+    '''public void copyAttributesToDialog()
     '''
 def copyOffAttrToMap():
-    '''    public void copyOffAttrToMap()
+    '''public void copyOffAttrToMap()
     '''
 def LIC():
-    '''    public boolean LIC()
+    '''public boolean LIC()
     '''
 def WF():
-    '''    public boolean WF()
+    '''public boolean WF()
     '''
 def isForDM_TARGET():
-    '''    public boolean isForDM_TARGET()
+    '''public boolean isForDM_TARGET()
     '''
 def setIsForDMTarget():
-    '''    public void setIsForDMTarget(final boolean isForDMTarget)
+    '''public void setIsForDMTarget(final boolean isForDMTarget)
     '''
 def setCopyAttrOnSave():
-    '''    public void setCopyAttrOnSave()
+    '''public void setCopyAttrOnSave()
     '''
 def checkCatalogMembership():
-    '''    public void checkCatalogMembership()
+    '''public void checkCatalogMembership()
     '''
 def checkForNullAttrDesc():
-    '''    public void checkForNullAttrDesc()
+    '''public void checkForNullAttrDesc()
     '''
 def checkForChangeUseWithRecord():
-    '''    public void checkForChangeUseWithRecord()
+    '''public void checkForChangeUseWithRecord()
     '''
 def isLotted():
-    '''    public boolean isLotted()
+    '''public boolean isLotted()
     '''
 def getOfferingPriceFromPriceBook():
-    '''    public OfferingPrice getOfferingPriceFromPriceBook()
+    '''public OfferingPrice getOfferingPriceFromPriceBook()
     '''

@@ -1,6 +1,6 @@
 def WOGrandTotal():
-    '''    public WOGrandTotal(final MboSet ms)
+    '''public WOGrandTotal(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

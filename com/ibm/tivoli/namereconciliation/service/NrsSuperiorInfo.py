@@ -1,33 +1,33 @@
 def getSuperiorGUID():
-    '''    public byte[] getSuperiorGUID()
+    '''public byte[] getSuperiorGUID()
     '''
 def getSuperiorClassType():
-    '''    public String getSuperiorClassType()
+    '''public String getSuperiorClassType()
     '''
 def getSuperiorName():
-    '''    public String getSuperiorName()
+    '''public String getSuperiorName()
     '''
 def getSuperiorRole():
-    '''    public String getSuperiorRole()
+    '''public String getSuperiorRole()
     '''
 def getSuperiorOrder():
-    '''    public int getSuperiorOrder()
+    '''public int getSuperiorOrder()
     '''
 def setSuperiorGUID():
-    '''    public void setSuperiorGUID(final byte[] guid)
+    '''public void setSuperiorGUID(final byte[] guid)
     '''
 def setSuperiorClassType():
-    '''    public void setSuperiorClassType(final String classString)
+    '''public void setSuperiorClassType(final String classString)
     '''
 def setSuperiorName():
-    '''    public void setSuperiorName(final String name)
+    '''public void setSuperiorName(final String name)
     '''
 def setSuperiorRole():
-    '''    public void setSuperiorRole(final String role)
+    '''public void setSuperiorRole(final String role)
     '''
 def setSuperiorOrder():
-    '''    public void setSuperiorOrder(final int order)
+    '''public void setSuperiorOrder(final int order)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

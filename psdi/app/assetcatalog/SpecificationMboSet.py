@@ -1,52 +1,52 @@
 def SpecificationMboSet():
-    '''    public SpecificationMboSet(final MboServerInterface ms)
+    '''public SpecificationMboSet(final MboServerInterface ms)
     '''
 def checkValueExists():
-    '''    public boolean checkValueExists(final String attrName, final String attrValue)
+    '''public boolean checkValueExists(final String attrName, final String attrValue)
     '''
 def whereClauseOnAttrAndValues():
-    '''    public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)
+    '''public String whereClauseOnAttrAndValues(final String[][] attrAndValues, final String classstructureid)
     public String whereClauseOnAttrAndValues(final String[][] attrAndValues)
     '''
 def getGeneratedDesc():
-    '''    public String getGeneratedDesc()
+    '''public String getGeneratedDesc()
     '''
 def checkCommonSpecDuplicates():
-    '''    public void checkCommonSpecDuplicates(final MboRemote currentClassSpec)
+    '''public void checkCommonSpecDuplicates(final MboRemote currentClassSpec)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''
 def setAttributesSearchMboSet():
-    '''    public void setAttributesSearchMboSet(final MboSetRemote mboSet)
+    '''public void setAttributesSearchMboSet(final MboSetRemote mboSet)
     '''
 def getAttributesSearchMboSet():
-    '''    public MboSetRemote getAttributesSearchMboSet()
+    '''public MboSetRemote getAttributesSearchMboSet()
     '''
 def wasDescGenerated():
-    '''    public boolean wasDescGenerated()
+    '''public boolean wasDescGenerated()
     '''
 def setDescGenerated():
-    '''    public void setDescGenerated(final String desc)
+    '''public void setDescGenerated(final String desc)
     '''
 def toCreateNewSpecRecordsInMainObject():
-    '''    public boolean toCreateNewSpecRecordsInMainObject()
+    '''public boolean toCreateNewSpecRecordsInMainObject()
     '''
 def isLinear():
-    '''    public boolean isLinear()
+    '''public boolean isLinear()
     '''
 def getGeneratedDescWithQbe():
-    '''    public String getGeneratedDescWithQbe(final MboSetRemote dbRelationshipSet)
+    '''public String getGeneratedDescWithQbe(final MboSetRemote dbRelationshipSet)
     '''
 def setCurrentClassSpecUseWithMbo():
-    '''    public void setCurrentClassSpecUseWithMbo(final MboRemote classSpeUseWith)
+    '''public void setCurrentClassSpecUseWithMbo(final MboRemote classSpeUseWith)
     '''
 def getCurrentClassSpecUseWithMbo():
-    '''    public MboRemote getCurrentClassSpecUseWithMbo()
+    '''public MboRemote getCurrentClassSpecUseWithMbo()
     '''
 def sortThisSetByDisplaySeq():
-    '''    public MboRemote[] sortThisSetByDisplaySeq()
+    '''public MboRemote[] sortThisSetByDisplaySeq()
     '''
 def toCheckClassSpecUseWith():
-    '''    public boolean toCheckClassSpecUseWith()
+    '''public boolean toCheckClassSpecUseWith()
     '''

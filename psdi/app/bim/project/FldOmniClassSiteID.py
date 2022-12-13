@@ -1,6 +1,6 @@
 def FldOmniClassSiteID():
-    '''    public FldOmniClassSiteID(final MboValue mbv)
+    '''public FldOmniClassSiteID(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,45 +1,45 @@
 def RuleParserContext():
-    '''    public RuleParserContext()
+    '''public RuleParserContext()
     '''
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''
 def getInput():
-    '''    public EncodedFilePath getInput()
+    '''public EncodedFilePath getInput()
     '''
 def setInput():
-    '''    public void setInput(final File path)
+    '''public void setInput(final File path)
     '''
 def setInputCharset():
-    '''    public void setInputCharset(final String charset)
+    '''public void setInputCharset(final String charset)
     '''
 def getTypeSystem():
-    '''    public File getTypeSystem()
+    '''public File getTypeSystem()
     '''
 def setTypeSystem():
-    '''    public void setTypeSystem(final File typeSystem)
+    '''public void setTypeSystem(final File typeSystem)
     '''
 def getJar():
-    '''    public File getJar()
+    '''public File getJar()
     '''
 def setJar():
-    '''    public void setJar(final File jar)
+    '''public void setJar(final File jar)
     '''
 def getTagOutput():
-    '''    public File getTagOutput()
+    '''public File getTagOutput()
     '''
 def getRuleOutput():
-    '''    public File getRuleOutput()
+    '''public File getRuleOutput()
     '''
 def getBrkOutput():
-    '''    public File getBrkOutput()
+    '''public File getBrkOutput()
     '''
 def isKeepBrk():
-    '''    public boolean isKeepBrk()
+    '''public boolean isKeepBrk()
     '''
 def setBrkOutput():
-    '''    public void setBrkOutput(final File brkFile)
+    '''public void setBrkOutput(final File brkFile)
     '''
 def setIcuDir():
-    '''    public void setIcuDir(final File icuDir)
+    '''public void setIcuDir(final File icuDir)
     '''

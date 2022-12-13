@@ -1,6 +1,6 @@
 def PlusPFldTermCanEdit():
-    '''    public PlusPFldTermCanEdit(final MboValue mbv)
+    '''public PlusPFldTermCanEdit(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

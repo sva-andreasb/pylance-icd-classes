@@ -1,6 +1,6 @@
 def TLOAMFldViewContInputContractNum():
-    '''    public TLOAMFldViewContInputContractNum(final MboValue mbv)
+    '''public TLOAMFldViewContInputContractNum(final MboValue mbv)
     '''
 def getAppLink():
-    '''    public String[] getAppLink()
+    '''public String[] getAppLink()
     '''

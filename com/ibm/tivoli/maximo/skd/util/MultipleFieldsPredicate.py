@@ -1,6 +1,6 @@
 def MultipleFieldsPredicate():
-    '''    public MultipleFieldsPredicate(final List<String> flds, final List<Object> values)
+    '''public MultipleFieldsPredicate(final List<String> flds, final List<Object> values)
     '''
 def test():
-    '''    public boolean test(final IlvActivity in)
+    '''public boolean test(final IlvActivity in)
     '''

@@ -1,6 +1,6 @@
 def AutoScriptSet():
-    '''    public AutoScriptSet(final MboServerInterface ms)
+    '''public AutoScriptSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

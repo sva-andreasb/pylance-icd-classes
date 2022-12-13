@@ -1,36 +1,36 @@
 def CoreStackMemberInfoImpl():
-    '''    public CoreStackMemberInfoImpl()
+    '''public CoreStackMemberInfoImpl()
     '''
 def getServerName():
-    '''    public String getServerName()
+    '''public String getServerName()
     '''
 def setServerName():
-    '''    public void setServerName(final String name)
+    '''public void setServerName(final String name)
     '''
 def getIPIdentifier():
-    '''    public String getIPIdentifier()
+    '''public String getIPIdentifier()
     '''
 def setIPIdentifier():
-    '''    public void setIPIdentifier(final String ip)
+    '''public void setIPIdentifier(final String ip)
     '''
 def setLocalInterface():
-    '''    public void setLocalInterface(final String ip)
+    '''public void setLocalInterface(final String ip)
     '''
 def getLocalInterface():
-    '''    public String getLocalInterface()
+    '''public String getLocalInterface()
     '''
 def getPort():
-    '''    public int getPort()
+    '''public int getPort()
     '''
 def setPort():
-    '''    public void setPort(final int port)
+    '''public void setPort(final int port)
     '''
 def setPassiveDiscovery():
-    '''    public void setPassiveDiscovery(final boolean passive)
+    '''public void setPassiveDiscovery(final boolean passive)
     '''
 def getPassiveDiscovery():
-    '''    public boolean getPassiveDiscovery()
+    '''public boolean getPassiveDiscovery()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''

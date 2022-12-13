@@ -1,18 +1,18 @@
 def instantiatedatasrc():
-    '''    public void instantiatedatasrc()
+    '''public void instantiatedatasrc()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def hasAttachments():
-    '''    public boolean hasAttachments()
+    '''public boolean hasAttachments()
     '''
 def dataChangedEvent():
-    '''    public void dataChangedEvent(final DataBean bean)
+    '''public void dataChangedEvent(final DataBean bean)
     '''
 def structureChangedEvent():
-    '''    public void structureChangedEvent(final DataBean bean)
+    '''public void structureChangedEvent(final DataBean bean)
     '''
 def render():
-    '''    public int render()
+    '''public int render()
     '''

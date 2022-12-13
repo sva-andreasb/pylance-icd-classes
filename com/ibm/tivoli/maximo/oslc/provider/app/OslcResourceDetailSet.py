@@ -1,6 +1,6 @@
 def OslcResourceDetailSet():
-    '''    public OslcResourceDetailSet(final MboServerInterface ms)
+    '''public OslcResourceDetailSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

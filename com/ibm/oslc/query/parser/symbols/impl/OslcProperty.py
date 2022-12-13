@@ -1,18 +1,18 @@
 def OslcProperty():
-    '''    public OslcProperty()
+    '''public OslcProperty()
     '''
 def getIdentifierWildcard():
-    '''    public String getIdentifierWildcard()
+    '''public String getIdentifierWildcard()
     '''
 def setIdentifierWildcard():
-    '''    public void setIdentifierWildcard(final String identifierWildcard)
+    '''public void setIdentifierWildcard(final String identifierWildcard)
     '''
 def getNestedProperties():
-    '''    public List<IOslcProperty> getNestedProperties()
+    '''public List<IOslcProperty> getNestedProperties()
     '''
 def setNestedProperties():
-    '''    public void setNestedProperties(final List<IOslcProperty> nestedProperties)
+    '''public void setNestedProperties(final List<IOslcProperty> nestedProperties)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

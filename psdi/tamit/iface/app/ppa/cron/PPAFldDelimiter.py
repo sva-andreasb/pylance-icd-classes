@@ -1,3 +1,3 @@
 def PPAFldDelimiter():
-    '''    public PPAFldDelimiter(final MboValue mbv)
+    '''public PPAFldDelimiter(final MboValue mbv)
     '''

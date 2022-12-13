@@ -1,6 +1,6 @@
 def FldMasterPMSeasonStrMonth():
-    '''    public FldMasterPMSeasonStrMonth(final MboValue mbv)
+    '''public FldMasterPMSeasonStrMonth(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

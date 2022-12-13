@@ -1,6 +1,6 @@
 def FldActivateSubscription():
-    '''    public FldActivateSubscription(final MboValue mbv)
+    '''public FldActivateSubscription(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

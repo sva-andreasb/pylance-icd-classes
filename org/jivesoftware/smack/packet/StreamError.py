@@ -1,9 +1,9 @@
 def StreamError():
-    '''    public StreamError(final String code)
+    '''public StreamError(final String code)
     '''
 def getCode():
-    '''    public String getCode()
+    '''public String getCode()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

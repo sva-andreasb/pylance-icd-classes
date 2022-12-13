@@ -1,6 +1,6 @@
 def FldItemOrgInfoItemNum():
-    '''    public FldItemOrgInfoItemNum(final MboValue mbv)
+    '''public FldItemOrgInfoItemNum(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

@@ -1,12 +1,12 @@
 def ReplacementsFinder():
-    '''    public ReplacementsFinder(final ReplacementsHandler<T> handler)
+    '''public ReplacementsFinder(final ReplacementsHandler<T> handler)
     '''
 def visitInsertCommand():
-    '''    public void visitInsertCommand(final T object)
+    '''public void visitInsertCommand(final T object)
     '''
 def visitKeepCommand():
-    '''    public void visitKeepCommand(final T object)
+    '''public void visitKeepCommand(final T object)
     '''
 def visitDeleteCommand():
-    '''    public void visitDeleteCommand(final T object)
+    '''public void visitDeleteCommand(final T object)
     '''

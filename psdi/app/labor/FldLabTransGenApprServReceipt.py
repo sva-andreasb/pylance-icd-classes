@@ -1,6 +1,6 @@
 def FldLabTransGenApprServReceipt():
-    '''    public FldLabTransGenApprServReceipt(final MboValue mbv)
+    '''public FldLabTransGenApprServReceipt(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

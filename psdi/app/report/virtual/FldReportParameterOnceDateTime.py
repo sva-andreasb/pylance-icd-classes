@@ -1,6 +1,6 @@
 def FldReportParameterOnceDateTime():
-    '''    public FldReportParameterOnceDateTime(final MboValue mbv)
+    '''public FldReportParameterOnceDateTime(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

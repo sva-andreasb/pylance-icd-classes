@@ -1,6 +1,6 @@
 def WeatherGroupSet():
-    '''    public WeatherGroupSet(final MboServerInterface ms)
+    '''public WeatherGroupSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

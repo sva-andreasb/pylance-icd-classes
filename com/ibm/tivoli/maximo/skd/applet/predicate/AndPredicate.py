@@ -1,6 +1,6 @@
 def AndPredicate():
-    '''    public AndPredicate(final HierarchyChartPredicate<T>... preds)
+    '''public AndPredicate(final HierarchyChartPredicate<T>... preds)
     '''
 def evaluate():
-    '''    public boolean evaluate(final IlvHierarchyChart chart, final T in)
+    '''public boolean evaluate(final IlvHierarchyChart chart, final T in)
     '''

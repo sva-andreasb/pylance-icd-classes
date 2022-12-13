@@ -45,46 +45,46 @@ OPTION_FILE_PREFIX = "String  \"@\""
 OPTION_FILE_COMMENT = "String  \"#\""
 OPTION_PREFIX_NEGATE_OPTION = "String  \"no\""
 def format():
-    '''    public synchronized String format(final LogRecord record)
+    '''public synchronized String format(final LogRecord record)
     '''
 def name():
-    '''    public final String name()
+    '''public final String name()
     '''
 def names():
-    '''    public final String[] names()
+    '''public final String[] names()
     '''
 def getValue():
-    '''    public final T getValue()
+    '''public final T getValue()
     '''
 def getOptionNameUsed():
-    '''    public String getOptionNameUsed()
+    '''public String getOptionNameUsed()
     '''
 def isSet():
-    '''    public boolean isSet()
+    '''public boolean isSet()
     public boolean isSet()
     '''
 def setDefaultValue():
-    '''    public <K extends OptionBase<T>> K setDefaultValue(final T defaultValue)
+    '''public <K extends OptionBase<T>> K setDefaultValue(final T defaultValue)
     '''
 def help():
-    '''    public final void help()
+    '''public final void help()
     public void help(final boolean extended)
     '''
 def not():
-    '''    public <K extends OptionBase<T>> K not(final OptionBase<?> incompatibleOption)
+    '''public <K extends OptionBase<T>> K not(final OptionBase<?> incompatibleOption)
     '''
 def extended():
-    '''    public <K extends OptionBase<T>> K extended()
+    '''public <K extends OptionBase<T>> K extended()
     '''
 def addOption():
-    '''    public void addOption(final Option<?> opt)
+    '''public void addOption(final Option<?> opt)
     '''
 def setError():
-    '''    public void setError()
+    '''public void setError()
     '''
 def isError():
-    '''    public boolean isError()
+    '''public boolean isError()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

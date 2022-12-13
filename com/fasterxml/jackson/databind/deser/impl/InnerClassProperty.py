@@ -1,9 +1,9 @@
 def InnerClassProperty():
-    '''    public InnerClassProperty(final SettableBeanProperty delegate, final Constructor<?> ctor)
+    '''public InnerClassProperty(final SettableBeanProperty delegate, final Constructor<?> ctor)
     '''
 def deserializeAndSet():
-    '''    public void deserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object bean)
+    '''public void deserializeAndSet(final JsonParser p, final DeserializationContext ctxt, final Object bean)
     '''
 def deserializeSetAndReturn():
-    '''    public Object deserializeSetAndReturn(final JsonParser p, final DeserializationContext ctxt, final Object instance)
+    '''public Object deserializeSetAndReturn(final JsonParser p, final DeserializationContext ctxt, final Object instance)
     '''

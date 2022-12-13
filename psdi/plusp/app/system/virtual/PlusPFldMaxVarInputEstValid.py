@@ -1,6 +1,6 @@
 def PlusPFldMaxVarInputEstValid():
-    '''    public PlusPFldMaxVarInputEstValid(final MboValue mbv)
+    '''public PlusPFldMaxVarInputEstValid(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

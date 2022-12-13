@@ -1,9 +1,9 @@
 def FldJSONSourceType():
-    '''    public FldJSONSourceType(final MboValue mbv)
+    '''public FldJSONSourceType(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

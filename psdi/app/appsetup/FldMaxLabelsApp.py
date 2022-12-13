@@ -1,6 +1,6 @@
 def FldMaxLabelsApp():
-    '''    public FldMaxLabelsApp(final MboValue mbv)
+    '''public FldMaxLabelsApp(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

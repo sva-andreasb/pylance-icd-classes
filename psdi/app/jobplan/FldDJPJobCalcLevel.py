@@ -1,6 +1,6 @@
 def FldDJPJobCalcLevel():
-    '''    public FldDJPJobCalcLevel(final MboValue mbv)
+    '''public FldDJPJobCalcLevel(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

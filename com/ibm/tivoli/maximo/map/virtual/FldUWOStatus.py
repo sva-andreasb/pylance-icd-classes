@@ -1,6 +1,6 @@
 def FldUWOStatus():
-    '''    public FldUWOStatus(final MboValue mbv)
+    '''public FldUWOStatus(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

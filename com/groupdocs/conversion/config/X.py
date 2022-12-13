@@ -1,9 +1,9 @@
 def c():
-    '''    public int c(final boolean b)
+    '''public int c(final boolean b)
     '''
 def b():
-    '''    public boolean b(final Integer n)
+    '''public boolean b(final Integer n)
     '''
 def ao():
-    '''    public boolean ao()
+    '''public boolean ao()
     '''

@@ -1,3 +1,3 @@
 def postSign():
-    '''    public void postSign(final Document document)
+    '''public void postSign(final Document document)
     '''

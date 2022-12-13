@@ -1,9 +1,9 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def filterrows():
-    '''    public int filterrows()
+    '''public int filterrows()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''

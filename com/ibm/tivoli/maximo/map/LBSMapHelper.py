@@ -15,24 +15,24 @@ CIRCLE_FILL_COLOR = "String  \"circle_fill_color\""
 CIRCLE_OPACITY = "String  \"circle_opacity\""
 IS_WEATHER_ALERT_IMPACT = "String  \"is_weather_alert_impact\""
 def getLBSData():
-    '''    public JSONObject getLBSData(final LBS lbs)
+    '''public JSONObject getLBSData(final LBS lbs)
     '''
 def getLBSAuditData():
-    '''    public JSONArray getLBSAuditData(final MboRemote lbs, final JSONObject recordData, final Date startDate, final Date endDate)
+    '''public JSONArray getLBSAuditData(final MboRemote lbs, final JSONObject recordData, final Date startDate, final Date endDate)
     '''
 def getMaxTimeSinceLastUpdate():
-    '''    public int getMaxTimeSinceLastUpdate()
+    '''public int getMaxTimeSinceLastUpdate()
     '''
 def defaultValue():
-    '''    public int defaultValue()
+    '''public int defaultValue()
     public int defaultValue()
     public int defaultValue()
     '''
 def propertyName():
-    '''    public String propertyName()
+    '''public String propertyName()
     public String propertyName()
     public String propertyName()
     '''
 def getMaximoValue():
-    '''    public int getMaximoValue()
+    '''public int getMaximoValue()
     '''

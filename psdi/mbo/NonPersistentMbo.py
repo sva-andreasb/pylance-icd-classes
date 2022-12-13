@@ -1,3 +1,3 @@
 def NonPersistentMbo():
-    '''    public NonPersistentMbo(final MboSet ms)
+    '''public NonPersistentMbo(final MboSet ms)
     '''

@@ -1,12 +1,12 @@
 def PRLine():
-    '''    public PRLine(final MboSet ms)
+    '''public PRLine(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''

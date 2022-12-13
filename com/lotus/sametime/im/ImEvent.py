@@ -5,23 +5,23 @@ IM_TEXT_RECEIVED = "int  4"
 IM_DATA_RECEIVED = "int  5"
 IM_RECEIVED = "int  6"
 def getReason():
-    '''    public int getReason()
+    '''public int getReason()
     '''
 def isEncrypted():
-    '''    public boolean isEncrypted()
+    '''public boolean isEncrypted()
     '''
 def getData():
-    '''    public byte[] getData()
+    '''public byte[] getData()
     '''
 def getText():
-    '''    public String getText()
+    '''public String getText()
     '''
 def getDataType():
-    '''    public int getDataType()
+    '''public int getDataType()
     '''
 def getDataSubType():
-    '''    public int getDataSubType()
+    '''public int getDataSubType()
     '''
 def getIm():
-    '''    public Im getIm()
+    '''public Im getIm()
     '''

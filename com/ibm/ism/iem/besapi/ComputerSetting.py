@@ -1,18 +1,18 @@
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def setName():
-    '''    public void setName(final String value)
+    '''public void setName(final String value)
     '''
 def getValue():
-    '''    public String getValue()
+    '''public String getValue()
     '''
 def setValue():
-    '''    public void setValue(final String value)
+    '''public void setValue(final String value)
     '''
 def getResource():
-    '''    public String getResource()
+    '''public String getResource()
     '''
 def setResource():
-    '''    public void setResource(final String value)
+    '''public void setResource(final String value)
     '''

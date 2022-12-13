@@ -1,6 +1,6 @@
 def FldTransferCurItemFromStoreloc():
-    '''    public FldTransferCurItemFromStoreloc(final MboValue mbv)
+    '''public FldTransferCurItemFromStoreloc(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -4,12 +4,12 @@ QUOTE_OF_DAY_PORT = "int  17"
 CHARGEN_PORT = "int  19"
 DEFAULT_PORT = "int  19"
 def CharGenUDPClient():
-    '''    public CharGenUDPClient()
+    '''public CharGenUDPClient()
     '''
 def send():
-    '''    public void send(final InetAddress host, final int port)
+    '''public void send(final InetAddress host, final int port)
     public void send(final InetAddress host)
     '''
 def receive():
-    '''    public byte[] receive()
+    '''public byte[] receive()
     '''

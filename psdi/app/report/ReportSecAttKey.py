@@ -1,3 +1,3 @@
 def ReportSecAttKey():
-    '''    public ReportSecAttKey(final MboSet ms)
+    '''public ReportSecAttKey(final MboSet ms)
     '''

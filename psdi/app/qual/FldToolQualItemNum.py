@@ -1,3 +1,3 @@
 def FldToolQualItemNum():
-    '''    public FldToolQualItemNum(final MboValue mbv)
+    '''public FldToolQualItemNum(final MboValue mbv)
     '''

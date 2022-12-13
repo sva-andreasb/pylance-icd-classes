@@ -1,6 +1,6 @@
 def SKDProjectShifts():
-    '''    public SKDProjectShifts(final MboSet ms)
+    '''public SKDProjectShifts(final MboSet ms)
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''

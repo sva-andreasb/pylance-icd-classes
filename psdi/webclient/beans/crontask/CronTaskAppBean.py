@@ -1,3 +1,3 @@
 def initializeApp():
-    '''    public void initializeApp()
+    '''public void initializeApp()
     '''

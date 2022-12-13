@@ -1,6 +1,6 @@
 def InvalidSessionException():
-    '''    public InvalidSessionException(final Session session)
+    '''public InvalidSessionException(final Session session)
     '''
 def getMessage():
-    '''    public String getMessage()
+    '''public String getMessage()
     '''

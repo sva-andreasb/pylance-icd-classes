@@ -12,7 +12,7 @@ TAMUZ = "int  10"
 AV = "int  11"
 ELUL = "int  12"
 def HebrewCalendar():
-    '''    public HebrewCalendar()
+    '''public HebrewCalendar()
     public HebrewCalendar(final TimeZone zone)
     public HebrewCalendar(final Locale aLocale)
     public HebrewCalendar(final ULocale locale)
@@ -23,14 +23,14 @@ def HebrewCalendar():
     public HebrewCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
     '''
 def add():
-    '''    public void add(final int field, final int amount)
+    '''public void add(final int field, final int amount)
     '''
 def roll():
-    '''    public void roll(final int field, final int amount)
+    '''public void roll(final int field, final int amount)
     '''
 def isLeapYear():
-    '''    public static boolean isLeapYear(final int year)
+    '''public static boolean isLeapYear(final int year)
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''

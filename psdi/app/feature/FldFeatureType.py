@@ -1,6 +1,6 @@
 def FldFeatureType():
-    '''    public FldFeatureType(final MboValue mbv)
+    '''public FldFeatureType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

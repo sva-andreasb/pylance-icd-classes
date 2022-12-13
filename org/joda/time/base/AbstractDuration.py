@@ -1,27 +1,27 @@
 def toDuration():
-    '''    public Duration toDuration()
+    '''public Duration toDuration()
     '''
 def toPeriod():
-    '''    public Period toPeriod()
+    '''public Period toPeriod()
     '''
 def compareTo():
-    '''    public int compareTo(final ReadableDuration readableDuration)
+    '''public int compareTo(final ReadableDuration readableDuration)
     '''
 def isEqual():
-    '''    public boolean isEqual(ReadableDuration zero)
+    '''public boolean isEqual(ReadableDuration zero)
     '''
 def isLongerThan():
-    '''    public boolean isLongerThan(ReadableDuration zero)
+    '''public boolean isLongerThan(ReadableDuration zero)
     '''
 def isShorterThan():
-    '''    public boolean isShorterThan(ReadableDuration zero)
+    '''public boolean isShorterThan(ReadableDuration zero)
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

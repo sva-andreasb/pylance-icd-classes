@@ -1,3 +1,3 @@
 def ReconTaskLinkSet():
-    '''    public ReconTaskLinkSet(final MboServerInterface ms)
+    '''public ReconTaskLinkSet(final MboServerInterface ms)
     '''

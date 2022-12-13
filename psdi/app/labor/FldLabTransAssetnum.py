@@ -1,9 +1,9 @@
 def FldLabTransAssetnum():
-    '''    public FldLabTransAssetnum(final MboValue mbv)
+    '''public FldLabTransAssetnum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

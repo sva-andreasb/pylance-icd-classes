@@ -1,3 +1,3 @@
 def convertToXmlByteArray():
-    '''    public byte[] convertToXmlByteArray(final DeleteObjectsRequest rq)
+    '''public byte[] convertToXmlByteArray(final DeleteObjectsRequest rq)
     '''

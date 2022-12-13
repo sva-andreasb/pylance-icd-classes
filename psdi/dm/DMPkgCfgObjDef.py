@@ -1,6 +1,6 @@
 def DMPkgCfgObjDef():
-    '''    public DMPkgCfgObjDef(final MboSet ms)
+    '''public DMPkgCfgObjDef(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

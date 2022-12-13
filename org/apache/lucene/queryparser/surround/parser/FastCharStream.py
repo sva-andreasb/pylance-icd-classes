@@ -1,39 +1,39 @@
 def FastCharStream():
-    '''    public FastCharStream(final Reader r)
+    '''public FastCharStream(final Reader r)
     '''
 def readChar():
-    '''    public final char readChar()
+    '''public final char readChar()
     '''
 def BeginToken():
-    '''    public final char BeginToken()
+    '''public final char BeginToken()
     '''
 def backup():
-    '''    public final void backup(final int amount)
+    '''public final void backup(final int amount)
     '''
 def GetImage():
-    '''    public final String GetImage()
+    '''public final String GetImage()
     '''
 def GetSuffix():
-    '''    public final char[] GetSuffix(final int len)
+    '''public final char[] GetSuffix(final int len)
     '''
 def Done():
-    '''    public final void Done()
+    '''public final void Done()
     '''
 def getColumn():
-    '''    public final int getColumn()
+    '''public final int getColumn()
     '''
 def getLine():
-    '''    public final int getLine()
+    '''public final int getLine()
     '''
 def getEndColumn():
-    '''    public final int getEndColumn()
+    '''public final int getEndColumn()
     '''
 def getEndLine():
-    '''    public final int getEndLine()
+    '''public final int getEndLine()
     '''
 def getBeginColumn():
-    '''    public final int getBeginColumn()
+    '''public final int getBeginColumn()
     '''
 def getBeginLine():
-    '''    public final int getBeginLine()
+    '''public final int getBeginLine()
     '''

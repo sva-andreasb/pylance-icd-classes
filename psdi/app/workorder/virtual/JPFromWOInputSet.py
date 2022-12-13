@@ -1,9 +1,9 @@
 def JPFromWOInputSet():
-    '''    public JPFromWOInputSet(final MboServerInterface ms)
+    '''public JPFromWOInputSet(final MboServerInterface ms)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

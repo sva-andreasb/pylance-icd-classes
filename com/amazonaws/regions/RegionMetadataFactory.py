@@ -1,3 +1,3 @@
 def create():
-    '''    public static RegionMetadata create()
+    '''public static RegionMetadata create()
     '''

@@ -1,3 +1,3 @@
 def SKDQuerySet():
-    '''    public SKDQuerySet(final MboServerInterface ms)
+    '''public SKDQuerySet(final MboServerInterface ms)
     '''

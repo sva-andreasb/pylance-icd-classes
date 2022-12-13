@@ -1,6 +1,6 @@
 def TloamFldClassstructureId():
-    '''    public TloamFldClassstructureId(final MboValue mbv)
+    '''public TloamFldClassstructureId(final MboValue mbv)
     '''
 def getObjectName():
-    '''    public String getObjectName()
+    '''public String getObjectName()
     '''

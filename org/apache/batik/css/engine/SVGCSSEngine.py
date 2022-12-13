@@ -60,6 +60,6 @@ WORD_SPACING_INDEX = "int  58"
 WRITING_MODE_INDEX = "int  59"
 FINAL_INDEX = "int  59"
 def SVGCSSEngine():
-    '''    public SVGCSSEngine(final Document doc, final ParsedURL uri, final ExtendedParser p, final CSSContext ctx)
+    '''public SVGCSSEngine(final Document doc, final ParsedURL uri, final ExtendedParser p, final CSSContext ctx)
     public SVGCSSEngine(final Document doc, final ParsedURL uri, final ExtendedParser p, final ValueManager[] vms, final ShorthandManager[] sms, final CSSContext ctx)
     '''

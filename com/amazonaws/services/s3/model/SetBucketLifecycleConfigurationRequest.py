@@ -1,21 +1,21 @@
 def SetBucketLifecycleConfigurationRequest():
-    '''    public SetBucketLifecycleConfigurationRequest(final String bucketName, final BucketLifecycleConfiguration lifecycleConfiguration)
+    '''public SetBucketLifecycleConfigurationRequest(final String bucketName, final BucketLifecycleConfiguration lifecycleConfiguration)
     '''
 def getBucketName():
-    '''    public String getBucketName()
+    '''public String getBucketName()
     '''
 def setBucketName():
-    '''    public void setBucketName(final String bucketName)
+    '''public void setBucketName(final String bucketName)
     '''
 def withBucketName():
-    '''    public SetBucketLifecycleConfigurationRequest withBucketName(final String bucketName)
+    '''public SetBucketLifecycleConfigurationRequest withBucketName(final String bucketName)
     '''
 def getLifecycleConfiguration():
-    '''    public BucketLifecycleConfiguration getLifecycleConfiguration()
+    '''public BucketLifecycleConfiguration getLifecycleConfiguration()
     '''
 def setLifecycleConfiguration():
-    '''    public void setLifecycleConfiguration(final BucketLifecycleConfiguration lifecycleConfiguration)
+    '''public void setLifecycleConfiguration(final BucketLifecycleConfiguration lifecycleConfiguration)
     '''
 def withLifecycleConfiguration():
-    '''    public SetBucketLifecycleConfigurationRequest withLifecycleConfiguration(final BucketLifecycleConfiguration lifecycleConfiguration)
+    '''public SetBucketLifecycleConfigurationRequest withLifecycleConfiguration(final BucketLifecycleConfiguration lifecycleConfiguration)
     '''

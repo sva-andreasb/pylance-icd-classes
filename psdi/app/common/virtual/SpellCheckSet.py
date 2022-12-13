@@ -1,3 +1,3 @@
 def SpellCheckSet():
-    '''    public SpellCheckSet(final MboServerInterface ms)
+    '''public SpellCheckSet(final MboServerInterface ms)
     '''

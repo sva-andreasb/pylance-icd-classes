@@ -1,3 +1,3 @@
 def FldContractType():
-    '''    public FldContractType(final MboValue mbv)
+    '''public FldContractType(final MboValue mbv)
     '''

@@ -9,32 +9,32 @@ KPITEMPLATENUM = "String  \"KPITEMPLATENUM\""
 TARGET = "String  \"TARGET\""
 RELATIONSHIP_VALUES = "String  \"KPITEMPLATEVARVALUES\""
 def KPITemplateMain():
-    '''    public KPITemplateMain(final MboSet ms)
+    '''public KPITemplateMain(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def validateTemplate():
-    '''    public String validateTemplate()
+    '''public String validateTemplate()
     '''
 def getVariableData():
-    '''    public VariableData getVariableData(final String variable)
+    '''public VariableData getVariableData(final String variable)
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def copy():
-    '''    public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
     '''
 def findValueForVariable():
-    '''    public String findValueForVariable(final MboSetRemote mboset, final String varname)
+    '''public String findValueForVariable(final MboSetRemote mboset, final String varname)
     '''

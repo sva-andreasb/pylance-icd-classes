@@ -1,6 +1,6 @@
 def FldCrontaskInstanceReloadReqTime():
-    '''    public FldCrontaskInstanceReloadReqTime(final MboValue mbv)
+    '''public FldCrontaskInstanceReloadReqTime(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

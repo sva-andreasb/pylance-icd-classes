@@ -1,55 +1,55 @@
 def PlusPClassStructure():
-    '''    public PlusPClassStructure(final MboSet arg0)
+    '''public PlusPClassStructure(final MboSet arg0)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def adjustCustomerReadOnly():
-    '''    public void adjustCustomerReadOnly()
+    '''public void adjustCustomerReadOnly()
     '''
 def canAddCustomer():
-    '''    public void canAddCustomer()
+    '''public void canAddCustomer()
     public void canAddCustomer(final String s)
     '''
 def setRollUpCustomerAction():
-    '''    public void setRollUpCustomerAction(final boolean rollUpCustomerAction)
+    '''public void setRollUpCustomerAction(final boolean rollUpCustomerAction)
     '''
 def setRollUpCaller():
-    '''    public void setRollUpCaller(final long rollUpCaller, final HashMap<String, Integer> dialogAnswers)
+    '''public void setRollUpCaller(final long rollUpCaller, final HashMap<String, Integer> dialogAnswers)
     '''
 def getDialogAnswer():
-    '''    public int getDialogAnswer(final String key)
+    '''public int getDialogAnswer(final String key)
     '''
 def putDialogAnswer():
-    '''    public void putDialogAnswer(final String key, final Integer value)
+    '''public void putDialogAnswer(final String key, final Integer value)
     '''
 def postAddCustomer():
-    '''    public void postAddCustomer(final MboRemote mboRemote)
+    '''public void postAddCustomer(final MboRemote mboRemote)
     '''
 def postRemoveCustomer():
-    '''    public void postRemoveCustomer(final MboRemote mboRemote)
+    '''public void postRemoveCustomer(final MboRemote mboRemote)
     '''
 def getDirectParent():
-    '''    public MboRemote getDirectParent()
+    '''public MboRemote getDirectParent()
     '''
 def delete():
-    '''    public void delete(final long access)
+    '''public void delete(final long access)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def cancelAddModifyCustDialog():
-    '''    public void cancelAddModifyCustDialog(final boolean b)
+    '''public void cancelAddModifyCustDialog(final boolean b)
     '''
 def getCustomerListToRestrictCommonLookups():
-    '''    public String getCustomerListToRestrictCommonLookups()
+    '''public String getCustomerListToRestrictCommonLookups()
     '''
 def getUseWith():
-    '''    public MboRemote getUseWith(final String objectName)
+    '''public MboRemote getUseWith(final String objectName)
     '''

@@ -1,3 +1,3 @@
 def IEMObjMboSet():
-    '''    public IEMObjMboSet(final MboServerInterface ms)
+    '''public IEMObjMboSet(final MboServerInterface ms)
     '''

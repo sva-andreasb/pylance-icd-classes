@@ -1,6 +1,6 @@
 def FldInvVendorIsDefault():
-    '''    public FldInvVendorIsDefault(final MboValue mbv)
+    '''public FldInvVendorIsDefault(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

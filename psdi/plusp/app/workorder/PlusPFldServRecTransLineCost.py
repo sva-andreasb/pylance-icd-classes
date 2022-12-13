@@ -1,6 +1,6 @@
 def PlusPFldServRecTransLineCost():
-    '''    public PlusPFldServRecTransLineCost(final MboValue arg0)
+    '''public PlusPFldServRecTransLineCost(final MboValue arg0)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

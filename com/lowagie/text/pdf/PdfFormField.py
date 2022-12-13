@@ -29,76 +29,76 @@ SINGLELINE = "boolean  false"
 PLAINTEXT = "boolean  false"
 PASSWORD = "boolean  true"
 def PdfFormField():
-    '''    public PdfFormField(final PdfWriter writer, final float llx, final float lly, final float urx, final float ury, final PdfAction action)
+    '''public PdfFormField(final PdfWriter writer, final float llx, final float lly, final float urx, final float ury, final PdfAction action)
     '''
 def setWidget():
-    '''    public void setWidget(final Rectangle rect, final PdfName highlight)
+    '''public void setWidget(final Rectangle rect, final PdfName highlight)
     '''
 def createEmpty():
-    '''    public static PdfFormField createEmpty(final PdfWriter writer)
+    '''public static PdfFormField createEmpty(final PdfWriter writer)
     '''
 def setButton():
-    '''    public void setButton(final int flags)
+    '''public void setButton(final int flags)
     '''
 def createPushButton():
-    '''    public static PdfFormField createPushButton(final PdfWriter writer)
+    '''public static PdfFormField createPushButton(final PdfWriter writer)
     '''
 def createCheckBox():
-    '''    public static PdfFormField createCheckBox(final PdfWriter writer)
+    '''public static PdfFormField createCheckBox(final PdfWriter writer)
     '''
 def createRadioButton():
-    '''    public static PdfFormField createRadioButton(final PdfWriter writer, final boolean noToggleToOff)
+    '''public static PdfFormField createRadioButton(final PdfWriter writer, final boolean noToggleToOff)
     '''
 def createTextField():
-    '''    public static PdfFormField createTextField(final PdfWriter writer, final boolean multiline, final boolean password, final int maxLen)
+    '''public static PdfFormField createTextField(final PdfWriter writer, final boolean multiline, final boolean password, final int maxLen)
     '''
 def createList():
-    '''    public static PdfFormField createList(final PdfWriter writer, final String[] options, final int topIndex)
+    '''public static PdfFormField createList(final PdfWriter writer, final String[] options, final int topIndex)
     public static PdfFormField createList(final PdfWriter writer, final String[][] options, final int topIndex)
     '''
 def createCombo():
-    '''    public static PdfFormField createCombo(final PdfWriter writer, final boolean edit, final String[] options, final int topIndex)
+    '''public static PdfFormField createCombo(final PdfWriter writer, final boolean edit, final String[] options, final int topIndex)
     public static PdfFormField createCombo(final PdfWriter writer, final boolean edit, final String[][] options, final int topIndex)
     '''
 def createSignature():
-    '''    public static PdfFormField createSignature(final PdfWriter writer)
+    '''public static PdfFormField createSignature(final PdfWriter writer)
     '''
 def getParent():
-    '''    public PdfFormField getParent()
+    '''public PdfFormField getParent()
     '''
 def addKid():
-    '''    public void addKid(final PdfFormField field)
+    '''public void addKid(final PdfFormField field)
     '''
 def setFieldFlags():
-    '''    public int setFieldFlags(final int flags)
+    '''public int setFieldFlags(final int flags)
     '''
 def setValueAsString():
-    '''    public void setValueAsString(final String s)
+    '''public void setValueAsString(final String s)
     '''
 def setValueAsName():
-    '''    public void setValueAsName(final String s)
+    '''public void setValueAsName(final String s)
     '''
 def setValue():
-    '''    public void setValue(final PdfSignature sig)
+    '''public void setValue(final PdfSignature sig)
     '''
 def setDefaultValueAsString():
-    '''    public void setDefaultValueAsString(final String s)
+    '''public void setDefaultValueAsString(final String s)
     '''
 def setDefaultValueAsName():
-    '''    public void setDefaultValueAsName(final String s)
+    '''public void setDefaultValueAsName(final String s)
     '''
 def setFieldName():
-    '''    public void setFieldName(final String s)
+    '''public void setFieldName(final String s)
     '''
 def setUserName():
-    '''    public void setUserName(final String s)
+    '''public void setUserName(final String s)
     '''
 def setMappingName():
-    '''    public void setMappingName(final String s)
+    '''public void setMappingName(final String s)
     '''
 def setQuadding():
-    '''    public void setQuadding(final int v)
+    '''public void setQuadding(final int v)
     '''
 def shallowDuplicate():
-    '''    public static PdfAnnotation shallowDuplicate(final PdfAnnotation annot)
+    '''public static PdfAnnotation shallowDuplicate(final PdfAnnotation annot)
     '''

@@ -1,6 +1,6 @@
 def PlusPFldBillLaborTotalHours():
-    '''    public PlusPFldBillLaborTotalHours(final MboValue mbv)
+    '''public PlusPFldBillLaborTotalHours(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

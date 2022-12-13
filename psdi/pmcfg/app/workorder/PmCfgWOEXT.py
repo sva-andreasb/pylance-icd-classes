@@ -1,6 +1,6 @@
 def PmCfgWOEXT():
-    '''    public PmCfgWOEXT(final MboSet ms)
+    '''public PmCfgWOEXT(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

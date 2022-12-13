@@ -1,21 +1,21 @@
 def ImportBean():
-    '''    public ImportBean()
+    '''public ImportBean()
     '''
 def export():
-    '''    public int export()
+    '''public int export()
     '''
 def importdata():
-    '''    public int importdata()
+    '''public int importdata()
     '''
 def loadData():
-    '''    public int loadData()
+    '''public int loadData()
     '''
 def loadImport():
-    '''    public void loadImport(final UploadFile file)
+    '''public void loadImport(final UploadFile file)
     '''
 def showPreview():
-    '''    public int showPreview()
+    '''public int showPreview()
     '''
 def readCountFile():
-    '''    public int readCountFile()
+    '''public int readCountFile()
     '''

@@ -1,15 +1,15 @@
 def length():
-    '''    public final int length()
+    '''public final int length()
     '''
 def toOutputStream():
-    '''    public void toOutputStream(final DataOutputStream dos)
+    '''public void toOutputStream(final DataOutputStream dos)
     '''
 def toByteArray():
-    '''    public final byte[] toByteArray()
+    '''public final byte[] toByteArray()
     '''
 def hashCode():
-    '''    public final int hashCode()
+    '''public final int hashCode()
     '''
 def equals():
-    '''    public final boolean equals(final Object other)
+    '''public final boolean equals(final Object other)
     '''

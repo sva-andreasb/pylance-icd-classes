@@ -1,6 +1,6 @@
 def TransferCurItemBean():
-    '''    public TransferCurItemBean()
+    '''public TransferCurItemBean()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''

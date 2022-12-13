@@ -10,17 +10,17 @@ NODE_DISC_PROTOCOL_CFG_PROPERTY = "String  \"nodeDiscoveryProtocolConfigProperty
 DEFAULT_HTTP_CONNECTOR_PORT = "String  \"8082\""
 SERVERTYPE_CFG_PROPERTY = "String  \"serverTypeConfigProperty\""
 def getProperties():
-    '''    public Properties getProperties()
+    '''public Properties getProperties()
     '''
 def getInstance():
-    '''    public static AdminInitializer getInstance()
+    '''public static AdminInitializer getInstance()
     '''
 def initialize():
-    '''    public void initialize(final Properties p)
+    '''public void initialize(final Properties p)
     '''
 def setMBeanExtensions():
-    '''    public void setMBeanExtensions(final MBeanExtensions ext)
+    '''public void setMBeanExtensions(final MBeanExtensions ext)
     '''
 def getMBeanExtensions():
-    '''    public MBeanExtensions getMBeanExtensions()
+    '''public MBeanExtensions getMBeanExtensions()
     '''

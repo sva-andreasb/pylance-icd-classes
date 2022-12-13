@@ -1,3 +1,3 @@
 def FldEscRoleID():
-    '''    public FldEscRoleID(final MboValue mbv)
+    '''public FldEscRoleID(final MboValue mbv)
     '''

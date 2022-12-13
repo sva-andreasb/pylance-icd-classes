@@ -1,3 +1,3 @@
 def AbstractQuantifierPredicate():
-    '''    public AbstractQuantifierPredicate(final Predicate<? super T>... predicates)
+    '''public AbstractQuantifierPredicate(final Predicate<? super T>... predicates)
     '''

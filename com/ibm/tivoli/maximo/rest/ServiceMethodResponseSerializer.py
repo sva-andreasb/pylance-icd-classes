@@ -1,9 +1,9 @@
 def ServiceMethodResponseSerializer():
-    '''    public ServiceMethodResponseSerializer()
+    '''public ServiceMethodResponseSerializer()
     '''
 def serialize():
-    '''    public ResourceResponse serialize(final Resource res, final ResourceRequest req)
+    '''public ResourceResponse serialize(final Resource res, final ResourceRequest req)
     '''
 def serializeResource():
-    '''    public ResourceResponse serializeResource(final Resource resource, final ResourceRequest request)
+    '''public ResourceResponse serializeResource(final Resource resource, final ResourceRequest request)
     '''

@@ -1,3 +1,3 @@
 def MoutLaborProcess():
-    '''    public MoutLaborProcess()
+    '''public MoutLaborProcess()
     '''

@@ -1,9 +1,9 @@
 def LVCSymbology():
-    '''    public LVCSymbology(final MboSet ms)
+    '''public LVCSymbology(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete()
+    '''public void delete()
     '''

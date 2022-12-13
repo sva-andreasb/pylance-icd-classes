@@ -1,8 +1,8 @@
 def release():
-    '''    public static void release(final Message message)
+    '''public static void release(final Message message)
     '''
 def newMessage():
-    '''    public Message newMessage(final CharSequence charSequence)
+    '''public Message newMessage(final CharSequence charSequence)
     public Message newMessage(final String message, final Object... params)
     public Message newMessage(final String message, final Object p0)
     public Message newMessage(final String message, final Object p0, final Object p1)

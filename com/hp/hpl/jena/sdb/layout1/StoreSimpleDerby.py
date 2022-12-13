@@ -1,3 +1,3 @@
 def StoreSimpleDerby():
-    '''    public StoreSimpleDerby(final SDBConnection connection, final StoreDesc desc)
+    '''public StoreSimpleDerby(final SDBConnection connection, final StoreDesc desc)
     '''

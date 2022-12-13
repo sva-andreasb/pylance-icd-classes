@@ -1,3 +1,3 @@
 def ReportOutputSet():
-    '''    public ReportOutputSet(final MboServerInterface ms)
+    '''public ReportOutputSet(final MboServerInterface ms)
     '''

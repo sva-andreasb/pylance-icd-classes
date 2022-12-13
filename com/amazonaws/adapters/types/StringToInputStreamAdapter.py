@@ -1,3 +1,3 @@
 def adapt():
-    '''    public InputStream adapt(final String source)
+    '''public InputStream adapt(final String source)
     '''

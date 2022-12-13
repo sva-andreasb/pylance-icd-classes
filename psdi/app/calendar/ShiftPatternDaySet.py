@@ -1,6 +1,6 @@
 def ShiftPatternDaySet():
-    '''    public ShiftPatternDaySet(final MboServerInterface ms)
+    '''public ShiftPatternDaySet(final MboServerInterface ms)
     '''
 def validateCalendarBreaks():
-    '''    public void validateCalendarBreaks()
+    '''public void validateCalendarBreaks()
     '''

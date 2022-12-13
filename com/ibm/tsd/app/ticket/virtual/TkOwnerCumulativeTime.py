@@ -1,3 +1,3 @@
 def TkOwnerCumulativeTime():
-    '''    public TkOwnerCumulativeTime(final MboSet ms)
+    '''public TkOwnerCumulativeTime(final MboSet ms)
     '''

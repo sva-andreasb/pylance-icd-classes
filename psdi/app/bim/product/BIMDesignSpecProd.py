@@ -5,11 +5,11 @@ FIELD_DESIGNSPECID = "String  \"DESIGNSPECID\""
 FIELD_PRODUCTID = "String  \"PRODUCTID\""
 FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
 def BIMDesignSpecProd():
-    '''    public BIMDesignSpecProd(final MboSet ms)
+    '''public BIMDesignSpecProd(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

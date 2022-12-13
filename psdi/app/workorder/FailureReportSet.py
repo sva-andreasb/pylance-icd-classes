@@ -1,60 +1,60 @@
 def FailureReportSet():
-    '''    public FailureReportSet(final MboServerInterface ms)
+    '''public FailureReportSet(final MboServerInterface ms)
     '''
 def setOwner():
-    '''    public void setOwner(final MboRemote mbo)
+    '''public void setOwner(final MboRemote mbo)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''
 def addAtIndex():
-    '''    public MboRemote addAtIndex(final long accessModifier, final int index)
+    '''public MboRemote addAtIndex(final long accessModifier, final int index)
     '''
 def doDelete():
-    '''    public boolean doDelete()
+    '''public boolean doDelete()
     '''
 def clearFromHere():
-    '''    public void clearFromHere(final FailureReport fr)
+    '''public void clearFromHere(final FailureReport fr)
     '''
 def deleteAll():
-    '''    public synchronized void deleteAll(final long accessModifier)
+    '''public synchronized void deleteAll(final long accessModifier)
     '''
 def codeSet():
-    '''    public void codeSet(final MboRemote forThisFR)
+    '''public void codeSet(final MboRemote forThisFR)
     '''
 def isComplete():
-    '''    public boolean isComplete()
+    '''public boolean isComplete()
     '''
 def reflectFailureClass():
-    '''    public void reflectFailureClass()
+    '''public void reflectFailureClass()
     '''
 def reflectProblemCode():
-    '''    public void reflectProblemCode()
+    '''public void reflectProblemCode()
     '''
 def getParentOfProblemCode():
-    '''    public String getParentOfProblemCode()
+    '''public String getParentOfProblemCode()
     '''
 def getMbo():
-    '''    public synchronized MboRemote getMbo(final int index)
+    '''public synchronized MboRemote getMbo(final int index)
     '''
 def undeleteAll():
-    '''    public void undeleteAll()
+    '''public void undeleteAll()
     '''
 def getEndOfReport():
-    '''    public MboRemote getEndOfReport()
+    '''public MboRemote getEndOfReport()
     '''
 def register():
-    '''    public void register(final int levelNum)
+    '''public void register(final int levelNum)
     '''
 def isLevelEditable():
-    '''    public boolean isLevelEditable(final int levelNum)
+    '''public boolean isLevelEditable(final int levelNum)
     '''
 def refreshFRCodes():
-    '''    public void refreshFRCodes()
+    '''public void refreshFRCodes()
     '''
 def doUndelete():
-    '''    public boolean doUndelete()
+    '''public boolean doUndelete()
     '''
 def undeleteFromHere():
-    '''    public void undeleteFromHere(final FailureReport fr)
+    '''public void undeleteFromHere(final FailureReport fr)
     '''

@@ -1,3 +1,3 @@
 def PlusCSpotCheckSet():
-    '''    public PlusCSpotCheckSet(final MboServerInterface ms)
+    '''public PlusCSpotCheckSet(final MboServerInterface ms)
     '''

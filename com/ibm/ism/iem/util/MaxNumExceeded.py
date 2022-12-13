@@ -1,6 +1,6 @@
 def MaxNumExceeded():
-    '''    public MaxNumExceeded(final int records)
+    '''public MaxNumExceeded(final int records)
     '''
 def getReturnedRecords():
-    '''    public int getReturnedRecords()
+    '''public int getReturnedRecords()
     '''

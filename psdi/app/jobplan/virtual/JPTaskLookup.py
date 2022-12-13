@@ -1,3 +1,3 @@
 def JPTaskLookup():
-    '''    public JPTaskLookup(final MboSet ms)
+    '''public JPTaskLookup(final MboSet ms)
     '''

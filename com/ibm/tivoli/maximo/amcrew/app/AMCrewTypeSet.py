@@ -1,3 +1,3 @@
 def AMCrewTypeSet():
-    '''    public AMCrewTypeSet(final MboServerInterface ms)
+    '''public AMCrewTypeSet(final MboServerInterface ms)
     '''

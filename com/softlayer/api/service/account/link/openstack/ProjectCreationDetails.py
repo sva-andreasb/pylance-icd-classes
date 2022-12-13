@@ -1,75 +1,75 @@
 def getDomainId():
-    '''    public String getDomainId()
+    '''public String getDomainId()
     '''
 def setDomainId():
-    '''    public void setDomainId(final String domainId)
+    '''public void setDomainId(final String domainId)
     '''
 def isDomainIdSpecified():
-    '''    public boolean isDomainIdSpecified()
+    '''public boolean isDomainIdSpecified()
     '''
 def unsetDomainId():
-    '''    public void unsetDomainId()
+    '''public void unsetDomainId()
     '''
 def getProjectId():
-    '''    public String getProjectId()
+    '''public String getProjectId()
     '''
 def setProjectId():
-    '''    public void setProjectId(final String projectId)
+    '''public void setProjectId(final String projectId)
     '''
 def isProjectIdSpecified():
-    '''    public boolean isProjectIdSpecified()
+    '''public boolean isProjectIdSpecified()
     '''
 def unsetProjectId():
-    '''    public void unsetProjectId()
+    '''public void unsetProjectId()
     '''
 def getProjectName():
-    '''    public String getProjectName()
+    '''public String getProjectName()
     '''
 def setProjectName():
-    '''    public void setProjectName(final String projectName)
+    '''public void setProjectName(final String projectName)
     '''
 def isProjectNameSpecified():
-    '''    public boolean isProjectNameSpecified()
+    '''public boolean isProjectNameSpecified()
     '''
 def unsetProjectName():
-    '''    public void unsetProjectName()
+    '''public void unsetProjectName()
     '''
 def getUserId():
-    '''    public String getUserId()
+    '''public String getUserId()
     '''
 def setUserId():
-    '''    public void setUserId(final String userId)
+    '''public void setUserId(final String userId)
     '''
 def isUserIdSpecified():
-    '''    public boolean isUserIdSpecified()
+    '''public boolean isUserIdSpecified()
     '''
 def unsetUserId():
-    '''    public void unsetUserId()
+    '''public void unsetUserId()
     '''
 def getUserName():
-    '''    public String getUserName()
+    '''public String getUserName()
     '''
 def setUserName():
-    '''    public void setUserName(final String userName)
+    '''public void setUserName(final String userName)
     '''
 def isUserNameSpecified():
-    '''    public boolean isUserNameSpecified()
+    '''public boolean isUserNameSpecified()
     '''
 def unsetUserName():
-    '''    public void unsetUserName()
+    '''public void unsetUserName()
     '''
 def domainId():
-    '''    public Mask domainId()
+    '''public Mask domainId()
     '''
 def projectId():
-    '''    public Mask projectId()
+    '''public Mask projectId()
     '''
 def projectName():
-    '''    public Mask projectName()
+    '''public Mask projectName()
     '''
 def userId():
-    '''    public Mask userId()
+    '''public Mask userId()
     '''
 def userName():
-    '''    public Mask userName()
+    '''public Mask userName()
     '''

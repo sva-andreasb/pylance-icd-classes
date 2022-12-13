@@ -1,6 +1,6 @@
 def FldInventoryAutoInvoice():
-    '''    public FldInventoryAutoInvoice(final MboValue mbv)
+    '''public FldInventoryAutoInvoice(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

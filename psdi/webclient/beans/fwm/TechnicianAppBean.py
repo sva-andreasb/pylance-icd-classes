@@ -1,6 +1,6 @@
 def afterFollowUpSave():
-    '''    public void afterFollowUpSave(final MboRemote newWO)
+    '''public void afterFollowUpSave(final MboRemote newWO)
     '''
 def initializeApp():
-    '''    public void initializeApp()
+    '''public void initializeApp()
     '''

@@ -1,3 +1,3 @@
 def WOServiceAddressSet():
-    '''    public WOServiceAddressSet(final MboServerInterface ms)
+    '''public WOServiceAddressSet(final MboServerInterface ms)
     '''

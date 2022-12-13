@@ -1,6 +1,6 @@
 def ShowWFActionSet():
-    '''    public ShowWFActionSet(final MboServerInterface ms)
+    '''public ShowWFActionSet(final MboServerInterface ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

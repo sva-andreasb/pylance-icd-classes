@@ -1,15 +1,15 @@
 def CompareResourceAssignmentsModelTGEmitter():
-    '''    public CompareResourceAssignmentsModelTGEmitter(final StreamingDataBuilder out, final UserInfo userInfo, final UIOptions options)
+    '''public CompareResourceAssignmentsModelTGEmitter(final StreamingDataBuilder out, final UserInfo userInfo, final UIOptions options)
     '''
 def beginNode():
-    '''    public Result beginNode(final int modelIndex, final IlvGanttModel model, final IlvHierarchyNode node, final boolean hasChildren, final boolean modified)
+    '''public Result beginNode(final int modelIndex, final IlvGanttModel model, final IlvHierarchyNode node, final boolean hasChildren, final boolean modified)
     '''
 def endNode():
-    '''    public void endNode(final int modelIndex, final IlvGanttModel model, final IlvHierarchyNode node)
+    '''public void endNode(final int modelIndex, final IlvGanttModel model, final IlvHierarchyNode node)
     '''
 def beginChildren():
-    '''    public void beginChildren()
+    '''public void beginChildren()
     '''
 def endChildren():
-    '''    public void endChildren()
+    '''public void endChildren()
     '''

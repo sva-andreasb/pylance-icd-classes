@@ -1,12 +1,12 @@
 def SKDOwnerBean():
-    '''    public SKDOwnerBean()
+    '''public SKDOwnerBean()
     '''
 def checkESigAuthenticated():
-    '''    public synchronized void checkESigAuthenticated(final String option)
+    '''public synchronized void checkESigAuthenticated(final String option)
     '''
 def selectrecord():
-    '''    public int selectrecord()
+    '''public int selectrecord()
     '''
 def getUserInfo():
-    '''    public UserInfo getUserInfo()
+    '''public UserInfo getUserInfo()
     '''

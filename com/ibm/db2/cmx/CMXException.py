@@ -8,9 +8,9 @@ NOT_SUPPORTED = "int  100"
 UNABLE_TO_DELETE_CLIENT_CACHE_FILE = "int  101"
 UNABLE_TO_CLEAR_SERVER_CACHE = "int  102"
 def CMXException():
-    '''    public CMXException(final int reasonCode_)
+    '''public CMXException(final int reasonCode_)
     public CMXException(final Throwable cause, final int reasonCode_)
     '''
 def getReasonCode():
-    '''    public int getReasonCode()
+    '''public int getReasonCode()
     '''

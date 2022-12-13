@@ -1,6 +1,6 @@
 def PMForecastGen():
-    '''    public PMForecastGen(final MboSet ms)
+    '''public PMForecastGen(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

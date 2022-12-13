@@ -1,6 +1,6 @@
 def FldWogenTargCompDate():
-    '''    public FldWogenTargCompDate(final MboValue mbv)
+    '''public FldWogenTargCompDate(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

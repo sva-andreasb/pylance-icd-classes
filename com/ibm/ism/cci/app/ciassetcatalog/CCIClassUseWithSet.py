@@ -1,3 +1,3 @@
 def CCIClassUseWithSet():
-    '''    public CCIClassUseWithSet(final MboServerInterface ms)
+    '''public CCIClassUseWithSet(final MboServerInterface ms)
     '''

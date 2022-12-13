@@ -1,3 +1,3 @@
 def OwnerHistorySet():
-    '''    public OwnerHistorySet(final MboServerInterface ms)
+    '''public OwnerHistorySet(final MboServerInterface ms)
     '''

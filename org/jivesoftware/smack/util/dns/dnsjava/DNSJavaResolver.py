@@ -1,12 +1,12 @@
 def getInstance():
-    '''    public static DNSResolver getInstance()
+    '''public static DNSResolver getInstance()
     '''
 def DNSJavaResolver():
-    '''    public DNSJavaResolver()
+    '''public DNSJavaResolver()
     '''
 def setup():
-    '''    public static void setup()
+    '''public static void setup()
     '''
 def initialize():
-    '''    public List<Exception> initialize()
+    '''public List<Exception> initialize()
     '''

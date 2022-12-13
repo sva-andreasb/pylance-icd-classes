@@ -1,6 +1,6 @@
 def FldGenerateWOPMNum():
-    '''    public FldGenerateWOPMNum(final MboValue mbv)
+    '''public FldGenerateWOPMNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

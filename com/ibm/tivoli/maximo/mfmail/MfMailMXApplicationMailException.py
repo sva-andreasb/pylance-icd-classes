@@ -1,5 +1,5 @@
 def MfMailMXApplicationMailException():
-    '''    public MfMailMXApplicationMailException(final String eg, final String ek)
+    '''public MfMailMXApplicationMailException(final String eg, final String ek)
     public MfMailMXApplicationMailException(final String ek)
     public MfMailMXApplicationMailException(final String ek, final MboRemote trackEntry)
     public MfMailMXApplicationMailException(final String eg, final String ek, final Object[] params)

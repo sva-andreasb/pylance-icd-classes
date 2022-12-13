@@ -1,85 +1,85 @@
 def DiagramWorkflowNode():
-    '''    public DiagramWorkflowNode(final WorkflowNode node, final int scale)
+    '''public DiagramWorkflowNode(final WorkflowNode node, final int scale)
     public DiagramWorkflowNode(final WorkflowNode node, final int scale, final boolean inToolbar)
     '''
 def setFont():
-    '''    public void setFont(final Font font)
+    '''public void setFont(final Font font)
     '''
 def getWorkflowNode():
-    '''    public WorkflowNode getWorkflowNode()
+    '''public WorkflowNode getWorkflowNode()
     '''
 def isSuccessorOf():
-    '''    public boolean isSuccessorOf(final DiagramWorkflowNode dnode)
+    '''public boolean isSuccessorOf(final DiagramWorkflowNode dnode)
     '''
 def addIncomingRelationship():
-    '''    public void addIncomingRelationship(final WorkflowRelationship rel)
+    '''public void addIncomingRelationship(final WorkflowRelationship rel)
     '''
 def removeIncomingRelationship():
-    '''    public void removeIncomingRelationship(final WorkflowRelationship rel)
+    '''public void removeIncomingRelationship(final WorkflowRelationship rel)
     '''
 def addOutgoingRelationship():
-    '''    public void addOutgoingRelationship(final WorkflowRelationship rel)
+    '''public void addOutgoingRelationship(final WorkflowRelationship rel)
     '''
 def removeOutgoingRelationship():
-    '''    public void removeOutgoingRelationship(final WorkflowRelationship rel)
+    '''public void removeOutgoingRelationship(final WorkflowRelationship rel)
     '''
 def getIncomingRelationships():
-    '''    public Vector getIncomingRelationships()
+    '''public Vector getIncomingRelationships()
     '''
 def getOutgoingRelationships():
-    '''    public Vector getOutgoingRelationships()
+    '''public Vector getOutgoingRelationships()
     '''
 def getRelationshipLocation():
-    '''    public int getRelationshipLocation(final WorkflowRelationship rel, final boolean incoming)
+    '''public int getRelationshipLocation(final WorkflowRelationship rel, final boolean incoming)
     '''
 def isIndexUsed():
-    '''    public boolean isIndexUsed(final int index, final boolean incoming)
+    '''public boolean isIndexUsed(final int index, final boolean incoming)
     '''
 def compareTo():
-    '''    public int compareTo(final Object o)
+    '''public int compareTo(final Object o)
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def getColumn():
-    '''    public int getColumn()
+    '''public int getColumn()
     '''
 def getRow():
-    '''    public int getRow()
+    '''public int getRow()
     '''
 def getCenterPoint():
-    '''    public int getCenterPoint()
+    '''public int getCenterPoint()
     '''
 def setSelected():
-    '''    public void setSelected(final boolean state)
+    '''public void setSelected(final boolean state)
     '''
 def setBackground():
-    '''    public void setBackground(final Color background)
+    '''public void setBackground(final Color background)
     '''
 def getSelectedForeground():
-    '''    public Color getSelectedForeground()
+    '''public Color getSelectedForeground()
     '''
 def setSelectedForeground():
-    '''    public void setSelectedForeground(final Color selectedForeground)
+    '''public void setSelectedForeground(final Color selectedForeground)
     '''
 def getSelectedBackground():
-    '''    public Color getSelectedBackground()
+    '''public Color getSelectedBackground()
     '''
 def setSelectedBackground():
-    '''    public void setSelectedBackground(final Color selectedBackground)
+    '''public void setSelectedBackground(final Color selectedBackground)
     '''
 def moreInomingAllowed():
-    '''    public boolean moreInomingAllowed()
+    '''public boolean moreInomingAllowed()
     '''
 def moreOutgoingAllowed():
-    '''    public boolean moreOutgoingAllowed()
+    '''public boolean moreOutgoingAllowed()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def isFocusTraversable():
-    '''    public boolean isFocusTraversable()
+    '''public boolean isFocusTraversable()
     '''
 def setErrorIcon():
-    '''    public static void setErrorIcon(final Icon errorIcon)
+    '''public static void setErrorIcon(final Icon errorIcon)
     '''

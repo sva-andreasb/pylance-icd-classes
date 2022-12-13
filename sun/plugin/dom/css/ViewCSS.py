@@ -1,6 +1,6 @@
 def ViewCSS():
-    '''    public ViewCSS(final DocumentView documentView)
+    '''public ViewCSS(final DocumentView documentView)
     '''
 def getComputedStyle():
-    '''    public CSSStyleDeclaration getComputedStyle(final Element element, final String s)
+    '''public CSSStyleDeclaration getComputedStyle(final Element element, final String s)
     '''

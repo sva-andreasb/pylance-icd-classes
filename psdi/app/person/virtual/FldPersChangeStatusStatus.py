@@ -1,6 +1,6 @@
 def FldPersChangeStatusStatus():
-    '''    public FldPersChangeStatusStatus(final MboValue mbv)
+    '''public FldPersChangeStatusStatus(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

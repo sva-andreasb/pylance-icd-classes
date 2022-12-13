@@ -1,6 +1,6 @@
 def DNEG():
-    '''    public DNEG()
+    '''public DNEG()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

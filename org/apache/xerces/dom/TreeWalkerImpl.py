@@ -1,45 +1,45 @@
 def TreeWalkerImpl():
-    '''    public TreeWalkerImpl(final Node node, final int fWhatToShow, final NodeFilter fNodeFilter, final boolean fEntityReferenceExpansion)
+    '''public TreeWalkerImpl(final Node node, final int fWhatToShow, final NodeFilter fNodeFilter, final boolean fEntityReferenceExpansion)
     '''
 def getRoot():
-    '''    public Node getRoot()
+    '''public Node getRoot()
     '''
 def getWhatToShow():
-    '''    public int getWhatToShow()
+    '''public int getWhatToShow()
     '''
 def setWhatShow():
-    '''    public void setWhatShow(final int fWhatToShow)
+    '''public void setWhatShow(final int fWhatToShow)
     '''
 def getFilter():
-    '''    public NodeFilter getFilter()
+    '''public NodeFilter getFilter()
     '''
 def getExpandEntityReferences():
-    '''    public boolean getExpandEntityReferences()
+    '''public boolean getExpandEntityReferences()
     '''
 def getCurrentNode():
-    '''    public Node getCurrentNode()
+    '''public Node getCurrentNode()
     '''
 def setCurrentNode():
-    '''    public void setCurrentNode(final Node fCurrentNode)
+    '''public void setCurrentNode(final Node fCurrentNode)
     '''
 def parentNode():
-    '''    public Node parentNode()
+    '''public Node parentNode()
     '''
 def firstChild():
-    '''    public Node firstChild()
+    '''public Node firstChild()
     '''
 def lastChild():
-    '''    public Node lastChild()
+    '''public Node lastChild()
     '''
 def previousSibling():
-    '''    public Node previousSibling()
+    '''public Node previousSibling()
     '''
 def nextSibling():
-    '''    public Node nextSibling()
+    '''public Node nextSibling()
     '''
 def previousNode():
-    '''    public Node previousNode()
+    '''public Node previousNode()
     '''
 def nextNode():
-    '''    public Node nextNode()
+    '''public Node nextNode()
     '''

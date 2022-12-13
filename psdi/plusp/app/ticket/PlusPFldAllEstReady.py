@@ -1,6 +1,6 @@
 def PlusPFldAllEstReady():
-    '''    public PlusPFldAllEstReady(final MboValue mbv)
+    '''public PlusPFldAllEstReady(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

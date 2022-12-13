@@ -1,6 +1,6 @@
 def FldViewSecurityGrGroupName():
-    '''    public FldViewSecurityGrGroupName(final MboValue mbv)
+    '''public FldViewSecurityGrGroupName(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

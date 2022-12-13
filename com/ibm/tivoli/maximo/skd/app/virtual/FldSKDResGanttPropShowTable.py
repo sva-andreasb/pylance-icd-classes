@@ -1,6 +1,6 @@
 def FldSKDResGanttPropShowTable():
-    '''    public FldSKDResGanttPropShowTable(final MboValue mbv)
+    '''public FldSKDResGanttPropShowTable(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

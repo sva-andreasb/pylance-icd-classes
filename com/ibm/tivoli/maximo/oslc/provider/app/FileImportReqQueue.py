@@ -1,6 +1,6 @@
 def FileImportReqQueue():
-    '''    public FileImportReqQueue(final MboSet ms)
+    '''public FileImportReqQueue(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

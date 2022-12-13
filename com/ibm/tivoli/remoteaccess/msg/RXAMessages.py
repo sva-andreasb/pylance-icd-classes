@@ -70,5 +70,5 @@ itanium = "String  \"itanium\""
 EM64T = "String  \"EM64T\""
 AMD64 = "String  \"AMD64\""
 def getContents():
-    '''    public Object[][] getContents()
+    '''public Object[][] getContents()
     '''

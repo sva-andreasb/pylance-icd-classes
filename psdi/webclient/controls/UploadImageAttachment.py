@@ -1,9 +1,9 @@
 def UploadImageAttachment():
-    '''    public UploadImageAttachment()
+    '''public UploadImageAttachment()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def getDefaultImageAttachmentName():
-    '''    public String getDefaultImageAttachmentName()
+    '''public String getDefaultImageAttachmentName()
     '''

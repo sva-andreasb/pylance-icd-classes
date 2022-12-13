@@ -1,6 +1,6 @@
 def GroupTag():
-    '''    public GroupTag(final BaseTag baseTag, final String name)
+    '''public GroupTag(final BaseTag baseTag, final String name)
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''

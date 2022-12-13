@@ -1,3 +1,3 @@
 def DMCollectionObjectSet():
-    '''    public DMCollectionObjectSet(final MboServerInterface ms)
+    '''public DMCollectionObjectSet(final MboServerInterface ms)
     '''

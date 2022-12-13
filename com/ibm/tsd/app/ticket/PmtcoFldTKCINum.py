@@ -1,6 +1,6 @@
 def PmtcoFldTKCINum():
-    '''    public PmtcoFldTKCINum(final MboValue mbv)
+    '''public PmtcoFldTKCINum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

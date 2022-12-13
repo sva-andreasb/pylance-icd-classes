@@ -1,9 +1,9 @@
 def nameType():
-    '''    public GenericNameType nameType()
+    '''public GenericNameType nameType()
     '''
 def tzID():
-    '''    public String tzID()
+    '''public String tzID()
     '''
 def matchLength():
-    '''    public int matchLength()
+    '''public int matchLength()
     '''

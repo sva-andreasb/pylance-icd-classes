@@ -1,3 +1,3 @@
 def parseInt():
-    '''    public static int parseInt(final String value)
+    '''public static int parseInt(final String value)
     '''

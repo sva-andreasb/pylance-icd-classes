@@ -1,6 +1,6 @@
 def ApptBookCommitGroup():
-    '''    public ApptBookCommitGroup(final MboSet ms)
+    '''public ApptBookCommitGroup(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

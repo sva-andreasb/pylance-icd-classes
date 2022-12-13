@@ -1,3 +1,3 @@
 def JodaTimePermission():
-    '''    public JodaTimePermission(final String name)
+    '''public JodaTimePermission(final String name)
     '''

@@ -1,42 +1,42 @@
 def NodesBean():
-    '''    public NodesBean()
+    '''public NodesBean()
     '''
 def properties():
-    '''    public int properties()
+    '''public int properties()
     '''
 def getNodeTypes():
-    '''    public Hashtable getNodeTypes()
+    '''public Hashtable getNodeTypes()
     '''
 def getNodeTypeMaxValue():
-    '''    public String getNodeTypeMaxValue()
+    '''public String getNodeTypeMaxValue()
     '''
 def addCondition():
-    '''    public int addCondition()
+    '''public int addCondition()
     '''
 def addManualInput():
-    '''    public int addManualInput()
+    '''public int addManualInput()
     '''
 def addInteraction():
-    '''    public int addInteraction()
+    '''public int addInteraction()
     '''
 def addSubprocess():
-    '''    public int addSubprocess()
+    '''public int addSubprocess()
     '''
 def addTask():
-    '''    public int addTask()
+    '''public int addTask()
     '''
 def addWait():
-    '''    public int addWait()
+    '''public int addWait()
     '''
 def addStop():
-    '''    public int addStop()
+    '''public int addStop()
     '''
 def delete():
-    '''    public synchronized void delete(final int row)
+    '''public synchronized void delete(final int row)
     '''
 def getXCoord():
-    '''    public String getXCoord()
+    '''public String getXCoord()
     '''
 def getYCoord():
-    '''    public String getYCoord()
+    '''public String getYCoord()
     '''

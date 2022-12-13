@@ -1,3 +1,3 @@
 def BeanNotFoundException():
-    '''    public BeanNotFoundException(final String s)
+    '''public BeanNotFoundException(final String s)
     '''

@@ -1,9 +1,9 @@
 def TAMITJobLicense():
-    '''    public TAMITJobLicense(final MboSet ms)
+    '''public TAMITJobLicense(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''

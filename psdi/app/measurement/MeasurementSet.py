@@ -1,27 +1,27 @@
 def MeasurementSet():
-    '''    public MeasurementSet(final MboServerInterface ms)
+    '''public MeasurementSet(final MboServerInterface ms)
     '''
 def setLimit():
-    '''    public void setLimit(final int type)
+    '''public void setLimit(final int type)
     '''
 def getLimit():
-    '''    public int getLimit()
+    '''public int getLimit()
     '''
 def setPostedBefore():
-    '''    public void setPostedBefore(final Date beforeDate)
+    '''public void setPostedBefore(final Date beforeDate)
     '''
 def getPostedBefore():
-    '''    public Date getPostedBefore()
+    '''public Date getPostedBefore()
     '''
 def setPostedAfter():
-    '''    public void setPostedAfter(final Date afterDate)
+    '''public void setPostedAfter(final Date afterDate)
     '''
 def getPostedAfter():
-    '''    public Date getPostedAfter()
+    '''public Date getPostedAfter()
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''
 def getUserPrefWhere():
-    '''    public String getUserPrefWhere()
+    '''public String getUserPrefWhere()
     '''

@@ -1,3 +1,3 @@
 def KPITemplateVariableValueSet():
-    '''    public KPITemplateVariableValueSet(final MboServerInterface ms)
+    '''public KPITemplateVariableValueSet(final MboServerInterface ms)
     '''

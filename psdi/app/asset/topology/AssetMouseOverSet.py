@@ -1,3 +1,3 @@
 def AssetMouseOverSet():
-    '''    public AssetMouseOverSet(final MboServerInterface ms)
+    '''public AssetMouseOverSet(final MboServerInterface ms)
     '''

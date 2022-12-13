@@ -1,12 +1,12 @@
 def SurveyRelApp():
-    '''    public SurveyRelApp(final MboSet ms)
+    '''public SurveyRelApp(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def addNewRow():
-    '''    public void addNewRow()
+    '''public void addNewRow()
     '''

@@ -1,3 +1,3 @@
 def ExpExceptionSet():
-    '''    public ExpExceptionSet(final MboServerInterface ms)
+    '''public ExpExceptionSet(final MboServerInterface ms)
     '''

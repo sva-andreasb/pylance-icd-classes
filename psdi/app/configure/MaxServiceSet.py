@@ -1,3 +1,3 @@
 def MaxServiceSet():
-    '''    public MaxServiceSet(final MboServerInterface ms)
+    '''public MaxServiceSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def SKDOPASCPSStatusSet():
-    '''    public SKDOPASCPSStatusSet(final MboServerInterface ms)
+    '''public SKDOPASCPSStatusSet(final MboServerInterface ms)
     '''

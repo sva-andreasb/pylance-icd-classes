@@ -1,6 +1,6 @@
 def FldSkdProjectAssetSiteId():
-    '''    public FldSkdProjectAssetSiteId(final MboValue mbv)
+    '''public FldSkdProjectAssetSiteId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

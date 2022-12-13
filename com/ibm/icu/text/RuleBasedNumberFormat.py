@@ -3,7 +3,7 @@ ORDINAL = "int  2"
 DURATION = "int  3"
 NUMBERING_SYSTEM = "int  4"
 def RuleBasedNumberFormat():
-    '''    public RuleBasedNumberFormat(final String description)
+    '''public RuleBasedNumberFormat(final String description)
     public RuleBasedNumberFormat(final String description, final String[][] localizations)
     public RuleBasedNumberFormat(final String description, final Locale locale)
     public RuleBasedNumberFormat(final String description, final ULocale locale)
@@ -13,33 +13,33 @@ def RuleBasedNumberFormat():
     public RuleBasedNumberFormat(final int format)
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''
 def equals():
-    '''    public boolean equals(final Object that)
+    '''public boolean equals(final Object that)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getRuleSetNames():
-    '''    public String[] getRuleSetNames()
+    '''public String[] getRuleSetNames()
     '''
 def getRuleSetDisplayNameLocales():
-    '''    public ULocale[] getRuleSetDisplayNameLocales()
+    '''public ULocale[] getRuleSetDisplayNameLocales()
     '''
 def getRuleSetDisplayNames():
-    '''    public String[] getRuleSetDisplayNames(final ULocale loc)
+    '''public String[] getRuleSetDisplayNames(final ULocale loc)
     public String[] getRuleSetDisplayNames()
     '''
 def getRuleSetDisplayName():
-    '''    public String getRuleSetDisplayName(final String ruleSetName, final ULocale loc)
+    '''public String getRuleSetDisplayName(final String ruleSetName, final ULocale loc)
     public String getRuleSetDisplayName(final String ruleSetName)
     '''
 def format():
-    '''    public String format(final double number, final String ruleSet)
+    '''public String format(final double number, final String ruleSet)
     public String format(final long number, final String ruleSet)
     public StringBuffer format(final double number, final StringBuffer toAppendTo, final FieldPosition ignore)
     public StringBuffer format(final long number, final StringBuffer toAppendTo, final FieldPosition ignore)
@@ -48,35 +48,35 @@ def format():
     public StringBuffer format(final BigDecimal number, final StringBuffer toAppendTo, final FieldPosition pos)
     '''
 def parse():
-    '''    public Number parse(final String text, final ParsePosition parsePosition)
+    '''public Number parse(final String text, final ParsePosition parsePosition)
     '''
 def setLenientParseMode():
-    '''    public void setLenientParseMode(final boolean enabled)
+    '''public void setLenientParseMode(final boolean enabled)
     '''
 def lenientParseEnabled():
-    '''    public boolean lenientParseEnabled()
+    '''public boolean lenientParseEnabled()
     '''
 def setLenientScannerProvider():
-    '''    public void setLenientScannerProvider(final RbnfLenientScannerProvider scannerProvider)
+    '''public void setLenientScannerProvider(final RbnfLenientScannerProvider scannerProvider)
     '''
 def getLenientScannerProvider():
-    '''    public RbnfLenientScannerProvider getLenientScannerProvider()
+    '''public RbnfLenientScannerProvider getLenientScannerProvider()
     '''
 def setDefaultRuleSet():
-    '''    public void setDefaultRuleSet(final String ruleSetName)
+    '''public void setDefaultRuleSet(final String ruleSetName)
     '''
 def getDefaultRuleSetName():
-    '''    public String getDefaultRuleSetName()
+    '''public String getDefaultRuleSetName()
     '''
 def setDecimalFormatSymbols():
-    '''    public void setDecimalFormatSymbols(final DecimalFormatSymbols newSymbols)
+    '''public void setDecimalFormatSymbols(final DecimalFormatSymbols newSymbols)
     '''
 def setContext():
-    '''    public void setContext(final DisplayContext context)
+    '''public void setContext(final DisplayContext context)
     '''
 def getRoundingMode():
-    '''    public int getRoundingMode()
+    '''public int getRoundingMode()
     '''
 def setRoundingMode():
-    '''    public void setRoundingMode(final int roundingMode)
+    '''public void setRoundingMode(final int roundingMode)
     '''

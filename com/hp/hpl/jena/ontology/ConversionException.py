@@ -1,3 +1,3 @@
 def ConversionException():
-    '''    public ConversionException(final String msg)
+    '''public ConversionException(final String msg)
     '''

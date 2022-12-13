@@ -5,20 +5,20 @@ MS_DIGSIG_NS = "String  \"http://schemas.microsoft.com/office/2006/digsig\""
 XADES_132_NS = "String  \"http://uri.etsi.org/01903/v1.3.2#\""
 XADES_141_NS = "String  \"http://uri.etsi.org/01903/v1.4.1#\""
 def setSignatureConfig():
-    '''    public void setSignatureConfig(final SignatureConfig signatureConfig)
+    '''public void setSignatureConfig(final SignatureConfig signatureConfig)
     '''
 def preSign():
-    '''    public void preSign(final Document document, final List<Reference> references, final List<XMLObject> objects)
+    '''public void preSign(final Document document, final List<Reference> references, final List<XMLObject> objects)
     '''
 def postSign():
-    '''    public void postSign(final Document document)
+    '''public void postSign(final Document document)
     '''
 def newReference():
-    '''    public static Reference newReference(final String uri, final List<Transform> transforms, final String type, final String id, final byte[] digestValue, final SignatureConfig signatureConfig)
+    '''public static Reference newReference(final String uri, final List<Transform> transforms, final String type, final String id, final byte[] digestValue, final SignatureConfig signatureConfig)
     '''
 def brokenJvmWorkaround():
-    '''    public static void brokenJvmWorkaround(final Reference reference)
+    '''public static void brokenJvmWorkaround(final Reference reference)
     '''
 def run():
-    '''    public Void run()
+    '''public Void run()
     '''

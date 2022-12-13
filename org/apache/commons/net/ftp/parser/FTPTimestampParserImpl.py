@@ -1,27 +1,27 @@
 def FTPTimestampParserImpl():
-    '''    public FTPTimestampParserImpl()
+    '''public FTPTimestampParserImpl()
     '''
 def parseTimestamp():
-    '''    public Calendar parseTimestamp(final String timestampStr)
+    '''public Calendar parseTimestamp(final String timestampStr)
     '''
 def getDefaultDateFormat():
-    '''    public SimpleDateFormat getDefaultDateFormat()
+    '''public SimpleDateFormat getDefaultDateFormat()
     '''
 def getDefaultDateFormatString():
-    '''    public String getDefaultDateFormatString()
+    '''public String getDefaultDateFormatString()
     '''
 def getRecentDateFormat():
-    '''    public SimpleDateFormat getRecentDateFormat()
+    '''public SimpleDateFormat getRecentDateFormat()
     '''
 def getRecentDateFormatString():
-    '''    public String getRecentDateFormatString()
+    '''public String getRecentDateFormatString()
     '''
 def getShortMonths():
-    '''    public String[] getShortMonths()
+    '''public String[] getShortMonths()
     '''
 def getServerTimeZone():
-    '''    public TimeZone getServerTimeZone()
+    '''public TimeZone getServerTimeZone()
     '''
 def configure():
-    '''    public void configure(final FTPClientConfig config)
+    '''public void configure(final FTPClientConfig config)
     '''

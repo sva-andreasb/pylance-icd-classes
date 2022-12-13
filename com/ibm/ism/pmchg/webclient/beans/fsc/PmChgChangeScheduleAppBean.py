@@ -1,9 +1,9 @@
 def initializeApp():
-    '''    public void initializeApp()
+    '''public void initializeApp()
     '''
 def REFRESH():
-    '''    public int REFRESH()
+    '''public int REFRESH()
     '''
 def applink():
-    '''    public int applink()
+    '''public int applink()
     '''

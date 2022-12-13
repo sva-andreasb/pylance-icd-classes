@@ -1,6 +1,6 @@
 def PlusPFldWpMatCondCode():
-    '''    public PlusPFldWpMatCondCode(final MboValue arg0)
+    '''public PlusPFldWpMatCondCode(final MboValue arg0)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,3 +1,3 @@
 def parse():
-    '''    public BlockedErrorExtension parse(final XmlPullParser parser, final int initialDepth)
+    '''public BlockedErrorExtension parse(final XmlPullParser parser, final int initialDepth)
     '''

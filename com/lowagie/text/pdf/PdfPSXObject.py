@@ -1,6 +1,6 @@
 def PdfPSXObject():
-    '''    public PdfPSXObject(final PdfWriter wr)
+    '''public PdfPSXObject(final PdfWriter wr)
     '''
 def getDuplicate():
-    '''    public PdfContentByte getDuplicate()
+    '''public PdfContentByte getDuplicate()
     '''

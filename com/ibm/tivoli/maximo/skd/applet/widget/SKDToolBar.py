@@ -1,3 +1,3 @@
 def SKDToolBar():
-    '''    public SKDToolBar()
+    '''public SKDToolBar()
     '''

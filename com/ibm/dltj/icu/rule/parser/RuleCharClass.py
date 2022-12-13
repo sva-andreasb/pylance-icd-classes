@@ -1,3 +1,3 @@
 def getSet():
-    '''    public UnicodeSet getSet()
+    '''public UnicodeSet getSet()
     '''

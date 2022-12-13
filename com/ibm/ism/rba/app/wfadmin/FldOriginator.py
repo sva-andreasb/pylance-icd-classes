@@ -1,3 +1,3 @@
 def FldOriginator():
-    '''    public FldOriginator(final MboValue mbv)
+    '''public FldOriginator(final MboValue mbv)
     '''

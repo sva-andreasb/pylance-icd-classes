@@ -1,6 +1,6 @@
 def MaxIntMsgTrkDtlSet():
-    '''    public MaxIntMsgTrkDtlSet(final MboServerInterface ms)
+    '''public MaxIntMsgTrkDtlSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

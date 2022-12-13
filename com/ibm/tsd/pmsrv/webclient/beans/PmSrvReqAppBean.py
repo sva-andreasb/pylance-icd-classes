@@ -1,63 +1,63 @@
 def PmSrvReqAppBean():
-    '''    public PmSrvReqAppBean()
+    '''public PmSrvReqAppBean()
     '''
 def OFDIALOG():
-    '''    public int OFDIALOG()
+    '''public int OFDIALOG()
     '''
 def SAVE():
-    '''    public int SAVE()
+    '''public int SAVE()
     '''
 def cancelDialog():
-    '''    public int cancelDialog()
+    '''public int cancelDialog()
     '''
 def PMSRCRWF():
-    '''    public int PMSRCRWF()
+    '''public int PMSRCRWF()
     '''
 def PMSCSRVWF():
-    '''    public int PMSCSRVWF()
+    '''public int PMSCSRVWF()
     '''
 def ticketmeterread():
-    '''    public int ticketmeterread()
+    '''public int ticketmeterread()
     '''
 def ticketrepdown():
-    '''    public int ticketrepdown()
+    '''public int ticketrepdown()
     '''
 def checkpmp():
-    '''    public int checkpmp()
+    '''public int checkpmp()
     '''
 def setupBean():
-    '''    public void setupBean(final WebClientSession wcs)
+    '''public void setupBean(final WebClientSession wcs)
     '''
 def VIEWRPH():
-    '''    public int VIEWRPH()
+    '''public int VIEWRPH()
     '''
 def VIEWEOP():
-    '''    public int VIEWEOP()
+    '''public int VIEWEOP()
     '''
 def jsplaunch():
-    '''    public int jsplaunch()
+    '''public int jsplaunch()
     '''
 def RDLAUNCH():
-    '''    public int RDLAUNCH()
+    '''public int RDLAUNCH()
     '''
 def pmClearClassification():
-    '''    public int pmClearClassification()
+    '''public int pmClearClassification()
     '''
 def INSERT():
-    '''    public int INSERT()
+    '''public int INSERT()
     '''
 def cancelSimpleSR():
-    '''    public int cancelSimpleSR()
+    '''public int cancelSimpleSR()
     '''
 def saveSimpleSR():
-    '''    public int saveSimpleSR()
+    '''public int saveSimpleSR()
     '''
 def checkSyncAndRefreshClassification():
-    '''    public void checkSyncAndRefreshClassification(final MboRemote incidentMbo, final String changedAttribute, final String updateAttribute, final boolean toSync, final boolean toRefresh)
+    '''public void checkSyncAndRefreshClassification(final MboRemote incidentMbo, final String changedAttribute, final String updateAttribute, final boolean toSync, final boolean toRefresh)
     '''
 def getExtendedToolTip():
-    '''    public JSONObject getExtendedToolTip(final JSONObject definition)
+    '''public JSONObject getExtendedToolTip(final JSONObject definition)
     '''
 def OWNERSHIP():
-    '''    public int OWNERSHIP()
+    '''public int OWNERSHIP()
     '''

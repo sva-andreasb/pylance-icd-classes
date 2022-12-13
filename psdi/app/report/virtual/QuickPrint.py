@@ -1,3 +1,3 @@
 def QuickPrint():
-    '''    public QuickPrint(final MboSet ms)
+    '''public QuickPrint(final MboSet ms)
     '''

@@ -58,24 +58,24 @@ STREET_ADDRESS = "String  \"STREET-ADDRESS\""
 TEL = "String  \"TEL\""
 ACKNOWLEDGED = "String  \"ACKNOWLEDGED\""
 def toString():
-    '''    public final String toString()
+    '''public final String toString()
     '''
 def getName():
-    '''    public final String getName()
+    '''public final String getName()
     '''
 def getParameters():
-    '''    public final ParameterList getParameters()
+    '''public final ParameterList getParameters()
     public final ParameterList getParameters(final String name)
     '''
 def getParameter():
-    '''    public final <T extends Parameter> T getParameter(final String name)
+    '''public final <T extends Parameter> T getParameter(final String name)
     '''
 def equals():
-    '''    public final boolean equals(final Object arg0)
+    '''public final boolean equals(final Object arg0)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def copy():
-    '''    public Property copy()
+    '''public Property copy()
     '''

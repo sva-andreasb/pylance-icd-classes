@@ -1,3 +1,3 @@
 def reservok():
-    '''    public synchronized int reservok()
+    '''public synchronized int reservok()
     '''

@@ -1,3 +1,3 @@
 def ReportAuthSet():
-    '''    public ReportAuthSet(final MboServerInterface ms)
+    '''public ReportAuthSet(final MboServerInterface ms)
     '''

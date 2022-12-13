@@ -1,9 +1,9 @@
 def DrpOldTabSet():
-    '''    public DrpOldTabSet(final MboServerInterface ms)
+    '''public DrpOldTabSet(final MboServerInterface ms)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''

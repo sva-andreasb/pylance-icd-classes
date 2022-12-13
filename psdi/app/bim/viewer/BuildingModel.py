@@ -27,32 +27,32 @@ FIELD_LATITUDEY = "String  \"LATITUDEY\""
 FIELD_LONGITUDEX = "String  \"LONGITUDEX\""
 FIELD_FORMATTEDADDRESS = "String  \"FORMATTEDADDRESS\""
 def BuildingModel():
-    '''    public BuildingModel(final MboSet ms)
+    '''public BuildingModel(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def getViewerType():
-    '''    public String getViewerType()
+    '''public String getViewerType()
     '''
 def getLatitudeY():
-    '''    public Double getLatitudeY()
+    '''public Double getLatitudeY()
     '''
 def getLongitudeX():
-    '''    public Double getLongitudeX()
+    '''public Double getLongitudeX()
     '''
 def getAddressString():
-    '''    public String getAddressString()
+    '''public String getAddressString()
     '''
 def isGISDataReadonly():
-    '''    public boolean isGISDataReadonly()
+    '''public boolean isGISDataReadonly()
     '''
 def saveGISData():
-    '''    public void saveGISData(final String address, final String lat, final String lng)
+    '''public void saveGISData(final String address, final String lat, final String lng)
     '''
 def hasCoords():
-    '''    public Boolean hasCoords()
+    '''public Boolean hasCoords()
     '''

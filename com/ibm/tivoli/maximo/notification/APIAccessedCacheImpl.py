@@ -1,16 +1,16 @@
 def APIAccessedCacheImpl():
-    '''    public APIAccessedCacheImpl()
+    '''public APIAccessedCacheImpl()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def getLastAPIAccessedTime():
-    '''    public Date getLastAPIAccessedTime(final String osName, final String personId)
+    '''public Date getLastAPIAccessedTime(final String osName, final String personId)
     '''
 def reload():
-    '''    public void reload()
+    '''public void reload()
     public void reload(final String key)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''

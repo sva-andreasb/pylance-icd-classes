@@ -12,48 +12,48 @@ TEXT_ORIENTATION_TOP_TO_BOTTOM = "short  1"
 TEXT_ORIENTATION_ROT_RIGHT = "short  2"
 TEXT_ORIENTATION_ROT_LEFT = "short  3"
 def TextObjectRecord():
-    '''    public TextObjectRecord()
+    '''public TextObjectRecord()
     public TextObjectRecord(final RecordInputStream in)
     '''
 def getSid():
-    '''    public short getSid()
+    '''public short getSid()
     '''
 def setHorizontalTextAlignment():
-    '''    public void setHorizontalTextAlignment(final int value)
+    '''public void setHorizontalTextAlignment(final int value)
     '''
 def getHorizontalTextAlignment():
-    '''    public int getHorizontalTextAlignment()
+    '''public int getHorizontalTextAlignment()
     '''
 def setVerticalTextAlignment():
-    '''    public void setVerticalTextAlignment(final int value)
+    '''public void setVerticalTextAlignment(final int value)
     '''
 def getVerticalTextAlignment():
-    '''    public int getVerticalTextAlignment()
+    '''public int getVerticalTextAlignment()
     '''
 def setTextLocked():
-    '''    public void setTextLocked(final boolean value)
+    '''public void setTextLocked(final boolean value)
     '''
 def isTextLocked():
-    '''    public boolean isTextLocked()
+    '''public boolean isTextLocked()
     '''
 def getTextOrientation():
-    '''    public int getTextOrientation()
+    '''public int getTextOrientation()
     '''
 def setTextOrientation():
-    '''    public void setTextOrientation(final int textOrientation)
+    '''public void setTextOrientation(final int textOrientation)
     '''
 def getStr():
-    '''    public HSSFRichTextString getStr()
+    '''public HSSFRichTextString getStr()
     '''
 def setStr():
-    '''    public void setStr(final HSSFRichTextString str)
+    '''public void setStr(final HSSFRichTextString str)
     '''
 def getLinkRefPtg():
-    '''    public Ptg getLinkRefPtg()
+    '''public Ptg getLinkRefPtg()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''

@@ -1,6 +1,6 @@
 def FldLinkClassSpecClassStructureId():
-    '''    public FldLinkClassSpecClassStructureId(final MboValue mbv)
+    '''public FldLinkClassSpecClassStructureId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

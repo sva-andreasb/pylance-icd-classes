@@ -1,15 +1,15 @@
 def AgreementInputSet():
-    '''    public AgreementInputSet(final MboServerInterface ms)
+    '''public AgreementInputSet(final MboServerInterface ms)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''
 def copyToPOLine():
-    '''    public void copyToPOLine(final MboRemote poLineRemote)
+    '''public void copyToPOLine(final MboRemote poLineRemote)
     '''
 def getContractSet():
-    '''    public MboSetRemote getContractSet()
+    '''public MboSetRemote getContractSet()
     '''

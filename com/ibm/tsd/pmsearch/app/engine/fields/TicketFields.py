@@ -1,6 +1,6 @@
 def TicketFields():
-    '''    public TicketFields()
+    '''public TicketFields()
     '''
 def isRTE():
-    '''    public boolean isRTE(final String field)
+    '''public boolean isRTE(final String field)
     '''

@@ -1,54 +1,54 @@
 def getFieldType():
-    '''    public DateTimeFieldType getFieldType()
+    '''public DateTimeFieldType getFieldType()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getAsString():
-    '''    public String getAsString()
+    '''public String getAsString()
     '''
 def getAsText():
-    '''    public String getAsText()
+    '''public String getAsText()
     public String getAsText(final Locale locale)
     '''
 def getAsShortText():
-    '''    public String getAsShortText()
+    '''public String getAsShortText()
     public String getAsShortText(final Locale locale)
     '''
 def getDurationField():
-    '''    public DurationField getDurationField()
+    '''public DurationField getDurationField()
     '''
 def getRangeDurationField():
-    '''    public DurationField getRangeDurationField()
+    '''public DurationField getRangeDurationField()
     '''
 def getMinimumValueOverall():
-    '''    public int getMinimumValueOverall()
+    '''public int getMinimumValueOverall()
     '''
 def getMinimumValue():
-    '''    public int getMinimumValue()
+    '''public int getMinimumValue()
     '''
 def getMaximumValueOverall():
-    '''    public int getMaximumValueOverall()
+    '''public int getMaximumValueOverall()
     '''
 def getMaximumValue():
-    '''    public int getMaximumValue()
+    '''public int getMaximumValue()
     '''
 def getMaximumTextLength():
-    '''    public int getMaximumTextLength(final Locale locale)
+    '''public int getMaximumTextLength(final Locale locale)
     '''
 def getMaximumShortTextLength():
-    '''    public int getMaximumShortTextLength(final Locale locale)
+    '''public int getMaximumShortTextLength(final Locale locale)
     '''
 def compareTo():
-    '''    public int compareTo(final ReadableInstant readableInstant)
+    '''public int compareTo(final ReadableInstant readableInstant)
     public int compareTo(final ReadablePartial readablePartial)
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

@@ -1,18 +1,18 @@
 def getHost():
-    '''    public String getHost()
+    '''public String getHost()
     '''
 def setHost():
-    '''    public void setHost(final String value)
+    '''public void setHost(final String value)
     '''
 def getPort():
-    '''    public BigInteger getPort()
+    '''public BigInteger getPort()
     '''
 def setPort():
-    '''    public void setPort(final BigInteger value)
+    '''public void setPort(final BigInteger value)
     '''
 def getPriority():
-    '''    public BigInteger getPriority()
+    '''public BigInteger getPriority()
     '''
 def setPriority():
-    '''    public void setPriority(final BigInteger value)
+    '''public void setPriority(final BigInteger value)
     '''

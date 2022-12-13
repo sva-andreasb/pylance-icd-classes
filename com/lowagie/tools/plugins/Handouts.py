@@ -1,12 +1,12 @@
 def Handouts():
-    '''    public Handouts()
+    '''public Handouts()
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''
 def valueHasChanged():
-    '''    public void valueHasChanged(final ToolArgument arg)
+    '''public void valueHasChanged(final ToolArgument arg)
     '''
 def main():
-    '''    public static void main(final String[] args)
+    '''public static void main(final String[] args)
     '''

@@ -29,57 +29,57 @@ TABLE_DOCTYPES = "String  \"DOCTYPES\""
 FIELD_APP = "String  \"APP\""
 FIELD_DEFAULTFILEPATH = "String  \"DEFAULTFILEPATH\""
 def AttachmentMgr():
-    '''    public AttachmentMgr(final ProgressLogger<ItemFACILITY> logger, final MboRemote projectMbo)
+    '''public AttachmentMgr(final ProgressLogger<ItemFACILITY> logger, final MboRemote projectMbo)
     '''
 def getOwningTable():
-    '''    public String getOwningTable(final Item item)
+    '''public String getOwningTable(final Item item)
     '''
 def getPathForDocType():
-    '''    public String getPathForDocType(final String name)
+    '''public String getPathForDocType(final String name)
     '''
 def getRootDir():
-    '''    public String getRootDir()
+    '''public String getRootDir()
     '''
 def getProjectDocDir():
-    '''    public String getProjectDocDir()
+    '''public String getProjectDocDir()
     '''
 def getAllowedExtensions():
-    '''    public String[] getAllowedExtensions()
+    '''public String[] getAllowedExtensions()
     '''
 def getMaxFileSize():
-    '''    public long getMaxFileSize()
+    '''public long getMaxFileSize()
     '''
 def isPrintWithReport():
-    '''    public boolean isPrintWithReport()
+    '''public boolean isPrintWithReport()
     '''
 def getAttachmentFileName():
-    '''    public String getAttachmentFileName(final Item item, final ItemDOCUMENT doc)
+    '''public String getAttachmentFileName(final Item item, final ItemDOCUMENT doc)
     '''
 def testFileMatch():
-    '''    public int testFileMatch(final String cobieFileName, final String maximoFileName)
+    '''public int testFileMatch(final String cobieFileName, final String maximoFileName)
     '''
 def copyFile():
-    '''    public void copyFile(final Item item, final String source, final String destination)
+    '''public void copyFile(final Item item, final String source, final String destination)
     public void copyFile(final String source, final String destination)
     '''
 def deleteFiles():
-    '''    public void deleteFiles()
+    '''public void deleteFiles()
     '''
 def findDocInfo():
-    '''    public MboRemote findDocInfo(final String maximoFileName, final String docName)
+    '''public MboRemote findDocInfo(final String maximoFileName, final String docName)
     '''
 def getMD5Checksum():
-    '''    public static String getMD5Checksum(final String filename)
+    '''public static String getMD5Checksum(final String filename)
     '''
 def getApp():
-    '''    public String getApp()
+    '''public String getApp()
     '''
 def getDescription():
-    '''    public String getDescription()
+    '''public String getDescription()
     '''
 def getPath():
-    '''    public String getPath()
+    '''public String getPath()
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''

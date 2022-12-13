@@ -1,3 +1,3 @@
 def FldGroupName():
-    '''    public FldGroupName(final MboValue mbv)
+    '''public FldGroupName(final MboValue mbv)
     '''

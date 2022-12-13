@@ -1,3 +1,3 @@
 def ParentObjName():
-    '''    public ParentObjName(final MboSet ms)
+    '''public ParentObjName(final MboSet ms)
     '''

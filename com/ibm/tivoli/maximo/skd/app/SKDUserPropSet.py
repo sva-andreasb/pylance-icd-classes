@@ -1,3 +1,3 @@
 def SKDUserPropSet():
-    '''    public SKDUserPropSet(final MboServerInterface ms)
+    '''public SKDUserPropSet(final MboServerInterface ms)
     '''

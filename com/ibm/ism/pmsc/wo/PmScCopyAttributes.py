@@ -5,17 +5,17 @@ SOGEN = "String  \"SOGEN\""
 ALL = "String  \"ALL\""
 NONE = "String  \"NONE\""
 def PmScCopyAttributes():
-    '''    public PmScCopyAttributes(final MboRemote wo)
+    '''public PmScCopyAttributes(final MboRemote wo)
     '''
 def copyFromParents():
-    '''    public boolean copyFromParents()
+    '''public boolean copyFromParents()
     '''
 def copyToParents():
-    '''    public boolean copyToParents()
+    '''public boolean copyToParents()
     '''
 def copyAttrValuesFromParents():
-    '''    public static void copyAttrValuesFromParents(final WO wo)
+    '''public static void copyAttrValuesFromParents(final WO wo)
     '''
 def copyAttrValuesToParents():
-    '''    public static void copyAttrValuesToParents(final WO wo)
+    '''public static void copyAttrValuesToParents(final WO wo)
     '''

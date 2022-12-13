@@ -1,3 +1,3 @@
 def getAllRemoteInterfaces():
-    '''    public static Class[] getAllRemoteInterfaces(final Remote remoteObj)
+    '''public static Class[] getAllRemoteInterfaces(final Remote remoteObj)
     '''

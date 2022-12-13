@@ -1,6 +1,6 @@
 def PlusPFldPSFeeCode():
-    '''    public PlusPFldPSFeeCode(final MboValue mbv)
+    '''public PlusPFldPSFeeCode(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

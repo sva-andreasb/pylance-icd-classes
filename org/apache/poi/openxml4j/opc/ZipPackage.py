@@ -1,9 +1,9 @@
 def ZipPackage():
-    '''    public ZipPackage()
+    '''public ZipPackage()
     '''
 def saveImpl():
-    '''    public void saveImpl(final OutputStream outputStream)
+    '''public void saveImpl(final OutputStream outputStream)
     '''
 def getZipArchive():
-    '''    public ZipEntrySource getZipArchive()
+    '''public ZipEntrySource getZipArchive()
     '''

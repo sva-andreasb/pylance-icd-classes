@@ -1,6 +1,6 @@
 def FldAssetLRMIsDefault():
-    '''    public FldAssetLRMIsDefault(final MboValue mbv)
+    '''public FldAssetLRMIsDefault(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

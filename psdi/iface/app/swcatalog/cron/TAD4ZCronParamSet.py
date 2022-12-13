@@ -1,3 +1,3 @@
 def TAD4ZCronParamSet():
-    '''    public TAD4ZCronParamSet(final MboServerInterface ms)
+    '''public TAD4ZCronParamSet(final MboServerInterface ms)
     '''

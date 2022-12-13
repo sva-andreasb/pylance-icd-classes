@@ -1,6 +1,6 @@
 def FldIntegrationObject():
-    '''    public FldIntegrationObject(final MboValue mbv)
+    '''public FldIntegrationObject(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

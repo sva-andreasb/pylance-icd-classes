@@ -1,6 +1,6 @@
 def FldWOActTotalCost():
-    '''    public FldWOActTotalCost(final MboValue mbv)
+    '''public FldWOActTotalCost(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

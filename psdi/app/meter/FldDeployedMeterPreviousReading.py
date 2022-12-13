@@ -1,6 +1,6 @@
 def FldDeployedMeterPreviousReading():
-    '''    public FldDeployedMeterPreviousReading(final MboValue mbv)
+    '''public FldDeployedMeterPreviousReading(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

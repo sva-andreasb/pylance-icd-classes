@@ -1,6 +1,6 @@
 def DepSchedHistory():
-    '''    public DepSchedHistory(final MboSet ms)
+    '''public DepSchedHistory(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

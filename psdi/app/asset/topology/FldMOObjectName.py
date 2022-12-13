@@ -1,6 +1,6 @@
 def FldMOObjectName():
-    '''    public FldMOObjectName(final MboValue mbv)
+    '''public FldMOObjectName(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

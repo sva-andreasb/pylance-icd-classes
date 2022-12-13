@@ -1,3 +1,3 @@
 def FldMapTipTemplate():
-    '''    public FldMapTipTemplate(final MboValue mbv)
+    '''public FldMapTipTemplate(final MboValue mbv)
     '''

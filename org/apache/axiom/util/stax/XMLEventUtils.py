@@ -1,3 +1,3 @@
 def getEventTypeString():
-    '''    public static String getEventTypeString(final int event)
+    '''public static String getEventTypeString(final int event)
     '''

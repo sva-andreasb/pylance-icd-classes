@@ -1,3 +1,3 @@
 def DBConnectionStat():
-    '''    public DBConnectionStat(final MboSet ms)
+    '''public DBConnectionStat(final MboSet ms)
     '''

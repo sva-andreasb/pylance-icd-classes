@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_ID\")"
 def newInstance():
-    '''    public static XmlID newInstance()
+    '''public static XmlID newInstance()
     public static XmlID newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlID newValue(final Object obj)
+    '''public static XmlID newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlID parse(final String s)
+    '''public static XmlID parse(final String s)
     public static XmlID parse(final String s, final XmlOptions options)
     public static XmlID parse(final File f)
     public static XmlID parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlID parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

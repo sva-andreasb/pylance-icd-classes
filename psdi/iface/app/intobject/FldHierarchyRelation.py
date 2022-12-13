@@ -1,3 +1,3 @@
 def FldHierarchyRelation():
-    '''    public FldHierarchyRelation(final MboValue mbv)
+    '''public FldHierarchyRelation(final MboValue mbv)
     '''

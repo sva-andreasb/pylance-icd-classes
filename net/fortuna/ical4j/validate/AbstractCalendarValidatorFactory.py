@@ -1,3 +1,3 @@
 def getInstance():
-    '''    public static CalendarValidatorFactory getInstance()
+    '''public static CalendarValidatorFactory getInstance()
     '''

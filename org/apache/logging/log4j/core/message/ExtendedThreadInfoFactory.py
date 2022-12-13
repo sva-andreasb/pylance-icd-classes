@@ -1,6 +1,6 @@
 def ExtendedThreadInfoFactory():
-    '''    public ExtendedThreadInfoFactory()
+    '''public ExtendedThreadInfoFactory()
     '''
 def createThreadInfo():
-    '''    public Map<ThreadInformation, StackTraceElement[]> createThreadInfo()
+    '''public Map<ThreadInformation, StackTraceElement[]> createThreadInfo()
     '''

@@ -1,9 +1,9 @@
 def FldTKFailureCode():
-    '''    public FldTKFailureCode(final MboValue mbv)
+    '''public FldTKFailureCode(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''public void setValueFromLookup(final MboRemote sourceMbo)
     '''

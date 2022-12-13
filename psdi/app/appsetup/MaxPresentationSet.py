@@ -1,3 +1,3 @@
 def MaxPresentationSet():
-    '''    public MaxPresentationSet(final MboServerInterface ms)
+    '''public MaxPresentationSet(final MboServerInterface ms)
     '''

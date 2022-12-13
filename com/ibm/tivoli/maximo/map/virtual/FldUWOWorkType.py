@@ -1,6 +1,6 @@
 def FldUWOWorkType():
-    '''    public FldUWOWorkType(final MboValue mbv)
+    '''public FldUWOWorkType(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

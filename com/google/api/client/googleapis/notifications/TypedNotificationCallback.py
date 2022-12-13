@@ -1,3 +1,3 @@
 def onNotification():
-    '''    public final void onNotification(final StoredChannel storedChannel, final UnparsedNotification notification)
+    '''public final void onNotification(final StoredChannel storedChannel, final UnparsedNotification notification)
     '''

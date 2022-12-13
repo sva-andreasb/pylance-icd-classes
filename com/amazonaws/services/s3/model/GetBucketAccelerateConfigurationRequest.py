@@ -1,3 +1,3 @@
 def GetBucketAccelerateConfigurationRequest():
-    '''    public GetBucketAccelerateConfigurationRequest(final String bucketName)
+    '''public GetBucketAccelerateConfigurationRequest(final String bucketName)
     '''

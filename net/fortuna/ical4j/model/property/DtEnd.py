@@ -1,5 +1,5 @@
 def DtEnd():
-    '''    public DtEnd()
+    '''public DtEnd()
     public DtEnd(final TimeZone timezone)
     public DtEnd(final String value)
     public DtEnd(final String value, final TimeZone timezone)
@@ -9,9 +9,9 @@ def DtEnd():
     public DtEnd(final ParameterList aList, final Date aDate)
     '''
 def Factory():
-    '''    public Factory()
+    '''public Factory()
     '''
 def createProperty():
-    '''    public Property createProperty(final ParameterList parameters, final String value)
+    '''public Property createProperty(final ParameterList parameters, final String value)
     public Property createProperty()
     '''

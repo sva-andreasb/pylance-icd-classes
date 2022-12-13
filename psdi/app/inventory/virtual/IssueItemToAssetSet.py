@@ -1,9 +1,9 @@
 def IssueItemToAssetSet():
-    '''    public IssueItemToAssetSet(final MboServerInterface ms)
+    '''public IssueItemToAssetSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

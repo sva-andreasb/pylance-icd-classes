@@ -1,6 +1,6 @@
 def FldCopyAuthAppName():
-    '''    public FldCopyAuthAppName(final MboValue mbv)
+    '''public FldCopyAuthAppName(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

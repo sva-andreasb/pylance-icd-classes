@@ -1,6 +1,6 @@
 def GISRecordRequestHandler():
-    '''    public GISRecordRequestHandler()
+    '''public GISRecordRequestHandler()
     '''
 def testExecution():
-    '''    public Resource testExecution(final Resource resource, final ResourceRequest req)
+    '''public Resource testExecution(final Resource resource, final ResourceRequest req)
     '''

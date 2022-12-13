@@ -1,3 +1,3 @@
 def DMCompJobSet():
-    '''    public DMCompJobSet(final MboServerInterface ms)
+    '''public DMCompJobSet(final MboServerInterface ms)
     '''

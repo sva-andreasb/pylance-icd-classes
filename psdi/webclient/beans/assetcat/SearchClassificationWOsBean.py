@@ -1,9 +1,9 @@
 def getResultSetForReturn():
-    '''    public MboSetRemote getResultSetForReturn()
+    '''public MboSetRemote getResultSetForReturn()
     '''
 def getAttributeForReturn():
-    '''    public String getAttributeForReturn()
+    '''public String getAttributeForReturn()
     '''
 def getResultObjectName():
-    '''    public String getResultObjectName()
+    '''public String getResultObjectName()
     '''

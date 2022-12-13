@@ -1,9 +1,9 @@
 def instantiatedatasrc():
-    '''    public void instantiatedatasrc()
+    '''public void instantiatedatasrc()
     '''
 def action():
-    '''    public int action()
+    '''public int action()
     '''
 def render():
-    '''    public int render()
+    '''public int render()
     '''

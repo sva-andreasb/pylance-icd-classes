@@ -1,3 +1,3 @@
 def MaxDynamicDomLinkSet():
-    '''    public MaxDynamicDomLinkSet(final MboServerInterface ms)
+    '''public MaxDynamicDomLinkSet(final MboServerInterface ms)
     '''

@@ -1,9 +1,9 @@
 def CtrlCondProp():
-    '''    public CtrlCondProp(final MboSet ms)
+    '''public CtrlCondProp(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

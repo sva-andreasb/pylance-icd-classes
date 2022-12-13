@@ -1,3 +1,3 @@
 def alarm():
-    '''    public void alarm(final Object alarmContext)
+    '''public void alarm(final Object alarmContext)
     '''

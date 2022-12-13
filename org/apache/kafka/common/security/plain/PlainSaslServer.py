@@ -1,34 +1,34 @@
 PLAIN_MECHANISM = "String  \"PLAIN\""
 def PlainSaslServer():
-    '''    public PlainSaslServer(final JaasContext jaasContext)
+    '''public PlainSaslServer(final JaasContext jaasContext)
     '''
 def evaluateResponse():
-    '''    public byte[] evaluateResponse(final byte[] response)
+    '''public byte[] evaluateResponse(final byte[] response)
     '''
 def getAuthorizationID():
-    '''    public String getAuthorizationID()
+    '''public String getAuthorizationID()
     '''
 def getMechanismName():
-    '''    public String getMechanismName()
+    '''public String getMechanismName()
     '''
 def getNegotiatedProperty():
-    '''    public Object getNegotiatedProperty(final String propName)
+    '''public Object getNegotiatedProperty(final String propName)
     '''
 def isComplete():
-    '''    public boolean isComplete()
+    '''public boolean isComplete()
     '''
 def unwrap():
-    '''    public byte[] unwrap(final byte[] incoming, final int offset, final int len)
+    '''public byte[] unwrap(final byte[] incoming, final int offset, final int len)
     '''
 def wrap():
-    '''    public byte[] wrap(final byte[] outgoing, final int offset, final int len)
+    '''public byte[] wrap(final byte[] outgoing, final int offset, final int len)
     '''
 def dispose():
-    '''    public void dispose()
+    '''public void dispose()
     '''
 def createSaslServer():
-    '''    public SaslServer createSaslServer(final String mechanism, final String protocol, final String serverName, final Map<String, ?> props, final CallbackHandler cbh)
+    '''public SaslServer createSaslServer(final String mechanism, final String protocol, final String serverName, final Map<String, ?> props, final CallbackHandler cbh)
     '''
 def getMechanismNames():
-    '''    public String[] getMechanismNames(final Map<String, ?> props)
+    '''public String[] getMechanismNames(final Map<String, ?> props)
     '''

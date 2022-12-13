@@ -4,48 +4,48 @@ ACTIVE_PANE_UPPER_RIGHT = "short  1"
 ACTIVE_PANE_LOWER_LEFT = "short  2"
 ACTIVE_PANE_UPPER_LEFT = "short  3"
 def PaneRecord():
-    '''    public PaneRecord()
+    '''public PaneRecord()
     public PaneRecord(final RecordInputStream in)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def serialize():
-    '''    public void serialize(final LittleEndianOutput out)
+    '''public void serialize(final LittleEndianOutput out)
     '''
 def getSid():
-    '''    public short getSid()
+    '''public short getSid()
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''
 def getX():
-    '''    public short getX()
+    '''public short getX()
     '''
 def setX():
-    '''    public void setX(final short field_1_x)
+    '''public void setX(final short field_1_x)
     '''
 def getY():
-    '''    public short getY()
+    '''public short getY()
     '''
 def setY():
-    '''    public void setY(final short field_2_y)
+    '''public void setY(final short field_2_y)
     '''
 def getTopRow():
-    '''    public short getTopRow()
+    '''public short getTopRow()
     '''
 def setTopRow():
-    '''    public void setTopRow(final short field_3_topRow)
+    '''public void setTopRow(final short field_3_topRow)
     '''
 def getLeftColumn():
-    '''    public short getLeftColumn()
+    '''public short getLeftColumn()
     '''
 def setLeftColumn():
-    '''    public void setLeftColumn(final short field_4_leftColumn)
+    '''public void setLeftColumn(final short field_4_leftColumn)
     '''
 def getActivePane():
-    '''    public short getActivePane()
+    '''public short getActivePane()
     '''
 def setActivePane():
-    '''    public void setActivePane(final short field_5_activePane)
+    '''public void setActivePane(final short field_5_activePane)
     '''

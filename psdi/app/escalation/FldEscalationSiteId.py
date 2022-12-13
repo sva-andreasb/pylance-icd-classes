@@ -1,12 +1,12 @@
 def FldEscalationSiteId():
-    '''    public FldEscalationSiteId(final MboValue mbv)
+    '''public FldEscalationSiteId(final MboValue mbv)
     '''
 def smartFill():
-    '''    public MboSetRemote smartFill(final String value, final boolean exact)
+    '''public MboSetRemote smartFill(final String value, final boolean exact)
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''public void setValueFromLookup(final MboRemote sourceMbo)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

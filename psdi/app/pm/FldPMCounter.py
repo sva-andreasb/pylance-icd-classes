@@ -1,6 +1,6 @@
 def FldPMCounter():
-    '''    public FldPMCounter(final MboValue mbv)
+    '''public FldPMCounter(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,6 +1,6 @@
 def OslcGeneratorSet():
-    '''    public OslcGeneratorSet(final MboServerInterface ms)
+    '''public OslcGeneratorSet(final MboServerInterface ms)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

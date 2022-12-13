@@ -1,3 +1,3 @@
 def BudgetChangeStatusSet():
-    '''    public BudgetChangeStatusSet(final MboServerInterface ms)
+    '''public BudgetChangeStatusSet(final MboServerInterface ms)
     '''

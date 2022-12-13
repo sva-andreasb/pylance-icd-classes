@@ -1,3 +1,3 @@
 def MPWOGenCronParamSet():
-    '''    public MPWOGenCronParamSet(final MboServerInterface ms)
+    '''public MPWOGenCronParamSet(final MboServerInterface ms)
     '''

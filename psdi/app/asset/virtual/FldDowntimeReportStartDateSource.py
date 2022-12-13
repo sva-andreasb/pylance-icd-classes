@@ -1,9 +1,9 @@
 def FldDowntimeReportStartDateSource():
-    '''    public FldDowntimeReportStartDateSource(final MboValue mbv)
+    '''public FldDowntimeReportStartDateSource(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

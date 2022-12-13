@@ -1,3 +1,3 @@
 def FldManufacturerNameCManufacturer():
-    '''    public FldManufacturerNameCManufacturer(final MboValue mbv)
+    '''public FldManufacturerNameCManufacturer(final MboValue mbv)
     '''

@@ -1,3 +1,3 @@
 def PlusPFldEnteredBy():
-    '''    public PlusPFldEnteredBy(final MboValue mbv)
+    '''public PlusPFldEnteredBy(final MboValue mbv)
     '''

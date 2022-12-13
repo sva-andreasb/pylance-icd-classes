@@ -1,6 +1,6 @@
 def DefaultImageContext():
-    '''    public DefaultImageContext()
+    '''public DefaultImageContext()
     '''
 def getSourceResolution():
-    '''    public float getSourceResolution()
+    '''public float getSourceResolution()
     '''

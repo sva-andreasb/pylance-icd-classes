@@ -1,9 +1,9 @@
 def OslcLink():
-    '''    public OslcLink(final MboSet ms)
+    '''public OslcLink(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

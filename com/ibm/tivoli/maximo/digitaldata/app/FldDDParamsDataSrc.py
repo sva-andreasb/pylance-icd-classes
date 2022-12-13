@@ -1,6 +1,6 @@
 def FldDDParamsDataSrc():
-    '''    public FldDDParamsDataSrc(final MboValue mbv)
+    '''public FldDDParamsDataSrc(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

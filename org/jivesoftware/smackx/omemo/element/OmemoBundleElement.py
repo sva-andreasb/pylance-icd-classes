@@ -7,8 +7,8 @@ PRE_KEYS = "String  \"prekeys\""
 PRE_KEY_PUB = "String  \"preKeyPublic\""
 PRE_KEY_ID = "String  \"preKeyId\""
 def equals():
-    '''    public boolean equals(final Object other)
+    '''public boolean equals(final Object other)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''

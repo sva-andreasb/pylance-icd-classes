@@ -1,9 +1,9 @@
 def FldLicCostWonum():
-    '''    public FldLicCostWonum(final MboValue mbv)
+    '''public FldLicCostWonum(final MboValue mbv)
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''public void setValueFromLookup(final MboRemote sourceMbo)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

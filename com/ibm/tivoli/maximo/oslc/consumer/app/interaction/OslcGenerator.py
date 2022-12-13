@@ -1,3 +1,3 @@
 def OslcGenerator():
-    '''    public OslcGenerator(final MboSet ms)
+    '''public OslcGenerator(final MboSet ms)
     '''

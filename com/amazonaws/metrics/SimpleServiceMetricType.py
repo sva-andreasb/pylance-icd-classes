@@ -1,9 +1,9 @@
 def SimpleServiceMetricType():
-    '''    public SimpleServiceMetricType(final String name, final String serviceName)
+    '''public SimpleServiceMetricType(final String name, final String serviceName)
     '''
 def name():
-    '''    public String name()
+    '''public String name()
     '''
 def getServiceName():
-    '''    public String getServiceName()
+    '''public String getServiceName()
     '''

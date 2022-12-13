@@ -1,12 +1,12 @@
 def PlusCDefaultAssetData():
-    '''    public PlusCDefaultAssetData(final MboSet ms)
+    '''public PlusCDefaultAssetData(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def clearFields():
-    '''    public void clearFields()
+    '''public void clearFields()
     '''
 def generateAssetsPreview():
-    '''    public void generateAssetsPreview(final PlusCPreviewGenAssetSetRemote assetsPreviewSet)
+    '''public void generateAssetsPreview(final PlusCPreviewGenAssetSetRemote assetsPreviewSet)
     '''

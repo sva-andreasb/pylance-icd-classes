@@ -1,6 +1,6 @@
 def PlusPFldTKAssetFilterBy():
-    '''    public PlusPFldTKAssetFilterBy(final MboValue arg0)
+    '''public PlusPFldTKAssetFilterBy(final MboValue arg0)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

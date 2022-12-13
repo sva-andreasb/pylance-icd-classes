@@ -38,14 +38,14 @@ INT_SHAPE = "int  17"
 INT_GROUP = "int  18"
 INT_RECT = "int  19"
 def newValue():
-    '''    public static STObjectType newValue(final Object o)
+    '''public static STObjectType newValue(final Object o)
     '''
 def newInstance():
-    '''    public static STObjectType newInstance()
+    '''public static STObjectType newInstance()
     public static STObjectType newInstance(final XmlOptions xmlOptions)
     '''
 def parse():
-    '''    public static STObjectType parse(final String s)
+    '''public static STObjectType parse(final String s)
     public static STObjectType parse(final String s, final XmlOptions xmlOptions)
     public static STObjectType parse(final File file)
     public static STObjectType parse(final File file, final XmlOptions xmlOptions)
@@ -63,12 +63,12 @@ def parse():
     public static STObjectType parse(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''
 def forString():
-    '''    public static Enum forString(final String s)
+    '''public static Enum forString(final String s)
     '''
 def forInt():
-    '''    public static Enum forInt(final int n)
+    '''public static Enum forInt(final int n)
     '''

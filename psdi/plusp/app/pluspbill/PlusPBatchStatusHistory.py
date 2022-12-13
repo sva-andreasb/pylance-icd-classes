@@ -1,6 +1,6 @@
 def PlusPBatchStatusHistory():
-    '''    public PlusPBatchStatusHistory(final MboSet ms)
+    '''public PlusPBatchStatusHistory(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -1,13 +1,13 @@
 COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
 def PmScViewCatReqCRSearchBean():
-    '''    public PmScViewCatReqCRSearchBean()
+    '''public PmScViewCatReqCRSearchBean()
     '''
 def searchdr():
-    '''    public int searchdr()
+    '''public int searchdr()
     '''
 def returnToShopExp():
-    '''    public void returnToShopExp()
+    '''public void returnToShopExp()
     '''
 def gototicketapp():
-    '''    public void gototicketapp()
+    '''public void gototicketapp()
     '''

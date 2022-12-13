@@ -1,3 +1,3 @@
 def getLogger():
-    '''    public ReportLogger getLogger(final String name)
+    '''public ReportLogger getLogger(final String name)
     '''

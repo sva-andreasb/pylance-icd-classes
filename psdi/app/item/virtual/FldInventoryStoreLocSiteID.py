@@ -1,6 +1,6 @@
 def FldInventoryStoreLocSiteID():
-    '''    public FldInventoryStoreLocSiteID(final MboValue mbv)
+    '''public FldInventoryStoreLocSiteID(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

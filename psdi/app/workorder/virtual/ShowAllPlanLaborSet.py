@@ -1,3 +1,3 @@
 def ShowAllPlanLaborSet():
-    '''    public ShowAllPlanLaborSet(final MboRemote owner)
+    '''public ShowAllPlanLaborSet(final MboRemote owner)
     '''

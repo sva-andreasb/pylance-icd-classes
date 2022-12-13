@@ -1,6 +1,6 @@
 def FldCrewPercentAlloc():
-    '''    public FldCrewPercentAlloc(final MboValue mbv)
+    '''public FldCrewPercentAlloc(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

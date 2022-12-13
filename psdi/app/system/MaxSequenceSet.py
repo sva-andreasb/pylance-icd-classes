@@ -1,3 +1,3 @@
 def MaxSequenceSet():
-    '''    public MaxSequenceSet(final MboServerInterface ms)
+    '''public MaxSequenceSet(final MboServerInterface ms)
     '''

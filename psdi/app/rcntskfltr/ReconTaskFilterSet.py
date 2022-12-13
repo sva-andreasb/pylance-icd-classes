@@ -1,3 +1,3 @@
 def ReconTaskFilterSet():
-    '''    public ReconTaskFilterSet(final MboServerInterface ms)
+    '''public ReconTaskFilterSet(final MboServerInterface ms)
     '''

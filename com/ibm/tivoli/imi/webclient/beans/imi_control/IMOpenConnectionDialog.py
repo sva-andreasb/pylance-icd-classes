@@ -1,3 +1,3 @@
 def openIMConnection():
-    '''    public int openIMConnection()
+    '''public int openIMConnection()
     '''

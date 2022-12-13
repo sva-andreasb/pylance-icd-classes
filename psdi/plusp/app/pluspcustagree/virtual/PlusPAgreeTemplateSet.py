@@ -1,3 +1,3 @@
 def PlusPAgreeTemplateSet():
-    '''    public PlusPAgreeTemplateSet(final MboServerInterface ms)
+    '''public PlusPAgreeTemplateSet(final MboServerInterface ms)
     '''

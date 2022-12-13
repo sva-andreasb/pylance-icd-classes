@@ -1,3 +1,3 @@
 def LinearLayerSet():
-    '''    public LinearLayerSet(final MboServerInterface ms)
+    '''public LinearLayerSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def getSystemContextInvoker():
-    '''    public static SystemContextInvoker getSystemContextInvoker(final String type)
+    '''public static SystemContextInvoker getSystemContextInvoker(final String type)
     '''

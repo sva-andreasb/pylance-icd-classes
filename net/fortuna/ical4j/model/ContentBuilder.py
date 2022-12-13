@@ -1,16 +1,16 @@
 def ContentBuilder():
-    '''    public ContentBuilder(final boolean init)
+    '''public ContentBuilder(final boolean init)
     public ContentBuilder()
     '''
 def registerCalendarAndCollections():
-    '''    public Object registerCalendarAndCollections()
+    '''public Object registerCalendarAndCollections()
     '''
 def registerComponents():
-    '''    public Object registerComponents()
+    '''public Object registerComponents()
     '''
 def registerProperties():
-    '''    public Object registerProperties()
+    '''public Object registerProperties()
     '''
 def registerParameters():
-    '''    public Object registerParameters()
+    '''public Object registerParameters()
     '''

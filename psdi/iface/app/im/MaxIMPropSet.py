@@ -1,3 +1,3 @@
 def MaxIMPropSet():
-    '''    public MaxIMPropSet(final MboServerInterface ms)
+    '''public MaxIMPropSet(final MboServerInterface ms)
     '''

@@ -1,81 +1,81 @@
 def CreateReportBean():
-    '''    public CreateReportBean()
+    '''public CreateReportBean()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def addAll():
-    '''    public int addAll()
+    '''public int addAll()
     '''
 def addSelectedAttributesSum():
-    '''    public int addSelectedAttributesSum()
+    '''public int addSelectedAttributesSum()
     '''
 def addSelectedAttributes():
-    '''    public int addSelectedAttributes()
+    '''public int addSelectedAttributes()
     '''
 def removeSelectedAttributes():
-    '''    public int removeSelectedAttributes()
+    '''public int removeSelectedAttributes()
     '''
 def refresh():
-    '''    public int refresh()
+    '''public int refresh()
     '''
 def refreshCalc():
-    '''    public int refreshCalc()
+    '''public int refreshCalc()
     '''
 def removeAll():
-    '''    public int removeAll()
+    '''public int removeAll()
     '''
 def removeGroupFields():
-    '''    public int removeGroupFields()
+    '''public int removeGroupFields()
     '''
 def removeSortFields():
-    '''    public int removeSortFields()
+    '''public int removeSortFields()
     '''
 def removeFilterFields():
-    '''    public int removeFilterFields()
+    '''public int removeFilterFields()
     '''
 def runAndSaveReport():
-    '''    public int runAndSaveReport()
+    '''public int runAndSaveReport()
     '''
 def previewReport():
-    '''    public int previewReport()
+    '''public int previewReport()
     '''
 def createuserreport():
-    '''    public int createuserreport()
+    '''public int createuserreport()
     '''
 def evaluateExpression():
-    '''    public boolean evaluateExpression(final boolean suppressValidate)
+    '''public boolean evaluateExpression(final boolean suppressValidate)
     '''
 def testExpression():
-    '''    public int testExpression()
+    '''public int testExpression()
     '''
 def mathEvent():
-    '''    public int mathEvent()
+    '''public int mathEvent()
     '''
 def sumEvent():
-    '''    public int sumEvent()
+    '''public int sumEvent()
     '''
 def addSelectedAttributesCalc():
-    '''    public int addSelectedAttributesCalc()
+    '''public int addSelectedAttributesCalc()
     '''
 def addExpression():
-    '''    public int addExpression()
+    '''public int addExpression()
     '''
 def getJdbcTypeName():
-    '''    public static String getJdbcTypeName(final int jdbcType)
+    '''public static String getJdbcTypeName(final int jdbcType)
     '''
 def addSummary():
-    '''    public int addSummary()
+    '''public int addSummary()
     '''
 def cancelExpression():
-    '''    public int cancelExpression()
+    '''public int cancelExpression()
     '''
 def cancelSummary():
-    '''    public int cancelSummary()
+    '''public int cancelSummary()
     '''
 def clearCalculateTabFields():
-    '''    public void clearCalculateTabFields()
+    '''public void clearCalculateTabFields()
     '''
 def clearSummaryTabFields():
-    '''    public void clearSummaryTabFields()
+    '''public void clearSummaryTabFields()
     '''

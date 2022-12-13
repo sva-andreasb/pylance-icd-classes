@@ -1,6 +1,6 @@
 def CCIFldActCIName():
-    '''    public CCIFldActCIName(final MboValue mbv)
+    '''public CCIFldActCIName(final MboValue mbv)
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''public void setValueFromLookup(final MboRemote sourceMbo)
     '''

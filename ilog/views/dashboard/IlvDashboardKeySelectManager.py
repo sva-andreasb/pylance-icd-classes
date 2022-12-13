@@ -1,48 +1,48 @@
 def IlvDashboardKeySelectManager():
-    '''    public IlvDashboardKeySelectManager(final IlvDashboardDiagram a)
+    '''public IlvDashboardKeySelectManager(final IlvDashboardDiagram a)
     '''
 def updateSelectionChain():
-    '''    public void updateSelectionChain()
+    '''public void updateSelectionChain()
     '''
 def select():
-    '''    public void select(final IlvDashboardSymbol o)
+    '''public void select(final IlvDashboardSymbol o)
     '''
 def getSelected():
-    '''    public IlvDashboardSymbol getSelected()
+    '''public IlvDashboardSymbol getSelected()
     '''
 def removeSelectableSymbol():
-    '''    public void removeSelectableSymbol(final IlvDashboardSymbol o)
+    '''public void removeSelectableSymbol(final IlvDashboardSymbol o)
     '''
 def selectNext():
-    '''    public void selectNext()
+    '''public void selectNext()
     '''
 def selectPrevious():
-    '''    public void selectPrevious()
+    '''public void selectPrevious()
     '''
 def selectAt():
-    '''    public void selectAt(final float n, final float n2, final IlvManagerView ilvManagerView)
+    '''public void selectAt(final float n, final float n2, final IlvManagerView ilvManagerView)
     '''
 def focusGained():
-    '''    public void focusGained()
+    '''public void focusGained()
     '''
 def focusLost():
-    '''    public void focusLost()
+    '''public void focusLost()
     '''
 def adjustmentFinished():
-    '''    public void adjustmentFinished(final SDMModelEvent sdmModelEvent)
+    '''public void adjustmentFinished(final SDMModelEvent sdmModelEvent)
     '''
 def dataChanged():
-    '''    public void dataChanged(final SDMModelEvent sdmModelEvent)
+    '''public void dataChanged(final SDMModelEvent sdmModelEvent)
     '''
 def linkDestinationChanged():
-    '''    public void linkDestinationChanged(final SDMModelEvent sdmModelEvent)
+    '''public void linkDestinationChanged(final SDMModelEvent sdmModelEvent)
     '''
 def linkSourceChanged():
-    '''    public void linkSourceChanged(final SDMModelEvent sdmModelEvent)
+    '''public void linkSourceChanged(final SDMModelEvent sdmModelEvent)
     '''
 def objectAdded():
-    '''    public void objectAdded(final SDMModelEvent sdmModelEvent)
+    '''public void objectAdded(final SDMModelEvent sdmModelEvent)
     '''
 def objectRemoved():
-    '''    public void objectRemoved(final SDMModelEvent sdmModelEvent)
+    '''public void objectRemoved(final SDMModelEvent sdmModelEvent)
     '''

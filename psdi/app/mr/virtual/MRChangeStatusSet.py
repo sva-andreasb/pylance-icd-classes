@@ -1,3 +1,3 @@
 def MRChangeStatusSet():
-    '''    public MRChangeStatusSet(final MboServerInterface ms)
+    '''public MRChangeStatusSet(final MboServerInterface ms)
     '''

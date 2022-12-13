@@ -1,3 +1,3 @@
 def MfMailAssigneeInfo():
-    '''    public MfMailAssigneeInfo(final String list, final int cnt)
+    '''public MfMailAssigneeInfo(final String list, final int cnt)
     '''

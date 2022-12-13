@@ -1,6 +1,6 @@
 def FldToolTransWonum():
-    '''    public FldToolTransWonum(final MboValue mbv)
+    '''public FldToolTransWonum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

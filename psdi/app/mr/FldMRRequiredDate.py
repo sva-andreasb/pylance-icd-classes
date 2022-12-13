@@ -1,9 +1,9 @@
 def FldMRRequiredDate():
-    '''    public FldMRRequiredDate(final MboValue mbv)
+    '''public FldMRRequiredDate(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

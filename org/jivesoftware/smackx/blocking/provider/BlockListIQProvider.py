@@ -1,3 +1,3 @@
 def parse():
-    '''    public BlockListIQ parse(final XmlPullParser parser, final int initialDepth)
+    '''public BlockListIQ parse(final XmlPullParser parser, final int initialDepth)
     '''

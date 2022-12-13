@@ -1,3 +1,3 @@
 def SKDConstraintSet():
-    '''    public SKDConstraintSet(final MboServerInterface ms)
+    '''public SKDConstraintSet(final MboServerInterface ms)
     '''

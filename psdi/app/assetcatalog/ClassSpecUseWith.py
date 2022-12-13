@@ -1,39 +1,39 @@
 def ClassSpecUseWith():
-    '''    public ClassSpecUseWith(final MboSet ms)
+    '''public ClassSpecUseWith(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def delete():
-    '''    public void delete(final long access)
+    '''public void delete(final long access)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def setAlnNumTableReadOnly():
-    '''    public void setAlnNumTableReadOnly(final MboRemote classSpec)
+    '''public void setAlnNumTableReadOnly(final MboRemote classSpec)
     '''
 def copyValuesFromApplyDownHierUseWith():
-    '''    public void copyValuesFromApplyDownHierUseWith(final MboSetRemote originalSpecUseWithSet)
+    '''public void copyValuesFromApplyDownHierUseWith(final MboSetRemote originalSpecUseWithSet)
     '''
 def setValue():
-    '''    public void setValue(final String attributeName, final String val, final long accessModifier)
+    '''public void setValue(final String attributeName, final String val, final long accessModifier)
     '''
 def getNumValueBeforeFormat():
-    '''    public String getNumValueBeforeFormat()
+    '''public String getNumValueBeforeFormat()
     '''
 def copyValuesToChildClassSpecUseWith():
-    '''    public void copyValuesToChildClassSpecUseWith(final MboSetRemote childSpecUseWithSet)
+    '''public void copyValuesToChildClassSpecUseWith(final MboSetRemote childSpecUseWithSet)
     '''
 def IsParentClassSpecUseWithFound():
-    '''    public boolean IsParentClassSpecUseWithFound()
+    '''public boolean IsParentClassSpecUseWithFound()
     '''
 def setParentClassSpecUseWithFound():
-    '''    public void setParentClassSpecUseWithFound(final boolean toSet)
+    '''public void setParentClassSpecUseWithFound(final boolean toSet)
     '''

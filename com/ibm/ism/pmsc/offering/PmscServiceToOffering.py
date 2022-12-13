@@ -1,13 +1,13 @@
 COPYRIGHT = "String  \"IBM Confidential OCO Source Material\n5725-E24 (C) COPYRIGHT International Business Machines Corp. 2007, 2017\nThe source code for this program is not published or otherwise divested\nof its trade secrets, irrespective of what has been deposited with the\nU.S. Copyright Office.\""
 def isFromService():
-    '''    public static boolean isFromService()
+    '''public static boolean isFromService()
     '''
 def setIsFromService():
-    '''    public static void setIsFromService(final boolean isFromService)
+    '''public static void setIsFromService(final boolean isFromService)
     '''
 def getServiceFulfillment():
-    '''    public static String getServiceFulfillment()
+    '''public static String getServiceFulfillment()
     '''
 def setServiceFulfillment():
-    '''    public static void setServiceFulfillment(final String serviceFulfillment)
+    '''public static void setServiceFulfillment(final String serviceFulfillment)
     '''

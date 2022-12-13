@@ -1,9 +1,9 @@
 def run():
-    '''    public void run()
+    '''public void run()
     '''
 def isRegistered():
-    '''    public boolean isRegistered()
+    '''public boolean isRegistered()
     '''
 def setRegistered():
-    '''    public void setRegistered(final boolean isRegistered)
+    '''public void setRegistered(final boolean isRegistered)
     '''

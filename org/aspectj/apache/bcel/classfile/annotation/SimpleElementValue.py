@@ -1,5 +1,5 @@
 def SimpleElementValue():
-    '''    public SimpleElementValue(final int type, final ConstantPool cpGen, final int value)
+    '''public SimpleElementValue(final int type, final ConstantPool cpGen, final int value)
     public SimpleElementValue(final int type, final ConstantPool cpGen, final long value)
     public SimpleElementValue(final int type, final ConstantPool cpGen, final double value)
     public SimpleElementValue(final int type, final ConstantPool cpGen, final float value)
@@ -11,41 +11,41 @@ def SimpleElementValue():
     public SimpleElementValue(final SimpleElementValue value, final ConstantPool cpool, final boolean copyPoolEntries)
     '''
 def getValueByte():
-    '''    public byte getValueByte()
+    '''public byte getValueByte()
     '''
 def getValueChar():
-    '''    public char getValueChar()
+    '''public char getValueChar()
     '''
 def getValueLong():
-    '''    public long getValueLong()
+    '''public long getValueLong()
     '''
 def getValueFloat():
-    '''    public float getValueFloat()
+    '''public float getValueFloat()
     '''
 def getValueDouble():
-    '''    public double getValueDouble()
+    '''public double getValueDouble()
     '''
 def getValueBoolean():
-    '''    public boolean getValueBoolean()
+    '''public boolean getValueBoolean()
     '''
 def getValueShort():
-    '''    public short getValueShort()
+    '''public short getValueShort()
     '''
 def getIndex():
-    '''    public int getIndex()
+    '''public int getIndex()
     '''
 def getValueString():
-    '''    public String getValueString()
+    '''public String getValueString()
     '''
 def getValueInt():
-    '''    public int getValueInt()
+    '''public int getValueInt()
     '''
 def stringifyValue():
-    '''    public String stringifyValue()
+    '''public String stringifyValue()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def dump():
-    '''    public void dump(final DataOutputStream dos)
+    '''public void dump(final DataOutputStream dos)
     '''

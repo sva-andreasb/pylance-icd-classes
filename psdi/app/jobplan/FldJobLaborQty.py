@@ -1,6 +1,6 @@
 def FldJobLaborQty():
-    '''    public FldJobLaborQty(final MboValue mbv)
+    '''public FldJobLaborQty(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

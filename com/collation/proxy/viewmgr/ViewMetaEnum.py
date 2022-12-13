@@ -110,5 +110,5 @@ ZOS_NAVIGATION_ID = "String  \"ZOSNav\""
 OTHER_COMPUTER_SYSTEMS_NAVIGATION_ID = "String  \"OthersNav\""
 MANUALLY_ADDED_COMPUTER_SYSTEMS_NAVIGATION_ID = "String  \"ManualComputerSystemsNav\""
 def isManualObject():
-    '''    public static boolean isManualObject(final String userName)
+    '''public static boolean isManualObject(final String userName)
     '''

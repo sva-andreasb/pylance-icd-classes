@@ -1,6 +1,6 @@
 def FldLockOutDeviceDescription():
-    '''    public FldLockOutDeviceDescription(final MboValue mbv)
+    '''public FldLockOutDeviceDescription(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

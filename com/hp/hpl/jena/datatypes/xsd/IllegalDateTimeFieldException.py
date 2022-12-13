@@ -1,3 +1,3 @@
 def IllegalDateTimeFieldException():
-    '''    public IllegalDateTimeFieldException(final String msg)
+    '''public IllegalDateTimeFieldException(final String msg)
     '''

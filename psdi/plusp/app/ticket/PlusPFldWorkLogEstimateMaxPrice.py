@@ -1,6 +1,6 @@
 def PlusPFldWorkLogEstimateMaxPrice():
-    '''    public PlusPFldWorkLogEstimateMaxPrice(final MboValue mbv)
+    '''public PlusPFldWorkLogEstimateMaxPrice(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

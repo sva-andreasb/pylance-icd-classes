@@ -1,3 +1,3 @@
 def HexDumpEncoder():
-    '''    public HexDumpEncoder()
+    '''public HexDumpEncoder()
     '''

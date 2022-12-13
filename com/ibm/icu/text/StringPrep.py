@@ -15,15 +15,15 @@ RFC4505_TRACE = "int  11"
 RFC4518_LDAP = "int  12"
 RFC4518_LDAP_CI = "int  13"
 def StringPrep():
-    '''    public StringPrep(final InputStream inputStream)
+    '''public StringPrep(final InputStream inputStream)
     '''
 def getInstance():
-    '''    public static StringPrep getInstance(final int profile)
+    '''public static StringPrep getInstance(final int profile)
     '''
 def prepare():
-    '''    public StringBuffer prepare(final UCharacterIterator src, final int options)
+    '''public StringBuffer prepare(final UCharacterIterator src, final int options)
     public String prepare(final String src, final int options)
     '''
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''

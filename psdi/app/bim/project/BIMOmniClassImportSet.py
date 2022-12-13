@@ -1,6 +1,6 @@
 def BIMOmniClassImportSet():
-    '''    public BIMOmniClassImportSet(final MboServerInterface ms)
+    '''public BIMOmniClassImportSet(final MboServerInterface ms)
     '''
 def getTranslator():
-    '''    public Translate getTranslator()
+    '''public Translate getTranslator()
     '''

@@ -1,9 +1,9 @@
 def PlusCFldWONoAdjMade():
-    '''    public PlusCFldWONoAdjMade(final MboValue mbv)
+    '''public PlusCFldWONoAdjMade(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,5 +1,5 @@
 def writeJsonText():
-    '''    public static void writeJsonText(final Map<?, ?> map, final Appendable out)
+    '''public static void writeJsonText(final Map<?, ?> map, final Appendable out)
     public static void writeJsonText(final Collection<?> collection, final Appendable out)
     public static void writeJsonText(final byte[] array, final Appendable out)
     public static void writeJsonText(final short[] array, final Appendable out)
@@ -12,7 +12,7 @@ def writeJsonText():
     public static void writeJsonText(final Object[] array, final Appendable out)
     '''
 def writeJsonTextAsString():
-    '''    public static String writeJsonTextAsString(final Map<?, ?> map)
+    '''public static String writeJsonTextAsString(final Map<?, ?> map)
     public static String writeJsonTextAsString(final Collection<?> collection)
     public static String writeJsonTextAsString(final byte[] array)
     public static String writeJsonTextAsString(final short[] array)

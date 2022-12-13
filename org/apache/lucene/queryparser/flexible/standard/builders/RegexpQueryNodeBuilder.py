@@ -1,3 +1,3 @@
 def build():
-    '''    public RegexpQuery build(final QueryNode queryNode)
+    '''public RegexpQuery build(final QueryNode queryNode)
     '''

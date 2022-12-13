@@ -1,79 +1,79 @@
 def MaxMessage():
-    '''    public MaxMessage(final String language)
+    '''public MaxMessage(final String language)
     '''
 def setKey():
-    '''    public void setKey(final String keyInput)
+    '''public void setKey(final String keyInput)
     '''
 def getKey():
-    '''    public String getKey()
+    '''public String getKey()
     '''
 def setGroup():
-    '''    public void setGroup(final String groupInput)
+    '''public void setGroup(final String groupInput)
     '''
 def getGroup():
-    '''    public String getGroup()
+    '''public String getGroup()
     '''
 def setId():
-    '''    public void setId(final String id)
+    '''public void setId(final String id)
     '''
 def getId():
-    '''    public String getId()
+    '''public String getId()
     '''
 def setValue():
-    '''    public void setValue(final String msg)
+    '''public void setValue(final String msg)
     '''
 def getValue():
-    '''    public String getValue()
+    '''public String getValue()
     '''
 def setOptions():
-    '''    public void setOptions(final int op)
+    '''public void setOptions(final int op)
     '''
 def getOptions():
-    '''    public int getOptions()
+    '''public int getOptions()
     '''
 def setButtonText():
-    '''    public void setButtonText(final String btInput)
+    '''public void setButtonText(final String btInput)
     '''
 def getButtonText():
-    '''    public String getButtonText()
+    '''public String getButtonText()
     '''
 def setDisplayMethod():
-    '''    public void setDisplayMethod(final String method)
+    '''public void setDisplayMethod(final String method)
     '''
 def getDisplaymethod():
-    '''    public String getDisplaymethod()
+    '''public String getDisplaymethod()
     '''
 def getLanguage():
-    '''    public String getLanguage()
+    '''public String getLanguage()
     '''
 def setLanguage():
-    '''    public void setLanguage(final String language)
+    '''public void setLanguage(final String language)
     '''
 def setMLInsensitivePart():
-    '''    public void setMLInsensitivePart(final MaxMessageBase.MLInsensitivePart obj)
+    '''public void setMLInsensitivePart(final MaxMessageBase.MLInsensitivePart obj)
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''
 def getMessage():
-    '''    public String getMessage()
+    '''public String getMessage()
     public String getMessage(final Object param)
     public String getMessage(final Object[] params)
     '''
 def getTaggedMessage():
-    '''    public String getTaggedMessage()
+    '''public String getTaggedMessage()
     public String getTaggedMessage(final Object param)
     public String getTaggedMessage(final Object[] params)
     '''
 def isPrefix():
-    '''    public boolean isPrefix()
+    '''public boolean isPrefix()
     '''
 def setPrefix():
-    '''    public void setPrefix(final boolean prefix)
+    '''public void setPrefix(final boolean prefix)
     '''
 def getReference():
-    '''    public MaxMessageBase getReference()
+    '''public MaxMessageBase getReference()
     '''
 def getCacheName():
-    '''    public String getCacheName()
+    '''public String getCacheName()
     '''

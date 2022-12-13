@@ -1,6 +1,6 @@
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''
 def refreshcosttype():
-    '''    public int refreshcosttype()
+    '''public int refreshcosttype()
     '''

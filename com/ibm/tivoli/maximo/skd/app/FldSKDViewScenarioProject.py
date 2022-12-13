@@ -1,6 +1,6 @@
 def FldSKDViewScenarioProject():
-    '''    public FldSKDViewScenarioProject(final MboValue mbv)
+    '''public FldSKDViewScenarioProject(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

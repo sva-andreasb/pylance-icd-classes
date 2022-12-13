@@ -1,3 +1,3 @@
 def WFStopSet():
-    '''    public WFStopSet(final MboServerInterface ms)
+    '''public WFStopSet(final MboServerInterface ms)
     '''

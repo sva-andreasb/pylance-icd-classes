@@ -1,9 +1,9 @@
 def DefaultDnsPtrRecord():
-    '''    public DefaultDnsPtrRecord(final String name, final int dnsClass, final long timeToLive, final String hostname)
+    '''public DefaultDnsPtrRecord(final String name, final int dnsClass, final long timeToLive, final String hostname)
     '''
 def hostname():
-    '''    public String hostname()
+    '''public String hostname()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

@@ -1,3 +1,3 @@
 def FldNamedUsersLocation():
-    '''    public FldNamedUsersLocation(final MboValue mbv)
+    '''public FldNamedUsersLocation(final MboValue mbv)
     '''

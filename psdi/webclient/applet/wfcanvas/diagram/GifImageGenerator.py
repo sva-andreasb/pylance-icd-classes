@@ -1,3 +1,3 @@
 def makeGifImage():
-    '''    public byte[] makeGifImage(final Image image)
+    '''public byte[] makeGifImage(final Image image)
     '''

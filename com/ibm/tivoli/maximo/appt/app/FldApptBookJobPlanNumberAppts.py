@@ -1,6 +1,6 @@
 def FldApptBookJobPlanNumberAppts():
-    '''    public FldApptBookJobPlanNumberAppts(final MboValue mbv)
+    '''public FldApptBookJobPlanNumberAppts(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

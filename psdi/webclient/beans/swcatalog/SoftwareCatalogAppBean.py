@@ -1,12 +1,12 @@
 def initializeApp():
-    '''    public void initializeApp()
+    '''public void initializeApp()
     '''
 def LAUNCHENTRY():
-    '''    public int LAUNCHENTRY()
+    '''public int LAUNCHENTRY()
     '''
 def CREATEITEM():
-    '''    public int CREATEITEM()
+    '''public int CREATEITEM()
     '''
 def find():
-    '''    public int find()
+    '''public int find()
     '''

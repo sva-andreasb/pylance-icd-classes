@@ -1,9 +1,9 @@
 def FldBBMsgOrgID():
-    '''    public FldBBMsgOrgID(final MboValue mbv)
+    '''public FldBBMsgOrgID(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,15 +1,15 @@
 def ExternalDataInfo():
-    '''    public ExternalDataInfo(final String ifaceName, final String ifaceType, final String uniqueId, final byte[] queueData)
+    '''public ExternalDataInfo(final String ifaceName, final String ifaceType, final String uniqueId, final byte[] queueData)
     '''
 def getIfaceName():
-    '''    public String getIfaceName()
+    '''public String getIfaceName()
     '''
 def getIfaceType():
-    '''    public String getIfaceType()
+    '''public String getIfaceType()
     '''
 def getQueueData():
-    '''    public byte[] getQueueData()
+    '''public byte[] getQueueData()
     '''
 def getUniqueId():
-    '''    public String getUniqueId()
+    '''public String getUniqueId()
     '''

@@ -1,3 +1,3 @@
 def InvChangeStatusSet():
-    '''    public InvChangeStatusSet(final MboServerInterface ms)
+    '''public InvChangeStatusSet(final MboServerInterface ms)
     '''

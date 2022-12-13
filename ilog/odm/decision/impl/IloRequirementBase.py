@@ -1,52 +1,52 @@
 COPYRIGHT_NOTICE = "String  \"Copyright IBM Corporation 2005,2012\""
 def IloRequirementBase():
-    '''    public IloRequirementBase(final String name, final IloReqPropertiesDef props)
+    '''public IloRequirementBase(final String name, final IloReqPropertiesDef props)
     '''
 def isComposite():
-    '''    public boolean isComposite()
+    '''public boolean isComposite()
     '''
 def getContainer():
-    '''    public IloRequirementContainer getContainer()
+    '''public IloRequirementContainer getContainer()
     '''
 def setRemovedFromEngine():
-    '''    public void setRemovedFromEngine(final boolean status)
+    '''public void setRemovedFromEngine(final boolean status)
     '''
 def isRemovedFromEngine():
-    '''    public boolean isRemovedFromEngine()
+    '''public boolean isRemovedFromEngine()
     '''
 def getModel():
-    '''    public IloDecisionModel getModel()
+    '''public IloDecisionModel getModel()
     '''
 def getIdentifier():
-    '''    public IloRequirementId getIdentifier()
+    '''public IloRequirementId getIdentifier()
     '''
 def getPriority():
-    '''    public IloPriority getPriority(final boolean inherited)
+    '''public IloPriority getPriority(final boolean inherited)
     '''
 def getPropertiesDef():
-    '''    public IloPropertiesDef getPropertiesDef()
+    '''public IloPropertiesDef getPropertiesDef()
     '''
 def getReqPropertiesDef():
-    '''    public IloReqPropertiesDef getReqPropertiesDef()
+    '''public IloReqPropertiesDef getReqPropertiesDef()
     '''
 def setPriority():
-    '''    public void setPriority(final IloPriority priority)
+    '''public void setPriority(final IloPriority priority)
     '''
 def setProperty():
-    '''    public void setProperty(final int index, final Object value)
+    '''public void setProperty(final int index, final Object value)
     '''
 def onChangeProperty():
-    '''    public void onChangeProperty(final int index, final Object oldValue, final IloEngineController ctl)
+    '''public void onChangeProperty(final int index, final Object oldValue, final IloEngineController ctl)
     '''
 def setName():
-    '''    public void setName(final String newName)
+    '''public void setName(final String newName)
     '''
 def registerMe():
-    '''    public void registerMe(final IloRequirementContainer cont, final boolean force)
+    '''public void registerMe(final IloRequirementContainer cont, final boolean force)
     '''
 def getStatus():
-    '''    public Status getStatus()
+    '''public Status getStatus()
     '''
 def unregisterMe():
-    '''    public void unregisterMe()
+    '''public void unregisterMe()
     '''

@@ -1,6 +1,6 @@
 def FldMatRecTransRefWO():
-    '''    public FldMatRecTransRefWO(final MboValue mbv)
+    '''public FldMatRecTransRefWO(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

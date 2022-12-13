@@ -1,6 +1,6 @@
 def FldKPIAuthGroupName():
-    '''    public FldKPIAuthGroupName(final MboValue mbv)
+    '''public FldKPIAuthGroupName(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

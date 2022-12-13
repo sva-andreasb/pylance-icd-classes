@@ -4,33 +4,33 @@ MAXOCCURSUNBOUNDED = "String  \"unbounded\""
 BASESCHEMADIR = "String  \"schema\""
 USEOPTIONAL = "String  \"optional\""
 def SchemaGenerator():
-    '''    public SchemaGenerator()
+    '''public SchemaGenerator()
     public SchemaGenerator(final Map<String, Element> schemaElements)
     '''
 def getTargetNS():
-    '''    public String getTargetNS()
+    '''public String getTargetNS()
     '''
 def isSchemaGenerated():
-    '''    public boolean isSchemaGenerated()
+    '''public boolean isSchemaGenerated()
     '''
 def getSchemaFile():
-    '''    public File getSchemaFile()
+    '''public File getSchemaFile()
     '''
 def getSchemaElementFor():
-    '''    public String getSchemaElementFor(final String identifier)
+    '''public String getSchemaElementFor(final String identifier)
     '''
 def getSchemaDocument():
-    '''    public Document getSchemaDocument()
+    '''public Document getSchemaDocument()
     '''
 def generateSampleXml():
-    '''    public String generateSampleXml(final String identifier)
+    '''public String generateSampleXml(final String identifier)
     '''
 def generateSchemaElements():
-    '''    public void generateSchemaElements()
+    '''public void generateSchemaElements()
     '''
 def generateSchema():
-    '''    public void generateSchema()
+    '''public void generateSchema()
     '''
 def generateSchemaAsDcoument():
-    '''    public Document generateSchemaAsDcoument()
+    '''public Document generateSchemaAsDcoument()
     '''

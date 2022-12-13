@@ -1,6 +1,6 @@
 def ReconCompFltrDPASet():
-    '''    public ReconCompFltrDPASet(final MboServerInterface ms)
+    '''public ReconCompFltrDPASet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

@@ -1,6 +1,6 @@
 def FldMaxDomainInternal():
-    '''    public FldMaxDomainInternal(final MboValue mbv)
+    '''public FldMaxDomainInternal(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

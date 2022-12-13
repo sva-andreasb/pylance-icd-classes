@@ -1,3 +1,3 @@
 def editmobiletext():
-    '''    public int editmobiletext()
+    '''public int editmobiletext()
     '''

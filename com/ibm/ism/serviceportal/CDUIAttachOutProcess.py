@@ -1,6 +1,6 @@
 def CDUIAttachOutProcess():
-    '''    public CDUIAttachOutProcess()
+    '''public CDUIAttachOutProcess()
     '''
 def search():
-    '''    public void search(final MboSetRemote mboSet, final String text)
+    '''public void search(final MboSetRemote mboSet, final String text)
     '''

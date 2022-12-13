@@ -1,3 +1,3 @@
 def FldGrpReassignAuthGroupName():
-    '''    public FldGrpReassignAuthGroupName(final MboValue mbv)
+    '''public FldGrpReassignAuthGroupName(final MboValue mbv)
     '''

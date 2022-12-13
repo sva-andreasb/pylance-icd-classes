@@ -1,6 +1,6 @@
 def FldWpMatVendorUnitCost():
-    '''    public FldWpMatVendorUnitCost(final MboValue mbv)
+    '''public FldWpMatVendorUnitCost(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,3 +1,3 @@
 def settaxtype():
-    '''    public int settaxtype()
+    '''public int settaxtype()
     '''

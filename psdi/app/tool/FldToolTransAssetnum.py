@@ -1,6 +1,6 @@
 def FldToolTransAssetnum():
-    '''    public FldToolTransAssetnum(final MboValue mbv)
+    '''public FldToolTransAssetnum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

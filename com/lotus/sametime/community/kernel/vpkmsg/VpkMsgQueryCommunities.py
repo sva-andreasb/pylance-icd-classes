@@ -1,3 +1,3 @@
 def VpkMsgQueryCommunities():
-    '''    public VpkMsgQueryCommunities(final int n)
+    '''public VpkMsgQueryCommunities(final int n)
     '''

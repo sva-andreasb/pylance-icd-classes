@@ -1,3 +1,3 @@
 def GetReplicationFilterRequest():
-    '''    public GetReplicationFilterRequest(final String s)
+    '''public GetReplicationFilterRequest(final String s)
     '''

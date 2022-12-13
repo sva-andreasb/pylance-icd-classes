@@ -1,6 +1,6 @@
 def FREM():
-    '''    public FREM()
+    '''public FREM()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

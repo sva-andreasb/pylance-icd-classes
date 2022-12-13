@@ -1,3 +1,3 @@
 def handle():
-    '''    public AmazonWebServiceResponse<HeadBucketResult> handle(final HttpResponse response)
+    '''public AmazonWebServiceResponse<HeadBucketResult> handle(final HttpResponse response)
     '''

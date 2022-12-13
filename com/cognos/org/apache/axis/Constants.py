@@ -109,27 +109,27 @@ MIME_CT_TEXT_XML = "String  \"text/xml\""
 MIME_CT_APPLICATION_XML = "String  \"application/xml\""
 MIME_CT_MULTIPART_PREFIX = "String  \"multipart/\""
 def isSOAP_ENV():
-    '''    public static boolean isSOAP_ENV(final String s)
+    '''public static boolean isSOAP_ENV(final String s)
     '''
 def isSOAP_ENC():
-    '''    public static boolean isSOAP_ENC(final String s)
+    '''public static boolean isSOAP_ENC(final String s)
     '''
 def getValue():
-    '''    public static String getValue(final Attributes attributes, final String[] search, final String localPart)
+    '''public static String getValue(final Attributes attributes, final String[] search, final String localPart)
     public static String getValue(final Attributes attributes, final QName[] search)
     '''
 def equals():
-    '''    public static boolean equals(final QName first, final QName second)
+    '''public static boolean equals(final QName first, final QName second)
     '''
 def isSchemaXSD():
-    '''    public static boolean isSchemaXSD(final String s)
+    '''public static boolean isSchemaXSD(final String s)
     '''
 def isSchemaXSI():
-    '''    public static boolean isSchemaXSI(final String s)
+    '''public static boolean isSchemaXSI(final String s)
     '''
 def isWSDL():
-    '''    public static boolean isWSDL(final String s)
+    '''public static boolean isWSDL(final String s)
     '''
 def isWSDLSOAP():
-    '''    public static boolean isWSDLSOAP(final String s)
+    '''public static boolean isWSDLSOAP(final String s)
     '''

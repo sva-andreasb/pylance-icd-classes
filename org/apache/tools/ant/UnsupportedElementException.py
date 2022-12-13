@@ -1,6 +1,6 @@
 def UnsupportedElementException():
-    '''    public UnsupportedElementException(final String msg, final String element)
+    '''public UnsupportedElementException(final String msg, final String element)
     '''
 def getElement():
-    '''    public String getElement()
+    '''public String getElement()
     '''

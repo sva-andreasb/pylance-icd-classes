@@ -1,15 +1,15 @@
 def whoAmI():
-    '''    public String whoAmI()
+    '''public String whoAmI()
     '''
 def root():
-    '''    public String root()
+    '''public String root()
     '''
 def everyOther():
-    '''    public String everyOther()
+    '''public String everyOther()
     '''
 def staticWhoAmI():
-    '''    public static String staticWhoAmI()
+    '''public static String staticWhoAmI()
     '''
 def staticRoot():
-    '''    public static String staticRoot()
+    '''public static String staticRoot()
     '''

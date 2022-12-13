@@ -1,6 +1,6 @@
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getCacheName():
-    '''    public String getCacheName()
+    '''public String getCacheName()
     '''

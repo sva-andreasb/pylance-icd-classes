@@ -1,6 +1,6 @@
 def FldUseOSSecurity():
-    '''    public FldUseOSSecurity(final MboValue mbv)
+    '''public FldUseOSSecurity(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

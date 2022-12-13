@@ -1,6 +1,6 @@
 def FldSKDPropertyPropertyName():
-    '''    public FldSKDPropertyPropertyName(final MboValue mbv)
+    '''public FldSKDPropertyPropertyName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

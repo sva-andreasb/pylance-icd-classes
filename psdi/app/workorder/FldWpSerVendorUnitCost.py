@@ -1,6 +1,6 @@
 def FldWpSerVendorUnitCost():
-    '''    public FldWpSerVendorUnitCost(final MboValue mbv)
+    '''public FldWpSerVendorUnitCost(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

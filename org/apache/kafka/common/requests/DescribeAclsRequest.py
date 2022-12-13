@@ -1,24 +1,24 @@
 def schemaVersions():
-    '''    public static Schema[] schemaVersions()
+    '''public static Schema[] schemaVersions()
     '''
 def DescribeAclsRequest():
-    '''    public DescribeAclsRequest(final Struct struct, final short version)
+    '''public DescribeAclsRequest(final Struct struct, final short version)
     '''
 def getErrorResponse():
-    '''    public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable throwable)
+    '''public AbstractResponse getErrorResponse(final int throttleTimeMs, final Throwable throwable)
     '''
 def parse():
-    '''    public static DescribeAclsRequest parse(final ByteBuffer buffer, final short version)
+    '''public static DescribeAclsRequest parse(final ByteBuffer buffer, final short version)
     '''
 def filter():
-    '''    public AclBindingFilter filter()
+    '''public AclBindingFilter filter()
     '''
 def Builder():
-    '''    public Builder(final AclBindingFilter filter)
+    '''public Builder(final AclBindingFilter filter)
     '''
 def build():
-    '''    public DescribeAclsRequest build(final short version)
+    '''public DescribeAclsRequest build(final short version)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

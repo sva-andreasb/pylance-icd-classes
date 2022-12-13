@@ -1,8 +1,8 @@
 def processRepositoryDataFactoryX():
-    '''    public static void processRepositoryDataFactoryX(final CentralStoreKey centralStoreKey)
+    '''public static void processRepositoryDataFactoryX(final CentralStoreKey centralStoreKey)
     '''
 def getData():
-    '''    public static Data getData()
+    '''public static Data getData()
     public static Data getData(final Hook hook)
     public static Data getData(final Hook hook, final Map<Object, Object> map)
     public static Data getData(final Connection connection)

@@ -1,9 +1,9 @@
 def PlusPPriceBookItemCondition():
-    '''    public PlusPPriceBookItemCondition(final MboSet ms)
+    '''public PlusPPriceBookItemCondition(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_time\")"
 def newInstance():
-    '''    public static XmlTime newInstance()
+    '''public static XmlTime newInstance()
     public static XmlTime newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlTime newValue(final Object obj)
+    '''public static XmlTime newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlTime parse(final String s)
+    '''public static XmlTime parse(final String s)
     public static XmlTime parse(final String s, final XmlOptions options)
     public static XmlTime parse(final File f)
     public static XmlTime parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlTime parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

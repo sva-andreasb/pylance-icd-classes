@@ -1,3 +1,3 @@
 def restoredefaults():
-    '''    public int restoredefaults()
+    '''public int restoredefaults()
     '''

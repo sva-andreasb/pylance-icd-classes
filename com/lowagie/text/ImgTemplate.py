@@ -1,3 +1,3 @@
 def ImgTemplate():
-    '''    public ImgTemplate(final PdfTemplate template)
+    '''public ImgTemplate(final PdfTemplate template)
     '''

@@ -1,6 +1,6 @@
 def TLOAMFldItemRotating():
-    '''    public TLOAMFldItemRotating(final MboValue mbv)
+    '''public TLOAMFldItemRotating(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

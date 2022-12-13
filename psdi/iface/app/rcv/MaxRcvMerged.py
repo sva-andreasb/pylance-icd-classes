@@ -1,3 +1,3 @@
 def MaxRcvMerged():
-    '''    public MaxRcvMerged(final MboSet ms)
+    '''public MaxRcvMerged(final MboSet ms)
     '''

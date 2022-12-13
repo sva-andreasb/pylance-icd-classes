@@ -1,3 +1,3 @@
 def FldWFCommonClassStructureid():
-    '''    public FldWFCommonClassStructureid(final MboValue mbv)
+    '''public FldWFCommonClassStructureid(final MboValue mbv)
     '''

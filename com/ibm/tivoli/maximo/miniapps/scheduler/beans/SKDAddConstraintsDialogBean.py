@@ -1,6 +1,6 @@
 def SKDAddConstraintsDialogBean():
-    '''    public SKDAddConstraintsDialogBean()
+    '''public SKDAddConstraintsDialogBean()
     '''
 def setconstraint():
-    '''    public int setconstraint()
+    '''public int setconstraint()
     '''

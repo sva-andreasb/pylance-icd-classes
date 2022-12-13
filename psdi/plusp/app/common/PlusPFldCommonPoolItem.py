@@ -1,3 +1,3 @@
 def PlusPFldCommonPoolItem():
-    '''    public PlusPFldCommonPoolItem(final MboValue mbv)
+    '''public PlusPFldCommonPoolItem(final MboValue mbv)
     '''

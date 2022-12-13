@@ -1,3 +1,3 @@
 def PlusPFldCustSLACustomer():
-    '''    public PlusPFldCustSLACustomer(final MboValue mboValue)
+    '''public PlusPFldCustSLACustomer(final MboValue mboValue)
     '''

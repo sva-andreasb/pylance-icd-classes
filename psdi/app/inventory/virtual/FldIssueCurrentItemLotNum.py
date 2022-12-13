@@ -1,6 +1,6 @@
 def FldIssueCurrentItemLotNum():
-    '''    public FldIssueCurrentItemLotNum(final MboValue mbv)
+    '''public FldIssueCurrentItemLotNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,3 +1,3 @@
 def getInstance():
-    '''    public static XSLFFactory getInstance()
+    '''public static XSLFFactory getInstance()
     '''

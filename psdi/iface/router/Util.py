@@ -4,5 +4,5 @@ HTTP_ERROR_STARTRANGE = "int  300"
 HTTP_ERROR_ENDRANGE = "int  500"
 HTTP_OK = "int  200"
 def getByteArrayFromInputStream():
-    '''    public static byte[] getByteArrayFromInputStream(final InputStream inputStream)
+    '''public static byte[] getByteArrayFromInputStream(final InputStream inputStream)
     '''

@@ -24,86 +24,86 @@ BI_LINE = "int  2"
 BI_SENTENCE = "int  3"
 BI_TITLE = "int  4"
 def GlobalizationPreferences():
-    '''    public GlobalizationPreferences()
+    '''public GlobalizationPreferences()
     '''
 def setLocales():
-    '''    public GlobalizationPreferences setLocales(final List<ULocale> inputLocales)
+    '''public GlobalizationPreferences setLocales(final List<ULocale> inputLocales)
     public GlobalizationPreferences setLocales(final ULocale[] uLocales)
     public GlobalizationPreferences setLocales(final String acceptLanguageString)
     '''
 def getLocales():
-    '''    public List<ULocale> getLocales()
+    '''public List<ULocale> getLocales()
     '''
 def getLocale():
-    '''    public ULocale getLocale(final int index)
+    '''public ULocale getLocale(final int index)
     '''
 def setLocale():
-    '''    public GlobalizationPreferences setLocale(final ULocale uLocale)
+    '''public GlobalizationPreferences setLocale(final ULocale uLocale)
     '''
 def getResourceBundle():
-    '''    public ResourceBundle getResourceBundle(final String baseName)
+    '''public ResourceBundle getResourceBundle(final String baseName)
     public ResourceBundle getResourceBundle(final String baseName, final ClassLoader loader)
     '''
 def setTerritory():
-    '''    public GlobalizationPreferences setTerritory(final String territory)
+    '''public GlobalizationPreferences setTerritory(final String territory)
     '''
 def getTerritory():
-    '''    public String getTerritory()
+    '''public String getTerritory()
     '''
 def setCurrency():
-    '''    public GlobalizationPreferences setCurrency(final Currency currency)
+    '''public GlobalizationPreferences setCurrency(final Currency currency)
     '''
 def getCurrency():
-    '''    public Currency getCurrency()
+    '''public Currency getCurrency()
     '''
 def setCalendar():
-    '''    public GlobalizationPreferences setCalendar(final Calendar calendar)
+    '''public GlobalizationPreferences setCalendar(final Calendar calendar)
     '''
 def getCalendar():
-    '''    public Calendar getCalendar()
+    '''public Calendar getCalendar()
     '''
 def setTimeZone():
-    '''    public GlobalizationPreferences setTimeZone(final TimeZone timezone)
+    '''public GlobalizationPreferences setTimeZone(final TimeZone timezone)
     '''
 def getTimeZone():
-    '''    public TimeZone getTimeZone()
+    '''public TimeZone getTimeZone()
     '''
 def getCollator():
-    '''    public Collator getCollator()
+    '''public Collator getCollator()
     '''
 def setCollator():
-    '''    public GlobalizationPreferences setCollator(final Collator collator)
+    '''public GlobalizationPreferences setCollator(final Collator collator)
     '''
 def getBreakIterator():
-    '''    public BreakIterator getBreakIterator(final int type)
+    '''public BreakIterator getBreakIterator(final int type)
     '''
 def setBreakIterator():
-    '''    public GlobalizationPreferences setBreakIterator(final int type, final BreakIterator iterator)
+    '''public GlobalizationPreferences setBreakIterator(final int type, final BreakIterator iterator)
     '''
 def getDisplayName():
-    '''    public String getDisplayName(final String id, final int type)
+    '''public String getDisplayName(final String id, final int type)
     '''
 def setDateFormat():
-    '''    public GlobalizationPreferences setDateFormat(final int dateStyle, final int timeStyle, final DateFormat format)
+    '''public GlobalizationPreferences setDateFormat(final int dateStyle, final int timeStyle, final DateFormat format)
     '''
 def getDateFormat():
-    '''    public DateFormat getDateFormat(final int dateStyle, final int timeStyle)
+    '''public DateFormat getDateFormat(final int dateStyle, final int timeStyle)
     '''
 def getNumberFormat():
-    '''    public NumberFormat getNumberFormat(final int style)
+    '''public NumberFormat getNumberFormat(final int style)
     '''
 def setNumberFormat():
-    '''    public GlobalizationPreferences setNumberFormat(final int style, final NumberFormat format)
+    '''public GlobalizationPreferences setNumberFormat(final int style, final NumberFormat format)
     '''
 def reset():
-    '''    public GlobalizationPreferences reset()
+    '''public GlobalizationPreferences reset()
     '''
 def isFrozen():
-    '''    public boolean isFrozen()
+    '''public boolean isFrozen()
     '''
 def freeze():
-    '''    public GlobalizationPreferences freeze()
+    '''public GlobalizationPreferences freeze()
     '''
 def cloneAsThawed():
-    '''    public GlobalizationPreferences cloneAsThawed()
+    '''public GlobalizationPreferences cloneAsThawed()
     '''

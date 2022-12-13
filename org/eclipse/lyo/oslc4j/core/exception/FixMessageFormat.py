@@ -1,3 +1,3 @@
 def fixPattern():
-    '''    public static String fixPattern(final String pattern)
+    '''public static String fixPattern(final String pattern)
     '''

@@ -1,6 +1,6 @@
 def FldPurRefWO():
-    '''    public FldPurRefWO(final MboValue mbv)
+    '''public FldPurRefWO(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

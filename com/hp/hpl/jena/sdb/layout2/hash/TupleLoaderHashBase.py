@@ -1,12 +1,12 @@
 def TupleLoaderHashBase():
-    '''    public TupleLoaderHashBase(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
+    '''public TupleLoaderHashBase(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
     '''
 def getLoadTuples():
-    '''    public String getLoadTuples()
+    '''public String getLoadTuples()
     '''
 def getDeleteTuples():
-    '''    public String getDeleteTuples()
+    '''public String getDeleteTuples()
     '''
 def getDeleteAllTuples():
-    '''    public String getDeleteAllTuples()
+    '''public String getDeleteAllTuples()
     '''

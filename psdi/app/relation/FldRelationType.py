@@ -1,6 +1,6 @@
 def FldRelationType():
-    '''    public FldRelationType(final MboValue mbv)
+    '''public FldRelationType(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

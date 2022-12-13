@@ -1,12 +1,12 @@
 def SelectionManager():
-    '''    public SelectionManager()
+    '''public SelectionManager()
     '''
 def register():
-    '''    public Key register(final SelectableChannel selectableChannel, final SelectionHandler selectionHandler)
+    '''public Key register(final SelectableChannel selectableChannel, final SelectionHandler selectionHandler)
     '''
 def renewInterestMask():
-    '''    public void renewInterestMask(final int i)
+    '''public void renewInterestMask(final int i)
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''

@@ -1,3 +1,3 @@
 def getRegionByEndpoint():
-    '''    public Region getRegionByEndpoint(final String endpoint)
+    '''public Region getRegionByEndpoint(final String endpoint)
     '''

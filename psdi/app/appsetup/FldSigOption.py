@@ -1,6 +1,6 @@
 def FldSigOption():
-    '''    public FldSigOption(final MboValue mbv)
+    '''public FldSigOption(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,3 +1,3 @@
 def SKDProjectObjSet():
-    '''    public SKDProjectObjSet(final MboServerInterface ms)
+    '''public SKDProjectObjSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def PhantomQueueProcessor():
-    '''    public PhantomQueueProcessor()
+    '''public PhantomQueueProcessor()
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''

@@ -1,6 +1,6 @@
 def PlusPFldJobLaborLinePrice():
-    '''    public PlusPFldJobLaborLinePrice(final MboValue mbv)
+    '''public PlusPFldJobLaborLinePrice(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

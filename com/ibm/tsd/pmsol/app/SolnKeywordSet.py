@@ -1,3 +1,3 @@
 def SolnKeywordSet():
-    '''    public SolnKeywordSet(final MboServerInterface ms)
+    '''public SolnKeywordSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def PlusPFldEscNotificationRole():
-    '''    public PlusPFldEscNotificationRole(final MboValue arg0)
+    '''public PlusPFldEscNotificationRole(final MboValue arg0)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

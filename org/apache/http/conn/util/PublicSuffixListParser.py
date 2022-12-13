@@ -1,6 +1,6 @@
 def parse():
-    '''    public PublicSuffixList parse(final Reader reader)
+    '''public PublicSuffixList parse(final Reader reader)
     '''
 def parseByType():
-    '''    public List<PublicSuffixList> parseByType(final Reader reader)
+    '''public List<PublicSuffixList> parseByType(final Reader reader)
     '''

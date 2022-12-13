@@ -1,3 +1,3 @@
 def MXODMAppSet():
-    '''    public MXODMAppSet(final MboServerInterface ms)
+    '''public MXODMAppSet(final MboServerInterface ms)
     '''

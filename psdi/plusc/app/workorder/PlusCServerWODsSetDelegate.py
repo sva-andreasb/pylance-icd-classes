@@ -1,3 +1,3 @@
 def PlusCServerWODsSetDelegate():
-    '''    public PlusCServerWODsSetDelegate(final MboSetAdapter thisMboSet)
+    '''public PlusCServerWODsSetDelegate(final MboSetAdapter thisMboSet)
     '''

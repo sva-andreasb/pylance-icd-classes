@@ -1,3 +1,3 @@
 def PremiumPaySet():
-    '''    public PremiumPaySet(final MboServerInterface ms)
+    '''public PremiumPaySet(final MboServerInterface ms)
     '''

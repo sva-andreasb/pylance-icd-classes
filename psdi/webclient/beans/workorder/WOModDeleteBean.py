@@ -1,3 +1,3 @@
 def APPLYALLUSER():
-    '''    public int APPLYALLUSER()
+    '''public int APPLYALLUSER()
     '''

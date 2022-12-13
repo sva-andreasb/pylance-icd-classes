@@ -1,6 +1,6 @@
 def CacheLvcMsgDesc():
-    '''    public CacheLvcMsgDesc(final String orgId)
+    '''public CacheLvcMsgDesc(final String orgId)
     '''
 def getLvcInfoTmptRelmbo():
-    '''    public MboRemote getLvcInfoTmptRelmbo(final MboRemote mbo)
+    '''public MboRemote getLvcInfoTmptRelmbo(final MboRemote mbo)
     '''

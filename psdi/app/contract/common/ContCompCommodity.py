@@ -1,3 +1,3 @@
 def ContCompCommodity():
-    '''    public ContCompCommodity(final MboSet ms)
+    '''public ContCompCommodity(final MboSet ms)
     '''

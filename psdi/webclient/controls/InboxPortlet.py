@@ -1,42 +1,42 @@
 def InboxPortlet():
-    '''    public InboxPortlet()
+    '''public InboxPortlet()
     '''
 def getAssignments():
-    '''    public MboValueData[][] getAssignments()
+    '''public MboValueData[][] getAssignments()
     '''
 def getSetsInfo():
-    '''    public MboSetInfo[] getSetsInfo()
+    '''public MboSetInfo[] getSetsInfo()
     '''
 def getNoOfAssignments():
-    '''    public int getNoOfAssignments()
+    '''public int getNoOfAssignments()
     '''
 def getKeyAttributeData():
-    '''    public MboValueData[][] getKeyAttributeData()
+    '''public MboValueData[][] getKeyAttributeData()
     '''
 def getInboxColumns():
-    '''    public Vector getInboxColumns()
+    '''public Vector getInboxColumns()
     '''
 def getSortAttribute():
-    '''    public String getSortAttribute(final String sortIndex)
+    '''public String getSortAttribute(final String sortIndex)
     '''
 def getNonPersistentColumns():
-    '''    public ArrayList getNonPersistentColumns()
+    '''public ArrayList getNonPersistentColumns()
     '''
 def getUserName():
-    '''    public String getUserName()
+    '''public String getUserName()
     '''
 def getLatestDate():
-    '''    public String getLatestDate()
+    '''public String getLatestDate()
     '''
 def getDescTitle():
-    '''    public String getDescTitle()
+    '''public String getDescTitle()
     '''
 def getLabels():
-    '''    public String[] getLabels()
+    '''public String[] getLabels()
     '''
 def openassignment():
-    '''    public int openassignment()
+    '''public int openassignment()
     '''
 def routeassignment():
-    '''    public int routeassignment()
+    '''public int routeassignment()
     '''

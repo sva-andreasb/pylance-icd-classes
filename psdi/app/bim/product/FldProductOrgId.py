@@ -1,6 +1,6 @@
 def FldProductOrgId():
-    '''    public FldProductOrgId(final MboValue mbv)
+    '''public FldProductOrgId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

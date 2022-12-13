@@ -1,3 +1,3 @@
 def FldAssetSpecLRM():
-    '''    public FldAssetSpecLRM(final MboValue mbv)
+    '''public FldAssetSpecLRM(final MboValue mbv)
     '''

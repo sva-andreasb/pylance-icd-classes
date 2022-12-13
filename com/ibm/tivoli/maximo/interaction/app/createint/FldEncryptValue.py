@@ -1,6 +1,6 @@
 def FldEncryptValue():
-    '''    public FldEncryptValue(final MboValue mbv)
+    '''public FldEncryptValue(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

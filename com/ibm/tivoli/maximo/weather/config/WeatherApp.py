@@ -1,3 +1,3 @@
 def WeatherApp():
-    '''    public WeatherApp(final MboSet ms)
+    '''public WeatherApp(final MboSet ms)
     '''

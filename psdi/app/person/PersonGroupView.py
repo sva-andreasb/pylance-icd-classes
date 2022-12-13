@@ -1,3 +1,3 @@
 def PersonGroupView():
-    '''    public PersonGroupView(final MboSet ms)
+    '''public PersonGroupView(final MboSet ms)
     '''

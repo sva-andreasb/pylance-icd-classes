@@ -1,18 +1,18 @@
 def JEUserLocaleData():
-    '''    public JEUserLocaleData()
+    '''public JEUserLocaleData()
     '''
 def getUserLocale():
-    '''    public Locale getUserLocale()
+    '''public Locale getUserLocale()
     '''
 def setUserLocale():
-    '''    public void setUserLocale(final Locale userLocale)
+    '''public void setUserLocale(final Locale userLocale)
     '''
 def getJEMessageMap():
-    '''    public HashMap<String, JEMessage> getJEMessageMap()
+    '''public HashMap<String, JEMessage> getJEMessageMap()
     '''
 def setMessageMap():
-    '''    public void setMessageMap(final HashMap<String, JEMessage> messageMap)
+    '''public void setMessageMap(final HashMap<String, JEMessage> messageMap)
     '''
 def getJEMessage():
-    '''    public JEMessage getJEMessage(final String key)
+    '''public JEMessage getJEMessage(final String key)
     '''

@@ -1,3 +1,3 @@
 def COPYLOCATTRSET():
-    '''    public int COPYLOCATTRSET()
+    '''public int COPYLOCATTRSET()
     '''

@@ -1,3 +1,3 @@
 def ReorderMutex():
-    '''    public ReorderMutex(final MboSet ms)
+    '''public ReorderMutex(final MboSet ms)
     '''

@@ -1,6 +1,6 @@
 def ViewThisDayShiftsBean():
-    '''    public ViewThisDayShiftsBean()
+    '''public ViewThisDayShiftsBean()
     '''
 def addrow():
-    '''    public int addrow()
+    '''public int addrow()
     '''

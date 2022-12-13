@@ -1,21 +1,21 @@
 def BaseObjectPool():
-    '''    public BaseObjectPool()
+    '''public BaseObjectPool()
     '''
 def getNumIdle():
-    '''    public int getNumIdle()
+    '''public int getNumIdle()
     '''
 def getNumActive():
-    '''    public int getNumActive()
+    '''public int getNumActive()
     '''
 def clear():
-    '''    public void clear()
+    '''public void clear()
     '''
 def addObject():
-    '''    public void addObject()
+    '''public void addObject()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''
 def setFactory():
-    '''    public void setFactory(final PoolableObjectFactory factory)
+    '''public void setFactory(final PoolableObjectFactory factory)
     '''

@@ -1,3 +1,3 @@
 def FldCrewDay3():
-    '''    public FldCrewDay3(final MboValue mbv)
+    '''public FldCrewDay3(final MboValue mbv)
     '''

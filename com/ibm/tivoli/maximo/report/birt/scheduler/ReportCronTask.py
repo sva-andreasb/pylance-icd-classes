@@ -1,6 +1,6 @@
 def cronAction():
-    '''    public void cronAction()
+    '''public void cronAction()
     '''
 def beforeRemoval():
-    '''    public void beforeRemoval()
+    '''public void beforeRemoval()
     '''

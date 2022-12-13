@@ -1,3 +1,3 @@
 def SRMFavoriteSet():
-    '''    public SRMFavoriteSet(final MboServerInterface ms)
+    '''public SRMFavoriteSet(final MboServerInterface ms)
     '''

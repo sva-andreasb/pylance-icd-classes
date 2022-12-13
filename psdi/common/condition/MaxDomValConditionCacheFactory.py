@@ -1,12 +1,12 @@
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def getInstance():
-    '''    public static MaxDomValConditionCacheFactory getInstance()
+    '''public static MaxDomValConditionCacheFactory getInstance()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def getCache():
-    '''    public MaximoCache getCache()
+    '''public MaximoCache getCache()
     '''

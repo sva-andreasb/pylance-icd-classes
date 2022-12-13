@@ -1,3 +1,3 @@
 def setQueryBySiteQbe():
-    '''    public void setQueryBySiteQbe()
+    '''public void setQueryBySiteQbe()
     '''

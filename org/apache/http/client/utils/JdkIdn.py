@@ -1,6 +1,6 @@
 def JdkIdn():
-    '''    public JdkIdn()
+    '''public JdkIdn()
     '''
 def toUnicode():
-    '''    public String toUnicode(final String punycode)
+    '''public String toUnicode(final String punycode)
     '''

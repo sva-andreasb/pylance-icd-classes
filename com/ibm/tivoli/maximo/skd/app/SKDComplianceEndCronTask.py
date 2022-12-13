@@ -1,6 +1,6 @@
 def cronAction():
-    '''    public void cronAction()
+    '''public void cronAction()
     '''
 def endScheduleCompliance():
-    '''    public void endScheduleCompliance()
+    '''public void endScheduleCompliance()
     '''

@@ -1,6 +1,6 @@
 def FldDmCollIsPublic():
-    '''    public FldDmCollIsPublic(final MboValue mbv)
+    '''public FldDmCollIsPublic(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

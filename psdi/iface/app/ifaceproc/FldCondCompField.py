@@ -1,6 +1,6 @@
 def FldCondCompField():
-    '''    public FldCondCompField(final MboValue mbv)
+    '''public FldCondCompField(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

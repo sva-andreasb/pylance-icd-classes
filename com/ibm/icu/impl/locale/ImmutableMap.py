@@ -1,3 +1,3 @@
 def copyOf():
-    '''    public static <K, V> Map<K, V> copyOf(final Map<K, V> values)
+    '''public static <K, V> Map<K, V> copyOf(final Map<K, V> values)
     '''

@@ -1,3 +1,3 @@
 def PmCfgLifecycleAssignmentSet():
-    '''    public PmCfgLifecycleAssignmentSet(final MboServerInterface ms)
+    '''public PmCfgLifecycleAssignmentSet(final MboServerInterface ms)
     '''

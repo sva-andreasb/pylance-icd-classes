@@ -1,3 +1,3 @@
 def FldTypeMapName():
-    '''    public FldTypeMapName(final MboValue mbv)
+    '''public FldTypeMapName(final MboValue mbv)
     '''

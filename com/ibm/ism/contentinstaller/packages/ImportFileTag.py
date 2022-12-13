@@ -1,6 +1,6 @@
 def ImportFileTag():
-    '''    public ImportFileTag(final BaseTag parent, final String name)
+    '''public ImportFileTag(final BaseTag parent, final String name)
     '''
 def getType():
-    '''    public int getType()
+    '''public int getType()
     '''

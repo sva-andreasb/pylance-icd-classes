@@ -1,3 +1,3 @@
 def PmSrvFldTkSolStatus():
-    '''    public PmSrvFldTkSolStatus(final MboValue mbv)
+    '''public PmSrvFldTkSolStatus(final MboValue mbv)
     '''

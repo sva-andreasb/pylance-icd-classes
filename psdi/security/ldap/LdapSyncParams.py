@@ -1,3 +1,3 @@
 def LdapSyncParams():
-    '''    public LdapSyncParams(final MboSet ms)
+    '''public LdapSyncParams(final MboSet ms)
     '''

@@ -1,6 +1,6 @@
 def FldNWorkZone():
-    '''    public FldNWorkZone(final MboValue mbv)
+    '''public FldNWorkZone(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

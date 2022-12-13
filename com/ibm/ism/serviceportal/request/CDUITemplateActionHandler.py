@@ -1,3 +1,3 @@
 def CDUITemplateActionHandler():
-    '''    public CDUITemplateActionHandler()
+    '''public CDUITemplateActionHandler()
     '''

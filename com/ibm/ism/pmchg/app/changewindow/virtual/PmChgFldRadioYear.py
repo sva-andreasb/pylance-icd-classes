@@ -1,6 +1,6 @@
 def PmChgFldRadioYear():
-    '''    public PmChgFldRadioYear(final MboValue mbv)
+    '''public PmChgFldRadioYear(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

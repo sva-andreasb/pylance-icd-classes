@@ -1,3 +1,3 @@
 def ShopzCronParamSet():
-    '''    public ShopzCronParamSet(final MboServerInterface ms)
+    '''public ShopzCronParamSet(final MboServerInterface ms)
     '''

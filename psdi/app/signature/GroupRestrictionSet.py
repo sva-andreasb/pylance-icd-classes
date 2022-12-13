@@ -1,3 +1,3 @@
 def GroupRestrictionSet():
-    '''    public GroupRestrictionSet(final MboServerInterface ms)
+    '''public GroupRestrictionSet(final MboServerInterface ms)
     '''

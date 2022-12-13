@@ -1,6 +1,6 @@
 def FldLocationReorderAsync():
-    '''    public FldLocationReorderAsync(final MboValue mv)
+    '''public FldLocationReorderAsync(final MboValue mv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

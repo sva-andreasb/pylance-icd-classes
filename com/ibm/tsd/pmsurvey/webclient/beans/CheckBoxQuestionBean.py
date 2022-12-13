@@ -1,6 +1,6 @@
 def CheckBoxQuestionBean():
-    '''    public CheckBoxQuestionBean()
+    '''public CheckBoxQuestionBean()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''

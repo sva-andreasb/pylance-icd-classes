@@ -1,3 +1,3 @@
 def format():
-    '''    public static String format(final double d)
+    '''public static String format(final double d)
     '''

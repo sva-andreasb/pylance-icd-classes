@@ -1,6 +1,6 @@
 def FldSingleValue():
-    '''    public FldSingleValue(final MboValue mbv)
+    '''public FldSingleValue(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

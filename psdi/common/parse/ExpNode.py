@@ -1,6 +1,6 @@
 def ExpNode():
-    '''    public ExpNode(final Vector operands)
+    '''public ExpNode(final Vector operands)
     '''
 def getDouble():
-    '''    public double getDouble(final MboRemote mbo)
+    '''public double getDouble(final MboRemote mbo)
     '''

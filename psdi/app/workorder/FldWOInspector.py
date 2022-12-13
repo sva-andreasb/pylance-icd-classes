@@ -1,3 +1,3 @@
 def FldWOInspector():
-    '''    public FldWOInspector(final MboValue mbv)
+    '''public FldWOInspector(final MboValue mbv)
     '''

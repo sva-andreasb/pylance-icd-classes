@@ -1,3 +1,3 @@
 def ClassSpecUseWithSet():
-    '''    public ClassSpecUseWithSet(final MboServerInterface ms)
+    '''public ClassSpecUseWithSet(final MboServerInterface ms)
     '''

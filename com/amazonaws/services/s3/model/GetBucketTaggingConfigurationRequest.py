@@ -1,3 +1,3 @@
 def GetBucketTaggingConfigurationRequest():
-    '''    public GetBucketTaggingConfigurationRequest(final String bucketName)
+    '''public GetBucketTaggingConfigurationRequest(final String bucketName)
     '''

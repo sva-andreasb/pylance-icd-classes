@@ -1,6 +1,6 @@
 def FldJobTaskMoveToParent():
-    '''    public FldJobTaskMoveToParent(final MboValue mbv)
+    '''public FldJobTaskMoveToParent(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -24,67 +24,67 @@ FULLYBOOKED = "String  \"FULLYBOOKED\""
 OVERBOOKED = "String  \"OVERBOOKED\""
 NONWORKTIME = "String  \"NONWORKTIME\""
 def Resource():
-    '''    public Resource()
+    '''public Resource()
     '''
 def getProperty():
-    '''    public Object getProperty(final String prop)
+    '''public Object getProperty(final String prop)
     '''
 def getInt():
-    '''    public int getInt(final String prop)
+    '''public int getInt(final String prop)
     '''
 def getLong():
-    '''    public long getLong(final String prop)
+    '''public long getLong(final String prop)
     '''
 def getFloat():
-    '''    public float getFloat(final String prop)
+    '''public float getFloat(final String prop)
     '''
 def getDouble():
-    '''    public double getDouble(final String prop)
+    '''public double getDouble(final String prop)
     '''
 def getBoolean():
-    '''    public boolean getBoolean(final String prop)
+    '''public boolean getBoolean(final String prop)
     '''
 def getString():
-    '''    public String getString(final String prop)
+    '''public String getString(final String prop)
     public String getString(final String prop, final String defValue)
     '''
 def getDate():
-    '''    public Date getDate(final String prop)
+    '''public Date getDate(final String prop)
     '''
 def setProperty():
-    '''    public Object setProperty(final String prop, final Object value)
+    '''public Object setProperty(final String prop, final Object value)
     public Object setProperty(final String prop, final Object value, final boolean ignoreChangeTracking)
     '''
 def getID():
-    '''    public String getID()
+    '''public String getID()
     '''
 def getUserData():
-    '''    public <T> T getUserData(final String key)
+    '''public <T> T getUserData(final String key)
     '''
 def setUserData():
-    '''    public <T> void setUserData(final String key, final T data)
+    '''public <T> void setUserData(final String key, final T data)
     '''
 def getQuantity():
-    '''    public float getQuantity()
+    '''public float getQuantity()
     '''
 def getPropertyNames():
-    '''    public Collection<String> getPropertyNames()
+    '''public Collection<String> getPropertyNames()
     '''
 def setObjectName():
-    '''    public void setObjectName(final String objectName)
+    '''public void setObjectName(final String objectName)
     '''
 def setRefObjectName():
-    '''    public void setRefObjectName(final String refObjectName)
+    '''public void setRefObjectName(final String refObjectName)
     '''
 def getObjectName():
-    '''    public String getObjectName()
+    '''public String getObjectName()
     '''
 def getRefObjectName():
-    '''    public String getRefObjectName()
+    '''public String getRefObjectName()
     '''
 def put():
-    '''    public Object put(final Object key, final Object value)
+    '''public Object put(final Object key, final Object value)
     '''
 def remove():
-    '''    public Object remove(final Object key)
+    '''public Object remove(final Object key)
     '''

@@ -1,3 +1,3 @@
 def AttachModelException():
-    '''    public AttachModelException(final Throwable th)
+    '''public AttachModelException(final Throwable th)
     '''

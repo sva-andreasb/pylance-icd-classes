@@ -1,18 +1,18 @@
 def getTabType():
-    '''    public Tab getTabType()
+    '''public Tab getTabType()
     '''
 def DetailPanelTabImpl():
-    '''    public DetailPanelTabImpl(final Tab tabType)
+    '''public DetailPanelTabImpl(final Tab tabType)
     '''
 def addTable():
-    '''    public void addTable(final DetailTableModel model)
+    '''public void addTable(final DetailTableModel model)
     '''
 def addTab():
-    '''    public void addTab(final DetailPanelTab tab)
+    '''public void addTab(final DetailPanelTab tab)
     '''
 def getTabs():
-    '''    public List getTabs()
+    '''public List getTabs()
     '''
 def getTables():
-    '''    public List getTables()
+    '''public List getTables()
     '''

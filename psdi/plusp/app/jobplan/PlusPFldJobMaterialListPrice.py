@@ -1,6 +1,6 @@
 def PlusPFldJobMaterialListPrice():
-    '''    public PlusPFldJobMaterialListPrice(final MboValue mbv)
+    '''public PlusPFldJobMaterialListPrice(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

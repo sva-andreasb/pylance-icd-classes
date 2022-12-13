@@ -1,6 +1,6 @@
 def SKDPersonSearchBean():
-    '''    public SKDPersonSearchBean()
+    '''public SKDPersonSearchBean()
     '''
 def REFRESHLIST():
-    '''    public int REFRESHLIST()
+    '''public int REFRESHLIST()
     '''

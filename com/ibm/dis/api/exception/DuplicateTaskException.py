@@ -1,3 +1,3 @@
 def DuplicateTaskException():
-    '''    public DuplicateTaskException(final String message)
+    '''public DuplicateTaskException(final String message)
     '''

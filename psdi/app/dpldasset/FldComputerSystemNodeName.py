@@ -1,3 +1,3 @@
 def FldComputerSystemNodeName():
-    '''    public FldComputerSystemNodeName(final MboValue mbv)
+    '''public FldComputerSystemNodeName(final MboValue mbv)
     '''

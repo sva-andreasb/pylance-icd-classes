@@ -1,6 +1,6 @@
 def FldMboObjectAttrName():
-    '''    public FldMboObjectAttrName(final MboValue mbv)
+    '''public FldMboObjectAttrName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

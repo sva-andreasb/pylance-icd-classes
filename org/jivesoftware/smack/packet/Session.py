@@ -1,6 +1,6 @@
 def Session():
-    '''    public Session()
+    '''public Session()
     '''
 def getChildElementXML():
-    '''    public String getChildElementXML()
+    '''public String getChildElementXML()
     '''

@@ -1,9 +1,9 @@
 def ControlInterfaceServlet():
-    '''    public ControlInterfaceServlet()
+    '''public ControlInterfaceServlet()
     '''
 def doGet():
-    '''    public void doGet(final HttpServletRequest request, final HttpServletResponse response)
+    '''public void doGet(final HttpServletRequest request, final HttpServletResponse response)
     '''
 def doPost():
-    '''    public void doPost(final HttpServletRequest request, final HttpServletResponse response)
+    '''public void doPost(final HttpServletRequest request, final HttpServletResponse response)
     '''

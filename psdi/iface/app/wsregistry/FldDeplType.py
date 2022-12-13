@@ -1,6 +1,6 @@
 def FldDeplType():
-    '''    public FldDeplType(final MboValue mbv)
+    '''public FldDeplType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

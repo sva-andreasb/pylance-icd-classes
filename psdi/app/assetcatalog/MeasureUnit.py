@@ -1,15 +1,15 @@
 def MeasureUnit():
-    '''    public MeasureUnit(final MboSet ms)
+    '''public MeasureUnit(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def checkDuplicate():
-    '''    public void checkDuplicate()
+    '''public void checkDuplicate()
     '''

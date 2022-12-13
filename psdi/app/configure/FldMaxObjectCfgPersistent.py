@@ -1,6 +1,6 @@
 def FldMaxObjectCfgPersistent():
-    '''    public FldMaxObjectCfgPersistent(final MboValue mbv)
+    '''public FldMaxObjectCfgPersistent(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

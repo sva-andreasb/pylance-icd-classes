@@ -1,10 +1,10 @@
 type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(MastersType.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"masterstypeaebatype\")"
 def newInstance():
-    '''    public static MastersType newInstance()
+    '''public static MastersType newInstance()
     public static MastersType newInstance(final XmlOptions xmlOptions)
     '''
 def parse():
-    '''    public static MastersType parse(final String s)
+    '''public static MastersType parse(final String s)
     public static MastersType parse(final String s, final XmlOptions xmlOptions)
     public static MastersType parse(final File file)
     public static MastersType parse(final File file, final XmlOptions xmlOptions)
@@ -22,6 +22,6 @@ def parse():
     public static MastersType parse(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''

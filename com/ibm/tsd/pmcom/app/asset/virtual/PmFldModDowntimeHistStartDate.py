@@ -1,6 +1,6 @@
 def PmFldModDowntimeHistStartDate():
-    '''    public PmFldModDowntimeHistStartDate(final MboValue mbv)
+    '''public PmFldModDowntimeHistStartDate(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

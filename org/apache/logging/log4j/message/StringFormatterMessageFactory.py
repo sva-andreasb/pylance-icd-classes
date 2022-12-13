@@ -1,5 +1,5 @@
 def newMessage():
-    '''    public Message newMessage(final String message, final Object... params)
+    '''public Message newMessage(final String message, final Object... params)
     public Message newMessage(final String message, final Object p0)
     public Message newMessage(final String message, final Object p0, final Object p1)
     public Message newMessage(final String message, final Object p0, final Object p1, final Object p2)

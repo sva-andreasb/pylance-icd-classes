@@ -1,6 +1,6 @@
 def FldWOSRSrvadLongitudeX():
-    '''    public FldWOSRSrvadLongitudeX(final MboValue mbv)
+    '''public FldWOSRSrvadLongitudeX(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

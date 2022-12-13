@@ -1,3 +1,3 @@
 def FldMRPcardType():
-    '''    public FldMRPcardType(final MboValue mbv)
+    '''public FldMRPcardType(final MboValue mbv)
     '''

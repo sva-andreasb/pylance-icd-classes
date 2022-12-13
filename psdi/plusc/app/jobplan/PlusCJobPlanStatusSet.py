@@ -1,3 +1,3 @@
 def PlusCJobPlanStatusSet():
-    '''    public PlusCJobPlanStatusSet(final MboServerInterface mboserverinterface)
+    '''public PlusCJobPlanStatusSet(final MboServerInterface mboserverinterface)
     '''

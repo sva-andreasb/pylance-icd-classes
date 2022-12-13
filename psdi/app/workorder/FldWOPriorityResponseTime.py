@@ -1,6 +1,6 @@
 def FldWOPriorityResponseTime():
-    '''    public FldWOPriorityResponseTime(final MboValue mbv)
+    '''public FldWOPriorityResponseTime(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

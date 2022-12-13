@@ -1,6 +1,6 @@
 def NotNode():
-    '''    public NotNode(final TreeNode argument)
+    '''public NotNode(final TreeNode argument)
     '''
 def getBoolean():
-    '''    public boolean getBoolean(final MboRemote mbo)
+    '''public boolean getBoolean(final MboRemote mbo)
     '''

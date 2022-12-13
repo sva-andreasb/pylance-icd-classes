@@ -1,3 +1,3 @@
 def BooleanHolder():
-    '''    public BooleanHolder(final boolean value)
+    '''public BooleanHolder(final boolean value)
     '''

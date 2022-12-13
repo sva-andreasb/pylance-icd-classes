@@ -1,18 +1,18 @@
 def EscalationTask():
-    '''    public EscalationTask()
+    '''public EscalationTask()
     '''
 def performTask():
-    '''    public void performTask(final String taskName, final String instanceName)
+    '''public void performTask(final String taskName, final String instanceName)
     '''
 def getLogger():
-    '''    public MXLogger getLogger()
+    '''public MXLogger getLogger()
     '''
 def setLogger():
-    '''    public void setLogger(final MXLogger logger)
+    '''public void setLogger(final MXLogger logger)
     '''
 def getUserInfo():
-    '''    public UserInfo getUserInfo()
+    '''public UserInfo getUserInfo()
     '''
 def setUserInfo():
-    '''    public void setUserInfo(final UserInfo userInfo)
+    '''public void setUserInfo(final UserInfo userInfo)
     '''

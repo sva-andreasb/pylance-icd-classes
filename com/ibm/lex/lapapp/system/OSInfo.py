@@ -8,5 +8,5 @@ PRINTABLE_KEY = "String  \"printable_key\""
 PRINTABLE_VALUE_TRUE = "String  \"true\""
 PRINTABLE_VALUE_FALSE = "String  \"false\""
 def getContents():
-    '''    public Object[][] getContents()
+    '''public Object[][] getContents()
     '''

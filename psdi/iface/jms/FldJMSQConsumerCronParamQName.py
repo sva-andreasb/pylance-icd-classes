@@ -1,6 +1,6 @@
 def FldJMSQConsumerCronParamQName():
-    '''    public FldJMSQConsumerCronParamQName(final MboValue mbv)
+    '''public FldJMSQConsumerCronParamQName(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,9 +1,9 @@
 def JpTaskRelationSet():
-    '''    public JpTaskRelationSet(final MboServerInterface ms)
+    '''public JpTaskRelationSet(final MboServerInterface ms)
     '''
 def setOwner():
-    '''    public void setOwner(final MboRemote mbo)
+    '''public void setOwner(final MboRemote mbo)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

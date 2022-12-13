@@ -1,6 +1,6 @@
 def SubmitComments():
-    '''    public SubmitComments(final MboSet ms)
+    '''public SubmitComments(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

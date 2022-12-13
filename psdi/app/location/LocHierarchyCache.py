@@ -1,12 +1,12 @@
 def getInstance():
-    '''    public static final LocHierarchyCache getInstance()
+    '''public static final LocHierarchyCache getInstance()
     '''
 def getSystemsForLocSite():
-    '''    public Set<String> getSystemsForLocSite(final String siteid, final String location)
+    '''public Set<String> getSystemsForLocSite(final String siteid, final String location)
     '''
 def getLocationHierarchyPathInfo():
-    '''    public LocationInfo getLocationHierarchyPathInfo(final String siteid, final String system, final String location)
+    '''public LocationInfo getLocationHierarchyPathInfo(final String siteid, final String system, final String location)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''

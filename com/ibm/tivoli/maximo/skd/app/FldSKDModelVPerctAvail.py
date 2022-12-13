@@ -1,6 +1,6 @@
 def FldSKDModelVPerctAvail():
-    '''    public FldSKDModelVPerctAvail(final MboValue mbv)
+    '''public FldSKDModelVPerctAvail(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,6 +1,6 @@
 def getOnItemCursor():
-    '''    public static Cursor getOnItemCursor()
+    '''public static Cursor getOnItemCursor()
     '''
 def getDnDCursor():
-    '''    public static Cursor getDnDCursor()
+    '''public static Cursor getDnDCursor()
     '''

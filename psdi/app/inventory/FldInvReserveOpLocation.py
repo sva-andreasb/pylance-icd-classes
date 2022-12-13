@@ -1,6 +1,6 @@
 def FldInvReserveOpLocation():
-    '''    public FldInvReserveOpLocation(final MboValue mbv)
+    '''public FldInvReserveOpLocation(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

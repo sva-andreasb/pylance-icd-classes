@@ -1,6 +1,6 @@
 def FldMapWFID():
-    '''    public FldMapWFID(final MboValue mbv)
+    '''public FldMapWFID(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

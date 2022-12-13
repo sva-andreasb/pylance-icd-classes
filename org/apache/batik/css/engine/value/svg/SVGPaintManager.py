@@ -1,22 +1,22 @@
 def SVGPaintManager():
-    '''    public SVGPaintManager(final String prop)
+    '''public SVGPaintManager(final String prop)
     public SVGPaintManager(final String prop, final Value v)
     '''
 def isInheritedProperty():
-    '''    public boolean isInheritedProperty()
+    '''public boolean isInheritedProperty()
     '''
 def isAnimatableProperty():
-    '''    public boolean isAnimatableProperty()
+    '''public boolean isAnimatableProperty()
     '''
 def isAdditiveProperty():
-    '''    public boolean isAdditiveProperty()
+    '''public boolean isAdditiveProperty()
     '''
 def getPropertyType():
-    '''    public int getPropertyType()
+    '''public int getPropertyType()
     '''
 def createValue():
-    '''    public Value createValue(LexicalUnit lu, final CSSEngine engine)
+    '''public Value createValue(LexicalUnit lu, final CSSEngine engine)
     '''
 def computeValue():
-    '''    public Value computeValue(final CSSStylableElement elt, final String pseudo, final CSSEngine engine, final int idx, final StyleMap sm, final Value value)
+    '''public Value computeValue(final CSSStylableElement elt, final String pseudo, final CSSEngine engine, final int idx, final StyleMap sm, final Value value)
     '''

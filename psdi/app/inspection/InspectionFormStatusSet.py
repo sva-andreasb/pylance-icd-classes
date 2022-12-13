@@ -1,3 +1,3 @@
 def InspectionFormStatusSet():
-    '''    public InspectionFormStatusSet(final MboServerInterface ms)
+    '''public InspectionFormStatusSet(final MboServerInterface ms)
     '''

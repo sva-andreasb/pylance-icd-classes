@@ -1,9 +1,9 @@
 def MissingCellDummyRecord():
-    '''    public MissingCellDummyRecord(final int row, final int column)
+    '''public MissingCellDummyRecord(final int row, final int column)
     '''
 def getRow():
-    '''    public int getRow()
+    '''public int getRow()
     '''
 def getColumn():
-    '''    public int getColumn()
+    '''public int getColumn()
     '''

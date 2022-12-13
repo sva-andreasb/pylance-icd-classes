@@ -1,9 +1,9 @@
 def WorkCenterTemplateOptionSet():
-    '''    public WorkCenterTemplateOptionSet(final MboServerInterface ms)
+    '''public WorkCenterTemplateOptionSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

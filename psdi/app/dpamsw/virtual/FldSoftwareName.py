@@ -1,3 +1,3 @@
 def FldSoftwareName():
-    '''    public FldSoftwareName(final MboValue mbv)
+    '''public FldSoftwareName(final MboValue mbv)
     '''

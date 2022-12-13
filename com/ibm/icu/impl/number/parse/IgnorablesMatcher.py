@@ -1,6 +1,6 @@
 def getInstance():
-    '''    public static IgnorablesMatcher getInstance(final int parseFlags)
+    '''public static IgnorablesMatcher getInstance(final int parseFlags)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

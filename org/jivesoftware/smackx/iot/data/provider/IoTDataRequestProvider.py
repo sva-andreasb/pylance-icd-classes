@@ -1,3 +1,3 @@
 def parse():
-    '''    public IoTDataRequest parse(final XmlPullParser parser, final int initialDepth)
+    '''public IoTDataRequest parse(final XmlPullParser parser, final int initialDepth)
     '''

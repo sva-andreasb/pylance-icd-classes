@@ -1,3 +1,3 @@
 def BIMSystemMapEntrySet():
-    '''    public BIMSystemMapEntrySet(final MboServerInterface ms)
+    '''public BIMSystemMapEntrySet(final MboServerInterface ms)
     '''

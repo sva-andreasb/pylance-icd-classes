@@ -1,34 +1,34 @@
 def TimeWindowModel():
-    '''    public TimeWindowModel(final String id, final TimeWindowSet root)
+    '''public TimeWindowModel(final String id, final TimeWindowSet root)
     '''
 def addToRoot():
-    '''    public void addToRoot(final TimeWindowSet set)
+    '''public void addToRoot(final TimeWindowSet set)
     '''
 def computeTimeWindows():
-    '''    public void computeTimeWindows()
+    '''public void computeTimeWindows()
     '''
 def findSetbyIdPath():
-    '''    public TimeWindowSet findSetbyIdPath(final String pathStr)
+    '''public TimeWindowSet findSetbyIdPath(final String pathStr)
     public TimeWindowSet findSetbyIdPath(final String[] path)
     '''
 def getAvailableTimeWindows():
-    '''    public Iterator<TimeWindow> getAvailableTimeWindows()
+    '''public Iterator<TimeWindow> getAvailableTimeWindows()
     '''
 def getId():
-    '''    public String getId()
+    '''public String getId()
     '''
 def getRoot():
-    '''    public TimeWindowSet getRoot()
+    '''public TimeWindowSet getRoot()
     '''
 def getTimeWindowSetsById():
-    '''    public Iterator<TimeWindowSet> getTimeWindowSetsById(final String id)
+    '''public Iterator<TimeWindowSet> getTimeWindowSetsById(final String id)
     '''
 def getUnavailableTimeWindows():
-    '''    public Iterator<TimeWindow> getUnavailableTimeWindows()
+    '''public Iterator<TimeWindow> getUnavailableTimeWindows()
     '''
 def isAvailable():
-    '''    public boolean isAvailable(final Date start, final Date end)
+    '''public boolean isAvailable(final Date start, final Date end)
     '''
 def resetDisabledFlag():
-    '''    public void resetDisabledFlag()
+    '''public void resetDisabledFlag()
     '''

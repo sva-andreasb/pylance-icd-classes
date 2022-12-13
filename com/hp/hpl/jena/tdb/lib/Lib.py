@@ -1,6 +1,6 @@
 def printAbbrev():
-    '''    public static String printAbbrev(final Object obj)
+    '''public static String printAbbrev(final Object obj)
     '''
 def printAbbrevList():
-    '''    public static <T> String printAbbrevList(final List<T> objs)
+    '''public static <T> String printAbbrevList(final List<T> objs)
     '''

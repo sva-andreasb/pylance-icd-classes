@@ -8,22 +8,22 @@ PART_STARTED_EVENT_CODE = "int  1024"
 PART_COMPLETED_EVENT_CODE = "int  2048"
 PART_FAILED_EVENT_CODE = "int  4096"
 def ProgressEvent():
-    '''    public ProgressEvent(final long bytes)
+    '''public ProgressEvent(final long bytes)
     public ProgressEvent(final ProgressEventType eventType)
     public ProgressEvent(final ProgressEventType eventType, final long bytes)
     '''
 def getBytes():
-    '''    public long getBytes()
+    '''public long getBytes()
     '''
 def getBytesTransferred():
-    '''    public long getBytesTransferred()
+    '''public long getBytesTransferred()
     '''
 def getEventCode():
-    '''    public int getEventCode()
+    '''public int getEventCode()
     '''
 def getEventType():
-    '''    public ProgressEventType getEventType()
+    '''public ProgressEventType getEventType()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

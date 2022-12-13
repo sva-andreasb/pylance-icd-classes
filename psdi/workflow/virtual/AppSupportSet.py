@@ -1,9 +1,9 @@
 def AppSupportSet():
-    '''    public AppSupportSet(final MboServerInterface ms)
+    '''public AppSupportSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

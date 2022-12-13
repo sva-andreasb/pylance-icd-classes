@@ -1,6 +1,6 @@
 def TAMITFldJobPlanTask():
-    '''    public TAMITFldJobPlanTask(final MboValue mbv)
+    '''public TAMITFldJobPlanTask(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

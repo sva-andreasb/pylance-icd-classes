@@ -1,9 +1,9 @@
 def PriCalc():
-    '''    public PriCalc(final MboSet ms)
+    '''public PriCalc(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def setWoPriorityCalFormula():
-    '''    public void setWoPriorityCalFormula(final String formula)
+    '''public void setWoPriorityCalFormula(final String formula)
     '''

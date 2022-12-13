@@ -1,6 +1,6 @@
 def ResourceInUseException():
-    '''    public ResourceInUseException(final String message)
+    '''public ResourceInUseException(final String message)
     '''
 def whoLocked():
-    '''    public String whoLocked()
+    '''public String whoLocked()
     '''

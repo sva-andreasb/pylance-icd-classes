@@ -1,6 +1,6 @@
 def LeaseViewChgStat():
-    '''    public LeaseViewChgStat(final MboSet ms)
+    '''public LeaseViewChgStat(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

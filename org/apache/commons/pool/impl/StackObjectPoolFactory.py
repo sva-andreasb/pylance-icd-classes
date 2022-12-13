@@ -1,5 +1,5 @@
 def StackObjectPoolFactory():
-    '''    public StackObjectPoolFactory()
+    '''public StackObjectPoolFactory()
     public StackObjectPoolFactory(final int maxIdle)
     public StackObjectPoolFactory(final int maxIdle, final int initIdleCapacity)
     public StackObjectPoolFactory(final PoolableObjectFactory factory)
@@ -7,5 +7,5 @@ def StackObjectPoolFactory():
     public StackObjectPoolFactory(final PoolableObjectFactory factory, final int maxIdle, final int initIdleCapacity)
     '''
 def createPool():
-    '''    public ObjectPool createPool()
+    '''public ObjectPool createPool()
     '''

@@ -1,15 +1,15 @@
 def FldJobPlanTask():
-    '''    public FldJobPlanTask(final MboValue mbv)
+    '''public FldJobPlanTask(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action(final String strField)
+    '''public void action(final String strField)
     '''
 def hasList():
-    '''    public boolean hasList()
+    '''public boolean hasList()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

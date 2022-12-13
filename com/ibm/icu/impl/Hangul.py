@@ -15,26 +15,26 @@ JAMO_VT_COUNT = "int  588"
 HANGUL_COUNT = "int  11172"
 HANGUL_LIMIT = "int  55204"
 def isHangul():
-    '''    public static boolean isHangul(final int c)
+    '''public static boolean isHangul(final int c)
     '''
 def isHangulLV():
-    '''    public static boolean isHangulLV(int c)
+    '''public static boolean isHangulLV(int c)
     '''
 def isJamoL():
-    '''    public static boolean isJamoL(final int c)
+    '''public static boolean isJamoL(final int c)
     '''
 def isJamoV():
-    '''    public static boolean isJamoV(final int c)
+    '''public static boolean isJamoV(final int c)
     '''
 def isJamoT():
-    '''    public static boolean isJamoT(final int c)
+    '''public static boolean isJamoT(final int c)
     '''
 def isJamo():
-    '''    public static boolean isJamo(final int c)
+    '''public static boolean isJamo(final int c)
     '''
 def decompose():
-    '''    public static int decompose(int c, final Appendable buffer)
+    '''public static int decompose(int c, final Appendable buffer)
     '''
 def getRawDecomposition():
-    '''    public static void getRawDecomposition(int c, final Appendable buffer)
+    '''public static void getRawDecomposition(int c, final Appendable buffer)
     '''

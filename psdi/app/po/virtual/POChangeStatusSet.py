@@ -1,3 +1,3 @@
 def POChangeStatusSet():
-    '''    public POChangeStatusSet(final MboServerInterface ms)
+    '''public POChangeStatusSet(final MboServerInterface ms)
     '''

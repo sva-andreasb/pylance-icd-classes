@@ -1,3 +1,3 @@
 def DMCollLookupRuleSet():
-    '''    public DMCollLookupRuleSet(final MboServerInterface ms)
+    '''public DMCollLookupRuleSet(final MboServerInterface ms)
     '''

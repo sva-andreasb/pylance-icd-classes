@@ -1,6 +1,6 @@
 def initializeApp():
-    '''    public void initializeApp()
+    '''public void initializeApp()
     '''
 def STATUSP():
-    '''    public int STATUSP()
+    '''public int STATUSP()
     '''

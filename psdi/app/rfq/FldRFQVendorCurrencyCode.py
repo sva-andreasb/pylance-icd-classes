@@ -1,6 +1,6 @@
 def FldRFQVendorCurrencyCode():
-    '''    public FldRFQVendorCurrencyCode(final MboValue mbv)
+    '''public FldRFQVendorCurrencyCode(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

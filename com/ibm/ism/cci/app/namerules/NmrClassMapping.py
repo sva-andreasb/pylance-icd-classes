@@ -1,6 +1,6 @@
 def NmrClassMapping():
-    '''    public NmrClassMapping(final MboSet ms)
+    '''public NmrClassMapping(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -1,3 +1,3 @@
 def FldCIShiftNum():
-    '''    public FldCIShiftNum(final MboValue mbv)
+    '''public FldCIShiftNum(final MboValue mbv)
     '''

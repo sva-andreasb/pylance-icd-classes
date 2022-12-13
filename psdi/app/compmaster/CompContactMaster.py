@@ -1,9 +1,9 @@
 def CompContactMaster():
-    '''    public CompContactMaster(final MboSet ms)
+    '''public CompContactMaster(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''

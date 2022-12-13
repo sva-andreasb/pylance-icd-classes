@@ -1,6 +1,6 @@
 def FldCommTmpltSendToRecipientType():
-    '''    public FldCommTmpltSendToRecipientType(final MboValue mbv)
+    '''public FldCommTmpltSendToRecipientType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

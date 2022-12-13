@@ -1,6 +1,6 @@
 def FldCurrencyActive():
-    '''    public FldCurrencyActive(final MboValue mbv)
+    '''public FldCurrencyActive(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

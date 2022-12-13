@@ -1,3 +1,3 @@
 def getControlInstance():
-    '''    public Control getControlInstance(final Control control)
+    '''public Control getControlInstance(final Control control)
     '''

@@ -1,3 +1,3 @@
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''

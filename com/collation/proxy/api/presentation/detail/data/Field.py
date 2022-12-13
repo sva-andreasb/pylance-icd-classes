@@ -1,33 +1,33 @@
 def Field():
-    '''    public Field()
+    '''public Field()
     '''
 def setHidden():
-    '''    public void setHidden(final boolean hidden)
+    '''public void setHidden(final boolean hidden)
     '''
 def getHidden():
-    '''    public boolean getHidden()
+    '''public boolean getHidden()
     '''
 def addAction():
-    '''    public void addAction(final Action action)
+    '''public void addAction(final Action action)
     '''
 def getActionList():
-    '''    public List getActionList()
+    '''public List getActionList()
     '''
 def addNested():
-    '''    public void addNested(final Nested nested)
+    '''public void addNested(final Nested nested)
     '''
 def addPlain():
-    '''    public void addPlain(final Plain plain)
+    '''public void addPlain(final Plain plain)
     '''
 def getNested():
-    '''    public Nested getNested()
+    '''public Nested getNested()
     '''
 def getPlainList():
-    '''    public List getPlainList()
+    '''public List getPlainList()
     '''
 def isNested():
-    '''    public boolean isNested()
+    '''public boolean isNested()
     '''
 def isPlain():
-    '''    public boolean isPlain()
+    '''public boolean isPlain()
     '''

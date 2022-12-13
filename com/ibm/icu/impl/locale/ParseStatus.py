@@ -1,18 +1,18 @@
 def ParseStatus():
-    '''    public ParseStatus()
+    '''public ParseStatus()
     '''
 def reset():
-    '''    public void reset()
+    '''public void reset()
     '''
 def isError():
-    '''    public boolean isError()
+    '''public boolean isError()
     '''
 def getErrorIndex():
-    '''    public int getErrorIndex()
+    '''public int getErrorIndex()
     '''
 def getParseLength():
-    '''    public int getParseLength()
+    '''public int getParseLength()
     '''
 def getErrorMessage():
-    '''    public String getErrorMessage()
+    '''public String getErrorMessage()
     '''

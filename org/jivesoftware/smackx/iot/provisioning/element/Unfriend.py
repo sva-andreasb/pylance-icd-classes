@@ -1,20 +1,20 @@
 ELEMENT = "String  \"UNFRIEND\""
 NAMESPACE = "String  \"urn:xmpp:iot:provisioning\""
 def Unfriend():
-    '''    public Unfriend(final BareJid jid)
+    '''public Unfriend(final BareJid jid)
     '''
 def getJid():
-    '''    public BareJid getJid()
+    '''public BareJid getJid()
     '''
 def getElementName():
-    '''    public String getElementName()
+    '''public String getElementName()
     '''
 def getNamespace():
-    '''    public String getNamespace()
+    '''public String getNamespace()
     '''
 def toXML():
-    '''    public XmlStringBuilder toXML(final String enclosingNamespace)
+    '''public XmlStringBuilder toXML(final String enclosingNamespace)
     '''
 def from():
-    '''    public static Unfriend from(final Message message)
+    '''public static Unfriend from(final Message message)
     '''

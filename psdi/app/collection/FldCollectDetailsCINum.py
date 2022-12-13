@@ -1,9 +1,9 @@
 def FldCollectDetailsCINum():
-    '''    public FldCollectDetailsCINum(final MboValue mbv)
+    '''public FldCollectDetailsCINum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,3 +1,3 @@
 def ThreadLoggerDetailsSet():
-    '''    public ThreadLoggerDetailsSet(final MboServerInterface ms)
+    '''public ThreadLoggerDetailsSet(final MboServerInterface ms)
     '''

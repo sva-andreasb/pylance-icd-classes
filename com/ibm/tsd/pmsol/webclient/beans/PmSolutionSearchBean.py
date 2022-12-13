@@ -1,9 +1,9 @@
 def PmSolutionSearchBean():
-    '''    public PmSolutionSearchBean()
+    '''public PmSolutionSearchBean()
     '''
 def find():
-    '''    public int find()
+    '''public int find()
     '''
 def clear():
-    '''    public int clear()
+    '''public int clear()
     '''

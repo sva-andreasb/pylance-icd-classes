@@ -1,6 +1,6 @@
 def MaxIntObjectSet():
-    '''    public MaxIntObjectSet(final MboServerInterface ms)
+    '''public MaxIntObjectSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

@@ -1,15 +1,15 @@
 def PlusPPriceBookLineLabor():
-    '''    public PlusPPriceBookLineLabor(final MboSet ms)
+    '''public PlusPPriceBookLineLabor(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def doRefresh():
-    '''    public void doRefresh()
+    '''public void doRefresh()
     '''

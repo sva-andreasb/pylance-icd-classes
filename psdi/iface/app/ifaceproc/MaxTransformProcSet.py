@@ -1,6 +1,6 @@
 def MaxTransformProcSet():
-    '''    public MaxTransformProcSet(final MboServerInterface ms)
+    '''public MaxTransformProcSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

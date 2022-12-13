@@ -1,15 +1,15 @@
 def GWASerializationHelper():
-    '''    public GWASerializationHelper(final AbstractTreeGridMiniAppBean bean)
+    '''public GWASerializationHelper(final AbstractTreeGridMiniAppBean bean)
     '''
 def get():
-    '''    public UserInfo get()
+    '''public UserInfo get()
     '''
 def getBaseUIJson():
-    '''    public JSONObject getBaseUIJson()
+    '''public JSONObject getBaseUIJson()
     '''
 def getProperty():
-    '''    public Object getProperty(final String prop)
+    '''public Object getProperty(final String prop)
     '''
 def getBean():
-    '''    public AbstractTreeGridMiniAppBean getBean()
+    '''public AbstractTreeGridMiniAppBean getBean()
     '''

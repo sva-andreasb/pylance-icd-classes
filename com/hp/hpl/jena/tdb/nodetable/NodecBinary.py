@@ -1,12 +1,12 @@
 def encode():
-    '''    public int encode(final Node node, final ByteBuffer bb, final PrefixMapping pmap)
+    '''public int encode(final Node node, final ByteBuffer bb, final PrefixMapping pmap)
     '''
 def decode():
-    '''    public Node decode(final ByteBuffer bb, final PrefixMapping pmap)
+    '''public Node decode(final ByteBuffer bb, final PrefixMapping pmap)
     '''
 def alloc():
-    '''    public ByteBuffer alloc(final Node node)
+    '''public ByteBuffer alloc(final Node node)
     '''
 def release():
-    '''    public void release(final ByteBuffer bb)
+    '''public void release(final ByteBuffer bb)
     '''

@@ -1,3 +1,3 @@
 def ObjectFormulaConditionSet():
-    '''    public ObjectFormulaConditionSet(final MboServerInterface ms)
+    '''public ObjectFormulaConditionSet(final MboServerInterface ms)
     '''

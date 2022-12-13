@@ -1,3 +1,3 @@
 def getBrowserProxyInfo():
-    '''    public BrowserProxyInfo getBrowserProxyInfo()
+    '''public BrowserProxyInfo getBrowserProxyInfo()
     '''

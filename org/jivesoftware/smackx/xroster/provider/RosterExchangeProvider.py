@@ -1,3 +1,3 @@
 def parse():
-    '''    public RosterExchange parse(final XmlPullParser parser, final int initialDepth)
+    '''public RosterExchange parse(final XmlPullParser parser, final int initialDepth)
     '''

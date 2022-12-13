@@ -1,6 +1,6 @@
 def PPAFldOrganization():
-    '''    public PPAFldOrganization(final MboValue mbv)
+    '''public PPAFldOrganization(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

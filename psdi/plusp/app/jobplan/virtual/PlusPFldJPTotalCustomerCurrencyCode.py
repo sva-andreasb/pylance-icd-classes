@@ -1,12 +1,12 @@
 def PlusPFldJPTotalCustomerCurrencyCode():
-    '''    public PlusPFldJPTotalCustomerCurrencyCode(final MboValue mbv)
+    '''public PlusPFldJPTotalCustomerCurrencyCode(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

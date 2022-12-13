@@ -1,15 +1,15 @@
 def FldAMCrewLabUnRestrictedToLaborCode():
-    '''    public FldAMCrewLabUnRestrictedToLaborCode(final MboValue mbv)
+    '''public FldAMCrewLabUnRestrictedToLaborCode(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getSqlForEnteredFields():
-    '''    public SqlFormat getSqlForEnteredFields()
+    '''public SqlFormat getSqlForEnteredFields()
     '''

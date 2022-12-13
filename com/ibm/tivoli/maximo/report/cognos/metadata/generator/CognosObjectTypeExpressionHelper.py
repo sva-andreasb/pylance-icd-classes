@@ -1,3 +1,3 @@
 def CognosObjectTypeExpressionHelper():
-    '''    public CognosObjectTypeExpressionHelper()
+    '''public CognosObjectTypeExpressionHelper()
     '''

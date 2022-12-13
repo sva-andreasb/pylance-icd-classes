@@ -1,3 +1,3 @@
 def getText():
-    '''    public String getText()
+    '''public String getText()
     '''

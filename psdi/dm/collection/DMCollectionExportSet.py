@@ -1,3 +1,3 @@
 def DMCollectionExportSet():
-    '''    public DMCollectionExportSet(final MboServerInterface ms)
+    '''public DMCollectionExportSet(final MboServerInterface ms)
     '''

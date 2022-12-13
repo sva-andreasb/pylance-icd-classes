@@ -1,9 +1,9 @@
 def ViewWOPMsBeanCI():
-    '''    public ViewWOPMsBeanCI()
+    '''public ViewWOPMsBeanCI()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def doRefresh():
-    '''    public void doRefresh()
+    '''public void doRefresh()
     '''

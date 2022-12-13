@@ -1,3 +1,3 @@
 def RMIPluginSocketFactory():
-    '''    public RMIPluginSocketFactory()
+    '''public RMIPluginSocketFactory()
     '''

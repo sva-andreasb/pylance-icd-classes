@@ -1,6 +1,6 @@
 def DrawingTable():
-    '''    public DrawingTable(final CTTable table)
+    '''public DrawingTable(final CTTable table)
     '''
 def getRows():
-    '''    public DrawingTableRow[] getRows()
+    '''public DrawingTableRow[] getRows()
     '''

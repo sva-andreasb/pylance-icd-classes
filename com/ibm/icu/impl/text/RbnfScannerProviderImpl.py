@@ -1,18 +1,18 @@
 def RbnfScannerProviderImpl():
-    '''    public RbnfScannerProviderImpl()
+    '''public RbnfScannerProviderImpl()
     '''
 def get():
-    '''    public RbnfLenientScanner get(final ULocale locale, final String extras)
+    '''public RbnfLenientScanner get(final ULocale locale, final String extras)
     '''
 def allIgnorable():
-    '''    public boolean allIgnorable(final String s)
+    '''public boolean allIgnorable(final String s)
     '''
 def findText():
-    '''    public int[] findText(final String str, final String key, final int startingAt)
+    '''public int[] findText(final String str, final String key, final int startingAt)
     '''
 def findText2():
-    '''    public int[] findText2(final String str, final String key, final int startingAt)
+    '''public int[] findText2(final String str, final String key, final int startingAt)
     '''
 def prefixLength():
-    '''    public int prefixLength(final String str, final String prefix)
+    '''public int prefixLength(final String str, final String prefix)
     '''

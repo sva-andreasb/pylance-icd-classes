@@ -1,3 +1,3 @@
 def DPAMSoftwareSet():
-    '''    public DPAMSoftwareSet(final MboServerInterface ms)
+    '''public DPAMSoftwareSet(final MboServerInterface ms)
     '''

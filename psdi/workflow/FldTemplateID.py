@@ -1,6 +1,6 @@
 def FldTemplateID():
-    '''    public FldTemplateID(final MboValue mbv)
+    '''public FldTemplateID(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

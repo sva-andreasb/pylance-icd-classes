@@ -1,3 +1,3 @@
 def getScreenResolution():
-    '''    public static int getScreenResolution()
+    '''public static int getScreenResolution()
     '''

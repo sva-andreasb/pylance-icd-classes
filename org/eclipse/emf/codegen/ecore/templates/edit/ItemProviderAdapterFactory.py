@@ -1,9 +1,9 @@
 def ItemProviderAdapterFactory():
-    '''    public ItemProviderAdapterFactory()
+    '''public ItemProviderAdapterFactory()
     '''
 def create():
-    '''    public static synchronized ItemProviderAdapterFactory create(final String lineSeparator)
+    '''public static synchronized ItemProviderAdapterFactory create(final String lineSeparator)
     '''
 def generate():
-    '''    public String generate(final Object argument)
+    '''public String generate(final Object argument)
     '''

@@ -1,3 +1,3 @@
 def cancelDialog():
-    '''    public int cancelDialog()
+    '''public int cancelDialog()
     '''

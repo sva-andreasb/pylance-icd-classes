@@ -1,3 +1,3 @@
 def OslcApplication():
-    '''    public OslcApplication(final MboSet ms)
+    '''public OslcApplication(final MboSet ms)
     '''

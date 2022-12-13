@@ -1,3 +1,3 @@
 def PlusPCommLogSet():
-    '''    public PlusPCommLogSet(final MboServerInterface arg0)
+    '''public PlusPCommLogSet(final MboServerInterface arg0)
     '''

@@ -11,11 +11,11 @@ ERROR_TEXT_DATABASE_CONNECTION_CLOSED_ERROR = "String  \"A database has been clo
 OTHER_DATABASE_ERRORS = "int  3001"
 ERROR_TEXT_OTHER_DATABASE_ERRORS = "String  \"An unexpected database system error has occurred. \""
 def NrsDatabaseException():
-    '''    public NrsDatabaseException(final int errorCode)
+    '''public NrsDatabaseException(final int errorCode)
     '''
 def getErrorText():
-    '''    public static String getErrorText(final int errorCode)
+    '''public static String getErrorText(final int errorCode)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

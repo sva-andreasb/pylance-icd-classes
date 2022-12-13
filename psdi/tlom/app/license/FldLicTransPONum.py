@@ -1,3 +1,3 @@
 def FldLicTransPONum():
-    '''    public FldLicTransPONum(final MboValue mbv)
+    '''public FldLicTransPONum(final MboValue mbv)
     '''

@@ -1,6 +1,6 @@
 def FldToolTransRotAssetSite():
-    '''    public FldToolTransRotAssetSite(final MboValue mbv)
+    '''public FldToolTransRotAssetSite(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

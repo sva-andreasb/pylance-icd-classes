@@ -1,6 +1,6 @@
 def PublicURI():
-    '''    public PublicURI(final MboSet ms)
+    '''public PublicURI(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

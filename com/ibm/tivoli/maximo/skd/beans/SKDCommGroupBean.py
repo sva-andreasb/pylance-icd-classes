@@ -1,3 +1,3 @@
 def execute():
-    '''    public synchronized int execute(final MboSetRemote mboset)
+    '''public synchronized int execute(final MboSetRemote mboset)
     '''

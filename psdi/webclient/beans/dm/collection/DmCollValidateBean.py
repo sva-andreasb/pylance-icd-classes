@@ -1,9 +1,9 @@
 def startValidation():
-    '''    public int startValidation()
+    '''public int startValidation()
     '''
 def refreshStatus():
-    '''    public int refreshStatus()
+    '''public int refreshStatus()
     '''
 def docancel():
-    '''    public int docancel()
+    '''public int docancel()
     '''

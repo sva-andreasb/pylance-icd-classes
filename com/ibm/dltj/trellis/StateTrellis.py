@@ -1,33 +1,33 @@
 def StateTrellis():
-    '''    public StateTrellis(final StateExtractor extractor, final GlossFilter filter)
+    '''public StateTrellis(final StateExtractor extractor, final GlossFilter filter)
     '''
 def init():
-    '''    public void init(final int n)
+    '''public void init(final int n)
     '''
 def clear():
-    '''    public void clear()
+    '''public void clear()
     '''
 def getStartIndex():
-    '''    public int getStartIndex()
+    '''public int getStartIndex()
     '''
 def getEndIndex():
-    '''    public int getEndIndex()
+    '''public int getEndIndex()
     '''
 def isAmbiguous():
-    '''    public boolean isAmbiguous(final int n)
+    '''public boolean isAmbiguous(final int n)
     '''
 def isEmpty():
-    '''    public boolean isEmpty()
+    '''public boolean isEmpty()
     '''
 def addElement():
-    '''    public void addElement(final int n, final int endIndex, final Object o)
+    '''public void addElement(final int n, final int endIndex, final Object o)
     '''
 def process():
-    '''    public EdgeListElement process()
+    '''public EdgeListElement process()
     '''
 def getElement():
-    '''    public Object[] getElement(final int n, final int n2)
+    '''public Object[] getElement(final int n, final int n2)
     '''
 def append():
-    '''    public void append(final Trellis trellis, final int n, final int endIndex)
+    '''public void append(final Trellis trellis, final int n, final int endIndex)
     '''

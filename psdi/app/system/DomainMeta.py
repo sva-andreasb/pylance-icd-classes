@@ -1,3 +1,3 @@
 def DomainMeta():
-    '''    public DomainMeta(final MboSet ms)
+    '''public DomainMeta(final MboSet ms)
     '''

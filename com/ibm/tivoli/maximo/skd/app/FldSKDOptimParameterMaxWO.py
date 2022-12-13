@@ -1,6 +1,6 @@
 def FldSKDOptimParameterMaxWO():
-    '''    public FldSKDOptimParameterMaxWO(final MboValue mbv)
+    '''public FldSKDOptimParameterMaxWO(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,3 +1,3 @@
 def IlvDashboardEditBar():
-    '''    public IlvDashboardEditBar()
+    '''public IlvDashboardEditBar()
     '''

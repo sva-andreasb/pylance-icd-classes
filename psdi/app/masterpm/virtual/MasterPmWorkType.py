@@ -1,3 +1,3 @@
 def MasterPmWorkType():
-    '''    public MasterPmWorkType(final MboSet ms)
+    '''public MasterPmWorkType(final MboSet ms)
     '''

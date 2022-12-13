@@ -1,6 +1,6 @@
 def DSUB():
-    '''    public DSUB()
+    '''public DSUB()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

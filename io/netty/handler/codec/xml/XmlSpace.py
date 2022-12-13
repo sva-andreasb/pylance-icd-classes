@@ -1,3 +1,3 @@
 def XmlSpace():
-    '''    public XmlSpace(final String data)
+    '''public XmlSpace(final String data)
     '''

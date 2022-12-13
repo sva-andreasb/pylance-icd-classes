@@ -1,3 +1,3 @@
 def ScheduleSet():
-    '''    public ScheduleSet(final MboServerInterface ms)
+    '''public ScheduleSet(final MboServerInterface ms)
     '''

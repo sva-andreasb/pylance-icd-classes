@@ -1,6 +1,6 @@
 def RSConfigFldCommonModified():
-    '''    public RSConfigFldCommonModified(final MboValue mbv)
+    '''public RSConfigFldCommonModified(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

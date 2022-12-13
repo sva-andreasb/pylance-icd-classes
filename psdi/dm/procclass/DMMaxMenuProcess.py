@@ -1,6 +1,6 @@
 def DMMaxMenuProcess():
-    '''    public DMMaxMenuProcess()
+    '''public DMMaxMenuProcess()
     '''
 def setAdditionalData():
-    '''    public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
+    '''public void setAdditionalData(final MboSetRemote mboSet, final String objectName)
     '''

@@ -1,6 +1,6 @@
 def FldReorderItemsAllItems():
-    '''    public FldReorderItemsAllItems(final MboValue mbv)
+    '''public FldReorderItemsAllItems(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

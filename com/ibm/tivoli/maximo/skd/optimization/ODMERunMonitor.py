@@ -1,6 +1,6 @@
 def ODMERunMonitor():
-    '''    public ODMERunMonitor(final MboSet ms)
+    '''public ODMERunMonitor(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -1,3 +1,3 @@
 def MaxTableSet():
-    '''    public MaxTableSet(final MboServerInterface ms)
+    '''public MaxTableSet(final MboServerInterface ms)
     '''

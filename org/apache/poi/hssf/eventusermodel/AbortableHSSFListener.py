@@ -1,3 +1,3 @@
 def processRecord():
-    '''    public void processRecord(final Record record)
+    '''public void processRecord(final Record record)
     '''

@@ -1,9 +1,9 @@
 def ThrowableInformation():
-    '''    public ThrowableInformation(final Throwable throwable)
+    '''public ThrowableInformation(final Throwable throwable)
     '''
 def getThrowable():
-    '''    public Throwable getThrowable()
+    '''public Throwable getThrowable()
     '''
 def getThrowableStrRep():
-    '''    public synchronized String[] getThrowableStrRep()
+    '''public synchronized String[] getThrowableStrRep()
     '''

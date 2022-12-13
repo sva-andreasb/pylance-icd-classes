@@ -1,6 +1,6 @@
 def FldDeployedMeterIsDelta():
-    '''    public FldDeployedMeterIsDelta(final MboValue mbv)
+    '''public FldDeployedMeterIsDelta(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

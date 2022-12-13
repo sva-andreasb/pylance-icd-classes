@@ -1,10 +1,10 @@
 type = "SchemaType  (SchemaType)XmlBeans.typeSystemForClassLoader(CTShapeLayout.class.getClassLoader(), \"schemaorg_apache_xmlbeans.system.sF1327CCA741569E70F9CA8C9AF9B44B2\").resolveHandle(\"ctshapelayoutbda4type\")"
 def newInstance():
-    '''    public static CTShapeLayout newInstance()
+    '''public static CTShapeLayout newInstance()
     public static CTShapeLayout newInstance(final XmlOptions xmlOptions)
     '''
 def parse():
-    '''    public static CTShapeLayout parse(final String s)
+    '''public static CTShapeLayout parse(final String s)
     public static CTShapeLayout parse(final String s, final XmlOptions xmlOptions)
     public static CTShapeLayout parse(final File file)
     public static CTShapeLayout parse(final File file, final XmlOptions xmlOptions)
@@ -22,6 +22,6 @@ def parse():
     public static CTShapeLayout parse(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xmlInputStream, final XmlOptions xmlOptions)
     '''

@@ -1,3 +1,3 @@
 def SMSSet():
-    '''    public SMSSet(final MboServerInterface ms)
+    '''public SMSSet(final MboServerInterface ms)
     '''

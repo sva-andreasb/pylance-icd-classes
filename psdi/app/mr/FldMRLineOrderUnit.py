@@ -1,6 +1,6 @@
 def FldMRLineOrderUnit():
-    '''    public FldMRLineOrderUnit(final MboValue mbv)
+    '''public FldMRLineOrderUnit(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

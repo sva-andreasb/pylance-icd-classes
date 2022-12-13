@@ -1,34 +1,34 @@
 def PAContext():
-    '''    public PAContext(final Component component)
+    '''public PAContext(final Component component)
     public PAContext(final Graphics2D g, final Dimension size)
     public PAContext(final PAPencil pencil)
     '''
 def draw():
-    '''    public void draw(final InputStream inputStream)
+    '''public void draw(final InputStream inputStream)
     '''
 def getLastUnknownIdentifier():
-    '''    public Object getLastUnknownIdentifier()
+    '''public Object getLastUnknownIdentifier()
     '''
 def popNumberOperands():
-    '''    public double[] popNumberOperands(final int n)
+    '''public double[] popNumberOperands(final int n)
     '''
 def popOperands():
-    '''    public Object[] popOperands(final int n)
+    '''public Object[] popOperands(final int n)
     '''
 def peekOperand():
-    '''    public Object peekOperand()
+    '''public Object peekOperand()
     '''
 def findIdentifier():
-    '''    public Object findIdentifier(final Object identifier)
+    '''public Object findIdentifier(final Object identifier)
     '''
 def findDictionary():
-    '''    public Object findDictionary(final Object identifier)
+    '''public Object findDictionary(final Object identifier)
     '''
 def collectArray():
-    '''    public void collectArray()
+    '''public void collectArray()
     '''
 def execute():
-    '''    public void execute(final PAContext context)
+    '''public void execute(final PAContext context)
     public void execute(final PAContext context)
     public void execute(final PAContext context)
     public void execute(final PAContext context)

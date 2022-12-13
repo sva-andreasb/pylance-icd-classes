@@ -1,6 +1,6 @@
 def SetReportSecurityTableBean():
-    '''    public SetReportSecurityTableBean()
+    '''public SetReportSecurityTableBean()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''

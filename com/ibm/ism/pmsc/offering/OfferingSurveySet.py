@@ -1,3 +1,3 @@
 def OfferingSurveySet():
-    '''    public OfferingSurveySet(final MboServerInterface ms)
+    '''public OfferingSurveySet(final MboServerInterface ms)
     '''

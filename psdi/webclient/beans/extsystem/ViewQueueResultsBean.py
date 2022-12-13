@@ -1,9 +1,9 @@
 def filedownload():
-    '''    public int filedownload()
+    '''public int filedownload()
     '''
 def instantdelete():
-    '''    public int instantdelete()
+    '''public int instantdelete()
     '''
 def finish():
-    '''    public int finish()
+    '''public int finish()
     '''

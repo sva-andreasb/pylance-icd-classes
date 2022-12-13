@@ -1,136 +1,136 @@
 def MaxAttributeCfg():
-    '''    public MaxAttributeCfg(final MboSet ms)
+    '''public MaxAttributeCfg(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def deleteIndexesForAttribute():
-    '''    public void deleteIndexesForAttribute()
+    '''public void deleteIndexesForAttribute()
     '''
 def canUndelete():
-    '''    public void canUndelete()
+    '''public void canUndelete()
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def getAuditColumnSet():
-    '''    public MboSetRemote getAuditColumnSet(final boolean anyStatus)
+    '''public MboSetRemote getAuditColumnSet(final boolean anyStatus)
     '''
 def getLangColumnSet():
-    '''    public MboSetRemote getLangColumnSet(final boolean anyStatus)
+    '''public MboSetRemote getLangColumnSet(final boolean anyStatus)
     '''
 def getAuditColumn():
-    '''    public MboRemote getAuditColumn(final boolean anyStatus)
+    '''public MboRemote getAuditColumn(final boolean anyStatus)
     '''
 def getLangColumn():
-    '''    public MboRemote getLangColumn(final boolean anyStatus)
+    '''public MboRemote getLangColumn(final boolean anyStatus)
     '''
 def langAndAuditMetadata():
-    '''    public void langAndAuditMetadata(final MboRemote baseCol)
+    '''public void langAndAuditMetadata(final MboRemote baseCol)
     '''
 def getSameAsParent():
-    '''    public MboRemote getSameAsParent()
+    '''public MboRemote getSameAsParent()
     '''
 def checkSameAsChild():
-    '''    public void checkSameAsChild()
+    '''public void checkSameAsChild()
     '''
 def setValuesForSameAs():
-    '''    public void setValuesForSameAs(final MboRemote sameasMbo, final boolean changeMustBe, final boolean mustBeValue)
+    '''public void setValuesForSameAs(final MboRemote sameasMbo, final boolean changeMustBe, final boolean mustBeValue)
     '''
 def preventInternalChanges():
-    '''    public boolean preventInternalChanges()
+    '''public boolean preventInternalChanges()
     '''
 def sameAsMiscChecks():
-    '''    public void sameAsMiscChecks(final MboRemote sameasMbo, final boolean adjustYORN)
+    '''public void sameAsMiscChecks(final MboRemote sameasMbo, final boolean adjustYORN)
     '''
 def setChanged():
-    '''    public void setChanged()
+    '''public void setChanged()
     '''
 def getValidateOrder():
-    '''    public String[] getValidateOrder()
+    '''public String[] getValidateOrder()
     '''
 def isLocAllowed():
-    '''    public boolean isLocAllowed()
+    '''public boolean isLocAllowed()
     '''
 def getLocDefault():
-    '''    public boolean getLocDefault()
+    '''public boolean getLocDefault()
     '''
 def nativeColumnExists():
-    '''    public boolean nativeColumnExists()
+    '''public boolean nativeColumnExists()
     '''
 def setLengthAndScaleReadonlyState():
-    '''    public void setLengthAndScaleReadonlyState()
+    '''public void setLengthAndScaleReadonlyState()
     '''
 def validateDomain():
-    '''    public void validateDomain(final String domainid)
+    '''public void validateDomain(final String domainid)
     public void validateDomain(final String domainid, final String errorTitle, final String attrmaxtype, final int attrlength, final int attrscale, final int whatToValidate)
     '''
 def validateDefaultValue():
-    '''    public void validateDefaultValue()
+    '''public void validateDefaultValue()
     '''
 def indexInvolvement():
-    '''    public boolean indexInvolvement()
+    '''public boolean indexInvolvement()
     '''
 def getCurrentNativeDatatype():
-    '''    public String getCurrentNativeDatatype()
+    '''public String getCurrentNativeDatatype()
     '''
 def getNewNativeDatatype():
-    '''    public String getNewNativeDatatype()
+    '''public String getNewNativeDatatype()
     '''
 def columnIsEmpty():
-    '''    public boolean columnIsEmpty()
+    '''public boolean columnIsEmpty()
     '''
 def nullValueExists():
-    '''    public boolean nullValueExists()
+    '''public boolean nullValueExists()
     '''
 def getCurrentAttribute():
-    '''    public MboRemote getCurrentAttribute()
+    '''public MboRemote getCurrentAttribute()
     '''
 def getNativeDateDefault():
-    '''    public String getNativeDateDefault()
+    '''public String getNativeDateDefault()
     '''
 def getDefaultString():
-    '''    public String getDefaultString()
+    '''public String getDefaultString()
     '''
 def getSequenceInfo():
-    '''    public String[] getSequenceInfo()
+    '''public String[] getSequenceInfo()
     '''
 def getSequenceMbo():
-    '''    public MboRemote getSequenceMbo()
+    '''public MboRemote getSequenceMbo()
     '''
 def sequenceExists():
-    '''    public boolean sequenceExists(final String sequenceName, final boolean differentColumn)
+    '''public boolean sequenceExists(final String sequenceName, final boolean differentColumn)
     '''
 def validateSearchType():
-    '''    public void validateSearchType()
+    '''public void validateSearchType()
     '''
 def setSearchTypeValue():
-    '''    public void setSearchTypeValue()
+    '''public void setSearchTypeValue()
     '''
 def setSearchTypeReadonlyFlag():
-    '''    public void setSearchTypeReadonlyFlag()
+    '''public void setSearchTypeReadonlyFlag()
     '''
 def createAutokeyMbos():
-    '''    public void createAutokeyMbos(final String autokeyname)
+    '''public void createAutokeyMbos(final String autokeyname)
     '''
 def getMboValueData():
-    '''    public MboValueData getMboValueData(final String attribute)
+    '''public MboValueData getMboValueData(final String attribute)
     '''
 def smartFill():
-    '''    public MboSetRemote smartFill(final String attribute, final String value, final boolean exact)
+    '''public MboSetRemote smartFill(final String attribute, final String value, final boolean exact)
     '''
 def clearNonEssentialRelatedSets():
-    '''    public void clearNonEssentialRelatedSets()
+    '''public void clearNonEssentialRelatedSets()
     '''

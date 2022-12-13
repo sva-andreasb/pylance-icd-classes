@@ -1,6 +1,6 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def showOLSCRelationshipDetails():
-    '''    public void showOLSCRelationshipDetails()
+    '''public void showOLSCRelationshipDetails()
     '''

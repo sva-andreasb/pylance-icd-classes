@@ -1,3 +1,3 @@
 def getActiveClusterSetIdentityFromCellName():
-    '''    public static Identity getActiveClusterSetIdentityFromCellName(final String cellName)
+    '''public static Identity getActiveClusterSetIdentityFromCellName(final String cellName)
     '''

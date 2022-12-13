@@ -1,3 +1,3 @@
 def TestInputFile():
-    '''    public TestInputFile(final String filename, final String sheetName, final String[] tabs)
+    '''public TestInputFile(final String filename, final String sheetName, final String[] tabs)
     '''

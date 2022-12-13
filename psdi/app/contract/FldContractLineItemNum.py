@@ -1,15 +1,15 @@
 def FldContractLineItemNum():
-    '''    public FldContractLineItemNum(final MboValue mbv)
+    '''public FldContractLineItemNum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def getAppLink():
-    '''    public String[] getAppLink()
+    '''public String[] getAppLink()
     '''

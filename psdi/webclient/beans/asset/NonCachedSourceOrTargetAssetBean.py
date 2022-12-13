@@ -1,3 +1,3 @@
 def NonCachedSourceOrTargetAssetBean():
-    '''    public NonCachedSourceOrTargetAssetBean()
+    '''public NonCachedSourceOrTargetAssetBean()
     '''

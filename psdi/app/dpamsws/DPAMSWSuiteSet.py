@@ -1,3 +1,3 @@
 def DPAMSWSuiteSet():
-    '''    public DPAMSWSuiteSet(final MboServerInterface ms)
+    '''public DPAMSWSuiteSet(final MboServerInterface ms)
     '''

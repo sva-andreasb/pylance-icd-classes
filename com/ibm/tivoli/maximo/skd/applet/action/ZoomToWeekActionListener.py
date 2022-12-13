@@ -1,6 +1,6 @@
 def ZoomToWeekActionListener():
-    '''    public ZoomToWeekActionListener(final IlvTimeScrollController scroller)
+    '''public ZoomToWeekActionListener(final IlvTimeScrollController scroller)
     '''
 def zoom():
-    '''    public void zoom(final IlvTimeScrollController scroller)
+    '''public void zoom(final IlvTimeScrollController scroller)
     '''

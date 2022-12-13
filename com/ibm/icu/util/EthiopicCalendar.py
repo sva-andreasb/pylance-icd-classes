@@ -12,7 +12,7 @@ HAMLE = "int  10"
 NEHASSE = "int  11"
 PAGUMEN = "int  12"
 def EthiopicCalendar():
-    '''    public EthiopicCalendar()
+    '''public EthiopicCalendar()
     public EthiopicCalendar(final TimeZone zone)
     public EthiopicCalendar(final Locale aLocale)
     public EthiopicCalendar(final ULocale locale)
@@ -23,14 +23,14 @@ def EthiopicCalendar():
     public EthiopicCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''
 def setAmeteAlemEra():
-    '''    public void setAmeteAlemEra(final boolean onOff)
+    '''public void setAmeteAlemEra(final boolean onOff)
     '''
 def isAmeteAlemEra():
-    '''    public boolean isAmeteAlemEra()
+    '''public boolean isAmeteAlemEra()
     '''
 def EthiopicToJD():
-    '''    public static int EthiopicToJD(final long year, final int month, final int date)
+    '''public static int EthiopicToJD(final long year, final int month, final int date)
     '''

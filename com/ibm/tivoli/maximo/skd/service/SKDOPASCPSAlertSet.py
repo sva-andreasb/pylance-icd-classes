@@ -1,3 +1,3 @@
 def SKDOPASCPSAlertSet():
-    '''    public SKDOPASCPSAlertSet(final MboServerInterface ms)
+    '''public SKDOPASCPSAlertSet(final MboServerInterface ms)
     '''

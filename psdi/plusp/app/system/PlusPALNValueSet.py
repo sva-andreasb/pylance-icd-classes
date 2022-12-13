@@ -1,3 +1,3 @@
 def PlusPALNValueSet():
-    '''    public PlusPALNValueSet(final MboServerInterface arg0)
+    '''public PlusPALNValueSet(final MboServerInterface arg0)
     '''

@@ -1,6 +1,6 @@
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def getNodeDataType():
-    '''    public int getNodeDataType(final MboRemote mbo)
+    '''public int getNodeDataType(final MboRemote mbo)
     '''

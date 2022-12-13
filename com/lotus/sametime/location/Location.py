@@ -1,58 +1,58 @@
 def Location():
-    '''    public Location(final boolean callMe, final String city, final String countryName, final String state, final String phoneNumber, final String userDefinedLocationName, final String zipCode, final String timeZoneId)
+    '''public Location(final boolean callMe, final String city, final String countryName, final String state, final String phoneNumber, final String userDefinedLocationName, final String zipCode, final String timeZoneId)
     public Location()
     '''
 def getCallMe():
-    '''    public boolean getCallMe()
+    '''public boolean getCallMe()
     '''
 def setCallMe():
-    '''    public void setCallMe(final boolean callMe)
+    '''public void setCallMe(final boolean callMe)
     '''
 def getCity():
-    '''    public String getCity()
+    '''public String getCity()
     '''
 def setCity():
-    '''    public void setCity(final String city)
+    '''public void setCity(final String city)
     '''
 def getCountryName():
-    '''    public String getCountryName()
+    '''public String getCountryName()
     '''
 def setCountryName():
-    '''    public void setCountryName(final String countryName)
+    '''public void setCountryName(final String countryName)
     '''
 def getPhoneNumber():
-    '''    public String getPhoneNumber()
+    '''public String getPhoneNumber()
     '''
 def setPhoneNumber():
-    '''    public void setPhoneNumber(final String phoneNumber)
+    '''public void setPhoneNumber(final String phoneNumber)
     '''
 def getState():
-    '''    public String getState()
+    '''public String getState()
     '''
 def setState():
-    '''    public void setState(final String state)
+    '''public void setState(final String state)
     '''
 def getUserDefinedLocationName():
-    '''    public String getUserDefinedLocationName()
+    '''public String getUserDefinedLocationName()
     '''
 def setUserDefinedLocationName():
-    '''    public void setUserDefinedLocationName(final String userDefinedLocationName)
+    '''public void setUserDefinedLocationName(final String userDefinedLocationName)
     '''
 def getZipCode():
-    '''    public String getZipCode()
+    '''public String getZipCode()
     '''
 def setZipCode():
-    '''    public void setZipCode(final String zipCode)
+    '''public void setZipCode(final String zipCode)
     '''
 def getTimeZoneId():
-    '''    public String getTimeZoneId()
+    '''public String getTimeZoneId()
     '''
 def dump():
-    '''    public void dump(final NdrOutputStream ndrOutputStream)
+    '''public void dump(final NdrOutputStream ndrOutputStream)
     '''
 def load():
-    '''    public void load(final NdrInputStream ndrInputStream)
+    '''public void load(final NdrInputStream ndrInputStream)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

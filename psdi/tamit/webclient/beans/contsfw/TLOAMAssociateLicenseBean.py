@@ -1,3 +1,3 @@
 def associate():
-    '''    public int associate()
+    '''public int associate()
     '''

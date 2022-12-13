@@ -1,3 +1,3 @@
 def WatsonVRImgSet():
-    '''    public WatsonVRImgSet(final MboServerInterface ms)
+    '''public WatsonVRImgSet(final MboServerInterface ms)
     '''

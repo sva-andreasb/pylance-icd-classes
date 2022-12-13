@@ -1,3 +1,3 @@
 def DynamicExpressionBuilder():
-    '''    public DynamicExpressionBuilder(final MboSet ms)
+    '''public DynamicExpressionBuilder(final MboSet ms)
     '''

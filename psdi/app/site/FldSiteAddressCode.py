@@ -1,3 +1,3 @@
 def FldSiteAddressCode():
-    '''    public FldSiteAddressCode(final MboValue mbv)
+    '''public FldSiteAddressCode(final MboValue mbv)
     '''

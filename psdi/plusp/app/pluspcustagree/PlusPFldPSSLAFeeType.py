@@ -1,6 +1,6 @@
 def PlusPFldPSSLAFeeType():
-    '''    public PlusPFldPSSLAFeeType(final MboValue mv)
+    '''public PlusPFldPSSLAFeeType(final MboValue mv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

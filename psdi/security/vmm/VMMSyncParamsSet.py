@@ -1,3 +1,3 @@
 def VMMSyncParamsSet():
-    '''    public VMMSyncParamsSet(final MboServerInterface ms)
+    '''public VMMSyncParamsSet(final MboServerInterface ms)
     '''

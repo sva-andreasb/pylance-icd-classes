@@ -1,9 +1,9 @@
 def getPluginResourceLocator():
-    '''    public ResourceLocator getPluginResourceLocator()
+    '''public ResourceLocator getPluginResourceLocator()
     '''
 def getPlugin():
-    '''    public static Implementation getPlugin()
+    '''public static Implementation getPlugin()
     '''
 def Implementation():
-    '''    public Implementation()
+    '''public Implementation()
     '''

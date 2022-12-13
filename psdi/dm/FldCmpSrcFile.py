@@ -1,6 +1,6 @@
 def FldCmpSrcFile():
-    '''    public FldCmpSrcFile(final MboValue mbv)
+    '''public FldCmpSrcFile(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

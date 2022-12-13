@@ -4,5 +4,5 @@ CURVES = "int  2"
 CLOSED_CURVES = "int  3"
 COMPLEX = "int  4"
 def EscherShapePathProperty():
-    '''    public EscherShapePathProperty(final short propertyNumber, final int shapePath)
+    '''public EscherShapePathProperty(final short propertyNumber, final int shapePath)
     '''

@@ -1,18 +1,18 @@
 def ResourceAssignmentsModelHelper():
-    '''    public ResourceAssignmentsModelHelper(final BaseTreeGridMiniAppBean bean)
+    '''public ResourceAssignmentsModelHelper(final BaseTreeGridMiniAppBean bean)
     '''
 def getIDComparator():
-    '''    public Comparator<IlvHierarchyNode> getIDComparator()
+    '''public Comparator<IlvHierarchyNode> getIDComparator()
     '''
 def isModified():
-    '''    public boolean isModified(final IlvGanttModel leftModel, final IlvHierarchyNode leftNode, final IlvGanttModel rightModel, final IlvHierarchyNode rightNode)
+    '''public boolean isModified(final IlvGanttModel leftModel, final IlvHierarchyNode leftNode, final IlvGanttModel rightModel, final IlvHierarchyNode rightNode)
     '''
 def getRootNode():
-    '''    public IlvHierarchyNode getRootNode(final IlvGanttModel model)
+    '''public IlvHierarchyNode getRootNode(final IlvGanttModel model)
     '''
 def getChildNodes():
-    '''    public List<IlvHierarchyNode> getChildNodes(final IlvGanttModel model, final IlvHierarchyNode parent)
+    '''public List<IlvHierarchyNode> getChildNodes(final IlvGanttModel model, final IlvHierarchyNode parent)
     '''
 def compare():
-    '''    public int compare(final IlvHierarchyNode o1, final IlvHierarchyNode o2)
+    '''public int compare(final IlvHierarchyNode o1, final IlvHierarchyNode o2)
     '''

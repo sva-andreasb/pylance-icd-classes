@@ -1,6 +1,6 @@
 def getPropertyName():
-    '''    public String getPropertyName()
+    '''public String getPropertyName()
     '''
 def getDefaultValue():
-    '''    public Value getDefaultValue()
+    '''public Value getDefaultValue()
     '''

@@ -1,3 +1,3 @@
 def resize():
-    '''    public int resize()
+    '''public int resize()
     '''

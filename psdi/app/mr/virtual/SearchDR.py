@@ -1,3 +1,3 @@
 def SearchDR():
-    '''    public SearchDR(final MboSet ms)
+    '''public SearchDR(final MboSet ms)
     '''

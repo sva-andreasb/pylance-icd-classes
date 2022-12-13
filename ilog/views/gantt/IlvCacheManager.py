@@ -1,45 +1,45 @@
 def isReservationCachingEnabled():
-    '''    public boolean isReservationCachingEnabled()
+    '''public boolean isReservationCachingEnabled()
     '''
 def setReservationCachingEnabled():
-    '''    public void setReservationCachingEnabled(final boolean b)
+    '''public void setReservationCachingEnabled(final boolean b)
     '''
 def cacheAllReservations():
-    '''    public void cacheAllReservations()
+    '''public void cacheAllReservations()
     '''
 def getReservationCacheLoadThreshold():
-    '''    public float getReservationCacheLoadThreshold()
+    '''public float getReservationCacheLoadThreshold()
     '''
 def setReservationCacheLoadThreshold():
-    '''    public void setReservationCacheLoadThreshold(final float e)
+    '''public void setReservationCacheLoadThreshold(final float e)
     '''
 def getReservationCacheLoadFactor():
-    '''    public float getReservationCacheLoadFactor()
+    '''public float getReservationCacheLoadFactor()
     '''
 def setReservationCacheLoadFactor():
-    '''    public void setReservationCacheLoadFactor(final float f)
+    '''public void setReservationCacheLoadFactor(final float f)
     '''
 def reservationIterator():
-    '''    public Iterator<IlvReservation> reservationIterator(final IlvResource ilvResource)
+    '''public Iterator<IlvReservation> reservationIterator(final IlvResource ilvResource)
     '''
 def addReservationListener():
-    '''    public void addReservationListener(final ReservationListener reservationListener)
+    '''public void addReservationListener(final ReservationListener reservationListener)
     '''
 def removeReservationListener():
-    '''    public void removeReservationListener(final ReservationListener reservationListener)
+    '''public void removeReservationListener(final ReservationListener reservationListener)
     '''
 def visibleTimeChanged():
-    '''    public void visibleTimeChanged(final VisibleTimeChangedEvent visibleTimeChangedEvent)
+    '''public void visibleTimeChanged(final VisibleTimeChangedEvent visibleTimeChangedEvent)
     '''
 def visibleDurationChanged():
-    '''    public void visibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)
+    '''public void visibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)
     '''
 def minVisibleTimeChanged():
-    '''    public void minVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)
+    '''public void minVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)
     '''
 def maxVisibleTimeChanged():
-    '''    public void maxVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)
+    '''public void maxVisibleTimeChanged(final TimeChangedEvent timeChangedEvent)
     '''
 def minVisibleDurationChanged():
-    '''    public void minVisibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)
+    '''public void minVisibleDurationChanged(final VisibleDurationChangedEvent visibleDurationChangedEvent)
     '''

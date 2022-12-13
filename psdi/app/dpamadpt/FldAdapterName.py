@@ -1,6 +1,6 @@
 def FldAdapterName():
-    '''    public FldAdapterName(final MboValue mbv)
+    '''public FldAdapterName(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

@@ -1,15 +1,15 @@
 def FldItemOrgOrgID():
-    '''    public FldItemOrgOrgID(final MboValue mbv)
+    '''public FldItemOrgOrgID(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

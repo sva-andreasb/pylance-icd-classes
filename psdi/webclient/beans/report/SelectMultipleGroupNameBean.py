@@ -1,3 +1,3 @@
 def copyGroupSet():
-    '''    public int copyGroupSet()
+    '''public int copyGroupSet()
     '''

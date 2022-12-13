@@ -1,9 +1,9 @@
 def PersCommodity():
-    '''    public PersCommodity(final MboSet ms)
+    '''public PersCommodity(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def delete():
-    '''    public void delete()
+    '''public void delete()
     '''

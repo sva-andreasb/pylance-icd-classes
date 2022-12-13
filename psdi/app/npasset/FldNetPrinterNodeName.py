@@ -1,3 +1,3 @@
 def FldNetPrinterNodeName():
-    '''    public FldNetPrinterNodeName(final MboValue mbv)
+    '''public FldNetPrinterNodeName(final MboValue mbv)
     '''

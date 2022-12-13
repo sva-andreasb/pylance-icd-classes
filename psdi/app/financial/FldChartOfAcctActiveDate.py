@@ -1,9 +1,9 @@
 def FldChartOfAcctActiveDate():
-    '''    public FldChartOfAcctActiveDate(final MboValue mbv)
+    '''public FldChartOfAcctActiveDate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

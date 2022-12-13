@@ -1,6 +1,6 @@
 def FldMatRecTransQtyAlreadyRecvd():
-    '''    public FldMatRecTransQtyAlreadyRecvd(final MboValue mbv)
+    '''public FldMatRecTransQtyAlreadyRecvd(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

@@ -1,15 +1,15 @@
 def FldInvoiceCostRefWO():
-    '''    public FldInvoiceCostRefWO(final MboValue mbv)
+    '''public FldInvoiceCostRefWO(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def hasList():
-    '''    public boolean hasList()
+    '''public boolean hasList()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

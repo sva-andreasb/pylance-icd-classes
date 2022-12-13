@@ -1,3 +1,3 @@
 def TaxSet():
-    '''    public TaxSet(final MboServerInterface ms)
+    '''public TaxSet(final MboServerInterface ms)
     '''

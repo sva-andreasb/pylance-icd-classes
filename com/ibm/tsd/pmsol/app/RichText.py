@@ -1,3 +1,3 @@
 def RichText():
-    '''    public RichText(final MboSet ms)
+    '''public RichText(final MboSet ms)
     '''

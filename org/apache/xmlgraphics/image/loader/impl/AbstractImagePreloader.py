@@ -1,3 +1,3 @@
 def getPriority():
-    '''    public int getPriority()
+    '''public int getPriority()
     '''

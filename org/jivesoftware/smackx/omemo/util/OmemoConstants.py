@@ -10,5 +10,5 @@ KEYLENGTH = "int  128"
 CIPHERMODE = "String  \"AES/GCM/NoPadding\""
 PROVIDER = "String  \"BC\""
 def PEP_NODE_BUNDLE_FROM_DEVICE_ID():
-    '''    public static String PEP_NODE_BUNDLE_FROM_DEVICE_ID(final int deviceId)
+    '''public static String PEP_NODE_BUNDLE_FROM_DEVICE_ID(final int deviceId)
     '''

@@ -1,30 +1,30 @@
 def ProcPkgdIU():
-    '''    public ProcPkgdIU()
+    '''public ProcPkgdIU()
     '''
 def getIndSolnName():
-    '''    public String getIndSolnName()
+    '''public String getIndSolnName()
     '''
 def getIndSolnVersion():
-    '''    public String getIndSolnVersion()
+    '''public String getIndSolnVersion()
     '''
 def getIndSolnUUID():
-    '''    public String getIndSolnUUID()
+    '''public String getIndSolnUUID()
     '''
 def isIndSolnFP():
-    '''    public boolean isIndSolnFP()
+    '''public boolean isIndSolnFP()
     '''
 def doesIndSolnHavePrivateInstFile():
-    '''    public boolean doesIndSolnHavePrivateInstFile()
+    '''public boolean doesIndSolnHavePrivateInstFile()
     '''
 def getIndSolnPrivateInstSteps():
-    '''    public String getIndSolnPrivateInstSteps()
+    '''public String getIndSolnPrivateInstSteps()
     '''
 def getIndSolnFpBaseMinReq():
-    '''    public String getIndSolnFpBaseMinReq()
+    '''public String getIndSolnFpBaseMinReq()
     '''
 def getIndSolnFpBaseMaxReq():
-    '''    public String getIndSolnFpBaseMaxReq()
+    '''public String getIndSolnFpBaseMaxReq()
     '''
 def procIndSolnZip():
-    '''    public void procIndSolnZip(final String[] array)
+    '''public void procIndSolnZip(final String[] array)
     '''

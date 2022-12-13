@@ -1,3 +1,3 @@
 def AppFieldDefaults():
-    '''    public AppFieldDefaults(final MboSet ms)
+    '''public AppFieldDefaults(final MboSet ms)
     '''

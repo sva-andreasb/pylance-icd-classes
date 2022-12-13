@@ -1,6 +1,6 @@
 def NovellSaslProvider():
-    '''    public NovellSaslProvider()
+    '''public NovellSaslProvider()
     '''
 def run():
-    '''    public Object run()
+    '''public Object run()
     '''

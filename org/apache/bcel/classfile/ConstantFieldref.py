@@ -1,7 +1,7 @@
 def ConstantFieldref():
-    '''    public ConstantFieldref(final ConstantFieldref c)
+    '''public ConstantFieldref(final ConstantFieldref c)
     public ConstantFieldref(final int class_index, final int name_and_type_index)
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

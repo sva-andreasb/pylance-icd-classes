@@ -1,6 +1,6 @@
 def MaxTableDomainSet():
-    '''    public MaxTableDomainSet(final MboServerInterface ms)
+    '''public MaxTableDomainSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

@@ -1,9 +1,9 @@
 def CachedExchange():
-    '''    public CachedExchange(final boolean cacheHeaders)
+    '''public CachedExchange(final boolean cacheHeaders)
     '''
 def getResponseStatus():
-    '''    public synchronized int getResponseStatus()
+    '''public synchronized int getResponseStatus()
     '''
 def getResponseFields():
-    '''    public synchronized HttpFields getResponseFields()
+    '''public synchronized HttpFields getResponseFields()
     '''

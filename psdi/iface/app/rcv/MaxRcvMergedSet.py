@@ -1,3 +1,3 @@
 def MaxRcvMergedSet():
-    '''    public MaxRcvMergedSet(final MboServerInterface ms)
+    '''public MaxRcvMergedSet(final MboServerInterface ms)
     '''

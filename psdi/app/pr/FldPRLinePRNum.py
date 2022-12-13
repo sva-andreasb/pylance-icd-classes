@@ -1,9 +1,9 @@
 def FldPRLinePRNum():
-    '''    public FldPRLinePRNum(final MboValue mbv)
+    '''public FldPRLinePRNum(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def hasList():
-    '''    public boolean hasList()
+    '''public boolean hasList()
     '''

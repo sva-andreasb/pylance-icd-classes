@@ -1,12 +1,12 @@
 def PropertiesPropertySource():
-    '''    public PropertiesPropertySource(final Properties properties)
+    '''public PropertiesPropertySource(final Properties properties)
     '''
 def getPriority():
-    '''    public int getPriority()
+    '''public int getPriority()
     '''
 def forEach():
-    '''    public void forEach(final BiConsumer<String, String> action)
+    '''public void forEach(final BiConsumer<String, String> action)
     '''
 def getNormalForm():
-    '''    public CharSequence getNormalForm(final Iterable<? extends CharSequence> tokens)
+    '''public CharSequence getNormalForm(final Iterable<? extends CharSequence> tokens)
     '''

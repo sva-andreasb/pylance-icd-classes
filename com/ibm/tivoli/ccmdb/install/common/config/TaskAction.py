@@ -1,3 +1,3 @@
 def getAction():
-    '''    public String getAction()
+    '''public String getAction()
     '''

@@ -1,3 +1,3 @@
 def fetchTableData():
-    '''    public synchronized int fetchTableData(final int startingRow)
+    '''public synchronized int fetchTableData(final int startingRow)
     '''

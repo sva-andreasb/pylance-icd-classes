@@ -1,30 +1,30 @@
 def Exec():
-    '''    public Exec()
+    '''public Exec()
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''
 def setDir():
-    '''    public void setDir(final String d)
+    '''public void setDir(final String d)
     '''
 def setOs():
-    '''    public void setOs(final String os)
+    '''public void setOs(final String os)
     '''
 def setCommand():
-    '''    public void setCommand(final String command)
+    '''public void setCommand(final String command)
     '''
 def setOutput():
-    '''    public void setOutput(final String out)
+    '''public void setOutput(final String out)
     '''
 def setFailonerror():
-    '''    public void setFailonerror(final boolean fail)
+    '''public void setFailonerror(final boolean fail)
     '''
 def StreamPumper():
-    '''    public StreamPumper(final InputStream is, final int messageLevel)
+    '''public StreamPumper(final InputStream is, final int messageLevel)
     '''
 def pumpStream():
-    '''    public void pumpStream()
+    '''public void pumpStream()
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''

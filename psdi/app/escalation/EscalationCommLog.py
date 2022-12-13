@@ -1,9 +1,9 @@
 def EscalationCommLog():
-    '''    public EscalationCommLog(final MboSet ms)
+    '''public EscalationCommLog(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def getRealObjectID():
-    '''    public String getRealObjectID()
+    '''public String getRealObjectID()
     '''

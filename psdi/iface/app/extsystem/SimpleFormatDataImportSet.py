@@ -1,3 +1,3 @@
 def SimpleFormatDataImportSet():
-    '''    public SimpleFormatDataImportSet(final MboServerInterface ms)
+    '''public SimpleFormatDataImportSet(final MboServerInterface ms)
     '''

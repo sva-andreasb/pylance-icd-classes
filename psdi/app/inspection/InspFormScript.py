@@ -1,6 +1,6 @@
 def InspFormScript():
-    '''    public InspFormScript(final MboSet ms)
+    '''public InspFormScript(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

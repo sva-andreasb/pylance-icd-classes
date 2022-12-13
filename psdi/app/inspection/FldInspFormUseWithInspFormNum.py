@@ -1,3 +1,3 @@
 def FldInspFormUseWithInspFormNum():
-    '''    public FldInspFormUseWithInspFormNum(final MboValue mbv)
+    '''public FldInspFormUseWithInspFormNum(final MboValue mbv)
     '''

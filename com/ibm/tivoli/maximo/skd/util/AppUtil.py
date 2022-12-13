@@ -8,5 +8,5 @@ USEWITH_CREW_GRAPHICAL_ASSIGN = "String  \"CGRPASSIGN\""
 USEWITH_GWORKASSIGN = "String  \"GWORKASSIGN\""
 USEWITH_SCHEDULER_DATA_MANAGER = "String  \"SCHEDDM\""
 def useWith():
-    '''    public static boolean useWith(final String useWith, final String... values)
+    '''public static boolean useWith(final String useWith, final String... values)
     '''

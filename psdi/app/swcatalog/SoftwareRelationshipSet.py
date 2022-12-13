@@ -1,3 +1,3 @@
 def SoftwareRelationshipSet():
-    '''    public SoftwareRelationshipSet(final MboServerInterface ms)
+    '''public SoftwareRelationshipSet(final MboServerInterface ms)
     '''

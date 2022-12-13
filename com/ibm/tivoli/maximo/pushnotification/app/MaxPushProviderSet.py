@@ -1,3 +1,3 @@
 def MaxPushProviderSet():
-    '''    public MaxPushProviderSet(final MboServerInterface ms)
+    '''public MaxPushProviderSet(final MboServerInterface ms)
     '''

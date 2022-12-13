@@ -1,9 +1,9 @@
 def FormatterSimple():
-    '''    public FormatterSimple(final SDBConnection connection)
+    '''public FormatterSimple(final SDBConnection connection)
     '''
 def addIndexes():
-    '''    public void addIndexes()
+    '''public void addIndexes()
     '''
 def dropIndexes():
-    '''    public void dropIndexes()
+    '''public void dropIndexes()
     '''

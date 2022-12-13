@@ -1,3 +1,3 @@
 def VpkMsgSetNewPrivacyList():
-    '''    public VpkMsgSetNewPrivacyList(final int n, final STPrivacyList list)
+    '''public VpkMsgSetNewPrivacyList(final int n, final STPrivacyList list)
     '''

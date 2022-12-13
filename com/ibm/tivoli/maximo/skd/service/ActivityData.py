@@ -1,27 +1,27 @@
 def ActivityData():
-    '''    public ActivityData()
+    '''public ActivityData()
     '''
 def getObjectNames():
-    '''    public HashMap<String, TreeSet<String>> getObjectNames()
+    '''public HashMap<String, TreeSet<String>> getObjectNames()
     '''
 def getAllObjectNames():
-    '''    public Set<String> getAllObjectNames()
+    '''public Set<String> getAllObjectNames()
     '''
 def setObjectNames():
-    '''    public void setObjectNames(final HashMap<String, TreeSet<String>> objectNames)
+    '''public void setObjectNames(final HashMap<String, TreeSet<String>> objectNames)
     '''
 def getActivityMap():
-    '''    public HashMap<String, MXActivity> getActivityMap()
+    '''public HashMap<String, MXActivity> getActivityMap()
     '''
 def setActivityMap():
-    '''    public void setActivityMap(final HashMap<String, MXActivity> activityMap)
+    '''public void setActivityMap(final HashMap<String, MXActivity> activityMap)
     '''
 def isInitializationNeeded():
-    '''    public boolean isInitializationNeeded()
+    '''public boolean isInitializationNeeded()
     '''
 def setInitializationNeeded():
-    '''    public void setInitializationNeeded(final boolean initializationNeeded)
+    '''public void setInitializationNeeded(final boolean initializationNeeded)
     '''
 def getActivities():
-    '''    public HashMap<Long, MXActivity> getActivities(final String activityObjectName)
+    '''public HashMap<Long, MXActivity> getActivities(final String activityObjectName)
     '''

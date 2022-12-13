@@ -1,9 +1,9 @@
 def FldWOSLAApplied():
-    '''    public FldWOSLAApplied(final MboValue mbv)
+    '''public FldWOSLAApplied(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

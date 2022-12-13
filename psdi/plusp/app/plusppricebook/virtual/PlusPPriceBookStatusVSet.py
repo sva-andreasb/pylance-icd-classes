@@ -1,3 +1,3 @@
 def PlusPPriceBookStatusVSet():
-    '''    public PlusPPriceBookStatusVSet(final MboServerInterface ms)
+    '''public PlusPPriceBookStatusVSet(final MboServerInterface ms)
     '''

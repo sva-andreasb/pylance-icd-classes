@@ -1,3 +1,3 @@
 def MaxObjectSet():
-    '''    public MaxObjectSet(final MboServerInterface ms)
+    '''public MaxObjectSet(final MboServerInterface ms)
     '''

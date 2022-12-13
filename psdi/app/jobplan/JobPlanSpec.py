@@ -1,9 +1,9 @@
 def JobPlanSpec():
-    '''    public JobPlanSpec(final MboSet ms)
+    '''public JobPlanSpec(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''

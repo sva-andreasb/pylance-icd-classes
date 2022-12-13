@@ -1,6 +1,6 @@
 def Alignment():
-    '''    public Alignment(final String langcode)
+    '''public Alignment(final String langcode)
     '''
 def reverse():
-    '''    public String reverse(final String align)
+    '''public String reverse(final String align)
     '''

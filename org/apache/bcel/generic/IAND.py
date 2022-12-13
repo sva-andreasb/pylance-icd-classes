@@ -1,6 +1,6 @@
 def IAND():
-    '''    public IAND()
+    '''public IAND()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

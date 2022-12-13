@@ -1,3 +1,3 @@
 def MeasurePointFormula():
-    '''    public MeasurePointFormula(final MboSet ms)
+    '''public MeasurePointFormula(final MboSet ms)
     '''

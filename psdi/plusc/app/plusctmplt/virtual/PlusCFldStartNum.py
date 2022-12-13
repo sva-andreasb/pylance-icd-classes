@@ -1,6 +1,6 @@
 def PlusCFldStartNum():
-    '''    public PlusCFldStartNum(final MboValue mbv)
+    '''public PlusCFldStartNum(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

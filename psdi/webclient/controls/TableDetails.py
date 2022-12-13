@@ -1,12 +1,12 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def hasDetailStateChanged():
-    '''    public boolean hasDetailStateChanged()
+    '''public boolean hasDetailStateChanged()
     '''
 def expanded():
-    '''    public String expanded()
+    '''public String expanded()
     '''
 def render():
-    '''    public int render()
+    '''public int render()
     '''

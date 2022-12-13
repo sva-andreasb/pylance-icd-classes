@@ -1,6 +1,6 @@
 def NPLocationOpSKDSet():
-    '''    public NPLocationOpSKDSet(final MboServerInterface ms)
+    '''public NPLocationOpSKDSet(final MboServerInterface ms)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

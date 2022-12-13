@@ -1,33 +1,33 @@
 def BLComp():
-    '''    public BLComp(final STSession stSession)
+    '''public BLComp(final STSession stSession)
     '''
 def getBuddyList():
-    '''    public void getBuddyList()
+    '''public void getBuddyList()
     '''
 def stringToBuddyList():
-    '''    public BL stringToBuddyList(final String s)
+    '''public BL stringToBuddyList(final String s)
     '''
 def buddyListToString():
-    '''    public String buddyListToString(final BL bl)
+    '''public String buddyListToString(final BL bl)
     '''
 def setBuddyList():
-    '''    public void setBuddyList(final BL bl)
+    '''public void setBuddyList(final BL bl)
     '''
 def deleteBuddyList():
-    '''    public void deleteBuddyList()
+    '''public void deleteBuddyList()
     '''
 def addBLServiceListener():
-    '''    public synchronized void addBLServiceListener(final BLServiceListener obj)
+    '''public synchronized void addBLServiceListener(final BLServiceListener obj)
     '''
 def removeBLServiceListener():
-    '''    public synchronized void removeBLServiceListener(final BLServiceListener obj)
+    '''public synchronized void removeBLServiceListener(final BLServiceListener obj)
     '''
 def setXmlBL():
-    '''    public void setXmlBL()
+    '''public void setXmlBL()
     '''
 def setSametimeBL():
-    '''    public void setSametimeBL()
+    '''public void setSametimeBL()
     '''
 def isSametimeBL():
-    '''    public boolean isSametimeBL()
+    '''public boolean isSametimeBL()
     '''

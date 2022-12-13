@@ -1,9 +1,9 @@
 def getManagingServers():
-    '''    public String[] getManagingServers()
+    '''public String[] getManagingServers()
     '''
 def getSubjectsManagedByServer():
-    '''    public BulletinBoardSubjectSnapshot[] getSubjectsManagedByServer(final int index)
+    '''public BulletinBoardSubjectSnapshot[] getSubjectsManagedByServer(final int index)
     '''
 def setSnapshot():
-    '''    public void setSnapshot(final Map snapshot)
+    '''public void setSnapshot(final Map snapshot)
     '''

@@ -1,79 +1,79 @@
 def LogEventWrapper():
-    '''    public LogEventWrapper(final LoggingEvent event)
+    '''public LogEventWrapper(final LoggingEvent event)
     '''
 def toImmutable():
-    '''    public LogEvent toImmutable()
+    '''public LogEvent toImmutable()
     '''
 def getContextMap():
-    '''    public Map<String, String> getContextMap()
+    '''public Map<String, String> getContextMap()
     '''
 def getContextData():
-    '''    public ReadOnlyStringMap getContextData()
+    '''public ReadOnlyStringMap getContextData()
     '''
 def getLoggerFqcn():
-    '''    public String getLoggerFqcn()
+    '''public String getLoggerFqcn()
     '''
 def getLevel():
-    '''    public Level getLevel()
+    '''public Level getLevel()
     '''
 def getLoggerName():
-    '''    public String getLoggerName()
+    '''public String getLoggerName()
     '''
 def getMarker():
-    '''    public Marker getMarker()
+    '''public Marker getMarker()
     '''
 def getMessage():
-    '''    public Message getMessage()
+    '''public Message getMessage()
     '''
 def getTimeMillis():
-    '''    public long getTimeMillis()
+    '''public long getTimeMillis()
     '''
 def getInstant():
-    '''    public Instant getInstant()
+    '''public Instant getInstant()
     '''
 def getSource():
-    '''    public StackTraceElement getSource()
+    '''public StackTraceElement getSource()
     '''
 def getThreadName():
-    '''    public String getThreadName()
+    '''public String getThreadName()
     '''
 def getThreadId():
-    '''    public long getThreadId()
+    '''public long getThreadId()
     '''
 def getThreadPriority():
-    '''    public int getThreadPriority()
+    '''public int getThreadPriority()
     '''
 def getThrown():
-    '''    public Throwable getThrown()
+    '''public Throwable getThrown()
     '''
 def getThrownProxy():
-    '''    public ThrowableProxy getThrownProxy()
+    '''public ThrowableProxy getThrownProxy()
     '''
 def isEndOfBatch():
-    '''    public boolean isEndOfBatch()
+    '''public boolean isEndOfBatch()
     '''
 def isIncludeLocation():
-    '''    public boolean isIncludeLocation()
+    '''public boolean isIncludeLocation()
     '''
 def setEndOfBatch():
-    '''    public void setEndOfBatch(final boolean endOfBatch)
+    '''public void setEndOfBatch(final boolean endOfBatch)
     '''
 def setIncludeLocation():
-    '''    public void setIncludeLocation(final boolean locationRequired)
+    '''public void setIncludeLocation(final boolean locationRequired)
     '''
 def getNanoTime():
-    '''    public long getNanoTime()
+    '''public long getNanoTime()
     '''
 def toMap():
-    '''    public Map<String, String> toMap()
+    '''public Map<String, String> toMap()
     '''
 def containsKey():
-    '''    public boolean containsKey(final String key)
+    '''public boolean containsKey(final String key)
     '''
 def forEach():
-    '''    public <V> void forEach(final BiConsumer<String, ? super V> action)
+    '''public <V> void forEach(final BiConsumer<String, ? super V> action)
     public <V, S> void forEach(final TriConsumer<String, ? super V, S> action, final S state)
     '''
 def getValue():
-    '''    public <V> V getValue(final String key)
+    '''public <V> V getValue(final String key)
     '''

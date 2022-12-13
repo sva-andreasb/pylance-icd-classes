@@ -1,3 +1,3 @@
 def selectResources():
-    '''    public int selectResources()
+    '''public int selectResources()
     '''

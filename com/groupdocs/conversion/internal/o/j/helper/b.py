@@ -1,21 +1,21 @@
 def push():
-    '''    public void push(final E e)
+    '''public void push(final E e)
     '''
 def peekLast():
-    '''    public E peekLast()
+    '''public E peekLast()
     '''
 def pollLast():
-    '''    public E pollLast()
+    '''public E pollLast()
     '''
 def descendingIterator():
-    '''    public Iterator<E> descendingIterator()
+    '''public Iterator<E> descendingIterator()
     '''
 def hasNext():
-    '''    public boolean hasNext()
+    '''public boolean hasNext()
     '''
 def next():
-    '''    public E next()
+    '''public E next()
     '''
 def remove():
-    '''    public void remove()
+    '''public void remove()
     '''

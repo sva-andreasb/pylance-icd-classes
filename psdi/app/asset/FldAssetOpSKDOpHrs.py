@@ -1,6 +1,6 @@
 def FldAssetOpSKDOpHrs():
-    '''    public FldAssetOpSKDOpHrs(final MboValue mbv)
+    '''public FldAssetOpSKDOpHrs(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,6 +1,6 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def getString():
-    '''    public String getString()
+    '''public String getString()
     '''

@@ -1,6 +1,6 @@
 def PlusPScopeOfWork():
-    '''    public PlusPScopeOfWork(final MboSet ms)
+    '''public PlusPScopeOfWork(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

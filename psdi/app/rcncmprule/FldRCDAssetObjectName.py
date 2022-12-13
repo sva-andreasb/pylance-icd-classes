@@ -1,3 +1,3 @@
 def FldRCDAssetObjectName():
-    '''    public FldRCDAssetObjectName(final MboValue mbv)
+    '''public FldRCDAssetObjectName(final MboValue mbv)
     '''

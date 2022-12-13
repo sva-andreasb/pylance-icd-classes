@@ -1,9 +1,9 @@
 def ItemChangeStatusBean():
-    '''    public ItemChangeStatusBean()
+    '''public ItemChangeStatusBean()
     '''
 def execute():
-    '''    public int execute()
+    '''public int execute()
     '''
 def checkESigAuthenticated():
-    '''    public synchronized void checkESigAuthenticated(final String option)
+    '''public synchronized void checkESigAuthenticated(final String option)
     '''

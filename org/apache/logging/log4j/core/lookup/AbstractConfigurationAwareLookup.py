@@ -1,3 +1,3 @@
 def setConfiguration():
-    '''    public void setConfiguration(final Configuration configuration)
+    '''public void setConfiguration(final Configuration configuration)
     '''

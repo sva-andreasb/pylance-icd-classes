@@ -1,6 +1,6 @@
 def FldBudgetSiteID():
-    '''    public FldBudgetSiteID(final MboValue mbv)
+    '''public FldBudgetSiteID(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

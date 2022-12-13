@@ -1,9 +1,9 @@
 def DPANetDevice():
-    '''    public DPANetDevice(final MboSet ms)
+    '''public DPANetDevice(final MboSet ms)
     '''
 def delete():
-    '''    public void delete(final long modifier)
+    '''public void delete(final long modifier)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

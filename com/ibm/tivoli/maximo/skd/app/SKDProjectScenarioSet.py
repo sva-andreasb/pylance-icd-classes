@@ -1,3 +1,3 @@
 def SKDProjectScenarioSet():
-    '''    public SKDProjectScenarioSet(final MboServerInterface ms)
+    '''public SKDProjectScenarioSet(final MboServerInterface ms)
     '''

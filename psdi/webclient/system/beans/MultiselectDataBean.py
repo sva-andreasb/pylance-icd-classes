@@ -1,6 +1,6 @@
 def callMethod():
-    '''    public int callMethod(final WebClientEvent event)
+    '''public int callMethod(final WebClientEvent event)
     '''
 def setvalue():
-    '''    public int setvalue()
+    '''public int setvalue()
     '''

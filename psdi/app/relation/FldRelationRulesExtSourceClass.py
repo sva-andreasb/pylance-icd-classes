@@ -1,6 +1,6 @@
 def FldRelationRulesExtSourceClass():
-    '''    public FldRelationRulesExtSourceClass(final MboValue mbv)
+    '''public FldRelationRulesExtSourceClass(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

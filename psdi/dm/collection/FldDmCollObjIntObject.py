@@ -1,9 +1,9 @@
 def FldDmCollObjIntObject():
-    '''    public FldDmCollObjIntObject(final MboValue mbv)
+    '''public FldDmCollObjIntObject(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

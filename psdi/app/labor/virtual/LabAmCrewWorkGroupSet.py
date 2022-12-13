@@ -1,3 +1,3 @@
 def LabAmCrewWorkGroupSet():
-    '''    public LabAmCrewWorkGroupSet(final MboServerInterface ms)
+    '''public LabAmCrewWorkGroupSet(final MboServerInterface ms)
     '''

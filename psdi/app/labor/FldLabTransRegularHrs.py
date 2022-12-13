@@ -1,9 +1,9 @@
 def FldLabTransRegularHrs():
-    '''    public FldLabTransRegularHrs(final MboValue mbv)
+    '''public FldLabTransRegularHrs(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

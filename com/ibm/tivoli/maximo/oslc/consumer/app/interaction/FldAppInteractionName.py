@@ -1,3 +1,3 @@
 def FldAppInteractionName():
-    '''    public FldAppInteractionName(final MboValue mbv)
+    '''public FldAppInteractionName(final MboValue mbv)
     '''

@@ -1,3 +1,3 @@
 def FmtLayout2HashDerby():
-    '''    public FmtLayout2HashDerby(final SDBConnection connection)
+    '''public FmtLayout2HashDerby(final SDBConnection connection)
     '''

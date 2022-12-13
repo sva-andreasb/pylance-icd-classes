@@ -1,3 +1,3 @@
 def getDERObject():
-    '''    public DERObject getDERObject()
+    '''public DERObject getDERObject()
     '''

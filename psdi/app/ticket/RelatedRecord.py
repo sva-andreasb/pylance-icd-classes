@@ -1,30 +1,30 @@
 def RelatedRecord():
-    '''    public RelatedRecord(final MboSet ms)
+    '''public RelatedRecord(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def canEdit():
-    '''    public void canEdit()
+    '''public void canEdit()
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def delete():
-    '''    public void delete(final long accesscheck)
+    '''public void delete(final long accesscheck)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def relateGlobal():
-    '''    public void relateGlobal(final MboRemote ticketGlobal)
+    '''public void relateGlobal(final MboRemote ticketGlobal)
     '''
 def getMatchingRelateType():
-    '''    public String getMatchingRelateType()
+    '''public String getMatchingRelateType()
     '''

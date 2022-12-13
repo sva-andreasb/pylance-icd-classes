@@ -1,9 +1,9 @@
 def FldSpecificationNumValue():
-    '''    public FldSpecificationNumValue(final MboValue mbv)
+    '''public FldSpecificationNumValue(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

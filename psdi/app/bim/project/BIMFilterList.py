@@ -7,8 +7,8 @@ FIELD_ORGID = "String  \"ORGID\""
 FIELD_BIMSESSIONID = "String  \"BIMSESSIONID\""
 FIELD_DESCRIPTION = "String  \"DESCRIPTION\""
 def BIMFilterList():
-    '''    public BIMFilterList(final MboSet ms)
+    '''public BIMFilterList(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -1,3 +1,3 @@
 def LaborCertHistSet():
-    '''    public LaborCertHistSet(final MboServerInterface ms)
+    '''public LaborCertHistSet(final MboServerInterface ms)
     '''

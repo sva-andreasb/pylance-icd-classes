@@ -1,3 +1,3 @@
 def PlusCAssetTemplateChgStatusSet():
-    '''    public PlusCAssetTemplateChgStatusSet(final MboServerInterface ms)
+    '''public PlusCAssetTemplateChgStatusSet(final MboServerInterface ms)
     '''

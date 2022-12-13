@@ -1,12 +1,12 @@
 def TKTemplateSpec():
-    '''    public TKTemplateSpec(final MboSet ms)
+    '''public TKTemplateSpec(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def setALNOrNUMReadOnly():
-    '''    public void setALNOrNUMReadOnly()
+    '''public void setALNOrNUMReadOnly()
     '''
 def toUpdateReadOnly():
-    '''    public boolean toUpdateReadOnly(final String attrName)
+    '''public boolean toUpdateReadOnly(final String attrName)
     '''

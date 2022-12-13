@@ -1,3 +1,3 @@
 def KeywordSet():
-    '''    public KeywordSet(final MboServerInterface ms)
+    '''public KeywordSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def toggledeleteselectedrows():
-    '''    public int toggledeleteselectedrows()
+    '''public int toggledeleteselectedrows()
     '''

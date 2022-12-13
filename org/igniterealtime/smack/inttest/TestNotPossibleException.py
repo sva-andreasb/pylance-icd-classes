@@ -1,3 +1,3 @@
 def TestNotPossibleException():
-    '''    public TestNotPossibleException(final String reason)
+    '''public TestNotPossibleException(final String reason)
     '''

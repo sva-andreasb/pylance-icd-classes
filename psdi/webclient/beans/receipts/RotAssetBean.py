@@ -1,3 +1,3 @@
 def autoNumberAll():
-    '''    public int autoNumberAll()
+    '''public int autoNumberAll()
     '''

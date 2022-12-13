@@ -1,9 +1,9 @@
 def ComponentPatternParser():
-    '''    public ComponentPatternParser(final String p)
+    '''public ComponentPatternParser(final String p)
     '''
 def get():
-    '''    public Pattern get()
+    '''public Pattern get()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

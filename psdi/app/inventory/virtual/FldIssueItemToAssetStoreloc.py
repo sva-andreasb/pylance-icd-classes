@@ -1,6 +1,6 @@
 def FldIssueItemToAssetStoreloc():
-    '''    public FldIssueItemToAssetStoreloc(final MboValue mbv)
+    '''public FldIssueItemToAssetStoreloc(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

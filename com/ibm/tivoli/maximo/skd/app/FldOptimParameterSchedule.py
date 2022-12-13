@@ -1,6 +1,6 @@
 def FldOptimParameterSchedule():
-    '''    public FldOptimParameterSchedule(final MboValue mbv)
+    '''public FldOptimParameterSchedule(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,60 +1,60 @@
 def JsonArray():
-    '''    public JsonArray()
+    '''public JsonArray()
     '''
 def add():
-    '''    public void add(JsonElement element)
+    '''public void add(JsonElement element)
     '''
 def addAll():
-    '''    public void addAll(final JsonArray array)
+    '''public void addAll(final JsonArray array)
     '''
 def size():
-    '''    public int size()
+    '''public int size()
     '''
 def iterator():
-    '''    public Iterator<JsonElement> iterator()
+    '''public Iterator<JsonElement> iterator()
     '''
 def get():
-    '''    public JsonElement get(final int i)
+    '''public JsonElement get(final int i)
     '''
 def getAsNumber():
-    '''    public Number getAsNumber()
+    '''public Number getAsNumber()
     '''
 def getAsString():
-    '''    public String getAsString()
+    '''public String getAsString()
     '''
 def getAsDouble():
-    '''    public double getAsDouble()
+    '''public double getAsDouble()
     '''
 def getAsBigDecimal():
-    '''    public BigDecimal getAsBigDecimal()
+    '''public BigDecimal getAsBigDecimal()
     '''
 def getAsBigInteger():
-    '''    public BigInteger getAsBigInteger()
+    '''public BigInteger getAsBigInteger()
     '''
 def getAsFloat():
-    '''    public float getAsFloat()
+    '''public float getAsFloat()
     '''
 def getAsLong():
-    '''    public long getAsLong()
+    '''public long getAsLong()
     '''
 def getAsInt():
-    '''    public int getAsInt()
+    '''public int getAsInt()
     '''
 def getAsByte():
-    '''    public byte getAsByte()
+    '''public byte getAsByte()
     '''
 def getAsCharacter():
-    '''    public char getAsCharacter()
+    '''public char getAsCharacter()
     '''
 def getAsShort():
-    '''    public short getAsShort()
+    '''public short getAsShort()
     '''
 def getAsBoolean():
-    '''    public boolean getAsBoolean()
+    '''public boolean getAsBoolean()
     '''
 def equals():
-    '''    public boolean equals(final Object o)
+    '''public boolean equals(final Object o)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''

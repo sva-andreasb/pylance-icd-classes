@@ -1,3 +1,3 @@
 def parse():
-    '''    public MarkupElement parse(final XmlPullParser parser, final int initialDepth)
+    '''public MarkupElement parse(final XmlPullParser parser, final int initialDepth)
     '''

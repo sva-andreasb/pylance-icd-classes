@@ -1,6 +1,6 @@
 def FldAssignLaborContractnum():
-    '''    public FldAssignLaborContractnum(final MboValue mbv)
+    '''public FldAssignLaborContractnum(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

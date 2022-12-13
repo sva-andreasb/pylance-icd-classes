@@ -1,6 +1,6 @@
 def AuthRoleSet():
-    '''    public AuthRoleSet(final MboServerInterface ms)
+    '''public AuthRoleSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

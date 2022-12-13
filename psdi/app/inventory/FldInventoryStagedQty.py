@@ -1,6 +1,6 @@
 def FldInventoryStagedQty():
-    '''    public FldInventoryStagedQty(final MboValue mbv)
+    '''public FldInventoryStagedQty(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

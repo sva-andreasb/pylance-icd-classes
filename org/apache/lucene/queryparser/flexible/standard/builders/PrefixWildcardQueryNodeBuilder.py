@@ -1,3 +1,3 @@
 def build():
-    '''    public PrefixQuery build(final QueryNode queryNode)
+    '''public PrefixQuery build(final QueryNode queryNode)
     '''

@@ -1,6 +1,6 @@
 def SKDODMApp():
-    '''    public SKDODMApp(final MboSet ms)
+    '''public SKDODMApp(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

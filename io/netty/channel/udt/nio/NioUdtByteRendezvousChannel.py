@@ -1,3 +1,3 @@
 def NioUdtByteRendezvousChannel():
-    '''    public NioUdtByteRendezvousChannel()
+    '''public NioUdtByteRendezvousChannel()
     '''

@@ -1,39 +1,39 @@
 def getKey():
-    '''    public String getKey()
+    '''public String getKey()
     '''
 def setKey():
-    '''    public void setKey(final String key)
+    '''public void setKey(final String key)
     '''
 def getClassName():
-    '''    public String getClassName()
+    '''public String getClassName()
     '''
 def setClassName():
-    '''    public void setClassName(final String className)
+    '''public void setClassName(final String className)
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def setName():
-    '''    public void setName(final String name)
+    '''public void setName(final String name)
     '''
 def isPrintable():
-    '''    public boolean isPrintable()
+    '''public boolean isPrintable()
     '''
 def setPrintable():
-    '''    public void setPrintable(final boolean printable)
+    '''public void setPrintable(final boolean printable)
     '''
 def isDefer():
-    '''    public boolean isDefer()
+    '''public boolean isDefer()
     '''
 def setDefer():
-    '''    public void setDefer(final boolean defer)
+    '''public void setDefer(final boolean defer)
     '''
 def getCategory():
-    '''    public String getCategory()
+    '''public String getCategory()
     '''
 def setCategory():
-    '''    public void setCategory(final String category)
+    '''public void setCategory(final String category)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

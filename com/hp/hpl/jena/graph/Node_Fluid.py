@@ -1,3 +1,3 @@
 def isConcrete():
-    '''    public boolean isConcrete()
+    '''public boolean isConcrete()
     '''

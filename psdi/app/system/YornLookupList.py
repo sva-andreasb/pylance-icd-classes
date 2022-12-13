@@ -1,3 +1,3 @@
 def YornLookupList():
-    '''    public YornLookupList(final MboSet ms)
+    '''public YornLookupList(final MboSet ms)
     '''

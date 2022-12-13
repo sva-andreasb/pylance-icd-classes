@@ -1,6 +1,6 @@
 def FldKPIReportName():
-    '''    public FldKPIReportName(final MboValue mbv)
+    '''public FldKPIReportName(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

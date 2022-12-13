@@ -1,6 +1,6 @@
 def OrganizerUpdate():
-    '''    public OrganizerUpdate(final Organizer organizer)
+    '''public OrganizerUpdate(final Organizer organizer)
     '''
 def transform():
-    '''    public Component transform(final Component object)
+    '''public Component transform(final Component object)
     '''

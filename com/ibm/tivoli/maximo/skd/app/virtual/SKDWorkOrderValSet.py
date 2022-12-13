@@ -1,9 +1,9 @@
 def SKDWorkOrderValSet():
-    '''    public SKDWorkOrderValSet(final MboServerInterface ms)
+    '''public SKDWorkOrderValSet(final MboServerInterface ms)
     '''
 def preSetValues():
-    '''    public void preSetValues(final MboSetRemote mboSet)
+    '''public void preSetValues(final MboSetRemote mboSet)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

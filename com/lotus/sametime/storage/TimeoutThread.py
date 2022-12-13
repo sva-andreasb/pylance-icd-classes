@@ -1,6 +1,6 @@
 def TimeoutThread():
-    '''    public TimeoutThread(final int timeout, final StorageComp storageComp)
+    '''public TimeoutThread(final int timeout, final StorageComp storageComp)
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''

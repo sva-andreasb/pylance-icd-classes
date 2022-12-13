@@ -1,22 +1,22 @@
 def FldCommonLaborCraftRate():
-    '''    public FldCommonLaborCraftRate(final MboValue mbv)
+    '''public FldCommonLaborCraftRate(final MboValue mbv)
     public FldCommonLaborCraftRate(final MboValue mbv, final boolean statusCriteria)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getSqlForEnteredFields():
-    '''    public SqlFormat getSqlForEnteredFields()
+    '''public SqlFormat getSqlForEnteredFields()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def hasFoundLaborCraftRateFromLookup():
-    '''    public boolean hasFoundLaborCraftRateFromLookup()
+    '''public boolean hasFoundLaborCraftRateFromLookup()
     '''
 def setFoundLaborCraftRateFromLookup():
-    '''    public void setFoundLaborCraftRateFromLookup(final boolean foundLaborCraftRate)
+    '''public void setFoundLaborCraftRateFromLookup(final boolean foundLaborCraftRate)
     '''

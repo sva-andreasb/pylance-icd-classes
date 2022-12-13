@@ -1,3 +1,3 @@
 def GLAuthSet():
-    '''    public GLAuthSet(final MboServerInterface ms)
+    '''public GLAuthSet(final MboServerInterface ms)
     '''

@@ -1,3 +1,3 @@
 def DMMapAttributeSet():
-    '''    public DMMapAttributeSet(final MboServerInterface ms)
+    '''public DMMapAttributeSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def FldSupportSigOption():
-    '''    public FldSupportSigOption(final MboValue mbv)
+    '''public FldSupportSigOption(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

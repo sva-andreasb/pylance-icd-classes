@@ -1,9 +1,9 @@
 def PersonGroupViewSet():
-    '''    public PersonGroupViewSet(final MboServerInterface ms)
+    '''public PersonGroupViewSet(final MboServerInterface ms)
     '''
 def setIsLookup():
-    '''    public void setIsLookup(final boolean is)
+    '''public void setIsLookup(final boolean is)
     '''
 def isLookup():
-    '''    public boolean isLookup()
+    '''public boolean isLookup()
     '''

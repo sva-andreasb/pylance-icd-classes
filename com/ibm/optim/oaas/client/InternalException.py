@@ -1,3 +1,3 @@
 def InternalException():
-    '''    public InternalException(final Exception e)
+    '''public InternalException(final Exception e)
     '''

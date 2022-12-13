@@ -1,6 +1,6 @@
 def getHashes():
-    '''    public Set<BoBHash> getHashes()
+    '''public Set<BoBHash> getHashes()
     '''
 def getData():
-    '''    public BoBData getData()
+    '''public BoBData getData()
     '''

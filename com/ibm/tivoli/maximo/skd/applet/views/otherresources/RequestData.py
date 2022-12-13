@@ -1,24 +1,24 @@
 def RequestData():
-    '''    public RequestData(final MXActivity act)
+    '''public RequestData(final MXActivity act)
     '''
 def padStart():
-    '''    public void padStart(final int days)
+    '''public void padStart(final int days)
     '''
 def padEnd():
-    '''    public void padEnd(final int days)
+    '''public void padEnd(final int days)
     '''
 def pad():
-    '''    public void pad(final int days)
+    '''public void pad(final int days)
     '''
 def copy():
-    '''    public RequestData copy()
+    '''public RequestData copy()
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

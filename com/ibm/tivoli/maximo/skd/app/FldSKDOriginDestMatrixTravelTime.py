@@ -1,6 +1,6 @@
 def FldSKDOriginDestMatrixTravelTime():
-    '''    public FldSKDOriginDestMatrixTravelTime(final MboValue mbv)
+    '''public FldSKDOriginDestMatrixTravelTime(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

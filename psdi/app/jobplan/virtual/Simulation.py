@@ -1,18 +1,18 @@
 def Simulation():
-    '''    public Simulation(final MboSet ms)
+    '''public Simulation(final MboSet ms)
     '''
 def applyJobPlan():
-    '''    public void applyJobPlan(final JobPlanRemote jobplan)
+    '''public void applyJobPlan(final JobPlanRemote jobplan)
     '''
 def calculateDynamicJobPlan():
-    '''    public void calculateDynamicJobPlan()
+    '''public void calculateDynamicJobPlan()
     '''
 def mustApplyLinearCalculation():
-    '''    public boolean mustApplyLinearCalculation()
+    '''public boolean mustApplyLinearCalculation()
     '''
 def calculateTotalWorkUnitsFor():
-    '''    public void calculateTotalWorkUnitsFor(final MboRemote multiAssetLocCI, final String unitOfWork)
+    '''public void calculateTotalWorkUnitsFor(final MboRemote multiAssetLocCI, final String unitOfWork)
     '''
 def calculateTotalWorkUnits():
-    '''    public void calculateTotalWorkUnits()
+    '''public void calculateTotalWorkUnits()
     '''

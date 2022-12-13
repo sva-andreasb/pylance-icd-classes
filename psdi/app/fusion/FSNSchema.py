@@ -1,6 +1,6 @@
 def FSNSchema():
-    '''    public FSNSchema(final MboSet ms)
+    '''public FSNSchema(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''

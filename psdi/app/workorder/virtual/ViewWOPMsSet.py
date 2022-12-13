@@ -1,3 +1,3 @@
 def ViewWOPMsSet():
-    '''    public ViewWOPMsSet(final MboServerInterface ms)
+    '''public ViewWOPMsSet(final MboServerInterface ms)
     '''

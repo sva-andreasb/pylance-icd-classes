@@ -1,3 +1,3 @@
 def InsightSet():
-    '''    public InsightSet(final MboServerInterface ms)
+    '''public InsightSet(final MboServerInterface ms)
     '''

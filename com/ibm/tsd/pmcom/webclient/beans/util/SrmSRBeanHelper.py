@@ -1,3 +1,3 @@
 def cancelSR():
-    '''    public static void cancelSR(final SRRemote sr, final MXSession mxSession)
+    '''public static void cancelSR(final SRRemote sr, final MXSession mxSession)
     '''

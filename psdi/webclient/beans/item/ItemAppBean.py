@@ -1,39 +1,39 @@
 def ADDITEMS():
-    '''    public int ADDITEMS()
+    '''public int ADDITEMS()
     '''
 def ADDITEMSBULK():
-    '''    public int ADDITEMSBULK()
+    '''public int ADDITEMSBULK()
     '''
 def CONVERSION():
-    '''    public int CONVERSION()
+    '''public int CONVERSION()
     '''
 def ADDTOOLS():
-    '''    public void ADDTOOLS()
+    '''public void ADDTOOLS()
     '''
 def COPYIAS():
-    '''    public int COPYIAS()
+    '''public int COPYIAS()
     '''
 def ITEMORG():
-    '''    public int ITEMORG()
+    '''public int ITEMORG()
     '''
 def TOOLCHARGE():
-    '''    public int TOOLCHARGE()
+    '''public int TOOLCHARGE()
     '''
 def STATUS():
-    '''    public int STATUS()
+    '''public int STATUS()
     '''
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def initializeApp():
-    '''    public void initializeApp()
+    '''public void initializeApp()
     '''
 def MKISCREW():
-    '''    public int MKISCREW()
+    '''public int MKISCREW()
     '''
 def CAPCSTADG():
-    '''    public int CAPCSTADG()
+    '''public int CAPCSTADG()
     '''
 def INSERT():
-    '''    public int INSERT()
+    '''public int INSERT()
     '''

@@ -1,3 +1,3 @@
 def TextHelpModelEvent():
-    '''    public TextHelpModelEvent(final Object source)
+    '''public TextHelpModelEvent(final Object source)
     '''

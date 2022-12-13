@@ -1,3 +1,3 @@
 def stop():
-    '''    public void stop()
+    '''public void stop()
     '''

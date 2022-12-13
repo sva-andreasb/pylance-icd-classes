@@ -1,17 +1,17 @@
 REPORTEXPVALUE = "String  \"REPORTEXPVALUE\""
 def ReportExpValueCache():
-    '''    public ReportExpValueCache()
+    '''public ReportExpValueCache()
     '''
 def getName():
-    '''    public String getName()
+    '''public String getName()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def reload():
-    '''    public void reload()
+    '''public void reload()
     public void reload(final String key)
     '''
 def getValues():
-    '''    public HashSet<String> getValues()
+    '''public HashSet<String> getValues()
     '''

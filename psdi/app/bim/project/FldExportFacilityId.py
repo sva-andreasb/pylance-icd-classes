@@ -1,6 +1,6 @@
 def FldExportFacilityId():
-    '''    public FldExportFacilityId(final MboValue mbv)
+    '''public FldExportFacilityId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

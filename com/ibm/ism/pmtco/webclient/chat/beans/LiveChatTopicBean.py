@@ -1,3 +1,3 @@
 def getTkTemplate():
-    '''    public MboRemote getTkTemplate()
+    '''public MboRemote getTkTemplate()
     '''

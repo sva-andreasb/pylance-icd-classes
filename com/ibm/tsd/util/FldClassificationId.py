@@ -1,12 +1,12 @@
 def FldClassificationId():
-    '''    public FldClassificationId(final MboValue mbv)
+    '''public FldClassificationId(final MboValue mbv)
     '''
 def setValueFromLookup():
-    '''    public void setValueFromLookup(final MboRemote sourceMbo)
+    '''public void setValueFromLookup(final MboRemote sourceMbo)
     '''
 def getList0():
-    '''    public MboSetRemote getList0()
+    '''public MboSetRemote getList0()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

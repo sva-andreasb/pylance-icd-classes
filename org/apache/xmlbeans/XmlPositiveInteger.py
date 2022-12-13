@@ -1,13 +1,13 @@
 type = "SchemaType  XmlBeans.getBuiltinTypeSystem().typeForHandle(\"_BI_positiveInteger\")"
 def newInstance():
-    '''    public static XmlPositiveInteger newInstance()
+    '''public static XmlPositiveInteger newInstance()
     public static XmlPositiveInteger newInstance(final XmlOptions options)
     '''
 def newValue():
-    '''    public static XmlPositiveInteger newValue(final Object obj)
+    '''public static XmlPositiveInteger newValue(final Object obj)
     '''
 def parse():
-    '''    public static XmlPositiveInteger parse(final String s)
+    '''public static XmlPositiveInteger parse(final String s)
     public static XmlPositiveInteger parse(final String s, final XmlOptions options)
     public static XmlPositiveInteger parse(final File f)
     public static XmlPositiveInteger parse(final File f, final XmlOptions options)
@@ -25,6 +25,6 @@ def parse():
     public static XmlPositiveInteger parse(final XMLStreamReader xsr, final XmlOptions options)
     '''
 def newValidatingXMLInputStream():
-    '''    public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
+    '''public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis)
     public static XMLInputStream newValidatingXMLInputStream(final XMLInputStream xis, final XmlOptions options)
     '''

@@ -1,3 +1,3 @@
 def InvalidMarkerException():
-    '''    public InvalidMarkerException(final String message)
+    '''public InvalidMarkerException(final String message)
     '''

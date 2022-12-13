@@ -1,6 +1,6 @@
 def FldWOMeasureDate():
-    '''    public FldWOMeasureDate(final MboValue mbv)
+    '''public FldWOMeasureDate(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

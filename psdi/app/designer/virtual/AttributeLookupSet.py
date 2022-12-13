@@ -1,3 +1,3 @@
 def AttributeLookupSet():
-    '''    public AttributeLookupSet(final MboServerInterface ms)
+    '''public AttributeLookupSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def getMBeanServer():
-    '''    public static MBeanServer getMBeanServer()
+    '''public static MBeanServer getMBeanServer()
     '''
 def setMBeanServer():
-    '''    public void setMBeanServer(final MBeanServer value)
+    '''public void setMBeanServer(final MBeanServer value)
     '''

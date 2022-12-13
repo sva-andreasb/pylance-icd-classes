@@ -1,6 +1,6 @@
 def create():
-    '''    public static void create()
+    '''public static void create()
     '''
 def getAdminAuthorizer():
-    '''    public static AdminAuthorizer getAdminAuthorizer()
+    '''public static AdminAuthorizer getAdminAuthorizer()
     '''

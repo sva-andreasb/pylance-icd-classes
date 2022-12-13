@@ -1,9 +1,9 @@
 def FldSKDProjectShiftNum():
-    '''    public FldSKDProjectShiftNum(final MboValue mbv)
+    '''public FldSKDProjectShiftNum(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

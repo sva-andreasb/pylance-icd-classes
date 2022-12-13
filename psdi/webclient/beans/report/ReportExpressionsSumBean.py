@@ -1,3 +1,3 @@
 def deleteSummary():
-    '''    public int deleteSummary()
+    '''public int deleteSummary()
     '''

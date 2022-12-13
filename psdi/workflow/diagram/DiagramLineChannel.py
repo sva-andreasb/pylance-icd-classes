@@ -6,46 +6,46 @@ BEFORE = "int  0"
 AFTER = "int  1"
 LINE_WIDTH = "int  1"
 def DiagramLineChannel():
-    '''    public DiagramLineChannel(final int index, final int orientation, final int position)
+    '''public DiagramLineChannel(final int index, final int orientation, final int position)
     '''
 def getIndex():
-    '''    public int getIndex()
+    '''public int getIndex()
     '''
 def getOrientation():
-    '''    public int getOrientation()
+    '''public int getOrientation()
     '''
 def getPosition():
-    '''    public int getPosition()
+    '''public int getPosition()
     '''
 def addWorkflowRelationship():
-    '''    public void addWorkflowRelationship(final WorkflowRelationship rel)
+    '''public void addWorkflowRelationship(final WorkflowRelationship rel)
     '''
 def getWorkflowRelationships():
-    '''    public Vector getWorkflowRelationships()
+    '''public Vector getWorkflowRelationships()
     '''
 def getKey():
-    '''    public Object getKey()
+    '''public Object getKey()
     public static Object getKey(final int index, final int orientation, final int position)
     '''
 def getLineCount():
-    '''    public int getLineCount()
+    '''public int getLineCount()
     '''
 def getSpaceRequired():
-    '''    public int getSpaceRequired()
+    '''public int getSpaceRequired()
     '''
 def getLocation():
-    '''    public int getLocation()
+    '''public int getLocation()
     public int getLocation(final WorkflowRelationship rel)
     '''
 def setLocation():
-    '''    public void setLocation(final int location)
+    '''public void setLocation(final int location)
     '''
 def setLineSpacing():
-    '''    public void setLineSpacing(final int spacing)
+    '''public void setLineSpacing(final int spacing)
     '''
 def getLineSpacing():
-    '''    public int getLineSpacing()
+    '''public int getLineSpacing()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

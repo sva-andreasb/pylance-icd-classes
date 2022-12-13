@@ -1,9 +1,9 @@
 def OslcIntQueryParams():
-    '''    public OslcIntQueryParams(final MboSet ms)
+    '''public OslcIntQueryParams(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''

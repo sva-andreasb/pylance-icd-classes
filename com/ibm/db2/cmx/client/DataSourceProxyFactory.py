@@ -1,3 +1,3 @@
 def createDataSourceProxy():
-    '''    public static Object createDataSourceProxy(final Object o)
+    '''public static Object createDataSourceProxy(final Object o)
     '''

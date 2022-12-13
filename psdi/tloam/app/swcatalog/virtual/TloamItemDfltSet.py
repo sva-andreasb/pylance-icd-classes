@@ -1,3 +1,3 @@
 def TloamItemDfltSet():
-    '''    public TloamItemDfltSet(final MboServerInterface ms)
+    '''public TloamItemDfltSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def MaxProcColsSet():
-    '''    public MaxProcColsSet(final MboServerInterface ms)
+    '''public MaxProcColsSet(final MboServerInterface ms)
     '''
 def canAdd():
-    '''    public void canAdd()
+    '''public void canAdd()
     '''

@@ -1,6 +1,6 @@
 def FldAMCrewWOLabTotalActHrs():
-    '''    public FldAMCrewWOLabTotalActHrs(final MboValue mbv)
+    '''public FldAMCrewWOLabTotalActHrs(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

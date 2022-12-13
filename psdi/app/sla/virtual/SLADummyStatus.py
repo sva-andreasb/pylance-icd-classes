@@ -1,3 +1,3 @@
 def SLADummyStatus():
-    '''    public SLADummyStatus(final MboSet ms)
+    '''public SLADummyStatus(final MboSet ms)
     '''

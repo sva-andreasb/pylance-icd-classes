@@ -1,6 +1,6 @@
 def FldPurTotalBaseCost():
-    '''    public FldPurTotalBaseCost(final MboValue mbv)
+    '''public FldPurTotalBaseCost(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

@@ -1,15 +1,15 @@
 def JobMaterial():
-    '''    public JobMaterial(final MboSet ms)
+    '''public JobMaterial(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def supplyStoreroom():
-    '''    public void supplyStoreroom(final PM pm)
+    '''public void supplyStoreroom(final PM pm)
     '''
 def needsStoreroom():
-    '''    public boolean needsStoreroom()
+    '''public boolean needsStoreroom()
     '''

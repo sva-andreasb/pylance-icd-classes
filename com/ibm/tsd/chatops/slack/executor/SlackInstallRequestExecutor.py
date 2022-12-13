@@ -1,6 +1,6 @@
 def SlackInstallRequestExecutor():
-    '''    public SlackInstallRequestExecutor(final SlackRequest request)
+    '''public SlackInstallRequestExecutor(final SlackRequest request)
     '''
 def exec():
-    '''    public JSONObject exec()
+    '''public JSONObject exec()
     '''

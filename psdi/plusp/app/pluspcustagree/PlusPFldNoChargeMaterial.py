@@ -1,6 +1,6 @@
 def PlusPFldNoChargeMaterial():
-    '''    public PlusPFldNoChargeMaterial(final MboValue mbv)
+    '''public PlusPFldNoChargeMaterial(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

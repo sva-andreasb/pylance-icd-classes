@@ -1,3 +1,3 @@
 def WOMATStatusSyncSet():
-    '''    public WOMATStatusSyncSet(final MboServerInterface ms)
+    '''public WOMATStatusSyncSet(final MboServerInterface ms)
     '''

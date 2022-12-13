@@ -1,3 +1,3 @@
 def ReconLinkClauseSet():
-    '''    public ReconLinkClauseSet(final MboServerInterface ms)
+    '''public ReconLinkClauseSet(final MboServerInterface ms)
     '''

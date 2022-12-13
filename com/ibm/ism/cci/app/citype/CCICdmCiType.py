@@ -1,3 +1,3 @@
 def CCICdmCiType():
-    '''    public CCICdmCiType(final MboSet ms)
+    '''public CCICdmCiType(final MboSet ms)
     '''

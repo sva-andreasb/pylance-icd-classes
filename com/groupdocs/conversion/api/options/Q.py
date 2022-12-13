@@ -1,3 +1,3 @@
 def Q():
-    '''    public Q(final ILoader<ar, FromWordsOptions> loader, final T t)
+    '''public Q(final ILoader<ar, FromWordsOptions> loader, final T t)
     '''

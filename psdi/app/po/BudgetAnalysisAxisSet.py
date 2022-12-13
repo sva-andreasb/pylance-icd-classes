@@ -1,3 +1,3 @@
 def BudgetAnalysisAxisSet():
-    '''    public BudgetAnalysisAxisSet(final MboServerInterface ms)
+    '''public BudgetAnalysisAxisSet(final MboServerInterface ms)
     '''

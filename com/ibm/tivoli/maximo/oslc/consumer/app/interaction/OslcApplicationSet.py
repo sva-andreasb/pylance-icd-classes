@@ -1,6 +1,6 @@
 def OslcApplicationSet():
-    '''    public OslcApplicationSet(final MboServerInterface ms)
+    '''public OslcApplicationSet(final MboServerInterface ms)
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

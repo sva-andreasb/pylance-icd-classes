@@ -1,13 +1,13 @@
 CACHE_NAME = "String  \"BMX.MAXIMODD.IXI\""
 def getTypedReference():
-    '''    public IndexInfoBase getTypedReference()
+    '''public IndexInfoBase getTypedReference()
     '''
 def getTypedReferenceForSet():
-    '''    public IndexInfoBase getTypedReferenceForSet()
+    '''public IndexInfoBase getTypedReferenceForSet()
     '''
 def getKeys():
-    '''    public String[] getKeys()
+    '''public String[] getKeys()
     '''
 def getCacheName():
-    '''    public String getCacheName()
+    '''public String getCacheName()
     '''

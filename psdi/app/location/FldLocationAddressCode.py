@@ -1,6 +1,6 @@
 def FldLocationAddressCode():
-    '''    public FldLocationAddressCode(final MboValue mbv)
+    '''public FldLocationAddressCode(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

@@ -1,6 +1,6 @@
 def MaxLookupMap():
-    '''    public MaxLookupMap(final MboSet ms)
+    '''public MaxLookupMap(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

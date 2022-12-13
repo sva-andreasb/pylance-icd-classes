@@ -1,3 +1,3 @@
 def BIMAttributeMapEntrySet():
-    '''    public BIMAttributeMapEntrySet(final MboServerInterface ms)
+    '''public BIMAttributeMapEntrySet(final MboServerInterface ms)
     '''

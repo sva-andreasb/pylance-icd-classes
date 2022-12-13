@@ -1,6 +1,6 @@
 def FldWPResType():
-    '''    public FldWPResType(final MboValue mbv)
+    '''public FldWPResType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

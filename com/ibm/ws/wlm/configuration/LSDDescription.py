@@ -1,27 +1,27 @@
 def LSDDescription():
-    '''    public LSDDescription(final LSDAddress lsdAddress)
+    '''public LSDDescription(final LSDAddress lsdAddress)
     '''
 def getHost():
-    '''    public String getHost()
+    '''public String getHost()
     '''
 def getPort():
-    '''    public int getPort()
+    '''public int getPort()
     '''
 def getSSLPort():
-    '''    public int getSSLPort()
+    '''public int getSSLPort()
     '''
 def getSSLCCPort():
-    '''    public int getSSLCCPort()
+    '''public int getSSLCCPort()
     '''
 def isUsable():
-    '''    public boolean isUsable()
+    '''public boolean isUsable()
     '''
 def handleLSDRemoteException():
-    '''    public void handleLSDRemoteException()
+    '''public void handleLSDRemoteException()
     '''
 def handleForwardFailure():
-    '''    public void handleForwardFailure()
+    '''public void handleForwardFailure()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

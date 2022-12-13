@@ -1,3 +1,3 @@
 def IlvDiagrammerFileMenu():
-    '''    public IlvDiagrammerFileMenu()
+    '''public IlvDiagrammerFileMenu()
     '''

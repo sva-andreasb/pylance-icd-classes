@@ -2,26 +2,26 @@ COPYRIGHT = "String  \"\n\nLicensed Materials - Property of IBM\n5725-E24\n(C)Co
 REL_APPROVERS = "String  \"PMCHGBOAPPR\""
 REL_CIS = "String  \"PMCHGBOCI\""
 def PmChgBlackoutPeriod():
-    '''    public PmChgBlackoutPeriod(final MboSet ms)
+    '''public PmChgBlackoutPeriod(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def duplicate():
-    '''    public MboRemote duplicate()
+    '''public MboRemote duplicate()
     '''
 def delete():
-    '''    public void delete(final long access)
+    '''public void delete(final long access)
     '''
 def getStatusListName():
-    '''    public String getStatusListName()
+    '''public String getStatusListName()
     '''
 def linkCIsToBlackoutPeriod():
-    '''    public void linkCIsToBlackoutPeriod(final Vector cis)
+    '''public void linkCIsToBlackoutPeriod(final Vector cis)
     '''
 def initRelationship():
-    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
     '''

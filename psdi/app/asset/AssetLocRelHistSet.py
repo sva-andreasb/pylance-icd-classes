@@ -1,3 +1,3 @@
 def AssetLocRelHistSet():
-    '''    public AssetLocRelHistSet(final MboServerInterface ms)
+    '''public AssetLocRelHistSet(final MboServerInterface ms)
     '''

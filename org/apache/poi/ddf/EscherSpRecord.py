@@ -13,35 +13,35 @@ FLAG_HAVEANCHOR = "int  512"
 FLAG_BACKGROUND = "int  1024"
 FLAG_HASSHAPETYPE = "int  2048"
 def fillFields():
-    '''    public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
+    '''public int fillFields(final byte[] data, final int offset, final EscherRecordFactory recordFactory)
     '''
 def serialize():
-    '''    public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
+    '''public int serialize(final int offset, final byte[] data, final EscherSerializationListener listener)
     '''
 def getRecordSize():
-    '''    public int getRecordSize()
+    '''public int getRecordSize()
     '''
 def getRecordId():
-    '''    public short getRecordId()
+    '''public short getRecordId()
     '''
 def getRecordName():
-    '''    public String getRecordName()
+    '''public String getRecordName()
     '''
 def getShapeId():
-    '''    public int getShapeId()
+    '''public int getShapeId()
     '''
 def setShapeId():
-    '''    public void setShapeId(final int field_1_shapeId)
+    '''public void setShapeId(final int field_1_shapeId)
     '''
 def getFlags():
-    '''    public int getFlags()
+    '''public int getFlags()
     '''
 def setFlags():
-    '''    public void setFlags(final int field_2_flags)
+    '''public void setFlags(final int field_2_flags)
     '''
 def getShapeType():
-    '''    public short getShapeType()
+    '''public short getShapeType()
     '''
 def setShapeType():
-    '''    public void setShapeType(final short value)
+    '''public void setShapeType(final short value)
     '''

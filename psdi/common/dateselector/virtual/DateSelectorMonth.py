@@ -1,6 +1,6 @@
 def DateSelectorMonth():
-    '''    public DateSelectorMonth(final MboSet ms)
+    '''public DateSelectorMonth(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

@@ -1,9 +1,9 @@
 def Method():
-    '''    public Method()
+    '''public Method()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def clone():
-    '''    public Object clone()
+    '''public Object clone()
     '''

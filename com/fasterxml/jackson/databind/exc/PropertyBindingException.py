@@ -1,9 +1,9 @@
 def getMessageSuffix():
-    '''    public String getMessageSuffix()
+    '''public String getMessageSuffix()
     '''
 def getPropertyName():
-    '''    public String getPropertyName()
+    '''public String getPropertyName()
     '''
 def getKnownPropertyIds():
-    '''    public Collection<Object> getKnownPropertyIds()
+    '''public Collection<Object> getKnownPropertyIds()
     '''

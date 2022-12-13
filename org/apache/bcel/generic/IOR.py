@@ -1,6 +1,6 @@
 def IOR():
-    '''    public IOR()
+    '''public IOR()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

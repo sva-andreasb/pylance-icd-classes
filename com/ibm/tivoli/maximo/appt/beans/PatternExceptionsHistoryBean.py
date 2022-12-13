@@ -1,3 +1,3 @@
 def getPatternExceptionSet():
-    '''    public MboSetRemote getPatternExceptionSet(final MboRemote mbo)
+    '''public MboSetRemote getPatternExceptionSet(final MboRemote mbo)
     '''

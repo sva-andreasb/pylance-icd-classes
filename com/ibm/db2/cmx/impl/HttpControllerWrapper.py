@@ -1,9 +1,9 @@
 def HttpControllerWrapper():
-    '''    public HttpControllerWrapper()
+    '''public HttpControllerWrapper()
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def destroy():
-    '''    public void destroy()
+    '''public void destroy()
     '''

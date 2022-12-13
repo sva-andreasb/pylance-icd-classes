@@ -1,12 +1,12 @@
 def SRMSSViewAssetDataBean():
-    '''    public SRMSSViewAssetDataBean()
+    '''public SRMSSViewAssetDataBean()
     '''
 def getMboSetRemote():
-    '''    public MboSetRemote getMboSetRemote()
+    '''public MboSetRemote getMboSetRemote()
     '''
 def srmsscreatesr():
-    '''    public int srmsscreatesr()
+    '''public int srmsscreatesr()
     '''
 def cancelDialog():
-    '''    public int cancelDialog()
+    '''public int cancelDialog()
     '''

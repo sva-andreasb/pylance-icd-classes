@@ -1,3 +1,3 @@
 def SKDActGanttProp():
-    '''    public SKDActGanttProp(final MboSet ms)
+    '''public SKDActGanttProp(final MboSet ms)
     '''

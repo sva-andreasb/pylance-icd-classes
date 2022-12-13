@@ -1,6 +1,6 @@
 def XSDMonthType():
-    '''    public XSDMonthType(final String typename)
+    '''public XSDMonthType(final String typename)
     '''
 def parseValidated():
-    '''    public Object parseValidated(final String str)
+    '''public Object parseValidated(final String str)
     '''

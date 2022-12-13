@@ -1,6 +1,6 @@
 def XslFileNotFoundException():
-    '''    public XslFileNotFoundException(final String file)
+    '''public XslFileNotFoundException(final String file)
     '''
 def getFileName():
-    '''    public final String getFileName()
+    '''public final String getFileName()
     '''

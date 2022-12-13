@@ -1,12 +1,12 @@
 def encode():
-    '''    public static synchronized String encode(final byte[] b)
+    '''public static synchronized String encode(final byte[] b)
     '''
 def decode():
-    '''    public static synchronized byte[] decode(final String value)
+    '''public static synchronized byte[] decode(final String value)
     '''
 def get():
-    '''    public String get(final String key, final String def)
+    '''public String get(final String key, final String def)
     '''
 def put():
-    '''    public void put(final String key, final String value)
+    '''public void put(final String key, final String value)
     '''

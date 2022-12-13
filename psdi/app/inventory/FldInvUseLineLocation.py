@@ -1,12 +1,12 @@
 def FldInvUseLineLocation():
-    '''    public FldInvUseLineLocation(final MboValue mbv)
+    '''public FldInvUseLineLocation(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

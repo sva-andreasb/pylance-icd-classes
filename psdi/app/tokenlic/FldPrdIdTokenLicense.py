@@ -1,6 +1,6 @@
 def FldPrdIdTokenLicense():
-    '''    public FldPrdIdTokenLicense(final MboValue mbv)
+    '''public FldPrdIdTokenLicense(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,15 +1,15 @@
 def SKDCPMAdjustedActivityData():
-    '''    public SKDCPMAdjustedActivityData()
+    '''public SKDCPMAdjustedActivityData()
     '''
 def getStartTime():
-    '''    public Date getStartTime()
+    '''public Date getStartTime()
     '''
 def setStartTime():
-    '''    public void setStartTime(final Date startTime)
+    '''public void setStartTime(final Date startTime)
     '''
 def getEndTime():
-    '''    public Date getEndTime()
+    '''public Date getEndTime()
     '''
 def setEndTime():
-    '''    public void setEndTime(final Date endTime)
+    '''public void setEndTime(final Date endTime)
     '''

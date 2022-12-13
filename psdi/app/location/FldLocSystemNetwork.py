@@ -1,6 +1,6 @@
 def FldLocSystemNetwork():
-    '''    public FldLocSystemNetwork(final MboValue mbv)
+    '''public FldLocSystemNetwork(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

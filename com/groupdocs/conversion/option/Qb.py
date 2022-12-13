@@ -1,5 +1,5 @@
 def a():
-    '''    public static <T> T a(final List<T> list, final c<T> c)
+    '''public static <T> T a(final List<T> list, final c<T> c)
     public static <T> T a(final List<T> list, final d<T> d)
     public static <T, R> List<R> a(final List<T> list, final f<T, R> f)
     public static <T> List<T> a(final List<T> list, final h h)

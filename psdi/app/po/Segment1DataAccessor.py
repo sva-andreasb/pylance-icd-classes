@@ -1,3 +1,3 @@
 def Segment1DataAccessor():
-    '''    public Segment1DataAccessor()
+    '''public Segment1DataAccessor()
     '''

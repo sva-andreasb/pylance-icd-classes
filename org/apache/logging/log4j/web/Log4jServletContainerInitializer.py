@@ -1,3 +1,3 @@
 def onStartup():
-    '''    public void onStartup(final Set<Class<?>> classes, final ServletContext servletContext)
+    '''public void onStartup(final Set<Class<?>> classes, final ServletContext servletContext)
     '''

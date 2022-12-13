@@ -1,3 +1,3 @@
 def InvalidModuleException():
-    '''    public InvalidModuleException(final String s)
+    '''public InvalidModuleException(final String s)
     '''

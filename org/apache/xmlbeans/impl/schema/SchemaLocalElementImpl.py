@@ -1,39 +1,39 @@
 def SchemaLocalElementImpl():
-    '''    public SchemaLocalElementImpl()
+    '''public SchemaLocalElementImpl()
     '''
 def blockExtension():
-    '''    public boolean blockExtension()
+    '''public boolean blockExtension()
     '''
 def blockRestriction():
-    '''    public boolean blockRestriction()
+    '''public boolean blockRestriction()
     '''
 def blockSubstitution():
-    '''    public boolean blockSubstitution()
+    '''public boolean blockSubstitution()
     '''
 def isAbstract():
-    '''    public boolean isAbstract()
+    '''public boolean isAbstract()
     '''
 def setAbstract():
-    '''    public void setAbstract(final boolean abs)
+    '''public void setAbstract(final boolean abs)
     '''
 def setBlock():
-    '''    public void setBlock(final boolean extension, final boolean restriction, final boolean substitution)
+    '''public void setBlock(final boolean extension, final boolean restriction, final boolean substitution)
     '''
 def setAnnotation():
-    '''    public void setAnnotation(final SchemaAnnotation ann)
+    '''public void setAnnotation(final SchemaAnnotation ann)
     '''
 def setWsdlArrayType():
-    '''    public void setWsdlArrayType(final SOAPArrayType arrayType)
+    '''public void setWsdlArrayType(final SOAPArrayType arrayType)
     '''
 def getAnnotation():
-    '''    public SchemaAnnotation getAnnotation()
+    '''public SchemaAnnotation getAnnotation()
     '''
 def getWSDLArrayType():
-    '''    public SOAPArrayType getWSDLArrayType()
+    '''public SOAPArrayType getWSDLArrayType()
     '''
 def setIdentityConstraints():
-    '''    public void setIdentityConstraints(final SchemaIdentityConstraint.Ref[] constraints)
+    '''public void setIdentityConstraints(final SchemaIdentityConstraint.Ref[] constraints)
     '''
 def getIdentityConstraints():
-    '''    public SchemaIdentityConstraint[] getIdentityConstraints()
+    '''public SchemaIdentityConstraint[] getIdentityConstraints()
     '''

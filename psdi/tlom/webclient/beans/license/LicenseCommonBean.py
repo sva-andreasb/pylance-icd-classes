@@ -1,3 +1,3 @@
 def doRefresh():
-    '''    public int doRefresh()
+    '''public int doRefresh()
     '''

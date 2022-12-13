@@ -1,22 +1,22 @@
 ID = "String  \"Action.ZoomIn\""
 def GanttViewerZoomInAction():
-    '''    public GanttViewerZoomInAction(final Viewer viewer)
+    '''public GanttViewerZoomInAction(final Viewer viewer)
     '''
 def getAccelerator():
-    '''    public KeyStroke getAccelerator()
+    '''public KeyStroke getAccelerator()
     '''
 def getShortDescription():
-    '''    public String getShortDescription()
+    '''public String getShortDescription()
     '''
 def getLongDescription():
-    '''    public String getLongDescription()
+    '''public String getLongDescription()
     '''
 def setShortDescription():
-    '''    public void setShortDescription(final String shortDesc)
+    '''public void setShortDescription(final String shortDesc)
     '''
 def setLongDescription():
-    '''    public void setLongDescription(final String longDesc)
+    '''public void setLongDescription(final String longDesc)
     '''
 def getContextualAction():
-    '''    public IlvAction getContextualAction(final Object component)
+    '''public IlvAction getContextualAction(final Object component)
     '''

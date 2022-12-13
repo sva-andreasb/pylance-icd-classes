@@ -1,3 +1,3 @@
 def PlusPLocOper():
-    '''    public PlusPLocOper(final MboSet arg0)
+    '''public PlusPLocOper(final MboSet arg0)
     '''

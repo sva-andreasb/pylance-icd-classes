@@ -1,3 +1,3 @@
 def isCompressed():
-    '''    public boolean isCompressed()
+    '''public boolean isCompressed()
     '''

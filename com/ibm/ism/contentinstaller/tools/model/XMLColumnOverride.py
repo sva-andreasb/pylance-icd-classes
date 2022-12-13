@@ -1,57 +1,57 @@
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def isTimestamp():
-    '''    public boolean isTimestamp()
+    '''public boolean isTimestamp()
     '''
 def setTimestamp():
-    '''    public void setTimestamp(final boolean isTimestamp)
+    '''public void setTimestamp(final boolean isTimestamp)
     '''
 def setTimestampOffset():
-    '''    public void setTimestampOffset(final String offset)
+    '''public void setTimestampOffset(final String offset)
     '''
 def setTimestampUnits():
-    '''    public void setTimestampUnits(final String units)
+    '''public void setTimestampUnits(final String units)
     '''
 def getTimestampOffset():
-    '''    public String getTimestampOffset()
+    '''public String getTimestampOffset()
     '''
 def isPositiveOffset():
-    '''    public boolean isPositiveOffset()
+    '''public boolean isPositiveOffset()
     '''
 def getTimestampOffsetInt():
-    '''    public int getTimestampOffsetInt()
+    '''public int getTimestampOffsetInt()
     '''
 def getTimestampUnits():
-    '''    public String getTimestampUnits()
+    '''public String getTimestampUnits()
     '''
 def getSequence():
-    '''    public XMLSequenceType getSequence()
+    '''public XMLSequenceType getSequence()
     '''
 def setSequence():
-    '''    public void setSequence(final XMLSequenceType sequence)
+    '''public void setSequence(final XMLSequenceType sequence)
     '''
 def getSql():
-    '''    public XMLSQLType getSql()
+    '''public XMLSQLType getSql()
     '''
 def setSql():
-    '''    public void setSql(final XMLSQLType sql)
+    '''public void setSql(final XMLSQLType sql)
     '''
 def getValue():
-    '''    public XMLValue getValue()
+    '''public XMLValue getValue()
     '''
 def setValue():
-    '''    public void setValue(final XMLValue value)
+    '''public void setValue(final XMLValue value)
     '''
 def getParentObjectColumn():
-    '''    public XMLColumn getParentObjectColumn()
+    '''public XMLColumn getParentObjectColumn()
     '''
 def setParentObjectColumn():
-    '''    public void setParentObjectColumn(final XMLColumn parentColumn)
+    '''public void setParentObjectColumn(final XMLColumn parentColumn)
     '''
 def getParentValueTag():
-    '''    public String getParentValueTag()
+    '''public String getParentValueTag()
     '''
 def setParentValueTag():
-    '''    public void setParentValueTag(final String parentValueTag)
+    '''public void setParentValueTag(final String parentValueTag)
     '''

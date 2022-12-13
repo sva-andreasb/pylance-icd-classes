@@ -22,19 +22,19 @@ UDTYPE = "int  99"
 DEFAULMAXLENGTH = "int  -1"
 DEFAULTSCALE = "int  2"
 def setMaxLength():
-    '''    public void setMaxLength(final int l)
+    '''public void setMaxLength(final int l)
     '''
 def getMaxLength():
-    '''    public int getMaxLength()
+    '''public int getMaxLength()
     '''
 def getScale():
-    '''    public int getScale()
+    '''public int getScale()
     '''
 def setScale():
-    '''    public void setScale(final int s)
+    '''public void setScale(final int s)
     '''
 def setValue():
-    '''    public void setValue(final Date value)
+    '''public void setValue(final Date value)
     public void setValue(final byte[] value)
     public void setValue(final double value)
     public void setValue(final float value)
@@ -43,54 +43,54 @@ def setValue():
     public void setValue(final boolean value)
     '''
 def asDate():
-    '''    public Date asDate()
+    '''public Date asDate()
     '''
 def asDouble():
-    '''    public double asDouble()
+    '''public double asDouble()
     '''
 def asFloat():
-    '''    public float asFloat()
+    '''public float asFloat()
     '''
 def asInt():
-    '''    public int asInt()
+    '''public int asInt()
     '''
 def asLong():
-    '''    public long asLong()
+    '''public long asLong()
     '''
 def asBoolean():
-    '''    public boolean asBoolean()
+    '''public boolean asBoolean()
     '''
 def asBytes():
-    '''    public byte[] asBytes()
+    '''public byte[] asBytes()
     '''
 def isNull():
-    '''    public boolean isNull()
+    '''public boolean isNull()
     '''
 def setValueNull():
-    '''    public void setValueNull()
+    '''public void setValueNull()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''
 def setAftercheckLengthAndScale():
-    '''    public void setAftercheckLengthAndScale(final String val)
+    '''public void setAftercheckLengthAndScale(final String val)
     '''
 def overrideStringData():
-    '''    public void overrideStringData(final String newValue)
+    '''public void overrideStringData(final String newValue)
     '''
 def createMaxType():
-    '''    public static MaxType createMaxType(final Locale l, final TimeZone tz, final int type)
+    '''public static MaxType createMaxType(final Locale l, final TimeZone tz, final int type)
     public static MaxType createMaxType(final Locale l, final TimeZone tz, final int type, final int length, final int scale)
     '''
 def getObjectName():
-    '''    public String getObjectName()
+    '''public String getObjectName()
     '''
 def setObjectName():
-    '''    public void setObjectName(final String objectName)
+    '''public void setObjectName(final String objectName)
     '''
 def getAttributeName():
-    '''    public String getAttributeName()
+    '''public String getAttributeName()
     '''
 def setAttributeName():
-    '''    public void setAttributeName(final String attributeName)
+    '''public void setAttributeName(final String attributeName)
     '''

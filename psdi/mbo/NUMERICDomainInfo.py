@@ -1,9 +1,9 @@
 def NUMERICDomainInfo():
-    '''    public NUMERICDomainInfo(final String name)
+    '''public NUMERICDomainInfo(final String name)
     '''
 def getDomainObject():
-    '''    public MboValueListener getDomainObject(final MboValue mbv)
+    '''public MboValueListener getDomainObject(final MboValue mbv)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

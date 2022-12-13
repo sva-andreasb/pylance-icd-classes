@@ -1,6 +1,6 @@
 def TableColumn():
-    '''    public TableColumn(final MboSet ms)
+    '''public TableColumn(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

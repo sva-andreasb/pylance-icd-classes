@@ -1,9 +1,9 @@
 def FldTableDuplicate():
-    '''    public FldTableDuplicate(final MboValue mbv)
+    '''public FldTableDuplicate(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def setCheckForDuplicates():
-    '''    public void setCheckForDuplicates(final boolean flag)
+    '''public void setCheckForDuplicates(final boolean flag)
     '''

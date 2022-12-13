@@ -1,3 +1,3 @@
 def ProxyAuthenticationStrategy():
-    '''    public ProxyAuthenticationStrategy()
+    '''public ProxyAuthenticationStrategy()
     '''

@@ -6,14 +6,14 @@ ERR_SCHEDULE_WINDOW = "long  16L"
 ERR_CAPABILITY = "long  32L"
 ERR_CONFLICT_NON_WORK = "long  64L"
 def isBitSet():
-    '''    public static boolean isBitSet(final long field, final long errBit)
+    '''public static boolean isBitSet(final long field, final long errBit)
     '''
 def setBit():
-    '''    public static long setBit(final long field, final long errBit)
+    '''public static long setBit(final long field, final long errBit)
     '''
 def toggleBit():
-    '''    public static long toggleBit(final long field, final long errBit)
+    '''public static long toggleBit(final long field, final long errBit)
     '''
 def clearBit():
-    '''    public static long clearBit(final long field, final long errBit)
+    '''public static long clearBit(final long field, final long errBit)
     '''

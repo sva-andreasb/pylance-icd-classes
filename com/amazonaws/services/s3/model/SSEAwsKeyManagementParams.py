@@ -1,10 +1,10 @@
 def SSEAwsKeyManagementParams():
-    '''    public SSEAwsKeyManagementParams()
+    '''public SSEAwsKeyManagementParams()
     public SSEAwsKeyManagementParams(final String awsKmsKeyId)
     '''
 def getAwsKmsKeyId():
-    '''    public String getAwsKmsKeyId()
+    '''public String getAwsKmsKeyId()
     '''
 def getEncryption():
-    '''    public String getEncryption()
+    '''public String getEncryption()
     '''

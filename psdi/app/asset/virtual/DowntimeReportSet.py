@@ -1,9 +1,9 @@
 def DowntimeReportSet():
-    '''    public DowntimeReportSet(final MboServerInterface ms)
+    '''public DowntimeReportSet(final MboServerInterface ms)
     '''
 def execute():
-    '''    public void execute()
+    '''public void execute()
     '''
 def setup():
-    '''    public MboRemote setup()
+    '''public MboRemote setup()
     '''

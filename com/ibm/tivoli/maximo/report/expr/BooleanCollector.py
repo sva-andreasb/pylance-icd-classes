@@ -1,3 +1,3 @@
 def BooleanCollector():
-    '''    public BooleanCollector()
+    '''public BooleanCollector()
     '''

@@ -1,3 +1,3 @@
 def MaxLicAppsSet():
-    '''    public MaxLicAppsSet(final MboServerInterface ms)
+    '''public MaxLicAppsSet(final MboServerInterface ms)
     '''

@@ -1,9 +1,9 @@
 def IOTMapperExit():
-    '''    public IOTMapperExit()
+    '''public IOTMapperExit()
     '''
 def setDataIn():
-    '''    public StructureData setDataIn(final StructureData erData)
+    '''public StructureData setDataIn(final StructureData erData)
     '''
 def getMapNameIn():
-    '''    public String getMapNameIn(final StructureData irData)
+    '''public String getMapNameIn(final StructureData irData)
     '''

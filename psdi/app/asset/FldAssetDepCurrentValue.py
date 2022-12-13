@@ -1,9 +1,9 @@
 def FldAssetDepCurrentValue():
-    '''    public FldAssetDepCurrentValue(final MboValue mbv)
+    '''public FldAssetDepCurrentValue(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

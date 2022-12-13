@@ -1,6 +1,6 @@
 def FldInventoryOrderQty():
-    '''    public FldInventoryOrderQty(final MboValue mbv)
+    '''public FldInventoryOrderQty(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

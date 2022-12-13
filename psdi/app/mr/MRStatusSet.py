@@ -1,3 +1,3 @@
 def MRStatusSet():
-    '''    public MRStatusSet(final MboServerInterface ms)
+    '''public MRStatusSet(final MboServerInterface ms)
     '''

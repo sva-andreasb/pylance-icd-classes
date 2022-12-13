@@ -1,3 +1,3 @@
 def ViewItemAvailabilityBean():
-    '''    public ViewItemAvailabilityBean()
+    '''public ViewItemAvailabilityBean()
     '''

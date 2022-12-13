@@ -1,3 +1,3 @@
 def BudgetRuleProcSet():
-    '''    public BudgetRuleProcSet(final MboServerInterface ms)
+    '''public BudgetRuleProcSet(final MboServerInterface ms)
     '''

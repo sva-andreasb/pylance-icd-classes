@@ -1,9 +1,9 @@
 def addToChain():
-    '''    public ImmutablePatternModifier addToChain(final MicroPropsGenerator parent)
+    '''public ImmutablePatternModifier addToChain(final MicroPropsGenerator parent)
     '''
 def processQuantity():
-    '''    public MicroProps processQuantity(final DecimalQuantity quantity)
+    '''public MicroProps processQuantity(final DecimalQuantity quantity)
     '''
 def applyToMicros():
-    '''    public void applyToMicros(final MicroProps micros, final DecimalQuantity quantity)
+    '''public void applyToMicros(final MicroProps micros, final DecimalQuantity quantity)
     '''

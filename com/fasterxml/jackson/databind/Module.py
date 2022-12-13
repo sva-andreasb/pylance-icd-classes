@@ -1,3 +1,3 @@
 def getTypeId():
-    '''    public Object getTypeId()
+    '''public Object getTypeId()
     '''

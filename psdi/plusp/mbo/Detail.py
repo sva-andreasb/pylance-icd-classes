@@ -1,3 +1,3 @@
 def Detail():
-    '''    public Detail()
+    '''public Detail()
     '''

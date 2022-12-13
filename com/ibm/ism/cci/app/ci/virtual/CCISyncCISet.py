@@ -1,3 +1,3 @@
 def CCISyncCISet():
-    '''    public CCISyncCISet(final MboServerInterface ms)
+    '''public CCISyncCISet(final MboServerInterface ms)
     '''

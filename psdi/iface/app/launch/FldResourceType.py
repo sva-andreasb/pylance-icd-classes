@@ -1,6 +1,6 @@
 def FldResourceType():
-    '''    public FldResourceType(final MboValue mbv)
+    '''public FldResourceType(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

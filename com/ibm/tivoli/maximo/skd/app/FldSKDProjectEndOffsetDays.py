@@ -1,6 +1,6 @@
 def FldSKDProjectEndOffsetDays():
-    '''    public FldSKDProjectEndOffsetDays(final MboValue mbv)
+    '''public FldSKDProjectEndOffsetDays(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

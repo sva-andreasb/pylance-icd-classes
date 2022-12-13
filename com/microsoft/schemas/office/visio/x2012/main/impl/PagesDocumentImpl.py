@@ -1,12 +1,12 @@
 def PagesDocumentImpl():
-    '''    public PagesDocumentImpl(final SchemaType schemaType)
+    '''public PagesDocumentImpl(final SchemaType schemaType)
     '''
 def getPages():
-    '''    public PagesType getPages()
+    '''public PagesType getPages()
     '''
 def setPages():
-    '''    public void setPages(final PagesType pagesType)
+    '''public void setPages(final PagesType pagesType)
     '''
 def addNewPages():
-    '''    public PagesType addNewPages()
+    '''public PagesType addNewPages()
     '''

@@ -1,6 +1,6 @@
 def FldCommonContractPreTaxTotal():
-    '''    public FldCommonContractPreTaxTotal(final MboValue mbv)
+    '''public FldCommonContractPreTaxTotal(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

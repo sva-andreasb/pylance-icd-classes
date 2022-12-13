@@ -1,6 +1,6 @@
 def DPAMMoveVariant():
-    '''    public DPAMMoveVariant(final MboSet ms)
+    '''public DPAMMoveVariant(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

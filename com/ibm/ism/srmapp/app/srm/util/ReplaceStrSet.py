@@ -1,3 +1,3 @@
 def ReplaceStrSet():
-    '''    public ReplaceStrSet(final MboServerInterface ms)
+    '''public ReplaceStrSet(final MboServerInterface ms)
     '''

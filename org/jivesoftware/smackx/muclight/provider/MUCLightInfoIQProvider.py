@@ -1,3 +1,3 @@
 def parse():
-    '''    public MUCLightInfoIQ parse(final XmlPullParser parser, final int initialDepth)
+    '''public MUCLightInfoIQ parse(final XmlPullParser parser, final int initialDepth)
     '''

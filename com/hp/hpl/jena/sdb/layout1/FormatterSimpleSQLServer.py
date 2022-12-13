@@ -1,15 +1,15 @@
 def FormatterSimpleSQLServer():
-    '''    public FormatterSimpleSQLServer(final SDBConnection connection)
+    '''public FormatterSimpleSQLServer(final SDBConnection connection)
     '''
 def truncate():
-    '''    public void truncate()
+    '''public void truncate()
     '''
 def format():
-    '''    public void format()
+    '''public void format()
     '''
 def addIndexes():
-    '''    public void addIndexes()
+    '''public void addIndexes()
     '''
 def dropIndexes():
-    '''    public void dropIndexes()
+    '''public void dropIndexes()
     '''

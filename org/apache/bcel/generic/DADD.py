@@ -1,6 +1,6 @@
 def DADD():
-    '''    public DADD()
+    '''public DADD()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

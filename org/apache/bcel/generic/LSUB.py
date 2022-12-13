@@ -1,6 +1,6 @@
 def LSUB():
-    '''    public LSUB()
+    '''public LSUB()
     '''
 def accept():
-    '''    public void accept(final Visitor v)
+    '''public void accept(final Visitor v)
     '''

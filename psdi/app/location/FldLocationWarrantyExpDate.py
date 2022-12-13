@@ -1,9 +1,9 @@
 def FldLocationWarrantyExpDate():
-    '''    public FldLocationWarrantyExpDate(final MboValue mbv)
+    '''public FldLocationWarrantyExpDate(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

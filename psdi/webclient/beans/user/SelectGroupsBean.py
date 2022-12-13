@@ -1,3 +1,3 @@
 def okGroups():
-    '''    public int okGroups()
+    '''public int okGroups()
     '''

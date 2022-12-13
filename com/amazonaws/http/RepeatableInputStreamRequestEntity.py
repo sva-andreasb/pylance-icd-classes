@@ -1,12 +1,12 @@
 def RepeatableInputStreamRequestEntity():
-    '''    public RepeatableInputStreamRequestEntity(final Request<?> request)
+    '''public RepeatableInputStreamRequestEntity(final Request<?> request)
     '''
 def isChunked():
-    '''    public boolean isChunked()
+    '''public boolean isChunked()
     '''
 def isRepeatable():
-    '''    public boolean isRepeatable()
+    '''public boolean isRepeatable()
     '''
 def writeTo():
-    '''    public void writeTo(final OutputStream output)
+    '''public void writeTo(final OutputStream output)
     '''

@@ -1,6 +1,6 @@
 def UndefinedDetailPanelException():
-    '''    public UndefinedDetailPanelException(final DetailPanelModel model)
+    '''public UndefinedDetailPanelException(final DetailPanelModel model)
     '''
 def getModel():
-    '''    public DetailPanelModel getModel()
+    '''public DetailPanelModel getModel()
     '''

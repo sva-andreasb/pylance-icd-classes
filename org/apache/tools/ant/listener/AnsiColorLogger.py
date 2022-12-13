@@ -1,3 +1,3 @@
 def AnsiColorLogger():
-    '''    public AnsiColorLogger()
+    '''public AnsiColorLogger()
     '''

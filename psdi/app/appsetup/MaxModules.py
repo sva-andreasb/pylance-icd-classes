@@ -1,3 +1,3 @@
 def MaxModules():
-    '''    public MaxModules(final MboSet ms)
+    '''public MaxModules(final MboSet ms)
     '''

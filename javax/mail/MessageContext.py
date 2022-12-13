@@ -1,12 +1,12 @@
 def getMessage():
-    '''    public Message getMessage()
+    '''public Message getMessage()
     '''
 def getPart():
-    '''    public Part getPart()
+    '''public Part getPart()
     '''
 def MessageContext():
-    '''    public MessageContext(final Part part)
+    '''public MessageContext(final Part part)
     '''
 def getSession():
-    '''    public Session getSession()
+    '''public Session getSession()
     '''

@@ -7,17 +7,17 @@ REMOVE_FAILED = "short  607"
 QUERY_CONTENT_FAILED = "short  608"
 QUERY_CONTENT_SUCCESS = "short  609"
 def getReason():
-    '''    public int getReason()
+    '''public int getReason()
     '''
 def getAttribute():
-    '''    public STExtendedAttribute getAttribute()
+    '''public STExtendedAttribute getAttribute()
     '''
 def getAttributeKey():
-    '''    public int getAttributeKey()
+    '''public int getAttributeKey()
     '''
 def getWatchedObject():
-    '''    public STWatchedObject getWatchedObject()
+    '''public STWatchedObject getWatchedObject()
     '''
 def getAttributeList():
-    '''    public STExtendedAttribute[] getAttributeList()
+    '''public STExtendedAttribute[] getAttributeList()
     '''

@@ -1,3 +1,3 @@
 def AssociatedFolder():
-    '''    public AssociatedFolder(final MboSet ms)
+    '''public AssociatedFolder(final MboSet ms)
     '''

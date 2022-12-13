@@ -1,48 +1,48 @@
 def RtfPageSetting():
-    '''    public RtfPageSetting(final RtfDocument doc)
+    '''public RtfPageSetting(final RtfDocument doc)
     '''
 def writeDefinition():
-    '''    public byte[] writeDefinition()
+    '''public byte[] writeDefinition()
     '''
 def writeSectionDefinition():
-    '''    public byte[] writeSectionDefinition()
+    '''public byte[] writeSectionDefinition()
     '''
 def getMarginBottom():
-    '''    public int getMarginBottom()
+    '''public int getMarginBottom()
     '''
 def setMarginBottom():
-    '''    public void setMarginBottom(final int marginBottom)
+    '''public void setMarginBottom(final int marginBottom)
     '''
 def getMarginLeft():
-    '''    public int getMarginLeft()
+    '''public int getMarginLeft()
     '''
 def setMarginLeft():
-    '''    public void setMarginLeft(final int marginLeft)
+    '''public void setMarginLeft(final int marginLeft)
     '''
 def getMarginRight():
-    '''    public int getMarginRight()
+    '''public int getMarginRight()
     '''
 def setMarginRight():
-    '''    public void setMarginRight(final int marginRight)
+    '''public void setMarginRight(final int marginRight)
     '''
 def getMarginTop():
-    '''    public int getMarginTop()
+    '''public int getMarginTop()
     '''
 def setMarginTop():
-    '''    public void setMarginTop(final int marginTop)
+    '''public void setMarginTop(final int marginTop)
     '''
 def getPageHeight():
-    '''    public int getPageHeight()
+    '''public int getPageHeight()
     '''
 def setPageHeight():
-    '''    public void setPageHeight(final int pageHeight)
+    '''public void setPageHeight(final int pageHeight)
     '''
 def getPageWidth():
-    '''    public int getPageWidth()
+    '''public int getPageWidth()
     '''
 def setPageWidth():
-    '''    public void setPageWidth(final int pageWidth)
+    '''public void setPageWidth(final int pageWidth)
     '''
 def setPageSize():
-    '''    public void setPageSize(final Rectangle pageSize)
+    '''public void setPageSize(final Rectangle pageSize)
     '''

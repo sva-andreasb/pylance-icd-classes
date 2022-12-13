@@ -1,6 +1,6 @@
 def MyNewsPod():
-    '''    public MyNewsPod()
+    '''public MyNewsPod()
     '''
 def bbmsgviewed():
-    '''    public int bbmsgviewed()
+    '''public int bbmsgviewed()
     '''

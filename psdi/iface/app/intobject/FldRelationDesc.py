@@ -1,6 +1,6 @@
 def FldRelationDesc():
-    '''    public FldRelationDesc(final MboValue mbv)
+    '''public FldRelationDesc(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

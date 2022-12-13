@@ -1,6 +1,6 @@
 def FldWpMatOrderUnit():
-    '''    public FldWpMatOrderUnit(final MboValue mbv)
+    '''public FldWpMatOrderUnit(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

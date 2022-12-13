@@ -1,3 +1,3 @@
 def InboundCommSet():
-    '''    public InboundCommSet(final MboServerInterface ms)
+    '''public InboundCommSet(final MboServerInterface ms)
     '''

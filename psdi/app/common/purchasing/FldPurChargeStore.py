@@ -1,6 +1,6 @@
 def FldPurChargeStore():
-    '''    public FldPurChargeStore(final MboValue mbv)
+    '''public FldPurChargeStore(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

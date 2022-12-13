@@ -1,18 +1,18 @@
 def WarrantyViewLine():
-    '''    public WarrantyViewLine(final MboSet ms)
+    '''public WarrantyViewLine(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def initRelationship():
-    '''    public void initRelationship(final String relationName, final MboSetRemote mboSet)
+    '''public void initRelationship(final String relationName, final MboSetRemote mboSet)
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def copy():
-    '''    public MboRemote copy(final MboSetRemote mboset)
+    '''public MboRemote copy(final MboSetRemote mboset)
     '''

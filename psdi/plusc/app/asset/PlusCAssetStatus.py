@@ -1,12 +1,12 @@
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def PlusCAssetStatus():
-    '''    public PlusCAssetStatus(final MboSet ms)
+    '''public PlusCAssetStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def getPlusDSStatusRecord():
-    '''    public Vector getPlusDSStatusRecord()
+    '''public Vector getPlusDSStatusRecord()
     '''

@@ -12,7 +12,7 @@ EPEP = "int  10"
 MESRA = "int  11"
 NASIE = "int  12"
 def CopticCalendar():
-    '''    public CopticCalendar()
+    '''public CopticCalendar()
     public CopticCalendar(final TimeZone zone)
     public CopticCalendar(final Locale aLocale)
     public CopticCalendar(final ULocale locale)
@@ -23,8 +23,8 @@ def CopticCalendar():
     public CopticCalendar(final int year, final int month, final int date, final int hour, final int minute, final int second)
     '''
 def getType():
-    '''    public String getType()
+    '''public String getType()
     '''
 def copticToJD():
-    '''    public static int copticToJD(final long year, final int month, final int date)
+    '''public static int copticToJD(final long year, final int month, final int date)
     '''

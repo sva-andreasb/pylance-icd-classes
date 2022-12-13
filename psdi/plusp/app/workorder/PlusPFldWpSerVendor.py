@@ -1,6 +1,6 @@
 def PlusPFldWpSerVendor():
-    '''    public PlusPFldWpSerVendor(final MboValue arg0)
+    '''public PlusPFldWpSerVendor(final MboValue arg0)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

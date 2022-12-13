@@ -1,3 +1,3 @@
 def MapTipDefaultSet():
-    '''    public MapTipDefaultSet(final MboServerInterface ms)
+    '''public MapTipDefaultSet(final MboServerInterface ms)
     '''

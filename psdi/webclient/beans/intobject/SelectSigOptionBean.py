@@ -1,6 +1,6 @@
 def SelectSigOptionBean():
-    '''    public SelectSigOptionBean()
+    '''public SelectSigOptionBean()
     '''
 def callMethod():
-    '''    public int callMethod(final WebClientEvent event)
+    '''public int callMethod(final WebClientEvent event)
     '''

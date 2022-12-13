@@ -1,6 +1,6 @@
 def FldWOCalcPriority():
-    '''    public FldWOCalcPriority(final MboValue mbv)
+    '''public FldWOCalcPriority(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

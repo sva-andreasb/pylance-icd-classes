@@ -1,6 +1,6 @@
 def FldCommonIncludeTax():
-    '''    public FldCommonIncludeTax(final MboValue mbv)
+    '''public FldCommonIncludeTax(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

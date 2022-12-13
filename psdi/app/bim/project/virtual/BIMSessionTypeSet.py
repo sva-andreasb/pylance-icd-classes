@@ -1,3 +1,3 @@
 def BIMSessionTypeSet():
-    '''    public BIMSessionTypeSet(final MboServerInterface ms)
+    '''public BIMSessionTypeSet(final MboServerInterface ms)
     '''

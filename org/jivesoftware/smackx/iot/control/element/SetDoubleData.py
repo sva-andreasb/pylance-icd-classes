@@ -1,6 +1,6 @@
 def SetDoubleData():
-    '''    public SetDoubleData(final String name, final double value)
+    '''public SetDoubleData(final String name, final double value)
     '''
 def getDoubleValue():
-    '''    public Double getDoubleValue()
+    '''public Double getDoubleValue()
     '''

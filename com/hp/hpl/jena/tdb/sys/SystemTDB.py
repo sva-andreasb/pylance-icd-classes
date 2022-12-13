@@ -20,23 +20,23 @@ indexTypeBPlusTree = "String  \"BPlusTree\""
 indexTypeExtHash = "String  \"ExtHash\""
 defaultIndexType = "String  \"BPlusTree\""
 def init():
-    '''    public static void init()
+    '''public static void init()
     '''
 def panic():
-    '''    public static void panic(final Class<?> clazz, final String string)
+    '''public static void panic(final Class<?> clazz, final String string)
     '''
 def allocSymbol():
-    '''    public static Symbol allocSymbol(final String shortName)
+    '''public static Symbol allocSymbol(final String shortName)
     '''
 def fileMode():
-    '''    public static FileMode fileMode()
+    '''public static FileMode fileMode()
     '''
 def setFileMode():
-    '''    public static void setFileMode(final FileMode newFileMode)
+    '''public static void setFileMode(final FileMode newFileMode)
     '''
 def getIndexType():
-    '''    public static IndexType getIndexType()
+    '''public static IndexType getIndexType()
     '''
 def run():
-    '''    public void run()
+    '''public void run()
     '''

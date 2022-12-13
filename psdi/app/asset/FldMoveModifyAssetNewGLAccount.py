@@ -1,6 +1,6 @@
 def FldMoveModifyAssetNewGLAccount():
-    '''    public FldMoveModifyAssetNewGLAccount(final MboValue mbv)
+    '''public FldMoveModifyAssetNewGLAccount(final MboValue mbv)
     '''
 def initValue():
-    '''    public void initValue()
+    '''public void initValue()
     '''

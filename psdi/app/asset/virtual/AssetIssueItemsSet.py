@@ -1,3 +1,3 @@
 def AssetIssueItemsSet():
-    '''    public AssetIssueItemsSet(final MboServerInterface ms)
+    '''public AssetIssueItemsSet(final MboServerInterface ms)
     '''

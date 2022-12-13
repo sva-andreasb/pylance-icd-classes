@@ -1,12 +1,12 @@
 def FldMonthsOfYear():
-    '''    public FldMonthsOfYear(final MboValue mbv)
+    '''public FldMonthsOfYear(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''
 def hasList():
-    '''    public boolean hasList()
+    '''public boolean hasList()
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

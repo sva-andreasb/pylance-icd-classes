@@ -1,3 +1,3 @@
 def AppFieldDefaultsSet():
-    '''    public AppFieldDefaultsSet(final MboServerInterface ms)
+    '''public AppFieldDefaultsSet(final MboServerInterface ms)
     '''

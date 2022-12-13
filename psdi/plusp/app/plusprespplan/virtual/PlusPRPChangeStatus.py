@@ -1,6 +1,6 @@
 def PlusPRPChangeStatus():
-    '''    public PlusPRPChangeStatus(final MboSet ms)
+    '''public PlusPRPChangeStatus(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

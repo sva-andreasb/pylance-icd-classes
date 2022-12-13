@@ -10,24 +10,24 @@ MAX_WEEKS_PER_YEAR = "int  53"
 MAX_DAYS_PER_YEAR = "int  366"
 MAX_DAYS_PER_MONTH = "int  31"
 def getAbsWeekNo():
-    '''    public static int getAbsWeekNo(final Date date, final int weekNo)
+    '''public static int getAbsWeekNo(final Date date, final int weekNo)
     '''
 def getAbsYearDay():
-    '''    public static int getAbsYearDay(final Date date, final int yearDay)
+    '''public static int getAbsYearDay(final Date date, final int yearDay)
     '''
 def getAbsMonthDay():
-    '''    public static int getAbsMonthDay(final Date date, final int monthDay)
+    '''public static int getAbsMonthDay(final Date date, final int monthDay)
     '''
 def getCalendarInstance():
-    '''    public static Calendar getCalendarInstance(final net.fortuna.ical4j.model.Date date)
+    '''public static Calendar getCalendarInstance(final net.fortuna.ical4j.model.Date date)
     '''
 def getDateListInstance():
-    '''    public static DateList getDateListInstance(final DateList origList)
+    '''public static DateList getDateListInstance(final DateList origList)
     '''
 def round():
-    '''    public static long round(final long time, final int precision)
+    '''public static long round(final long time, final int precision)
     public static long round(final long time, final int precision, final TimeZone tz)
     '''
 def getCurrentTimeRounded():
-    '''    public static long getCurrentTimeRounded()
+    '''public static long getCurrentTimeRounded()
     '''

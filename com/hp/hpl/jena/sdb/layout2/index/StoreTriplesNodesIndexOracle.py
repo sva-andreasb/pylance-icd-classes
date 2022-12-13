@@ -1,3 +1,3 @@
 def StoreTriplesNodesIndexOracle():
-    '''    public StoreTriplesNodesIndexOracle(final SDBConnection connection, final StoreDesc desc)
+    '''public StoreTriplesNodesIndexOracle(final SDBConnection connection, final StoreDesc desc)
     '''

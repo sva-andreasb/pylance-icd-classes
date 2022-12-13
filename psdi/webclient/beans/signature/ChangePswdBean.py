@@ -1,9 +1,9 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def submit():
-    '''    public int submit()
+    '''public int submit()
     '''
 def canExit():
-    '''    public boolean canExit()
+    '''public boolean canExit()
     '''

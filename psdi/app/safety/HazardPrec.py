@@ -1,9 +1,9 @@
 def HazardPrec():
-    '''    public HazardPrec(final MboSet ms)
+    '''public HazardPrec(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

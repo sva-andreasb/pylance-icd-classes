@@ -1,3 +1,3 @@
 def MalformedIDNException():
-    '''    public MalformedIDNException(final StringPrepParseException e)
+    '''public MalformedIDNException(final StringPrepParseException e)
     '''

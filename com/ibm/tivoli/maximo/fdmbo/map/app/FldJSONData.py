@@ -1,6 +1,6 @@
 def FldJSONData():
-    '''    public FldJSONData(final MboValue mbv)
+    '''public FldJSONData(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

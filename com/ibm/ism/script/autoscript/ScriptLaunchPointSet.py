@@ -1,6 +1,6 @@
 def ScriptLaunchPointSet():
-    '''    public ScriptLaunchPointSet(final MboServerInterface ms)
+    '''public ScriptLaunchPointSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

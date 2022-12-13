@@ -1,6 +1,6 @@
 def FldWPLicenseLicenseNum():
-    '''    public FldWPLicenseLicenseNum(final MboValue mbv)
+    '''public FldWPLicenseLicenseNum(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

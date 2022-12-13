@@ -1,15 +1,15 @@
 def PlusPSrvAddSOSet():
-    '''    public PlusPSrvAddSOSet(final MboServerInterface ms)
+    '''public PlusPSrvAddSOSet(final MboServerInterface ms)
     '''
 def saveTransaction():
-    '''    public void saveTransaction(final MXTransaction mxTransaction)
+    '''public void saveTransaction(final MXTransaction mxTransaction)
     '''
 def hasParentNull():
-    '''    public boolean hasParentNull()
+    '''public boolean hasParentNull()
     '''
 def getMboFromAddressSystem():
-    '''    public MboRemote getMboFromAddressSystem()
+    '''public MboRemote getMboFromAddressSystem()
     '''
 def getServiceAddressCodeFromAncestor():
-    '''    public MboRemote getServiceAddressCodeFromAncestor(final Location location)
+    '''public MboRemote getServiceAddressCodeFromAncestor(final Location location)
     '''

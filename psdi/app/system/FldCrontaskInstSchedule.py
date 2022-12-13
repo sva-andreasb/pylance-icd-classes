@@ -1,6 +1,6 @@
 def FldCrontaskInstSchedule():
-    '''    public FldCrontaskInstSchedule(final MboValue mbv)
+    '''public FldCrontaskInstSchedule(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

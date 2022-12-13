@@ -1,3 +1,3 @@
 def ReadingNotSupportedException():
-    '''    public ReadingNotSupportedException(final long variantType, final Object value)
+    '''public ReadingNotSupportedException(final long variantType, final Object value)
     '''

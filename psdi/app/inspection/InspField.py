@@ -1,6 +1,6 @@
 def InspField():
-    '''    public InspField(final MboSet ms)
+    '''public InspField(final MboSet ms)
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''

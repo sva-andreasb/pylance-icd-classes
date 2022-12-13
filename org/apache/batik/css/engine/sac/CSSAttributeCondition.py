@@ -1,30 +1,30 @@
 def CSSAttributeCondition():
-    '''    public CSSAttributeCondition(final String localName, final String namespaceURI, final boolean specified, final String value)
+    '''public CSSAttributeCondition(final String localName, final String namespaceURI, final boolean specified, final String value)
     '''
 def equals():
-    '''    public boolean equals(final Object obj)
+    '''public boolean equals(final Object obj)
     '''
 def hashCode():
-    '''    public int hashCode()
+    '''public int hashCode()
     '''
 def getConditionType():
-    '''    public short getConditionType()
+    '''public short getConditionType()
     '''
 def getNamespaceURI():
-    '''    public String getNamespaceURI()
+    '''public String getNamespaceURI()
     '''
 def getLocalName():
-    '''    public String getLocalName()
+    '''public String getLocalName()
     '''
 def getSpecified():
-    '''    public boolean getSpecified()
+    '''public boolean getSpecified()
     '''
 def match():
-    '''    public boolean match(final Element e, final String pseudoE)
+    '''public boolean match(final Element e, final String pseudoE)
     '''
 def fillAttributeSet():
-    '''    public void fillAttributeSet(final Set attrSet)
+    '''public void fillAttributeSet(final Set attrSet)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

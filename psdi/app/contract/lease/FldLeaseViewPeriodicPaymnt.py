@@ -1,6 +1,6 @@
 def FldLeaseViewPeriodicPaymnt():
-    '''    public FldLeaseViewPeriodicPaymnt(final MboValue mbv)
+    '''public FldLeaseViewPeriodicPaymnt(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

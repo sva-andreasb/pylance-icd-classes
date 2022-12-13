@@ -1,6 +1,6 @@
 def DisableKeyRotationRequestMarshaller():
-    '''    public DisableKeyRotationRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
+    '''public DisableKeyRotationRequestMarshaller(final SdkJsonProtocolFactory protocolFactory)
     '''
 def marshall():
-    '''    public Request<DisableKeyRotationRequest> marshall(final DisableKeyRotationRequest disableKeyRotationRequest)
+    '''public Request<DisableKeyRotationRequest> marshall(final DisableKeyRotationRequest disableKeyRotationRequest)
     '''

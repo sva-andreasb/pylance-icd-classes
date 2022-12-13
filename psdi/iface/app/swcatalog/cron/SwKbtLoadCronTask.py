@@ -1,12 +1,12 @@
 def getCatalogID():
-    '''    public String getCatalogID()
+    '''public String getCatalogID()
     '''
 def getParameters():
-    '''    public CrontaskParamInfo[] getParameters()
+    '''public CrontaskParamInfo[] getParameters()
     '''
 def getParameterValidationMbo():
-    '''    public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
+    '''public MboRemote getParameterValidationMbo(final CrontaskInstanceRemote instance)
     '''
 def cronAction():
-    '''    public void cronAction()
+    '''public void cronAction()
     '''

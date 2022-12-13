@@ -1,36 +1,36 @@
 def initializeApp():
-    '''    public void initializeApp()
+    '''public void initializeApp()
     '''
 def CLEAR():
-    '''    public int CLEAR()
+    '''public int CLEAR()
     '''
 def goToGraphicalApptBook():
-    '''    public int goToGraphicalApptBook()
+    '''public int goToGraphicalApptBook()
     '''
 def CREATEWOWITHAPPTWIN():
-    '''    public int CREATEWOWITHAPPTWIN()
+    '''public int CREATEWOWITHAPPTWIN()
     '''
 def updateworkpackflags():
-    '''    public int updateworkpackflags()
+    '''public int updateworkpackflags()
     '''
 def save():
-    '''    public synchronized void save()
+    '''public synchronized void save()
     '''
 def cancelDialog():
-    '''    public int cancelDialog()
+    '''public int cancelDialog()
     '''
 def returnnovalue():
-    '''    public int returnnovalue()
+    '''public int returnnovalue()
     '''
 def returntoapp():
-    '''    public int returntoapp()
+    '''public int returntoapp()
     '''
 def REFRESH_TOTALWORKUNITS():
-    '''    public int REFRESH_TOTALWORKUNITS()
+    '''public int REFRESH_TOTALWORKUNITS()
     '''
 def DYNAPPLY():
-    '''    public int DYNAPPLY()
+    '''public int DYNAPPLY()
     '''
 def launchwf():
-    '''    public int launchwf()
+    '''public int launchwf()
     '''

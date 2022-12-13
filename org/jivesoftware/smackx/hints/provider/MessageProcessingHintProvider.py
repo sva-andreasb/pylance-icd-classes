@@ -1,3 +1,3 @@
 def parse():
-    '''    public H parse(final XmlPullParser parser, final int initialDepth)
+    '''public H parse(final XmlPullParser parser, final int initialDepth)
     '''

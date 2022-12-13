@@ -1,3 +1,3 @@
 def getStringFromReader():
-    '''    public static String getStringFromReader(final Reader in)
+    '''public static String getStringFromReader(final Reader in)
     '''

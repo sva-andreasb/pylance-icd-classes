@@ -1,3 +1,3 @@
 def UnsupportedAxisException():
-    '''    public UnsupportedAxisException(final String msg)
+    '''public UnsupportedAxisException(final String msg)
     '''

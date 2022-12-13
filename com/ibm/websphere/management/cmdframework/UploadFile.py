@@ -1,9 +1,9 @@
 def UploadFile():
-    '''    public UploadFile(final String filePath)
+    '''public UploadFile(final String filePath)
     '''
 def getPath():
-    '''    public String getPath()
+    '''public String getPath()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

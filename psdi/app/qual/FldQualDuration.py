@@ -1,6 +1,6 @@
 def FldQualDuration():
-    '''    public FldQualDuration(final MboValue mbv)
+    '''public FldQualDuration(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

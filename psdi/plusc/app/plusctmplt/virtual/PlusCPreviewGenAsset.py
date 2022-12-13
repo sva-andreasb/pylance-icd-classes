@@ -1,9 +1,9 @@
 def PlusCPreviewGenAsset():
-    '''    public PlusCPreviewGenAsset(final MboSet ms)
+    '''public PlusCPreviewGenAsset(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def setAutoKey():
-    '''    public void setAutoKey()
+    '''public void setAutoKey()
     '''

@@ -1,12 +1,12 @@
 def getContentId():
-    '''    public String getContentId()
+    '''public String getContentId()
     '''
 def getContentLocation():
-    '''    public String getContentLocation()
+    '''public String getContentLocation()
     '''
 def setContentId():
-    '''    public void setContentId(final String contentId)
+    '''public void setContentId(final String contentId)
     '''
 def setContentLocation():
-    '''    public void setContentLocation(final String contentLocation)
+    '''public void setContentLocation(final String contentLocation)
     '''

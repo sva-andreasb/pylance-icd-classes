@@ -1,6 +1,6 @@
 def FldSKDProjectChangeBy():
-    '''    public FldSKDProjectChangeBy(final MboValue mbv)
+    '''public FldSKDProjectChangeBy(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

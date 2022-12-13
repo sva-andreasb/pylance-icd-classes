@@ -1,6 +1,6 @@
 def FldLaborByCrewDates():
-    '''    public FldLaborByCrewDates(final MboValue mbv)
+    '''public FldLaborByCrewDates(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

@@ -1,6 +1,6 @@
 def FldItemHazardid():
-    '''    public FldItemHazardid(final MboValue mbv)
+    '''public FldItemHazardid(final MboValue mbv)
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

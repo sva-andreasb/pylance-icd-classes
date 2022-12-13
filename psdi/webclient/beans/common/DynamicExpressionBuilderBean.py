@@ -1,9 +1,9 @@
 def execute():
-    '''    public synchronized int execute()
+    '''public synchronized int execute()
     '''
 def addToken():
-    '''    public int addToken()
+    '''public int addToken()
     '''
 def validateExpression():
-    '''    public int validateExpression()
+    '''public int validateExpression()
     '''

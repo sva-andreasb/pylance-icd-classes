@@ -1,3 +1,3 @@
 def u():
-    '''    public u(final ILoader<ay, FromPdfsOptions> loader, final T t)
+    '''public u(final ILoader<ay, FromPdfsOptions> loader, final T t)
     '''

@@ -1,6 +1,6 @@
 def FldScheduleLinePeriodicPayment():
-    '''    public FldScheduleLinePeriodicPayment(final MboValue mbv)
+    '''public FldScheduleLinePeriodicPayment(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

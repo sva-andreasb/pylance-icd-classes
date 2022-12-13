@@ -1,6 +1,6 @@
 def FldJobToolSiteId():
-    '''    public FldJobToolSiteId(final MboValue mbv)
+    '''public FldJobToolSiteId(final MboValue mbv)
     '''
 def action():
-    '''    public void action()
+    '''public void action()
     '''

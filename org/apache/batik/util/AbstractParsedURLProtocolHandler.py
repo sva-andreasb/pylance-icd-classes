@@ -1,6 +1,6 @@
 def AbstractParsedURLProtocolHandler():
-    '''    public AbstractParsedURLProtocolHandler(final String protocol)
+    '''public AbstractParsedURLProtocolHandler(final String protocol)
     '''
 def getProtocolHandled():
-    '''    public String getProtocolHandled()
+    '''public String getProtocolHandled()
     '''

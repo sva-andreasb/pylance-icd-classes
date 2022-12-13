@@ -1,3 +1,3 @@
 def asBigDecimal():
-    '''    public static BigDecimal asBigDecimal()
+    '''public static BigDecimal asBigDecimal()
     '''

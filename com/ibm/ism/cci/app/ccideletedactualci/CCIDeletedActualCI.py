@@ -1,6 +1,6 @@
 def CCIDeletedActualCI():
-    '''    public CCIDeletedActualCI(final MboSet ms)
+    '''public CCIDeletedActualCI(final MboSet ms)
     '''
 def isLinkedToCI():
-    '''    public boolean isLinkedToCI()
+    '''public boolean isLinkedToCI()
     '''

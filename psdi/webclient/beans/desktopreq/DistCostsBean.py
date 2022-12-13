@@ -1,9 +1,9 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def distributecosts():
-    '''    public int distributecosts()
+    '''public int distributecosts()
     '''
 def close():
-    '''    public void close()
+    '''public void close()
     '''

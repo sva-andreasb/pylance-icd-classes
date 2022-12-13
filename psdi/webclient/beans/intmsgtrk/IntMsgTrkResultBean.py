@@ -1,3 +1,3 @@
 def displaymsg():
-    '''    public int displaymsg()
+    '''public int displaymsg()
     '''

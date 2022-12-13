@@ -1,3 +1,3 @@
 def FldMaxPushDevTypeActive():
-    '''    public FldMaxPushDevTypeActive(final MboValue mbv)
+    '''public FldMaxPushDevTypeActive(final MboValue mbv)
     '''

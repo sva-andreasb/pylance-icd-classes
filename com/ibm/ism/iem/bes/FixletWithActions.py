@@ -1,9 +1,9 @@
 def getDefaultAction():
-    '''    public FixletAction getDefaultAction()
+    '''public FixletAction getDefaultAction()
     '''
 def setDefaultAction():
-    '''    public void setDefaultAction(final FixletAction value)
+    '''public void setDefaultAction(final FixletAction value)
     '''
 def getAction():
-    '''    public List<FixletAction> getAction()
+    '''public List<FixletAction> getAction()
     '''

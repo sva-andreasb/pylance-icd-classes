@@ -1,12 +1,12 @@
 def AmountFormat():
-    '''    public AmountFormat(final MboSet ms)
+    '''public AmountFormat(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def save():
-    '''    public void save()
+    '''public void save()
     '''

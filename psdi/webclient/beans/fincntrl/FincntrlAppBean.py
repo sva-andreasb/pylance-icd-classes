@@ -1,6 +1,6 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def getKeyAttribute():
-    '''    public String getKeyAttribute()
+    '''public String getKeyAttribute()
     '''

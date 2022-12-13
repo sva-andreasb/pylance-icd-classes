@@ -1,3 +1,3 @@
 def MergePartitionsRequest():
-    '''    public MergePartitionsRequest(final String s, final int n)
+    '''public MergePartitionsRequest(final String s, final int n)
     '''

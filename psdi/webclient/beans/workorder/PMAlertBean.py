@@ -1,3 +1,3 @@
 def doWork():
-    '''    public int doWork()
+    '''public int doWork()
     '''

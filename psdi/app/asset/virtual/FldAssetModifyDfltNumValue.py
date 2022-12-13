@@ -1,9 +1,9 @@
 def FldAssetModifyDfltNumValue():
-    '''    public FldAssetModifyDfltNumValue(final MboValue mbv)
+    '''public FldAssetModifyDfltNumValue(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''
 def getList():
-    '''    public MboSetRemote getList()
+    '''public MboSetRemote getList()
     '''

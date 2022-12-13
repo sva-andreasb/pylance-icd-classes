@@ -1,6 +1,6 @@
 def OSDefaultQuery():
-    '''    public OSDefaultQuery(final MboSet ms)
+    '''public OSDefaultQuery(final MboSet ms)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''

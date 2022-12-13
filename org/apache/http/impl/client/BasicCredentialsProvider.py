@@ -1,15 +1,15 @@
 def BasicCredentialsProvider():
-    '''    public BasicCredentialsProvider()
+    '''public BasicCredentialsProvider()
     '''
 def setCredentials():
-    '''    public void setCredentials(final AuthScope authscope, final Credentials credentials)
+    '''public void setCredentials(final AuthScope authscope, final Credentials credentials)
     '''
 def getCredentials():
-    '''    public Credentials getCredentials(final AuthScope authscope)
+    '''public Credentials getCredentials(final AuthScope authscope)
     '''
 def clear():
-    '''    public void clear()
+    '''public void clear()
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     '''

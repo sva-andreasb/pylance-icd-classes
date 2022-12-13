@@ -1,3 +1,3 @@
 def FldReportUserID():
-    '''    public FldReportUserID(final MboValue mbv)
+    '''public FldReportUserID(final MboValue mbv)
     '''

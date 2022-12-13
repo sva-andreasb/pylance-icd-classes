@@ -1,9 +1,9 @@
 def PlusPFldBSAssetSpecFactor():
-    '''    public PlusPFldBSAssetSpecFactor(final MboValue mbv)
+    '''public PlusPFldBSAssetSpecFactor(final MboValue mbv)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

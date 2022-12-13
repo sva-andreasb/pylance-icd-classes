@@ -1,3 +1,3 @@
 def CISet():
-    '''    public CISet(final MboServerInterface ms)
+    '''public CISet(final MboServerInterface ms)
     '''

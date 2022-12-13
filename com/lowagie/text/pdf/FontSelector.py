@@ -1,9 +1,9 @@
 def FontSelector():
-    '''    public FontSelector()
+    '''public FontSelector()
     '''
 def addFont():
-    '''    public void addFont(final Font font)
+    '''public void addFont(final Font font)
     '''
 def process():
-    '''    public Phrase process(final String text)
+    '''public Phrase process(final String text)
     '''

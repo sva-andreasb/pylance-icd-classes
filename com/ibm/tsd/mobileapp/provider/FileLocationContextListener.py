@@ -1,6 +1,6 @@
 def contextInitialized():
-    '''    public void contextInitialized(final ServletContextEvent servletContextEvent)
+    '''public void contextInitialized(final ServletContextEvent servletContextEvent)
     '''
 def contextDestroyed():
-    '''    public void contextDestroyed(final ServletContextEvent servletContextEvent)
+    '''public void contextDestroyed(final ServletContextEvent servletContextEvent)
     '''

@@ -1,3 +1,3 @@
 def PmComIATraversalNodeSet():
-    '''    public PmComIATraversalNodeSet(final MboServerInterface ms)
+    '''public PmComIATraversalNodeSet(final MboServerInterface ms)
     '''

@@ -1,6 +1,6 @@
 def FldMaxAttributeCfgEntityName():
-    '''    public FldMaxAttributeCfgEntityName(final MboValue mbv)
+    '''public FldMaxAttributeCfgEntityName(final MboValue mbv)
     '''
 def validate():
-    '''    public void validate()
+    '''public void validate()
     '''

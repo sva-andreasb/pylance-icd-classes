@@ -1,9 +1,9 @@
 def SKDViewItemAvailabilitySearchBean():
-    '''    public SKDViewItemAvailabilitySearchBean()
+    '''public SKDViewItemAvailabilitySearchBean()
     '''
 def getSelectedWO():
-    '''    public WORemote getSelectedWO()
+    '''public WORemote getSelectedWO()
     '''
 def REFRESHLIST():
-    '''    public int REFRESHLIST()
+    '''public int REFRESHLIST()
     '''

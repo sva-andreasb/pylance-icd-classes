@@ -1,9 +1,9 @@
 def initialize():
-    '''    public void initialize()
+    '''public void initialize()
     '''
 def applyIASAutoNumAll():
-    '''    public int applyIASAutoNumAll()
+    '''public int applyIASAutoNumAll()
     '''
 def cancelDialog():
-    '''    public int cancelDialog()
+    '''public int cancelDialog()
     '''

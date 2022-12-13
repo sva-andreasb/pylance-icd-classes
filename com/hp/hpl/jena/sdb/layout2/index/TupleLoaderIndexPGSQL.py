@@ -1,21 +1,21 @@
 def TupleLoaderIndexPGSQL():
-    '''    public TupleLoaderIndexPGSQL(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
+    '''public TupleLoaderIndexPGSQL(final SDBConnection connection, final TableDesc tableDesc, final int chunkSize)
     '''
 def getNodeColTypes():
-    '''    public String[] getNodeColTypes()
+    '''public String[] getNodeColTypes()
     '''
 def getTupleColType():
-    '''    public String getTupleColType()
+    '''public String getTupleColType()
     '''
 def getCreateTempTable():
-    '''    public String[] getCreateTempTable()
+    '''public String[] getCreateTempTable()
     '''
 def clearsOnCommit():
-    '''    public boolean clearsOnCommit()
+    '''public boolean clearsOnCommit()
     '''
 def getNodeLoader():
-    '''    public String getNodeLoader()
+    '''public String getNodeLoader()
     '''
 def getTupleLoader():
-    '''    public String getTupleLoader()
+    '''public String getTupleLoader()
     '''

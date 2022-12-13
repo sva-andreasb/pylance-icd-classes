@@ -62,16 +62,16 @@ SET_PREFIX = "int  116"
 SET_DEFAULT_NAMESPACE = "int  117"
 SET_NAMESPACE_CONTEXT = "int  118"
 def translateToMethodName():
-    '''    public static String translateToMethodName(final int n)
+    '''public static String translateToMethodName(final int n)
     '''
 def translateToCodeString():
-    '''    public static String translateToCodeString(final int n)
+    '''public static String translateToCodeString(final int n)
     '''
 def StAXLogger():
-    '''    public StAXLogger()
+    '''public StAXLogger()
     '''
 def log():
-    '''    public void log(final int n)
+    '''public void log(final int n)
     public void log(final int n, final int n2)
     public void log(final int n, final String s)
     public void log(final int n, final String s, final String s2)
@@ -79,38 +79,38 @@ def log():
     public void log(final int n, final Object[] array)
     '''
 def logReturn():
-    '''    public void logReturn()
+    '''public void logReturn()
     public void logReturn(final int value)
     public void logReturn(final boolean value)
     public void logReturn(final Object o)
     '''
 def logException():
-    '''    public void logException(final Exception ex)
+    '''public void logException(final Exception ex)
     '''
 def writeReadableProfile():
-    '''    public void writeReadableProfile(final String s)
+    '''public void writeReadableProfile(final String s)
     '''
 def writeStAXProfile():
-    '''    public void writeStAXProfile(final String s)
+    '''public void writeStAXProfile(final String s)
     '''
 def MethodCall():
-    '''    public MethodCall(final int fCode)
+    '''public MethodCall(final int fCode)
     '''
 def addReturn():
-    '''    public void addReturn(final Object fReturnVal)
+    '''public void addReturn(final Object fReturnVal)
     '''
 def toString():
-    '''    public String toString()
+    '''public String toString()
     public String toString()
     public String toString()
     public String toString()
     '''
 def MethodCallInt():
-    '''    public MethodCallInt(final int n, final int fArg)
+    '''public MethodCallInt(final int n, final int fArg)
     '''
 def MethodCallString():
-    '''    public MethodCallString(final int n, final String fArg)
+    '''public MethodCallString(final int n, final String fArg)
     '''
 def MethodCallObjects():
-    '''    public MethodCallObjects(final int n, final Object[] fArgs)
+    '''public MethodCallObjects(final int n, final Object[] fArgs)
     '''

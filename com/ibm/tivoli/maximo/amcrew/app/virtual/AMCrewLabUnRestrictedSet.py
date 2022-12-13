@@ -1,3 +1,3 @@
 def AMCrewLabUnRestrictedSet():
-    '''    public AMCrewLabUnRestrictedSet(final MboServerInterface ms)
+    '''public AMCrewLabUnRestrictedSet(final MboServerInterface ms)
     '''

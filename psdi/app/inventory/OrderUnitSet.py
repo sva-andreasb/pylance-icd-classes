@@ -1,3 +1,3 @@
 def OrderUnitSet():
-    '''    public OrderUnitSet(final MboServerInterface ms)
+    '''public OrderUnitSet(final MboServerInterface ms)
     '''

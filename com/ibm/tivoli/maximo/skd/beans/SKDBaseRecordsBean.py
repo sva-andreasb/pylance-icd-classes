@@ -1,3 +1,3 @@
 def getString():
-    '''    public synchronized String getString(final int row, final String attribute)
+    '''public synchronized String getString(final int row, final String attribute)
     '''

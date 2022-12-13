@@ -1,48 +1,48 @@
 def Doclinks():
-    '''    public Doclinks(final MboSet ms)
+    '''public Doclinks(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def modify():
-    '''    public void modify()
+    '''public void modify()
     '''
 def getValidateOrder():
-    '''    public String[] getValidateOrder()
+    '''public String[] getValidateOrder()
     '''
 def canDelete():
-    '''    public void canDelete()
+    '''public void canDelete()
     '''
 def canDeleteMRLineDoclinks():
-    '''    public void canDeleteMRLineDoclinks()
+    '''public void canDeleteMRLineDoclinks()
     '''
 def copyFromDocinfo():
-    '''    public void copyFromDocinfo(final MboRemote docinfo)
+    '''public void copyFromDocinfo(final MboRemote docinfo)
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def appValidateAddInfo():
-    '''    public void appValidateAddInfo()
+    '''public void appValidateAddInfo()
     '''
 def copy():
-    '''    public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
+    '''public MboRemote copy(final MboSetRemote mboset, final long mboAddFlags)
     '''
 def copyFake():
-    '''    public MboRemote copyFake(final MboSetRemote mboset)
+    '''public MboRemote copyFake(final MboSetRemote mboset)
     '''
 def copySelf():
-    '''    public MboRemote copySelf(final MboSetRemote mboset, final long mboAddFlags)
+    '''public MboRemote copySelf(final MboSetRemote mboset, final long mboAddFlags)
     '''
 def getList():
-    '''    public MboSetRemote getList(final String attribute)
+    '''public MboSetRemote getList(final String attribute)
     '''
 def delete():
-    '''    public void delete(final long accessModifier)
+    '''public void delete(final long accessModifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''

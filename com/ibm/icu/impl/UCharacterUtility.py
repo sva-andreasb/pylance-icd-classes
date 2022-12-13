@@ -1,3 +1,3 @@
 def isNonCharacter():
-    '''    public static boolean isNonCharacter(final int ch)
+    '''public static boolean isNonCharacter(final int ch)
     '''

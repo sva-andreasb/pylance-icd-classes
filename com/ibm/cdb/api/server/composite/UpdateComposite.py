@@ -1,9 +1,9 @@
 def main():
-    '''    public static void main(final String[] args)
+    '''public static void main(final String[] args)
     '''
 def UpdateComposite():
-    '''    public UpdateComposite(final TopologyManager tm)
+    '''public UpdateComposite(final TopologyManager tm)
     '''
 def update():
-    '''    public Guid update(final Composite composite)
+    '''public Guid update(final Composite composite)
     '''

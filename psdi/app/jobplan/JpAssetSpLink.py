@@ -1,42 +1,42 @@
 def JpAssetSpLink():
-    '''    public JpAssetSpLink(final MboSet ms)
+    '''public JpAssetSpLink(final MboSet ms)
     '''
 def init():
-    '''    public void init()
+    '''public void init()
     '''
 def initFieldFlagsOnMbo():
-    '''    public void initFieldFlagsOnMbo(final String attrName)
+    '''public void initFieldFlagsOnMbo(final String attrName)
     '''
 def add():
-    '''    public void add()
+    '''public void add()
     '''
 def propagateKeyValue():
-    '''    public void propagateKeyValue(final String keyName, final String keyValue)
+    '''public void propagateKeyValue(final String keyName, final String keyValue)
     '''
 def validateItemAssetLoc():
-    '''    public void validateItemAssetLoc(boolean newItem, boolean newAssetnum, boolean newLocation)
+    '''public void validateItemAssetLoc(boolean newItem, boolean newAssetnum, boolean newLocation)
     '''
 def appValidate():
-    '''    public void appValidate()
+    '''public void appValidate()
     '''
 def getRelevantJPAssetRecords():
-    '''    public MboSetRemote getRelevantJPAssetRecords(final String itemnum, final String itemsetid, final String assetnum, final String location, final String siteid)
+    '''public MboSetRemote getRelevantJPAssetRecords(final String itemnum, final String itemsetid, final String assetnum, final String location, final String siteid)
     '''
 def validWorkAsset():
-    '''    public void validWorkAsset(final MboSetRemote dbJpAssetSet, final String item, final String itemsetid, final String asset, final String loc)
+    '''public void validWorkAsset(final MboSetRemote dbJpAssetSet, final String item, final String itemsetid, final String asset, final String loc)
     '''
 def validWoreqWhenPruch():
-    '''    public void validWoreqWhenPruch(final String item, final String itemsetid)
+    '''public void validWoreqWhenPruch(final String item, final String itemsetid)
     '''
 def setReadOnlyFields():
-    '''    public void setReadOnlyFields(final String status)
+    '''public void setReadOnlyFields(final String status)
     '''
 def delete():
-    '''    public void delete(final long accessmodifier)
+    '''public void delete(final long accessmodifier)
     '''
 def undelete():
-    '''    public void undelete()
+    '''public void undelete()
     '''
 def isCalibrationInstalled():
-    '''    public boolean isCalibrationInstalled()
+    '''public boolean isCalibrationInstalled()
     '''

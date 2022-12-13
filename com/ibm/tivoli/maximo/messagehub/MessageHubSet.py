@@ -1,6 +1,6 @@
 def MessageHubSet():
-    '''    public MessageHubSet(final MboServerInterface ms)
+    '''public MessageHubSet(final MboServerInterface ms)
     '''
 def commit():
-    '''    public void commit()
+    '''public void commit()
     '''

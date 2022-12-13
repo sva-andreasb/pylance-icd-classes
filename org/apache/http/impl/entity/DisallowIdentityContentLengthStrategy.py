@@ -1,6 +1,6 @@
 def DisallowIdentityContentLengthStrategy():
-    '''    public DisallowIdentityContentLengthStrategy(final ContentLengthStrategy contentLengthStrategy)
+    '''public DisallowIdentityContentLengthStrategy(final ContentLengthStrategy contentLengthStrategy)
     '''
 def determineLength():
-    '''    public long determineLength(final HttpMessage message)
+    '''public long determineLength(final HttpMessage message)
     '''
